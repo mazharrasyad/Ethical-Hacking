@@ -1,0 +1,10 @@
+<text editor> /etc/apt/sources.list : Melihat isi file repository
+apt-get update : Memeriksa aplikasi versi baru
+apt-get upgrade : Memperbaharui aplikasi menjadi versi baru
+apt-get dist-upgrade : Memperbaharui aplikasi pada distributionnya
+apt-get install <application> : Menginstall aplikasi dengan paket pendukungnya
+apt-get remove <application> : Menghapus aplikasi tanpa paket pendukungnya
+apt-get remove --purge <application> : Menghapus aplikasi dengan paket pendukungnya
+apt-cache search <application> : Mencari paket pendukung aplikasi
+apt-cache show <application> : Menampilkan deskripsi aplikasi
+apt-cache showpkg <application> : Menampilkan deskripsi aplikasi beserta hubungan dengan paket lain

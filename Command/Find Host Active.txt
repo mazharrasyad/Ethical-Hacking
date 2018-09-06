@@ -1,0 +1,5 @@
+0trace.sh : Mencari Jalur Yang Berhubungan Dengan Target
+atk6-alive6 : Mencari Host Yang Menggunakan IPv6
+arping : Mengirimkan Paket ARP (Address Resolution Protocol) Pada Host
+netdiscover : Mencari Alamat Yang Digunakan Dalam Jaringan Lokal
+hping3 : Mengecek Keberadaan Host

@@ -1,0 +1,4 @@
+sslscan : Mendeteksi Layanan SSL (Secure Socket Layer)
+httprint : Mengetahui Jenis Layanan
+nbtscan : Mencari Host Aktif Dengan Protokol Netbios
+miranda : Mengenumerasi Modem Dengan UPnP (Universal Plug And Play)

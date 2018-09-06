@@ -1,0 +1,19 @@
+ifconfig (Interface Configuration) : Informasi Konfigurasi Interface Kartu Jaringan (Network Card)
+ifconfig <interface> : Hanya Melihat Interface Yang Dipilih
+ifconfig <interface> <addr> : Mengubah Alamat IPv4 Sesuai Interface Yang Dipilih
+ifconfig netmask <addr> : Mengubah Alamat Subnet Mask 
+ifconfig <interface> <addr/bit> : Mengubah Alamat IPv4 Dan Alamat Subnet Mask Sesuai Interface
+ifconfig <interface> <addr/bit> up : Mengubah Alamat IPv4 Dan Alamat Subnet Mask Sesuai Interface
+iwconfig (Interface Wireless Configuration) : Informasi Access Point Yang Terkoneksi
+route : Menampilkan Tabel IP Address Default Gateway 
+route add default gw <addr> : Menambahkan Alamat Di Default Gateway
+echo nameserver <addr> > /etc/resolv.conf : Menambahkan Alamat DNS Server
+<text-editor> /etc/resolv.conf : Menampilkan Isi File DNS Server
+netmask -h : Menampilkan bantuan perintah netmask
+netmask <addr> : Menampilkan alamat yang tersedia dengan bentuk bit
+netmask <addr> -r : Menampilkan alamat yang tersedia serta panjang alamatnya
+netmask <addr/bit> -r : Menampilkan alamat serta panjangnya dan menampilkan host yang tersedia
+netmask <addr> -b : Menampilkan alamat yang tersedia dalam bentuk biner
+<text-editor> /etc/network/interfaces : File Konfigurasi IP, Jika Ingin Mengubah IP Static Menjadi Permanen, Maka Ubah dhcp Menjadi static Dan Tuliskan Informasi Detail IP
+update-rc networking defaults : Mengubah IP Static Menjadi Permanen Setelah Disetting
+wicd-client : Mengkonfigurasi jaringan wifi

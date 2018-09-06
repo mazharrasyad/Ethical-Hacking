@@ -1,0 +1,5 @@
+airbase-ng --essid <"ESSID"> -c <count> <interface> : Membuat AP Baru Dengan Channel Yang Dipilih
+ifconfig at0 up : Mengaktifkan Interface at0 Setelah Membuat AP
+ifconfig at0 <addr/bit> : Memberikan IP Address Untuk at0
+route add -net <add-subnet-mask> netmask <addr-netmask> gw <addr-routers> : Routing Koneksi
+iptables : Konfigurasi NAT

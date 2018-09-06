@@ -1,0 +1,19 @@
+<< Buku BackTrack 100% Attack >>
+
+http://hackersforcharity.org/ghdb/ : Informasi Database Google Hacking
+https://centralops.net/ : Informasi Domain
+https://archive.org/ : Informasi Perubahan - Perubahan Domain
+https://www.netcraft.com/ : Informasi Hosting Domain
+https://www.shodan.io/ : Informasi Banner Domain
+http://www.simpledns.com/lookup-dg.aspx : Informasi Mencari Rangkaian DNS Server
+https://docs.paterva.com/en/user-guide/ : Informasi Penggunaan Tools maltego
+https://nmap.org/book/man.html : Informasi Penggunaan nmap
+http://www.upnp-hacks.org/devices.html : Informasi Kelemahan UPnP Dan Peralatan Yang Bermasalah
+
+<< Buku BackTrack 100% Attack >>
+
+<< Buku KaliLinux 200% Attack >>
+
+http://standards-oui.ieee.org/oui/oui.txt : Informasi Kartu Jaringan Dari Kode Pabrik
+
+<< Buku KaliLinux 200% Attack >>

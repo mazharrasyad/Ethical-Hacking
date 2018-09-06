@@ -1,0 +1,11 @@
+nslookup : Informasi Record DNS
+atk6-dnsdict6 : Informasi IPv6 Domain
+dnsenum : Informasi Detail Domain
+dnsmap : Informasi Daftar Domain
+dnsrecon : Informasi DNS Berdasarkan Domain
+dnstracer : Informasi Mencari Rangkaian DNS Server
+dnswalk : Informasi Mencari Kesalahan Konfigurasi DNS Server
+fierce : Informasi Mencari Alamat IP Pada Subdomain
+lbd : Informasi Mengecek Keberadaan Load Balancing
+maltego : Informasi Dari Sumber Open Source
+dmitry : Informasi Host

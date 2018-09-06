@@ -1,0 +1,3 @@
+nmap : Menganalisa Informasi Sistem Operasi
+p0f : Mengamati Paket Komunikasi Secara Passive
+xprobe2 : Mengamati Paket Komunikasi Secara Active

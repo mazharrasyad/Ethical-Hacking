@@ -1,0 +1,3 @@
+ssh (Shell Secure) : Protokol Jaringan Pertukaran Data Melalui Saluran Aman
+ssh-keygen : Menggenerate Private Key Dan Public Key
+ssh-keygen -t <type> : Menggenerate Private Key Dan Public Key (Type = rsa,dsa)

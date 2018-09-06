@@ -1,0 +1,15 @@
+iwconfig <interface> down : Mematikan Interface
+iw reg set <country-code> : Mengganti Kode Negara Berdasarkan ISO 3166
+iwconfig <interface> txpower <dBm> : Mengganti TX Power Berdasarkan dBm
+iwconfig <interface> essid <ESSID> channel <count> : Informasi Asosiasi AP
+macchanger -m <mac-addr> <interface> : Mengubah MAC Address
+airmon-ng : Membuat Logical Interface Untuk Memonitoring Jaringan Diudara
+airmon-ng start <interface> : Memulai Mode Monitor Pada Sebuah Interface
+airodump-ng <interface> : Memonitor Beacon - Beacon Diudara
+airodump-ng -c <channel> <interface> : Memonitor Beacon - Beacon Diudara Sesuai Channel
+airodump-ng -w <name> <interface> : Menyimpan Beacon - Beacon Dalam File Berekstensi .cap
+aireplay-ng --deauth <count> -a <BSSID> <interface> : Melakukan Deauthentication Attack
+aircrack-ng <file.cap> -w <wordlist> : Cracking Menggunakan Wordlist Pada File Beacon
+
+
+

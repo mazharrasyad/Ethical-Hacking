@@ -1,0 +1,23 @@
+Link Website Tools
+
+OS Kali Linux = https://www.kali.org/downloads/
+
+HASH = http://www.pc-tools.net/win32/md5sums/
+
+ISO Manager :
+- http://www.magiciso.com/
+- http://isorecorder.alexfeinman.com/
+
+Flashdisk Boot = http://unetbootin.sourceforge.net/
+
+Netmask = https://www.ultratools.com/
+
+Virtual Box = https://www.virtualbox.org/
+
+Metasploitable 2  = https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+
+Nessus = https://www.tenable.com/downloads/nessus/
+Activation Nessus = 1E52-4612-6458-8154-84AB
+
+Metasploit = https://www.rapid7.com/products/metasploit/download/community/thank-you/
+Activation Metasploit Community = SN4S-M02G-QVVW-1T1N

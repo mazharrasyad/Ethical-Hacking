@@ -1,0 +1,10 @@
+dhclient : Memberikan Alamat IP Secara Otomatis
+apache2ctl : Memberikan Layanan Web Server Lokal
+ftp : Layanan Transfer File Dengan Login
+tftpd : Layanan Transfer File Tanpa Login
+vncserver : Remote Desktop Sharing
+/etc/ssh/sshd_config : Layanan Konfigurasi SSH
+apache2ctl : Server Lokal (localhost)
+service nessusd start : Server Nessus (localhost:8834)
+service metasploit : Server Metasploit Community (localhost:3790)
+
