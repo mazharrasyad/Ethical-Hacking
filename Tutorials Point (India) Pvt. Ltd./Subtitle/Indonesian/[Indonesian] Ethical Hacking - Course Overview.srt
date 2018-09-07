@@ -1,0 +1,396 @@
+1
+00:00:00,089 --> 00:00:02,280
+ Halo semuanya, <font color="#E5E5E5">selamat datang di kursus baru </font><font color="#CCCCCC">kami </font>
+
+2
+00:00:02,280 --> 00:00:04,259
+ <font color="#E5E5E5">itu adalah </font><font color="#CCCCCC">peretasan </font><font color="#E5E5E5">etis </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">cyber </font>
+
+3
+00:00:04,259 --> 00:00:07,200
+ keamanan <font color="#E5E5E5">di titik tutorial jadi dalam hal ini </font>
+
+4
+00:00:07,200 --> 00:00:09,269
+ Tentu saja kita akan <font color="#CCCCCC">belajar bahwa </font><font color="#E5E5E5">apa yang etis </font>
+
+5
+00:00:09,269 --> 00:00:10,800
+ meretas <font color="#E5E5E5">apa langkah yang berbeda </font>
+
+6
+00:00:10,800 --> 00:00:12,540
+ <font color="#E5E5E5">mana yang harus </font><font color="#CCCCCC">dilakukan </font><font color="#E5E5E5">untuk </font>
+
+7
+00:00:12,540 --> 00:00:14,519
+ hack sukses <font color="#E5E5E5">dan kami juga akan bicara </font>
+
+8
+00:00:14,519 --> 00:00:16,320
+ tentang beberapa <font color="#E5E5E5">istilah </font><font color="#CCCCCC">cybersecurity </font><font color="#E5E5E5">dan </font>
+
+9
+00:00:16,320 --> 00:00:18,690
+ <font color="#E5E5E5">teknik </font><font color="#CCCCCC">jadi di sini Anda dapat melihat </font>
+
+10
+00:00:18,690 --> 00:00:21,029
+ ikhtisar kursus jadi kami akan <font color="#E5E5E5">pertama-tama </font>
+
+11
+00:00:21,029 --> 00:00:23,039
+ membicarakan <font color="#CCCCCC">tentang </font><font color="#E5E5E5">apa itu hacking dan </font>
+
+12
+00:00:23,039 --> 00:00:24,750
+ perbedaan antara peretasan dan etika 
+
+13
+00:00:24,750 --> 00:00:26,670
+ peretasan <font color="#E5E5E5">maka kita berbicara </font><font color="#CCCCCC">tentang </font><font color="#E5E5E5">beberapa </font>
+
+14
+00:00:26,670 --> 00:00:28,439
+ <font color="#E5E5E5">teknik pengumpulan informasi </font><font color="#CCCCCC">dan </font>
+
+15
+00:00:28,439 --> 00:00:30,779
+ <font color="#CCCCCC">wajah-wajah yang merupakan langkah-langkah </font><font color="#E5E5E5">yang kita miliki </font>
+
+16
+00:00:30,779 --> 00:00:33,809
+ untuk <font color="#E5E5E5">melakukan peretasan etis, maka kita </font>
+
+17
+00:00:33,809 --> 00:00:35,820
+ <font color="#CCCCCC">juga akan berbicara tentang menganalisis </font><font color="#E5E5E5">email </font>
+
+18
+00:00:35,820 --> 00:00:37,739
+ header <font color="#E5E5E5">yang mengapa menganalisis header email </font>
+
+19
+00:00:37,739 --> 00:00:39,510
+ adalah <font color="#CCCCCC">header email penting dan hebat </font>
+
+20
+00:00:39,510 --> 00:00:42,239
+ <font color="#E5E5E5">kemudian kita akan berbicara tentang Kali Linux dan caranya </font>
+
+21
+00:00:42,239 --> 00:00:44,340
+ kita dapat menginstal Kali Linux <font color="#E5E5E5">dengan </font><font color="#CCCCCC">menggunakan </font>
+
+22
+00:00:44,340 --> 00:00:46,710
+ virtualisasi <font color="#CCCCCC">jadi setelah kami menyelesaikan ini </font>
+
+23
+00:00:46,710 --> 00:00:48,629
+ bagian dasar <font color="#E5E5E5">maka kita melompat ke beberapa </font>
+
+24
+00:00:48,629 --> 00:00:50,340
+ <font color="#CCCCCC">topik keamanan informasi di </font><font color="#E5E5E5">mana </font>
+
+25
+00:00:50,340 --> 00:00:53,010
+ kita akan <font color="#E5E5E5">berbicara </font><font color="#CCCCCC">tentang </font><font color="#E5E5E5">enkripsi kriptografi </font>
+
+26
+00:00:53,010 --> 00:00:54,750
+ algoritma dan steganografi 
+
+27
+00:00:54,750 --> 00:00:56,430
+ jadi ini terus enkripsi ography 
+
+28
+00:00:56,430 --> 00:00:58,140
+ algoritma dan <font color="#CCCCCC">Stegner </font><font color="#E5E5E5">gratis adalah </font>
+
+29
+00:00:58,140 --> 00:01:00,300
+ sebenarnya tiga istilah yang <font color="#E5E5E5">menjamin a </font>
+
+30
+00:01:00,300 --> 00:01:03,420
+ perlindungan data <font color="#CCCCCC">atau keamanan data </font><font color="#E5E5E5">kemudian </font>
+
+31
+00:01:03,420 --> 00:01:05,640
+ kita akan berbicara tentang <font color="#E5E5E5">beberapa pemrograman </font><font color="#CCCCCC">batch </font>
+
+32
+00:01:05,640 --> 00:01:07,170
+ bagaimana kita bisa <font color="#CCCCCC">membuat </font><font color="#E5E5E5">beberapa file batch </font>
+
+33
+00:01:07,170 --> 00:01:09,390
+ dan bagaimana kita dapat mengubah <font color="#E5E5E5">pemrograman batch </font>
+
+34
+00:01:09,390 --> 00:01:11,549
+ ke beberapa pemrograman jahat <font color="#E5E5E5">itu </font>
+
+35
+00:01:11,549 --> 00:01:13,920
+ kita akan berbicara tentang peretasan sistem di mana 
+
+36
+00:01:13,920 --> 00:01:15,509
+ kita akan melihat bagaimana kita <font color="#CCCCCC">bisa </font><font color="#E5E5E5">memecahkannya </font>
+
+37
+00:01:15,509 --> 00:01:17,759
+ windows Kata <font color="#CCCCCC">sandi </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">password linux </font><font color="#E5E5E5">bagaimana </font>
+
+38
+00:01:17,759 --> 00:01:19,560
+ windows menyimpan kata sandi kami <font color="#CCCCCC">dan beberapa </font>
+
+39
+00:01:19,560 --> 00:01:21,750
+ kebijakan penyimpanan kata sandi sehingga di <font color="#CCCCCC">windows </font>
+
+40
+00:01:21,750 --> 00:01:23,610
+ peretasan juga akan belajar <font color="#CCCCCC">tentang hal itu </font>
+
+41
+00:01:23,610 --> 00:01:25,200
+ kami <font color="#CCCCCC">dapat mengamankan </font><font color="#E5E5E5">sistem kami dengan mengaktifkan </font>
+
+42
+00:01:25,200 --> 00:01:27,990
+ drive keamanan BitLocker <font color="#CCCCCC">kami juga akan berbicara </font>
+
+43
+00:01:27,990 --> 00:01:29,520
+ tentang <font color="#E5E5E5">beberapa </font><font color="#CCCCCC">istilah baru yang berbeda </font>
+
+44
+00:01:29,520 --> 00:01:31,890
+ mungkin baru <font color="#CCCCCC">untuk Anda </font><font color="#E5E5E5">dalam keamanan </font>
+
+45
+00:01:31,890 --> 00:01:34,020
+ maka <font color="#E5E5E5">kita akan melompat </font><font color="#CCCCCC">ke beberapa jaringan </font>
+
+46
+00:01:34,020 --> 00:01:35,970
+ konsep <font color="#E5E5E5">dalam </font><font color="#CCCCCC">keamanan </font><font color="#E5E5E5">jaringan </font><font color="#CCCCCC">di </font>
+
+47
+00:01:35,970 --> 00:01:37,380
+ yang <font color="#E5E5E5">kita </font><font color="#CCCCCC">akan berbicara tentang apa </font><font color="#E5E5E5">yang </font>
+
+48
+00:01:37,380 --> 00:01:40,320
+ proksi VPN <font color="#CCCCCC">dan bagaimana kami dapat menggunakannya </font>
+
+49
+00:01:40,320 --> 00:01:42,780
+ memesan <font color="#E5E5E5">untuk lompatan perubahan melalui IP dan di </font>
+
+50
+00:01:42,780 --> 00:01:45,119
+ Untuk <font color="#CCCCCC">mem - bypass filter, kita juga akan melakukannya </font>
+
+51
+00:01:45,119 --> 00:01:46,770
+ <font color="#E5E5E5">berbicara tentang beberapa alat </font><font color="#CCCCCC">keamanan jaringan </font>
+
+52
+00:01:46,770 --> 00:01:50,100
+ seperti <font color="#E5E5E5">Skype </font><font color="#CCCCCC">e H ping maka </font><font color="#E5E5E5">kita akan melihatnya </font>
+
+53
+00:01:50,100 --> 00:01:51,869
+ <font color="#CCCCCC">apa itu sistem pendeteksi intrusi apa </font>
+
+54
+00:01:51,869 --> 00:01:53,640
+ adalah sistem pencegahan intrusi <font color="#E5E5E5">dan kami akan </font>
+
+55
+00:01:53,640 --> 00:01:55,590
+ juga melakukan satu contoh ID <font color="#E5E5E5">dan IP a </font>
+
+56
+00:01:55,590 --> 00:01:57,450
+ sistem yang <font color="#E5E5E5">ingus </font>
+
+57
+00:01:57,450 --> 00:01:59,670
+ maka kita akan berbicara <font color="#CCCCCC">tentang </font><font color="#E5E5E5">beberapa mengendus </font>
+
+58
+00:01:59,670 --> 00:02:01,590
+ Serangan <font color="#E5E5E5">pada dasarnya serangan semacam ini </font>
+
+59
+00:02:01,590 --> 00:02:03,630
+ <font color="#CCCCCC">adalah </font><font color="#E5E5E5">serangan jaringan yang dilakukan </font>
+
+60
+00:02:03,630 --> 00:02:05,610
+ di <font color="#CCCCCC">jaringan seperti mengendus bagaimana kita bisa </font>
+
+61
+00:02:05,610 --> 00:02:07,469
+ mengendus jaringan baik <font color="#E5E5E5">itu bisa </font>
+
+62
+00:02:07,469 --> 00:02:09,179
+ sebelum Anda ingin mengendus jaringan a 
+
+63
+00:02:09,179 --> 00:02:10,739
+ <font color="#CCCCCC">jaringan nirkabel Anda ingin </font><font color="#E5E5E5">mengendus </font>
+
+64
+00:02:10,739 --> 00:02:13,410
+ <font color="#CCCCCC">Jaringan LAN maka kita akan berbicara </font><font color="#E5E5E5">tentang itu </font>
+
+65
+00:02:13,410 --> 00:02:13,950
+ bagaimana kita <font color="#E5E5E5">bisa </font>
+
+66
+00:02:13,950 --> 00:02:15,630
+ melakukan em <font color="#CCCCCC">Itanium menyerang itu </font>
+
+67
+00:02:15,630 --> 00:02:17,239
+ serangan man-in-the-middle dengan menggunakan <font color="#CCCCCC">kami </font>
+
+68
+00:02:17,239 --> 00:02:19,620
+ <font color="#E5E5E5">teknik keracunan maka kita akan melihat beberapa </font>
+
+69
+00:02:19,620 --> 00:02:22,050
+ Teknik peracunan DNS dan kemudian <font color="#E5E5E5">kita akan </font>
+
+70
+00:02:22,050 --> 00:02:23,730
+ membicarakan <font color="#E5E5E5">tentang bagaimana kita </font><font color="#CCCCCC">bisa memecahkan saya </font>
+
+71
+00:02:23,730 --> 00:02:26,040
+ <font color="#CCCCCC">Triple E </font><font color="#E5E5E5">protokol</font><font color="#CCCCCC"> dua 2.11 yang </font>
+
+72
+00:02:26,040 --> 00:02:27,780
+ standar nirkabel di mana Anda akan melihat 
+
+73
+00:02:27,780 --> 00:02:30,510
+ itu bagaimana <font color="#CCCCCC">protokol keamanan nirkabel </font>
+
+74
+00:02:30,510 --> 00:02:32,130
+ bekerja dan bagaimana kita <font color="#E5E5E5">dapat </font><font color="#CCCCCC">terhubung berbeda </font>
+
+75
+00:02:32,130 --> 00:02:33,989
+ <font color="#E5E5E5">protokol keamanan nirkabel </font><font color="#CCCCCC">di </font>
+
+76
+00:02:33,989 --> 00:02:35,610
+ wireless hacking <font color="#E5E5E5">maka kita akan berbicara </font><font color="#CCCCCC">tentang </font>
+
+77
+00:02:35,610 --> 00:02:37,470
+ bahwa apa yang dilakukan serangan DDoS 
+
+78
+00:02:37,470 --> 00:02:38,970
+ apa <font color="#CCCCCC">perbedaan dos attack antara </font>
+
+79
+00:02:38,970 --> 00:02:40,440
+ <font color="#E5E5E5">pintu dan pintu </font><font color="#CCCCCC">dan apa saja </font>
+
+80
+00:02:40,440 --> 00:02:41,819
+ <font color="#CCCCCC">tindakan balasan yang bisa kita ambil </font>
+
+81
+00:02:41,819 --> 00:02:44,340
+ <font color="#CCCCCC">untuk melindungi server kami, </font><font color="#E5E5E5">maka kita akan </font>
+
+82
+00:02:44,340 --> 00:02:46,800
+ berbicara tentang beberapa <font color="#CCCCCC">malware seperti Trojans bagaimana </font>
+
+83
+00:02:46,800 --> 00:02:48,480
+ <font color="#CCCCCC">trojan berfungsi bagaimana malware bekerja bagaimana caranya </font>
+
+84
+00:02:48,480 --> 00:02:50,370
+ virus bekerja maka kami juga akan melakukan beberapa 
+
+85
+00:02:50,370 --> 00:02:52,440
+ <font color="#E5E5E5">analisis malware yang merupakan analisis statis </font>
+
+86
+00:02:52,440 --> 00:02:54,569
+ <font color="#E5E5E5">analisis malware dinamis untuk melihat </font>
+
+87
+00:02:54,569 --> 00:02:56,400
+ bahwa <font color="#CCCCCC">cara kerja malware sebenarnya di </font>
+
+88
+00:02:56,400 --> 00:02:58,530
+ latar belakang <font color="#E5E5E5">maka kita akan berbicara </font><font color="#CCCCCC">tentang beberapa </font>
+
+89
+00:02:58,530 --> 00:03:00,720
+ teknik pengujian penetrasi beberapa <font color="#E5E5E5">V </font>
+
+90
+00:03:00,720 --> 00:03:04,140
+ alat apt yang bisa kita gunakan <font color="#E5E5E5">untuk melakukannya </font>
+
+91
+00:03:04,140 --> 00:03:06,030
+ pengujian penetrasi jadi <font color="#CCCCCC">kita akan bicara </font>
+
+92
+00:03:06,030 --> 00:03:07,890
+ <font color="#E5E5E5">tentang toolkit rekayasa sosial yang </font>
+
+93
+00:03:07,890 --> 00:03:10,200
+ <font color="#E5E5E5">hadir </font><font color="#CCCCCC">di dalam Kali Linux </font><font color="#E5E5E5">dan kemudian di </font>
+
+94
+00:03:10,200 --> 00:03:12,120
+ yang terakhir tentu saja ini <font color="#CCCCCC">kita akan berbicara </font><font color="#E5E5E5">tentang </font>
+
+95
+00:03:12,120 --> 00:03:14,130
+ <font color="#CCCCCC">forensik digital </font><font color="#E5E5E5">apa itu digital </font>
+
+96
+00:03:14,130 --> 00:03:16,470
+ forensik <font color="#E5E5E5">dan bagaimana kita bisa menyelidiki </font>
+
+97
+00:03:16,470 --> 00:03:18,690
+ <font color="#CCCCCC">sistem tertentu jika ada </font><font color="#E5E5E5">kejahatan </font><font color="#CCCCCC">dunia maya </font>
+
+98
+00:03:18,690 --> 00:03:21,060
+ terjadi <font color="#E5E5E5">jadi terima kasih sudah menonton ini </font>
+
+99
+00:03:21,060 --> 00:00:00,000
+ Video <font color="#CCCCCC">harapan untuk </font><font color="#E5E5E5">melihat di yang </font><font color="#CCCCCC">berikutnya </font>
+

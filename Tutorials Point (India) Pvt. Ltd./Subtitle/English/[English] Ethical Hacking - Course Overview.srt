@@ -1,0 +1,396 @@
+1
+00:00:00,089 --> 00:00:02,280
+hello everyone<font color="#E5E5E5"> welcome</font><font color="#CCCCCC"> to our</font><font color="#E5E5E5"> new course</font>
+
+2
+00:00:02,280 --> 00:00:04,259
+<font color="#E5E5E5">that is ethical</font><font color="#CCCCCC"> hacking and</font><font color="#E5E5E5"> cyber</font>
+
+3
+00:00:04,259 --> 00:00:07,200
+security<font color="#E5E5E5"> at tutorials point so in this</font>
+
+4
+00:00:07,200 --> 00:00:09,269
+course we'll<font color="#CCCCCC"> learn that</font><font color="#E5E5E5"> what is ethical</font>
+
+5
+00:00:09,269 --> 00:00:10,800
+hacking<font color="#E5E5E5"> what are the different steps</font>
+
+6
+00:00:10,800 --> 00:00:12,540
+<font color="#E5E5E5">which one have</font><font color="#CCCCCC"> to perform</font><font color="#E5E5E5"> for a</font>
+
+7
+00:00:12,540 --> 00:00:14,519
+successful hack<font color="#E5E5E5"> and we'll also talk</font>
+
+8
+00:00:14,519 --> 00:00:16,320
+about some<font color="#CCCCCC"> cybersecurity</font><font color="#E5E5E5"> terms and</font>
+
+9
+00:00:16,320 --> 00:00:18,690
+<font color="#E5E5E5">techniques</font><font color="#CCCCCC"> so here you can see the</font>
+
+10
+00:00:18,690 --> 00:00:21,029
+course overview so we will<font color="#E5E5E5"> first of all</font>
+
+11
+00:00:21,029 --> 00:00:23,039
+talk<font color="#CCCCCC"> about</font><font color="#E5E5E5"> that what is hacking and the</font>
+
+12
+00:00:23,039 --> 00:00:24,750
+difference between hacking and ethical
+
+13
+00:00:24,750 --> 00:00:26,670
+hacking<font color="#E5E5E5"> then we talk</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> some</font>
+
+14
+00:00:26,670 --> 00:00:28,439
+information<font color="#E5E5E5"> gathering techniques</font><font color="#CCCCCC"> and the</font>
+
+15
+00:00:28,439 --> 00:00:30,779
+<font color="#CCCCCC">faces which are the steps</font><font color="#E5E5E5"> which one have</font>
+
+16
+00:00:30,779 --> 00:00:33,809
+to<font color="#E5E5E5"> perform an ethical hacking then we</font>
+
+17
+00:00:33,809 --> 00:00:35,820
+will<font color="#CCCCCC"> also talk about analyzing</font><font color="#E5E5E5"> email</font>
+
+18
+00:00:35,820 --> 00:00:37,739
+headers<font color="#E5E5E5"> that why analyzing email header</font>
+
+19
+00:00:37,739 --> 00:00:39,510
+is important and<font color="#CCCCCC"> virtus email headers</font>
+
+20
+00:00:39,510 --> 00:00:42,239
+<font color="#E5E5E5">then we'll talk about Kali Linux and how</font>
+
+21
+00:00:42,239 --> 00:00:44,340
+we can install Kali Linux<font color="#E5E5E5"> by</font><font color="#CCCCCC"> using</font>
+
+22
+00:00:44,340 --> 00:00:46,710
+virtualization<font color="#CCCCCC"> so once we complete this</font>
+
+23
+00:00:46,710 --> 00:00:48,629
+basic part<font color="#E5E5E5"> then we jump into some</font>
+
+24
+00:00:48,629 --> 00:00:50,340
+information<font color="#CCCCCC"> security topics in</font><font color="#E5E5E5"> which</font>
+
+25
+00:00:50,340 --> 00:00:53,010
+we'll<font color="#E5E5E5"> talk</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> cryptography encryption</font>
+
+26
+00:00:53,010 --> 00:00:54,750
+algorithm and steganography
+
+27
+00:00:54,750 --> 00:00:56,430
+so these kept ography encryption
+
+28
+00:00:56,430 --> 00:00:58,140
+algorithm and<font color="#CCCCCC"> Stegner</font><font color="#E5E5E5"> of free are</font>
+
+29
+00:00:58,140 --> 00:01:00,300
+actually three terms which<font color="#E5E5E5"> ensures a</font>
+
+30
+00:01:00,300 --> 00:01:03,420
+data protection<font color="#CCCCCC"> or a data security</font><font color="#E5E5E5"> then</font>
+
+31
+00:01:03,420 --> 00:01:05,640
+we'll talk about<font color="#E5E5E5"> some</font><font color="#CCCCCC"> batch</font><font color="#E5E5E5"> programming</font>
+
+32
+00:01:05,640 --> 00:01:07,170
+that how we can<font color="#CCCCCC"> make</font><font color="#E5E5E5"> some batch files</font>
+
+33
+00:01:07,170 --> 00:01:09,390
+and how we can turn<font color="#E5E5E5"> batch programming</font>
+
+34
+00:01:09,390 --> 00:01:11,549
+into some malicious programming<font color="#E5E5E5"> then</font>
+
+35
+00:01:11,549 --> 00:01:13,920
+we'll talk about system hacking in which
+
+36
+00:01:13,920 --> 00:01:15,509
+we will see that how we<font color="#CCCCCC"> can</font><font color="#E5E5E5"> crack</font>
+
+37
+00:01:15,509 --> 00:01:17,759
+windows Password<font color="#CCCCCC"> linux password</font><font color="#E5E5E5"> and how</font>
+
+38
+00:01:17,759 --> 00:01:19,560
+windows stores our password<font color="#CCCCCC"> and some</font>
+
+39
+00:01:19,560 --> 00:01:21,750
+password storage policy so in<font color="#CCCCCC"> windows</font>
+
+40
+00:01:21,750 --> 00:01:23,610
+hacking will also learn<font color="#CCCCCC"> about that how</font>
+
+41
+00:01:23,610 --> 00:01:25,200
+we<font color="#CCCCCC"> can secure</font><font color="#E5E5E5"> our system by enabling</font>
+
+42
+00:01:25,200 --> 00:01:27,990
+drive security BitLocker<font color="#CCCCCC"> we'll also talk</font>
+
+43
+00:01:27,990 --> 00:01:29,520
+about<font color="#E5E5E5"> some</font><font color="#CCCCCC"> different new terms which</font>
+
+44
+00:01:29,520 --> 00:01:31,890
+might be new<font color="#CCCCCC"> for you</font><font color="#E5E5E5"> in the security</font>
+
+45
+00:01:31,890 --> 00:01:34,020
+then<font color="#E5E5E5"> we will jump</font><font color="#CCCCCC"> into some networking</font>
+
+46
+00:01:34,020 --> 00:01:35,970
+concepts<font color="#E5E5E5"> in the network</font><font color="#CCCCCC"> security in</font>
+
+47
+00:01:35,970 --> 00:01:37,380
+which<font color="#E5E5E5"> we</font><font color="#CCCCCC"> will talk about what</font><font color="#E5E5E5"> are</font>
+
+48
+00:01:37,380 --> 00:01:40,320
+proxies VPNs<font color="#CCCCCC"> and how we can use them in</font>
+
+49
+00:01:40,320 --> 00:01:42,780
+order<font color="#E5E5E5"> to jump change over IP and in</font>
+
+50
+00:01:42,780 --> 00:01:45,119
+order to<font color="#CCCCCC"> bypass filters then we'll also</font>
+
+51
+00:01:45,119 --> 00:01:46,770
+<font color="#E5E5E5">talk about some</font><font color="#CCCCCC"> network security</font><font color="#E5E5E5"> tools</font>
+
+52
+00:01:46,770 --> 00:01:50,100
+like<font color="#E5E5E5"> Skype</font><font color="#CCCCCC"> e H ping then</font><font color="#E5E5E5"> we'll see that</font>
+
+53
+00:01:50,100 --> 00:01:51,869
+<font color="#CCCCCC">what is intrusion detection system what</font>
+
+54
+00:01:51,869 --> 00:01:53,640
+is intrusion prevention system<font color="#E5E5E5"> and we'll</font>
+
+55
+00:01:53,640 --> 00:01:55,590
+also do one example of IDs<font color="#E5E5E5"> and IP a</font>
+
+56
+00:01:55,590 --> 00:01:57,450
+system that is<font color="#E5E5E5"> snot</font>
+
+57
+00:01:57,450 --> 00:01:59,670
+then we'll talk<font color="#CCCCCC"> about</font><font color="#E5E5E5"> some sniffing</font>
+
+58
+00:01:59,670 --> 00:02:01,590
+attacks<font color="#E5E5E5"> basically these kind of attacks</font>
+
+59
+00:02:01,590 --> 00:02:03,630
+<font color="#CCCCCC">are</font><font color="#E5E5E5"> network attacks are which are done</font>
+
+60
+00:02:03,630 --> 00:02:05,610
+on<font color="#CCCCCC"> the network like sniffing how we can</font>
+
+61
+00:02:05,610 --> 00:02:07,469
+sniff the network either<font color="#E5E5E5"> it could be</font>
+
+62
+00:02:07,469 --> 00:02:09,179
+before you want to sniff the network a
+
+63
+00:02:09,179 --> 00:02:10,739
+wireless<font color="#CCCCCC"> network you want</font><font color="#E5E5E5"> to sniff an</font>
+
+64
+00:02:10,739 --> 00:02:13,410
+LAN<font color="#CCCCCC"> network then we'll talk</font><font color="#E5E5E5"> about that</font>
+
+65
+00:02:13,410 --> 00:02:13,950
+how we<font color="#E5E5E5"> can</font>
+
+66
+00:02:13,950 --> 00:02:15,630
+do em<font color="#CCCCCC"> Itanium attack that is</font>
+
+67
+00:02:15,630 --> 00:02:17,239
+man-in-the-middle attack by using<font color="#CCCCCC"> our</font>
+
+68
+00:02:17,239 --> 00:02:19,620
+<font color="#E5E5E5">poisoning technique then we'll see some</font>
+
+69
+00:02:19,620 --> 00:02:22,050
+DNS poisoning technique and then<font color="#E5E5E5"> we'll</font>
+
+70
+00:02:22,050 --> 00:02:23,730
+talk<font color="#E5E5E5"> about that how we</font><font color="#CCCCCC"> can crack I</font>
+
+71
+00:02:23,730 --> 00:02:26,040
+<font color="#CCCCCC">Triple E</font><font color="#E5E5E5"> a</font><font color="#CCCCCC"> two 2.11 protocol that is</font>
+
+72
+00:02:26,040 --> 00:02:27,780
+wireless standard in which you will see
+
+73
+00:02:27,780 --> 00:02:30,510
+that how wireless<font color="#CCCCCC"> security protocol</font>
+
+74
+00:02:30,510 --> 00:02:32,130
+works and how we<font color="#E5E5E5"> can</font><font color="#CCCCCC"> connect different</font>
+
+75
+00:02:32,130 --> 00:02:33,989
+<font color="#E5E5E5">wireless security protocols in</font><font color="#CCCCCC"> the</font>
+
+76
+00:02:33,989 --> 00:02:35,610
+wireless hacking<font color="#E5E5E5"> then we'll talk</font><font color="#CCCCCC"> about</font>
+
+77
+00:02:35,610 --> 00:02:37,470
+that what is do DDoS attack
+
+78
+00:02:37,470 --> 00:02:38,970
+what is<font color="#CCCCCC"> dos attack difference between</font>
+
+79
+00:02:38,970 --> 00:02:40,440
+<font color="#E5E5E5">doors and doors</font><font color="#CCCCCC"> and what are the</font>
+
+80
+00:02:40,440 --> 00:02:41,819
+<font color="#CCCCCC">countermeasures which we can take in</font>
+
+81
+00:02:41,819 --> 00:02:44,340
+<font color="#CCCCCC">order to protect our servers</font><font color="#E5E5E5"> then we'll</font>
+
+82
+00:02:44,340 --> 00:02:46,800
+talk about some<font color="#CCCCCC"> malware like Trojans how</font>
+
+83
+00:02:46,800 --> 00:02:48,480
+the<font color="#CCCCCC"> trojan works how malware works how</font>
+
+84
+00:02:48,480 --> 00:02:50,370
+viruses works then we'll also do some
+
+85
+00:02:50,370 --> 00:02:52,440
+malware<font color="#E5E5E5"> analysis that is static analysis</font>
+
+86
+00:02:52,440 --> 00:02:54,569
+<font color="#E5E5E5">dynamic malware analysis in order to see</font>
+
+87
+00:02:54,569 --> 00:02:56,400
+that<font color="#CCCCCC"> how malware works actually at the</font>
+
+88
+00:02:56,400 --> 00:02:58,530
+background<font color="#E5E5E5"> then we'll talk</font><font color="#CCCCCC"> about some</font>
+
+89
+00:02:58,530 --> 00:03:00,720
+penetration testing techniques some<font color="#E5E5E5"> V</font>
+
+90
+00:03:00,720 --> 00:03:04,140
+apt tools that we can use<font color="#E5E5E5"> in order to do</font>
+
+91
+00:03:04,140 --> 00:03:06,030
+penetration testing so then<font color="#CCCCCC"> we'll talk</font>
+
+92
+00:03:06,030 --> 00:03:07,890
+<font color="#E5E5E5">about social engineering toolkit which</font>
+
+93
+00:03:07,890 --> 00:03:10,200
+<font color="#E5E5E5">is present</font><font color="#CCCCCC"> inside Kali Linux</font><font color="#E5E5E5"> and then in</font>
+
+94
+00:03:10,200 --> 00:03:12,120
+the last of this course<font color="#CCCCCC"> we'll talk</font><font color="#E5E5E5"> about</font>
+
+95
+00:03:12,120 --> 00:03:14,130
+<font color="#CCCCCC">digital forensics that</font><font color="#E5E5E5"> what is digital</font>
+
+96
+00:03:14,130 --> 00:03:16,470
+forensics<font color="#E5E5E5"> and how we can investigate a</font>
+
+97
+00:03:16,470 --> 00:03:18,690
+<font color="#CCCCCC">particular system if any cyber</font><font color="#E5E5E5"> crime</font>
+
+98
+00:03:18,690 --> 00:03:21,060
+happens<font color="#E5E5E5"> so thanks for watching this</font>
+
+99
+00:03:21,060 --> 00:00:00,000
+video<font color="#CCCCCC"> hope to</font><font color="#E5E5E5"> see in the</font><font color="#CCCCCC"> next</font><font color="#E5E5E5"> one</font>
+

@@ -1,0 +1,1384 @@
+1
+00:00:00,089 --> 00:00:02,399
+ Halo semua orang <font color="#CCCCCC">di video ini kita akan bicara </font>
+
+2
+00:00:02,399 --> 00:00:05,730
+ tentang <font color="#CCCCCC">otentikasi WN </font><font color="#E5E5E5">atau LAN nirkabel </font>
+
+3
+00:00:05,730 --> 00:00:07,950
+ otentikasi <font color="#CCCCCC">jadi ada </font><font color="#E5E5E5">dua jenis </font>
+
+4
+00:00:07,950 --> 00:00:09,480
+ <font color="#CCCCCC">otentikasi </font><font color="#E5E5E5">yang didukung </font>
+
+5
+00:00:09,480 --> 00:00:11,519
+ <font color="#E5E5E5">oleh WLAN jadi yang pertama terbuka </font>
+
+6
+00:00:11,519 --> 00:00:13,410
+ otentikasi <font color="#CCCCCC">dan yang kedua adalah </font>
+
+7
+00:00:13,410 --> 00:00:15,420
+ otentikasi bersama begitu terbuka 
+
+8
+00:00:15,420 --> 00:00:17,310
+ otentikasi <font color="#CCCCCC">tidak perlu </font>
+
+9
+00:00:17,310 --> 00:00:19,590
+ menambahkan kata sandi <font color="#CCCCCC">kita bisa dengan mudah </font>
+
+10
+00:00:19,590 --> 00:00:20,760
+ hubungkan ke <font color="#CCCCCC">titik akses tanpa </font>
+
+11
+00:00:20,760 --> 00:00:23,189
+ <font color="#E5E5E5">menambahkan passphrase tetapi dalam kasus </font>
+
+12
+00:00:23,189 --> 00:00:25,199
+ <font color="#E5E5E5">fosfor otentikasi bersama </font><font color="#CCCCCC">adalah </font>
+
+13
+00:00:25,199 --> 00:00:27,539
+ diperlukan dan kata <font color="#E5E5E5">sandi itu harus </font>
+
+14
+00:00:27,539 --> 00:00:29,910
+ hadir <font color="#E5E5E5">baik di sisi klien </font><font color="#CCCCCC">maupun </font>
+
+15
+00:00:29,910 --> 00:00:32,369
+ pada <font color="#CCCCCC">akses untuk di dalam </font><font color="#E5E5E5">jadi ini adalah dua </font>
+
+16
+00:00:32,369 --> 00:00:33,899
+ <font color="#CCCCCC">Okasi mereka yang </font><font color="#E5E5E5">didukung </font>
+
+17
+00:00:33,899 --> 00:00:36,239
+ oleh WLAN sekarang mari kita bicara <font color="#CCCCCC">tentang </font><font color="#E5E5E5">itu apa </font>
+
+18
+00:00:36,239 --> 00:00:38,100
+ <font color="#CCCCCC">jenis </font><font color="#E5E5E5">enkripsi didukung oleh </font>
+
+19
+00:00:38,100 --> 00:00:40,379
+ jaringan area lokal nirkabel <font color="#E5E5E5">jadi sekarang </font>
+
+20
+00:00:40,379 --> 00:00:43,320
+ jika <font color="#E5E5E5">saya berbicara </font><font color="#CCCCCC">tentang WLAN pribadi sehingga Anda bisa </font>
+
+21
+00:00:43,320 --> 00:00:45,180
+ lihat di sini <font color="#E5E5E5">bahwa </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">WLAN pribadi </font>
+
+22
+00:00:45,180 --> 00:00:47,070
+ otentikasi <font color="#CCCCCC">ada </font><font color="#E5E5E5">dua enkripsi </font>
+
+23
+00:00:47,070 --> 00:00:48,870
+ yang <font color="#E5E5E5">digunakan </font><font color="#CCCCCC">jadi yang pertama </font>
+
+24
+00:00:48,870 --> 00:00:52,680
+ WEP <font color="#E5E5E5">dan yang kedua adalah WPA dan wpa2 </font>
+
+25
+00:00:52,680 --> 00:00:55,680
+ <font color="#CCCCCC">jadi saya tidak berbicara tentang WLAN perusahaan </font>
+
+26
+00:00:55,680 --> 00:00:58,020
+ standar jadi saya <font color="#E5E5E5">hanya berbicara tentang </font><font color="#CCCCCC">WLAN </font>
+
+27
+00:00:58,020 --> 00:01:00,149
+ enkripsi <font color="#CCCCCC">jaringan pribadi </font><font color="#E5E5E5">sehingga Anda </font>
+
+28
+00:01:00,149 --> 00:01:02,280
+ bisa lihat di sini <font color="#E5E5E5">sekarang </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">akan berbicara tentang masing-masing </font>
+
+29
+00:01:02,280 --> 00:01:04,229
+ dari mereka sedikit lebih detail <font color="#E5E5E5">jadi pertama </font>
+
+30
+00:01:04,229 --> 00:01:06,360
+ semua kita akan berbicara tentang enkripsi WEP 
+
+31
+00:01:06,360 --> 00:01:08,400
+ WEP adalah singkatan <font color="#E5E5E5">dari </font><font color="#CCCCCC">Wired equivalent privacy </font>
+
+32
+00:01:08,400 --> 00:01:11,820
+ <font color="#E5E5E5">dan WEP ini tidak </font><font color="#CCCCCC">digunakan lagi karena </font>
+
+33
+00:01:11,820 --> 00:01:14,460
+ <font color="#E5E5E5">itu kurang aman serta yang paling banyak </font>
+
+34
+00:01:14,460 --> 00:01:16,650
+ rentan <font color="#CCCCCC">sehingga Anda bisa lihat di sini </font><font color="#E5E5E5">bahwa </font>
+
+35
+00:01:16,650 --> 00:01:19,200
+ <font color="#E5E5E5">Enkripsi WEP menggunakan algoritma rc4 </font><font color="#CCCCCC">dan </font>
+
+36
+00:01:19,200 --> 00:01:21,570
+ itu kurang aman dan <font color="#CCCCCC">itu akan menjadi </font>
+
+37
+00:01:21,570 --> 00:01:23,970
+ terdepresiasi <font color="#E5E5E5">sehingga Anda bisa lihat di sini </font><font color="#CCCCCC">itu </font>
+
+38
+00:01:23,970 --> 00:01:26,159
+ di sini adalah klien kami <font color="#CCCCCC">dan inilah kami </font>
+
+39
+00:01:26,159 --> 00:01:28,439
+ jalur akses <font color="#CCCCCC">jadi yang pertama dari semua </font>
+
+40
+00:01:28,439 --> 00:01:30,479
+ klien akan mengirim <font color="#E5E5E5">permintaan otentikasi </font>
+
+41
+00:01:30,479 --> 00:01:32,670
+ ke <font color="#E5E5E5">titik akses itu </font><font color="#CCCCCC">dan setelah akses kami </font>
+
+42
+00:01:32,670 --> 00:01:34,710
+ titik menerima <font color="#CCCCCC">permintaan otentikasi </font>
+
+43
+00:01:34,710 --> 00:01:36,689
+ dari <font color="#E5E5E5">klien</font><font color="#CCCCCC"> maka itu jalur akses </font>
+
+44
+00:01:36,689 --> 00:01:40,200
+ <font color="#E5E5E5">akan mengirim teks acak panjang 128 bit </font>
+
+45
+00:01:40,200 --> 00:01:42,540
+ sebagai tantangan untuk <font color="#CCCCCC">klien</font><font color="#E5E5E5"> sehingga Anda dapat </font>
+
+46
+00:01:42,540 --> 00:01:43,979
+ lihat di sini bahwa <font color="#CCCCCC">jalur akses kami di </font>
+
+47
+00:01:43,979 --> 00:01:48,060
+ mengirim 128 byte <font color="#E5E5E5">teks acak sebagai </font>
+
+48
+00:01:48,060 --> 00:01:49,950
+ menantang kepada <font color="#CCCCCC">klien</font><font color="#E5E5E5"> sehingga setelah kami </font>
+
+49
+00:01:49,950 --> 00:01:52,979
+ klien menerima bahwa <font color="#E5E5E5">teks panjang 128 byte </font>
+
+50
+00:01:52,979 --> 00:01:55,560
+ lalu apa yang <font color="#E5E5E5">klien kami lakukan dan klien </font>
+
+51
+00:01:55,560 --> 00:01:58,020
+ akan mengenkripsi <font color="#E5E5E5">tantangan itu atau mengenkripsi </font>
+
+52
+00:01:58,020 --> 00:02:00,600
+ <font color="#E5E5E5">teks itu dengan passphrase </font><font color="#CCCCCC">dan oleh </font>
+
+53
+00:02:00,600 --> 00:02:05,100
+ menggunakan algoritma rc4 <font color="#E5E5E5">dan sekali klien kami </font>
+
+54
+00:02:05,100 --> 00:02:07,829
+ menghasilkan aliran kunci rc4 panjang kami setelahnya 
+
+55
+00:02:07,829 --> 00:02:09,720
+ mengenkripsi <font color="#CCCCCC">yang menantang </font><font color="#E5E5E5">klien kami </font>
+
+56
+00:02:09,720 --> 00:02:12,030
+ akan mengirim tantangan itu atau <font color="#CCCCCC">kunci rc4 </font>
+
+57
+00:02:12,030 --> 00:02:14,390
+ streaming ke titik akses kembali sehingga Anda 
+
+58
+00:02:14,390 --> 00:02:16,850
+ dapat melihat di sini bahwa <font color="#E5E5E5">klien kami mengirim </font>
+
+59
+00:02:16,850 --> 00:02:19,250
+ <font color="#CCCCCC">kunci c4 kami menyengat ke </font><font color="#E5E5E5">titik </font><font color="#CCCCCC">akses </font><font color="#E5E5E5">dan </font>
+
+60
+00:02:19,250 --> 00:02:21,470
+ setelah <font color="#E5E5E5">aliran kunci diterima oleh </font>
+
+61
+00:02:21,470 --> 00:02:23,540
+ titik akses <font color="#CCCCCC">maka apa jalur akses akan </font>
+
+62
+00:02:23,540 --> 00:02:26,030
+ apakah jalur akses akan mendekripsi kunci 
+
+63
+00:02:26,030 --> 00:02:27,650
+ string dengan kunci yang ada 
+
+64
+00:02:27,650 --> 00:02:29,540
+ <font color="#CCCCCC">di dalam </font><font color="#E5E5E5">jalur akses dan kemudian </font>
+
+65
+00:02:29,540 --> 00:02:31,580
+ cocok <font color="#E5E5E5">dengan tantangan yang dikirimkannya </font>
+
+66
+00:02:31,580 --> 00:02:33,140
+ <font color="#CCCCCC">menuruni </font><font color="#E5E5E5">langkah </font><font color="#CCCCCC">kedua </font><font color="#E5E5E5">dan jika </font>
+
+67
+00:02:33,140 --> 00:02:34,760
+ tantangan <font color="#CCCCCC">dicocokkan kemudian </font>
+
+68
+00:02:34,760 --> 00:02:36,500
+ <font color="#E5E5E5">Kesempatan ke 10 berhasil dan </font>
+
+69
+00:02:36,500 --> 00:02:38,840
+ <font color="#CCCCCC">transfer data antara klien dan a </font>
+
+70
+00:02:38,840 --> 00:02:41,480
+ jalur akses dimulai <font color="#CCCCCC">jadi ini </font><font color="#E5E5E5">di </font>
+
+71
+00:02:41,480 --> 00:02:44,450
+ kasus WEP <font color="#E5E5E5">tetapi kita tahu bahwa sebagian besar </font>
+
+72
+00:02:44,450 --> 00:02:46,520
+ <font color="#CCCCCC">peneliti keamanan mulai mendirikan </font>
+
+73
+00:02:46,520 --> 00:02:48,140
+ kerentanan dan kelemahan di 
+
+74
+00:02:48,140 --> 00:02:51,110
+ <font color="#E5E5E5">enkripsi WEP lalu apa yang terjadi </font>
+
+75
+00:02:51,110 --> 00:02:52,850
+ adalah <font color="#CCCCCC">Komite I </font><font color="#E5E5E5">Triple E </font><font color="#CCCCCC">miliki </font>
+
+76
+00:02:52,850 --> 00:02:54,560
+ memperkenalkan <font color="#E5E5E5">jenis </font><font color="#CCCCCC">nirkabel lainnya </font>
+
+77
+00:02:54,560 --> 00:02:56,420
+ <font color="#CCCCCC">saklar </font><font color="#E5E5E5">enkripsi </font><font color="#CCCCCC">jauh lebih baik daripada </font>
+
+78
+00:02:56,420 --> 00:02:59,900
+ <font color="#E5E5E5">Standar enkripsi WEP dan data adalah </font><font color="#CCCCCC">WPA </font>
+
+79
+00:02:59,900 --> 00:03:03,050
+ <font color="#E5E5E5">jadi WPA adalah singkatan dari akses yang dilindungi Wi-Fi </font>
+
+80
+00:03:03,050 --> 00:03:06,769
+ <font color="#E5E5E5">dan WPA menggunakan tkip dan WPA ini berdasarkan </font>
+
+81
+00:03:06,769 --> 00:03:09,440
+ di WEP <font color="#E5E5E5">dan Anda bisa lihat di sini itu </font>
+
+82
+00:03:09,440 --> 00:03:11,780
+ perubahan perangkat keras tidak diperlukan <font color="#E5E5E5">demikian </font>
+
+83
+00:03:11,780 --> 00:03:13,850
+ yang <font color="#E5E5E5">terjadi saat itu adalah akses kami </font>
+
+84
+00:03:13,850 --> 00:03:17,150
+ titik digunakan WEP <font color="#E5E5E5">dan jika kita ingin akses kami </font>
+
+85
+00:03:17,150 --> 00:03:18,650
+ titik <font color="#E5E5E5">dan jika kita ingin </font><font color="#CCCCCC">mengkonfigurasi kami </font>
+
+86
+00:03:18,650 --> 00:03:20,690
+ jalur akses untuk menggunakan WPA 
+
+87
+00:03:20,690 --> 00:03:22,519
+ maka <font color="#E5E5E5">tidak perlu mengubah </font>
+
+88
+00:03:22,519 --> 00:03:24,709
+ <font color="#E5E5E5">hardware jadi ini adalah manfaat utama </font>
+
+89
+00:03:24,709 --> 00:03:27,620
+ WPA <font color="#E5E5E5">dan </font><font color="#CCCCCC">WPA juga tersedia </font><font color="#E5E5E5">untuk </font>
+
+90
+00:03:27,620 --> 00:03:31,370
+ pribadi maupun <font color="#E5E5E5">perusahaan tetapi kemudian </font>
+
+91
+00:03:31,370 --> 00:03:32,870
+ <font color="#CCCCCC">di komite I Triple E miliki </font>
+
+92
+00:03:32,870 --> 00:03:34,730
+ <font color="#CCCCCC">memperkenalkan enkripsi lain yang </font>
+
+93
+00:03:34,730 --> 00:03:38,410
+ kemajuan <font color="#E5E5E5">WEP WPA dan itu </font>
+
+94
+00:03:38,410 --> 00:03:41,989
+ <font color="#E5E5E5">wpa2 jadi wpa2 juga disebut Wi-Fi </font>
+
+95
+00:03:41,989 --> 00:03:44,360
+ <font color="#CCCCCC">akses yang dilindungi tetapi alih </font><font color="#E5E5E5">- </font><font color="#CCCCCC">alih </font><font color="#E5E5E5">menggunakan </font>
+
+96
+00:03:44,360 --> 00:03:48,799
+ <font color="#CCCCCC">puncak jika wpa2 menggunakan ccmp tetapi hal </font><font color="#E5E5E5">untuk </font>
+
+97
+00:03:48,799 --> 00:03:50,840
+ <font color="#CCCCCC">perhatikan bahwa untuk menggunakan WPA </font>
+
+98
+00:03:50,840 --> 00:03:53,209
+ <font color="#E5E5E5">perubahan perangkat keras diperlukan, jadi pada </font>
+
+99
+00:03:53,209 --> 00:03:54,980
+ waktu itu <font color="#E5E5E5">jika saya </font><font color="#CCCCCC">berbicara tentang </font><font color="#E5E5E5">waktu itu </font>
+
+100
+00:03:54,980 --> 00:03:57,860
+ ketika <font color="#CCCCCC">orang menggunakan WEP </font><font color="#E5E5E5">jadi jika kita mau </font>
+
+101
+00:03:57,860 --> 00:03:59,959
+ <font color="#E5E5E5">konfigurasikan titik akses nirkabel kami ke </font>
+
+102
+00:03:59,959 --> 00:04:02,239
+ gunakan WPA <font color="#CCCCCC">maka pada </font><font color="#E5E5E5">saat itu perangkat keras </font>
+
+103
+00:04:02,239 --> 00:04:04,519
+ perubahan <font color="#CCCCCC">diperlukan tetapi saat ini </font><font color="#E5E5E5">kami </font>
+
+104
+00:04:04,519 --> 00:04:06,709
+ <font color="#E5E5E5">perangkat keras sangat dilengkapi di sana </font>
+
+105
+00:04:06,709 --> 00:04:08,959
+ tidak <font color="#E5E5E5">diperlukan perubahan secara default </font>
+
+106
+00:04:08,959 --> 00:04:12,079
+ mendukung <font color="#E5E5E5">enkripsi WPA dan wpa2 jadi ini </font>
+
+107
+00:04:12,079 --> 00:04:14,269
+ enkripsi wpa2 juga tersedia untuk 
+
+108
+00:04:14,269 --> 00:04:17,209
+ pribadi <font color="#CCCCCC">serta penggunaan perusahaan </font><font color="#E5E5E5">sehingga </font>
+
+109
+00:04:17,209 --> 00:04:19,608
+ sekarang <font color="#CCCCCC">kita akan melihat bagaimana WPA dan WPA2 </font>
+
+110
+00:04:19,608 --> 00:04:22,490
+ <font color="#E5E5E5">enkripsi berfungsi jadi komunikasi atau </font>
+
+111
+00:04:22,490 --> 00:04:24,830
+ <font color="#CCCCCC">enkripsi WPA dan wpa2 adalah </font>
+
+112
+00:04:24,830 --> 00:04:27,050
+ dibagi <font color="#CCCCCC">menjadi dua langkah jadi pertama </font><font color="#E5E5E5">-tama </font>
+
+113
+00:04:27,050 --> 00:04:27,920
+ ini yang pertama 
+
+114
+00:04:27,920 --> 00:04:30,230
+ menghasilkan <font color="#E5E5E5">kunci bersama dan yang kedua </font>
+
+115
+00:04:30,230 --> 00:04:32,330
+ langkah adalah <font color="#CCCCCC">empat weig </font><font color="#E5E5E5">jabat tangan </font><font color="#CCCCCC">jadi pertama </font>
+
+116
+00:04:32,330 --> 00:04:33,590
+ semua <font color="#E5E5E5">saya akan berbicara tentang menghasilkan </font>
+
+117
+00:04:33,590 --> 00:04:35,420
+ <font color="#CCCCCC">kunci pra-berbagi jadi apa saja </font>
+
+118
+00:04:35,420 --> 00:04:36,290
+ kunci yang dibagikan sebelumnya 
+
+119
+00:04:36,290 --> 00:04:37,940
+ jadi kunci ppreciate adalah yang pertama 
+
+120
+00:04:37,940 --> 00:04:40,880
+ langkah-langkah <font color="#E5E5E5">enkripsi WPA dan wpa2 </font><font color="#CCCCCC">sehingga Anda </font>
+
+121
+00:04:40,880 --> 00:04:42,770
+ bisa lihat di sini bahwa di sini adalah lebih dari pengguna <font color="#E5E5E5">dan </font>
+
+122
+00:04:42,770 --> 00:04:45,080
+ setelah pengguna kami menambahkan kata sandi sehingga Anda 
+
+123
+00:04:45,080 --> 00:04:47,090
+ bisa lihat di sini kata sandi kami <font color="#E5E5E5">dan ini </font>
+
+124
+00:04:47,090 --> 00:04:49,250
+ passphrase <font color="#E5E5E5">kemudian melewati ini </font>
+
+125
+00:04:49,250 --> 00:04:52,700
+ <font color="#E5E5E5">fungsi </font><font color="#CCCCCC">itu </font><font color="#E5E5E5">adalah fungsi PB pbkdf2 itu </font>
+
+126
+00:04:52,700 --> 00:04:54,770
+ adalah derivasi kunci berbasis sandi 
+
+127
+00:04:54,770 --> 00:04:58,400
+ berfungsi <font color="#E5E5E5">dan setelah kata sandi kami </font>
+
+128
+00:04:58,400 --> 00:05:00,890
+ melewati <font color="#E5E5E5">fungsi ini maka kita dapat </font>
+
+129
+00:05:00,890 --> 00:05:04,220
+ <font color="#CCCCCC">kunci pra-berbagi </font><font color="#E5E5E5">256 bit jadi ini </font>
+
+130
+00:05:04,220 --> 00:05:07,310
+ <font color="#E5E5E5">di sisi klien </font><font color="#CCCCCC">tetapi juga </font><font color="#E5E5E5">pada </font>
+
+131
+00:05:07,310 --> 00:05:09,470
+ jalur akses sisi <font color="#E5E5E5">proses yang sama </font>
+
+132
+00:05:09,470 --> 00:05:11,690
+ tempat <font color="#CCCCCC">jadi apa yang terjadi adalah jalur akses </font>
+
+133
+00:05:11,690 --> 00:05:14,360
+ <font color="#E5E5E5">juga menghasilkan kunci yang sama yang </font><font color="#CCCCCC">dibagikan sebelumnya </font>
+
+134
+00:05:14,360 --> 00:05:16,850
+ <font color="#E5E5E5">kunci 256 bit dan jika dua kunci ini </font>
+
+135
+00:05:16,850 --> 00:05:19,010
+ yang <font color="#CCCCCC">ada di sisi klien dan juga </font>
+
+136
+00:05:19,010 --> 00:05:21,650
+ <font color="#E5E5E5">kecocokan sisi jalur akses kemudian berikutnya </font>
+
+137
+00:05:21,650 --> 00:05:23,570
+ Proses <font color="#E5E5E5">berlangsung</font><font color="#CCCCCC"> dan proses </font><font color="#E5E5E5">yang </font>
+
+138
+00:05:23,570 --> 00:05:26,120
+ <font color="#E5E5E5">mengenkripsi komunikasi dan itu </font>
+
+139
+00:05:26,120 --> 00:05:28,250
+ proses <font color="#E5E5E5">disebut sebagai bentuk jabat tangan </font>
+
+140
+00:05:28,250 --> 00:05:30,110
+ <font color="#E5E5E5">sekarang mari kita lihat bagaimana handshake hora bekerja </font>
+
+141
+00:05:30,110 --> 00:05:33,350
+ <font color="#E5E5E5">sehingga Anda dapat melihat di sini bahwa sekali kami </font>
+
+142
+00:05:33,350 --> 00:05:35,090
+ koneksi <font color="#E5E5E5">dibuat antara </font>
+
+143
+00:05:35,090 --> 00:05:37,760
+ klien <font color="#CCCCCC">dan jalur akses begitu dalam hal ini </font>
+
+144
+00:05:37,760 --> 00:05:40,310
+ koneksi pembentukan <font color="#E5E5E5">klien dan </font>
+
+145
+00:05:40,310 --> 00:05:43,580
+ jalur akses harus memiliki <font color="#CCCCCC">kunci yang dibagikan sebelumnya </font>
+
+146
+00:05:43,580 --> 00:05:46,730
+ kedua sisi <font color="#E5E5E5">jadi di sini Anda dapat melihat satu </font><font color="#CCCCCC">kali </font>
+
+147
+00:05:46,730 --> 00:05:48,440
+ <font color="#E5E5E5">koneksi dibuat </font><font color="#CCCCCC">akses kami </font>
+
+148
+00:05:48,440 --> 00:05:51,380
+ titik akan mengirim nilai acak panjang ke 
+
+149
+00:05:51,380 --> 00:05:54,380
+ klien <font color="#E5E5E5">jadi mengapa jalur akses kami adalah </font>
+
+150
+00:05:54,380 --> 00:05:56,030
+ mengirim nilai akhir yang lebih panjang ke klien 
+
+151
+00:05:56,030 --> 00:05:58,760
+ karena bukan <font color="#CCCCCC">kunci statis </font><font color="#E5E5E5">WPA </font>
+
+152
+00:05:58,760 --> 00:06:02,270
+ dan wpa2 <font color="#E5E5E5">wpa2 menggunakan kunci dinamis secara berurutan </font>
+
+153
+00:06:02,270 --> 00:06:04,640
+ <font color="#CCCCCC">untuk mengenkripsi sesi kami jadi setelah kami </font>
+
+154
+00:06:04,640 --> 00:06:08,360
+ jalur akses mengirim nilai acak panjang ke 
+
+155
+00:06:08,360 --> 00:06:10,760
+ klien <font color="#CCCCCC">dan nilai render lama ini </font>
+
+156
+00:06:10,760 --> 00:06:13,220
+ disebut sebagai <font color="#E5E5E5">kata benda </font><font color="#CCCCCC">yang merupakan jalur akses </font>
+
+157
+00:06:13,220 --> 00:06:15,950
+ <font color="#E5E5E5">kata benda dan setelah klien kami menerima </font>
+
+158
+00:06:15,950 --> 00:06:18,530
+ kata benda <font color="#CCCCCC">maka </font><font color="#E5E5E5">klien akan mengirimkan nomina </font>
+
+159
+00:06:18,530 --> 00:06:21,740
+ <font color="#E5E5E5">atau itu kata benda pemohon ditambah </font><font color="#CCCCCC">mi </font><font color="#E5E5E5">lihat </font>
+
+160
+00:06:21,740 --> 00:06:24,080
+ itu adalah <font color="#E5E5E5">pemeriksaan integritas pesan ke </font>
+
+161
+00:06:24,080 --> 00:06:26,330
+ <font color="#E5E5E5">akses untuk itu dan setelah titik akses kami </font>
+
+162
+00:06:26,330 --> 00:06:27,500
+ untuk menerima <font color="#E5E5E5">noms </font><font color="#CCCCCC">s </font>
+
+163
+00:06:27,500 --> 00:06:29,660
+ jalur akses apa yang akan melakukan akses 
+
+164
+00:06:29,660 --> 00:06:31,880
+ titik akan mengirim kunci <font color="#E5E5E5">dengan kunci </font>
+
+165
+00:06:31,880 --> 00:06:33,740
+ pesan instalasi atau <font color="#CCCCCC">paket dengan </font>
+
+166
+00:06:33,740 --> 00:06:35,840
+ instalasi kunci dan sekali kuncinya adalah 
+
+167
+00:06:35,840 --> 00:06:37,520
+ diinstal di sisi klien klien 
+
+168
+00:06:37,520 --> 00:06:40,340
+ akan mengirimkan <font color="#CCCCCC">pengakuan yang merupakan kunci </font>
+
+169
+00:06:40,340 --> 00:06:41,210
+ ekonomis 
+
+170
+00:06:41,210 --> 00:06:43,190
+ jadi begini cara kerja <font color="#CCCCCC">semua </font><font color="#E5E5E5">proses </font>
+
+171
+00:06:43,190 --> 00:06:45,530
+ <font color="#CCCCCC">WPA dan wpa2 yang pertama-tama </font>
+
+172
+00:06:45,530 --> 00:06:47,720
+ klien dan titik akses menghasilkan 
+
+173
+00:06:47,720 --> 00:06:49,460
+ menghargai kunci dan kemudian mereka akan melakukannya 
+
+174
+00:06:49,460 --> 00:06:51,550
+ <font color="#E5E5E5">membentuk jabat tangan untuk mengenkripsi </font>
+
+175
+00:06:51,550 --> 00:06:54,110
+ Sesi <font color="#CCCCCC">sekarang apa yang akan kita lakukan akan kita </font><font color="#E5E5E5">coba </font>
+
+176
+00:06:54,110 --> 00:06:55,700
+ <font color="#E5E5E5">mengendus jabat tangan di antara a </font>
+
+177
+00:06:55,700 --> 00:06:58,160
+ klien dan jalur akses <font color="#E5E5E5">maka kita akan lihat </font>
+
+178
+00:06:58,160 --> 00:07:00,050
+ <font color="#E5E5E5">bagaimana kita bisa </font><font color="#CCCCCC">menemukan kata sandi </font><font color="#E5E5E5">dari </font>
+
+179
+00:07:00,050 --> 00:07:01,760
+ <font color="#E5E5E5">jabat tangan empat arah itu </font>
+
+180
+00:07:01,760 --> 00:07:04,700
+ sekarang mari kita lihat bagaimana kita dapat memecahkan <font color="#E5E5E5">WPA dan </font>
+
+181
+00:07:04,700 --> 00:07:08,330
+ <font color="#E5E5E5">enkripsi nirkabel wpa2 jadi pertama-tama </font>
+
+182
+00:07:08,330 --> 00:07:10,700
+ kita harus memulai Kali Linux kami <font color="#E5E5E5">dan di sini </font>
+
+183
+00:07:10,700 --> 00:07:12,920
+ Anda dapat melihat bahwa <font color="#CCCCCC">kolega saya Linux </font>
+
+184
+00:07:12,920 --> 00:07:15,140
+ dan <font color="#CCCCCC">berjalan dan saya telah terpasang di saya </font>
+
+185
+00:07:15,140 --> 00:07:17,900
+ <font color="#E5E5E5">adaptor nirkabel jadi sekarang mari </font><font color="#CCCCCC">kita </font>
+
+186
+00:07:17,900 --> 00:07:21,620
+ verifikasi <font color="#E5E5E5">jadi di sini Anda dapat melihat apa yang saya miliki </font>
+
+187
+00:07:21,620 --> 00:07:23,630
+ sudah terpasang di <font color="#CCCCCC">adaptor nirkabel saya </font>
+
+188
+00:07:23,630 --> 00:07:25,640
+ dan saya telah mengonversi <font color="#E5E5E5">nirkabel </font><font color="#CCCCCC">saya </font>
+
+189
+00:07:25,640 --> 00:07:27,500
+ antarmuka ke mode monitor di sini Anda bisa 
+
+190
+00:07:27,500 --> 00:07:29,900
+ lihat wlan0 bulan jadi <font color="#E5E5E5">kami akan menggunakan ini </font>
+
+191
+00:07:29,900 --> 00:07:32,930
+ antarmuka <font color="#CCCCCC">untuk menangkap jabat tangan nirkabel </font>
+
+192
+00:07:32,930 --> 00:07:35,960
+ <font color="#E5E5E5">maka kita akan menerapkan </font><font color="#CCCCCC">serangan kamus </font>
+
+193
+00:07:35,960 --> 00:07:38,300
+ selama jabat tangan itu <font color="#CCCCCC">sudah kubilang </font>
+
+194
+00:07:38,300 --> 00:07:41,030
+ <font color="#CCCCCC">sebelumnya bahwa </font><font color="#E5E5E5">apa itu handshake WPA </font><font color="#CCCCCC">atau WP </font>
+
+195
+00:07:41,030 --> 00:07:42,560
+ jabat tangan tidak lain hanyalah a 
+
+196
+00:07:42,560 --> 00:07:45,160
+ komunikasi <font color="#E5E5E5">antara klien dan </font>
+
+197
+00:07:45,160 --> 00:07:48,770
+ titik akses <font color="#E5E5E5">pada saat klien dan </font>
+
+198
+00:07:48,770 --> 00:07:51,770
+ passphrase <font color="#E5E5E5">ke titik akses itu </font><font color="#CCCCCC">jadi apa </font>
+
+199
+00:07:51,770 --> 00:07:53,540
+ Saya akan <font color="#CCCCCC">lakukan di sini adalah pertama- </font><font color="#E5E5E5">tama kita </font>
+
+200
+00:07:53,540 --> 00:07:56,240
+ akan mengendus paket dengan menggunakan 
+
+201
+00:07:56,240 --> 00:07:59,720
+ airodump-ng mari kita lihat di <font color="#E5E5E5">saluran mana </font>
+
+202
+00:07:59,720 --> 00:08:03,370
+ <font color="#E5E5E5">jalur akses ini berada </font>
+
+203
+00:08:16,680 --> 00:08:19,470
+ jadi Anda bisa lihat di sini bahwa <font color="#CCCCCC">saya telah </font><font color="#E5E5E5">mengaturnya </font>
+
+204
+00:08:19,470 --> 00:08:22,259
+ <font color="#CCCCCC">up SSID untuk jalur akses saya disebut </font>
+
+205
+00:08:22,259 --> 00:08:24,509
+ sebagai demo peretasan nirkabel <font color="#E5E5E5">sehingga Anda dapat melihat </font>
+
+206
+00:08:24,509 --> 00:08:26,940
+ di sini dan jalur akses saya <font color="#E5E5E5">berada di </font>
+
+207
+00:08:26,940 --> 00:08:29,610
+ saluran 6 <font color="#CCCCCC">jadi mari kita lakukan satu hal </font>
+
+208
+00:08:29,610 --> 00:08:32,580
+ salin ini menjadi SSID <font color="#E5E5E5">dan kemudian kita akan mengendus </font>
+
+209
+00:08:32,580 --> 00:08:34,979
+ atau ambil <font color="#CCCCCC">paket khusus ini </font>
+
+210
+00:08:34,979 --> 00:08:40,039
+ menjadi SSID jadi sekarang mari <font color="#E5E5E5">tulis di sini </font>
+
+211
+00:08:40,039 --> 00:08:44,850
+ airodump-ng maka <font color="#E5E5E5">saya </font><font color="#CCCCCC">menentukan </font><font color="#E5E5E5">sini </font>
+
+212
+00:08:44,850 --> 00:08:48,690
+ <font color="#CCCCCC">saluran tertentu sehingga saluran adalah </font><font color="#E5E5E5">6 kemudian </font>
+
+213
+00:08:48,690 --> 00:08:53,790
+ mari <font color="#CCCCCC">kita tentukan di sini menjadi SSID </font><font color="#E5E5E5">dan kemudian </font>
+
+214
+00:08:53,790 --> 00:08:57,930
+ antarmuka yang wlan0 <font color="#CCCCCC">Mon dan kemudian </font>
+
+215
+00:08:57,930 --> 00:09:01,050
+ di sini kita <font color="#E5E5E5">akan menyimpan paket ini di tempat pembuangan sampah </font>
+
+216
+00:09:01,050 --> 00:09:04,020
+ file <font color="#E5E5E5">jadi dengan menambahkan di sini argumen ini </font><font color="#CCCCCC">hi </font>
+
+217
+00:09:04,020 --> 00:09:06,930
+ - <font color="#CCCCCC">w dan di </font><font color="#E5E5E5">sini kita akan menulis nama yang disebut </font>
+
+218
+00:09:06,930 --> 00:09:11,820
+ sebagai <font color="#CCCCCC">WPA jadi jika saya menekan enter di sini Anda </font><font color="#E5E5E5">akan </font>
+
+219
+00:09:11,820 --> 00:09:13,980
+ lihat <font color="#E5E5E5">bahwa kami memantau dan menangkap </font>
+
+220
+00:09:13,980 --> 00:09:16,410
+ paket-paket dari <font color="#E5E5E5">jalur akses ini disebut </font>
+
+221
+00:09:16,410 --> 00:09:17,910
+ sebagai <font color="#E5E5E5">peretasan nirkabel dan Anda dapat melihatnya </font>
+
+222
+00:09:17,910 --> 00:09:20,430
+ <font color="#E5E5E5">menjadi SSID jadi sekarang apa yang </font><font color="#CCCCCC">akan saya </font><font color="#E5E5E5">lakukan adalah </font>
+
+223
+00:09:20,430 --> 00:09:22,950
+ Aku akan <font color="#E5E5E5">mengaktifkan </font><font color="#CCCCCC">Wi-Fi pada ponsel saya </font>
+
+224
+00:09:22,950 --> 00:09:24,870
+ <font color="#E5E5E5">dan kemudian saya akan menghubungkan ponsel saya </font>
+
+225
+00:09:24,870 --> 00:09:27,120
+ dengan router nirkabel saya ini <font color="#E5E5E5">dan Anda </font>
+
+226
+00:09:27,120 --> 00:09:29,880
+ akan lihat di sini <font color="#CCCCCC">bahwa kita </font><font color="#E5E5E5">akan menangkap </font><font color="#CCCCCC">WP </font>
+
+227
+00:09:29,880 --> 00:09:33,990
+ <font color="#CCCCCC">berjabat tangan pada titik ini </font><font color="#E5E5E5">jadi biarkan aku berbalik </font>
+
+228
+00:09:33,990 --> 00:09:36,060
+ pada <font color="#CCCCCC">Wi-Fi </font><font color="#E5E5E5">telepon seluler </font><font color="#CCCCCC">saya </font><font color="#E5E5E5">dan biarkan saya </font>
+
+229
+00:09:36,060 --> 00:09:39,110
+ masukkan passphrase 
+
+230
+00:09:44,620 --> 00:09:46,870
+ jadi <font color="#E5E5E5">saya telah memasukkan kata sandi saya dan Anda </font>
+
+231
+00:09:46,870 --> 00:09:48,520
+ akan lihat di sini <font color="#CCCCCC">bahwa kami mendapat WPA </font>
+
+232
+00:09:48,520 --> 00:09:51,880
+ jabat tangan <font color="#CCCCCC">jadi ini adalah cara pertama </font>
+
+233
+00:09:51,880 --> 00:09:54,700
+ <font color="#E5E5E5">mengumpulkan jabat tangan WPA </font><font color="#CCCCCC">jadi biarkan </font><font color="#E5E5E5">aku saja </font>
+
+234
+00:09:54,700 --> 00:09:58,510
+ hentikan koleksi paket ini jadi yang utama 
+
+235
+00:09:58,510 --> 00:10:02,560
+ Hal yang kami <font color="#CCCCCC">inginkan adalah jabat tangan WPA jadi di sini </font>
+
+236
+00:10:02,560 --> 00:10:05,140
+ Anda <font color="#CCCCCC">telah memperhatikan bahwa saya telah menambahkan </font>
+
+237
+00:10:05,140 --> 00:10:07,000
+ kata sandi atau <font color="#E5E5E5">saya telah terhubung </font><font color="#CCCCCC">dengan saya </font>
+
+238
+00:10:07,000 --> 00:10:09,100
+ <font color="#E5E5E5">titik akses nirkabel sekarang apa lagi Anda </font>
+
+239
+00:10:09,100 --> 00:10:11,020
+ dapat lakukan adalah <font color="#E5E5E5">untuk mendapatkan ke </font><font color="#CCCCCC">bloopy </font>
+
+240
+00:10:11,020 --> 00:10:12,460
+ jabat tangan dari <font color="#E5E5E5">jalur akses tertentu </font>
+
+241
+00:10:12,460 --> 00:10:14,470
+ apa yang dapat Anda lakukan pertama Anda dapat <font color="#E5E5E5">mengirim </font>
+
+242
+00:10:14,470 --> 00:10:17,020
+ Kematian paket ke titik akses itu <font color="#E5E5E5">dan sebagai </font>
+
+243
+00:10:17,020 --> 00:10:20,470
+ segera setelah titik akses menerima bahwa <font color="#CCCCCC">Diaz </font>
+
+244
+00:10:20,470 --> 00:10:22,960
+ paket jalur akses akan mengirim lakukan 
+
+245
+00:10:22,960 --> 00:10:24,640
+ <font color="#CCCCCC">pesan kesempatan kesepuluh untuk semua kliennya </font>
+
+246
+00:10:24,640 --> 00:10:26,710
+ <font color="#E5E5E5">dan setelah klien menerima </font>
+
+247
+00:10:26,710 --> 00:10:28,690
+ pesan otentikasi <font color="#E5E5E5">kemudian klien </font>
+
+248
+00:10:28,690 --> 00:10:31,540
+ mengirim <font color="#E5E5E5">pesan otentikasi kembali ke </font>
+
+249
+00:10:31,540 --> 00:10:33,700
+ <font color="#CCCCCC">jalur akses dan </font><font color="#E5E5E5">pada titik itu kita </font>
+
+250
+00:10:33,700 --> 00:10:35,650
+ akan mendapatkan <font color="#E5E5E5">handshake WP kami, itu lain </font>
+
+251
+00:10:35,650 --> 00:10:38,140
+ metode <font color="#E5E5E5">mendapatkan jabat tangan WPA </font><font color="#CCCCCC">sekarang </font>
+
+252
+00:10:38,140 --> 00:10:41,140
+ mari kita periksa dump kami <font color="#E5E5E5">dan di sini Anda bisa </font>
+
+253
+00:10:41,140 --> 00:10:43,780
+ melihat bahwa kami <font color="#E5E5E5">mendapat satu file yang disebut sebagai WPA </font>
+
+254
+00:10:43,780 --> 00:10:46,360
+ <font color="#CCCCCC">oh satu titik ketuk dan file ini </font><font color="#E5E5E5">berisi </font>
+
+255
+00:10:46,360 --> 00:10:49,030
+ jabat tangan <font color="#CCCCCC">kita sekarang kita akan menggunakan file ini </font>
+
+256
+00:10:49,030 --> 00:10:53,470
+ <font color="#E5E5E5">untuk memecahkan </font><font color="#CCCCCC">kata sandi dengan baik </font>
+
+257
+00:10:53,470 --> 00:10:55,330
+ ada satu <font color="#E5E5E5">utilitas di </font><font color="#CCCCCC">linux kali </font>
+
+258
+00:10:55,330 --> 00:10:58,210
+ <font color="#E5E5E5">disebut sebagai aircrack-ng yang bisa kita gunakan </font>
+
+259
+00:10:58,210 --> 00:11:02,020
+ <font color="#CCCCCC">untuk memecahkan </font><font color="#E5E5E5">kata sandi nirkabel tetapi </font>
+
+260
+00:11:02,020 --> 00:11:05,260
+ sebelum pergi <font color="#E5E5E5">lebih jauh jadi biarkan aku membawamu </font>
+
+261
+00:11:05,260 --> 00:11:07,120
+ ke <font color="#E5E5E5">direktori di linux kali yang </font>
+
+262
+00:11:07,120 --> 00:11:09,580
+ mengandung banyak <font color="#E5E5E5">daftar kata yang kami bisa </font>
+
+263
+00:11:09,580 --> 00:11:12,100
+ gunakan <font color="#E5E5E5">untuk memecahkan nirkabel </font>
+
+264
+00:11:12,100 --> 00:11:15,280
+ kata sandi sehingga <font color="#E5E5E5">direktori daftar kata adalah </font>
+
+265
+00:11:15,280 --> 00:11:20,970
+ hadir di dalam <font color="#E5E5E5">pengguna kami </font><font color="#CCCCCC">geser </font><font color="#E5E5E5">kami dan </font>
+
+266
+00:11:20,970 --> 00:11:24,400
+ daftar kata sehingga Anda dapat melihat jalurnya <font color="#CCCCCC">itu </font>
+
+267
+00:11:24,400 --> 00:11:26,410
+ hadir di dalam kita bagian kita <font color="#E5E5E5">dan </font>
+
+268
+00:11:26,410 --> 00:11:28,210
+ nama direktori adalah daftar kata jadi ini 
+
+269
+00:11:28,210 --> 00:11:30,880
+ direktori <font color="#E5E5E5">berisi banyak folder </font><font color="#CCCCCC">dan </font>
+
+270
+00:11:30,880 --> 00:11:32,980
+ direktori dan <font color="#CCCCCC">file yang berisi </font>
+
+271
+00:11:32,980 --> 00:11:35,440
+ jutaan kata sandi <font color="#E5E5E5">sehingga Anda dapat melihat di sini </font>
+
+272
+00:11:35,440 --> 00:11:37,360
+ semua direktori bernama <font color="#CCCCCC">sebagai a kami </font>
+
+273
+00:11:37,360 --> 00:11:42,190
+ direktori <font color="#E5E5E5">peta DNS buster dan </font><font color="#CCCCCC">peta LST </font>
+
+274
+00:11:42,190 --> 00:11:45,910
+ <font color="#CCCCCC">Metasploit </font><font color="#E5E5E5">jadi ada satu file bernama </font>
+
+275
+00:11:45,910 --> 00:11:48,370
+ sebagai <font color="#CCCCCC">Rho Q dot txt dot GZ sehingga Anda dapat melihat </font>
+
+276
+00:11:48,370 --> 00:11:51,100
+ di sini jadi <font color="#E5E5E5">file ini berisi tentang sekitar </font>
+
+277
+00:11:51,100 --> 00:11:52,990
+ <font color="#CCCCCC">empat belas juta kata sandi yang kami bisa </font>
+
+278
+00:11:52,990 --> 00:11:55,090
+ gunakan <font color="#CCCCCC">untuk </font><font color="#E5E5E5">memecahkan nirkabel </font>
+
+279
+00:11:55,090 --> 00:11:57,910
+ enkripsi jadi di sini Anda dapat <font color="#E5E5E5">melihat bahwa </font><font color="#CCCCCC">saya </font>
+
+280
+00:11:57,910 --> 00:11:58,480
+ punya semuanya 
+
+281
+00:11:58,480 --> 00:12:01,000
+ <font color="#CCCCCC">Saya mengekstraksi file ini </font><font color="#E5E5E5">dengan cara yang Anda bisa </font>
+
+282
+00:12:01,000 --> 00:12:03,579
+ <font color="#E5E5E5">ekstrak file ini hanya dengan menulis di sini </font><font color="#CCCCCC">a </font>
+
+283
+00:12:03,579 --> 00:12:05,800
+ nama utilitas kecil disebut sebagai <font color="#CCCCCC">menjalankannya </font>
+
+284
+00:12:05,800 --> 00:12:08,410
+ diikuti <font color="#E5E5E5">oleh nama </font><font color="#CCCCCC">file </font><font color="#E5E5E5">ini dan jika Anda </font>
+
+285
+00:12:08,410 --> 00:12:12,220
+ <font color="#E5E5E5">tekan </font><font color="#CCCCCC">enter kamu akan lihat di sini yang kita punya </font>
+
+286
+00:12:12,220 --> 00:12:14,860
+ satu file yang disebut sebagai <font color="#E5E5E5">roket atau txt </font><font color="#CCCCCC">sekarang </font>
+
+287
+00:12:14,860 --> 00:12:16,300
+ mari kita lihat apa yang ada <font color="#E5E5E5">di dalam ini </font>
+
+288
+00:12:16,300 --> 00:12:18,630
+ <font color="#E5E5E5">mengajukan </font>
+
+289
+00:12:25,240 --> 00:12:27,699
+ jadi Anda bisa lihat di sini <font color="#E5E5E5">file ini </font>
+
+290
+00:12:27,699 --> 00:12:31,600
+ <font color="#E5E5E5">mengandung banyak kata sandi dan sekarang mari </font>
+
+291
+00:12:31,600 --> 00:12:33,279
+ periksa <font color="#E5E5E5">berapa kata sandi yang ada </font>
+
+292
+00:12:33,279 --> 00:12:35,699
+ dalam file ini dengan menggunakan utilitas hitungan kata 
+
+293
+00:12:35,699 --> 00:12:39,129
+ jadi <font color="#CCCCCC">saya </font><font color="#E5E5E5">hanya menulis di sini </font><font color="#CCCCCC">hitungan kata </font><font color="#E5E5E5">- </font><font color="#CCCCCC">L </font>
+
+294
+00:12:39,129 --> 00:12:43,119
+ diikuti oleh file passphrase ini dan Anda 
+
+295
+00:12:43,119 --> 00:12:46,269
+ <font color="#E5E5E5">bisa lihat di sini nilai panjang dekat sekitar </font><font color="#CCCCCC">40 </font>
+
+296
+00:12:46,269 --> 00:12:47,740
+ juta kata sandi <font color="#E5E5E5">ada di dalamnya </font>
+
+297
+00:12:47,740 --> 00:12:51,009
+ <font color="#E5E5E5">file ini jadi kami akan menggunakan file ini di </font>
+
+298
+00:12:51,009 --> 00:12:52,660
+ <font color="#E5E5E5">untuk memecahkan </font><font color="#CCCCCC">kata sandi dengan menggunakan </font>
+
+299
+00:12:52,660 --> 00:12:55,389
+ serangan kamus <font color="#E5E5E5">jadi mari kita kembali </font><font color="#CCCCCC">ke </font>
+
+300
+00:12:55,389 --> 00:12:59,649
+ <font color="#CCCCCC">file dump aplikasi puncak kami jadi </font><font color="#E5E5E5">ada </font>
+
+301
+00:12:59,649 --> 00:13:03,279
+ di sini <font color="#E5E5E5">WPA </font><font color="#CCCCCC">oh </font><font color="#E5E5E5">satu dot cap jadi apa aku </font>
+
+302
+00:13:03,279 --> 00:13:05,110
+ <font color="#E5E5E5">akan lakukan adalah saya hanya akan menulis </font><font color="#CCCCCC">di sini </font>
+
+303
+00:13:05,110 --> 00:13:07,899
+ aircrack-ng <font color="#E5E5E5">maka di sini kita harus menentukan </font>
+
+304
+00:13:07,899 --> 00:13:10,329
+ <font color="#E5E5E5">satu argumen atau kita harus memberikannya </font>
+
+305
+00:13:10,329 --> 00:13:13,149
+ parameter <font color="#E5E5E5">disebut sebagai - W dan di sini kita punya </font>
+
+306
+00:13:13,149 --> 00:13:16,990
+ untuk memberi lokasi <font color="#E5E5E5">txt itu </font>
+
+307
+00:13:16,990 --> 00:13:19,029
+ file kata sandi dan file itu <font color="#E5E5E5">ada </font>
+
+308
+00:13:19,029 --> 00:13:24,519
+ <font color="#E5E5E5">di dalam kita saya berbagi maka tanpa kata-kata dan itu </font>
+
+309
+00:13:24,519 --> 00:13:28,740
+ nama file <font color="#E5E5E5">dan kemudian kita harus memberikan </font>
+
+310
+00:13:28,740 --> 00:13:31,749
+ lokasi atau <font color="#E5E5E5">nama </font><font color="#CCCCCC">P </font><font color="#E5E5E5">ini terus berkas </font>
+
+311
+00:13:31,749 --> 00:13:35,100
+ yang merupakan <font color="#E5E5E5">WPA </font>
+
+312
+00:13:35,100 --> 00:13:39,790
+ <font color="#E5E5E5">tutup cukup tekan </font><font color="#CCCCCC">enter dan </font><font color="#E5E5E5">duduklah dengan bebas </font>
+
+313
+00:13:39,790 --> 00:13:42,399
+ <font color="#E5E5E5">dan </font><font color="#CCCCCC">itu akan mulai meretas kata sandi </font>
+
+314
+00:13:42,399 --> 00:13:44,410
+ Anda <font color="#E5E5E5">sehingga Anda dapat melihat di sini bahwa itu </font>
+
+315
+00:13:44,410 --> 00:13:47,110
+ mulai <font color="#E5E5E5">mencari semua </font><font color="#CCCCCC">kata sandi </font><font color="#E5E5E5">dan </font>
+
+316
+00:13:47,110 --> 00:13:49,290
+ di sini Anda dapat <font color="#E5E5E5">melihat frasa sandi saat ini </font>
+
+317
+00:13:49,290 --> 00:13:51,579
+ <font color="#E5E5E5">jadi kami harus menunggu </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">waktu yang arti </font>
+
+318
+00:13:51,579 --> 00:13:52,869
+ di sini Anda dapat melihat <font color="#E5E5E5">kunci master </font>
+
+319
+00:13:52,869 --> 00:13:55,869
+ kunci sementara dan <font color="#CCCCCC">Ipoh </font><font color="#E5E5E5">Lech </font><font color="#CCCCCC">Mac </font><font color="#E5E5E5">sehingga Anda </font>
+
+320
+00:13:55,869 --> 00:13:57,970
+ dapat melihat <font color="#E5E5E5">sejumlah kunci </font><font color="#CCCCCC">yang ini </font>
+
+321
+00:13:57,970 --> 00:14:00,009
+ alat <font color="#CCCCCC">telah diuji dan di sini Anda dapat </font><font color="#E5E5E5">melihat </font>
+
+322
+00:14:00,009 --> 00:14:05,709
+ tingkat teruji dan alat aircrack-ng ini 
+
+323
+00:14:05,709 --> 00:14:07,779
+ <font color="#E5E5E5">juga akan memberi tahu </font><font color="#CCCCCC">kami waktu </font><font color="#E5E5E5">tertentu itu </font>
+
+324
+00:14:07,779 --> 00:14:11,549
+ <font color="#CCCCCC">berapa lama </font><font color="#E5E5E5">waktu yang dibutuhkan </font>
+
+325
+00:14:20,730 --> 00:14:22,710
+ jadi saya berhenti video ini <font color="#E5E5E5">dan </font><font color="#CCCCCC">saya akan </font>
+
+326
+00:14:22,710 --> 00:14:24,300
+ <font color="#E5E5E5">lanjutkan videonya setelah kami mendapatkannya </font>
+
+327
+00:14:24,300 --> 00:14:34,470
+ kata sandi <font color="#CCCCCC">dan Anda </font><font color="#E5E5E5">dapat melihat di sini bahwa kami </font>
+
+328
+00:14:34,470 --> 00:14:38,670
+ mendapat kunci kami <font color="#E5E5E5">jadi kata sandi kami adalah </font><font color="#CCCCCC">RR 9 7 rd </font>
+
+329
+00:14:38,670 --> 00:14:40,770
+ <font color="#CCCCCC">bi jadi di sini Anda </font><font color="#E5E5E5">dapat melihat bahwa ini </font>
+
+330
+00:14:40,770 --> 00:14:43,650
+ utilitas aircrack-ng dapat mencari tahu 
+
+331
+00:14:43,650 --> 00:14:47,040
+ kata sandi <font color="#E5E5E5">dan di sini Anda dapat melihatnya </font>
+
+332
+00:14:47,040 --> 00:14:49,560
+ waktunya <font color="#E5E5E5">masih tersisa tapi ini kami </font>
+
+333
+00:14:49,560 --> 00:14:52,650
+ kunci hadir di <font color="#E5E5E5">lokasi ini </font><font color="#CCCCCC">dan Anda </font>
+
+334
+00:14:52,650 --> 00:14:54,270
+ <font color="#E5E5E5">bisa lihat disini itu master key- </font><font color="#CCCCCC">nya </font>
+
+335
+00:14:54,270 --> 00:14:58,170
+ kunci transien <font color="#CCCCCC">nya Evol H Mac jadi ini </font>
+
+336
+00:14:58,170 --> 00:15:00,780
+ bagaimana kita dapat memecahkan kata sandi WPA dan wpa2 
+
+337
+00:15:00,780 --> 00:15:03,330
+ <font color="#E5E5E5">dengan menggunakan serangan kamus jadi ada </font>
+
+338
+00:15:03,330 --> 00:15:04,980
+ serangan lain yang bisa kita lakukan seperti 
+
+339
+00:15:04,980 --> 00:15:06,660
+ <font color="#E5E5E5">serangan brute force dan kita bahkan bisa </font>
+
+340
+00:15:06,660 --> 00:15:08,340
+ <font color="#CCCCCC">melakukan serangan yang sama dengan menggunakan sapi </font>
+
+341
+00:15:08,340 --> 00:15:11,190
+ alat patty dan mereka banyak <font color="#CCCCCC">alat </font><font color="#E5E5E5">jadi </font>
+
+342
+00:15:11,190 --> 00:15:13,350
+ dalam video ini <font color="#E5E5E5">kita </font><font color="#CCCCCC">telah membahas itu caranya </font>
+
+343
+00:15:13,350 --> 00:15:16,350
+ WPA dan <font color="#E5E5E5">handshake atau enkripsi wpa2 </font>
+
+344
+00:15:16,350 --> 00:15:18,540
+ berfungsi <font color="#E5E5E5">dan bagaimana kita dapat memecahkan WPA dan </font>
+
+345
+00:15:18,540 --> 00:15:23,160
+ <font color="#E5E5E5">enkripsi wpa2 dengan menggunakan aircrack-ng </font><font color="#CCCCCC">jadi </font>
+
+346
+00:15:23,160 --> 00:00:00,000
+ terima kasih telah <font color="#CCCCCC">menonton video ini </font>
+

@@ -1,0 +1,5920 @@
+1
+00:00:00,590 --> 00:00:03,620
+hello and welcome my<font color="#E5E5E5"> name</font><font color="#CCCCCC"> is Zaid</font><font color="#E5E5E5"> I'm an</font>
+
+2
+00:00:03,620 --> 00:00:05,509
+<font color="#CCCCCC">ethical hacker a computer scientist and</font>
+
+3
+00:00:05,509 --> 00:00:06,950
+I'll be your<font color="#E5E5E5"> instructor in this course</font>
+
+4
+00:00:06,950 --> 00:00:09,470
+<font color="#CCCCCC">in</font><font color="#E5E5E5"> this course</font><font color="#CCCCCC"> I'm gonna teach you</font>
+
+5
+00:00:09,470 --> 00:00:11,690
+<font color="#E5E5E5">website hacking and penetration testing</font>
+
+6
+00:00:11,690 --> 00:00:14,150
+<font color="#E5E5E5">so we're gonna start from scratch and by</font>
+
+7
+00:00:14,150 --> 00:00:15,380
+the end of the course you'll be<font color="#E5E5E5"> at a</font>
+
+8
+00:00:15,380 --> 00:00:17,419
+high intermediate<font color="#E5E5E5"> level</font><font color="#CCCCCC"> being</font><font color="#E5E5E5"> able to</font>
+
+9
+00:00:17,419 --> 00:00:20,060
+<font color="#E5E5E5">launch</font><font color="#CCCCCC"> attacks</font><font color="#E5E5E5"> exactly the same way that</font>
+
+10
+00:00:20,060 --> 00:00:22,580
+<font color="#CCCCCC">black</font><font color="#E5E5E5"> hat hackers would do not only that</font>
+
+11
+00:00:22,580 --> 00:00:24,800
+but you'll also learn how<font color="#CCCCCC"> to secure web</font>
+
+12
+00:00:24,800 --> 00:00:26,570
+<font color="#CCCCCC">applications</font><font color="#E5E5E5"> and prevent these attacks</font>
+
+13
+00:00:26,570 --> 00:00:29,599
+<font color="#E5E5E5">from happening</font><font color="#CCCCCC"> so this course is going</font>
+
+14
+00:00:29,599 --> 00:00:30,829
+to start from scratch we're<font color="#CCCCCC"> going to</font>
+
+15
+00:00:30,829 --> 00:00:33,200
+start with the basics on how<font color="#E5E5E5"> to set up</font>
+
+16
+00:00:33,200 --> 00:00:36,140
+<font color="#E5E5E5">your lab how to set</font><font color="#CCCCCC"> up</font><font color="#E5E5E5"> your computer for</font>
+
+17
+00:00:36,140 --> 00:00:38,600
+penetration testing once done with that
+
+18
+00:00:38,600 --> 00:00:40,100
+we're going to start<font color="#E5E5E5"> talking about</font>
+
+19
+00:00:40,100 --> 00:00:42,410
+<font color="#E5E5E5">website so before we talk about hacking</font>
+
+20
+00:00:42,410 --> 00:00:44,420
+<font color="#CCCCCC">we're</font><font color="#E5E5E5"> gonna talk about how websites work</font>
+
+21
+00:00:44,420 --> 00:00:46,520
+<font color="#E5E5E5">how the requests are sent and received</font>
+
+22
+00:00:46,520 --> 00:00:49,250
+<font color="#CCCCCC">so that we can exploit this and launch</font>
+
+23
+00:00:49,250 --> 00:00:51,590
+<font color="#E5E5E5">our attacks</font><font color="#CCCCCC"> once we understand</font><font color="#E5E5E5"> how</font>
+
+24
+00:00:51,590 --> 00:00:53,030
+websites work we're<font color="#E5E5E5"> gonna move into our</font>
+
+25
+00:00:53,030 --> 00:00:54,950
+first<font color="#E5E5E5"> section of connotation testing</font>
+
+26
+00:00:54,950 --> 00:00:56,540
+which is<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to be information</font>
+
+27
+00:00:56,540 --> 00:00:58,490
+<font color="#E5E5E5">gathering</font><font color="#CCCCCC"> and this</font><font color="#E5E5E5"> section you're</font><font color="#CCCCCC"> going</font>
+
+28
+00:00:58,490 --> 00:01:00,380
+to<font color="#E5E5E5"> learn how</font><font color="#CCCCCC"> to gather</font><font color="#E5E5E5"> very important</font>
+
+29
+00:01:00,380 --> 00:01:02,180
+<font color="#E5E5E5">information about your</font><font color="#CCCCCC"> targets such as</font>
+
+30
+00:01:02,180 --> 00:01:05,179
+<font color="#CCCCCC">the technologies used the DNS servers</font>
+
+31
+00:01:05,179 --> 00:01:07,609
+used and the other<font color="#E5E5E5"> websites on</font><font color="#CCCCCC"> the same</font>
+
+32
+00:01:07,609 --> 00:01:09,229
+server and we'll talk about why this is
+
+33
+00:01:09,229 --> 00:01:11,560
+<font color="#E5E5E5">important and why you</font><font color="#CCCCCC"> need to know this</font>
+
+34
+00:01:11,560 --> 00:01:13,729
+once you understand how websites work
+
+35
+00:01:13,729 --> 00:01:15,829
+we're gonna move into our<font color="#E5E5E5"> main</font>
+
+36
+00:01:15,829 --> 00:01:17,509
+penetration testing sections where
+
+37
+00:01:17,509 --> 00:01:19,460
+you're going to learn how<font color="#CCCCCC"> to discover</font>
+
+38
+00:01:19,460 --> 00:01:22,369
+exploit and protect from<font color="#E5E5E5"> a large number</font>
+
+39
+00:01:22,369 --> 00:01:25,100
+<font color="#CCCCCC">of</font><font color="#E5E5E5"> vulnerabilities</font><font color="#CCCCCC"> so the course is</font>
+
+40
+00:01:25,100 --> 00:01:26,600
+<font color="#E5E5E5">going to be highly practical without</font>
+
+41
+00:01:26,600 --> 00:01:28,069
+neglecting the three<font color="#CCCCCC"> part we're</font><font color="#E5E5E5"> gonna</font>
+
+42
+00:01:28,069 --> 00:01:29,359
+<font color="#E5E5E5">first talk about why these</font>
+
+43
+00:01:29,359 --> 00:01:31,579
+vulnerabilities happen how to discover
+
+44
+00:01:31,579 --> 00:01:33,710
+them how to<font color="#E5E5E5"> exploit them and gain full</font>
+
+45
+00:01:33,710 --> 00:01:35,990
+control<font color="#E5E5E5"> over the service over over the</font>
+
+46
+00:01:35,990 --> 00:01:38,240
+website<font color="#CCCCCC"> and at the end we're gonna see</font>
+
+47
+00:01:38,240 --> 00:01:40,310
+how you can<font color="#E5E5E5"> secure websites from these</font>
+
+48
+00:01:40,310 --> 00:01:42,049
+attacks<font color="#CCCCCC"> and prevent them from happening</font>
+
+49
+00:01:42,049 --> 00:01:43,729
+<font color="#E5E5E5">so if you're a programmer you'll know</font>
+
+50
+00:01:43,729 --> 00:01:45,289
+what<font color="#CCCCCC"> to avoid</font><font color="#E5E5E5"> so that these</font>
+
+51
+00:01:45,289 --> 00:01:48,020
+vulnerabilities<font color="#CCCCCC"> won't happen</font><font color="#E5E5E5"> once done</font>
+
+52
+00:01:48,020 --> 00:01:49,369
+with this section<font color="#CCCCCC"> we're</font><font color="#E5E5E5"> gonna move into</font>
+
+53
+00:01:49,369 --> 00:01:51,530
+our post exploitation<font color="#E5E5E5"> where you're gonna</font>
+
+54
+00:01:51,530 --> 00:01:53,689
+learn<font color="#E5E5E5"> what can you do with the access</font>
+
+55
+00:01:53,689 --> 00:01:55,340
+<font color="#CCCCCC">that you gained in</font><font color="#E5E5E5"> the previous section</font>
+
+56
+00:01:55,340 --> 00:01:57,439
+<font color="#E5E5E5">so you're gonna learn how to upload</font>
+
+57
+00:01:57,439 --> 00:01:59,840
+download<font color="#E5E5E5"> files navigate within the</font>
+
+58
+00:01:59,840 --> 00:02:02,240
+<font color="#CCCCCC">target</font><font color="#E5E5E5"> web server navigate from website</font>
+
+59
+00:02:02,240 --> 00:02:04,670
+<font color="#E5E5E5">to another and even access</font><font color="#CCCCCC"> the database</font>
+
+60
+00:02:04,670 --> 00:02:07,729
+<font color="#E5E5E5">of</font><font color="#CCCCCC"> the target server</font><font color="#E5E5E5"> this is just</font><font color="#CCCCCC"> an</font>
+
+61
+00:02:07,729 --> 00:02:09,919
+<font color="#E5E5E5">overview of the main sections the course</font>
+
+62
+00:02:09,919 --> 00:02:13,970
+will contain even more cooler stuff
+
+63
+00:02:13,970 --> 00:02:17,489
+so as described earlier<font color="#E5E5E5"> the curse is</font>
+
+64
+00:02:17,489 --> 00:02:20,010
+going to be highly<font color="#E5E5E5"> practical so in order</font>
+
+65
+00:02:20,010 --> 00:02:22,620
+<font color="#E5E5E5">to</font><font color="#CCCCCC"> be able to</font><font color="#E5E5E5"> do that we will need a lab</font>
+
+66
+00:02:22,620 --> 00:02:24,930
+a place where we can learn and perform
+
+67
+00:02:24,930 --> 00:02:27,959
+attacks against so to do this we're
+
+68
+00:02:27,959 --> 00:02:29,940
+<font color="#CCCCCC">going to</font><font color="#E5E5E5"> use a program called</font><font color="#CCCCCC"> virtual</font>
+
+69
+00:02:29,940 --> 00:02:33,840
+<font color="#CCCCCC">box now</font><font color="#E5E5E5"> virtual box is a program that</font>
+
+70
+00:02:33,840 --> 00:02:36,900
+<font color="#E5E5E5">allows us</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> install machines just like</font>
+
+71
+00:02:36,900 --> 00:02:39,569
+normal computers inside<font color="#E5E5E5"> our own machine</font>
+
+72
+00:02:39,569 --> 00:02:41,819
+so I have one computer<font color="#CCCCCC"> and</font><font color="#E5E5E5"> I'm</font><font color="#CCCCCC"> going to</font>
+
+73
+00:02:41,819 --> 00:02:44,940
+install other computers inside this
+
+74
+00:02:44,940 --> 00:02:47,160
+computer<font color="#CCCCCC"> so they're</font><font color="#E5E5E5"> gonna be virtual</font>
+
+75
+00:02:47,160 --> 00:02:49,530
+machines<font color="#E5E5E5"> now these are</font><font color="#CCCCCC"> very important in</font>
+
+76
+00:02:49,530 --> 00:02:51,180
+terms<font color="#CCCCCC"> of penetration testing we're gonna</font>
+
+77
+00:02:51,180 --> 00:02:53,750
+<font color="#E5E5E5">be using</font><font color="#CCCCCC"> them a lot to set up the lab</font>
+
+78
+00:02:53,750 --> 00:02:56,730
+now it's very important to note that<font color="#E5E5E5"> a</font>
+
+79
+00:02:56,730 --> 00:02:58,980
+virtual machine<font color="#E5E5E5"> is just like a</font>
+
+80
+00:02:58,980 --> 00:03:01,500
+completely separate working machine
+
+81
+00:03:01,500 --> 00:03:04,709
+there is nothing you're going<font color="#E5E5E5"> to lose by</font>
+
+82
+00:03:04,709 --> 00:03:06,930
+<font color="#E5E5E5">installing an operating</font><font color="#CCCCCC"> system</font><font color="#E5E5E5"> inside</font><font color="#CCCCCC"> a</font>
+
+83
+00:03:06,930 --> 00:03:08,910
+virtual<font color="#CCCCCC"> machine the operating system</font>
+
+84
+00:03:08,910 --> 00:03:11,340
+will perform just<font color="#E5E5E5"> like installing it on</font>
+
+85
+00:03:11,340 --> 00:03:13,500
+a separate laptop<font color="#E5E5E5"> so basically instead</font>
+
+86
+00:03:13,500 --> 00:03:15,810
+<font color="#CCCCCC">of having four or</font><font color="#E5E5E5"> five computers or</font>
+
+87
+00:03:15,810 --> 00:03:18,750
+laptops around<font color="#E5E5E5"> us so that we can try</font><font color="#CCCCCC"> and</font>
+
+88
+00:03:18,750 --> 00:03:20,640
+hack into them we're going<font color="#E5E5E5"> to install</font>
+
+89
+00:03:20,640 --> 00:03:22,950
+<font color="#E5E5E5">these computers as virtual machines</font>
+
+90
+00:03:22,950 --> 00:03:26,280
+inside our own<font color="#E5E5E5"> machine this might be a</font>
+
+91
+00:03:26,280 --> 00:03:28,260
+bit vague now but once I do it<font color="#E5E5E5"> it's</font>
+
+92
+00:03:28,260 --> 00:03:30,180
+going<font color="#E5E5E5"> to become</font><font color="#CCCCCC"> very clear</font><font color="#E5E5E5"> to you how</font>
+
+93
+00:03:30,180 --> 00:03:32,819
+this is<font color="#E5E5E5"> gonna work</font><font color="#CCCCCC"> so basically I'm</font>
+
+94
+00:03:32,819 --> 00:03:35,250
+<font color="#E5E5E5">gonna have three computers inside my</font>
+
+95
+00:03:35,250 --> 00:03:36,959
+main computer<font color="#E5E5E5"> so I have my main computer</font>
+
+96
+00:03:36,959 --> 00:03:39,359
+<font color="#E5E5E5">which is Mac OS and I'm not gonna do</font>
+
+97
+00:03:39,359 --> 00:03:41,040
+<font color="#CCCCCC">anything like that</font><font color="#E5E5E5"> that's</font><font color="#CCCCCC"> just going</font><font color="#E5E5E5"> to</font>
+
+98
+00:03:41,040 --> 00:03:43,380
+be my<font color="#E5E5E5"> computer that I record the videos</font>
+
+99
+00:03:43,380 --> 00:03:46,650
+from now I'm gonna have a machine that's
+
+100
+00:03:46,650 --> 00:03:49,440
+<font color="#CCCCCC">gonna be my attacker machine and that's</font>
+
+101
+00:03:49,440 --> 00:03:51,540
+gonna be a Kali Linux<font color="#CCCCCC"> and I'll talk</font>
+
+102
+00:03:51,540 --> 00:03:53,579
+about what Kali Linux is once we get to
+
+103
+00:03:53,579 --> 00:03:56,519
+that<font color="#E5E5E5"> and then I'll have two victims I'll</font>
+
+104
+00:03:56,519 --> 00:03:58,739
+have a victim<font color="#E5E5E5"> that runs Windows right</font>
+
+105
+00:03:58,739 --> 00:04:00,540
+here just a normal Windows machine<font color="#E5E5E5"> and</font>
+
+106
+00:04:00,540 --> 00:04:02,760
+then I'll have a victim<font color="#E5E5E5"> that runs an</font>
+
+107
+00:04:02,760 --> 00:04:05,100
+operating system<font color="#E5E5E5"> called</font><font color="#CCCCCC"> Metasploit</font><font color="#E5E5E5"> level</font>
+
+108
+00:04:05,100 --> 00:04:07,049
+<font color="#E5E5E5">and I'll talk about what that is</font><font color="#CCCCCC"> so</font>
+
+109
+00:04:07,049 --> 00:04:08,459
+basically we're going to<font color="#CCCCCC"> have our own</font>
+
+110
+00:04:08,459 --> 00:04:10,350
+machine and<font color="#E5E5E5"> then we'll have three</font>
+
+111
+00:04:10,350 --> 00:04:13,380
+separate machines<font color="#E5E5E5"> inside this main</font>
+
+112
+00:04:13,380 --> 00:04:15,450
+machine the three separate machines are
+
+113
+00:04:15,450 --> 00:04:17,399
+the ones<font color="#E5E5E5"> that were going to</font><font color="#CCCCCC"> use</font><font color="#E5E5E5"> to carry</font>
+
+114
+00:04:17,399 --> 00:04:19,260
+out the penetration<font color="#E5E5E5"> testing attacks and</font>
+
+115
+00:04:19,260 --> 00:04:22,019
+they're<font color="#CCCCCC"> going to be Kali Linux which is</font>
+
+116
+00:04:22,019 --> 00:04:22,979
+the one that<font color="#CCCCCC"> we're going to</font><font color="#E5E5E5"> use</font><font color="#CCCCCC"> for</font>
+
+117
+00:04:22,979 --> 00:04:26,260
+attacking<font color="#E5E5E5"> and</font><font color="#CCCCCC"> - victim machines</font><font color="#E5E5E5"> now</font>
+
+118
+00:04:26,260 --> 00:04:28,120
+this is<font color="#E5E5E5"> going to be possible because</font><font color="#CCCCCC"> of</font>
+
+119
+00:04:28,120 --> 00:04:30,010
+<font color="#CCCCCC">the program that I told</font><font color="#E5E5E5"> you about which</font>
+
+120
+00:04:30,010 --> 00:04:32,680
+<font color="#CCCCCC">is called VirtualBox now a VirtualBox is</font>
+
+121
+00:04:32,680 --> 00:04:34,750
+free and you can<font color="#E5E5E5"> download</font><font color="#CCCCCC"> it from the</font>
+
+122
+00:04:34,750 --> 00:04:35,950
+<font color="#E5E5E5">following link</font>
+
+123
+00:04:35,950 --> 00:04:38,110
+now I'm gonna show you<font color="#E5E5E5"> right</font><font color="#CCCCCC"> here if you</font>
+
+124
+00:04:38,110 --> 00:04:40,630
+<font color="#E5E5E5">just go into if you literally just</font>
+
+125
+00:04:40,630 --> 00:04:43,050
+<font color="#E5E5E5">Google</font>
+
+126
+00:04:44,690 --> 00:04:48,090
+download virtualbox<font color="#E5E5E5"> and we're just gonna</font>
+
+127
+00:04:48,090 --> 00:04:52,700
+go for<font color="#CCCCCC"> the</font><font color="#E5E5E5"> first link right here</font><font color="#CCCCCC"> and</font>
+
+128
+00:04:52,700 --> 00:04:55,950
+<font color="#E5E5E5">just grab the version that's compatible</font>
+
+129
+00:04:55,950 --> 00:04:58,440
+<font color="#E5E5E5">with your operating system so there is</font>
+
+130
+00:04:58,440 --> 00:05:01,200
+VirtualBox for<font color="#E5E5E5"> Windows and here is</font><font color="#CCCCCC"> for</font>
+
+131
+00:05:01,200 --> 00:05:04,560
+<font color="#E5E5E5">for Mac OS X and for Linux so just</font>
+
+132
+00:05:04,560 --> 00:05:07,260
+download<font color="#E5E5E5"> the VirtualBox version that is</font>
+
+133
+00:05:07,260 --> 00:05:09,360
+<font color="#CCCCCC">compatible with</font><font color="#E5E5E5"> your</font><font color="#CCCCCC"> operating system</font>
+
+134
+00:05:09,360 --> 00:05:11,190
+<font color="#CCCCCC">double-click it and install it</font><font color="#E5E5E5"> in</font>
+
+135
+00:05:11,190 --> 00:05:13,470
+silence<font color="#E5E5E5"> is very simple</font><font color="#CCCCCC"> very</font><font color="#E5E5E5"> easy</font><font color="#CCCCCC"> he</font>
+
+136
+00:05:13,470 --> 00:05:15,240
+literally just even<font color="#E5E5E5"> for</font><font color="#CCCCCC"> Linux you double</font>
+
+137
+00:05:15,240 --> 00:05:17,580
+click it click<font color="#CCCCCC"> Next Next Next and</font><font color="#E5E5E5"> it's</font>
+
+138
+00:05:17,580 --> 00:05:20,010
+installed<font color="#E5E5E5"> now I have that installed and</font>
+
+139
+00:05:20,010 --> 00:05:21,820
+ready
+
+140
+00:05:21,820 --> 00:05:24,550
+now this is my virtual box<font color="#E5E5E5"> as you can</font>
+
+141
+00:05:24,550 --> 00:05:26,770
+<font color="#E5E5E5">see</font><font color="#CCCCCC"> it's</font><font color="#E5E5E5"> installed and I have no</font>
+
+142
+00:05:26,770 --> 00:05:28,690
+machines right here now in the<font color="#E5E5E5"> next</font><font color="#CCCCCC"> few</font>
+
+143
+00:05:28,690 --> 00:05:30,340
+<font color="#CCCCCC">lectures we're going to learn</font><font color="#E5E5E5"> how</font><font color="#CCCCCC"> to</font>
+
+144
+00:05:30,340 --> 00:05:33,160
+install Kali Linux and the<font color="#CCCCCC"> - victim</font>
+
+145
+00:05:33,160 --> 00:05:35,050
+machines<font color="#E5E5E5"> and I'll talk about what each</font>
+
+146
+00:05:35,050 --> 00:05:37,750
+<font color="#CCCCCC">of these machines does and why are</font><font color="#E5E5E5"> we</font>
+
+147
+00:05:37,750 --> 00:05:40,540
+<font color="#E5E5E5">going to use them now throughout the</font>
+
+148
+00:05:40,540 --> 00:05:42,550
+course we're<font color="#E5E5E5"> going to be using</font><font color="#CCCCCC"> a number</font>
+
+149
+00:05:42,550 --> 00:05:44,980
+of penetration<font color="#E5E5E5"> testing tools you can go</font>
+
+150
+00:05:44,980 --> 00:05:47,110
+ahead<font color="#E5E5E5"> and install each</font><font color="#CCCCCC"> of these tools</font>
+
+151
+00:05:47,110 --> 00:05:49,420
+manually or you can do what most pen
+
+152
+00:05:49,420 --> 00:05:51,970
+testers do including myself<font color="#E5E5E5"> and save</font>
+
+153
+00:05:51,970 --> 00:05:54,460
+time and effort<font color="#CCCCCC"> and use an</font><font color="#E5E5E5"> operating</font>
+
+154
+00:05:54,460 --> 00:05:57,220
+<font color="#CCCCCC">system designed for hacking</font><font color="#E5E5E5"> we're going</font>
+
+155
+00:05:57,220 --> 00:05:58,510
+to be using an operating<font color="#CCCCCC"> system</font><font color="#E5E5E5"> called</font>
+
+156
+00:05:58,510 --> 00:06:01,330
+<font color="#CCCCCC">kali linux and it's just a flavor of</font>
+
+157
+00:06:01,330 --> 00:06:04,090
+<font color="#E5E5E5">Linux based on</font><font color="#CCCCCC"> debian</font><font color="#E5E5E5"> and it comes in</font>
+
+158
+00:06:04,090 --> 00:06:05,680
+<font color="#E5E5E5">with</font><font color="#CCCCCC"> all the programs and the</font>
+
+159
+00:06:05,680 --> 00:06:07,300
+applications that we need to use
+
+160
+00:06:07,300 --> 00:06:09,880
+pre-installed and pre-configured<font color="#CCCCCC"> this</font>
+
+161
+00:06:09,880 --> 00:06:11,530
+means<font color="#E5E5E5"> that we can just install this</font>
+
+162
+00:06:11,530 --> 00:06:13,930
+operating<font color="#E5E5E5"> system and then start learning</font>
+
+163
+00:06:13,930 --> 00:06:15,630
+<font color="#CCCCCC">our</font><font color="#E5E5E5"> hacking</font>
+
+164
+00:06:15,630 --> 00:06:17,400
+<font color="#E5E5E5">there are two options to</font><font color="#CCCCCC"> install Kali</font>
+
+165
+00:06:17,400 --> 00:06:19,980
+<font color="#E5E5E5">you can install it as a virtual</font><font color="#CCCCCC"> machine</font>
+
+166
+00:06:19,980 --> 00:06:22,530
+inside your<font color="#E5E5E5"> current operating system or</font>
+
+167
+00:06:22,530 --> 00:06:24,720
+you<font color="#E5E5E5"> can insult as a main machine as a</font>
+
+168
+00:06:24,720 --> 00:06:28,370
+main operating system
+
+169
+00:06:28,400 --> 00:06:29,720
+the course I'm actually<font color="#E5E5E5"> going to be</font>
+
+170
+00:06:29,720 --> 00:06:31,940
+<font color="#E5E5E5">using it as a virtual</font><font color="#CCCCCC"> machine because</font>
+
+171
+00:06:31,940 --> 00:06:33,680
+using<font color="#E5E5E5"> it as a virtual</font><font color="#CCCCCC"> machine works</font>
+
+172
+00:06:33,680 --> 00:06:36,110
+exactly the<font color="#E5E5E5"> same as installing</font><font color="#CCCCCC"> it as a</font>
+
+173
+00:06:36,110 --> 00:06:37,790
+main machine<font color="#E5E5E5"> because it will be</font>
+
+174
+00:06:37,790 --> 00:06:39,919
+<font color="#E5E5E5">completely</font><font color="#CCCCCC"> isolated from your computer</font>
+
+175
+00:06:39,919 --> 00:06:41,389
+because<font color="#E5E5E5"> it's only going to</font><font color="#CCCCCC"> run inside</font>
+
+176
+00:06:41,389 --> 00:06:43,970
+VirtualBox<font color="#E5E5E5"> so if you break</font><font color="#CCCCCC"> it or if you</font>
+
+177
+00:06:43,970 --> 00:06:46,190
+<font color="#E5E5E5">mess things up it's very very easy to</font>
+
+178
+00:06:46,190 --> 00:06:48,350
+fix<font color="#E5E5E5"> it's very easy to go</font><font color="#CCCCCC"> back to other</font>
+
+179
+00:06:48,350 --> 00:06:51,979
+snapshots<font color="#E5E5E5"> other configurations and also</font>
+
+180
+00:06:51,979 --> 00:06:54,620
+you<font color="#E5E5E5"> won't lose any functionality</font><font color="#CCCCCC"> by</font>
+
+181
+00:06:54,620 --> 00:06:57,169
+using<font color="#E5E5E5"> it as a virtual machine</font><font color="#CCCCCC"> that's why</font>
+
+182
+00:06:57,169 --> 00:06:59,240
+I always<font color="#E5E5E5"> use it as a virtual machine</font><font color="#CCCCCC"> and</font>
+
+183
+00:06:59,240 --> 00:07:01,310
+in this<font color="#E5E5E5"> lecture I'm gonna cover how to</font>
+
+184
+00:07:01,310 --> 00:07:04,039
+install<font color="#E5E5E5"> it as a virtual machine inside</font>
+
+185
+00:07:04,039 --> 00:07:06,500
+VirtualBox<font color="#E5E5E5"> now I'm going to be doing the</font>
+
+186
+00:07:06,500 --> 00:07:09,350
+steps on a<font color="#E5E5E5"> Mac</font><font color="#CCCCCC"> OSX</font><font color="#E5E5E5"> computer but these</font>
+
+187
+00:07:09,350 --> 00:07:11,750
+<font color="#CCCCCC">tapes are</font><font color="#E5E5E5"> exactly the same</font><font color="#CCCCCC"> regardless of</font>
+
+188
+00:07:11,750 --> 00:07:13,940
+what<font color="#E5E5E5"> operating</font><font color="#CCCCCC"> system you use so if</font>
+
+189
+00:07:13,940 --> 00:07:16,130
+you're on Windows or on Linux<font color="#CCCCCC"> you just</font>
+
+190
+00:07:16,130 --> 00:07:18,139
+have to<font color="#E5E5E5"> download the VirtualBox version</font>
+
+191
+00:07:18,139 --> 00:07:20,270
+of your computer<font color="#E5E5E5"> and then the steps</font>
+
+192
+00:07:20,270 --> 00:07:22,669
+shown in this lecture are exactly the
+
+193
+00:07:22,669 --> 00:07:25,460
+<font color="#CCCCCC">same after</font><font color="#E5E5E5"> installing VirtualBox so I'm</font>
+
+194
+00:07:25,460 --> 00:07:27,169
+gonna include the download link in the
+
+195
+00:07:27,169 --> 00:07:30,380
+<font color="#E5E5E5">resources of</font><font color="#CCCCCC"> this lecture</font><font color="#E5E5E5"> and I have it</font>
+
+196
+00:07:30,380 --> 00:07:32,870
+<font color="#E5E5E5">already opened in here all you have</font><font color="#CCCCCC"> to</font>
+
+197
+00:07:32,870 --> 00:07:35,090
+do is just<font color="#E5E5E5"> scroll down</font>
+
+198
+00:07:35,090 --> 00:07:36,950
+make sure you click on the Kali Linux
+
+199
+00:07:36,950 --> 00:07:39,940
+VirtualBox images not on the<font color="#CCCCCC"> VMware and</font>
+
+200
+00:07:39,940 --> 00:07:43,550
+then download<font color="#E5E5E5"> the version of Kali that's</font>
+
+201
+00:07:43,550 --> 00:07:45,560
+<font color="#CCCCCC">compatible with your system</font><font color="#E5E5E5"> so if you</font>
+
+202
+00:07:45,560 --> 00:07:48,139
+have a<font color="#E5E5E5"> 64-bit computer download the 64</font>
+
+203
+00:07:48,139 --> 00:07:50,780
+bits if<font color="#CCCCCC"> you have</font><font color="#E5E5E5"> the 32 bits download</font>
+
+204
+00:07:50,780 --> 00:07:51,740
+the 32 bits
+
+205
+00:07:51,740 --> 00:07:53,750
+now<font color="#CCCCCC"> one click on this will start</font><font color="#E5E5E5"> the</font>
+
+206
+00:07:53,750 --> 00:07:55,970
+<font color="#E5E5E5">download for you if you are using</font>
+
+207
+00:07:55,970 --> 00:07:59,180
+Internet<font color="#E5E5E5"> Explorer or edge browser then</font>
+
+208
+00:07:59,180 --> 00:08:00,530
+you're gonna have<font color="#E5E5E5"> to right-click and</font>
+
+209
+00:08:00,530 --> 00:08:03,740
+save target as on Chrome and Firefox you
+
+210
+00:08:03,740 --> 00:08:06,380
+can<font color="#E5E5E5"> just click the link</font><font color="#CCCCCC"> now this is</font>
+
+211
+00:08:06,380 --> 00:08:08,000
+downloading<font color="#CCCCCC"> for me and I'm gonna stop it</font>
+
+212
+00:08:08,000 --> 00:08:11,439
+<font color="#E5E5E5">because</font><font color="#CCCCCC"> I've already</font><font color="#E5E5E5"> downloaded</font>
+
+213
+00:08:11,439 --> 00:08:13,749
+so I already<font color="#E5E5E5"> have</font><font color="#CCCCCC"> it downloaded</font><font color="#E5E5E5"> in here</font>
+
+214
+00:08:13,749 --> 00:08:16,389
+and as you can<font color="#CCCCCC"> see</font><font color="#E5E5E5"> you should get a file</font>
+
+215
+00:08:16,389 --> 00:08:20,379
+with a dot<font color="#CCCCCC"> ova extension so you</font><font color="#E5E5E5"> have the</font>
+
+216
+00:08:20,379 --> 00:08:24,369
+name followed by dot<font color="#CCCCCC"> OVA in here</font><font color="#E5E5E5"> so to</font>
+
+217
+00:08:24,369 --> 00:08:26,199
+<font color="#CCCCCC">install this in VirtualBox all you have</font>
+
+218
+00:08:26,199 --> 00:08:28,449
+<font color="#E5E5E5">to do is literally just double-click the</font>
+
+219
+00:08:28,449 --> 00:08:30,659
+file
+
+220
+00:08:30,849 --> 00:08:33,190
+and as you can<font color="#E5E5E5"> see</font><font color="#CCCCCC"> I</font><font color="#E5E5E5"> get a window which</font>
+
+221
+00:08:33,190 --> 00:08:35,529
+will allow me<font color="#CCCCCC"> to</font><font color="#E5E5E5"> import this virtual</font>
+
+222
+00:08:35,529 --> 00:08:37,389
+machine
+
+223
+00:08:37,389 --> 00:08:38,679
+now I'm going to<font color="#E5E5E5"> keep everything</font><font color="#CCCCCC"> the</font>
+
+224
+00:08:38,679 --> 00:08:40,448
+same for now<font color="#CCCCCC"> and I'm just going to click</font>
+
+225
+00:08:40,448 --> 00:08:42,928
+on<font color="#CCCCCC"> import</font>
+
+226
+00:08:46,700 --> 00:08:48,680
+now that's it the virtual<font color="#E5E5E5"> machine is</font>
+
+227
+00:08:48,680 --> 00:08:49,910
+ready to be used
+
+228
+00:08:49,910 --> 00:08:52,370
+now before I started I want<font color="#E5E5E5"> to show you</font>
+
+229
+00:08:52,370 --> 00:08:55,130
+how<font color="#E5E5E5"> to modify some of</font><font color="#CCCCCC"> its settings</font><font color="#E5E5E5"> so</font>
+
+230
+00:08:55,130 --> 00:08:56,440
+we're gonna click on<font color="#E5E5E5"> it</font>
+
+231
+00:08:56,440 --> 00:08:58,610
+then we're gonna<font color="#E5E5E5"> click on the settings</font>
+
+232
+00:08:58,610 --> 00:09:01,370
+in here<font color="#CCCCCC"> and the</font><font color="#E5E5E5"> first thing that I'm</font>
+
+233
+00:09:01,370 --> 00:09:03,950
+gonna do I'm gonna go<font color="#CCCCCC"> to system and I'm</font>
+
+234
+00:09:03,950 --> 00:09:06,170
+gonna modify the<font color="#E5E5E5"> amount of RAM it has</font>
+
+235
+00:09:06,170 --> 00:09:08,870
+now depending<font color="#E5E5E5"> on how much total</font><font color="#CCCCCC"> RAM you</font>
+
+236
+00:09:08,870 --> 00:09:11,090
+<font color="#E5E5E5">have on your computer</font><font color="#CCCCCC"> you can leave this</font>
+
+237
+00:09:11,090 --> 00:09:14,180
+at<font color="#E5E5E5"> two if you want but one gigabyte is</font>
+
+238
+00:09:14,180 --> 00:09:16,970
+enough for Kali<font color="#CCCCCC"> I</font><font color="#E5E5E5"> usually leave it at</font>
+
+239
+00:09:16,970 --> 00:09:19,730
+<font color="#E5E5E5">two because I have 16 gigs of</font><font color="#CCCCCC"> RAM</font><font color="#E5E5E5"> but if</font>
+
+240
+00:09:19,730 --> 00:09:22,250
+you have less one gigabyte is enough<font color="#E5E5E5"> for</font>
+
+241
+00:09:22,250 --> 00:09:25,130
+it also<font color="#CCCCCC"> if you come here</font><font color="#E5E5E5"> on the</font>
+
+242
+00:09:25,130 --> 00:09:27,680
+processors<font color="#CCCCCC"> you see that by default I</font>
+
+243
+00:09:27,680 --> 00:09:30,620
+<font color="#E5E5E5">have two processors assigned to it again</font>
+
+244
+00:09:30,620 --> 00:09:34,430
+I have<font color="#E5E5E5"> eight CPUs so two is not gonna</font>
+
+245
+00:09:34,430 --> 00:09:36,740
+cause too much pressure on<font color="#CCCCCC"> my computer</font>
+
+246
+00:09:36,740 --> 00:09:39,650
+if you<font color="#CCCCCC"> have less one CPU is enough for</font>
+
+247
+00:09:39,650 --> 00:09:41,440
+Kali
+
+248
+00:09:41,440 --> 00:09:43,660
+now we're<font color="#E5E5E5"> going to go to the network</font>
+
+249
+00:09:43,660 --> 00:09:46,149
+settings and we're<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> set this</font><font color="#CCCCCC"> to use</font>
+
+250
+00:09:46,149 --> 00:09:49,139
+<font color="#E5E5E5">an ad</font><font color="#CCCCCC"> network</font>
+
+251
+00:09:50,390 --> 00:09:52,850
+now sometimes when you set this<font color="#E5E5E5"> to an ad</font>
+
+252
+00:09:52,850 --> 00:09:55,250
+network<font color="#CCCCCC"> you won't see a network name in</font>
+
+253
+00:09:55,250 --> 00:09:58,190
+here<font color="#E5E5E5"> if you don't please check out my</font>
+
+254
+00:09:58,190 --> 00:10:00,860
+<font color="#E5E5E5">link in the resources</font><font color="#CCCCCC"> and to show you</font>
+
+255
+00:10:00,860 --> 00:10:03,709
+how<font color="#CCCCCC"> to create</font><font color="#E5E5E5"> an ad network for me it</font>
+
+256
+00:10:03,709 --> 00:10:05,269
+already has an ad network so I'm<font color="#CCCCCC"> going</font>
+
+257
+00:10:05,269 --> 00:10:07,760
+<font color="#CCCCCC">to keep</font><font color="#E5E5E5"> it on this one and what this</font>
+
+258
+00:10:07,760 --> 00:10:10,250
+setting basically does is it's<font color="#CCCCCC"> gonna</font>
+
+259
+00:10:10,250 --> 00:10:13,550
+<font color="#E5E5E5">create a virtual network where my host</font>
+
+260
+00:10:13,550 --> 00:10:16,190
+machine which is my Mac<font color="#E5E5E5"> OSX computer in</font>
+
+261
+00:10:16,190 --> 00:10:18,740
+<font color="#E5E5E5">here is gonna</font><font color="#CCCCCC"> be</font><font color="#E5E5E5"> the router for this</font>
+
+262
+00:10:18,740 --> 00:10:20,870
+network<font color="#CCCCCC"> and then all the virtual</font>
+
+263
+00:10:20,870 --> 00:10:22,610
+machines are going to be clients
+
+264
+00:10:22,610 --> 00:10:25,910
+<font color="#E5E5E5">connected to this</font><font color="#CCCCCC"> network</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> they're</font>
+
+265
+00:10:25,910 --> 00:10:27,980
+gonna get internet connection<font color="#E5E5E5"> from my</font>
+
+266
+00:10:27,980 --> 00:10:30,410
+host machine and at the same<font color="#E5E5E5"> time all of</font>
+
+267
+00:10:30,410 --> 00:10:32,990
+<font color="#CCCCCC">my virtual machines will be connected to</font>
+
+268
+00:10:32,990 --> 00:10:35,180
+a virtual network<font color="#CCCCCC"> this</font><font color="#E5E5E5"> is very handy</font>
+
+269
+00:10:35,180 --> 00:10:37,670
+because<font color="#E5E5E5"> my virtual machines will be</font><font color="#CCCCCC"> able</font>
+
+270
+00:10:37,670 --> 00:10:39,620
+to communicate<font color="#CCCCCC"> with each</font><font color="#E5E5E5"> other</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> can</font>
+
+271
+00:10:39,620 --> 00:10:41,180
+use one of<font color="#E5E5E5"> them</font><font color="#CCCCCC"> to hack</font><font color="#E5E5E5"> into the other</font>
+
+272
+00:10:41,180 --> 00:10:43,550
+we<font color="#E5E5E5"> can use it to test</font><font color="#CCCCCC"> networks</font><font color="#E5E5E5"> attacks</font>
+
+273
+00:10:43,550 --> 00:10:47,390
+<font color="#E5E5E5">and much more so it will first allow my</font>
+
+274
+00:10:47,390 --> 00:10:48,769
+virtual machines<font color="#CCCCCC"> to have internet</font>
+
+275
+00:10:48,769 --> 00:10:50,899
+connection<font color="#CCCCCC"> it will also</font><font color="#E5E5E5"> allow them</font><font color="#CCCCCC"> to</font>
+
+276
+00:10:50,899 --> 00:10:52,790
+communicate<font color="#CCCCCC"> with each other</font><font color="#E5E5E5"> and it will</font>
+
+277
+00:10:52,790 --> 00:10:55,339
+do<font color="#E5E5E5"> all of this through a virtual</font><font color="#CCCCCC"> network</font>
+
+278
+00:10:55,339 --> 00:10:57,440
+it will not use any of your wireless
+
+279
+00:10:57,440 --> 00:11:00,079
+adapters<font color="#E5E5E5"> or any of your wireless cards</font>
+
+280
+00:11:00,079 --> 00:11:01,850
+<font color="#CCCCCC">it will create a</font><font color="#E5E5E5"> virtual Ethernet</font>
+
+281
+00:11:01,850 --> 00:11:05,390
+network<font color="#E5E5E5"> so as far as the virtual machine</font>
+
+282
+00:11:05,390 --> 00:11:07,250
+is concerned<font color="#E5E5E5"> they're gonna think that</font>
+
+283
+00:11:07,250 --> 00:11:09,980
+they're connected to<font color="#E5E5E5"> a network through a</font>
+
+284
+00:11:09,980 --> 00:11:11,860
+wire
+
+285
+00:11:11,860 --> 00:11:13,960
+so that's it<font color="#E5E5E5"> I'm done with my settings</font>
+
+286
+00:11:13,960 --> 00:11:18,090
+<font color="#CCCCCC">right now and I'm gonna</font><font color="#E5E5E5"> click on</font><font color="#CCCCCC"> okay</font>
+
+287
+00:11:18,339 --> 00:11:21,100
+and we can start our virtual machine<font color="#E5E5E5"> now</font>
+
+288
+00:11:21,100 --> 00:11:22,839
+to start it all we have<font color="#E5E5E5"> to do is just</font>
+
+289
+00:11:22,839 --> 00:11:26,000
+<font color="#E5E5E5">click on the start</font><font color="#CCCCCC"> button in</font><font color="#E5E5E5"> here</font>
+
+290
+00:11:26,000 --> 00:11:27,560
+now I'm going<font color="#E5E5E5"> to click inside the</font>
+
+291
+00:11:27,560 --> 00:11:31,509
+virtual<font color="#CCCCCC"> machine and hit enter</font>
+
+292
+00:11:33,310 --> 00:11:35,910
+and we are inside the<font color="#CCCCCC"> virtual machine</font>
+
+293
+00:11:35,910 --> 00:11:38,500
+now if you followed<font color="#E5E5E5"> everything that I</font>
+
+294
+00:11:38,500 --> 00:11:42,100
+did so far<font color="#E5E5E5"> started Cali and got</font><font color="#CCCCCC"> stuck at</font>
+
+295
+00:11:42,100 --> 00:11:44,500
+a black screen<font color="#CCCCCC"> so if you did</font><font color="#E5E5E5"> not get the</font>
+
+296
+00:11:44,500 --> 00:11:46,779
+screen that I<font color="#CCCCCC"> have right now then</font><font color="#E5E5E5"> don't</font>
+
+297
+00:11:46,779 --> 00:11:48,910
+worry about<font color="#E5E5E5"> that this</font><font color="#CCCCCC"> is a common issue</font>
+
+298
+00:11:48,910 --> 00:11:51,160
+and I've included<font color="#E5E5E5"> a link in the</font>
+
+299
+00:11:51,160 --> 00:11:53,470
+resources<font color="#CCCCCC"> of this lecture</font><font color="#E5E5E5"> that shows how</font>
+
+300
+00:11:53,470 --> 00:11:56,350
+to fix this issue<font color="#E5E5E5"> you can access the</font>
+
+301
+00:11:56,350 --> 00:11:58,630
+<font color="#E5E5E5">resources of this lecture or any lecture</font>
+
+302
+00:11:58,630 --> 00:12:01,750
+<font color="#CCCCCC">by clicking on the resources icon on the</font>
+
+303
+00:12:01,750 --> 00:12:05,140
+top left<font color="#CCCCCC"> of the player if you follow</font><font color="#E5E5E5"> all</font>
+
+304
+00:12:05,140 --> 00:12:06,850
+of the steps<font color="#E5E5E5"> shown in the link and</font>
+
+305
+00:12:06,850 --> 00:12:09,190
+you're still stuck at<font color="#E5E5E5"> this issue or if</font>
+
+306
+00:12:09,190 --> 00:12:11,440
+<font color="#CCCCCC">you're getting</font><font color="#E5E5E5"> a</font><font color="#CCCCCC"> different issue then</font>
+
+307
+00:12:11,440 --> 00:12:13,750
+please post<font color="#E5E5E5"> this issue in the Q&A</font>
+
+308
+00:12:13,750 --> 00:12:16,240
+<font color="#CCCCCC">section</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> we'll respond to you within</font>
+
+309
+00:12:16,240 --> 00:12:19,230
+<font color="#E5E5E5">15 hours and help you to fix this issue</font>
+
+310
+00:12:19,230 --> 00:12:21,880
+now it's<font color="#CCCCCC"> asking us for the username and</font>
+
+311
+00:12:21,880 --> 00:12:27,450
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> default</font><font color="#E5E5E5"> username is root so our OoT</font>
+
+312
+00:12:27,450 --> 00:12:28,920
+and<font color="#E5E5E5"> thence asking us</font><font color="#CCCCCC"> for the password</font>
+
+313
+00:12:28,920 --> 00:12:31,590
+<font color="#E5E5E5">and the default</font><font color="#CCCCCC"> password is the reverse</font>
+
+314
+00:12:31,590 --> 00:12:35,660
+of<font color="#E5E5E5"> that which is</font><font color="#CCCCCC"> T oor</font>
+
+315
+00:12:38,410 --> 00:12:41,260
+and that's it now I'm inside my virtual
+
+316
+00:12:41,260 --> 00:12:43,390
+machine<font color="#CCCCCC"> now since we</font><font color="#E5E5E5"> installed this</font>
+
+317
+00:12:43,390 --> 00:12:46,240
+using the<font color="#CCCCCC"> ready image we can just go</font><font color="#E5E5E5"> to</font>
+
+318
+00:12:46,240 --> 00:12:50,200
+view<font color="#E5E5E5"> full screen and we'll be able to go</font>
+
+319
+00:12:50,200 --> 00:12:52,000
+<font color="#E5E5E5">in full screen and the</font><font color="#CCCCCC"> screen will</font>
+
+320
+00:12:52,000 --> 00:12:54,550
+resize automatically to<font color="#E5E5E5"> the size of our</font>
+
+321
+00:12:54,550 --> 00:12:56,970
+screen
+
+322
+00:12:59,470 --> 00:13:02,110
+now note in here you see that I<font color="#E5E5E5"> have a</font>
+
+323
+00:13:02,110 --> 00:13:04,930
+<font color="#E5E5E5">network icon appearing in here and if I</font>
+
+324
+00:13:04,930 --> 00:13:07,240
+<font color="#E5E5E5">click it you'll see it looks like I'm</font>
+
+325
+00:13:07,240 --> 00:13:09,640
+connected<font color="#E5E5E5"> to a wired network as you can</font>
+
+326
+00:13:09,640 --> 00:13:12,160
+see in here it says wired connected so
+
+327
+00:13:12,160 --> 00:13:14,590
+Callie thinks<font color="#CCCCCC"> it's connected to a wired</font>
+
+328
+00:13:14,590 --> 00:13:17,440
+<font color="#E5E5E5">network because we set this</font><font color="#CCCCCC"> machine to</font>
+
+329
+00:13:17,440 --> 00:13:20,290
+use<font color="#E5E5E5"> a not</font><font color="#CCCCCC"> network</font><font color="#E5E5E5"> so if I</font><font color="#CCCCCC"> open my</font>
+
+330
+00:13:20,290 --> 00:13:23,310
+browser in here
+
+331
+00:13:24,360 --> 00:13:27,800
+<font color="#E5E5E5">you'll see that I have internet access</font>
+
+332
+00:13:27,800 --> 00:13:30,110
+so that's it that shows how to install
+
+333
+00:13:30,110 --> 00:13:33,769
+<font color="#E5E5E5">Kali Linux as a virtual</font><font color="#CCCCCC"> machine</font><font color="#E5E5E5"> don't be</font>
+
+334
+00:13:33,769 --> 00:13:36,019
+intimidated<font color="#E5E5E5"> by</font><font color="#CCCCCC"> this new operating system</font>
+
+335
+00:13:36,019 --> 00:13:37,610
+we're gonna go through the basics and
+
+336
+00:13:37,610 --> 00:13:39,259
+we're gonna use<font color="#E5E5E5"> it a lot and it's</font>
+
+337
+00:13:39,259 --> 00:13:40,970
+actually going<font color="#E5E5E5"> to become</font><font color="#CCCCCC"> very easy for</font>
+
+338
+00:13:40,970 --> 00:13:44,329
+you<font color="#E5E5E5"> to</font><font color="#CCCCCC"> use also like I said</font><font color="#E5E5E5"> you won't</font>
+
+339
+00:13:44,329 --> 00:13:46,970
+lose any functionality<font color="#E5E5E5"> when you install</font>
+
+340
+00:13:46,970 --> 00:13:49,100
+Kali Linux as a virtual<font color="#E5E5E5"> machine it's</font>
+
+341
+00:13:49,100 --> 00:13:50,569
+actually better<font color="#CCCCCC"> to install it as a</font>
+
+342
+00:13:50,569 --> 00:13:52,879
+<font color="#E5E5E5">virtual machine because it's</font><font color="#CCCCCC"> completely</font>
+
+343
+00:13:52,879 --> 00:13:55,069
+isolated<font color="#CCCCCC"> from</font><font color="#E5E5E5"> your computer and it will</font>
+
+344
+00:13:55,069 --> 00:13:57,639
+be very easy<font color="#CCCCCC"> to</font><font color="#E5E5E5"> fix</font><font color="#CCCCCC"> if things go wrong</font>
+
+345
+00:13:57,639 --> 00:13:59,989
+keep in mind<font color="#E5E5E5"> installing this on</font>
+
+346
+00:13:59,989 --> 00:14:01,489
+<font color="#CCCCCC">different Hardware in different</font>
+
+347
+00:14:01,489 --> 00:14:03,949
+computers might show you some errors on
+
+348
+00:14:03,949 --> 00:14:05,749
+some issues<font color="#E5E5E5"> so please if you</font><font color="#CCCCCC"> have any</font>
+
+349
+00:14:05,749 --> 00:14:07,730
+<font color="#E5E5E5">errors just add them in the discussions</font>
+
+350
+00:14:07,730 --> 00:14:12,860
+<font color="#E5E5E5">and I'll help</font><font color="#CCCCCC"> you resolve them ok so</font>
+
+351
+00:14:12,860 --> 00:14:15,290
+after<font color="#E5E5E5"> installing Kali Linux we're going</font>
+
+352
+00:14:15,290 --> 00:14:17,540
+to proceed<font color="#CCCCCC"> to install in the second</font>
+
+353
+00:14:17,540 --> 00:14:20,779
+machine in our lab so<font color="#CCCCCC"> the second machine</font>
+
+354
+00:14:20,779 --> 00:14:22,779
+is going<font color="#E5E5E5"> to be</font><font color="#CCCCCC"> Metasploit able</font>
+
+355
+00:14:22,779 --> 00:14:25,429
+<font color="#CCCCCC">Metasploit</font><font color="#E5E5E5"> able is another Kali is</font>
+
+356
+00:14:25,429 --> 00:14:27,949
+another Linux machine you can think<font color="#E5E5E5"> of</font>
+
+357
+00:14:27,949 --> 00:14:30,079
+it as<font color="#E5E5E5"> the opposite to</font><font color="#CCCCCC"> Callie so Kali is</font>
+
+358
+00:14:30,079 --> 00:14:32,389
+designed so that<font color="#E5E5E5"> you can use it to hack</font>
+
+359
+00:14:32,389 --> 00:14:35,720
+<font color="#E5E5E5">into other devices</font><font color="#CCCCCC"> Metasploit ervil is</font>
+
+360
+00:14:35,720 --> 00:14:38,299
+designed so that you<font color="#CCCCCC"> hack into it so</font>
+
+361
+00:14:38,299 --> 00:14:39,709
+it's<font color="#CCCCCC"> designed for</font><font color="#E5E5E5"> people</font><font color="#CCCCCC"> who</font><font color="#E5E5E5"> want to</font>
+
+362
+00:14:39,709 --> 00:14:42,589
+learn penetration testing it is designed
+
+363
+00:14:42,589 --> 00:14:44,209
+<font color="#E5E5E5">so that it has a number</font><font color="#CCCCCC"> of</font>
+
+364
+00:14:44,209 --> 00:14:46,549
+vulnerabilities<font color="#CCCCCC"> and we're</font><font color="#E5E5E5"> gonna try to</font>
+
+365
+00:14:46,549 --> 00:14:49,819
+<font color="#CCCCCC">use Kali Linux and order to hack into</font>
+
+366
+00:14:49,819 --> 00:14:53,029
+MIT exploitable you can download this
+
+367
+00:14:53,029 --> 00:14:55,459
+<font color="#CCCCCC">from the following link</font><font color="#E5E5E5"> you will end up</font>
+
+368
+00:14:55,459 --> 00:14:59,600
+<font color="#E5E5E5">with</font><font color="#CCCCCC"> a zip file</font><font color="#E5E5E5"> like this one so sorry</font>
+
+369
+00:14:59,600 --> 00:15:01,999
+not this one<font color="#E5E5E5"> like this one so once you</font>
+
+370
+00:15:01,999 --> 00:15:04,429
+uncompress it<font color="#E5E5E5"> you'll get this directory</font>
+
+371
+00:15:04,429 --> 00:15:07,429
+double click it<font color="#E5E5E5"> and you'll see the</font>
+
+372
+00:15:07,429 --> 00:15:09,769
+<font color="#E5E5E5">following files so we're gonna create a</font>
+
+373
+00:15:09,769 --> 00:15:12,860
+<font color="#E5E5E5">new machine here</font><font color="#CCCCCC"> and virtual machine and</font>
+
+374
+00:15:12,860 --> 00:15:16,660
+I'm<font color="#CCCCCC"> going to</font><font color="#E5E5E5"> call it</font><font color="#CCCCCC"> Metasploit Abel</font><font color="#E5E5E5"> and</font>
+
+375
+00:15:16,660 --> 00:15:23,049
+this is<font color="#E5E5E5"> going to be a Linux</font><font color="#CCCCCC"> machine and</font>
+
+376
+00:15:23,049 --> 00:15:26,509
+I'm gonna hit<font color="#E5E5E5"> continue and I'll only</font>
+
+377
+00:15:26,509 --> 00:15:28,519
+gonna give it a gigabyte<font color="#CCCCCC"> of RAM should</font>
+
+378
+00:15:28,519 --> 00:15:33,200
+<font color="#CCCCCC">be enough</font><font color="#E5E5E5"> and then</font>
+
+379
+00:15:33,200 --> 00:15:35,360
+<font color="#E5E5E5">gonna use remember with Kali Linux we</font>
+
+380
+00:15:35,360 --> 00:15:37,820
+created a new virtual<font color="#E5E5E5"> hard disk with</font>
+
+381
+00:15:37,820 --> 00:15:40,580
+this we're<font color="#CCCCCC"> gonna use an existing</font><font color="#E5E5E5"> one</font><font color="#CCCCCC"> the</font>
+
+382
+00:15:40,580 --> 00:15:44,330
+reason<font color="#E5E5E5"> for that is because the image</font>
+
+383
+00:15:44,330 --> 00:15:46,190
+that we have<font color="#CCCCCC"> right now is actually</font><font color="#E5E5E5"> it's</font>
+
+384
+00:15:46,190 --> 00:15:48,800
+designed for<font color="#E5E5E5"> VMware Player so what we're</font>
+
+385
+00:15:48,800 --> 00:15:51,320
+gonna do is we're gonna import the hard
+
+386
+00:15:51,320 --> 00:15:53,540
+<font color="#E5E5E5">the hard disk file or the</font><font color="#CCCCCC"> hard disk</font>
+
+387
+00:15:53,540 --> 00:15:55,880
+image in here<font color="#E5E5E5"> so that</font><font color="#CCCCCC"> we're gonna have</font>
+
+388
+00:15:55,880 --> 00:15:58,040
+an<font color="#E5E5E5"> already installation without having</font>
+
+389
+00:15:58,040 --> 00:16:00,380
+to<font color="#CCCCCC"> install it the way we</font><font color="#E5E5E5"> install Kali</font>
+
+390
+00:16:00,380 --> 00:16:02,210
+Linux<font color="#E5E5E5"> so we're just going to use an</font>
+
+391
+00:16:02,210 --> 00:16:05,870
+existing virtual hard disk file<font color="#CCCCCC"> and I'm</font>
+
+392
+00:16:05,870 --> 00:16:07,820
+just<font color="#CCCCCC"> going to navigate</font><font color="#E5E5E5"> to select</font><font color="#CCCCCC"> what it</font>
+
+393
+00:16:07,820 --> 00:16:10,550
+is<font color="#E5E5E5"> I'm gonna go into the</font><font color="#CCCCCC"> MIT exploitable</font>
+
+394
+00:16:10,550 --> 00:16:13,880
+directory<font color="#E5E5E5"> and I'm gonna</font><font color="#CCCCCC"> select the dart</font>
+
+395
+00:16:13,880 --> 00:16:18,250
+VM<font color="#CCCCCC"> VK file so it's this file right here</font>
+
+396
+00:16:18,250 --> 00:16:26,210
+<font color="#E5E5E5">I'm gonna click on open and create so</font>
+
+397
+00:16:26,210 --> 00:16:29,980
+we're gonna start<font color="#E5E5E5"> this machine right</font><font color="#CCCCCC"> now</font>
+
+398
+00:16:30,640 --> 00:16:33,230
+<font color="#E5E5E5">okay so the machine has ran out</font>
+
+399
+00:16:33,230 --> 00:16:35,060
+completely installed as I said you<font color="#E5E5E5"> don't</font>
+
+400
+00:16:35,060 --> 00:16:36,710
+<font color="#E5E5E5">really need to install anything we</font><font color="#CCCCCC"> just</font>
+
+401
+00:16:36,710 --> 00:16:38,930
+imported<font color="#CCCCCC"> a ready installation already</font>
+
+402
+00:16:38,930 --> 00:16:40,880
+<font color="#CCCCCC">hard disk so it's asking me for the</font>
+
+403
+00:16:40,880 --> 00:16:47,030
+<font color="#E5E5E5">username and the username</font><font color="#CCCCCC"> is m/s</font><font color="#E5E5E5"> F admin</font>
+
+404
+00:16:47,030 --> 00:16:51,710
+and the password is the<font color="#CCCCCC"> same so it's MSF</font>
+
+405
+00:16:51,710 --> 00:16:55,340
+admin as well and as we can<font color="#CCCCCC"> see now we</font>
+
+406
+00:16:55,340 --> 00:16:58,100
+logged in<font color="#E5E5E5"> now this is only this machine</font>
+
+407
+00:16:58,100 --> 00:17:00,350
+<font color="#CCCCCC">only has a</font><font color="#E5E5E5"> terminal as you can see right</font>
+
+408
+00:17:00,350 --> 00:17:03,440
+<font color="#CCCCCC">now</font><font color="#E5E5E5"> and it's giving you a warning</font><font color="#CCCCCC"> that</font>
+
+409
+00:17:03,440 --> 00:17:06,349
+<font color="#E5E5E5">you should never expose this machine to</font>
+
+410
+00:17:06,349 --> 00:17:08,599
+external internet connection<font color="#E5E5E5"> because it</font>
+
+411
+00:17:08,599 --> 00:17:10,699
+is a<font color="#E5E5E5"> vulnerable machine it</font><font color="#CCCCCC"> is designed</font>
+
+412
+00:17:10,699 --> 00:17:13,069
+to be<font color="#E5E5E5"> vulnerable now right now it's only</font>
+
+413
+00:17:13,069 --> 00:17:16,099
+inside our lab it's only<font color="#E5E5E5"> installed as</font>
+
+414
+00:17:16,099 --> 00:17:18,079
+virtual machine so literally<font color="#CCCCCC"> nobody</font>
+
+415
+00:17:18,079 --> 00:17:20,540
+outside our lab can access it<font color="#CCCCCC"> so this is</font>
+
+416
+00:17:20,540 --> 00:17:23,720
+<font color="#CCCCCC">a really</font><font color="#E5E5E5"> good way</font><font color="#CCCCCC"> of using it now this</font>
+
+417
+00:17:23,720 --> 00:17:25,940
+<font color="#E5E5E5">is if the machine is</font><font color="#CCCCCC"> installed</font><font color="#E5E5E5"> as I said</font>
+
+418
+00:17:25,940 --> 00:17:28,130
+in the future<font color="#CCCCCC"> we're gonna talk about how</font>
+
+419
+00:17:28,130 --> 00:17:30,620
+we're<font color="#E5E5E5"> gonna try and hack into this</font>
+
+420
+00:17:30,620 --> 00:17:32,150
+<font color="#E5E5E5">machine again don't be intimidated by</font>
+
+421
+00:17:32,150 --> 00:17:34,070
+<font color="#CCCCCC">the terminal we're gonna be</font><font color="#E5E5E5"> using it a</font>
+
+422
+00:17:34,070 --> 00:17:36,380
+lot<font color="#E5E5E5"> and we're gonna learn</font><font color="#CCCCCC"> how to use it</font>
+
+423
+00:17:36,380 --> 00:17:39,320
+<font color="#E5E5E5">step-by-step so at the moment just we</font>
+
+424
+00:17:39,320 --> 00:17:40,820
+have this installed and we're going<font color="#E5E5E5"> to</font>
+
+425
+00:17:40,820 --> 00:17:42,920
+move<font color="#E5E5E5"> on</font><font color="#CCCCCC"> to the next</font><font color="#E5E5E5"> step and we will</font>
+
+426
+00:17:42,920 --> 00:17:44,840
+talk<font color="#E5E5E5"> about this once we</font><font color="#CCCCCC"> actually need to</font>
+
+427
+00:17:44,840 --> 00:17:46,640
+<font color="#CCCCCC">use it in the future so</font>
+
+428
+00:17:46,640 --> 00:17:47,900
+you want to turn off<font color="#E5E5E5"> this machine</font><font color="#CCCCCC"> all</font>
+
+429
+00:17:47,900 --> 00:17:50,890
+you<font color="#E5E5E5"> have to do is just type in power off</font>
+
+430
+00:17:50,890 --> 00:17:57,170
+and hit enter<font color="#E5E5E5"> and telling you that you</font>
+
+431
+00:17:57,170 --> 00:17:59,540
+<font color="#CCCCCC">need to be rude so again I'll talk about</font>
+
+432
+00:17:59,540 --> 00:18:00,380
+<font color="#E5E5E5">this later</font>
+
+433
+00:18:00,380 --> 00:18:06,020
+for now<font color="#CCCCCC"> pseudo power off so just run the</font>
+
+434
+00:18:06,020 --> 00:18:10,070
+<font color="#E5E5E5">command like this and asking you for the</font>
+
+435
+00:18:10,070 --> 00:18:16,340
+admin password and that's it it's going
+
+436
+00:18:16,340 --> 00:18:19,880
+<font color="#E5E5E5">off now and here we go the machine is</font>
+
+437
+00:18:19,880 --> 00:18:23,990
+off the last<font color="#CCCCCC"> machine that we're going to</font>
+
+438
+00:18:23,990 --> 00:18:26,570
+<font color="#E5E5E5">talk about</font><font color="#CCCCCC"> installing today</font><font color="#E5E5E5"> is the</font>
+
+439
+00:18:26,570 --> 00:18:29,210
+Windows machine so this is<font color="#E5E5E5"> just a normal</font>
+
+440
+00:18:29,210 --> 00:18:32,000
+Windows machine that with Windows 10
+
+441
+00:18:32,000 --> 00:18:35,180
+<font color="#CCCCCC">that we will also</font><font color="#E5E5E5"> try</font><font color="#CCCCCC"> to hack into so</font>
+
+442
+00:18:35,180 --> 00:18:36,950
+this is going<font color="#E5E5E5"> to be another victim</font>
+
+443
+00:18:36,950 --> 00:18:39,560
+another<font color="#E5E5E5"> target and we're gonna see how</font>
+
+444
+00:18:39,560 --> 00:18:42,410
+we can try and hack into this victim now
+
+445
+00:18:42,410 --> 00:18:45,020
+again<font color="#E5E5E5"> we installed</font><font color="#CCCCCC"> Metasploit able</font>
+
+446
+00:18:45,020 --> 00:18:46,970
+because<font color="#CCCCCC"> Metasploit able has a large</font>
+
+447
+00:18:46,970 --> 00:18:49,040
+number<font color="#E5E5E5"> of vulnerabilities</font><font color="#CCCCCC"> and it can</font>
+
+448
+00:18:49,040 --> 00:18:51,710
+<font color="#E5E5E5">it's just designed so that</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> can hack</font>
+
+449
+00:18:51,710 --> 00:18:53,570
+into again we've seen<font color="#E5E5E5"> that it</font><font color="#CCCCCC"> has a</font>
+
+450
+00:18:53,570 --> 00:18:55,490
+terminal<font color="#CCCCCC"> it's not very</font><font color="#E5E5E5"> user friendly as</font>
+
+451
+00:18:55,490 --> 00:18:58,010
+and it doesn't really<font color="#E5E5E5"> mimic</font><font color="#CCCCCC"> a normal</font>
+
+452
+00:18:58,010 --> 00:19:00,380
+user for the<font color="#E5E5E5"> Windows machine this one</font>
+
+453
+00:19:00,380 --> 00:19:02,780
+<font color="#E5E5E5">will be used with scenarios</font><font color="#CCCCCC"> that mimic a</font>
+
+454
+00:19:02,780 --> 00:19:05,450
+normal user that is just<font color="#CCCCCC"> using their</font>
+
+455
+00:19:05,450 --> 00:19:07,130
+<font color="#E5E5E5">windows</font><font color="#CCCCCC"> to browse the</font><font color="#E5E5E5"> internet or</font><font color="#CCCCCC"> do</font>
+
+456
+00:19:07,130 --> 00:19:09,620
+whatever<font color="#E5E5E5"> normal</font><font color="#CCCCCC"> people do with their</font>
+
+457
+00:19:09,620 --> 00:19:13,010
+machines<font color="#E5E5E5"> so Microsoft has actually</font>
+
+458
+00:19:13,010 --> 00:19:15,980
+released<font color="#CCCCCC"> a</font><font color="#E5E5E5"> free free versions or free</font>
+
+459
+00:19:15,980 --> 00:19:18,110
+<font color="#E5E5E5">virtual machines of Windows</font><font color="#CCCCCC"> that you</font><font color="#E5E5E5"> can</font>
+
+460
+00:19:18,110 --> 00:19:20,270
+download and<font color="#CCCCCC"> use these</font><font color="#E5E5E5"> are free and</font>
+
+461
+00:19:20,270 --> 00:19:21,620
+you're allowed to<font color="#CCCCCC"> download</font><font color="#E5E5E5"> them and</font>
+
+462
+00:19:21,620 --> 00:19:23,270
+<font color="#E5E5E5">we're</font><font color="#CCCCCC"> downloading them from Microsoft's</font>
+
+463
+00:19:23,270 --> 00:19:26,600
+<font color="#E5E5E5">website so you need to go into</font><font color="#CCCCCC"> this link</font>
+
+464
+00:19:26,600 --> 00:19:29,990
+to<font color="#E5E5E5"> download it</font><font color="#CCCCCC"> as you can see here this</font>
+
+465
+00:19:29,990 --> 00:19:32,660
+is<font color="#E5E5E5"> the same link so make</font><font color="#CCCCCC"> sure you select</font>
+
+466
+00:19:32,660 --> 00:19:35,450
+what host operating system<font color="#E5E5E5"> you have so</font>
+
+467
+00:19:35,450 --> 00:19:37,160
+if you<font color="#CCCCCC"> have</font><font color="#E5E5E5"> Windows you click on the</font>
+
+468
+00:19:37,160 --> 00:19:39,140
+<font color="#CCCCCC">windows tab</font><font color="#E5E5E5"> if you have Mac on the Mac</font>
+
+469
+00:19:39,140 --> 00:19:40,640
+and<font color="#E5E5E5"> if you have Linux on the Linux</font><font color="#CCCCCC"> I</font>
+
+470
+00:19:40,640 --> 00:19:42,860
+have a Mac so I clicked<font color="#E5E5E5"> on the Mac tab</font>
+
+471
+00:19:42,860 --> 00:19:45,110
+and from<font color="#E5E5E5"> here make sure you select</font>
+
+472
+00:19:45,110 --> 00:19:49,010
+Windows 10 stable<font color="#E5E5E5"> and make sure you</font>
+
+473
+00:19:49,010 --> 00:19:52,760
+select<font color="#CCCCCC"> the VirtualBox image so these are</font>
+
+474
+00:19:52,760 --> 00:19:54,590
+all applications that allow<font color="#CCCCCC"> you to</font>
+
+475
+00:19:54,590 --> 00:19:57,620
+<font color="#E5E5E5">install virtual machines</font><font color="#CCCCCC"> at the moment</font>
+
+476
+00:19:57,620 --> 00:20:00,020
+we're using VirtualBox for everything so
+
+477
+00:20:00,020 --> 00:20:03,350
+make sure you use<font color="#CCCCCC"> the VirtualBox image</font>
+
+478
+00:20:03,350 --> 00:20:06,890
+once you do<font color="#CCCCCC"> that you will have</font><font color="#E5E5E5"> a zip</font>
+
+479
+00:20:06,890 --> 00:20:08,120
+file like this one
+
+480
+00:20:08,120 --> 00:20:11,090
+<font color="#E5E5E5">I'm compress it and you will get this</font>
+
+481
+00:20:11,090 --> 00:20:14,120
+file right<font color="#CCCCCC"> here</font><font color="#E5E5E5"> now this is a virtual</font>
+
+482
+00:20:14,120 --> 00:20:16,160
+<font color="#CCCCCC">machine a VirtualBox virtual machine</font>
+
+483
+00:20:16,160 --> 00:20:20,650
+file so I'm going to<font color="#E5E5E5"> double click it</font>
+
+484
+00:20:20,750 --> 00:20:23,000
+and as you can<font color="#E5E5E5"> see</font><font color="#CCCCCC"> in our virtual box is</font>
+
+485
+00:20:23,000 --> 00:20:25,280
+asking me<font color="#E5E5E5"> to import this machine</font><font color="#CCCCCC"> and</font>
+
+486
+00:20:25,280 --> 00:20:28,250
+<font color="#CCCCCC">it's already set up</font><font color="#E5E5E5"> the settings for it</font>
+
+487
+00:20:28,250 --> 00:20:29,840
+right here now we<font color="#E5E5E5"> can import it the way</font>
+
+488
+00:20:29,840 --> 00:20:32,020
+it is<font color="#E5E5E5"> and then modify the settings now</font>
+
+489
+00:20:32,020 --> 00:20:34,940
+<font color="#CCCCCC">as you</font><font color="#E5E5E5"> can</font><font color="#CCCCCC"> see here I have my windows</font>
+
+490
+00:20:34,940 --> 00:20:38,420
+installed right here<font color="#E5E5E5"> and I'm just</font><font color="#CCCCCC"> gonna</font>
+
+491
+00:20:38,420 --> 00:20:40,670
+boot into<font color="#E5E5E5"> it by actually I'm gonna</font>
+
+492
+00:20:40,670 --> 00:20:42,230
+modify the settings first because I
+
+493
+00:20:42,230 --> 00:20:44,240
+remember I<font color="#CCCCCC"> think it gave</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> four gigs of</font>
+
+494
+00:20:44,240 --> 00:20:46,700
+<font color="#E5E5E5">RAM and I think that's too</font><font color="#CCCCCC"> much so I'm</font>
+
+495
+00:20:46,700 --> 00:20:51,650
+gonna go in to<font color="#E5E5E5"> here and I'll set this</font><font color="#CCCCCC"> to</font>
+
+496
+00:20:51,650 --> 00:20:57,190
+gig<font color="#E5E5E5"> two gigs and yeah</font><font color="#CCCCCC"> so that</font><font color="#E5E5E5"> okay and</font>
+
+497
+00:20:57,190 --> 00:21:00,519
+I'll start<font color="#E5E5E5"> it</font>
+
+498
+00:21:00,519 --> 00:21:02,709
+and as you can see<font color="#CCCCCC"> windows starting</font>
+
+499
+00:21:02,709 --> 00:21:04,779
+<font color="#CCCCCC">straightaway no need to</font><font color="#E5E5E5"> install it it's</font>
+
+500
+00:21:04,779 --> 00:21:07,179
+already<font color="#CCCCCC"> installed and ready</font><font color="#E5E5E5"> and given to</font>
+
+501
+00:21:07,179 --> 00:21:10,200
+us by Microsoft
+
+502
+00:21:13,510 --> 00:21:15,450
+you
+
+503
+00:21:15,450 --> 00:21:17,710
+now as you can<font color="#CCCCCC"> see we have a fully</font>
+
+504
+00:21:17,710 --> 00:21:19,570
+<font color="#CCCCCC">working Windows machine right here</font>
+
+505
+00:21:19,570 --> 00:21:22,450
+<font color="#CCCCCC">Windows 10</font><font color="#E5E5E5"> and this is</font><font color="#CCCCCC"> going to be our</font>
+
+506
+00:21:22,450 --> 00:21:26,860
+<font color="#E5E5E5">third machine that we're gonna</font><font color="#CCCCCC"> use as in</font>
+
+507
+00:21:26,860 --> 00:21:29,080
+our lab<font color="#E5E5E5"> and it's gonna be our second</font>
+
+508
+00:21:29,080 --> 00:21:31,300
+attacking machine so it's our second
+
+509
+00:21:31,300 --> 00:21:33,640
+victim<font color="#CCCCCC"> or target machine</font><font color="#E5E5E5"> the Kali Linux</font>
+
+510
+00:21:33,640 --> 00:21:35,020
+machine is the<font color="#E5E5E5"> one that we're going to</font>
+
+511
+00:21:35,020 --> 00:21:38,500
+<font color="#E5E5E5">be using to attack both of these</font>
+
+512
+00:21:38,500 --> 00:21:40,930
+machines<font color="#E5E5E5"> the Windows machine and the</font>
+
+513
+00:21:40,930 --> 00:21:45,190
+<font color="#E5E5E5">Metasploit</font><font color="#CCCCCC"> able machine okay</font><font color="#E5E5E5"> now</font><font color="#CCCCCC"> that we</font>
+
+514
+00:21:45,190 --> 00:21:47,710
+<font color="#CCCCCC">have Kali Linux installed I want to give</font>
+
+515
+00:21:47,710 --> 00:21:50,080
+you<font color="#CCCCCC"> a</font><font color="#E5E5E5"> basic overview of this operating</font>
+
+516
+00:21:50,080 --> 00:21:52,480
+<font color="#CCCCCC">system in this lecture</font><font color="#E5E5E5"> so that</font><font color="#CCCCCC"> you're</font>
+
+517
+00:21:52,480 --> 00:21:54,430
+<font color="#CCCCCC">comfortable with it</font><font color="#E5E5E5"> and we're going to</font>
+
+518
+00:21:54,430 --> 00:21:56,080
+be<font color="#E5E5E5"> using it</font><font color="#CCCCCC"> throughout the whole course</font>
+
+519
+00:21:56,080 --> 00:21:58,150
+<font color="#CCCCCC">so everything is going to</font><font color="#E5E5E5"> become easier</font>
+
+520
+00:21:58,150 --> 00:22:01,930
+<font color="#E5E5E5">for you as we go through the course now</font>
+
+521
+00:22:01,930 --> 00:22:03,070
+the first thing<font color="#CCCCCC"> that I want to</font><font color="#E5E5E5"> talk</font>
+
+522
+00:22:03,070 --> 00:22:05,170
+about is the status bar in here
+
+523
+00:22:05,170 --> 00:22:07,960
+so you can see we have an applications
+
+524
+00:22:07,960 --> 00:22:11,440
+<font color="#E5E5E5">menu in here and inside it you</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> see</font>
+
+525
+00:22:11,440 --> 00:22:14,860
+all<font color="#CCCCCC"> the applications are categorized</font><font color="#E5E5E5"> so</font>
+
+526
+00:22:14,860 --> 00:22:16,200
+we have<font color="#CCCCCC"> information-gathering</font>
+
+527
+00:22:16,200 --> 00:22:19,480
+<font color="#CCCCCC">applications</font><font color="#E5E5E5"> vulnerability analysis web</font>
+
+528
+00:22:19,480 --> 00:22:22,180
+application analysis reverse engineering
+
+529
+00:22:22,180 --> 00:22:26,260
+and so<font color="#E5E5E5"> on so you can go on each one of</font>
+
+530
+00:22:26,260 --> 00:22:28,060
+these<font color="#E5E5E5"> entries and just select any</font>
+
+531
+00:22:28,060 --> 00:22:31,030
+program that<font color="#CCCCCC"> you want</font><font color="#E5E5E5"> to run and the</font>
+
+532
+00:22:31,030 --> 00:22:32,950
+next menu<font color="#CCCCCC"> that we have is the places</font>
+
+533
+00:22:32,950 --> 00:22:35,680
+<font color="#E5E5E5">which shows you</font><font color="#CCCCCC"> the most common places</font>
+
+534
+00:22:35,680 --> 00:22:38,680
+in the file system<font color="#E5E5E5"> so we have home we</font>
+
+535
+00:22:38,680 --> 00:22:40,510
+have<font color="#E5E5E5"> the desktop we have the documents</font>
+
+536
+00:22:40,510 --> 00:22:43,540
+downloads and so on so<font color="#E5E5E5"> you can access</font>
+
+537
+00:22:43,540 --> 00:22:45,430
+<font color="#CCCCCC">the places from here and then</font><font color="#E5E5E5"> you click</font>
+
+538
+00:22:45,430 --> 00:22:47,950
+<font color="#E5E5E5">on home or you can</font><font color="#CCCCCC"> just click on the</font>
+
+539
+00:22:47,950 --> 00:22:50,680
+files<font color="#CCCCCC"> icon in here on the</font><font color="#E5E5E5"> left and both</font>
+
+540
+00:22:50,680 --> 00:22:52,480
+<font color="#E5E5E5">of these will bring you to the home</font>
+
+541
+00:22:52,480 --> 00:22:55,060
+<font color="#CCCCCC">directory</font><font color="#E5E5E5"> which</font><font color="#CCCCCC"> is actually the root</font>
+
+542
+00:22:55,060 --> 00:22:55,990
+<font color="#CCCCCC">directory</font>
+
+543
+00:22:55,990 --> 00:22:59,380
+so it says home<font color="#E5E5E5"> in here but the actual</font>
+
+544
+00:22:59,380 --> 00:23:02,680
+location<font color="#E5E5E5"> of this if I do ctrl L you'll</font>
+
+545
+00:23:02,680 --> 00:23:07,300
+see it is /root so inside<font color="#E5E5E5"> this you can</font>
+
+546
+00:23:07,300 --> 00:23:09,720
+see we have<font color="#E5E5E5"> our downloads music pictures</font>
+
+547
+00:23:09,720 --> 00:23:12,040
+<font color="#E5E5E5">similar to the way</font><font color="#CCCCCC"> that you'd have it in</font>
+
+548
+00:23:12,040 --> 00:23:15,760
+Windows and<font color="#CCCCCC"> OS X we also have the</font><font color="#E5E5E5"> time</font>
+
+549
+00:23:15,760 --> 00:23:18,400
+in here and in here<font color="#CCCCCC"> on the right we have</font>
+
+550
+00:23:18,400 --> 00:23:21,370
+<font color="#CCCCCC">more controls</font><font color="#E5E5E5"> so the first thing that we</font>
+
+551
+00:23:21,370 --> 00:23:24,460
+have in here<font color="#E5E5E5"> is the workspaces</font><font color="#CCCCCC"> so Linux</font>
+
+552
+00:23:24,460 --> 00:23:26,740
+comes with<font color="#CCCCCC"> multiple workspaces by</font>
+
+553
+00:23:26,740 --> 00:23:28,630
+default<font color="#E5E5E5"> base</font>
+
+554
+00:23:28,630 --> 00:23:31,180
+what<font color="#E5E5E5"> this allow us</font><font color="#CCCCCC"> to do is we</font><font color="#E5E5E5"> can have</font>
+
+555
+00:23:31,180 --> 00:23:33,400
+this<font color="#E5E5E5"> desktop in here for example we can</font>
+
+556
+00:23:33,400 --> 00:23:36,250
+open the places<font color="#E5E5E5"> and we can for example</font>
+
+557
+00:23:36,250 --> 00:23:38,260
+navigate to downloads and<font color="#CCCCCC"> do some work</font>
+
+558
+00:23:38,260 --> 00:23:43,000
+<font color="#E5E5E5">in here but if we go here to</font><font color="#CCCCCC"> workplaces</font>
+
+559
+00:23:43,000 --> 00:23:46,180
+<font color="#CCCCCC">and go to the second one you can see</font>
+
+560
+00:23:46,180 --> 00:23:48,100
+that<font color="#CCCCCC"> I have an</font><font color="#E5E5E5"> empty desktop that I can</font>
+
+561
+00:23:48,100 --> 00:23:50,530
+do whatever I want<font color="#CCCCCC"> and for</font><font color="#E5E5E5"> example I can</font>
+
+562
+00:23:50,530 --> 00:23:52,909
+launch<font color="#E5E5E5"> Firefox in here</font>
+
+563
+00:23:52,909 --> 00:23:55,999
+and then again<font color="#E5E5E5"> if I want to go back to</font>
+
+564
+00:23:55,999 --> 00:23:58,249
+the first<font color="#CCCCCC"> workspace all I have</font><font color="#E5E5E5"> to do is</font>
+
+565
+00:23:58,249 --> 00:24:00,830
+click<font color="#E5E5E5"> on here click on number one and</font>
+
+566
+00:24:00,830 --> 00:24:04,159
+I'm back in<font color="#CCCCCC"> here and because I've</font>
+
+567
+00:24:04,159 --> 00:24:06,889
+<font color="#E5E5E5">already used up two spaces the system is</font>
+
+568
+00:24:06,889 --> 00:24:09,499
+already creating a third empty space<font color="#E5E5E5"> so</font>
+
+569
+00:24:09,499 --> 00:24:11,899
+<font color="#CCCCCC">I</font><font color="#E5E5E5"> can click on</font><font color="#CCCCCC"> that and as you can see</font>
+
+570
+00:24:11,899 --> 00:24:13,940
+I'm<font color="#E5E5E5"> in</font><font color="#CCCCCC"> there third space where I</font><font color="#E5E5E5"> can do</font>
+
+571
+00:24:13,940 --> 00:24:16,970
+more<font color="#CCCCCC"> stuff now you</font><font color="#E5E5E5"> can also navigate</font>
+
+572
+00:24:16,970 --> 00:24:19,759
+<font color="#E5E5E5">between the spaces by pressing ctrl alt</font>
+
+573
+00:24:19,759 --> 00:24:24,139
+up or down<font color="#E5E5E5"> to go up and down in the</font>
+
+574
+00:24:24,139 --> 00:24:27,590
+spaces the next part of the<font color="#CCCCCC"> Salus bar is</font>
+
+575
+00:24:27,590 --> 00:24:30,590
+this last part in here and if you<font color="#E5E5E5"> click</font>
+
+576
+00:24:30,590 --> 00:24:32,330
+on<font color="#E5E5E5"> it</font><font color="#CCCCCC"> basically</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> first thing</font><font color="#E5E5E5"> it'll</font>
+
+577
+00:24:32,330 --> 00:24:34,389
+allow you<font color="#E5E5E5"> to do is control</font><font color="#CCCCCC"> the sound</font>
+
+578
+00:24:34,389 --> 00:24:38,149
+<font color="#E5E5E5">next you'll see your connections so as</font>
+
+579
+00:24:38,149 --> 00:24:39,619
+you can see<font color="#E5E5E5"> right</font><font color="#CCCCCC"> now and</font><font color="#E5E5E5"> as I showed</font>
+
+580
+00:24:39,619 --> 00:24:41,840
+you<font color="#CCCCCC"> before</font><font color="#E5E5E5"> this is showing up as if were</font>
+
+581
+00:24:41,840 --> 00:24:44,720
+<font color="#E5E5E5">connected to a wired network because I</font>
+
+582
+00:24:44,720 --> 00:24:46,940
+configured this network<font color="#CCCCCC"> to use an ad</font>
+
+583
+00:24:46,940 --> 00:24:49,970
+<font color="#E5E5E5">network if you</font><font color="#CCCCCC"> have a wireless</font><font color="#E5E5E5"> adapter</font>
+
+584
+00:24:49,970 --> 00:24:52,580
+<font color="#CCCCCC">connected to this computer you should be</font>
+
+585
+00:24:52,580 --> 00:24:55,249
+able to<font color="#E5E5E5"> see it</font><font color="#CCCCCC"> here if you don't see</font><font color="#E5E5E5"> it</font>
+
+586
+00:24:55,249 --> 00:24:57,950
+then follow the<font color="#CCCCCC"> link in the resources of</font>
+
+587
+00:24:57,950 --> 00:25:00,019
+<font color="#E5E5E5">this lecture to see how to properly</font>
+
+588
+00:25:00,019 --> 00:25:02,960
+connect your<font color="#CCCCCC"> wireless adapter or any USB</font>
+
+589
+00:25:02,960 --> 00:25:07,070
+device<font color="#E5E5E5"> to a virtual</font><font color="#CCCCCC"> machine now I should</font>
+
+590
+00:25:07,070 --> 00:25:09,789
+<font color="#CCCCCC">note you can only use external USB</font>
+
+591
+00:25:09,789 --> 00:25:12,799
+adapters<font color="#CCCCCC"> in order</font><font color="#E5E5E5"> to access Wi-Fi</font>
+
+592
+00:25:12,799 --> 00:25:15,919
+<font color="#E5E5E5">networks from</font><font color="#CCCCCC"> Kali you cannot use the</font>
+
+593
+00:25:15,919 --> 00:25:19,489
+<font color="#E5E5E5">built-in Wi-Fi card but Kali should have</font>
+
+594
+00:25:19,489 --> 00:25:22,039
+internet connection anyway because<font color="#E5E5E5"> it is</font>
+
+595
+00:25:22,039 --> 00:25:24,289
+configured<font color="#CCCCCC"> to</font><font color="#E5E5E5"> use an ad</font><font color="#CCCCCC"> network and as</font>
+
+596
+00:25:24,289 --> 00:25:26,149
+you can<font color="#E5E5E5"> see</font><font color="#CCCCCC"> in here it's</font><font color="#E5E5E5"> telling</font><font color="#CCCCCC"> me my</font>
+
+597
+00:25:26,149 --> 00:25:29,330
+wired is connected so if I actually go
+
+598
+00:25:29,330 --> 00:25:32,710
+<font color="#E5E5E5">down to Firefox I'll close this</font>
+
+599
+00:25:32,710 --> 00:25:37,899
+and if I just<font color="#CCCCCC"> go to google.com</font><font color="#E5E5E5"> you can</font>
+
+600
+00:25:37,899 --> 00:25:41,070
+see it is connected to<font color="#E5E5E5"> the</font><font color="#CCCCCC"> Internet so</font>
+
+601
+00:25:41,070 --> 00:25:45,549
+<font color="#CCCCCC">let's go back</font><font color="#E5E5E5"> to where we</font><font color="#CCCCCC"> were and if we</font>
+
+602
+00:25:45,549 --> 00:25:49,240
+<font color="#E5E5E5">click here we also</font><font color="#CCCCCC"> have the battery</font>
+
+603
+00:25:49,240 --> 00:25:52,330
+settings<font color="#CCCCCC"> the user</font><font color="#E5E5E5"> settings you</font><font color="#CCCCCC"> have this</font>
+
+604
+00:25:52,330 --> 00:25:54,789
+<font color="#E5E5E5">button to turn off</font><font color="#CCCCCC"> the Machine</font><font color="#E5E5E5"> this is</font>
+
+605
+00:25:54,789 --> 00:25:57,100
+to lock the<font color="#E5E5E5"> machine</font><font color="#CCCCCC"> and this will show</font>
+
+606
+00:25:57,100 --> 00:25:59,500
+<font color="#CCCCCC">the Preferences where you can modify the</font>
+
+607
+00:25:59,500 --> 00:26:01,450
+<font color="#CCCCCC">Preferences of the</font><font color="#E5E5E5"> machine so</font><font color="#CCCCCC"> you have</font>
+
+608
+00:26:01,450 --> 00:26:04,149
+Bluetooth Wi-Fi<font color="#E5E5E5"> change the background</font>
+
+609
+00:26:04,149 --> 00:26:08,049
+<font color="#E5E5E5">change the languages and so on so you</font>
+
+610
+00:26:08,049 --> 00:26:09,880
+<font color="#E5E5E5">can spend some time</font><font color="#CCCCCC"> getting familiar</font>
+
+611
+00:26:09,880 --> 00:26:11,679
+<font color="#CCCCCC">with this it's very</font><font color="#E5E5E5"> easy</font><font color="#CCCCCC"> and very</font>
+
+612
+00:26:11,679 --> 00:26:14,799
+intuitive<font color="#CCCCCC"> same goes to the file manager</font>
+
+613
+00:26:14,799 --> 00:26:17,049
+<font color="#CCCCCC">and here very intuitive double click to</font>
+
+614
+00:26:17,049 --> 00:26:19,299
+<font color="#E5E5E5">go in you can right click an archive and</font>
+
+615
+00:26:19,299 --> 00:26:22,210
+<font color="#E5E5E5">extract here to uncompress it you can</font>
+
+616
+00:26:22,210 --> 00:26:24,159
+navigate<font color="#CCCCCC"> throughout these files by</font>
+
+617
+00:26:24,159 --> 00:26:25,690
+clicking<font color="#CCCCCC"> them and then you have the</font>
+
+618
+00:26:25,690 --> 00:26:28,059
+trash here which contains<font color="#E5E5E5"> the deleted</font>
+
+619
+00:26:28,059 --> 00:26:29,710
+files
+
+620
+00:26:29,710 --> 00:26:32,470
+now we also have<font color="#CCCCCC"> the doc in here which</font>
+
+621
+00:26:32,470 --> 00:26:35,100
+contains<font color="#E5E5E5"> the favorite applications and</font>
+
+622
+00:26:35,100 --> 00:26:38,200
+you can also access<font color="#CCCCCC"> all the other</font>
+
+623
+00:26:38,200 --> 00:26:40,750
+applications<font color="#E5E5E5"> by</font><font color="#CCCCCC"> clicking on this icon</font>
+
+624
+00:26:40,750 --> 00:26:43,240
+<font color="#E5E5E5">right here the show applications and</font>
+
+625
+00:26:43,240 --> 00:26:45,820
+this<font color="#E5E5E5"> will show you a menu with the most</font>
+
+626
+00:26:45,820 --> 00:26:48,370
+frequent applications<font color="#E5E5E5"> and then if you</font>
+
+627
+00:26:48,370 --> 00:26:50,950
+click<font color="#CCCCCC"> on</font><font color="#E5E5E5"> all it will show you all</font><font color="#CCCCCC"> the</font>
+
+628
+00:26:50,950 --> 00:26:53,700
+<font color="#CCCCCC">available applications</font>
+
+629
+00:26:54,210 --> 00:26:56,920
+<font color="#E5E5E5">okay now</font><font color="#CCCCCC"> that we had a quick</font><font color="#E5E5E5"> overview of</font>
+
+630
+00:26:56,920 --> 00:26:59,290
+<font color="#CCCCCC">kali linux i want to spend some time</font>
+
+631
+00:26:59,290 --> 00:27:02,500
+<font color="#E5E5E5">talking about the linux terminal so you</font>
+
+632
+00:27:02,500 --> 00:27:04,290
+can<font color="#E5E5E5"> access the terminal through this</font>
+
+633
+00:27:04,290 --> 00:27:06,580
+<font color="#E5E5E5">application right</font><font color="#CCCCCC"> here so if</font><font color="#E5E5E5"> we click on</font>
+
+634
+00:27:06,580 --> 00:27:08,710
+<font color="#E5E5E5">that it</font><font color="#CCCCCC"> will</font><font color="#E5E5E5"> open the terminal window</font>
+
+635
+00:27:08,710 --> 00:27:11,679
+for<font color="#CCCCCC"> us and as you can see all it is is a</font>
+
+636
+00:27:11,679 --> 00:27:14,880
+black screen where you<font color="#CCCCCC"> can</font><font color="#E5E5E5"> type commands</font>
+
+637
+00:27:14,880 --> 00:27:18,010
+now the<font color="#CCCCCC"> linux terminal is actually very</font>
+
+638
+00:27:18,010 --> 00:27:21,010
+very<font color="#E5E5E5"> powerful because</font><font color="#CCCCCC"> it can be</font><font color="#E5E5E5"> used to</font>
+
+639
+00:27:21,010 --> 00:27:23,049
+do<font color="#E5E5E5"> anything that you can think of really</font>
+
+640
+00:27:23,049 --> 00:27:26,290
+<font color="#CCCCCC">a lot</font><font color="#E5E5E5"> of the applications</font><font color="#CCCCCC"> and linux that</font>
+
+641
+00:27:26,290 --> 00:27:28,929
+have a graphical interface where command
+
+642
+00:27:28,929 --> 00:27:31,510
+prompt programs first and then people
+
+643
+00:27:31,510 --> 00:27:34,600
+made a graphical<font color="#CCCCCC"> interface for</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> so a</font>
+
+644
+00:27:34,600 --> 00:27:36,309
+lot<font color="#CCCCCC"> of the time maybe the graphical</font>
+
+645
+00:27:36,309 --> 00:27:38,830
+interface will be buggy<font color="#CCCCCC"> or crash</font><font color="#E5E5E5"> and the</font>
+
+646
+00:27:38,830 --> 00:27:42,490
+terminal<font color="#CCCCCC"> program will still</font><font color="#E5E5E5"> work also a</font>
+
+647
+00:27:42,490 --> 00:27:45,010
+lot of the<font color="#E5E5E5"> penetration testing tools do</font>
+
+648
+00:27:45,010 --> 00:27:47,530
+not<font color="#CCCCCC"> even have a graphical interface</font><font color="#E5E5E5"> a</font>
+
+649
+00:27:47,530 --> 00:27:50,169
+lot<font color="#E5E5E5"> of them can only be used throughout</font>
+
+650
+00:27:50,169 --> 00:27:53,770
+the terminal not<font color="#E5E5E5"> only that but in many</font>
+
+651
+00:27:53,770 --> 00:27:57,130
+scenarios<font color="#CCCCCC"> you might only</font><font color="#E5E5E5"> have an SSH or</font>
+
+652
+00:27:57,130 --> 00:28:00,280
+<font color="#E5E5E5">a command prompt access to a machine</font><font color="#CCCCCC"> so</font>
+
+653
+00:28:00,280 --> 00:28:02,530
+<font color="#E5E5E5">you need to know how to use this command</font>
+
+654
+00:28:02,530 --> 00:28:06,130
+prompt in order to<font color="#E5E5E5"> achieve</font><font color="#CCCCCC"> your goals</font><font color="#E5E5E5"> so</font>
+
+655
+00:28:06,130 --> 00:28:07,750
+throughout the course<font color="#E5E5E5"> we're going</font><font color="#CCCCCC"> to be</font>
+
+656
+00:28:07,750 --> 00:28:10,210
+<font color="#E5E5E5">using the terminal a lot and that's why</font>
+
+657
+00:28:10,210 --> 00:28:13,330
+<font color="#CCCCCC">I want to</font><font color="#E5E5E5"> spend</font><font color="#CCCCCC"> some time just showing</font>
+
+658
+00:28:13,330 --> 00:28:15,429
+you the basics of<font color="#E5E5E5"> it and making sure</font>
+
+659
+00:28:15,429 --> 00:28:16,570
+that you're going<font color="#CCCCCC"> to be comfortable</font>
+
+660
+00:28:16,570 --> 00:28:20,980
+<font color="#E5E5E5">using it now the basic idea is you type</font>
+
+661
+00:28:20,980 --> 00:28:22,809
+a command<font color="#E5E5E5"> and the result will</font><font color="#CCCCCC"> be</font>
+
+662
+00:28:22,809 --> 00:28:26,260
+<font color="#E5E5E5">displayed</font><font color="#CCCCCC"> for you on screen so let's</font>
+
+663
+00:28:26,260 --> 00:28:27,760
+have a look<font color="#E5E5E5"> on a very very simple</font>
+
+664
+00:28:27,760 --> 00:28:32,140
+command which is PWD<font color="#E5E5E5"> now this command</font>
+
+665
+00:28:32,140 --> 00:28:34,809
+<font color="#E5E5E5">prints the current working directory</font><font color="#CCCCCC"> has</font>
+
+666
+00:28:34,809 --> 00:28:39,280
+the name PWD so if<font color="#E5E5E5"> I hit enter you can</font>
+
+667
+00:28:39,280 --> 00:28:42,220
+<font color="#E5E5E5">see it's printing /root which means</font>
+
+668
+00:28:42,220 --> 00:28:45,910
+right now<font color="#CCCCCC"> I am in</font><font color="#E5E5E5"> the root directory</font><font color="#CCCCCC"> so</font>
+
+669
+00:28:45,910 --> 00:28:48,970
+basically I<font color="#CCCCCC"> am in here this is the root</font>
+
+670
+00:28:48,970 --> 00:28:50,820
+<font color="#CCCCCC">it's home</font>
+
+671
+00:28:50,820 --> 00:28:53,850
+so if I do LS<font color="#E5E5E5"> which is a command to list</font>
+
+672
+00:28:53,850 --> 00:28:56,670
+all the<font color="#E5E5E5"> directories and files in the</font>
+
+673
+00:28:56,670 --> 00:28:59,010
+current<font color="#E5E5E5"> working directory</font><font color="#CCCCCC"> we should get</font>
+
+674
+00:28:59,010 --> 00:29:01,290
+all of these<font color="#E5E5E5"> directories that we see in</font>
+
+675
+00:29:01,290 --> 00:29:05,760
+here so if I<font color="#E5E5E5"> had enter as you</font><font color="#CCCCCC"> can see I</font>
+
+676
+00:29:05,760 --> 00:29:08,340
+can see all these directories<font color="#E5E5E5"> in the</font>
+
+677
+00:29:08,340 --> 00:29:11,400
+current working directory<font color="#E5E5E5"> now another</font>
+
+678
+00:29:11,400 --> 00:29:13,670
+very useful command is<font color="#E5E5E5"> the CD command</font>
+
+679
+00:29:13,670 --> 00:29:17,000
+<font color="#E5E5E5">this command allow us to</font><font color="#CCCCCC"> navigate into</font>
+
+680
+00:29:17,000 --> 00:29:20,640
+<font color="#E5E5E5">another directory so for example let's</font>
+
+681
+00:29:20,640 --> 00:29:22,500
+say I<font color="#E5E5E5"> want to navigate</font><font color="#CCCCCC"> into the</font>
+
+682
+00:29:22,500 --> 00:29:25,910
+<font color="#E5E5E5">downloads all we have to do is type CD</font>
+
+683
+00:29:25,910 --> 00:29:28,920
+followed<font color="#E5E5E5"> by</font><font color="#CCCCCC"> the name</font><font color="#E5E5E5"> of the directory</font>
+
+684
+00:29:28,920 --> 00:29:31,920
+<font color="#CCCCCC">that I want to navigate to so I'm gonna</font>
+
+685
+00:29:31,920 --> 00:29:34,020
+type downloads
+
+686
+00:29:34,020 --> 00:29:38,010
+now if I<font color="#E5E5E5"> hit enter</font><font color="#CCCCCC"> I should be inside</font>
+
+687
+00:29:38,010 --> 00:29:41,370
+the<font color="#E5E5E5"> downloads now so if I do PWD</font><font color="#CCCCCC"> to see</font>
+
+688
+00:29:41,370 --> 00:29:43,740
+my current working directory<font color="#CCCCCC"> you'll see</font>
+
+689
+00:29:43,740 --> 00:29:47,360
+that it's saying I'm<font color="#CCCCCC"> enroute /downloads</font>
+
+690
+00:29:47,360 --> 00:29:50,880
+<font color="#E5E5E5">so if I do LS here</font><font color="#CCCCCC"> it should</font><font color="#E5E5E5"> show me all</font>
+
+691
+00:29:50,880 --> 00:29:52,980
+the<font color="#E5E5E5"> directories and files inside</font>
+
+692
+00:29:52,980 --> 00:29:56,190
+downloads<font color="#E5E5E5"> so if I do enter as you</font><font color="#CCCCCC"> can</font>
+
+693
+00:29:56,190 --> 00:29:58,830
+see I have a directory<font color="#E5E5E5"> and the file in</font>
+
+694
+00:29:58,830 --> 00:30:01,290
+here<font color="#E5E5E5"> and these</font><font color="#CCCCCC"> are</font><font color="#E5E5E5"> the exact same files</font>
+
+695
+00:30:01,290 --> 00:30:03,090
+that you'll see if you double<font color="#CCCCCC"> click the</font>
+
+696
+00:30:03,090 --> 00:30:05,549
+Downloads here
+
+697
+00:30:05,549 --> 00:30:09,100
+now if you want to go back one directory
+
+698
+00:30:09,100 --> 00:30:11,020
+so similar<font color="#CCCCCC"> to pressing the back button</font>
+
+699
+00:30:11,020 --> 00:30:14,559
+in here<font color="#E5E5E5"> all you have to do is do CD</font>
+
+700
+00:30:14,559 --> 00:30:16,240
+<font color="#E5E5E5">again the command to change</font><font color="#CCCCCC"> the working</font>
+
+701
+00:30:16,240 --> 00:30:20,890
+<font color="#CCCCCC">directory followed by dot dot and now if</font>
+
+702
+00:30:20,890 --> 00:30:23,830
+<font color="#E5E5E5">I do PWD you'll see I'm back in</font><font color="#CCCCCC"> route</font>
+
+703
+00:30:23,830 --> 00:30:26,710
+and if I do LS<font color="#E5E5E5"> you'll see all the</font>
+
+704
+00:30:26,710 --> 00:30:30,039
+<font color="#E5E5E5">directories and files in route so that's</font>
+
+705
+00:30:30,039 --> 00:30:33,280
+all<font color="#E5E5E5"> good</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> there's actually a huge</font>
+
+706
+00:30:33,280 --> 00:30:35,830
+number<font color="#E5E5E5"> of commands</font><font color="#CCCCCC"> that you can</font><font color="#E5E5E5"> use so</font>
+
+707
+00:30:35,830 --> 00:30:38,200
+I'm going<font color="#CCCCCC"> to include a link in the</font>
+
+708
+00:30:38,200 --> 00:30:40,510
+resources<font color="#CCCCCC"> of this lecture of all the</font>
+
+709
+00:30:40,510 --> 00:30:42,850
+Linux commands that you can<font color="#CCCCCC"> use you</font>
+
+710
+00:30:42,850 --> 00:30:44,710
+don't<font color="#E5E5E5"> need to know them by heart</font><font color="#CCCCCC"> we're</font>
+
+711
+00:30:44,710 --> 00:30:46,179
+actually going to<font color="#E5E5E5"> be using</font><font color="#CCCCCC"> a lot of</font><font color="#E5E5E5"> them</font>
+
+712
+00:30:46,179 --> 00:30:47,950
+throughout the course<font color="#CCCCCC"> so you're going to</font>
+
+713
+00:30:47,950 --> 00:30:50,770
+<font color="#E5E5E5">naturally learn them as you</font><font color="#CCCCCC"> go through</font>
+
+714
+00:30:50,770 --> 00:30:53,950
+the course<font color="#E5E5E5"> now if you are using a</font>
+
+715
+00:30:53,950 --> 00:30:55,659
+command<font color="#E5E5E5"> and you're not sure</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> how</font>
+
+716
+00:30:55,659 --> 00:30:58,539
+this command works<font color="#CCCCCC"> you can just use the</font>
+
+717
+00:30:58,539 --> 00:31:01,299
+man command<font color="#E5E5E5"> to</font><font color="#CCCCCC"> display the</font><font color="#E5E5E5"> manual of</font>
+
+718
+00:31:01,299 --> 00:31:04,480
+this command for example<font color="#CCCCCC"> we've used the</font>
+
+719
+00:31:04,480 --> 00:31:06,700
+LS command<font color="#E5E5E5"> here to list the files and</font>
+
+720
+00:31:06,700 --> 00:31:08,140
+<font color="#E5E5E5">directories</font><font color="#CCCCCC"> in the current working</font>
+
+721
+00:31:08,140 --> 00:31:12,419
+directory<font color="#CCCCCC"> but if I do man</font><font color="#E5E5E5"> followed by LS</font>
+
+722
+00:31:12,419 --> 00:31:15,820
+<font color="#E5E5E5">this basically means I'm requesting the</font>
+
+723
+00:31:15,820 --> 00:31:17,289
+manual of LS
+
+724
+00:31:17,289 --> 00:31:19,210
+so I'm<font color="#E5E5E5"> asking how can</font><font color="#CCCCCC"> I use the LS</font>
+
+725
+00:31:19,210 --> 00:31:22,960
+command<font color="#E5E5E5"> so if I had enter you'll see</font>
+
+726
+00:31:22,960 --> 00:31:25,659
+I'll get a screen similar to<font color="#E5E5E5"> a text file</font>
+
+727
+00:31:25,659 --> 00:31:28,570
+and basically<font color="#CCCCCC"> it's given me</font><font color="#E5E5E5"> a lot</font><font color="#CCCCCC"> of</font>
+
+728
+00:31:28,570 --> 00:31:31,679
+<font color="#E5E5E5">information</font><font color="#CCCCCC"> on how to</font><font color="#E5E5E5"> use</font><font color="#CCCCCC"> the LS command</font>
+
+729
+00:31:31,679 --> 00:31:34,480
+so you can see that it's<font color="#E5E5E5"> telling us that</font>
+
+730
+00:31:34,480 --> 00:31:36,250
+this<font color="#E5E5E5"> command will list the directory</font>
+
+731
+00:31:36,250 --> 00:31:38,980
+contents<font color="#E5E5E5"> you can</font><font color="#CCCCCC"> see the way it works</font><font color="#E5E5E5"> by</font>
+
+732
+00:31:38,980 --> 00:31:41,200
+typing LS followed by the options
+
+733
+00:31:41,200 --> 00:31:43,780
+followed by a file<font color="#E5E5E5"> if</font><font color="#CCCCCC"> you if you want</font><font color="#E5E5E5"> to</font>
+
+734
+00:31:43,780 --> 00:31:46,840
+run it on a file you<font color="#E5E5E5"> can see a longer</font>
+
+735
+00:31:46,840 --> 00:31:52,150
+<font color="#CCCCCC">description of the command</font><font color="#E5E5E5"> and then you</font>
+
+736
+00:31:52,150 --> 00:31:54,010
+can see all the options<font color="#CCCCCC"> and the</font>
+
+737
+00:31:54,010 --> 00:31:56,620
+arguments that we can use with this
+
+738
+00:31:56,620 --> 00:32:00,909
+<font color="#E5E5E5">command now in Linux</font><font color="#CCCCCC"> most of the time</font>
+
+739
+00:32:00,909 --> 00:32:03,190
+the options will always follow<font color="#CCCCCC"> the same</font>
+
+740
+00:32:03,190 --> 00:32:07,390
+syntax<font color="#E5E5E5"> so you either use - letter or - -</font>
+
+741
+00:32:07,390 --> 00:32:10,990
+a word<font color="#E5E5E5"> to specify the argument for</font>
+
+742
+00:32:10,990 --> 00:32:13,929
+example and here the - a<font color="#E5E5E5"> and - - all</font>
+
+743
+00:32:13,929 --> 00:32:18,370
+will ignore entries<font color="#E5E5E5"> starting with dot</font>
+
+744
+00:32:18,370 --> 00:32:21,640
+so if you keep<font color="#E5E5E5"> going down in here you'll</font>
+
+745
+00:32:21,640 --> 00:32:23,770
+see<font color="#CCCCCC"> all the options</font><font color="#E5E5E5"> and arguments you</font>
+
+746
+00:32:23,770 --> 00:32:28,210
+can use with the LS<font color="#CCCCCC"> command</font><font color="#E5E5E5"> and we have</font>
+
+747
+00:32:28,210 --> 00:32:30,279
+another example<font color="#CCCCCC"> here we have the -</font><font color="#E5E5E5"> L</font>
+
+748
+00:32:30,279 --> 00:32:33,610
+which means it's going<font color="#E5E5E5"> to use a long</font>
+
+749
+00:32:33,610 --> 00:32:35,730
+listing format which will<font color="#CCCCCC"> display more</font>
+
+750
+00:32:35,730 --> 00:32:38,200
+<font color="#CCCCCC">information about the files in the</font>
+
+751
+00:32:38,200 --> 00:32:41,080
+current<font color="#E5E5E5"> working directory</font><font color="#CCCCCC"> so let's have</font>
+
+752
+00:32:41,080 --> 00:32:42,820
+a look on<font color="#CCCCCC"> that I'm going</font><font color="#E5E5E5"> to press Q to</font>
+
+753
+00:32:42,820 --> 00:32:45,880
+exit this<font color="#E5E5E5"> and then we're</font><font color="#CCCCCC"> going to do LS</font>
+
+754
+00:32:45,880 --> 00:32:49,210
+as usual<font color="#CCCCCC"> and since we read the manual</font><font color="#E5E5E5"> we</font>
+
+755
+00:32:49,210 --> 00:32:51,730
+know we can do -<font color="#E5E5E5"> L to see more</font>
+
+756
+00:32:51,730 --> 00:32:54,490
+<font color="#E5E5E5">information about the files and if I had</font>
+
+757
+00:32:54,490 --> 00:32:56,590
+<font color="#E5E5E5">entered now you can see I'm still</font>
+
+758
+00:32:56,590 --> 00:32:58,779
+getting<font color="#CCCCCC"> the same directories</font><font color="#E5E5E5"> but it's</font>
+
+759
+00:32:58,779 --> 00:33:00,640
+also showing<font color="#CCCCCC"> me the permissions the</font>
+
+760
+00:33:00,640 --> 00:33:05,169
+users the date created<font color="#E5E5E5"> and so on so you</font>
+
+761
+00:33:05,169 --> 00:33:08,049
+can use the man command<font color="#CCCCCC"> on any command</font>
+
+762
+00:33:08,049 --> 00:33:10,659
+you want<font color="#CCCCCC"> not</font><font color="#E5E5E5"> only on the LS so you can</font>
+
+763
+00:33:10,659 --> 00:33:13,510
+use<font color="#E5E5E5"> it on the PWD</font><font color="#CCCCCC"> you can use it</font><font color="#E5E5E5"> on the</font>
+
+764
+00:33:13,510 --> 00:33:16,570
+CD<font color="#E5E5E5"> or any other command and it will show</font>
+
+765
+00:33:16,570 --> 00:33:19,510
+<font color="#CCCCCC">you full description or the manual</font><font color="#E5E5E5"> page</font>
+
+766
+00:33:19,510 --> 00:33:23,260
+of how to use this command
+
+767
+00:33:23,260 --> 00:33:26,110
+now I'm going<font color="#E5E5E5"> to clear the screen by</font>
+
+768
+00:33:26,110 --> 00:33:29,740
+typing<font color="#E5E5E5"> clear and the next thing</font><font color="#CCCCCC"> that I</font>
+
+769
+00:33:29,740 --> 00:33:31,840
+want to<font color="#E5E5E5"> show you is the</font><font color="#CCCCCC"> dash dash help</font>
+
+770
+00:33:31,840 --> 00:33:34,840
+<font color="#E5E5E5">so this</font><font color="#CCCCCC"> is something that</font><font color="#E5E5E5"> you can use</font>
+
+771
+00:33:34,840 --> 00:33:37,210
+again in<font color="#E5E5E5"> almost all commands and</font><font color="#CCCCCC"> all</font>
+
+772
+00:33:37,210 --> 00:33:39,940
+programs in Linux<font color="#E5E5E5"> so you can just type</font>
+
+773
+00:33:39,940 --> 00:33:41,950
+the program<font color="#E5E5E5"> name or the command name</font>
+
+774
+00:33:41,950 --> 00:33:46,870
+followed by<font color="#E5E5E5"> dash dash help as you</font><font color="#CCCCCC"> might</font>
+
+775
+00:33:46,870 --> 00:33:47,380
+think
+
+776
+00:33:47,380 --> 00:33:49,390
+this will show you a help message
+
+777
+00:33:49,390 --> 00:33:51,940
+<font color="#E5E5E5">telling you what this command is or what</font>
+
+778
+00:33:51,940 --> 00:33:54,220
+this program is<font color="#CCCCCC"> the arguments that it</font>
+
+779
+00:33:54,220 --> 00:33:56,910
+takes<font color="#E5E5E5"> how to use these</font><font color="#CCCCCC"> arguments and</font>
+
+780
+00:33:56,910 --> 00:34:00,580
+examples<font color="#E5E5E5"> at the bottom now another</font>
+
+781
+00:34:00,580 --> 00:34:02,380
+useful<font color="#E5E5E5"> thing with the terminal so I'm</font>
+
+782
+00:34:02,380 --> 00:34:04,600
+going<font color="#E5E5E5"> to clear</font><font color="#CCCCCC"> this again is the arrows</font>
+
+783
+00:34:04,600 --> 00:34:07,870
+<font color="#CCCCCC">so you can press</font><font color="#E5E5E5"> up to go up to see all</font>
+
+784
+00:34:07,870 --> 00:34:10,149
+the commands that we<font color="#CCCCCC"> executed before and</font>
+
+785
+00:34:10,149 --> 00:34:12,639
+again<font color="#E5E5E5"> you can go down to</font><font color="#CCCCCC"> C to navigate</font>
+
+786
+00:34:12,639 --> 00:34:15,310
+between the commands<font color="#E5E5E5"> that you</font><font color="#CCCCCC"> executed</font>
+
+787
+00:34:15,310 --> 00:34:19,480
+previously you<font color="#E5E5E5"> can also use the tab for</font>
+
+788
+00:34:19,480 --> 00:34:22,570
+autocomplete<font color="#E5E5E5"> so again let's do LS and</font>
+
+789
+00:34:22,570 --> 00:34:24,850
+you can see all the files<font color="#E5E5E5"> and let's say</font>
+
+790
+00:34:24,850 --> 00:34:28,389
+we want<font color="#CCCCCC"> to go into</font><font color="#E5E5E5"> documents so we can</font>
+
+791
+00:34:28,389 --> 00:34:31,480
+do CD followed by documents you can type
+
+792
+00:34:31,480 --> 00:34:34,780
+documents or if you're lazy<font color="#CCCCCC"> like me</font><font color="#E5E5E5"> you</font>
+
+793
+00:34:34,780 --> 00:34:38,800
+can<font color="#CCCCCC"> just do do C and press</font><font color="#E5E5E5"> tab and as</font>
+
+794
+00:34:38,800 --> 00:34:40,710
+you<font color="#E5E5E5"> can</font><font color="#CCCCCC"> see it's automatically</font>
+
+795
+00:34:40,710 --> 00:34:43,440
+completing the rest<font color="#E5E5E5"> of the word for me</font>
+
+796
+00:34:43,440 --> 00:34:46,060
+so this is<font color="#E5E5E5"> something that comes very</font>
+
+797
+00:34:46,060 --> 00:34:47,859
+very handy when you're using the
+
+798
+00:34:47,859 --> 00:34:50,379
+terminal<font color="#E5E5E5"> for</font><font color="#CCCCCC"> a long</font><font color="#E5E5E5"> time</font>
+
+799
+00:34:50,379 --> 00:34:53,139
+now what I<font color="#E5E5E5"> also want to show you is how</font>
+
+800
+00:34:53,139 --> 00:34:55,659
+to install programs<font color="#E5E5E5"> in</font><font color="#CCCCCC"> Kali from the</font>
+
+801
+00:34:55,659 --> 00:34:58,029
+terminal so first I'm going to clear
+
+802
+00:34:58,029 --> 00:35:00,190
+this<font color="#CCCCCC"> and the first thing that</font><font color="#E5E5E5"> you want</font>
+
+803
+00:35:00,190 --> 00:35:02,799
+<font color="#CCCCCC">to do is update the</font><font color="#E5E5E5"> sources where Kali</font>
+
+804
+00:35:02,799 --> 00:35:07,180
+can search and download programs from so
+
+805
+00:35:07,180 --> 00:35:11,619
+we're going<font color="#E5E5E5"> to do apt-get update now</font>
+
+806
+00:35:11,619 --> 00:35:13,390
+apt-get<font color="#E5E5E5"> is the name of the application</font>
+
+807
+00:35:13,390 --> 00:35:15,999
+<font color="#CCCCCC">that allow us to download and install</font>
+
+808
+00:35:15,999 --> 00:35:19,359
+programs and we're saying update because
+
+809
+00:35:19,359 --> 00:35:21,640
+I'm saying that I<font color="#E5E5E5"> want you to update the</font>
+
+810
+00:35:21,640 --> 00:35:23,859
+<font color="#CCCCCC">list</font><font color="#E5E5E5"> of all the programs that I can</font>
+
+811
+00:35:23,859 --> 00:35:26,619
+<font color="#E5E5E5">install so I'm going</font><font color="#CCCCCC"> to hit enter</font><font color="#E5E5E5"> and</font>
+
+812
+00:35:26,619 --> 00:35:28,390
+you want to make sure that you have
+
+813
+00:35:28,390 --> 00:35:30,069
+internet<font color="#E5E5E5"> connection when running this</font>
+
+814
+00:35:30,069 --> 00:35:32,680
+and as<font color="#E5E5E5"> you can</font><font color="#CCCCCC"> see it's telling me that</font>
+
+815
+00:35:32,680 --> 00:35:36,069
+<font color="#E5E5E5">it's done and now we can go ahead and</font>
+
+816
+00:35:36,069 --> 00:35:39,549
+start installing applications<font color="#CCCCCC"> so the</font>
+
+817
+00:35:39,549 --> 00:35:41,499
+first program<font color="#CCCCCC"> that I want to install</font><font color="#E5E5E5"> is</font>
+
+818
+00:35:41,499 --> 00:35:44,259
+actually a terminal program so similar
+
+819
+00:35:44,259 --> 00:35:46,660
+to<font color="#CCCCCC"> this one</font><font color="#E5E5E5"> but it allow</font><font color="#CCCCCC"> us to have</font>
+
+820
+00:35:46,660 --> 00:35:50,109
+<font color="#CCCCCC">multiple terminal windows open in the</font>
+
+821
+00:35:50,109 --> 00:35:53,619
+same window<font color="#E5E5E5"> so in order to install a</font>
+
+822
+00:35:53,619 --> 00:35:55,809
+program<font color="#CCCCCC"> through the</font><font color="#E5E5E5"> command line</font><font color="#CCCCCC"> we're</font>
+
+823
+00:35:55,809 --> 00:35:58,420
+<font color="#E5E5E5">going</font><font color="#CCCCCC"> to do apt-get</font><font color="#E5E5E5"> which is again the</font>
+
+824
+00:35:58,420 --> 00:35:59,979
+name of the program that allow us<font color="#CCCCCC"> to</font>
+
+825
+00:35:59,979 --> 00:36:03,460
+<font color="#CCCCCC">install programs on the system we're</font>
+
+826
+00:36:03,460 --> 00:36:05,940
+<font color="#CCCCCC">going to say</font><font color="#E5E5E5"> that I want to install and</font>
+
+827
+00:36:05,940 --> 00:36:08,680
+the program<font color="#CCCCCC"> that I want to</font><font color="#E5E5E5"> install is</font>
+
+828
+00:36:08,680 --> 00:36:11,450
+called<font color="#E5E5E5"> Terminator</font>
+
+829
+00:36:11,450 --> 00:36:14,660
+so very very<font color="#CCCCCC"> simple first of</font><font color="#E5E5E5"> all</font><font color="#CCCCCC"> were</font>
+
+830
+00:36:14,660 --> 00:36:16,220
+<font color="#E5E5E5">typing the name of</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> command which is</font>
+
+831
+00:36:16,220 --> 00:36:19,040
+apt-get we're saying<font color="#E5E5E5"> that I want to</font>
+
+832
+00:36:19,040 --> 00:36:21,530
+<font color="#CCCCCC">install and the program name that I want</font>
+
+833
+00:36:21,530 --> 00:36:24,829
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> install is called Terminator so I'm</font>
+
+834
+00:36:24,829 --> 00:36:26,640
+<font color="#E5E5E5">gonna hit</font><font color="#CCCCCC"> enter</font>
+
+835
+00:36:26,640 --> 00:36:29,190
+and this is going<font color="#CCCCCC"> to download</font><font color="#E5E5E5"> and</font>
+
+836
+00:36:29,190 --> 00:36:32,549
+install<font color="#CCCCCC"> Terminator for me</font><font color="#E5E5E5"> so you can use</font>
+
+837
+00:36:32,549 --> 00:36:34,289
+the same command to install<font color="#E5E5E5"> any program</font>
+
+838
+00:36:34,289 --> 00:36:36,750
+<font color="#CCCCCC">that you want</font><font color="#E5E5E5"> you just</font><font color="#CCCCCC"> need to replace</font>
+
+839
+00:36:36,750 --> 00:36:39,150
+<font color="#E5E5E5">Terminator with the name of the program</font>
+
+840
+00:36:39,150 --> 00:36:42,299
+that<font color="#E5E5E5"> you</font><font color="#CCCCCC"> want to install</font><font color="#E5E5E5"> now I've</font>
+
+841
+00:36:42,299 --> 00:36:44,490
+<font color="#E5E5E5">already downloaded and installed this</font>
+
+842
+00:36:44,490 --> 00:36:46,859
+before so it didn't ask me to<font color="#CCCCCC"> confirm</font>
+
+843
+00:36:46,859 --> 00:36:49,230
+but if you're running<font color="#E5E5E5"> this for the first</font>
+
+844
+00:36:49,230 --> 00:36:52,079
+<font color="#E5E5E5">time it might ask you</font><font color="#CCCCCC"> to confirm whether</font>
+
+845
+00:36:52,079 --> 00:36:54,180
+<font color="#CCCCCC">or not you actually</font><font color="#E5E5E5"> want to install this</font>
+
+846
+00:36:54,180 --> 00:36:56,579
+program<font color="#E5E5E5"> so</font><font color="#CCCCCC"> all you'd have</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> do is press</font>
+
+847
+00:36:56,579 --> 00:37:00,210
+Y from<font color="#E5E5E5"> the keyboard and hit enter</font><font color="#CCCCCC"> now as</font>
+
+848
+00:37:00,210 --> 00:37:03,029
+you can<font color="#E5E5E5"> see it's done so if I go to my</font>
+
+849
+00:37:03,029 --> 00:37:07,260
+<font color="#E5E5E5">all applications in here and just type</font>
+
+850
+00:37:07,260 --> 00:37:10,380
+Terminator<font color="#E5E5E5"> you can see that I have it</font>
+
+851
+00:37:10,380 --> 00:37:13,380
+<font color="#E5E5E5">here so I'm actually</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> drag it</font><font color="#CCCCCC"> and</font>
+
+852
+00:37:13,380 --> 00:37:16,890
+<font color="#E5E5E5">put it in</font><font color="#CCCCCC"> my dog so I can</font><font color="#E5E5E5"> access it</font>
+
+853
+00:37:16,890 --> 00:37:19,599
+<font color="#CCCCCC">easily</font><font color="#E5E5E5"> in the future</font>
+
+854
+00:37:19,599 --> 00:37:22,510
+so now I can just<font color="#CCCCCC"> click it in here</font><font color="#E5E5E5"> and</font>
+
+855
+00:37:22,510 --> 00:37:26,300
+that will open<font color="#E5E5E5"> Terminator for me now</font>
+
+856
+00:37:26,300 --> 00:37:28,460
+this is another application<font color="#E5E5E5"> that allow</font>
+
+857
+00:37:28,460 --> 00:37:31,309
+me<font color="#E5E5E5"> to run commands</font><font color="#CCCCCC"> so it's exactly</font><font color="#E5E5E5"> the</font>
+
+858
+00:37:31,309 --> 00:37:34,490
+same<font color="#E5E5E5"> as this so again I can do LS and</font>
+
+859
+00:37:34,490 --> 00:37:38,390
+PWD the<font color="#E5E5E5"> only difference is with this one</font>
+
+860
+00:37:38,390 --> 00:37:41,329
+<font color="#E5E5E5">I can actually</font><font color="#CCCCCC"> right click and click</font><font color="#E5E5E5"> on</font>
+
+861
+00:37:41,329 --> 00:37:44,750
+<font color="#E5E5E5">split horizontally for example and this</font>
+
+862
+00:37:44,750 --> 00:37:46,730
+will split the same screen into two
+
+863
+00:37:46,730 --> 00:37:49,640
+<font color="#E5E5E5">screens where I can run commands at the</font>
+
+864
+00:37:49,640 --> 00:37:52,190
+same time so I can have some commands in
+
+865
+00:37:52,190 --> 00:37:55,420
+here and I can run commands in here and
+
+866
+00:37:55,420 --> 00:37:58,430
+then I can even split this more if I
+
+867
+00:37:58,430 --> 00:38:00,579
+want<font color="#E5E5E5"> again vertically or horizontally</font>
+
+868
+00:38:00,579 --> 00:38:04,490
+<font color="#CCCCCC">and as you can</font><font color="#E5E5E5"> see</font><font color="#CCCCCC"> I can have as many</font>
+
+869
+00:38:04,490 --> 00:38:07,099
+terminal windows as I want<font color="#E5E5E5"> and this will</font>
+
+870
+00:38:07,099 --> 00:38:09,530
+be very<font color="#CCCCCC"> helpful in the future when</font><font color="#E5E5E5"> we'll</font>
+
+871
+00:38:09,530 --> 00:38:11,569
+be<font color="#CCCCCC"> running a number</font><font color="#E5E5E5"> of programs</font><font color="#CCCCCC"> and a</font>
+
+872
+00:38:11,569 --> 00:38:15,530
+number<font color="#CCCCCC"> of</font><font color="#E5E5E5"> commands at the same time</font>
+
+873
+00:38:15,530 --> 00:38:17,420
+so now that we have<font color="#CCCCCC"> all</font><font color="#E5E5E5"> the machines</font>
+
+874
+00:38:17,420 --> 00:38:19,790
+installed<font color="#CCCCCC"> I just want to show you final</font>
+
+875
+00:38:19,790 --> 00:38:21,530
+configurations of the lab and I want to
+
+876
+00:38:21,530 --> 00:38:22,640
+show you how the<font color="#CCCCCC"> lab is going to look</font>
+
+877
+00:38:22,640 --> 00:38:24,440
+<font color="#CCCCCC">like and how we're going</font><font color="#E5E5E5"> to use the</font>
+
+878
+00:38:24,440 --> 00:38:27,140
+computers in<font color="#CCCCCC"> the future</font><font color="#E5E5E5"> videos</font><font color="#CCCCCC"> so the</font>
+
+879
+00:38:27,140 --> 00:38:29,000
+first thing I want<font color="#E5E5E5"> you</font><font color="#CCCCCC"> to make sure that</font>
+
+880
+00:38:29,000 --> 00:38:31,370
+all the devices<font color="#E5E5E5"> are connected to the</font>
+
+881
+00:38:31,370 --> 00:38:34,280
+same<font color="#E5E5E5"> NAT</font><font color="#CCCCCC"> network</font><font color="#E5E5E5"> this is very important</font>
+
+882
+00:38:34,280 --> 00:38:36,590
+so<font color="#CCCCCC"> that we can access</font><font color="#E5E5E5"> one device from</font>
+
+883
+00:38:36,590 --> 00:38:39,440
+another<font color="#E5E5E5"> so I'm gonna click on the cat in</font>
+
+884
+00:38:39,440 --> 00:38:41,950
+<font color="#E5E5E5">Linux and if you go on the settings and</font>
+
+885
+00:38:41,950 --> 00:38:45,410
+go<font color="#CCCCCC"> to</font><font color="#E5E5E5"> network you'll see that it's</font>
+
+886
+00:38:45,410 --> 00:38:47,720
+connected to<font color="#E5E5E5"> a network called not</font>
+
+887
+00:38:47,720 --> 00:38:49,430
+<font color="#CCCCCC">network</font>
+
+888
+00:38:49,430 --> 00:38:51,170
+also if you go here<font color="#CCCCCC"> you can see that the</font>
+
+889
+00:38:51,170 --> 00:38:53,660
+network<font color="#E5E5E5"> name is 10 2014 not now you</font>
+
+890
+00:38:53,660 --> 00:38:55,370
+might<font color="#E5E5E5"> have a different name</font><font color="#CCCCCC"> it doesn't</font>
+
+891
+00:38:55,370 --> 00:38:57,290
+<font color="#CCCCCC">matter just make</font><font color="#E5E5E5"> sure that you could you</font>
+
+892
+00:38:57,290 --> 00:38:59,030
+select the name that you have<font color="#E5E5E5"> there</font><font color="#CCCCCC"> if</font>
+
+893
+00:38:59,030 --> 00:39:01,610
+you don't see any names in there<font color="#E5E5E5"> have a</font>
+
+894
+00:39:01,610 --> 00:39:03,680
+look<font color="#E5E5E5"> on the link in the resources you'll</font>
+
+895
+00:39:03,680 --> 00:39:05,840
+see how you could fix<font color="#E5E5E5"> it this issue</font><font color="#CCCCCC"> but</font>
+
+896
+00:39:05,840 --> 00:39:08,390
+by default VirtualBox should should
+
+897
+00:39:08,390 --> 00:39:10,340
+<font color="#E5E5E5">automatically create an ad network for</font>
+
+898
+00:39:10,340 --> 00:39:12,740
+you<font color="#E5E5E5"> and you can just select it from here</font>
+
+899
+00:39:12,740 --> 00:39:14,390
+now you<font color="#E5E5E5"> probably won't</font><font color="#CCCCCC"> see this advanced</font>
+
+900
+00:39:14,390 --> 00:39:16,730
+<font color="#E5E5E5">so just not</font><font color="#CCCCCC"> Network</font>
+
+901
+00:39:16,730 --> 00:39:18,800
+make sure<font color="#E5E5E5"> that the name</font><font color="#CCCCCC"> is selected here</font>
+
+902
+00:39:18,800 --> 00:39:23,090
+press ok then go to the Metasploit<font color="#CCCCCC"> able</font>
+
+903
+00:39:23,090 --> 00:39:25,880
+machine<font color="#E5E5E5"> and make sure it's connected to</font>
+
+904
+00:39:25,880 --> 00:39:28,490
+<font color="#E5E5E5">the same</font><font color="#CCCCCC"> not</font><font color="#E5E5E5"> network so make sure</font><font color="#CCCCCC"> you're</font>
+
+905
+00:39:28,490 --> 00:39:30,020
+actually<font color="#E5E5E5"> connected to</font><font color="#CCCCCC"> this you might</font>
+
+906
+00:39:30,020 --> 00:39:32,540
+<font color="#CCCCCC">have more than one</font><font color="#E5E5E5"> not network so make</font>
+
+907
+00:39:32,540 --> 00:39:35,240
+sure you select<font color="#E5E5E5"> the exact same not</font>
+
+908
+00:39:35,240 --> 00:39:37,850
+network<font color="#CCCCCC"> so when</font><font color="#E5E5E5"> I come here you can see</font>
+
+909
+00:39:37,850 --> 00:39:39,830
+that<font color="#E5E5E5"> it's connected to not I'm gonna</font>
+
+910
+00:39:39,830 --> 00:39:42,470
+change that<font color="#E5E5E5"> to not network</font><font color="#CCCCCC"> and I'm</font><font color="#E5E5E5"> gonna</font>
+
+911
+00:39:42,470 --> 00:39:44,390
+make sure<font color="#CCCCCC"> that you can see that the name</font>
+
+912
+00:39:44,390 --> 00:39:46,610
+is<font color="#E5E5E5"> called only not network here but the</font>
+
+913
+00:39:46,610 --> 00:39:48,500
+<font color="#E5E5E5">Kali machines network was called Nath</font>
+
+914
+00:39:48,500 --> 00:39:51,860
+<font color="#CCCCCC">network 10 2014 so I'm</font><font color="#E5E5E5"> gonna make</font><font color="#CCCCCC"> sure</font>
+
+915
+00:39:51,860 --> 00:39:54,320
+<font color="#CCCCCC">that I select</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> same</font><font color="#E5E5E5"> night network</font>
+
+916
+00:39:54,320 --> 00:39:58,420
+<font color="#E5E5E5">that is selected in</font><font color="#CCCCCC"> the Kali machine</font>
+
+917
+00:39:58,420 --> 00:40:02,170
+<font color="#E5E5E5">I'm gonna press ok</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> now my settings</font>
+
+918
+00:40:02,170 --> 00:40:04,359
+<font color="#E5E5E5">are good</font>
+
+919
+00:40:04,359 --> 00:40:05,829
+now like I said<font color="#E5E5E5"> before we're going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> be</font>
+
+920
+00:40:05,829 --> 00:40:08,079
+using<font color="#CCCCCC"> the Cali machine</font><font color="#E5E5E5"> to launch our</font>
+
+921
+00:40:08,079 --> 00:40:09,519
+attack so this is going to be our
+
+922
+00:40:09,519 --> 00:40:11,710
+attacker machine and we're going to<font color="#E5E5E5"> use</font>
+
+923
+00:40:11,710 --> 00:40:15,099
+the<font color="#CCCCCC"> Metasploit table as our victim or as</font>
+
+924
+00:40:15,099 --> 00:40:17,499
+<font color="#E5E5E5">our target</font><font color="#CCCCCC"> now the Metasploit a ball</font>
+
+925
+00:40:17,499 --> 00:40:19,839
+comes in with a number<font color="#CCCCCC"> of websites so</font>
+
+926
+00:40:19,839 --> 00:40:22,059
+it's a computer but it has a<font color="#E5E5E5"> number</font><font color="#CCCCCC"> of</font>
+
+927
+00:40:22,059 --> 00:40:23,769
+<font color="#E5E5E5">websites</font><font color="#CCCCCC"> installed on it and this</font><font color="#E5E5E5"> is</font>
+
+928
+00:40:23,769 --> 00:40:26,289
+<font color="#E5E5E5">usually</font><font color="#CCCCCC"> the way</font><font color="#E5E5E5"> web servers work usually</font>
+
+929
+00:40:26,289 --> 00:40:27,849
+<font color="#CCCCCC">you'd have more</font><font color="#E5E5E5"> than one website</font>
+
+930
+00:40:27,849 --> 00:40:30,099
+<font color="#E5E5E5">installed on the same web server and</font>
+
+931
+00:40:30,099 --> 00:40:31,869
+this<font color="#E5E5E5"> is very useful</font><font color="#CCCCCC"> to us</font><font color="#E5E5E5"> we'll talk</font>
+
+932
+00:40:31,869 --> 00:40:33,400
+about that<font color="#E5E5E5"> later we'll see why it's</font><font color="#CCCCCC"> very</font>
+
+933
+00:40:33,400 --> 00:40:35,499
+useful<font color="#E5E5E5"> for</font><font color="#CCCCCC"> now let's see how we can</font>
+
+934
+00:40:35,499 --> 00:40:38,079
+access the web sites on<font color="#CCCCCC"> Metasploit</font><font color="#E5E5E5"> a</font>
+
+935
+00:40:38,079 --> 00:40:40,480
+<font color="#E5E5E5">table so I'm just going to log in like I</font>
+
+936
+00:40:40,480 --> 00:40:42,309
+said<font color="#CCCCCC"> the username</font><font color="#E5E5E5"> is MSF admin and the</font>
+
+937
+00:40:42,309 --> 00:40:45,749
+password is MSF admin
+
+938
+00:40:48,680 --> 00:40:51,319
+and to see the IP address<font color="#E5E5E5"> of this</font>
+
+939
+00:40:51,319 --> 00:40:54,260
+computer<font color="#E5E5E5"> all you</font><font color="#CCCCCC"> have</font><font color="#E5E5E5"> to do is just type</font>
+
+940
+00:40:54,260 --> 00:40:59,170
+in if config<font color="#E5E5E5"> so IIF config</font>
+
+941
+00:41:00,270 --> 00:41:05,750
+and the IP address here is 10 2014<font color="#CCCCCC"> to 14</font>
+
+942
+00:41:05,750 --> 00:41:08,490
+<font color="#E5E5E5">so if I go to the</font><font color="#CCCCCC"> callee machine here</font>
+
+943
+00:41:08,490 --> 00:41:12,530
+and if<font color="#E5E5E5"> I open</font><font color="#CCCCCC"> my</font><font color="#E5E5E5"> browser</font>
+
+944
+00:41:14,350 --> 00:41:20,220
+and if I navigate<font color="#CCCCCC"> to 10 2014 to 14</font>
+
+945
+00:41:24,400 --> 00:41:26,530
+you can see that<font color="#CCCCCC"> I</font><font color="#E5E5E5"> can access</font><font color="#CCCCCC"> my</font>
+
+946
+00:41:26,530 --> 00:41:28,690
+<font color="#CCCCCC">Metasploit</font><font color="#E5E5E5"> table machine and it says</font>
+
+947
+00:41:28,690 --> 00:41:31,480
+<font color="#CCCCCC">Metasploit able to so this</font><font color="#E5E5E5"> is the web</font>
+
+948
+00:41:31,480 --> 00:41:31,960
+<font color="#CCCCCC">server</font>
+
+949
+00:41:31,960 --> 00:41:34,320
+installed on the Metasploit<font color="#CCCCCC"> Abel machine</font>
+
+950
+00:41:34,320 --> 00:41:36,940
+<font color="#E5E5E5">now throughout the course this IP might</font>
+
+951
+00:41:36,940 --> 00:41:38,410
+be changing so I might<font color="#CCCCCC"> be going</font><font color="#E5E5E5"> to a</font>
+
+952
+00:41:38,410 --> 00:41:40,780
+<font color="#CCCCCC">different IP</font><font color="#E5E5E5"> because sometimes the IP of</font>
+
+953
+00:41:40,780 --> 00:41:42,550
+<font color="#E5E5E5">the net network changes every time you</font>
+
+954
+00:41:42,550 --> 00:41:45,280
+run it<font color="#CCCCCC"> for you if you access</font><font color="#E5E5E5"> that IP and</font>
+
+955
+00:41:45,280 --> 00:41:46,960
+nothing works for you<font color="#E5E5E5"> all you have to do</font>
+
+956
+00:41:46,960 --> 00:41:49,120
+is just go<font color="#CCCCCC"> back to the Metasploit able</font>
+
+957
+00:41:49,120 --> 00:41:51,430
+machine<font color="#E5E5E5"> run if config and see what IP</font>
+
+958
+00:41:51,430 --> 00:41:53,830
+you get then if you<font color="#CCCCCC"> navigate to</font><font color="#E5E5E5"> it here</font>
+
+959
+00:41:53,830 --> 00:41:56,140
+you'll see that<font color="#E5E5E5"> you can access the web</font>
+
+960
+00:41:56,140 --> 00:41:58,060
+server<font color="#E5E5E5"> now as you can see there is a</font>
+
+961
+00:41:58,060 --> 00:41:59,800
+number<font color="#E5E5E5"> of websites</font><font color="#CCCCCC"> installed</font><font color="#E5E5E5"> in</font>
+
+962
+00:41:59,800 --> 00:42:01,570
+<font color="#CCCCCC">Metasploit tables so if we</font><font color="#E5E5E5"> click on</font>
+
+963
+00:42:01,570 --> 00:42:04,960
+metal day you'll have a<font color="#CCCCCC"> website</font><font color="#E5E5E5"> if we go</font>
+
+964
+00:42:04,960 --> 00:42:06,970
+back if<font color="#E5E5E5"> you click on DV WI you have</font>
+
+965
+00:42:06,970 --> 00:42:09,070
+<font color="#E5E5E5">another</font><font color="#CCCCCC"> website and we'll talk about</font>
+
+966
+00:42:09,070 --> 00:42:10,690
+these<font color="#CCCCCC"> websites and</font><font color="#E5E5E5"> we'll talk</font><font color="#CCCCCC"> about how</font>
+
+967
+00:42:10,690 --> 00:42:14,220
+<font color="#E5E5E5">to hack them in future videos</font>
+
+968
+00:42:15,130 --> 00:42:17,229
+one more thing<font color="#CCCCCC"> that I want</font><font color="#E5E5E5"> to point is</font>
+
+969
+00:42:17,229 --> 00:42:20,049
+the configuration<font color="#E5E5E5"> of one of the websites</font>
+
+970
+00:42:20,049 --> 00:42:23,799
+is misconfigured with<font color="#E5E5E5"> MIT exploitable so</font>
+
+971
+00:42:23,799 --> 00:42:25,299
+I'm<font color="#E5E5E5"> just going to show you how to fix it</font>
+
+972
+00:42:25,299 --> 00:42:27,400
+<font color="#E5E5E5">now so that</font><font color="#CCCCCC"> in the</font><font color="#E5E5E5"> future you won't have</font>
+
+973
+00:42:27,400 --> 00:42:29,319
+any<font color="#E5E5E5"> errors on once we start</font><font color="#CCCCCC"> running the</font>
+
+974
+00:42:29,319 --> 00:42:30,670
+attacks
+
+975
+00:42:30,670 --> 00:42:32,769
+the website that's misconfigured is
+
+976
+00:42:32,769 --> 00:42:34,720
+Mattila<font color="#E5E5E5"> day so we're just going to</font>
+
+977
+00:42:34,720 --> 00:42:36,430
+<font color="#E5E5E5">modify its configuration using</font><font color="#CCCCCC"> nano</font>
+
+978
+00:42:36,430 --> 00:42:38,980
+<font color="#E5E5E5">which is a text editor so we're going to</font>
+
+979
+00:42:38,980 --> 00:42:40,539
+<font color="#E5E5E5">type in nano and then we're going to</font>
+
+980
+00:42:40,539 --> 00:42:42,489
+type<font color="#E5E5E5"> in the path for the config file</font>
+
+981
+00:42:42,489 --> 00:42:47,880
+which is stored in<font color="#CCCCCC"> VAR www Mattila</font><font color="#E5E5E5"> de</font>
+
+982
+00:42:47,880 --> 00:42:52,749
+config dot<font color="#E5E5E5"> Inc so</font><font color="#CCCCCC"> Nano is the program</font>
+
+983
+00:42:52,749 --> 00:42:54,220
+<font color="#E5E5E5">that we're going to use to modify the</font>
+
+984
+00:42:54,220 --> 00:42:57,999
+<font color="#CCCCCC">configuration and VAR</font><font color="#E5E5E5"> w</font><font color="#CCCCCC"> w tilde config</font>
+
+985
+00:42:57,999 --> 00:43:00,849
+don't Inc<font color="#E5E5E5"> is where the config file is</font>
+
+986
+00:43:00,849 --> 00:43:03,940
+<font color="#CCCCCC">stored and to run this as admin as</font><font color="#E5E5E5"> root</font>
+
+987
+00:43:03,940 --> 00:43:06,279
+<font color="#E5E5E5">you have to type in sudo in front of it</font>
+
+988
+00:43:06,279 --> 00:43:09,210
+<font color="#CCCCCC">so I'm going to do sudo</font>
+
+989
+00:43:09,370 --> 00:43:11,290
+I'm gonna put the admin password which
+
+990
+00:43:11,290 --> 00:43:14,710
+is<font color="#E5E5E5"> msf admin and now what you need to</font>
+
+991
+00:43:14,710 --> 00:43:18,160
+modify<font color="#E5E5E5"> is the last line so if we you can</font>
+
+992
+00:43:18,160 --> 00:43:19,990
+navigate down<font color="#E5E5E5"> using the arrows in the</font>
+
+993
+00:43:19,990 --> 00:43:22,540
+<font color="#E5E5E5">keyboard and you</font><font color="#CCCCCC"> can see that the DB</font>
+
+994
+00:43:22,540 --> 00:43:24,910
+<font color="#E5E5E5">name is set to meet as Floyd here you</font>
+
+995
+00:43:24,910 --> 00:43:26,380
+want to modify<font color="#E5E5E5"> that you want to remove</font>
+
+996
+00:43:26,380 --> 00:43:28,660
+<font color="#E5E5E5">that and type in OS</font><font color="#CCCCCC"> 10</font>
+
+997
+00:43:28,660 --> 00:43:33,240
+so<font color="#CCCCCC"> OWA ESPE</font><font color="#E5E5E5"> 10</font>
+
+998
+00:43:33,410 --> 00:43:35,990
+now this is all done<font color="#CCCCCC"> it's perfect now</font>
+
+999
+00:43:35,990 --> 00:43:37,640
+all you have<font color="#CCCCCC"> to</font><font color="#E5E5E5"> do is just press</font><font color="#CCCCCC"> ctrl X</font>
+
+1000
+00:43:37,640 --> 00:43:42,240
+to exit press Y to save it
+
+1001
+00:43:42,240 --> 00:43:44,460
+hit<font color="#E5E5E5"> enter</font>
+
+1002
+00:43:44,460 --> 00:43:47,220
+and that's it<font color="#CCCCCC"> now it's saved</font><font color="#E5E5E5"> and we're</font>
+
+1003
+00:43:47,220 --> 00:43:49,290
+ready to<font color="#CCCCCC"> start</font><font color="#E5E5E5"> penetration testing and</font>
+
+1004
+00:43:49,290 --> 00:43:52,770
+learn how to hack into<font color="#CCCCCC"> websites</font>
+
+1005
+00:43:52,770 --> 00:43:55,430
+<font color="#CCCCCC">web application penetration testing</font>
+
+1006
+00:43:55,430 --> 00:43:57,810
+<font color="#E5E5E5">before we can start talking about that</font>
+
+1007
+00:43:57,810 --> 00:44:00,420
+we need<font color="#CCCCCC"> to understand what is a website</font>
+
+1008
+00:44:00,420 --> 00:44:03,960
+<font color="#CCCCCC">and just</font><font color="#E5E5E5"> like I said</font><font color="#CCCCCC"> before</font><font color="#E5E5E5"> a website is</font>
+
+1009
+00:44:03,960 --> 00:44:05,970
+<font color="#CCCCCC">just an application installed on a</font>
+
+1010
+00:44:05,970 --> 00:44:09,150
+computer<font color="#CCCCCC"> that</font><font color="#E5E5E5"> computer probably</font><font color="#CCCCCC"> just has</font>
+
+1011
+00:44:09,150 --> 00:44:11,820
+better specs<font color="#E5E5E5"> than your computer but it</font>
+
+1012
+00:44:11,820 --> 00:44:14,880
+fundamentally<font color="#E5E5E5"> it works exactly</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> like</font>
+
+1013
+00:44:14,880 --> 00:44:17,130
+<font color="#E5E5E5">another computer so it has an operating</font>
+
+1014
+00:44:17,130 --> 00:44:20,190
+<font color="#CCCCCC">system and it</font><font color="#E5E5E5"> also has a number</font><font color="#CCCCCC"> of</font>
+
+1015
+00:44:20,190 --> 00:44:23,130
+<font color="#CCCCCC">applications to allow it to</font><font color="#E5E5E5"> act as a web</font>
+
+1016
+00:44:23,130 --> 00:44:25,620
+server so the main<font color="#E5E5E5"> two applications that</font>
+
+1017
+00:44:25,620 --> 00:44:29,550
+it<font color="#E5E5E5"> probably has is a web server and a</font>
+
+1018
+00:44:29,550 --> 00:44:32,550
+database<font color="#CCCCCC"> our web server is like Apache</font>
+
+1019
+00:44:32,550 --> 00:44:36,780
+and the database is like MySQL<font color="#E5E5E5"> and these</font>
+
+1020
+00:44:36,780 --> 00:44:39,180
+are the web server basically<font color="#E5E5E5"> understands</font>
+
+1021
+00:44:39,180 --> 00:44:41,850
+and executes<font color="#E5E5E5"> the web application so your</font>
+
+1022
+00:44:41,850 --> 00:44:43,680
+web application<font color="#E5E5E5"> would</font><font color="#CCCCCC"> be written in PHP</font>
+
+1023
+00:44:43,680 --> 00:44:45,480
+or Python<font color="#CCCCCC"> and</font><font color="#E5E5E5"> any programming language</font>
+
+1024
+00:44:45,480 --> 00:44:47,760
+really the<font color="#E5E5E5"> only thing is</font><font color="#CCCCCC"> that the web</font>
+
+1025
+00:44:47,760 --> 00:44:49,590
+server needs to<font color="#E5E5E5"> be able to understand</font>
+
+1026
+00:44:49,590 --> 00:44:53,130
+and execute<font color="#E5E5E5"> this web application</font><font color="#CCCCCC"> the</font>
+
+1027
+00:44:53,130 --> 00:44:55,950
+database contains<font color="#CCCCCC"> the data used by the</font>
+
+1028
+00:44:55,950 --> 00:44:59,340
+web application so all<font color="#E5E5E5"> of this is stored</font>
+
+1029
+00:44:59,340 --> 00:45:01,440
+on<font color="#E5E5E5"> a computer called</font><font color="#CCCCCC"> the server</font><font color="#E5E5E5"> the</font>
+
+1030
+00:45:01,440 --> 00:45:03,090
+computer is connected to<font color="#E5E5E5"> the</font><font color="#CCCCCC"> Internet</font>
+
+1031
+00:45:03,090 --> 00:45:06,270
+and<font color="#E5E5E5"> it has a real IP address so anybody</font>
+
+1032
+00:45:06,270 --> 00:45:08,720
+can access<font color="#E5E5E5"> that computer and</font><font color="#CCCCCC"> can ping it</font>
+
+1033
+00:45:08,720 --> 00:45:12,920
+so the web the web application is
+
+1034
+00:45:12,920 --> 00:45:15,960
+executed by the web server<font color="#E5E5E5"> which is</font>
+
+1035
+00:45:15,960 --> 00:45:18,660
+installed<font color="#E5E5E5"> by which is installed on your</font>
+
+1036
+00:45:18,660 --> 00:45:21,950
+<font color="#E5E5E5">server on your target therefore any time</font>
+
+1037
+00:45:21,950 --> 00:45:25,020
+<font color="#E5E5E5">you request a page or you run the web</font>
+
+1038
+00:45:25,020 --> 00:45:27,570
+application it's actually executed on
+
+1039
+00:45:27,570 --> 00:45:30,030
+the<font color="#CCCCCC"> web server and it's not executed at</font>
+
+1040
+00:45:30,030 --> 00:45:32,970
+<font color="#CCCCCC">the clients computer</font><font color="#E5E5E5"> it gets executed at</font>
+
+1041
+00:45:32,970 --> 00:45:35,490
+the<font color="#CCCCCC"> web server and then it sends a HTML</font>
+
+1042
+00:45:35,490 --> 00:45:38,700
+<font color="#E5E5E5">page</font><font color="#CCCCCC"> which is ready to read for the</font>
+
+1043
+00:45:38,700 --> 00:45:43,110
+target<font color="#CCCCCC"> person or for for the</font><font color="#E5E5E5"> client so</font>
+
+1044
+00:45:43,110 --> 00:45:45,570
+let's have a look<font color="#E5E5E5"> on an example and</font>
+
+1045
+00:45:45,570 --> 00:45:47,220
+let's say you're<font color="#CCCCCC"> on the phone or</font><font color="#E5E5E5"> on your</font>
+
+1046
+00:45:47,220 --> 00:45:49,170
+<font color="#E5E5E5">computer</font><font color="#CCCCCC"> and you wanted to</font><font color="#E5E5E5"> go to</font>
+
+1047
+00:45:49,170 --> 00:45:50,940
+facebook.com so you type<font color="#E5E5E5"> in facebook.com</font>
+
+1048
+00:45:50,940 --> 00:45:55,880
+into your<font color="#E5E5E5"> URL this will be translated</font>
+
+1049
+00:45:55,880 --> 00:46:00,540
+using<font color="#CCCCCC"> a DNS server to</font><font color="#E5E5E5"> an IP</font><font color="#CCCCCC"> address</font><font color="#E5E5E5"> so</font>
+
+1050
+00:46:00,540 --> 00:46:02,940
+there is a server<font color="#CCCCCC"> that translates and</font>
+
+1051
+00:46:02,940 --> 00:46:05,550
+every name com
+
+1052
+00:46:05,550 --> 00:46:07,800
+you or any website<font color="#E5E5E5"> with a name with a</font>
+
+1053
+00:46:07,800 --> 00:46:10,080
+domain<font color="#CCCCCC"> name so this is a</font><font color="#E5E5E5"> domain name -</font>
+
+1054
+00:46:10,080 --> 00:46:13,410
+it's relevant<font color="#E5E5E5"> IP address so your</font><font color="#CCCCCC"> request</font>
+
+1055
+00:46:13,410 --> 00:46:15,750
+<font color="#E5E5E5">facebook.com/ the request goes to</font><font color="#CCCCCC"> a DNS</font>
+
+1056
+00:46:15,750 --> 00:46:18,930
+<font color="#E5E5E5">server</font><font color="#CCCCCC"> it translates facebook.com</font><font color="#E5E5E5"> to the</font>
+
+1057
+00:46:18,930 --> 00:46:22,530
+IP where Facebook<font color="#E5E5E5"> is stored and then you</font>
+
+1058
+00:46:22,530 --> 00:46:25,950
+go<font color="#CCCCCC"> little a go to Facebook to the IP</font>
+
+1059
+00:46:25,950 --> 00:46:28,230
+address of Facebook<font color="#E5E5E5"> it will execute the</font>
+
+1060
+00:46:28,230 --> 00:46:30,480
+page that<font color="#E5E5E5"> you wanted using all</font><font color="#CCCCCC"> of the</font>
+
+1061
+00:46:30,480 --> 00:46:32,130
+applications that we spoke<font color="#E5E5E5"> about and</font>
+
+1062
+00:46:32,130 --> 00:46:35,340
+then just give you ready HTML<font color="#E5E5E5"> so what</font>
+
+1063
+00:46:35,340 --> 00:46:37,740
+you get<font color="#E5E5E5"> back</font><font color="#CCCCCC"> is just a</font><font color="#E5E5E5"> markup</font><font color="#CCCCCC"> written in</font>
+
+1064
+00:46:37,740 --> 00:46:40,350
+HTML which<font color="#CCCCCC"> is a markup language of the</font>
+
+1065
+00:46:40,350 --> 00:46:42,720
+result of executing<font color="#E5E5E5"> the</font><font color="#CCCCCC"> program so the</font>
+
+1066
+00:46:42,720 --> 00:46:45,000
+program gets executed on the server<font color="#E5E5E5"> and</font>
+
+1067
+00:46:45,000 --> 00:46:47,790
+then you<font color="#E5E5E5"> just only</font><font color="#CCCCCC"> get the result this</font>
+
+1068
+00:46:47,790 --> 00:46:50,220
+<font color="#E5E5E5">is very important because in</font><font color="#CCCCCC"> the future</font>
+
+1069
+00:46:50,220 --> 00:46:52,350
+if<font color="#CCCCCC"> we wanted to get anything executed on</font>
+
+1070
+00:46:52,350 --> 00:46:53,940
+the<font color="#E5E5E5"> web server if we wanted to</font><font color="#CCCCCC"> get a</font>
+
+1071
+00:46:53,940 --> 00:46:55,650
+shell<font color="#CCCCCC"> a reverse shell or a BYOs</font>
+
+1072
+00:46:55,650 --> 00:46:58,650
+<font color="#CCCCCC">executed on the</font><font color="#E5E5E5"> target computer then we</font>
+
+1073
+00:46:58,650 --> 00:47:00,840
+need to send it into<font color="#E5E5E5"> a language</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> the</font>
+
+1074
+00:47:00,840 --> 00:47:02,760
+web server understands so for example
+
+1075
+00:47:02,760 --> 00:47:05,910
+<font color="#CCCCCC">PHP and once you execute</font><font color="#E5E5E5"> it there it</font>
+
+1076
+00:47:05,910 --> 00:47:08,910
+will<font color="#E5E5E5"> be executed on that computer</font><font color="#CCCCCC"> not on</font>
+
+1077
+00:47:08,910 --> 00:47:10,920
+your computer<font color="#CCCCCC"> so regardless of</font><font color="#E5E5E5"> the</font>
+
+1078
+00:47:10,920 --> 00:47:13,770
+<font color="#E5E5E5">person that accesses the page the this</font>
+
+1079
+00:47:13,770 --> 00:47:16,140
+the web shell that you're<font color="#E5E5E5"> gonna send if</font>
+
+1080
+00:47:16,140 --> 00:47:18,120
+it's written in PHP in a language<font color="#CCCCCC"> that</font>
+
+1081
+00:47:18,120 --> 00:47:19,980
+the server understands<font color="#E5E5E5"> is going to be</font>
+
+1082
+00:47:19,980 --> 00:47:22,470
+executed on<font color="#E5E5E5"> the server and not on your</font>
+
+1083
+00:47:22,470 --> 00:47:24,480
+<font color="#E5E5E5">computer</font><font color="#CCCCCC"> therefore it will give you</font>
+
+1084
+00:47:24,480 --> 00:47:26,850
+access to<font color="#E5E5E5"> the server and not access</font><font color="#CCCCCC"> to</font>
+
+1085
+00:47:26,850 --> 00:47:31,040
+<font color="#E5E5E5">the person who accessed that server</font>
+
+1086
+00:47:32,030 --> 00:47:34,050
+<font color="#CCCCCC">javascript on the other hand there is</font>
+
+1087
+00:47:34,050 --> 00:47:36,290
+some<font color="#E5E5E5"> websites use javascript and</font>
+
+1088
+00:47:36,290 --> 00:47:39,480
+javascript is a client-side language so
+
+1089
+00:47:39,480 --> 00:47:42,360
+if you<font color="#E5E5E5"> manage</font><font color="#CCCCCC"> to find a website that</font>
+
+1090
+00:47:42,360 --> 00:47:44,940
+<font color="#E5E5E5">allow you to run javascript code then</font>
+
+1091
+00:47:44,940 --> 00:47:47,670
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> code will be executed by the clients</font>
+
+1092
+00:47:47,670 --> 00:47:49,290
+<font color="#E5E5E5">so even though the code might be</font>
+
+1093
+00:47:49,290 --> 00:47:51,570
+injected into<font color="#CCCCCC"> the web server it</font><font color="#E5E5E5"> will be</font>
+
+1094
+00:47:51,570 --> 00:47:53,850
+<font color="#E5E5E5">executed on</font><font color="#CCCCCC"> the client-side and</font><font color="#E5E5E5"> it'll</font>
+
+1095
+00:47:53,850 --> 00:47:57,420
+give<font color="#CCCCCC"> you</font><font color="#E5E5E5"> it'll allow you to do things to</font>
+
+1096
+00:47:57,420 --> 00:47:59,310
+<font color="#E5E5E5">the client computer</font><font color="#CCCCCC"> and not to the</font>
+
+1097
+00:47:59,310 --> 00:48:01,470
+server so it's very important to
+
+1098
+00:48:01,470 --> 00:48:04,140
+separate<font color="#E5E5E5"> between a client-side language</font>
+
+1099
+00:48:04,140 --> 00:48:07,710
+and the<font color="#E5E5E5"> server-side language now let's</font>
+
+1100
+00:48:07,710 --> 00:48:10,710
+translate this into our example<font color="#E5E5E5"> so in</font>
+
+1101
+00:48:10,710 --> 00:48:12,900
+our example we're<font color="#E5E5E5"> gonna be targeting</font><font color="#CCCCCC"> the</font>
+
+1102
+00:48:12,900 --> 00:48:15,060
+Metasploit<font color="#CCCCCC"> able machine</font><font color="#E5E5E5"> so our web</font>
+
+1103
+00:48:15,060 --> 00:48:16,350
+server is<font color="#CCCCCC"> going</font><font color="#E5E5E5"> to be the Metasploit</font>
+
+1104
+00:48:16,350 --> 00:48:18,540
+able machine<font color="#E5E5E5"> and we're not going to be</font>
+
+1105
+00:48:18,540 --> 00:48:19,350
+using a<font color="#E5E5E5"> DNS</font>
+
+1106
+00:48:19,350 --> 00:48:21,030
+<font color="#E5E5E5">server so we're not going to be using a</font>
+
+1107
+00:48:21,030 --> 00:48:22,890
+name like facebook.com/<font color="#CCCCCC"> we'll be</font>
+
+1108
+00:48:22,890 --> 00:48:25,320
+accessing<font color="#E5E5E5"> the</font><font color="#CCCCCC"> website directly</font><font color="#E5E5E5"> using its</font>
+
+1109
+00:48:25,320 --> 00:48:27,510
+IP address<font color="#E5E5E5"> so like</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> seen before</font><font color="#CCCCCC"> if we</font>
+
+1110
+00:48:27,510 --> 00:48:29,100
+just go here<font color="#E5E5E5"> to our meters</font><font color="#CCCCCC"> potable</font>
+
+1111
+00:48:29,100 --> 00:48:32,100
+<font color="#E5E5E5">machine I type in if config you'll see</font>
+
+1112
+00:48:32,100 --> 00:48:36,570
+that my IP is 10 2014<font color="#E5E5E5"> to 14 and if I go</font>
+
+1113
+00:48:36,570 --> 00:48:38,700
+here to<font color="#CCCCCC"> my Metasploit mesh to my Kali</font>
+
+1114
+00:48:38,700 --> 00:48:42,260
+machine<font color="#E5E5E5"> you'll see that if I type in 10</font>
+
+1115
+00:48:42,260 --> 00:48:45,519
+2014 to 14
+
+1116
+00:48:45,519 --> 00:48:47,709
+you see<font color="#E5E5E5"> that I can access my</font><font color="#CCCCCC"> Metasploit</font>
+
+1117
+00:48:47,709 --> 00:48:51,099
+<font color="#CCCCCC">able machine so the</font><font color="#E5E5E5"> web server here is</font>
+
+1118
+00:48:51,099 --> 00:48:54,459
+the<font color="#E5E5E5"> meatus toy table machine itself the</font>
+
+1119
+00:48:54,459 --> 00:48:57,429
+web applications are<font color="#CCCCCC"> Matilda II</font><font color="#E5E5E5"> PHP</font>
+
+1120
+00:48:57,429 --> 00:49:00,819
+<font color="#E5E5E5">myadmin dvwa and all of these so these</font>
+
+1121
+00:49:00,819 --> 00:49:03,699
+<font color="#E5E5E5">are web applications</font><font color="#CCCCCC"> and when we</font><font color="#E5E5E5"> click</font>
+
+1122
+00:49:03,699 --> 00:49:05,349
+<font color="#E5E5E5">on</font><font color="#CCCCCC"> them</font><font color="#E5E5E5"> you can see for example here</font>
+
+1123
+00:49:05,349 --> 00:49:07,839
+it's written<font color="#E5E5E5"> in PHP so</font><font color="#CCCCCC"> it's</font><font color="#E5E5E5"> written in</font>
+
+1124
+00:49:07,839 --> 00:49:10,390
+this programming<font color="#E5E5E5"> language it's also</font>
+
+1125
+00:49:10,390 --> 00:49:12,789
+<font color="#E5E5E5">using a MySQL server which can be</font>
+
+1126
+00:49:12,789 --> 00:49:15,729
+<font color="#CCCCCC">accessed through</font><font color="#E5E5E5"> phpMyAdmin so these are</font>
+
+1127
+00:49:15,729 --> 00:49:18,519
+<font color="#E5E5E5">just technologies used on the web server</font>
+
+1128
+00:49:18,519 --> 00:49:21,219
+<font color="#E5E5E5">but</font><font color="#CCCCCC"> the web server itself</font><font color="#E5E5E5"> is the</font>
+
+1129
+00:49:21,219 --> 00:49:24,519
+Metasploit<font color="#E5E5E5"> able machine here so when you</font>
+
+1130
+00:49:24,519 --> 00:49:26,559
+<font color="#CCCCCC">put the IP address when you put 10 2014</font>
+
+1131
+00:49:26,559 --> 00:49:29,019
+<font color="#CCCCCC">214 were</font><font color="#E5E5E5"> actually accessing the</font>
+
+1132
+00:49:29,019 --> 00:49:31,390
+Metasploit<font color="#CCCCCC"> able machine and inside the</font>
+
+1133
+00:49:31,390 --> 00:49:32,939
+<font color="#E5E5E5">Metasploit</font><font color="#CCCCCC"> able machine we have</font>
+
+1134
+00:49:32,939 --> 00:49:35,859
+technologies we have<font color="#E5E5E5"> interpreter that's</font>
+
+1135
+00:49:35,859 --> 00:49:37,959
+running PHP<font color="#E5E5E5"> code we have a web server</font>
+
+1136
+00:49:37,959 --> 00:49:40,719
+<font color="#E5E5E5">and a database</font><font color="#CCCCCC"> and these are running the</font>
+
+1137
+00:49:40,719 --> 00:49:42,880
+web application for<font color="#CCCCCC"> us</font><font color="#E5E5E5"> which is</font><font color="#CCCCCC"> Mattila</font>
+
+1138
+00:49:42,880 --> 00:49:45,610
+<font color="#CCCCCC">des dvwa and all of them</font>
+
+1139
+00:49:45,610 --> 00:49:48,130
+so<font color="#E5E5E5"> knowing these components leave us to</font>
+
+1140
+00:49:48,130 --> 00:49:50,830
+knowing how we can hack a website so
+
+1141
+00:49:50,830 --> 00:49:53,590
+there is<font color="#E5E5E5"> more than one thing that we can</font>
+
+1142
+00:49:53,590 --> 00:49:56,230
+exploit<font color="#E5E5E5"> to gain control</font><font color="#CCCCCC"> over</font><font color="#E5E5E5"> a website</font>
+
+1143
+00:49:56,230 --> 00:49:58,480
+<font color="#E5E5E5">now the main</font><font color="#CCCCCC"> thing the</font><font color="#E5E5E5"> obvious thing</font>
+
+1144
+00:49:58,480 --> 00:50:00,370
+that<font color="#CCCCCC"> you'd think of is the web</font>
+
+1145
+00:50:00,370 --> 00:50:02,140
+applications<font color="#CCCCCC"> so it's the thing that you</font>
+
+1146
+00:50:02,140 --> 00:50:03,940
+<font color="#E5E5E5">always interact with for example</font><font color="#CCCCCC"> in</font>
+
+1147
+00:50:03,940 --> 00:50:06,160
+<font color="#CCCCCC">facebook</font><font color="#E5E5E5"> it's where you search for stuff</font>
+
+1148
+00:50:06,160 --> 00:50:08,530
+<font color="#E5E5E5">and where you upload pictures will you</font>
+
+1149
+00:50:08,530 --> 00:50:10,600
+write posts<font color="#E5E5E5"> all of these things are</font>
+
+1150
+00:50:10,600 --> 00:50:12,730
+handled<font color="#CCCCCC"> by the web application because</font>
+
+1151
+00:50:12,730 --> 00:50:14,230
+it's the thing<font color="#CCCCCC"> that you</font><font color="#E5E5E5"> click the</font><font color="#CCCCCC"> thing</font>
+
+1152
+00:50:14,230 --> 00:50:16,390
+that you interact with<font color="#E5E5E5"> so for example if</font>
+
+1153
+00:50:16,390 --> 00:50:18,820
+<font color="#E5E5E5">I go here on Mattila day and I start</font>
+
+1154
+00:50:18,820 --> 00:50:21,520
+<font color="#E5E5E5">browsing the web page this is my web</font>
+
+1155
+00:50:21,520 --> 00:50:23,230
+application<font color="#CCCCCC"> so every time</font><font color="#E5E5E5"> I click on</font>
+
+1156
+00:50:23,230 --> 00:50:25,690
+something<font color="#E5E5E5"> it's being handled and</font>
+
+1157
+00:50:25,690 --> 00:50:28,810
+executed by<font color="#E5E5E5"> the web application on the</font>
+
+1158
+00:50:28,810 --> 00:50:31,660
+<font color="#CCCCCC">web server</font><font color="#E5E5E5"> so if I could exploit this</font>
+
+1159
+00:50:31,660 --> 00:50:33,670
+web application<font color="#CCCCCC"> in some way if I could</font>
+
+1160
+00:50:33,670 --> 00:50:36,040
+<font color="#E5E5E5">gain access to it if I could connect to</font>
+
+1161
+00:50:36,040 --> 00:50:37,810
+<font color="#CCCCCC">the database</font><font color="#E5E5E5"> because it's obviously this</font>
+
+1162
+00:50:37,810 --> 00:50:39,370
+web application connects to the database
+
+1163
+00:50:39,370 --> 00:50:43,150
+<font color="#E5E5E5">then I'll be able</font><font color="#CCCCCC"> to maybe gain control</font>
+
+1164
+00:50:43,150 --> 00:50:45,310
+<font color="#E5E5E5">over the</font><font color="#CCCCCC"> web site</font><font color="#E5E5E5"> and maybe even gain</font>
+
+1165
+00:50:45,310 --> 00:50:47,530
+access to<font color="#E5E5E5"> the web server and then get</font>
+
+1166
+00:50:47,530 --> 00:50:49,210
+<font color="#E5E5E5">access to other web sites on the same</font>
+
+1167
+00:50:49,210 --> 00:50:51,010
+<font color="#E5E5E5">server we'll talk about all of</font><font color="#CCCCCC"> that</font>
+
+1168
+00:50:51,010 --> 00:50:52,940
+later<font color="#E5E5E5"> in the course</font>
+
+1169
+00:50:52,940 --> 00:50:55,210
+the other way<font color="#CCCCCC"> of gaining access to</font>
+
+1170
+00:50:55,210 --> 00:50:59,059
+<font color="#CCCCCC">websites</font><font color="#E5E5E5"> is using the</font><font color="#CCCCCC"> computer itself so</font>
+
+1171
+00:50:59,059 --> 00:51:01,519
+<font color="#E5E5E5">let's say you came your target was</font><font color="#CCCCCC"> DB WI</font>
+
+1172
+00:51:01,519 --> 00:51:04,279
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> you couldn't get in you couldn't</font>
+
+1173
+00:51:04,279 --> 00:51:06,410
+<font color="#E5E5E5">find any exploits in</font><font color="#CCCCCC"> the web</font><font color="#E5E5E5"> application</font>
+
+1174
+00:51:06,410 --> 00:51:08,480
+itself<font color="#E5E5E5"> you tried everything you tried</font>
+
+1175
+00:51:08,480 --> 00:51:09,980
+all the exploit<font color="#E5E5E5"> so we're</font><font color="#CCCCCC"> going to talk</font>
+
+1176
+00:51:09,980 --> 00:51:12,259
+about<font color="#E5E5E5"> and</font><font color="#CCCCCC"> you just</font><font color="#E5E5E5"> couldn't get in then</font>
+
+1177
+00:51:12,259 --> 00:51:14,390
+your other option would be to<font color="#E5E5E5"> exploit</font>
+
+1178
+00:51:14,390 --> 00:51:16,880
+the programs installed on that<font color="#CCCCCC"> computer</font>
+
+1179
+00:51:16,880 --> 00:51:18,950
+because we said a web server the<font color="#CCCCCC"> website</font>
+
+1180
+00:51:18,950 --> 00:51:21,140
+<font color="#E5E5E5">is installed on a normal computer just</font>
+
+1181
+00:51:21,140 --> 00:51:23,779
+<font color="#E5E5E5">like your home computer so if you</font>
+
+1182
+00:51:23,779 --> 00:51:24,890
+couldn't get in using<font color="#CCCCCC"> the web</font>
+
+1183
+00:51:24,890 --> 00:51:27,710
+applications what if there is one<font color="#E5E5E5"> of the</font>
+
+1184
+00:51:27,710 --> 00:51:29,569
+programs<font color="#CCCCCC"> installed on the web computer</font>
+
+1185
+00:51:29,569 --> 00:51:32,089
+and the computer itself has an exploit
+
+1186
+00:51:32,089 --> 00:51:34,220
+<font color="#E5E5E5">has a buffer overflow or a remote</font>
+
+1187
+00:51:34,220 --> 00:51:36,650
+execution<font color="#E5E5E5"> exploit what if the web server</font>
+
+1188
+00:51:36,650 --> 00:51:39,349
+itself<font color="#E5E5E5"> or the database program the</font>
+
+1189
+00:51:39,349 --> 00:51:40,759
+<font color="#CCCCCC">program that's</font><font color="#E5E5E5"> running the database</font>
+
+1190
+00:51:40,759 --> 00:51:44,059
+itself<font color="#E5E5E5"> had a remote root exploit</font><font color="#CCCCCC"> that</font>
+
+1191
+00:51:44,059 --> 00:51:45,829
+allows you to<font color="#CCCCCC"> just gain access to the</font>
+
+1192
+00:51:45,829 --> 00:51:47,750
+whole web server<font color="#E5E5E5"> including</font><font color="#CCCCCC"> the all the</font>
+
+1193
+00:51:47,750 --> 00:51:49,880
+<font color="#E5E5E5">web</font><font color="#CCCCCC"> sites inside it so this</font><font color="#E5E5E5"> will be</font>
+
+1194
+00:51:49,880 --> 00:51:52,460
+really<font color="#E5E5E5"> cool if you could get it if you</font>
+
+1195
+00:51:52,460 --> 00:51:53,839
+could have find anything wrong with<font color="#E5E5E5"> the</font>
+
+1196
+00:51:53,839 --> 00:51:56,450
+applications installed<font color="#CCCCCC"> on the web server</font>
+
+1197
+00:51:56,450 --> 00:51:59,329
+<font color="#CCCCCC">on the operating system then you could</font>
+
+1198
+00:51:59,329 --> 00:52:01,430
+<font color="#CCCCCC">target the humans</font><font color="#E5E5E5"> because we</font><font color="#CCCCCC"> know</font><font color="#E5E5E5"> web</font>
+
+1199
+00:52:01,430 --> 00:52:03,319
+<font color="#E5E5E5">sites are managed</font><font color="#CCCCCC"> by humans for example</font>
+
+1200
+00:52:03,319 --> 00:52:06,109
+<font color="#CCCCCC">Facebook you can target mark or</font><font color="#E5E5E5"> you can</font>
+
+1201
+00:52:06,109 --> 00:52:07,819
+target the admins<font color="#E5E5E5"> of Facebook for</font>
+
+1202
+00:52:07,819 --> 00:52:10,670
+<font color="#CCCCCC">example these admins obviously have more</font>
+
+1203
+00:52:10,670 --> 00:52:12,710
+privileges<font color="#E5E5E5"> on that</font><font color="#CCCCCC"> web site</font><font color="#E5E5E5"> than you and</font>
+
+1204
+00:52:12,710 --> 00:52:14,869
+then they might<font color="#E5E5E5"> be</font><font color="#CCCCCC"> able to upload</font>
+
+1205
+00:52:14,869 --> 00:52:16,970
+sensitive files<font color="#E5E5E5"> to</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> web</font><font color="#CCCCCC"> site</font><font color="#E5E5E5"> and</font>
+
+1206
+00:52:16,970 --> 00:52:19,400
+then<font color="#CCCCCC"> you can</font><font color="#E5E5E5"> control it and hack it by</font>
+
+1207
+00:52:19,400 --> 00:52:21,319
+<font color="#E5E5E5">hacking into one of those</font><font color="#CCCCCC"> people</font><font color="#E5E5E5"> so</font>
+
+1208
+00:52:21,319 --> 00:52:23,089
+instead<font color="#E5E5E5"> of maybe the</font><font color="#CCCCCC"> web site is</font><font color="#E5E5E5"> very</font>
+
+1209
+00:52:23,089 --> 00:52:25,220
+secure and the server<font color="#E5E5E5"> is</font><font color="#CCCCCC"> very secure</font><font color="#E5E5E5"> and</font>
+
+1210
+00:52:25,220 --> 00:52:27,289
+there is no way that<font color="#E5E5E5"> you can get in but</font>
+
+1211
+00:52:27,289 --> 00:52:29,509
+<font color="#E5E5E5">you can always exploit the humans using</font>
+
+1212
+00:52:29,509 --> 00:52:31,160
+<font color="#E5E5E5">social engineering attacks and</font>
+
+1213
+00:52:31,160 --> 00:52:33,650
+<font color="#E5E5E5">client-side the tags to gain control or</font>
+
+1214
+00:52:33,650 --> 00:52:35,359
+hack one of the people<font color="#CCCCCC"> that managed that</font>
+
+1215
+00:52:35,359 --> 00:52:37,190
+target website and then maybe gain
+
+1216
+00:52:37,190 --> 00:52:39,760
+access to<font color="#E5E5E5"> it</font>
+
+1217
+00:52:39,760 --> 00:52:41,890
+now this course will be<font color="#E5E5E5"> concerned with</font>
+
+1218
+00:52:41,890 --> 00:52:44,080
+the web application penetration testing
+
+1219
+00:52:44,080 --> 00:52:45,910
+so it's concerned<font color="#E5E5E5"> with the first step</font>
+
+1220
+00:52:45,910 --> 00:52:47,710
+with the first approach<font color="#E5E5E5"> so we're going</font>
+
+1221
+00:52:47,710 --> 00:52:50,680
+<font color="#E5E5E5">to learn how</font><font color="#CCCCCC"> to discover and exploit a</font>
+
+1222
+00:52:50,680 --> 00:52:52,600
+large number<font color="#CCCCCC"> of vulnerabilities that can</font>
+
+1223
+00:52:52,600 --> 00:52:53,290
+be fine
+
+1224
+00:52:53,290 --> 00:52:55,420
+found in<font color="#E5E5E5"> the web</font><font color="#CCCCCC"> application itself</font>
+
+1225
+00:52:55,420 --> 00:52:56,830
+<font color="#CCCCCC">we're</font><font color="#E5E5E5"> not going to be talking about</font>
+
+1226
+00:52:56,830 --> 00:52:59,080
+<font color="#E5E5E5">server-side attacks</font><font color="#CCCCCC"> so the attacks</font><font color="#E5E5E5"> that</font>
+
+1227
+00:52:59,080 --> 00:53:01,300
+exploit the operating system and<font color="#E5E5E5"> the</font>
+
+1228
+00:53:01,300 --> 00:53:03,280
+<font color="#CCCCCC">applications installed on the operating</font>
+
+1229
+00:53:03,280 --> 00:53:05,200
+system<font color="#CCCCCC"> itself</font><font color="#E5E5E5"> of the web server</font><font color="#CCCCCC"> and</font>
+
+1230
+00:53:05,200 --> 00:53:07,060
+we're<font color="#E5E5E5"> not going to be talking about the</font>
+
+1231
+00:53:07,060 --> 00:53:08,619
+client-side attacks<font color="#E5E5E5"> about attacking</font>
+
+1232
+00:53:08,619 --> 00:53:11,800
+<font color="#E5E5E5">humans and how</font><font color="#CCCCCC"> can their accounts</font><font color="#E5E5E5"> and</font>
+
+1233
+00:53:11,800 --> 00:53:13,780
+then<font color="#CCCCCC"> gaining access to the website</font><font color="#E5E5E5"> all</font>
+
+1234
+00:53:13,780 --> 00:53:15,820
+<font color="#CCCCCC">of these these two the</font><font color="#E5E5E5"> last two sections</font>
+
+1235
+00:53:15,820 --> 00:53:18,010
+<font color="#E5E5E5">are</font><font color="#CCCCCC"> actually covered into my general</font>
+
+1236
+00:53:18,010 --> 00:53:19,900
+<font color="#E5E5E5">ethical hacking course so I have a</font>
+
+1237
+00:53:19,900 --> 00:53:21,550
+course<font color="#CCCCCC"> called learn ethical hacking from</font>
+
+1238
+00:53:21,550 --> 00:53:24,130
+<font color="#E5E5E5">scratch which which covers those two</font>
+
+1239
+00:53:24,130 --> 00:53:26,080
+<font color="#E5E5E5">aspects therefore in this course we're</font>
+
+1240
+00:53:26,080 --> 00:53:28,359
+<font color="#CCCCCC">going</font><font color="#E5E5E5"> to be focusing on the web</font>
+
+1241
+00:53:28,359 --> 00:53:30,609
+application<font color="#E5E5E5"> penetration testing site so</font>
+
+1242
+00:53:30,609 --> 00:53:33,040
+on hacking<font color="#E5E5E5"> the web sites based on the</font>
+
+1243
+00:53:33,040 --> 00:53:35,500
+web applications installed<font color="#E5E5E5"> on</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> web</font>
+
+1244
+00:53:35,500 --> 00:53:37,530
+<font color="#E5E5E5">site</font>
+
+1245
+00:53:38,950 --> 00:53:41,810
+today we're going<font color="#E5E5E5"> to learn how to get</font>
+
+1246
+00:53:41,810 --> 00:53:44,090
+<font color="#E5E5E5">information about the technologies used</font>
+
+1247
+00:53:44,090 --> 00:53:47,540
+by<font color="#CCCCCC"> the target website</font><font color="#E5E5E5"> so we're going to</font>
+
+1248
+00:53:47,540 --> 00:53:50,510
+<font color="#E5E5E5">use a website called</font><font color="#CCCCCC"> nut craft</font><font color="#E5E5E5"> and I'm</font>
+
+1249
+00:53:50,510 --> 00:53:52,070
+gonna put my target here and as you<font color="#CCCCCC"> can</font>
+
+1250
+00:53:52,070 --> 00:53:53,840
+<font color="#CCCCCC">see I already</font><font color="#E5E5E5"> put it there I security</font>
+
+1251
+00:53:53,840 --> 00:53:56,950
+<font color="#CCCCCC">world</font><font color="#E5E5E5"> so I'm just</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> hit enter and</font>
+
+1252
+00:53:56,950 --> 00:53:59,630
+again<font color="#E5E5E5"> first of all you'll</font><font color="#CCCCCC"> see some basic</font>
+
+1253
+00:53:59,630 --> 00:54:02,500
+<font color="#CCCCCC">information such</font><font color="#E5E5E5"> as the website</font><font color="#CCCCCC"> title</font>
+
+1254
+00:54:02,500 --> 00:54:06,230
+the description<font color="#CCCCCC"> the keyword and</font><font color="#E5E5E5"> when the</font>
+
+1255
+00:54:06,230 --> 00:54:09,500
+website<font color="#CCCCCC"> was created</font><font color="#E5E5E5"> scrolling down</font>
+
+1256
+00:54:09,500 --> 00:54:12,200
+you'll see the website<font color="#E5E5E5"> itself</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> domain</font>
+
+1257
+00:54:12,200 --> 00:54:14,810
+<font color="#E5E5E5">name the IP address just</font><font color="#CCCCCC"> like we seen in</font>
+
+1258
+00:54:14,810 --> 00:54:17,660
+<font color="#E5E5E5">the previous video the domain register</font>
+
+1259
+00:54:17,660 --> 00:54:19,340
+<font color="#CCCCCC">are so the company who registered the</font>
+
+1260
+00:54:19,340 --> 00:54:21,670
+<font color="#E5E5E5">domain for us for</font><font color="#CCCCCC"> eye security and</font>
+
+1261
+00:54:21,670 --> 00:54:24,200
+you'll also see information<font color="#E5E5E5"> about the</font>
+
+1262
+00:54:24,200 --> 00:54:26,750
+organization and here you can't see it
+
+1263
+00:54:26,750 --> 00:54:29,210
+for<font color="#E5E5E5"> this example because I security is</font>
+
+1264
+00:54:29,210 --> 00:54:31,550
+using privacy protection but usually
+
+1265
+00:54:31,550 --> 00:54:33,230
+you'll be able<font color="#E5E5E5"> to see it and see more</font>
+
+1266
+00:54:33,230 --> 00:54:36,050
+<font color="#CCCCCC">information we</font><font color="#E5E5E5"> can</font><font color="#CCCCCC"> also see that it's</font>
+
+1267
+00:54:36,050 --> 00:54:39,080
+hosted in Netherlands we can see the
+
+1268
+00:54:39,080 --> 00:54:42,599
+name server which is dim<font color="#E5E5E5"> Knopf dotnet</font>
+
+1269
+00:54:42,599 --> 00:54:45,029
+and again if you just<font color="#E5E5E5"> go</font><font color="#CCCCCC"> to dim nerf net</font>
+
+1270
+00:54:45,029 --> 00:54:47,549
+<font color="#E5E5E5">you'll discover that</font><font color="#CCCCCC"> this is a website</font>
+
+1271
+00:54:47,549 --> 00:54:50,700
+<font color="#E5E5E5">for web</font><font color="#CCCCCC"> hosting</font><font color="#E5E5E5"> so we know this is</font><font color="#CCCCCC"> a web</font>
+
+1272
+00:54:50,700 --> 00:54:53,190
+hosting company<font color="#CCCCCC"> and worst</font><font color="#E5E5E5"> worst case</font>
+
+1273
+00:54:53,190 --> 00:54:55,529
+scenarios we can<font color="#E5E5E5"> use this or try to hack</font>
+
+1274
+00:54:55,529 --> 00:54:58,140
+into<font color="#E5E5E5"> dim nerf itself</font><font color="#CCCCCC"> to gain access to</font>
+
+1275
+00:54:58,140 --> 00:55:00,850
+<font color="#CCCCCC">eye security</font>
+
+1276
+00:55:00,850 --> 00:55:03,740
+scroll down<font color="#CCCCCC"> you'll see history</font><font color="#E5E5E5"> of the</font>
+
+1277
+00:55:03,740 --> 00:55:06,200
+hosting companies that I security<font color="#CCCCCC"> used</font>
+
+1278
+00:55:06,200 --> 00:55:08,960
+and we can see that<font color="#E5E5E5"> the latest one is</font>
+
+1279
+00:55:08,960 --> 00:55:11,810
+<font color="#E5E5E5">this one and it's running on Linux with</font>
+
+1280
+00:55:11,810 --> 00:55:14,360
+<font color="#E5E5E5">Apache same server that we seen in the</font>
+
+1281
+00:55:14,360 --> 00:55:15,830
+previous video<font color="#CCCCCC"> two point three point</font>
+
+1282
+00:55:15,830 --> 00:55:18,410
+<font color="#CCCCCC">three one with UNIX</font><font color="#E5E5E5"> mode SSL</font><font color="#CCCCCC"> and all the</font>
+
+1283
+00:55:18,410 --> 00:55:20,450
+other<font color="#CCCCCC"> add-ons</font><font color="#E5E5E5"> again this is</font><font color="#CCCCCC"> very</font>
+
+1284
+00:55:20,450 --> 00:55:22,880
+important<font color="#CCCCCC"> to find vulnerabilities and</font>
+
+1285
+00:55:22,880 --> 00:55:27,710
+exploits<font color="#CCCCCC"> on our target computer in the</font>
+
+1286
+00:55:27,710 --> 00:55:29,270
+<font color="#CCCCCC">security section you'll see if the</font>
+
+1287
+00:55:29,270 --> 00:55:30,920
+<font color="#CCCCCC">website has any spam</font><font color="#E5E5E5"> and you can see</font>
+
+1288
+00:55:30,920 --> 00:55:33,490
+that it doesn't<font color="#E5E5E5"> really have any spam</font>
+
+1289
+00:55:33,490 --> 00:55:36,500
+<font color="#E5E5E5">scrolling</font><font color="#CCCCCC"> down on the web trackers</font><font color="#E5E5E5"> it</font>
+
+1290
+00:55:36,500 --> 00:55:39,530
+will show you the<font color="#CCCCCC"> third-party resources</font>
+
+1291
+00:55:39,530 --> 00:55:43,190
+or applications used on our<font color="#E5E5E5"> target so we</font>
+
+1292
+00:55:43,190 --> 00:55:44,960
+can see that<font color="#E5E5E5"> our target</font><font color="#CCCCCC"> uses Google</font>
+
+1293
+00:55:44,960 --> 00:55:48,200
+Analytics Google<font color="#CCCCCC"> CDN</font><font color="#E5E5E5"> and other Google</font>
+
+1294
+00:55:48,200 --> 00:55:51,230
+services so this<font color="#E5E5E5"> could</font><font color="#CCCCCC"> also help us to</font>
+
+1295
+00:55:51,230 --> 00:55:53,510
+find<font color="#E5E5E5"> or gain access to the target</font>
+
+1296
+00:55:53,510 --> 00:55:57,320
+<font color="#CCCCCC">computer the technologies is one of the</font>
+
+1297
+00:55:57,320 --> 00:55:59,510
+most important tabs or sections in<font color="#CCCCCC"> here</font>
+
+1298
+00:55:59,510 --> 00:56:01,910
+because<font color="#CCCCCC"> it shows us the technologies</font>
+
+1299
+00:56:01,910 --> 00:56:03,980
+<font color="#E5E5E5">used on the target website so we can see</font>
+
+1300
+00:56:03,980 --> 00:56:05,540
+it's used<font color="#E5E5E5"> in Apache web server we</font>
+
+1301
+00:56:05,540 --> 00:56:09,560
+already know that<font color="#E5E5E5"> on the server side we</font>
+
+1302
+00:56:09,560 --> 00:56:12,590
+can see<font color="#E5E5E5"> that the website uses PHP so</font>
+
+1303
+00:56:12,590 --> 00:56:15,800
+this means<font color="#E5E5E5"> the website can run can</font>
+
+1304
+00:56:15,800 --> 00:56:18,770
+understand<font color="#E5E5E5"> and run PHP code this is very</font>
+
+1305
+00:56:18,770 --> 00:56:20,420
+important<font color="#E5E5E5"> because in the</font><font color="#CCCCCC"> future if we</font>
+
+1306
+00:56:20,420 --> 00:56:23,600
+<font color="#E5E5E5">manage to</font><font color="#CCCCCC"> run any kind of code on our</font>
+
+1307
+00:56:23,600 --> 00:56:25,820
+<font color="#E5E5E5">target then we know this code should</font><font color="#CCCCCC"> be</font>
+
+1308
+00:56:25,820 --> 00:56:28,220
+<font color="#E5E5E5">sent as PHP code so for creating</font>
+
+1309
+00:56:28,220 --> 00:56:30,350
+payloads and<font color="#CCCCCC"> Metasploit or even</font>
+
+1310
+00:56:30,350 --> 00:56:33,200
+relevation<font color="#CCCCCC"> we should create</font><font color="#E5E5E5"> them</font><font color="#CCCCCC"> in PHP</font>
+
+1311
+00:56:33,200 --> 00:56:35,900
+format and the target<font color="#CCCCCC"> website will</font><font color="#E5E5E5"> be</font>
+
+1312
+00:56:35,900 --> 00:56:38,510
+able<font color="#E5E5E5"> to run them because it can support</font>
+
+1313
+00:56:38,510 --> 00:56:43,160
+PHP on the client side we can see that
+
+1314
+00:56:43,160 --> 00:56:46,130
+the<font color="#E5E5E5"> website supports</font><font color="#CCCCCC"> Java Script</font><font color="#E5E5E5"> so if</font>
+
+1315
+00:56:46,130 --> 00:56:48,380
+you run<font color="#CCCCCC"> Java Script</font><font color="#E5E5E5"> or if you manage to</font>
+
+1316
+00:56:48,380 --> 00:56:51,140
+<font color="#E5E5E5">run JavaScript</font><font color="#CCCCCC"> code on the website</font><font color="#E5E5E5"> it's</font>
+
+1317
+00:56:51,140 --> 00:56:53,270
+<font color="#E5E5E5">not going to be executed on</font><font color="#CCCCCC"> the website</font>
+
+1318
+00:56:53,270 --> 00:56:56,450
+it will<font color="#E5E5E5"> be executed</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> users who see</font>
+
+1319
+00:56:56,450 --> 00:56:58,340
+the website<font color="#E5E5E5"> because javascript is a</font>
+
+1320
+00:56:58,340 --> 00:57:01,720
+client<font color="#E5E5E5"> that the client-side language and</font>
+
+1321
+00:57:01,720 --> 00:57:04,880
+PHP<font color="#E5E5E5"> is a server-side so if we if we</font>
+
+1322
+00:57:04,880 --> 00:57:06,920
+<font color="#E5E5E5">manage</font><font color="#CCCCCC"> to run PHP</font><font color="#E5E5E5"> code it will be</font>
+
+1323
+00:57:06,920 --> 00:57:09,740
+<font color="#E5E5E5">executed on the server</font><font color="#CCCCCC"> itself</font><font color="#E5E5E5"> if you</font>
+
+1324
+00:57:09,740 --> 00:57:12,080
+manage<font color="#CCCCCC"> to run</font><font color="#E5E5E5"> JavaScript</font><font color="#CCCCCC"> it's going to</font>
+
+1325
+00:57:12,080 --> 00:57:13,910
+be executed on<font color="#E5E5E5"> the</font><font color="#CCCCCC"> user's</font>
+
+1326
+00:57:13,910 --> 00:57:17,770
+or the<font color="#E5E5E5"> people who</font><font color="#CCCCCC"> visit the website</font>
+
+1327
+00:57:18,190 --> 00:57:20,839
+same<font color="#E5E5E5"> here with jQuery this is just a</font>
+
+1328
+00:57:20,839 --> 00:57:24,710
+framework for JavaScript<font color="#E5E5E5"> scrolling</font><font color="#CCCCCC"> down</font>
+
+1329
+00:57:24,710 --> 00:57:26,539
+we<font color="#CCCCCC"> can see that the</font><font color="#E5E5E5"> website uses</font>
+
+1330
+00:57:26,539 --> 00:57:29,599
+<font color="#E5E5E5">WordPress this is very important so net</font>
+
+1331
+00:57:29,599 --> 00:57:32,960
+<font color="#CCCCCC">crafts will also show you any web</font>
+
+1332
+00:57:32,960 --> 00:57:35,450
+applications<font color="#E5E5E5"> being used on the</font><font color="#CCCCCC"> website</font>
+
+1333
+00:57:35,450 --> 00:57:37,759
+<font color="#E5E5E5">so</font><font color="#CCCCCC"> WordPress is just a web application</font>
+
+1334
+00:57:37,759 --> 00:57:39,319
+so<font color="#E5E5E5"> you could see other</font><font color="#CCCCCC"> examples in your</font>
+
+1335
+00:57:39,319 --> 00:57:42,259
+case and it's a<font color="#E5E5E5"> open source web</font>
+
+1336
+00:57:42,259 --> 00:57:44,960
+application<font color="#CCCCCC"> that a lot</font><font color="#E5E5E5"> of other websites</font>
+
+1337
+00:57:44,960 --> 00:57:47,150
+might have the good thing<font color="#CCCCCC"> about this is</font>
+
+1338
+00:57:47,150 --> 00:57:50,059
+you can go and find<font color="#E5E5E5"> exploits or</font>
+
+1339
+00:57:50,059 --> 00:57:52,039
+vulnerabilities<font color="#E5E5E5"> within this web</font>
+
+1340
+00:57:52,039 --> 00:57:54,410
+application<font color="#CCCCCC"> if you are</font><font color="#E5E5E5"> lucky enough to</font>
+
+1341
+00:57:54,410 --> 00:57:56,480
+<font color="#CCCCCC">find an</font><font color="#E5E5E5"> existing one then you can go</font>
+
+1342
+00:57:56,480 --> 00:57:59,299
+ahead<font color="#E5E5E5"> and exploit</font><font color="#CCCCCC"> it on the target web</font>
+
+1343
+00:57:59,299 --> 00:58:02,960
+site so for<font color="#E5E5E5"> example we have</font><font color="#CCCCCC"> wordpress in</font>
+
+1344
+00:58:02,960 --> 00:58:04,670
+our example<font color="#E5E5E5"> and i'm gonna go to exploit</font>
+
+1345
+00:58:04,670 --> 00:58:07,240
+database
+
+1346
+00:58:09,400 --> 00:58:13,369
+and if we go<font color="#CCCCCC"> on the</font><font color="#E5E5E5"> search here</font>
+
+1347
+00:58:13,369 --> 00:58:15,680
+so I'm just<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> type in WordPress here</font>
+
+1348
+00:58:15,680 --> 00:58:19,789
+<font color="#CCCCCC">and I'm gonna say I'm not a robot</font><font color="#E5E5E5"> then</font>
+
+1349
+00:58:19,789 --> 00:58:22,690
+we're going to search
+
+1350
+00:58:23,700 --> 00:58:26,220
+and as you can<font color="#E5E5E5"> see we've we managed to</font>
+
+1351
+00:58:26,220 --> 00:58:28,770
+find a lot<font color="#CCCCCC"> of</font><font color="#E5E5E5"> exploits related to</font>
+
+1352
+00:58:28,770 --> 00:58:31,710
+WordPress<font color="#CCCCCC"> now these are</font><font color="#E5E5E5"> related to</font>
+
+1353
+00:58:31,710 --> 00:58:33,480
+<font color="#CCCCCC">different versions</font><font color="#E5E5E5"> of WordPress so you</font>
+
+1354
+00:58:33,480 --> 00:58:35,069
+need to make<font color="#CCCCCC"> sure that you have the same</font>
+
+1355
+00:58:35,069 --> 00:58:37,260
+version<font color="#E5E5E5"> on your target and we'll have</font>
+
+1356
+00:58:37,260 --> 00:58:39,690
+examples to see<font color="#CCCCCC"> how to use</font><font color="#E5E5E5"> exploits like</font>
+
+1357
+00:58:39,690 --> 00:58:42,980
+these but it just shows you<font color="#CCCCCC"> how powerful</font>
+
+1358
+00:58:42,980 --> 00:58:47,760
+<font color="#CCCCCC">information-gathering is again</font><font color="#E5E5E5"> going</font>
+
+1359
+00:58:47,760 --> 00:58:49,500
+down you<font color="#E5E5E5"> can see that the website</font><font color="#CCCCCC"> uses</font>
+
+1360
+00:58:49,500 --> 00:58:52,500
+<font color="#CCCCCC">cPanel this is another web application</font>
+
+1361
+00:58:52,500 --> 00:58:54,720
+it's a hosting control panel<font color="#CCCCCC"> again you</font>
+
+1362
+00:58:54,720 --> 00:58:56,760
+can go on exploit database and see if
+
+1363
+00:58:56,760 --> 00:58:58,260
+you can<font color="#E5E5E5"> find any vulnerabilities or</font>
+
+1364
+00:58:58,260 --> 00:59:02,040
+<font color="#E5E5E5">exploits related to it</font><font color="#CCCCCC"> and you can also</font>
+
+1365
+00:59:02,040 --> 00:59:04,140
+find<font color="#E5E5E5"> other information</font><font color="#CCCCCC"> such as that the</font>
+
+1366
+00:59:04,140 --> 00:59:07,680
+<font color="#E5E5E5">website uses</font><font color="#CCCCCC"> html5 uses</font><font color="#E5E5E5"> CSS and all that</font>
+
+1367
+00:59:07,680 --> 00:59:10,680
+kind of stuff<font color="#CCCCCC"> so net</font><font color="#E5E5E5"> craft is really</font>
+
+1368
+00:59:10,680 --> 00:59:12,690
+useful from<font color="#CCCCCC"> it we managed to know that</font>
+
+1369
+00:59:12,690 --> 00:59:15,569
+the website runs PHP runs JavaScript<font color="#CCCCCC"> it</font>
+
+1370
+00:59:15,569 --> 00:59:17,970
+uses WordPress<font color="#CCCCCC"> so we can use WordPress</font>
+
+1371
+00:59:17,970 --> 00:59:20,660
+<font color="#CCCCCC">to hack into the website</font><font color="#E5E5E5"> and cPanel</font><font color="#CCCCCC"> and</font>
+
+1372
+00:59:20,660 --> 00:59:24,660
+we can also if we go<font color="#E5E5E5"> up we also</font><font color="#CCCCCC"> manage</font>
+
+1373
+00:59:24,660 --> 00:59:26,819
+to<font color="#E5E5E5"> know the web hosting or even we found</font>
+
+1374
+00:59:26,819 --> 00:59:28,920
+that in the previous<font color="#E5E5E5"> video</font><font color="#CCCCCC"> that demon of</font>
+
+1375
+00:59:28,920 --> 00:59:32,099
+<font color="#E5E5E5">is the web hosting company of this</font>
+
+1376
+00:59:32,099 --> 00:59:35,160
+website<font color="#CCCCCC"> so in</font><font color="#E5E5E5"> worst case scenarios we</font>
+
+1377
+00:59:35,160 --> 00:59:37,200
+<font color="#E5E5E5">can try to</font><font color="#CCCCCC"> hack into that</font><font color="#E5E5E5"> web hosting</font>
+
+1378
+00:59:37,200 --> 00:59:43,380
+and gain access<font color="#E5E5E5"> to our target website as</font>
+
+1379
+00:59:43,380 --> 00:59:45,720
+usual<font color="#E5E5E5"> the first thing that</font><font color="#CCCCCC"> we do before</font>
+
+1380
+00:59:45,720 --> 00:59:48,299
+<font color="#CCCCCC">we start</font><font color="#E5E5E5"> trying to exploit or find any</font>
+
+1381
+00:59:48,299 --> 00:59:50,640
+vulnerabilities<font color="#E5E5E5"> we do information</font>
+
+1382
+00:59:50,640 --> 00:59:52,290
+gathering so we try<font color="#E5E5E5"> to gather as much</font>
+
+1383
+00:59:52,290 --> 00:59:54,420
+information<font color="#E5E5E5"> as possible about the target</font>
+
+1384
+00:59:54,420 --> 00:59:57,690
+<font color="#E5E5E5">and web applications are no different so</font>
+
+1385
+00:59:57,690 --> 01:00:00,750
+we're going to<font color="#CCCCCC"> start by trying to</font><font color="#E5E5E5"> get as</font>
+
+1386
+01:00:00,750 --> 01:00:03,240
+much<font color="#E5E5E5"> information as we can about</font><font color="#CCCCCC"> the</font>
+
+1387
+01:00:03,240 --> 01:00:06,299
+target IP<font color="#E5E5E5"> address the domain name info</font>
+
+1388
+01:00:06,299 --> 01:00:08,549
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> technologies</font><font color="#E5E5E5"> used on the web sites</font>
+
+1389
+01:00:08,549 --> 01:00:10,770
+<font color="#CCCCCC">are what programming languages used</font><font color="#E5E5E5"> what</font>
+
+1390
+01:00:10,770 --> 01:00:13,650
+can a server is installed<font color="#E5E5E5"> on it what</font>
+
+1391
+01:00:13,650 --> 01:00:16,290
+<font color="#E5E5E5">kind of database is being</font><font color="#CCCCCC"> used we're</font>
+
+1392
+01:00:16,290 --> 01:00:18,089
+<font color="#E5E5E5">going to gather information about the</font>
+
+1393
+01:00:18,089 --> 01:00:20,760
+company<font color="#E5E5E5"> the DNS records and we'll also</font>
+
+1394
+01:00:20,760 --> 01:00:23,490
+see if we can find any files<font color="#CCCCCC"> that are</font>
+
+1395
+01:00:23,490 --> 01:00:25,950
+not<font color="#E5E5E5"> being listed or any subdomains that</font>
+
+1396
+01:00:25,950 --> 01:00:29,869
+<font color="#E5E5E5">are not visible to</font><font color="#CCCCCC"> other to other people</font>
+
+1397
+01:00:29,869 --> 01:00:32,450
+so the first thing that<font color="#E5E5E5"> we're going</font><font color="#CCCCCC"> to</font>
+
+1398
+01:00:32,450 --> 01:00:36,499
+have a look on is who is look up who's
+
+1399
+01:00:36,499 --> 01:00:39,380
+the<font color="#CCCCCC"> cup is a protocol that's used to</font>
+
+1400
+01:00:39,380 --> 01:00:42,619
+find<font color="#CCCCCC"> owners of Internet resources</font><font color="#E5E5E5"> for</font>
+
+1401
+01:00:42,619 --> 01:00:45,950
+<font color="#E5E5E5">example server</font><font color="#CCCCCC"> and IP address or a</font>
+
+1402
+01:00:45,950 --> 01:00:48,799
+domain<font color="#E5E5E5"> so we're actually not hacking or</font>
+
+1403
+01:00:48,799 --> 01:00:50,239
+doing anything<font color="#E5E5E5"> we literally</font><font color="#CCCCCC"> just</font>
+
+1404
+01:00:50,239 --> 01:00:52,519
+retrieve an info from a database<font color="#CCCCCC"> that</font>
+
+1405
+01:00:52,519 --> 01:00:54,769
+<font color="#CCCCCC">contains</font><font color="#E5E5E5"> information about</font><font color="#CCCCCC"> owners of</font>
+
+1406
+01:00:54,769 --> 01:00:58,160
+stuff on the<font color="#CCCCCC"> internet</font><font color="#E5E5E5"> so for example</font>
+
+1407
+01:00:58,160 --> 01:01:01,219
+when you sign up<font color="#E5E5E5"> when you sign up</font><font color="#CCCCCC"> for a</font>
+
+1408
+01:01:01,219 --> 01:01:03,140
+domain<font color="#E5E5E5"> name if you wanted to register a</font>
+
+1409
+01:01:03,140 --> 01:01:05,210
+domain name<font color="#E5E5E5"> for yourself</font><font color="#CCCCCC"> for example is</font>
+
+1410
+01:01:05,210 --> 01:01:07,700
+<font color="#CCCCCC">a</font><font color="#E5E5E5"> calm when I do that I have</font><font color="#CCCCCC"> to supply</font>
+
+1411
+01:01:07,700 --> 01:01:10,190
+information about myself<font color="#CCCCCC"> my address and</font>
+
+1412
+01:01:10,190 --> 01:01:12,920
+then<font color="#E5E5E5"> the name would be stored in my own</font>
+
+1413
+01:01:12,920 --> 01:01:15,559
+name<font color="#E5E5E5"> and people can see that</font><font color="#CCCCCC"> Zaid owns</font>
+
+1414
+01:01:15,559 --> 01:01:17,690
+this domain<font color="#E5E5E5"> name so this is all we're</font>
+
+1415
+01:01:17,690 --> 01:01:20,150
+going<font color="#E5E5E5"> to do if you</font><font color="#CCCCCC"> google whose look up</font>
+
+1416
+01:01:20,150 --> 01:01:21,829
+you'll see<font color="#CCCCCC"> a lot of</font><font color="#E5E5E5"> websites providing</font>
+
+1417
+01:01:21,829 --> 01:01:24,499
+the service so I'm using<font color="#E5E5E5"> who's the</font>
+
+1418
+01:01:24,499 --> 01:01:27,289
+domain tools<font color="#E5E5E5"> calm and I'm just gonna put</font>
+
+1419
+01:01:27,289 --> 01:01:30,529
+my target<font color="#E5E5E5"> domain name and I'm just gonna</font>
+
+1420
+01:01:30,529 --> 01:01:34,359
+<font color="#E5E5E5">use I security at org</font>
+
+1421
+01:01:34,789 --> 01:01:36,849
+<font color="#E5E5E5">you</font>
+
+1422
+01:01:37,600 --> 01:01:39,910
+so as you can see<font color="#CCCCCC"> very</font><font color="#E5E5E5"> simple and we get</font>
+
+1423
+01:01:39,910 --> 01:01:41,950
+a lot<font color="#E5E5E5"> of</font><font color="#CCCCCC"> information about</font><font color="#E5E5E5"> our target</font>
+
+1424
+01:01:41,950 --> 01:01:45,040
+website you'll<font color="#E5E5E5"> see the email that</font><font color="#CCCCCC"> you</font>
+
+1425
+01:01:45,040 --> 01:01:48,570
+can<font color="#E5E5E5"> use to contact the domain name info</font>
+
+1426
+01:01:48,570 --> 01:01:51,070
+usually<font color="#CCCCCC"> he'll be able to</font><font color="#E5E5E5"> see the address</font>
+
+1427
+01:01:51,070 --> 01:01:53,730
+<font color="#E5E5E5">of the company that has</font><font color="#CCCCCC"> registered this</font>
+
+1428
+01:01:53,730 --> 01:01:56,350
+domain<font color="#CCCCCC"> name</font><font color="#E5E5E5"> but we can see</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> this</font>
+
+1429
+01:01:56,350 --> 01:01:58,810
+company<font color="#CCCCCC"> is using privacy on their domain</font>
+
+1430
+01:01:58,810 --> 01:02:01,360
+<font color="#CCCCCC">so you can't really see the</font><font color="#E5E5E5"> address but</font>
+
+1431
+01:02:01,360 --> 01:02:02,680
+if they have if they're not using
+
+1432
+01:02:02,680 --> 01:02:04,870
+privacy<font color="#E5E5E5"> you'll be able to see their</font>
+
+1433
+01:02:04,870 --> 01:02:07,420
+address and more<font color="#CCCCCC"> information</font><font color="#E5E5E5"> about the</font>
+
+1434
+01:02:07,420 --> 01:02:09,670
+actual<font color="#E5E5E5"> company you can see when the</font>
+
+1435
+01:02:09,670 --> 01:02:13,060
+domain name was created<font color="#CCCCCC"> you can see the</font>
+
+1436
+01:02:13,060 --> 01:02:16,330
+IP address of<font color="#E5E5E5"> I security org so if you</font>
+
+1437
+01:02:16,330 --> 01:02:18,370
+ping this<font color="#E5E5E5"> you should get this IP</font><font color="#CCCCCC"> address</font>
+
+1438
+01:02:18,370 --> 01:02:20,910
+and I'll show<font color="#E5E5E5"> you</font>
+
+1439
+01:02:21,540 --> 01:02:29,280
+<font color="#CCCCCC">I do</font><font color="#E5E5E5"> think I see here it you'll see it's</font>
+
+1440
+01:02:29,280 --> 01:02:31,320
+the<font color="#CCCCCC"> same</font><font color="#E5E5E5"> domain name here</font><font color="#CCCCCC"> the same IP</font>
+
+1441
+01:02:31,320 --> 01:02:35,280
+address here sorry you can see<font color="#CCCCCC"> the IP</font>
+
+1442
+01:02:35,280 --> 01:02:38,250
+<font color="#CCCCCC">location</font><font color="#E5E5E5"> we can see the status obviously</font>
+
+1443
+01:02:38,250 --> 01:02:41,610
+it's active you can<font color="#CCCCCC"> also access the</font>
+
+1444
+01:02:41,610 --> 01:02:43,590
+history but<font color="#E5E5E5"> you need to register for</font>
+
+1445
+01:02:43,590 --> 01:02:47,310
+that<font color="#E5E5E5"> and obviously</font><font color="#CCCCCC"> we can see the</font><font color="#E5E5E5"> title</font>
+
+1446
+01:02:47,310 --> 01:02:49,650
+here<font color="#CCCCCC"> and something that's</font><font color="#E5E5E5"> very</font><font color="#CCCCCC"> useful</font>
+
+1447
+01:02:49,650 --> 01:02:51,300
+here<font color="#CCCCCC"> we can see that it's using Apache</font>
+
+1448
+01:02:51,300 --> 01:02:53,940
+web server so this is a<font color="#E5E5E5"> software that</font>
+
+1449
+01:02:53,940 --> 01:02:56,190
+<font color="#E5E5E5">can</font><font color="#CCCCCC"> be</font><font color="#E5E5E5"> used as a web server and we can</font>
+
+1450
+01:02:56,190 --> 01:02:58,770
+see<font color="#E5E5E5"> that I security uses this web server</font>
+
+1451
+01:02:58,770 --> 01:03:03,150
+and<font color="#E5E5E5"> of version</font><font color="#CCCCCC"> 2.2 0.31</font><font color="#E5E5E5"> so again we can</font>
+
+1452
+01:03:03,150 --> 01:03:06,150
+<font color="#CCCCCC">use this to find</font><font color="#E5E5E5"> exploits</font><font color="#CCCCCC"> and we can see</font>
+
+1453
+01:03:06,150 --> 01:03:08,610
+<font color="#E5E5E5">that it's using</font><font color="#CCCCCC"> Unix</font><font color="#E5E5E5"> the operating</font>
+
+1454
+01:03:08,610 --> 01:03:10,710
+<font color="#E5E5E5">system of the</font><font color="#CCCCCC"> website of the server</font><font color="#E5E5E5"> and</font>
+
+1455
+01:03:10,710 --> 01:03:13,350
+it's<font color="#E5E5E5"> using the following add-ons as well</font>
+
+1456
+01:03:13,350 --> 01:03:17,070
+as using<font color="#E5E5E5"> mod SSL and open SSL now right</font>
+
+1457
+01:03:17,070 --> 01:03:19,350
+here<font color="#E5E5E5"> you can find more information</font><font color="#CCCCCC"> about</font>
+
+1458
+01:03:19,350 --> 01:03:21,690
+the company<font color="#E5E5E5"> who registered this domain</font>
+
+1459
+01:03:21,690 --> 01:03:24,930
+so again<font color="#CCCCCC"> I security is using privacy so</font>
+
+1460
+01:03:24,930 --> 01:03:27,240
+<font color="#E5E5E5">you won't be able to see the address</font><font color="#CCCCCC"> you</font>
+
+1461
+01:03:27,240 --> 01:03:29,430
+can see that it's saying that<font color="#CCCCCC"> the target</font>
+
+1462
+01:03:29,430 --> 01:03:33,810
+<font color="#CCCCCC">person is using privacy protection but</font>
+
+1463
+01:03:33,810 --> 01:03:35,970
+usually you'll be able to see phone
+
+1464
+01:03:35,970 --> 01:03:40,320
+numbers and addresses<font color="#E5E5E5"> of that company so</font>
+
+1465
+01:03:40,320 --> 01:03:42,630
+as you can see<font color="#CCCCCC"> very simple stuff but</font>
+
+1466
+01:03:42,630 --> 01:03:45,300
+it's very helpful<font color="#CCCCCC"> in the long</font><font color="#E5E5E5"> run just</font>
+
+1467
+01:03:45,300 --> 01:03:47,070
+<font color="#E5E5E5">to know what</font><font color="#CCCCCC"> your target what's their IP</font>
+
+1468
+01:03:47,070 --> 01:03:49,800
+<font color="#E5E5E5">what services are they using we can also</font>
+
+1469
+01:03:49,800 --> 01:03:51,360
+<font color="#CCCCCC">here actually I didn't show you you can</font>
+
+1470
+01:03:51,360 --> 01:03:54,030
+<font color="#E5E5E5">see the</font><font color="#CCCCCC"> name servers that are</font><font color="#E5E5E5"> being</font>
+
+1471
+01:03:54,030 --> 01:03:56,310
+being used<font color="#E5E5E5"> and we can see that they are</font>
+
+1472
+01:03:56,310 --> 01:03:59,250
+<font color="#E5E5E5">provided by a company called</font><font color="#CCCCCC"> Tim not net</font>
+
+1473
+01:03:59,250 --> 01:04:01,320
+<font color="#E5E5E5">now if you go</font><font color="#CCCCCC"> on them now if you'll see</font>
+
+1474
+01:04:01,320 --> 01:04:04,460
+that this is<font color="#CCCCCC"> a hosting company</font>
+
+1475
+01:04:06,430 --> 01:04:10,160
+so if we go on the<font color="#E5E5E5"> English version that</font>
+
+1476
+01:04:10,160 --> 01:04:11,480
+you'll see that<font color="#E5E5E5"> this is a hosting</font>
+
+1477
+01:04:11,480 --> 01:04:13,910
+company and again<font color="#E5E5E5"> you can even use this</font>
+
+1478
+01:04:13,910 --> 01:04:15,920
+hosting company<font color="#E5E5E5"> and try to social</font>
+
+1479
+01:04:15,920 --> 01:04:18,500
+engineer your way maybe into<font color="#E5E5E5"> hacking</font>
+
+1480
+01:04:18,500 --> 00:00:00,000
+into your<font color="#E5E5E5"> target into</font><font color="#CCCCCC"> eye security</font>
+

@@ -1,0 +1,1236 @@
+1
+00:00:00,089 --> 00:00:02,520
+ Halo semuanya, <font color="#CCCCCC">mari kita buat beberapa </font>
+
+2
+00:00:02,520 --> 00:00:04,950
+ <font color="#CCCCCC">file jahat / jahat untuk melihat </font><font color="#E5E5E5">itu </font>
+
+3
+00:00:04,950 --> 00:00:06,480
+ apa lagi yang bisa kita lakukan <font color="#CCCCCC">dengan </font><font color="#E5E5E5">bantuan </font>
+
+4
+00:00:06,480 --> 00:00:09,660
+ <font color="#CCCCCC">pemrograman batch </font><font color="#E5E5E5">sekarang mari kita buat beberapa </font>
+
+5
+00:00:09,660 --> 00:00:11,309
+ file batch <font color="#CCCCCC">untuk memperpanjang </font>
+
+6
+00:00:11,309 --> 00:00:15,030
+ <font color="#E5E5E5">fungsionalitas dari pemrograman batch dengan baik </font>
+
+7
+00:00:15,030 --> 00:00:16,980
+ <font color="#E5E5E5">Saya akan menggunakan jendela salmon yang sama </font>
+
+8
+00:00:16,980 --> 00:00:19,080
+ sistem operasi di VirtualBox saya <font color="#CCCCCC">di </font>
+
+9
+00:00:19,080 --> 00:00:22,650
+ <font color="#E5E5E5">untuk menguji file-file itu jadi yang pertama </font>
+
+10
+00:00:22,650 --> 00:00:25,140
+ <font color="#E5E5E5">semua kita akan membuat satu file batch yang mana </font>
+
+11
+00:00:25,140 --> 00:00:27,119
+ akan menghapus semua <font color="#CCCCCC">file yang ada </font><font color="#E5E5E5">di dalamnya </font>
+
+12
+00:00:27,119 --> 00:00:29,039
+ direktori tertentu <font color="#E5E5E5">atau </font><font color="#CCCCCC">file </font>
+
+13
+00:00:29,039 --> 00:00:30,420
+ yang <font color="#CCCCCC">ada di dalam yang </font><font color="#E5E5E5">khusus </font>
+
+14
+00:00:30,420 --> 00:00:33,210
+ <font color="#E5E5E5">disk drive jadi mari kita ke sini </font><font color="#CCCCCC">untuk saya </font>
+
+15
+00:00:33,210 --> 00:00:35,969
+ komputer <font color="#E5E5E5">dan di sini Anda akan </font><font color="#CCCCCC">menemukan satu itu </font>
+
+16
+00:00:35,969 --> 00:00:38,940
+ disk drive yang <font color="#CCCCCC">merupakan kunci disk lokal jadi </font>
+
+17
+00:00:38,940 --> 00:00:42,329
+ mari kita membuat beberapa berkas dalam <font color="#CCCCCC">yang begitu </font>
+
+18
+00:00:42,329 --> 00:00:45,210
+ Saya membuat <font color="#E5E5E5">file notepad di sini biarkan saya </font>
+
+19
+00:00:45,210 --> 00:00:49,020
+ <font color="#E5E5E5">salin ini dan tempelkan untuk beberapa orang </font>
+
+20
+00:00:49,020 --> 00:00:52,110
+ lebih kali <font color="#CCCCCC">jadi di sini Anda akan melihat </font><font color="#E5E5E5">bahwa kita </font>
+
+21
+00:00:52,110 --> 00:00:54,840
+ <font color="#E5E5E5">telah membuat 29 file sekarang mari kita kembali </font>
+
+22
+00:00:54,840 --> 00:01:00,449
+ dan mari <font color="#E5E5E5">membuka notepad jadi di sini kita </font>
+
+23
+00:01:00,449 --> 00:01:01,980
+ akan <font color="#E5E5E5">menuliskan </font><font color="#CCCCCC">kode</font><font color="#E5E5E5"> yang </font>
+
+24
+00:01:01,980 --> 00:01:03,890
+ bertanggung jawab untuk menghapus semua <font color="#CCCCCC">file </font>
+
+25
+00:01:03,890 --> 00:01:07,229
+ <font color="#E5E5E5">jadi pada tingkat gema kemudian di sini kita </font>
+
+26
+00:01:07,229 --> 00:01:09,360
+ <font color="#E5E5E5">akan menulis di de el sol de L sebenarnya </font>
+
+27
+00:01:09,360 --> 00:01:11,310
+ <font color="#E5E5E5">perintah pada command prompt yang digunakan </font>
+
+28
+00:01:11,310 --> 00:01:13,710
+ untuk menghapus <font color="#CCCCCC">file tertentu atau </font><font color="#E5E5E5">semua file </font>
+
+29
+00:01:13,710 --> 00:01:15,810
+ file <font color="#E5E5E5">yang bisa Anda lihat di sini menghapusnya </font>
+
+30
+00:01:15,810 --> 00:01:17,700
+ perintah didukung oleh <font color="#E5E5E5">prompt perintah </font>
+
+31
+00:01:17,700 --> 00:01:21,479
+ <font color="#CCCCCC">dan di sini kita akan melewati dua argumen F </font>
+
+32
+00:01:21,479 --> 00:01:24,000
+ dan Q jadi <font color="#CCCCCC">F berarti f secara paksa </font><font color="#E5E5E5">dan </font>
+
+33
+00:01:24,000 --> 00:01:26,880
+ maka di sini kita <font color="#E5E5E5">harus </font><font color="#CCCCCC">menuliskan </font><font color="#E5E5E5">jalan </font>
+
+34
+00:01:26,880 --> 00:01:29,130
+ dari <font color="#CCCCCC">folder tertentu atau jalur a </font>
+
+35
+00:01:29,130 --> 00:01:31,259
+ drive disk tertentu yang kami inginkan 
+
+36
+00:01:31,259 --> 00:01:33,270
+ <font color="#CCCCCC">untuk menghapus </font><font color="#E5E5E5">file dan kami akan menulis </font>
+
+37
+00:01:33,270 --> 00:01:36,180
+ di sini <font color="#CCCCCC">e disk lokal </font><font color="#E5E5E5">dan di sini </font><font color="#CCCCCC">saya hanya </font><font color="#E5E5E5">akan </font>
+
+38
+00:01:36,180 --> 00:01:40,560
+ tempatkan bintang lalu beri titik <font color="#E5E5E5">bintang lagi </font>
+
+39
+00:01:40,560 --> 00:01:42,659
+ Simbol <font color="#E5E5E5">ini </font><font color="#CCCCCC">sebenarnya digunakan untuk </font>
+
+40
+00:01:42,659 --> 00:01:44,640
+ memilih <font color="#E5E5E5">semua file sehingga Anda juga bisa </font>
+
+41
+00:01:44,640 --> 00:01:47,460
+ <font color="#E5E5E5">periksa di sini mari kita ke sini </font><font color="#CCCCCC">untuk lokal </font>
+
+42
+00:01:47,460 --> 00:01:49,920
+ disk <font color="#CCCCCC">E </font><font color="#E5E5E5">dan jika saya </font><font color="#CCCCCC">hanya </font><font color="#E5E5E5">taruh di sini </font><font color="#CCCCCC">Anda bisa </font>
+
+43
+00:01:49,920 --> 00:01:52,680
+ <font color="#E5E5E5">lihat bahwa itu telah mencantumkan </font><font color="#CCCCCC">semua file </font>
+
+44
+00:01:52,680 --> 00:01:58,189
+ hadir <font color="#E5E5E5">di dalam direktori tertentu </font>
+
+45
+00:01:58,399 --> 00:02:02,390
+ jadi biarkan <font color="#E5E5E5">saya menyimpan file itu </font>
+
+46
+00:02:06,390 --> 00:02:11,410
+ jadi mari kita simpan file ini sebagai hapus dot 
+
+47
+00:02:11,410 --> 00:02:15,190
+ <font color="#E5E5E5">klik pada save dan Anda </font><font color="#CCCCCC">bisa lihat di sini </font>
+
+48
+00:02:15,190 --> 00:02:17,670
+ <font color="#E5E5E5">bahwa file datang ke sini jadi sekarang jika saya </font>
+
+49
+00:02:17,670 --> 00:02:20,320
+ <font color="#CCCCCC">klik dua kali pada </font><font color="#E5E5E5">file </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">atau jalankan </font>
+
+50
+00:02:20,320 --> 00:02:23,470
+ file ini <font color="#E5E5E5">dan jika saya kembali </font><font color="#CCCCCC">ke </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">ke </font>
+
+51
+00:02:23,470 --> 00:02:25,930
+ <font color="#E5E5E5">komputer lokal saya disk II Anda akan lihat </font>
+
+52
+00:02:25,930 --> 00:02:28,750
+ bahwa file ini <font color="#E5E5E5">sebenarnya telah menghapus semua </font>
+
+53
+00:02:28,750 --> 00:02:30,910
+ file-file yang ada di dalam <font color="#E5E5E5">lokal </font>
+
+54
+00:02:30,910 --> 00:02:34,630
+ <font color="#E5E5E5">disk </font><font color="#CCCCCC">II </font><font color="#E5E5E5">jadi sama </font><font color="#CCCCCC">apa yang dapat Anda lakukan Anda </font>
+
+55
+00:02:34,630 --> 00:02:37,150
+ dapat menentukan di sini <font color="#E5E5E5">jalur lokal </font>
+
+56
+00:02:37,150 --> 00:02:40,540
+ disk C dan Anda <font color="#CCCCCC">perhatikan </font><font color="#E5E5E5">dan Anda semua tahu </font>
+
+57
+00:02:40,540 --> 00:02:43,090
+ bahwa di disk lokal C file windows kami 
+
+58
+00:02:43,090 --> 00:02:45,130
+ dan file konfigurasi <font color="#CCCCCC">hadir </font><font color="#E5E5E5">dan </font>
+
+59
+00:02:45,130 --> 00:02:47,920
+ jika Anda ingin membuat file <font color="#E5E5E5">ini batch ini </font>
+
+60
+00:02:47,920 --> 00:02:49,720
+ file sebagai yang jahat Anda bisa saja 
+
+61
+00:02:49,720 --> 00:02:52,090
+ <font color="#CCCCCC">arahkan ke </font><font color="#E5E5E5">direktori 32 sistem dan jika ini </font>
+
+62
+00:02:52,090 --> 00:02:53,680
+ hapus file memecahkan file <font color="#CCCCCC">ini </font>
+
+63
+00:02:53,680 --> 00:02:55,930
+ <font color="#E5E5E5">di </font><font color="#CCCCCC">dalam direktori 32 sistem maka kami </font>
+
+64
+00:02:55,930 --> 00:02:58,510
+ <font color="#E5E5E5">sistem akan rusak dan itu akan rusak </font>
+
+65
+00:02:58,510 --> 00:03:01,960
+ tidak pernah mulai setelah kami <font color="#CCCCCC">menutup itu </font>
+
+66
+00:03:01,960 --> 00:03:05,170
+ sistem <font color="#CCCCCC">sekarang mari kita lakukan </font><font color="#E5E5E5">satu hal mari </font>
+
+67
+00:03:05,170 --> 00:03:07,270
+ buat satu <font color="#CCCCCC">lagi file yang </font><font color="#E5E5E5">akan ditutup </font>
+
+68
+00:03:07,270 --> 00:03:09,370
+ bawah <font color="#E5E5E5">sistem tertentu </font><font color="#CCCCCC">dan kami akan berikan </font>
+
+69
+00:03:09,370 --> 00:03:13,230
+ <font color="#CCCCCC">pesan khusus </font><font color="#E5E5E5">untuk pengguna </font><font color="#CCCCCC">itu </font>
+
+70
+00:03:13,230 --> 00:03:19,110
+ <font color="#CCCCCC">mari kita pergi di sini </font><font color="#E5E5E5">biarkan aku menutup </font><font color="#CCCCCC">hal </font><font color="#E5E5E5">ini </font>
+
+71
+00:03:19,140 --> 00:03:24,670
+ dan mari kita buat file notepad baru 
+
+72
+00:03:24,670 --> 00:03:26,050
+ kita harus <font color="#CCCCCC">menuliskan </font><font color="#E5E5E5">kode yang sama di </font>
+
+73
+00:03:26,050 --> 00:03:28,959
+ siap pergi <font color="#CCCCCC">dan di sini kita akan menulis </font>
+
+74
+00:03:28,959 --> 00:03:29,880
+ pesan bawah 
+
+75
+00:03:29,880 --> 00:03:33,040
+ jadi di sini <font color="#CCCCCC">msg perintah sebenarnya dalam </font>
+
+76
+00:03:33,040 --> 00:03:34,810
+ command prompt <font color="#E5E5E5">untuk menampilkan </font>
+
+77
+00:03:34,810 --> 00:03:37,150
+ <font color="#CCCCCC">pesan tertentu </font><font color="#E5E5E5">jadi kami harus menulis </font>
+
+78
+00:03:37,150 --> 00:03:39,790
+ <font color="#E5E5E5">di sini </font><font color="#CCCCCC">Asterix </font><font color="#E5E5E5">yang berbintang dan di sini kita </font>
+
+79
+00:03:39,790 --> 00:03:43,770
+ telah <font color="#E5E5E5">mencoba </font><font color="#CCCCCC">pesan Anda </font>
+
+80
+00:03:43,770 --> 00:03:52,030
+ <font color="#E5E5E5">diretas dan tekan enter </font><font color="#CCCCCC">dan di sini kita </font>
+
+81
+00:03:52,030 --> 00:03:54,190
+ <font color="#E5E5E5">akan </font><font color="#CCCCCC">menuliskan perintah</font><font color="#E5E5E5"> untuk </font>
+
+82
+00:03:54,190 --> 00:03:56,620
+ <font color="#E5E5E5">mematikan </font><font color="#CCCCCC">sistem tertentu </font><font color="#E5E5E5">jadi saya </font>
+
+83
+00:03:56,620 --> 00:03:59,380
+ tulis <font color="#E5E5E5">disini </font><font color="#CCCCCC">shutdown diikuti </font><font color="#E5E5E5">oleh - </font><font color="#CCCCCC">s </font>
+
+84
+00:03:59,380 --> 00:04:02,470
+ berarti <font color="#E5E5E5">shutdown dan di sini saya akan menentukan </font>
+
+85
+00:04:02,470 --> 00:04:04,480
+ <font color="#CCCCCC">waktu tertentu seperti - T setelah itu </font>
+
+86
+00:04:04,480 --> 00:04:06,130
+ khususnya sistem shift waktu <font color="#CCCCCC">akan </font>
+
+87
+00:04:06,130 --> 00:04:08,350
+ <font color="#CCCCCC">matikan </font><font color="#E5E5E5">jadi di sini Anda bisa </font>
+
+88
+00:04:08,350 --> 00:04:11,080
+ berikan setiap detik <font color="#E5E5E5">yang memberikannya 10 kali </font>
+
+89
+00:04:11,080 --> 00:04:12,820
+ setelah 10 detik <font color="#E5E5E5">sistem kami akan </font><font color="#CCCCCC">ditutup </font>
+
+90
+00:04:12,820 --> 00:04:16,450
+ turun <font color="#E5E5E5">dan di sini kita akan memberikan satu lagi </font>
+
+91
+00:04:16,450 --> 00:04:18,440
+ argumen <font color="#E5E5E5">itu - </font>
+
+92
+00:04:18,440 --> 00:04:20,750
+ jadi ini adalah untuk benar-benar menampilkan <font color="#CCCCCC">sebuah </font>
+
+93
+00:04:20,750 --> 00:04:25,060
+ <font color="#E5E5E5">komentar khusus jadi mari kita di sini </font>
+
+94
+00:04:27,220 --> 00:04:34,720
+ Anda <font color="#CCCCCC">diretas oleh file batch </font><font color="#E5E5E5">dan biarkan saya </font>
+
+95
+00:04:34,720 --> 00:04:39,440
+ tutup tanda kutip ganda dan biarkan <font color="#E5E5E5">saja </font>
+
+96
+00:04:39,440 --> 00:04:43,310
+ simpan file ini di <font color="#CCCCCC">desktop saya </font><font color="#E5E5E5">dan Anda bisa </font>
+
+97
+00:04:43,310 --> 00:04:45,950
+ <font color="#E5E5E5">cukup ganti namanya saja seperti halo </font>
+
+98
+00:04:45,950 --> 00:04:50,840
+ dot <font color="#E5E5E5">buruk jadi di sini Anda dapat melihat bahwa jika saya </font>
+
+99
+00:04:50,840 --> 00:04:53,330
+ <font color="#E5E5E5">cukup klik dua kali pada file ini jadi </font>
+
+100
+00:04:53,330 --> 00:04:54,920
+ pertama-tama file ini akan <font color="#E5E5E5">menampilkan </font>
+
+101
+00:04:54,920 --> 00:04:57,110
+ <font color="#E5E5E5">kirim pesan bahwa Anda diretas dan jika </font>
+
+102
+00:04:57,110 --> 00:04:59,570
+ Saya klik <font color="#E5E5E5">OK di </font><font color="#CCCCCC">sini Anda </font><font color="#E5E5E5">akan melihat itu </font>
+
+103
+00:04:59,570 --> 00:05:02,480
+ ini <font color="#E5E5E5">adalah pesan ini yang mengomentari Anda </font>
+
+104
+00:05:02,480 --> 00:05:04,340
+ <font color="#E5E5E5">diretas oleh </font><font color="#CCCCCC">file batch dan sekarang Anda </font>
+
+105
+00:05:04,340 --> 00:05:07,730
+ dapat melihat bahwa sistem normal ditutup 
+
+106
+00:05:07,730 --> 00:05:11,900
+ jadi ini <font color="#CCCCCC">adalah bagaimana Anda juga bisa membuatnya </font>
+
+107
+00:05:11,900 --> 00:05:15,830
+ jenis file batch ini <font color="#E5E5E5">untuk </font>
+
+108
+00:05:15,830 --> 00:05:17,540
+ <font color="#E5E5E5">menutup sistem </font><font color="#CCCCCC">tertentu dan </font><font color="#E5E5E5">Anda </font>
+
+109
+00:05:17,540 --> 00:05:19,280
+ hanya bisa mengubahnya <font color="#CCCCCC">menjadi file dot exe </font>
+
+110
+00:05:19,280 --> 00:05:21,740
+ dan Anda dapat <font color="#CCCCCC">mengubah ikonnya dan Anda </font><font color="#E5E5E5">bisa </font>
+
+111
+00:05:21,740 --> 00:05:24,560
+ melakukan banyak <font color="#CCCCCC">hal jadi sekarang </font><font color="#E5E5E5">hal selanjutnya </font>
+
+112
+00:05:24,560 --> 00:05:26,720
+ Yang harus kita <font color="#E5E5E5">lakukan adalah jelas kita harus melakukannya </font>
+
+113
+00:05:26,720 --> 00:05:28,550
+ mulai <font color="#E5E5E5">sistem operasi Windows 7 kami </font>
+
+114
+00:05:28,550 --> 00:05:31,030
+ lagi 
+
+115
+00:05:44,300 --> 00:05:46,760
+ jadi <font color="#CCCCCC">contoh selanjutnya yang ingin saya </font><font color="#E5E5E5">tunjukkan </font>
+
+116
+00:05:46,760 --> 00:05:49,550
+ Anda sebenarnya <font color="#E5E5E5">adalah bagian dari keracunan DNS </font>
+
+117
+00:05:49,550 --> 00:05:57,590
+ serang jadi pertama biarkan aku <font color="#E5E5E5">masuk begitu saja </font>
+
+118
+00:05:57,590 --> 00:05:59,150
+ <font color="#E5E5E5">video mendatang yang akan </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">diskusikan </font>
+
+119
+00:05:59,150 --> 00:06:02,870
+ <font color="#E5E5E5">Keracunan DNS </font><font color="#CCCCCC">di mana kita bisa </font><font color="#E5E5E5">mengubah </font>
+
+120
+00:06:02,870 --> 00:06:05,510
+ Konfigurasi DNS dari sistem tertentu 
+
+121
+00:06:05,510 --> 00:06:09,470
+ <font color="#E5E5E5">dan kemudian kita </font><font color="#CCCCCC">dapat mengarahkan pengguna a </font>
+
+122
+00:06:09,470 --> 00:06:13,430
+ <font color="#CCCCCC">situs web tertentu ke </font><font color="#E5E5E5">situs web </font><font color="#CCCCCC">lain </font><font color="#E5E5E5">jadi </font>
+
+123
+00:06:13,430 --> 00:06:15,860
+ seperti yang kita semua <font color="#E5E5E5">tahu bahwa </font><font color="#CCCCCC">versus </font><font color="#E5E5E5">fungsi </font>
+
+124
+00:06:15,860 --> 00:06:18,230
+ DNS sebenarnya digunakan untuk <font color="#E5E5E5">mengubah </font>
+
+125
+00:06:18,230 --> 00:06:21,530
+ nama domain menjadi <font color="#CCCCCC">alamat IP sehingga dalam tampilan </font>
+
+126
+00:06:21,530 --> 00:06:23,750
+ dalam <font color="#E5E5E5">sistem operasi Microsoft Windows </font>
+
+127
+00:06:23,750 --> 00:06:26,150
+ <font color="#E5E5E5">ada satu file yang disebut sebagai file host </font>
+
+128
+00:06:26,150 --> 00:06:29,620
+ yang digunakan untuk <font color="#E5E5E5">memetakan nama domain </font>
+
+129
+00:06:29,620 --> 00:06:33,830
+ <font color="#CCCCCC">menjadi </font><font color="#E5E5E5">alamat </font><font color="#CCCCCC">IP sehingga </font><font color="#E5E5E5">file itu </font>
+
+130
+00:06:33,830 --> 00:06:36,280
+ file host <font color="#CCCCCC">ada di dalam disk lokal c </font>
+
+131
+00:06:36,280 --> 00:06:42,800
+ windows dan sistem 32 <font color="#E5E5E5">dan ini satu </font>
+
+132
+00:06:42,800 --> 00:06:46,100
+ direktori yang disebut <font color="#E5E5E5">sebagai driver </font><font color="#CCCCCC">et Cie dan </font>
+
+133
+00:06:46,100 --> 00:06:48,200
+ di sini Anda dapat melihat file host yang <font color="#E5E5E5">ada </font>
+
+134
+00:06:48,200 --> 00:06:51,440
+ <font color="#E5E5E5">di dalam direktori ini </font><font color="#CCCCCC">dan jika saya membuka ini </font>
+
+135
+00:06:51,440 --> 00:06:55,130
+ file di <font color="#CCCCCC">notepad </font><font color="#E5E5E5">Anda akan lihat di sini itu </font>
+
+136
+00:06:55,130 --> 00:06:56,930
+ <font color="#CCCCCC">telah mencantumkan sampelnya </font>
+
+137
+00:06:56,930 --> 00:06:59,570
+ konfigurasi <font color="#CCCCCC">jadi di sini Anda dapat </font><font color="#E5E5E5">melihat </font>
+
+138
+00:06:59,570 --> 00:07:01,910
+ <font color="#E5E5E5">host lokal </font><font color="#CCCCCC">jadi nama domain dan </font>
+
+139
+00:07:01,910 --> 00:07:05,300
+ setelah kami ketik host lokal <font color="#E5E5E5">di setiap </font>
+
+140
+00:07:05,300 --> 00:07:08,540
+ browser <font color="#E5E5E5">kita hanya dialihkan ke ini </font>
+
+141
+00:07:08,540 --> 00:07:12,890
+ <font color="#CCCCCC">Alamat IP sekarang apa yang akan </font><font color="#E5E5E5">saya </font><font color="#CCCCCC">lakukan adalah </font>
+
+142
+00:07:12,890 --> 00:07:15,950
+ Saya akan <font color="#E5E5E5">membuat satu entri di dalam file ini </font>
+
+143
+00:07:15,950 --> 00:07:18,980
+ dan saya akan tunjukkan <font color="#E5E5E5">dan tulis di </font><font color="#CCCCCC">sini </font>
+
+144
+00:07:18,980 --> 00:07:23,450
+ google.com <font color="#E5E5E5">dan IP tidak dikenal yang artinya jika </font>
+
+145
+00:07:23,450 --> 00:07:26,990
+ <font color="#E5E5E5">siapapun hanya IP di browser google </font><font color="#CCCCCC">comm dia </font>
+
+146
+00:07:26,990 --> 00:07:29,570
+ baru saja dialihkan ke <font color="#E5E5E5">IP itu dan itu </font>
+
+147
+00:07:29,570 --> 00:07:31,880
+ IP dan IP <font color="#E5E5E5">itu sebenarnya tidak nyata </font>
+
+148
+00:07:31,880 --> 00:07:34,400
+ <font color="#E5E5E5">satu </font><font color="#CCCCCC">jadi itu sebabnya pengguna akan melihatnya </font>
+
+149
+00:07:34,400 --> 00:07:37,520
+ <font color="#E5E5E5">pesan 404 tidak ditemukan atau lainnya </font>
+
+150
+00:07:37,520 --> 00:07:42,220
+ pesan sekarang mari kita ke sini <font color="#CCCCCC">untuk </font><font color="#E5E5E5">notepad </font><font color="#CCCCCC">kami </font>
+
+151
+00:07:42,220 --> 00:07:45,350
+ <font color="#E5E5E5">oke jadi mari tuliskan kode untuk ini </font>
+
+152
+00:07:45,350 --> 00:07:47,690
+ <font color="#E5E5E5">Serangan peracunan DNS jadi saya hanya menulis </font>
+
+153
+00:07:47,690 --> 00:07:50,600
+ di sini di siap pergi <font color="#E5E5E5">dan pertama </font>
+
+154
+00:07:50,600 --> 00:07:54,230
+ dari semuanya kita <font color="#E5E5E5">akan mengubah direktori kita jadi </font>
+
+155
+00:07:54,230 --> 00:07:58,690
+ kita akan pergi ke <font color="#CCCCCC">C lalu windows </font>
+
+156
+00:07:58,690 --> 00:08:10,419
+ dan system32 kemudian driver <font color="#CCCCCC">dan et Cie dan </font>
+
+157
+00:08:10,419 --> 00:08:14,960
+ di sini kita pergi <font color="#E5E5E5">jadi mari kita verifikasi </font><font color="#CCCCCC">ini </font>
+
+158
+00:08:14,960 --> 00:08:17,930
+ <font color="#CCCCCC">bagian dengan mengklik di </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">jadi lihat </font>
+
+159
+00:08:17,930 --> 00:08:20,889
+ driver windows system32 dan 
+
+160
+00:08:20,889 --> 00:08:24,349
+ <font color="#CCCCCC">et Cie jadi kami harus menuliskan D ini </font>
+
+161
+00:08:24,349 --> 00:08:28,729
+ sebagai pengujian <font color="#CCCCCC">oke mari kita ke sini sekarang di sini </font>
+
+162
+00:08:28,729 --> 00:08:31,180
+ kami akan <font color="#E5E5E5">menuliskan </font><font color="#CCCCCC">perintah echo dan </font>
+
+163
+00:08:31,180 --> 00:08:35,179
+ di sini kita akan menentukan <font color="#CCCCCC">yang </font><font color="#E5E5E5">pertama dari semuanya di sini </font>
+
+164
+00:08:35,179 --> 00:08:37,429
+ <font color="#CCCCCC">kami akan menuliskan alamat IP jadi </font>
+
+165
+00:08:37,429 --> 00:08:40,219
+ mari kita tulis di sini alamat IP host lokal 
+
+166
+00:08:40,219 --> 00:08:45,079
+ lagi <font color="#E5E5E5">dan sekarang mari tambahkan di sini domain </font>
+
+167
+00:08:45,079 --> 00:08:50,480
+ beri nama google.com <font color="#E5E5E5">dan hanya kami gunakan ini </font>
+
+168
+00:08:50,480 --> 00:08:53,079
+ redirection <font color="#CCCCCC">Allah kawah untuk </font>
+
+169
+00:08:53,079 --> 00:08:56,810
+ simpan keluaran <font color="#E5E5E5">gema ini pada khususnya </font>
+
+170
+00:08:56,810 --> 00:09:01,730
+ file <font color="#E5E5E5">dan nama file tersebut dihosting demikian </font>
+
+171
+00:09:01,730 --> 00:09:07,360
+ mari lakukan satu entri lagi dengan <font color="#E5E5E5">IP yang sama </font>
+
+172
+00:09:07,360 --> 00:09:10,399
+ dan sekarang kali ini <font color="#CCCCCC">hanya </font><font color="#E5E5E5">meluncur ke </font><font color="#CCCCCC">sini </font>
+
+173
+00:09:10,399 --> 00:09:16,970
+ seperti <font color="#CCCCCC">untuk DP google.com mari kita lakukan satu lagi </font>
+
+174
+00:09:16,970 --> 00:09:19,420
+ <font color="#E5E5E5">waktu </font>
+
+175
+00:09:25,210 --> 00:09:29,760
+ jangan lakukan <font color="#CCCCCC">untuk HTTP </font>
+
+176
+00:09:40,970 --> 00:09:53,030
+ <font color="#E5E5E5">oke sekarang mari kita simpan file ini jadi di sini </font>
+
+177
+00:09:53,030 --> 00:09:55,160
+ Anda dapat <font color="#E5E5E5">melihat bahwa file ini </font><font color="#CCCCCC">dibuat </font><font color="#E5E5E5">pada </font>
+
+178
+00:09:55,160 --> 00:10:01,580
+ desktop saya <font color="#E5E5E5">dan untuk menjalankan file ini </font>
+
+179
+00:10:01,580 --> 00:10:03,320
+ <font color="#E5E5E5">kita </font><font color="#CCCCCC">harus </font><font color="#E5E5E5">menjalankan file ini dengan </font>
+
+180
+00:10:03,320 --> 00:10:05,870
+ <font color="#E5E5E5">hak </font><font color="#CCCCCC">administrator </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">mari kita pergi </font>
+
+181
+00:10:05,870 --> 00:10:10,550
+ di sini <font color="#E5E5E5">dan </font><font color="#CCCCCC">jalankan </font><font color="#E5E5E5">saja </font><font color="#CCCCCC">file ini sebagai </font>
+
+182
+00:10:10,550 --> 00:10:16,100
+ administrator sekarang <font color="#E5E5E5">untuk memverifikasi biarkan </font>
+
+183
+00:10:16,100 --> 00:10:19,130
+ <font color="#CCCCCC">kita kembali ke </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">dan mari kita </font><font color="#E5E5E5">buka </font><font color="#CCCCCC">ini </font>
+
+184
+00:10:19,130 --> 00:10:21,470
+ mengajukan lagi <font color="#CCCCCC">dan melihat bahwa apakah </font><font color="#E5E5E5">kita </font>
+
+185
+00:10:21,470 --> 00:10:24,830
+ berhasil <font color="#E5E5E5">membuat entri </font>
+
+186
+00:10:24,830 --> 00:10:28,310
+ <font color="#CCCCCC">file itu </font><font color="#E5E5E5">atau </font><font color="#CCCCCC">tidak </font><font color="#E5E5E5">dan di sini Anda bisa melihat </font>
+
+187
+00:10:28,310 --> 00:10:31,640
+ <font color="#CCCCCC">entri kami dan di sini adalah alamat </font><font color="#E5E5E5">IP </font><font color="#CCCCCC">kami </font>
+
+188
+00:10:31,640 --> 00:10:34,460
+ dan di sini adalah domain itu <font color="#E5E5E5">sekarang mari kita pergi </font>
+
+189
+00:10:34,460 --> 00:10:36,200
+ di sini <font color="#E5E5E5">dan mari kita mulai </font><font color="#CCCCCC">internet </font>
+
+190
+00:10:36,200 --> 00:10:50,450
+ <font color="#E5E5E5">explorer mari kita buka tab baru </font><font color="#CCCCCC">saja </font>
+
+191
+00:10:50,450 --> 00:10:53,750
+ sekarang mari kita tulis di sini <font color="#E5E5E5">HTTP google.com </font><font color="#CCCCCC">dan </font>
+
+192
+00:10:53,750 --> 00:10:55,810
+ mari kita lihat apa yang <font color="#E5E5E5">terjadi </font>
+
+193
+00:10:55,810 --> 00:10:58,400
+ jadi di sini Anda <font color="#E5E5E5">dapat melihat bahwa inter kami </font>
+
+194
+00:10:58,400 --> 00:11:00,620
+ Explorer <font color="#E5E5E5">menampilkan kesalahan ini itu </font>
+
+195
+00:11:00,620 --> 00:11:02,860
+ <font color="#CCCCCC">adalah </font><font color="#E5E5E5">Explorer </font><font color="#CCCCCC">bayi </font><font color="#E5E5E5">tidak dapat menampilkan </font>
+
+196
+00:11:02,860 --> 00:11:05,420
+ <font color="#CCCCCC">halaman web mengapa ini memberi kita kesalahan </font>
+
+197
+00:11:05,420 --> 00:11:08,090
+ <font color="#E5E5E5">karena begitu kita hanya menulis di sini sebagai </font>
+
+198
+00:11:08,090 --> 00:11:10,520
+ <font color="#CCCCCC">TTP google.com dan tekan enter </font>
+
+199
+00:11:10,520 --> 00:11:14,440
+ domain ini <font color="#E5E5E5">bisa dipetakan ke </font><font color="#CCCCCC">IP ini </font>
+
+200
+00:11:14,440 --> 00:11:19,040
+ itulah <font color="#E5E5E5">IP </font><font color="#CCCCCC">localhost ini </font><font color="#E5E5E5">dan di sana </font>
+
+201
+00:11:19,040 --> 00:11:20,660
+ tidak ada <font color="#CCCCCC">server host </font><font color="#E5E5E5">lokal yang menjalankannya </font>
+
+202
+00:11:20,660 --> 00:11:22,580
+ itulah <font color="#E5E5E5">mengapa itu turun jadi itu sebabnya kita </font>
+
+203
+00:11:22,580 --> 00:11:24,920
+ <font color="#CCCCCC">melihat pesan ini jadi apa lagi kita </font>
+
+204
+00:11:24,920 --> 00:11:27,020
+ Yang bisa dilakukan adalah bahkan Anda bisa <font color="#CCCCCC">menulis </font>
+
+205
+00:11:27,020 --> 00:11:30,260
+ <font color="#E5E5E5">di sini IP yang sah IP publik dan jika </font>
+
+206
+00:11:30,260 --> 00:11:33,710
+ hanya <font color="#E5E5E5">pengguna yang membuka halaman itu atau tertentu </font>
+
+207
+00:11:33,710 --> 00:11:36,380
+ <font color="#E5E5E5">situs web ia hanya diarahkan ke </font><font color="#CCCCCC">itu </font>
+
+208
+00:11:36,380 --> 00:11:39,260
+ IP publik jadi penyerang apa yang mereka lakukan 
+
+209
+00:11:39,260 --> 00:11:42,230
+ sebenarnya <font color="#E5E5E5">memetakan sistem tertentu </font><font color="#CCCCCC">ke </font>
+
+210
+00:11:42,230 --> 00:11:45,410
+ IP mereka sendiri yang merupakan orang <font color="#E5E5E5">jahat </font>
+
+211
+00:11:45,410 --> 00:11:46,790
+ hal yang sama yang dapat Anda lakukan untuk 
+
+212
+00:11:46,790 --> 00:11:49,339
+ beberapa domain jadi ini kecil 
+
+213
+00:11:49,339 --> 00:11:52,760
+ <font color="#E5E5E5">pengantar yang bisa kita katakan untuk serangan DNS </font>
+
+214
+00:11:52,760 --> 00:11:54,140
+ yang akan kita bahas di <font color="#E5E5E5">masa mendatang </font>
+
+215
+00:11:54,140 --> 00:11:54,740
+ video 
+
+216
+00:11:54,740 --> 00:11:58,130
+ sekarang yang <font color="#E5E5E5">terakhir mari buat yang terakhir </font>
+
+217
+00:11:58,130 --> 00:12:00,710
+ file batch yang akan menonaktifkan <font color="#CCCCCC">mouse </font>
+
+218
+00:12:00,710 --> 00:12:03,350
+ <font color="#E5E5E5">dengan menekan entri registri di kami </font>
+
+219
+00:12:03,350 --> 00:12:07,250
+ Sistem operasi Windows jadi sambil <font color="#CCCCCC">melakukan </font>
+
+220
+00:12:07,250 --> 00:12:10,160
+ <font color="#CCCCCC">jendela peretasan </font><font color="#E5E5E5">saya juga memberi tahu Anda </font><font color="#CCCCCC">itu </font>
+
+221
+00:12:10,160 --> 00:12:12,110
+ bagaimana kita bisa <font color="#CCCCCC">menyalin file Sam dengan pergi ke </font>
+
+222
+00:12:12,110 --> 00:12:14,120
+ registry editor <font color="#E5E5E5">jadi pertama-tama mari kita pergi </font>
+
+223
+00:12:14,120 --> 00:12:15,279
+ sana 
+
+224
+00:12:15,279 --> 00:12:21,770
+ jadi mari kita <font color="#E5E5E5">tulis di sini agitasi dan di sini Anda </font>
+
+225
+00:12:21,770 --> 00:12:24,529
+ dapat melihat registry editor <font color="#CCCCCC">sekarang apa yang </font><font color="#E5E5E5">saya </font>
+
+226
+00:12:24,529 --> 00:12:26,180
+ akan <font color="#CCCCCC">lakukan di </font><font color="#E5E5E5">sini adalah saya akan membuat </font>
+
+227
+00:12:26,180 --> 00:12:28,490
+ file batch yang <font color="#E5E5E5">akan melakukan sedikit </font>
+
+228
+00:12:28,490 --> 00:12:33,320
+ <font color="#CCCCCC">modifikasi dalam </font><font color="#E5E5E5">registri dan kehendak </font>
+
+229
+00:12:33,320 --> 00:12:36,050
+ sebenarnya <font color="#E5E5E5">menonaktifkan mouse ini </font>
+
+230
+00:12:36,050 --> 00:12:39,710
+ <font color="#E5E5E5">sistem operasi jadi pertama-tama biarkan aku </font>
+
+231
+00:12:39,710 --> 00:12:42,050
+ <font color="#E5E5E5">membawa Anda ke jalan itu atau registri </font>
+
+232
+00:12:42,050 --> 00:12:44,450
+ yang memegang <font color="#E5E5E5">pengaturan mouse jadi mari </font>
+
+233
+00:12:44,450 --> 00:12:47,810
+ pergi <font color="#E5E5E5">ke sini untuk mesin lokal H kunci kemudian </font>
+
+234
+00:12:47,810 --> 00:12:53,000
+ sistem kemudian currentcontrolset <font color="#CCCCCC">dan di sini </font>
+
+235
+00:12:53,000 --> 00:12:54,650
+ Anda akan <font color="#E5E5E5">menemukan satu direktori yang disebut </font><font color="#CCCCCC">a </font>
+
+236
+00:12:54,650 --> 00:12:57,500
+ <font color="#E5E5E5">layanan dan di sini adalah satu direktori </font>
+
+237
+00:12:57,500 --> 00:12:59,770
+ disebut <font color="#E5E5E5">sebagai sebagian besar kelas </font>
+
+238
+00:12:59,770 --> 00:13:05,839
+ jadi <font color="#CCCCCC">mari kita langsung ke sana </font><font color="#E5E5E5">dan di sini kamu </font>
+
+239
+00:13:05,839 --> 00:13:08,150
+ dapat melihat <font color="#E5E5E5">kelas mouse mouse direktori </font>
+
+240
+00:13:08,150 --> 00:13:10,160
+ <font color="#CCCCCC">dan di sini Anda </font><font color="#E5E5E5">dapat melihat bahwa mouse </font>
+
+241
+00:13:10,160 --> 00:13:14,180
+ <font color="#E5E5E5">driver kelas dan di sini file yang </font>
+
+242
+00:13:14,180 --> 00:13:15,650
+ kami ingin <font color="#E5E5E5">memukul </font>
+
+243
+00:13:15,650 --> 00:13:18,290
+ jadi nama itu dimulai <font color="#E5E5E5">dan jika saya </font><font color="#CCCCCC">hanya </font>
+
+244
+00:13:18,290 --> 00:13:20,240
+ <font color="#CCCCCC">klik dua kali </font><font color="#E5E5E5">sehingga secara default </font>
+
+245
+00:13:20,240 --> 00:13:23,660
+ nilainya adalah <font color="#CCCCCC">3 jadi jika saya hanya mengubah </font><font color="#E5E5E5">nilainya </font>
+
+246
+00:13:23,660 --> 00:13:26,210
+ <font color="#E5E5E5">dan menjadikannya sebagai a4 dan klik </font><font color="#CCCCCC">OK </font><font color="#E5E5E5">dan jika </font>
+
+247
+00:13:26,210 --> 00:13:29,030
+ Saya boot sistem saya lagi maka <font color="#CCCCCC">waktu itu saya </font>
+
+248
+00:13:29,030 --> 00:13:33,140
+ mouse tidak akan berfungsi <font color="#E5E5E5">jadi sekarang apa yang kita miliki </font>
+
+249
+00:13:33,140 --> 00:13:35,390
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">dilakukan dalam file batch </font><font color="#E5E5E5">kami yang sebenarnya kami miliki </font>
+
+250
+00:13:35,390 --> 00:13:38,720
+ untuk memukul registri ini <font color="#E5E5E5">dan kami akan mencoba </font>
+
+251
+00:13:38,720 --> 00:13:41,600
+ <font color="#CCCCCC">ubah nilai file ini </font><font color="#E5E5E5">yaitu </font>
+
+252
+00:13:41,600 --> 00:13:45,680
+ <font color="#E5E5E5">mulai dan tipe data </font><font color="#CCCCCC">itu </font><font color="#E5E5E5">itu a </font>
+
+253
+00:13:45,680 --> 00:13:48,830
+ <font color="#E5E5E5">kata registry D jadi biarkan aku tutup saja </font>
+
+254
+00:13:48,830 --> 00:13:51,410
+ <font color="#CCCCCC">hal ini dan mari buat yang baru </font>
+
+255
+00:13:51,410 --> 00:13:57,080
+ file notepad dan sekarang mari kita tulis di sini 
+
+256
+00:13:57,080 --> 00:14:00,200
+ <font color="#CCCCCC">echo sudah siap pergi dan file ini </font>
+
+257
+00:14:00,200 --> 00:14:02,360
+ <font color="#E5E5E5">juga membutuhkan dan administratif </font>
+
+258
+00:14:02,360 --> 00:14:05,270
+ hak istimewa jadi pertama-tama <font color="#E5E5E5">kita akan menulis </font>
+
+259
+00:14:05,270 --> 00:14:07,709
+ turun <font color="#CCCCCC">kunci set perintah ini </font>
+
+260
+00:14:07,709 --> 00:14:12,889
+ dan di sini kami akan menuliskan kunci H lokal 
+
+261
+00:14:12,889 --> 00:14:25,910
+ mesin kemudian sistem currentcontrolset 
+
+262
+00:14:33,070 --> 00:14:39,940
+ diikuti oleh <font color="#CCCCCC">layanan kemudian </font><font color="#E5E5E5">kelas </font><font color="#CCCCCC">mas </font>
+
+263
+00:14:39,940 --> 00:14:46,220
+ <font color="#CCCCCC">mo u CLA SS </font><font color="#E5E5E5">dan sekarang apa yang akan kita lakukan pertama kali </font>
+
+264
+00:14:46,220 --> 00:14:48,290
+ <font color="#E5E5E5">semua kita akan menghapus </font><font color="#CCCCCC">kunci sebelumnya </font>
+
+265
+00:14:48,290 --> 00:14:50,210
+ yang ada di dalam file itu <font color="#E5E5E5">dan </font>
+
+266
+00:14:50,210 --> 00:14:52,910
+ bahwa <font color="#CCCCCC">file awal </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">kami akan menulis di sini </font>
+
+267
+00:14:52,910 --> 00:15:02,120
+ registry menghapus kunci persentil dan kemudian 
+
+268
+00:15:02,120 --> 00:15:04,970
+ kami akan membuat entri baru <font color="#E5E5E5">yaitu </font><font color="#CCCCCC">misalnya kami </font>
+
+269
+00:15:04,970 --> 00:15:14,060
+ registry <font color="#CCCCCC">kemudian tambahkan kunci dan di sini kita akan </font>
+
+270
+00:15:14,060 --> 00:15:17,630
+ tulis di <font color="#CCCCCC">sini </font><font color="#E5E5E5">file sehingga kami </font><font color="#CCCCCC">dapat menentukan </font>
+
+271
+00:15:17,630 --> 00:15:20,660
+ file dengan <font color="#CCCCCC">menulis di sini / v dan file </font>
+
+272
+00:15:20,660 --> 00:15:24,140
+ nama yang <font color="#E5E5E5">kita lihat </font><font color="#CCCCCC">adalah awal dan </font><font color="#E5E5E5">kami akan menentukan </font>
+
+273
+00:15:24,140 --> 00:15:27,500
+ satu parameter lagi <font color="#CCCCCC">hi / t dan di sini </font>
+
+274
+00:15:27,500 --> 00:15:30,020
+ <font color="#E5E5E5">kami akan menulis tipe data sehingga T berdiri </font>
+
+275
+00:15:30,020 --> 00:15:34,370
+ untuk mengetik dan <font color="#CCCCCC">itu registry </font><font color="#E5E5E5">D kata itu </font>
+
+276
+00:15:34,370 --> 00:15:35,530
+ bukan <font color="#CCCCCC">bilangan bulat </font>
+
+277
+00:15:35,530 --> 00:15:39,380
+ <font color="#E5E5E5">jadi dan di sini kami akan menentukan nilai atau </font>
+
+278
+00:15:39,380 --> 00:15:44,110
+ <font color="#E5E5E5">data dan </font><font color="#CCCCCC">itu untuk sekarang mari kita </font>
+
+279
+00:15:44,110 --> 00:15:51,620
+ periksa silang dan verifikasi jadi kunci H-nya 
+
+280
+00:15:51,620 --> 00:15:56,980
+ mesin dan sistem lokal 
+
+281
+00:15:56,980 --> 00:16:02,570
+ <font color="#E5E5E5">layanan currentcontrolset kelas MOU </font>
+
+282
+00:16:02,570 --> 00:16:05,920
+ <font color="#CCCCCC">oke semuanya terlihat </font><font color="#E5E5E5">sempurna </font>
+
+283
+00:16:05,920 --> 00:16:11,390
+ <font color="#CCCCCC">sekarang mari kita </font><font color="#E5E5E5">simpan file ini sebagai reg dot </font>
+
+284
+00:16:11,390 --> 00:16:17,230
+ dat <font color="#E5E5E5">sehingga Anda dapat melihat file ini di sini </font>
+
+285
+00:16:20,920 --> 00:16:23,839
+ sekarang mari kita jalankan file ini <font color="#E5E5E5">sebagai </font>
+
+286
+00:16:23,839 --> 00:16:26,500
+ hak akses administratif 
+
+287
+00:16:26,500 --> 00:16:30,470
+ jadi pertama-tama <font color="#E5E5E5">ia </font><font color="#CCCCCC">bertanya pada kami apakah itu </font>
+
+288
+00:16:30,470 --> 00:16:32,269
+ <font color="#E5E5E5">kami ingin menghapus registri sebelumnya </font>
+
+289
+00:16:32,269 --> 00:16:38,269
+ <font color="#E5E5E5">tepat di sini mengapa dan sekarang jika kita </font><font color="#CCCCCC">pergi </font>
+
+290
+00:16:38,269 --> 00:16:43,370
+ <font color="#CCCCCC">di sini </font><font color="#E5E5E5">untuk memulai Anda akan melihat bahwa kita </font>
+
+291
+00:16:43,370 --> 00:16:46,180
+ tidak bisa menambahkannya <font color="#CCCCCC">baik - baik saja, </font><font color="#E5E5E5">tidak ada yang </font><font color="#CCCCCC">baik </font><font color="#E5E5E5">saja </font>
+
+292
+00:16:46,180 --> 00:16:51,860
+ restart <font color="#E5E5E5">sistem operasi ini dan biarkan aku </font>
+
+293
+00:16:51,860 --> 00:17:01,759
+ <font color="#CCCCCC">tutup saja file ini dan sekarang di sini </font><font color="#E5E5E5">Anda </font>
+
+294
+00:17:01,759 --> 00:17:05,000
+ dapat <font color="#E5E5E5">melihat bahwa mouse kami dinonaktifkan </font><font color="#CCCCCC">Anda </font>
+
+295
+00:17:05,000 --> 00:17:08,000
+ bisa <font color="#CCCCCC">lihat di sini </font><font color="#E5E5E5">bahwa di sini adalah mouse </font><font color="#CCCCCC">saya </font><font color="#E5E5E5">di </font><font color="#CCCCCC">saya </font>
+
+296
+00:17:08,000 --> 00:17:10,369
+ sistem operasi orang tua <font color="#E5E5E5">dan jika saya buka </font>
+
+297
+00:17:10,369 --> 00:17:12,859
+ yang ini Anda akan <font color="#E5E5E5">melihat bahwa mouse saya </font>
+
+298
+00:17:12,859 --> 00:17:15,589
+ tidak berfungsi <font color="#E5E5E5">jadi ini sangat menyebalkan </font>
+
+299
+00:17:15,589 --> 00:17:19,730
+ trik yang dapat Anda lakukan dan <font color="#CCCCCC">pastikan </font><font color="#E5E5E5">itu </font>
+
+300
+00:17:19,730 --> 00:17:22,069
+ apa yang Anda <font color="#CCCCCC">lakukan </font><font color="#E5E5E5">saat menggunakan ini </font>
+
+301
+00:17:22,069 --> 00:17:24,679
+ file batch <font color="#E5E5E5">karena dan juga pastikan </font><font color="#CCCCCC">untuk </font>
+
+302
+00:17:24,679 --> 00:17:28,400
+ <font color="#CCCCCC">tulis </font><font color="#E5E5E5">jalur registri tertentu dan jika </font>
+
+303
+00:17:28,400 --> 00:17:30,650
+ tiba-tiba Anda akan <font color="#E5E5E5">menulis registri yang salah </font>
+
+304
+00:17:30,650 --> 00:17:33,110
+ jalan <font color="#E5E5E5">kemudian akan menyebabkan </font><font color="#CCCCCC">masalah </font><font color="#E5E5E5">besar </font>
+
+305
+00:17:33,110 --> 00:17:36,140
+ untuk <font color="#CCCCCC">Anda begitu dalam video ini yang </font><font color="#E5E5E5">telah kami bahas </font>
+
+306
+00:17:36,140 --> 00:17:38,990
+ <font color="#E5E5E5">bahwa apa lagi yang bisa kita lakukan dengan batch </font>
+
+307
+00:17:38,990 --> 00:17:41,360
+ pemrograman <font color="#E5E5E5">dan bagaimana </font><font color="#CCCCCC">kita bisa mengubah yang </font><font color="#E5E5E5">sederhana </font>
+
+308
+00:17:41,360 --> 00:17:43,490
+ batch programming <font color="#E5E5E5">menjadi jahat </font>
+
+309
+00:17:43,490 --> 00:00:00,000
+ terima kasih telah <font color="#CCCCCC">menonton video ini </font>
+

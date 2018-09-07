@@ -1,0 +1,628 @@
+1
+00:00:00,060 --> 00:00:02,129
+hello everyone<font color="#CCCCCC"> in this</font><font color="#E5E5E5"> video we'll talk</font>
+
+2
+00:00:02,129 --> 00:00:04,350
+<font color="#E5E5E5">about that how a wireless access point</font>
+
+3
+00:00:04,350 --> 00:00:07,170
+<font color="#E5E5E5">and a wireless client communication</font>
+
+4
+00:00:07,170 --> 00:00:09,120
+takes place<font color="#CCCCCC"> so</font><font color="#E5E5E5"> a communication process</font>
+
+5
+00:00:09,120 --> 00:00:11,730
+between<font color="#E5E5E5"> an access point and a client is</font>
+
+6
+00:00:11,730 --> 00:00:14,280
+divided into<font color="#E5E5E5"> six steps so by looking at</font>
+
+7
+00:00:14,280 --> 00:00:16,560
+this image<font color="#E5E5E5"> you can</font><font color="#CCCCCC"> see here that here is</font>
+
+8
+00:00:16,560 --> 00:00:19,020
+our<font color="#E5E5E5"> client and here is our access point</font>
+
+9
+00:00:19,020 --> 00:00:21,180
+<font color="#E5E5E5">so the first thing is whenever our</font>
+
+10
+00:00:21,180 --> 00:00:24,359
+<font color="#E5E5E5">client turn on his Wi-Fi then the our</font>
+
+11
+00:00:24,359 --> 00:00:27,000
+client<font color="#E5E5E5"> starts sending a probe request</font>
+
+12
+00:00:27,000 --> 00:00:29,250
+into the air<font color="#E5E5E5"> so you can see here that</font>
+
+13
+00:00:29,250 --> 00:00:31,170
+<font color="#E5E5E5">first of all our client will send a</font>
+
+14
+00:00:31,170 --> 00:00:33,750
+probe request into the air so probe
+
+15
+00:00:33,750 --> 00:00:36,300
+request means that hey I<font color="#E5E5E5"> am new here is</font>
+
+16
+00:00:36,300 --> 00:00:38,280
+there any<font color="#E5E5E5"> accessible towards to connect</font>
+
+17
+00:00:38,280 --> 00:00:40,530
+with me so if there<font color="#CCCCCC"> is an access point</font>
+
+18
+00:00:40,530 --> 00:00:43,110
+<font color="#E5E5E5">who wants to connect with</font><font color="#CCCCCC"> that client</font><font color="#E5E5E5"> so</font>
+
+19
+00:00:43,110 --> 00:00:45,360
+<font color="#CCCCCC">that access point will send a probe e</font>
+
+20
+00:00:45,360 --> 00:00:47,910
+spawns to that client<font color="#CCCCCC"> and</font><font color="#E5E5E5"> in that probe</font>
+
+21
+00:00:47,910 --> 00:00:50,280
+<font color="#E5E5E5">response the access point will send a</font>
+
+22
+00:00:50,280 --> 00:00:52,980
+particular<font color="#E5E5E5"> requirement which is needed</font>
+
+23
+00:00:52,980 --> 00:00:54,809
+in order<font color="#CCCCCC"> to connect with that access</font>
+
+24
+00:00:54,809 --> 00:00:57,120
+point<font color="#E5E5E5"> so once the probe response is</font>
+
+25
+00:00:57,120 --> 00:01:00,000
+received by<font color="#CCCCCC"> our client then our client</font>
+
+26
+00:01:00,000 --> 00:01:02,460
+or our<font color="#CCCCCC"> mobile</font><font color="#E5E5E5"> phone will send the</font>
+
+27
+00:01:02,460 --> 00:01:04,739
+authentication request to that<font color="#E5E5E5"> access</font>
+
+28
+00:01:04,739 --> 00:01:06,930
+<font color="#E5E5E5">point</font><font color="#CCCCCC"> so in that</font><font color="#E5E5E5"> authentication request</font>
+
+29
+00:01:06,930 --> 00:01:09,570
+<font color="#E5E5E5">our client will send a passphrase to</font>
+
+30
+00:01:09,570 --> 00:01:11,310
+that access point<font color="#E5E5E5"> and once the</font>
+
+31
+00:01:11,310 --> 00:01:13,290
+<font color="#CCCCCC">passphrase and</font><font color="#E5E5E5"> the authentication</font>
+
+32
+00:01:13,290 --> 00:01:16,049
+request is accepted by<font color="#CCCCCC"> that access point</font>
+
+33
+00:01:16,049 --> 00:01:17,900
+then that access point will send
+
+34
+00:01:17,900 --> 00:01:20,159
+authentication response<font color="#E5E5E5"> and once our</font>
+
+35
+00:01:20,159 --> 00:01:21,930
+client receives the authentication
+
+36
+00:01:21,930 --> 00:01:24,540
+response so till here<font color="#E5E5E5"> our access point</font>
+
+37
+00:01:24,540 --> 00:01:25,860
+communication<font color="#CCCCCC"> takes place</font>
+
+38
+00:01:25,860 --> 00:01:28,020
+so once<font color="#E5E5E5"> authentication response is</font>
+
+39
+00:01:28,020 --> 00:01:29,430
+received by our slides
+
+40
+00:01:29,430 --> 00:01:31,829
+then our client will send<font color="#E5E5E5"> Association</font>
+
+41
+00:01:31,829 --> 00:01:33,990
+<font color="#E5E5E5">request to an association</font><font color="#CCCCCC"> request nice</font>
+
+42
+00:01:33,990 --> 00:01:36,689
+<font color="#CCCCCC">ok we are connected now let's start</font>
+
+43
+00:01:36,689 --> 00:01:38,820
+transferring some data so in order<font color="#E5E5E5"> to</font>
+
+44
+00:01:38,820 --> 00:01:40,979
+<font color="#E5E5E5">transfer some data the first</font><font color="#CCCCCC"> of all our</font>
+
+45
+00:01:40,979 --> 00:01:43,170
+client will send<font color="#E5E5E5"> Association request and</font>
+
+46
+00:01:43,170 --> 00:01:45,659
+the client<font color="#E5E5E5"> will wait for Association</font>
+
+47
+00:01:45,659 --> 00:01:48,390
+response from access point<font color="#CCCCCC"> so these are</font>
+
+48
+00:01:48,390 --> 00:01:50,430
+the six steps which are<font color="#CCCCCC"> needed in order</font>
+
+49
+00:01:50,430 --> 00:01:52,710
+<font color="#E5E5E5">to communication takes place</font><font color="#CCCCCC"> between our</font>
+
+50
+00:01:52,710 --> 00:01:54,840
+<font color="#E5E5E5">client and a wireless</font><font color="#CCCCCC"> now let's try</font><font color="#E5E5E5"> to</font>
+
+51
+00:01:54,840 --> 00:01:57,450
+make<font color="#CCCCCC"> Wireless</font><font color="#E5E5E5"> packets and analyze</font><font color="#CCCCCC"> the</font>
+
+52
+00:01:57,450 --> 00:01:59,850
+how of communication between access
+
+53
+00:01:59,850 --> 00:02:02,219
+<font color="#E5E5E5">points and a client take place with the</font>
+
+54
+00:02:02,219 --> 00:02:03,840
+<font color="#E5E5E5">help of Wireshark</font>
+
+55
+00:02:03,840 --> 00:02:06,149
+now<font color="#CCCCCC"> let's</font><font color="#E5E5E5"> analyze a communication</font>
+
+56
+00:02:06,149 --> 00:02:08,310
+between an access point<font color="#E5E5E5"> and a client</font>
+
+57
+00:02:08,310 --> 00:02:10,110
+with the help of<font color="#E5E5E5"> Wireshark</font>
+
+58
+00:02:10,110 --> 00:02:12,120
+so here you can see that<font color="#CCCCCC"> my colleague</font>
+
+59
+00:02:12,120 --> 00:02:13,319
+Linux is up and running
+
+60
+00:02:13,319 --> 00:02:15,269
+and I already<font color="#CCCCCC"> has captured some</font><font color="#E5E5E5"> packets</font>
+
+61
+00:02:15,269 --> 00:02:16,920
+with the help of<font color="#E5E5E5"> arrow dump utility and</font>
+
+62
+00:02:16,920 --> 00:02:19,349
+here you can see one pcap file called as
+
+63
+00:02:19,349 --> 00:02:21,959
+<font color="#CCCCCC">Klein dot tap so let's analyze</font><font color="#E5E5E5"> this file</font>
+
+64
+00:02:21,959 --> 00:02:33,120
+in Wireshark so first of all<font color="#E5E5E5"> I will show</font>
+
+65
+00:02:33,120 --> 00:02:35,159
+you that how we can<font color="#CCCCCC"> add filters</font><font color="#E5E5E5"> in</font>
+
+66
+00:02:35,159 --> 00:02:37,260
+Wireshark<font color="#E5E5E5"> in order to get a clean neat</font>
+
+67
+00:02:37,260 --> 00:02:39,510
+output<font color="#E5E5E5"> so here you can see that right</font>
+
+68
+00:02:39,510 --> 00:02:42,450
+now<font color="#CCCCCC"> there are so many packets</font><font color="#E5E5E5"> and all</font>
+
+69
+00:02:42,450 --> 00:02:44,389
+<font color="#E5E5E5">these packets are</font><font color="#CCCCCC"> of different</font><font color="#E5E5E5"> clients</font>
+
+70
+00:02:44,389 --> 00:02:48,090
+<font color="#E5E5E5">but I know that my access point name is</font>
+
+71
+00:02:48,090 --> 00:02:50,129
+this one so<font color="#E5E5E5"> what</font><font color="#CCCCCC"> I am going to do here</font>
+
+72
+00:02:50,129 --> 00:02:52,590
+<font color="#CCCCCC">is first of</font><font color="#E5E5E5"> all in order to</font><font color="#CCCCCC"> apply a</font>
+
+73
+00:02:52,590 --> 00:02:54,389
+<font color="#E5E5E5">filter in Wireshark there are two ways</font>
+
+74
+00:02:54,389 --> 00:02:56,579
+<font color="#CCCCCC">so the first way is that you can</font><font color="#E5E5E5"> write</font>
+
+75
+00:02:56,579 --> 00:02:58,829
+<font color="#E5E5E5">down a filter here a filter string here</font>
+
+76
+00:02:58,829 --> 00:03:00,959
+in this<font color="#E5E5E5"> bar then other</font><font color="#CCCCCC"> ways you can</font>
+
+77
+00:03:00,959 --> 00:03:03,810
+select a<font color="#E5E5E5"> particular packet and then you</font>
+
+78
+00:03:03,810 --> 00:03:06,000
+can go to its header<font color="#E5E5E5"> and then you can</font>
+
+79
+00:03:06,000 --> 00:03:07,859
+add a<font color="#CCCCCC"> filter so what I'm</font><font color="#E5E5E5"> going to do</font>
+
+80
+00:03:07,859 --> 00:03:10,230
+<font color="#E5E5E5">here is so first of all</font><font color="#CCCCCC"> I will apply a</font>
+
+81
+00:03:10,230 --> 00:03:13,709
+<font color="#E5E5E5">filter of a</font><font color="#CCCCCC"> bssid of my access point</font>
+
+82
+00:03:13,709 --> 00:03:16,169
+<font color="#E5E5E5">then we will get all the packets of that</font>
+
+83
+00:03:16,169 --> 00:03:19,259
+access point<font color="#CCCCCC"> so my access point name is</font>
+
+84
+00:03:19,259 --> 00:03:23,310
+Hawaii<font color="#E5E5E5"> and here you can see that the</font>
+
+85
+00:03:23,310 --> 00:03:25,979
+bssid of my access point is this<font color="#CCCCCC"> so in</font>
+
+86
+00:03:25,979 --> 00:03:27,750
+order<font color="#E5E5E5"> to add a filter just</font><font color="#CCCCCC"> right click</font>
+
+87
+00:03:27,750 --> 00:03:30,659
+over here<font color="#E5E5E5"> we can apply as filter and</font>
+
+88
+00:03:30,659 --> 00:03:34,199
+click on selected and here you can see
+
+89
+00:03:34,199 --> 00:03:36,900
+that a string is automatically written
+
+90
+00:03:36,900 --> 00:03:40,049
+here in this bar and here you can see
+
+91
+00:03:40,049 --> 00:03:42,239
+the<font color="#E5E5E5"> filter now the thing to be notice is</font>
+
+92
+00:03:42,239 --> 00:03:44,699
+that<font color="#E5E5E5"> in the source column all the</font>
+
+93
+00:03:44,699 --> 00:03:48,030
+packets are<font color="#CCCCCC"> of this bssid or our address</font>
+
+94
+00:03:48,030 --> 00:03:50,489
+so the next thing we have<font color="#E5E5E5"> to do is we</font>
+
+95
+00:03:50,489 --> 00:03:52,970
+<font color="#E5E5E5">can just</font><font color="#CCCCCC"> write here instead of bssid</font>
+
+96
+00:03:52,970 --> 00:03:57,359
+<font color="#E5E5E5">addr which means address now what</font><font color="#CCCCCC"> i have</font>
+
+97
+00:03:57,359 --> 00:04:00,419
+<font color="#E5E5E5">to do is we will apply the next</font><font color="#CCCCCC"> filter</font>
+
+98
+00:04:00,419 --> 00:04:03,150
+of our client so<font color="#E5E5E5"> that we can</font><font color="#CCCCCC"> analyze the</font>
+
+99
+00:04:03,150 --> 00:04:04,829
+communication which is<font color="#CCCCCC"> happening between</font>
+
+100
+00:04:04,829 --> 00:04:07,859
+<font color="#E5E5E5">our access point and a client so my</font>
+
+101
+00:04:07,859 --> 00:04:11,430
+client name is<font color="#CCCCCC"> samson and you will found</font>
+
+102
+00:04:11,430 --> 00:04:15,889
+one packet of that here and<font color="#E5E5E5"> here</font><font color="#CCCCCC"> is that</font>
+
+103
+00:04:15,889 --> 00:04:19,108
+packet so here is my client so what<font color="#CCCCCC"> i'm</font>
+
+104
+00:04:19,108 --> 00:04:20,699
+going<font color="#E5E5E5"> to do here is</font><font color="#CCCCCC"> i'm adding one more</font>
+
+105
+00:04:20,699 --> 00:04:22,650
+<font color="#E5E5E5">filter of my client</font><font color="#CCCCCC"> bssid</font>
+
+106
+00:04:22,650 --> 00:04:25,650
+and my client<font color="#CCCCCC"> bssid is this so let me</font>
+
+107
+00:04:25,650 --> 00:04:27,030
+add one more<font color="#E5E5E5"> filter</font>
+
+108
+00:04:27,030 --> 00:04:29,370
+and now<font color="#E5E5E5"> this time I will do and select</font>
+
+109
+00:04:29,370 --> 00:04:33,360
+it<font color="#E5E5E5"> and I will change the same and make</font>
+
+110
+00:04:33,360 --> 00:04:38,580
+it as a DDR hit enter and here you<font color="#E5E5E5"> will</font>
+
+111
+00:04:38,580 --> 00:04:41,150
+<font color="#E5E5E5">see a communication happening between</font>
+
+112
+00:04:41,150 --> 00:04:45,870
+our access point<font color="#E5E5E5"> and our client so while</font>
+
+113
+00:04:45,870 --> 00:04:47,639
+I<font color="#CCCCCC"> told you</font><font color="#E5E5E5"> over here that the first of</font>
+
+114
+00:04:47,639 --> 00:04:49,410
+all the client will send a probe request
+
+115
+00:04:49,410 --> 00:04:52,710
+then the access point will send a probe
+
+116
+00:04:52,710 --> 00:04:53,400
+response
+
+117
+00:04:53,400 --> 00:04:55,889
+so in this<font color="#CCCCCC"> Wireshark packet dump I don't</font>
+
+118
+00:04:55,889 --> 00:04:57,570
+have any probe request packet but you
+
+119
+00:04:57,570 --> 00:04:59,580
+can see here a probe response<font color="#E5E5E5"> which is</font>
+
+120
+00:04:59,580 --> 00:05:03,180
+being sent by<font color="#CCCCCC"> our access point to our</font>
+
+121
+00:05:03,180 --> 00:05:06,060
+client<font color="#E5E5E5"> so once</font><font color="#CCCCCC"> client got a probe</font>
+
+122
+00:05:06,060 --> 00:05:08,130
+response<font color="#E5E5E5"> then the client will send an</font>
+
+123
+00:05:08,130 --> 00:05:10,169
+authentication request including
+
+124
+00:05:10,169 --> 00:05:13,710
+passphrase<font color="#E5E5E5"> to that access point</font><font color="#CCCCCC"> and here</font>
+
+125
+00:05:13,710 --> 00:05:17,100
+you<font color="#E5E5E5"> will see</font><font color="#CCCCCC"> an authentication</font><font color="#E5E5E5"> request</font>
+
+126
+00:05:17,100 --> 00:05:20,160
+<font color="#E5E5E5">which is being sent by</font><font color="#CCCCCC"> our client</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> you</font>
+
+127
+00:05:20,160 --> 00:05:21,890
+can see here our client is sending<font color="#CCCCCC"> an</font>
+
+128
+00:05:21,890 --> 00:05:25,050
+authentication<font color="#E5E5E5"> request to our access</font>
+
+129
+00:05:25,050 --> 00:05:27,180
+point<font color="#E5E5E5"> and then</font><font color="#CCCCCC"> we'll got the</font>
+
+130
+00:05:27,180 --> 00:05:29,729
+authentication response and here you can
+
+131
+00:05:29,729 --> 00:05:31,770
+see the authentication response<font color="#E5E5E5"> is being</font>
+
+132
+00:05:31,770 --> 00:05:36,150
+sent by our<font color="#E5E5E5"> access point to our client</font>
+
+133
+00:05:36,150 --> 00:05:39,000
+<font color="#E5E5E5">and once our client got an</font><font color="#CCCCCC"> nth occasion</font>
+
+134
+00:05:39,000 --> 00:05:41,310
+response packet<font color="#E5E5E5"> then our client will</font>
+
+135
+00:05:41,310 --> 00:05:43,650
+send an association request<font color="#E5E5E5"> to that</font>
+
+136
+00:05:43,650 --> 00:05:46,650
+<font color="#E5E5E5">access point and right after this packet</font>
+
+137
+00:05:46,650 --> 00:05:48,840
+you<font color="#CCCCCC"> can see here</font><font color="#E5E5E5"> that</font><font color="#CCCCCC"> our client has</font>
+
+138
+00:05:48,840 --> 00:05:51,570
+sent an association request to this
+
+139
+00:05:51,570 --> 00:05:54,690
+destination so this destination is our
+
+140
+00:05:54,690 --> 00:05:58,380
+access point<font color="#CCCCCC"> so right after</font><font color="#E5E5E5"> the</font>
+
+141
+00:05:58,380 --> 00:06:00,720
+authentication response<font color="#CCCCCC"> packet here you</font>
+
+142
+00:06:00,720 --> 00:06:03,090
+can see that our client has sent an
+
+143
+00:06:03,090 --> 00:06:05,820
+association request to<font color="#CCCCCC"> our access point</font>
+
+144
+00:06:05,820 --> 00:06:08,880
+<font color="#E5E5E5">and once our access point receives</font>
+
+145
+00:06:08,880 --> 00:06:11,789
+association<font color="#E5E5E5"> request then the access</font>
+
+146
+00:06:11,789 --> 00:06:14,039
+point will send an<font color="#E5E5E5"> association response</font>
+
+147
+00:06:14,039 --> 00:06:15,870
+to our client<font color="#E5E5E5"> and here you can see that</font>
+
+148
+00:06:15,870 --> 00:06:18,390
+as an association response is being sent
+
+149
+00:06:18,390 --> 00:06:22,590
+by<font color="#CCCCCC"> our access point to our client</font><font color="#E5E5E5"> so</font>
+
+150
+00:06:22,590 --> 00:06:25,020
+this is how and communication between so
+
+151
+00:06:25,020 --> 00:06:26,700
+<font color="#E5E5E5">this is</font><font color="#CCCCCC"> how a communication between an</font>
+
+152
+00:06:26,700 --> 00:06:29,430
+access point and<font color="#E5E5E5"> a client occurs in</font>
+
+153
+00:06:29,430 --> 00:06:32,039
+order to transfer data<font color="#E5E5E5"> so in this video</font>
+
+154
+00:06:32,039 --> 00:06:34,080
+<font color="#E5E5E5">we have</font><font color="#CCCCCC"> discussed that</font><font color="#E5E5E5"> how a client and</font>
+
+155
+00:06:34,080 --> 00:06:35,599
+an access point communication
+
+156
+00:06:35,599 --> 00:06:38,640
+<font color="#E5E5E5">communicate in order</font><font color="#CCCCCC"> to transfer data so</font>
+
+157
+00:06:38,640 --> 00:00:00,000
+thanks for<font color="#E5E5E5"> watching</font><font color="#CCCCCC"> this video</font>
+

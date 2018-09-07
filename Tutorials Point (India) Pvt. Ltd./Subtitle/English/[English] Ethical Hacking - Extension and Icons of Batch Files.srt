@@ -1,0 +1,680 @@
+1
+00:00:00,060 --> 00:00:02,370
+hello everyone in<font color="#CCCCCC"> this video we will</font>
+
+2
+00:00:02,370 --> 00:00:04,859
+talk<font color="#CCCCCC"> about batch files extension so in</font>
+
+3
+00:00:04,859 --> 00:00:06,839
+the<font color="#E5E5E5"> last video you have</font><font color="#CCCCCC"> seen that the</font>
+
+4
+00:00:06,839 --> 00:00:08,360
+batch files which we have created
+
+5
+00:00:08,360 --> 00:00:11,250
+<font color="#E5E5E5">contains the extension of</font><font color="#CCCCCC"> dot bat that</font>
+
+6
+00:00:11,250 --> 00:00:14,910
+is dot dat<font color="#E5E5E5"> but if someone just look at</font>
+
+7
+00:00:14,910 --> 00:00:17,970
+that file<font color="#E5E5E5"> then he may or may not open</font>
+
+8
+00:00:17,970 --> 00:00:20,490
+<font color="#CCCCCC">that file</font><font color="#E5E5E5"> because he can think that it's</font>
+
+9
+00:00:20,490 --> 00:00:22,830
+a malicious file<font color="#E5E5E5"> so</font><font color="#CCCCCC"> its must to change</font>
+
+10
+00:00:22,830 --> 00:00:25,380
+the extension<font color="#E5E5E5"> as</font><font color="#CCCCCC"> well</font><font color="#E5E5E5"> as the icon of our</font>
+
+11
+00:00:25,380 --> 00:00:27,869
+batch file<font color="#CCCCCC"> now how we can</font><font color="#E5E5E5"> do that so we</font>
+
+12
+00:00:27,869 --> 00:00:30,330
+can<font color="#E5E5E5"> change the icon and the extension of</font>
+
+13
+00:00:30,330 --> 00:00:32,910
+<font color="#E5E5E5">that file by using some</font><font color="#CCCCCC"> softwares so we</font>
+
+14
+00:00:32,910 --> 00:00:34,980
+can use<font color="#E5E5E5"> icon changer in order to change</font>
+
+15
+00:00:34,980 --> 00:00:37,230
+the icon<font color="#CCCCCC"> of that</font><font color="#E5E5E5"> batch file so here</font><font color="#CCCCCC"> you</font>
+
+16
+00:00:37,230 --> 00:00:39,540
+can see that<font color="#E5E5E5"> I have change the icon of</font>
+
+17
+00:00:39,540 --> 00:00:41,520
+this<font color="#E5E5E5"> bat file and here you can see that</font>
+
+18
+00:00:41,520 --> 00:00:43,590
+<font color="#E5E5E5">it's a Windows batch file but the icon</font>
+
+19
+00:00:43,590 --> 00:00:46,890
+is changed<font color="#E5E5E5"> similarly we can also change</font>
+
+20
+00:00:46,890 --> 00:00:49,469
+the<font color="#CCCCCC"> extension of</font><font color="#E5E5E5"> batch file</font><font color="#CCCCCC"> that is</font><font color="#E5E5E5"> got</font>
+
+21
+00:00:49,469 --> 00:00:53,370
+<font color="#E5E5E5">dat</font><font color="#CCCCCC"> to dot exe so in order to do that we</font>
+
+22
+00:00:53,370 --> 00:00:55,890
+can<font color="#CCCCCC"> use extension changer in order to</font>
+
+23
+00:00:55,890 --> 00:00:57,629
+change the<font color="#CCCCCC"> extension of</font><font color="#E5E5E5"> that batch files</font>
+
+24
+00:00:57,629 --> 00:00:59,579
+<font color="#E5E5E5">and here you can see that I have changed</font>
+
+25
+00:00:59,579 --> 00:01:02,070
+<font color="#CCCCCC">the extension of the batch files</font><font color="#E5E5E5"> now the</font>
+
+26
+00:01:02,070 --> 00:01:04,799
+extension<font color="#E5E5E5"> is hello dot exe now the</font>
+
+27
+00:01:04,799 --> 00:01:06,600
+<font color="#E5E5E5">extension is dot exe and it's the</font>
+
+28
+00:01:06,600 --> 00:01:09,030
+executable files<font color="#E5E5E5"> so now let's see how we</font>
+
+29
+00:01:09,030 --> 00:01:11,820
+<font color="#E5E5E5">can change icon as well</font><font color="#CCCCCC"> as extension in</font>
+
+30
+00:01:11,820 --> 00:01:15,330
+our system<font color="#E5E5E5"> now let's try to change icon</font>
+
+31
+00:01:15,330 --> 00:01:17,549
+<font color="#E5E5E5">as well</font><font color="#CCCCCC"> as extension of batch file in</font>
+
+32
+00:01:17,549 --> 00:01:19,619
+order<font color="#E5E5E5"> to make</font><font color="#CCCCCC"> people believe that the</font>
+
+33
+00:01:19,619 --> 00:01:21,330
+batch file which we are going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> create</font>
+
+34
+00:01:21,330 --> 00:01:24,479
+is<font color="#CCCCCC"> not a</font><font color="#E5E5E5"> malicious one well in order to</font>
+
+35
+00:01:24,479 --> 00:01:26,280
+<font color="#CCCCCC">change icon and extension we need to</font>
+
+36
+00:01:26,280 --> 00:01:28,229
+download<font color="#E5E5E5"> some softwares</font><font color="#CCCCCC"> so the first</font>
+
+37
+00:01:28,229 --> 00:01:29,970
+<font color="#E5E5E5">software we</font><font color="#CCCCCC"> have to</font><font color="#E5E5E5"> download</font><font color="#CCCCCC"> it is</font>
+
+38
+00:01:29,970 --> 00:01:32,400
+called as icon changer which we will<font color="#CCCCCC"> use</font>
+
+39
+00:01:32,400 --> 00:01:34,350
+<font color="#E5E5E5">in order to</font><font color="#CCCCCC"> change the icon so you</font><font color="#E5E5E5"> can</font>
+
+40
+00:01:34,350 --> 00:01:35,970
+<font color="#CCCCCC">download the software from here from</font>
+
+41
+00:01:35,970 --> 00:01:38,880
+<font color="#E5E5E5">this link and once you install this</font>
+
+42
+00:01:38,880 --> 00:01:40,979
+<font color="#CCCCCC">software</font><font color="#E5E5E5"> then the next software which we</font>
+
+43
+00:01:40,979 --> 00:01:43,290
+will download and install is is called
+
+44
+00:01:43,290 --> 00:01:46,680
+as<font color="#CCCCCC"> bad to exe converter so this</font><font color="#E5E5E5"> software</font>
+
+45
+00:01:46,680 --> 00:01:48,780
+is used to change<font color="#E5E5E5"> the extension of bad</font>
+
+46
+00:01:48,780 --> 00:01:52,500
+file<font color="#E5E5E5"> that is not be</font><font color="#CCCCCC"> a t2 dot exe file so</font>
+
+47
+00:01:52,500 --> 00:01:54,659
+you<font color="#E5E5E5"> can download the software from here</font>
+
+48
+00:01:54,659 --> 00:01:57,659
+from this<font color="#E5E5E5"> link that</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> f</font><font color="#CCCCCC"> F 2k or dot</font><font color="#E5E5E5"> de</font>
+
+49
+00:01:57,659 --> 00:02:00,860
+<font color="#E5E5E5">so I have already downloaded</font><font color="#CCCCCC"> and install</font>
+
+50
+00:02:00,860 --> 00:02:04,920
+both<font color="#E5E5E5"> of them in my</font><font color="#CCCCCC"> VirtualBox</font><font color="#E5E5E5"> so let me</font>
+
+51
+00:02:04,920 --> 00:02:07,020
+open<font color="#E5E5E5"> my VirtualBox so you can see here</font>
+
+52
+00:02:07,020 --> 00:02:09,869
+so here is my icon changer<font color="#E5E5E5"> so first of</font>
+
+53
+00:02:09,869 --> 00:02:14,510
+all let's create a<font color="#CCCCCC"> sample batch file</font>
+
+54
+00:02:14,840 --> 00:02:18,510
+and<font color="#E5E5E5"> I'm creating a very simple</font><font color="#CCCCCC"> file</font>
+
+55
+00:02:18,510 --> 00:02:20,730
+which<font color="#E5E5E5"> will just print out a demo user</font>
+
+56
+00:02:20,730 --> 00:02:23,520
+and<font color="#CCCCCC"> let me save this file on my desktop</font>
+
+57
+00:02:23,520 --> 00:02:28,310
+<font color="#E5E5E5">let me rename it as sample dot bat and</font>
+
+58
+00:02:28,310 --> 00:02:30,990
+you will see here<font color="#E5E5E5"> that</font><font color="#CCCCCC"> here is the file</font>
+
+59
+00:02:30,990 --> 00:02:34,290
+<font color="#E5E5E5">and if I</font><font color="#CCCCCC"> open this file</font><font color="#E5E5E5"> here you can see</font>
+
+60
+00:02:34,290 --> 00:02:37,230
+that<font color="#E5E5E5"> it's printing out demo user now</font>
+
+61
+00:02:37,230 --> 00:02:38,670
+let's try<font color="#E5E5E5"> to change the icon</font><font color="#CCCCCC"> of that</font>
+
+62
+00:02:38,670 --> 00:02:41,880
+<font color="#E5E5E5">file so let me open the software so as</font>
+
+63
+00:02:41,880 --> 00:02:44,010
+soon<font color="#E5E5E5"> as I click on that</font><font color="#CCCCCC"> software</font><font color="#E5E5E5"> here</font>
+
+64
+00:02:44,010 --> 00:02:46,140
+you will<font color="#E5E5E5"> see it asks us for the file</font>
+
+65
+00:02:46,140 --> 00:02:49,320
+which we want<font color="#E5E5E5"> to change or we want to</font>
+
+66
+00:02:49,320 --> 00:02:51,420
+change the icon<font color="#CCCCCC"> of that file so we can</font>
+
+67
+00:02:51,420 --> 00:02:53,010
+also<font color="#E5E5E5"> change the icon of a particular</font>
+
+68
+00:02:53,010 --> 00:02:55,170
+file<font color="#CCCCCC"> and</font><font color="#E5E5E5"> even we can change the</font><font color="#CCCCCC"> icon of</font>
+
+69
+00:02:55,170 --> 00:02:57,810
+entire folder by clicking<font color="#E5E5E5"> over here but</font>
+
+70
+00:02:57,810 --> 00:02:58,680
+for the time being
+
+71
+00:02:58,680 --> 00:03:01,830
+let's click here file<font color="#E5E5E5"> click</font><font color="#CCCCCC"> ok</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> let's</font>
+
+72
+00:03:01,830 --> 00:03:04,800
+go<font color="#E5E5E5"> here to the desktop and let's select</font>
+
+73
+00:03:04,800 --> 00:03:09,660
+this file so once we select the file
+
+74
+00:03:09,660 --> 00:03:11,340
+then<font color="#CCCCCC"> the next</font><font color="#E5E5E5"> thing we have to</font><font color="#CCCCCC"> do is we</font>
+
+75
+00:03:11,340 --> 00:03:13,350
+have<font color="#E5E5E5"> to select the icon so you can see a</font>
+
+76
+00:03:13,350 --> 00:03:15,990
+list<font color="#E5E5E5"> of all the icons but these are like</font>
+
+77
+00:03:15,990 --> 00:03:18,900
+icons<font color="#E5E5E5"> are present in our</font><font color="#CCCCCC"> system so this</font>
+
+78
+00:03:18,900 --> 00:03:21,750
+<font color="#CCCCCC">software has scanned our system and find</font>
+
+79
+00:03:21,750 --> 00:03:24,770
+out<font color="#CCCCCC"> all these icons so if you are not</font>
+
+80
+00:03:24,770 --> 00:03:28,560
+<font color="#CCCCCC">entrusted to</font><font color="#E5E5E5"> set these kind of icons</font>
+
+81
+00:03:28,560 --> 00:03:30,120
+then what you<font color="#E5E5E5"> can do is you can download</font>
+
+82
+00:03:30,120 --> 00:03:32,160
+icons<font color="#E5E5E5"> from the internet also there are a</font>
+
+83
+00:03:32,160 --> 00:03:34,260
+lot of<font color="#E5E5E5"> free websites</font><font color="#CCCCCC"> which</font><font color="#E5E5E5"> provides free</font>
+
+84
+00:03:34,260 --> 00:03:36,810
+icons<font color="#CCCCCC"> but the thing to be notice is that</font>
+
+85
+00:03:36,810 --> 00:03:38,550
+the icon which<font color="#CCCCCC"> you will download from</font>
+
+86
+00:03:38,550 --> 00:03:40,650
+the internet<font color="#CCCCCC"> must</font><font color="#E5E5E5"> have the</font><font color="#CCCCCC"> extension of</font>
+
+87
+00:03:40,650 --> 00:03:43,890
+<font color="#CCCCCC">dot ICO that stands for dot</font><font color="#E5E5E5"> icon then</font>
+
+88
+00:03:43,890 --> 00:03:46,530
+the software<font color="#CCCCCC"> will pick</font><font color="#E5E5E5"> that I can</font>
+
+89
+00:03:46,530 --> 00:03:48,570
+otherwise not<font color="#E5E5E5"> but for the time</font><font color="#CCCCCC"> being</font>
+
+90
+00:03:48,570 --> 00:03:52,140
+let's try to change the icon<font color="#E5E5E5"> and</font><font color="#CCCCCC"> let's</font>
+
+91
+00:03:52,140 --> 00:03:54,720
+try to put it this so as soon as<font color="#E5E5E5"> I click</font>
+
+92
+00:03:54,720 --> 00:03:55,350
+<font color="#CCCCCC">over here</font>
+
+93
+00:03:55,350 --> 00:03:59,160
+<font color="#E5E5E5">you can see that this comes in set so if</font>
+
+94
+00:03:59,160 --> 00:04:02,610
+I click over here<font color="#E5E5E5"> set and let's go back</font>
+
+95
+00:04:02,610 --> 00:04:05,580
+and here you will<font color="#CCCCCC"> see that the icon of</font>
+
+96
+00:04:05,580 --> 00:04:07,050
+our batch file is changed<font color="#CCCCCC"> and</font><font color="#E5E5E5"> let's</font>
+
+97
+00:04:07,050 --> 00:04:09,960
+<font color="#E5E5E5">check</font><font color="#CCCCCC"> its property you can see here the</font>
+
+98
+00:04:09,960 --> 00:04:11,880
+windows<font color="#CCCCCC"> batch file</font><font color="#E5E5E5"> so this is how we can</font>
+
+99
+00:04:11,880 --> 00:04:14,580
+<font color="#E5E5E5">change the icon but now let's see how we</font>
+
+100
+00:04:14,580 --> 00:04:16,470
+can<font color="#E5E5E5"> change the</font><font color="#CCCCCC"> extension</font><font color="#E5E5E5"> of this batch</font>
+
+101
+00:04:16,470 --> 00:04:20,100
+file so let me start<font color="#CCCCCC"> my</font><font color="#E5E5E5"> bad to exe</font>
+
+102
+00:04:20,100 --> 00:04:23,340
+<font color="#CCCCCC">convertor</font><font color="#E5E5E5"> so here you can see that the</font>
+
+103
+00:04:23,340 --> 00:04:25,110
+bad to<font color="#E5E5E5"> exe converter which I have</font>
+
+104
+00:04:25,110 --> 00:04:26,550
+downloaded<font color="#E5E5E5"> from that</font><font color="#CCCCCC"> website and</font>
+
+105
+00:04:26,550 --> 00:04:27,120
+installed in
+
+106
+00:04:27,120 --> 00:04:30,000
+my system<font color="#E5E5E5"> so here at the top</font><font color="#CCCCCC"> I have to</font>
+
+107
+00:04:30,000 --> 00:04:32,010
+give the location<font color="#E5E5E5"> of a batch file or I</font>
+
+108
+00:04:32,010 --> 00:04:34,020
+have<font color="#E5E5E5"> to select a</font><font color="#CCCCCC"> particular one</font><font color="#E5E5E5"> so let</font>
+
+109
+00:04:34,020 --> 00:04:36,800
+me<font color="#E5E5E5"> click over here click on desktop and</font>
+
+110
+00:04:36,800 --> 00:04:39,540
+here<font color="#E5E5E5"> is our batch file click on open</font>
+
+111
+00:04:39,540 --> 00:04:43,470
+<font color="#E5E5E5">then at the bottom</font><font color="#CCCCCC"> just after the batch</font>
+
+112
+00:04:43,470 --> 00:04:46,139
+file you will<font color="#CCCCCC"> see here a save as</font><font color="#E5E5E5"> so here</font>
+
+113
+00:04:46,139 --> 00:04:48,540
+you can specify<font color="#E5E5E5"> a particular name and</font>
+
+114
+00:04:48,540 --> 00:04:50,850
+the extension should be<font color="#CCCCCC"> dot exe because</font>
+
+115
+00:04:50,850 --> 00:04:53,820
+it's a dot exe<font color="#E5E5E5"> converter and here you</font>
+
+116
+00:04:53,820 --> 00:04:57,180
+<font color="#E5E5E5">will see a lot of options</font><font color="#CCCCCC"> so if I click</font>
+
+117
+00:04:57,180 --> 00:04:58,979
+over<font color="#E5E5E5"> here the first thing is visibility</font>
+
+118
+00:04:58,979 --> 00:05:00,840
+<font color="#E5E5E5">whether you want to make it</font><font color="#CCCCCC"> visible or</font>
+
+119
+00:05:00,840 --> 00:05:02,970
+<font color="#CCCCCC">not some very yes we want</font><font color="#E5E5E5"> to make it</font>
+
+120
+00:05:02,970 --> 00:05:05,789
+visible<font color="#E5E5E5"> now the next thing</font><font color="#CCCCCC"> is we want to</font>
+
+121
+00:05:05,789 --> 00:05:09,000
+<font color="#E5E5E5">add administrative privileges or not so</font>
+
+122
+00:05:09,000 --> 00:05:10,770
+as<font color="#CCCCCC"> I</font><font color="#E5E5E5"> told you earlier in the previous</font>
+
+123
+00:05:10,770 --> 00:05:13,110
+<font color="#E5E5E5">video</font><font color="#CCCCCC"> that there</font><font color="#E5E5E5"> are some batch files</font>
+
+124
+00:05:13,110 --> 00:05:15,570
+which requires administrative<font color="#E5E5E5"> privileges</font>
+
+125
+00:05:15,570 --> 00:05:19,110
+<font color="#CCCCCC">to run so what happen is if I open this</font>
+
+126
+00:05:19,110 --> 00:05:21,660
+batch file you can see here it doesn't
+
+127
+00:05:21,660 --> 00:05:24,600
+ask for<font color="#E5E5E5"> administrative privilege but if</font>
+
+128
+00:05:24,600 --> 00:05:26,940
+I select this option<font color="#E5E5E5"> then what happen is</font>
+
+129
+00:05:26,940 --> 00:05:28,860
+once<font color="#CCCCCC"> the file is converted into dot exe</font>
+
+130
+00:05:28,860 --> 00:05:32,010
+file and when I open dot exe file<font color="#E5E5E5"> the</font>
+
+131
+00:05:32,010 --> 00:05:34,320
+first thing it asks<font color="#E5E5E5"> us for the giving</font>
+
+132
+00:05:34,320 --> 00:05:36,030
+<font color="#E5E5E5">the administrative privileges so if you</font>
+
+133
+00:05:36,030 --> 00:05:38,460
+want to<font color="#E5E5E5"> give identity privileges to the</font>
+
+134
+00:05:38,460 --> 00:05:39,690
+file<font color="#E5E5E5"> then you can</font><font color="#CCCCCC"> select this</font><font color="#E5E5E5"> option</font>
+
+135
+00:05:39,690 --> 00:05:41,700
+<font color="#E5E5E5">otherwise you can</font><font color="#CCCCCC"> just simply uncheck</font>
+
+136
+00:05:41,700 --> 00:05:44,460
+<font color="#E5E5E5">and there is one more feature</font><font color="#CCCCCC"> of this</font>
+
+137
+00:05:44,460 --> 00:05:46,440
+tool that<font color="#E5E5E5"> even we can encrypt a program</font>
+
+138
+00:05:46,440 --> 00:05:48,960
+by specifying a particular password but
+
+139
+00:05:48,960 --> 00:05:51,960
+we are not interested<font color="#E5E5E5"> and the main thing</font>
+
+140
+00:05:51,960 --> 00:05:54,360
+<font color="#E5E5E5">to be</font><font color="#CCCCCC"> notice is that</font><font color="#E5E5E5"> we have to select a</font>
+
+141
+00:05:54,360 --> 00:05:56,940
+particular<font color="#CCCCCC"> architecture of where we</font><font color="#E5E5E5"> are</font>
+
+142
+00:05:56,940 --> 00:06:01,620
+converting the exe file<font color="#E5E5E5"> so whether your</font>
+
+143
+00:06:01,620 --> 00:06:04,080
+target system is 64-bit<font color="#E5E5E5"> then you have to</font>
+
+144
+00:06:04,080 --> 00:06:05,430
+<font color="#CCCCCC">select this one</font><font color="#E5E5E5"> and if your target</font>
+
+145
+00:06:05,430 --> 00:06:07,410
+<font color="#E5E5E5">system is 32-bit then you have to select</font>
+
+146
+00:06:07,410 --> 00:06:09,530
+<font color="#E5E5E5">this one so let me select here and</font>
+
+147
+00:06:09,530 --> 00:06:12,060
+another thing which you<font color="#CCCCCC"> can do is you</font>
+
+148
+00:06:12,060 --> 00:06:13,620
+can<font color="#E5E5E5"> even specify a version information</font>
+
+149
+00:06:13,620 --> 00:06:15,870
+<font color="#CCCCCC">so if you</font><font color="#E5E5E5"> click here include version</font>
+
+150
+00:06:15,870 --> 00:06:18,360
+information<font color="#E5E5E5"> then it just add a fake</font>
+
+151
+00:06:18,360 --> 00:06:20,760
+random version information<font color="#CCCCCC"> in our exe</font>
+
+152
+00:06:20,760 --> 00:06:23,250
+file<font color="#E5E5E5"> so that</font><font color="#CCCCCC"> the people can't be figure</font>
+
+153
+00:06:23,250 --> 00:06:25,169
+<font color="#CCCCCC">out</font><font color="#E5E5E5"> that it's a malicious one so they</font>
+
+154
+00:06:25,169 --> 00:06:29,729
+will trust now<font color="#CCCCCC"> let's go</font><font color="#E5E5E5"> back here</font><font color="#CCCCCC"> to the</font>
+
+155
+00:06:29,729 --> 00:06:33,169
+<font color="#CCCCCC">options and let's click</font><font color="#E5E5E5"> on compile and</font>
+
+156
+00:06:33,169 --> 00:06:36,659
+you will see here<font color="#CCCCCC"> that the file Exe file</font>
+
+157
+00:06:36,659 --> 00:06:39,000
+<font color="#CCCCCC">named as sample is created and if I</font>
+
+158
+00:06:39,000 --> 00:06:39,660
+check
+
+159
+00:06:39,660 --> 00:06:41,070
+properties you can<font color="#E5E5E5"> see here</font><font color="#CCCCCC"> this</font>
+
+160
+00:06:41,070 --> 00:06:43,620
+<font color="#CCCCCC">application in dot exe</font><font color="#E5E5E5"> but in order to</font>
+
+161
+00:06:43,620 --> 00:06:45,810
+confirm that whether it's<font color="#CCCCCC"> working</font><font color="#E5E5E5"> or not</font>
+
+162
+00:06:45,810 --> 00:06:48,390
+<font color="#E5E5E5">let's double click on this file and you</font>
+
+163
+00:06:48,390 --> 00:06:50,520
+will see that this file<font color="#CCCCCC"> is still working</font>
+
+164
+00:06:50,520 --> 00:06:53,730
+and<font color="#CCCCCC"> Held's printing demo user in this</font>
+
+165
+00:06:53,730 --> 00:06:55,680
+video we<font color="#CCCCCC"> have discussed that how we</font><font color="#E5E5E5"> can</font>
+
+166
+00:06:55,680 --> 00:06:58,170
+change the icon<font color="#E5E5E5"> as well as the extension</font>
+
+167
+00:06:58,170 --> 00:07:00,150
+of<font color="#E5E5E5"> batch files</font><font color="#CCCCCC"> in order to make people</font>
+
+168
+00:07:00,150 --> 00:07:02,070
+believe that they are<font color="#E5E5E5"> clicking on a</font>
+
+169
+00:07:02,070 --> 00:07:04,680
+genuine<font color="#E5E5E5"> file so thanks for watching</font><font color="#CCCCCC"> this</font>
+
+170
+00:07:04,680 --> 00:00:00,000
+video
+

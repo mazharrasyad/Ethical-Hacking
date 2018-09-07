@@ -1,0 +1,428 @@
+1
+00:00:00,089 --> 00:00:02,460
+ Halo semua orang <font color="#E5E5E5">di </font><font color="#CCCCCC">video ini kita akan bicara </font>
+
+2
+00:00:02,460 --> 00:00:04,589
+ tentang <font color="#E5E5E5">itu bagaimana kita </font><font color="#CCCCCC">dapat mengamankan Windows </font><font color="#E5E5E5">kita </font>
+
+3
+00:00:04,589 --> 00:00:06,779
+ data dan bagaimana <font color="#E5E5E5">kami dapat mengamankan </font><font color="#CCCCCC">Windows kami </font>
+
+4
+00:00:06,779 --> 00:00:09,240
+ <font color="#E5E5E5">hard drive </font><font color="#CCCCCC">sehingga ada satu utilitas </font><font color="#E5E5E5">di </font>
+
+5
+00:00:09,240 --> 00:00:12,269
+ Windows disebut <font color="#E5E5E5">sebagai BitLocker </font><font color="#CCCCCC">sehingga kami bisa </font>
+
+6
+00:00:12,269 --> 00:00:14,280
+ gunakan <font color="#CCCCCC">utilitas ini untuk mengenkripsi </font>
+
+7
+00:00:14,280 --> 00:00:17,279
+ seluruh hard <font color="#CCCCCC">drive atau </font><font color="#E5E5E5">bahkan kita bisa mengenkripsi </font>
+
+8
+00:00:17,279 --> 00:00:19,560
+ <font color="#E5E5E5">hanya data kami dan kami juga bisa menambahkan </font>
+
+9
+00:00:19,560 --> 00:00:22,830
+ kata sandi <font color="#E5E5E5">untuk melindunginya sekarang </font>
+
+10
+00:00:22,830 --> 00:00:24,630
+ mari kita lihat bagaimana kita dapat menggunakan <font color="#E5E5E5">BitLocker </font><font color="#CCCCCC">di </font>
+
+11
+00:00:24,630 --> 00:00:27,330
+ sistem kami <font color="#E5E5E5">sekarang mari kita coba untuk mengenkripsi kami </font>
+
+12
+00:00:27,330 --> 00:00:29,699
+ data <font color="#E5E5E5">dan mengamankan </font><font color="#CCCCCC">drive kami dengan menggunakan </font>
+
+13
+00:00:29,699 --> 00:00:33,540
+ BitLocker <font color="#E5E5E5">jadi biarkan saya membuka komputer saya </font><font color="#CCCCCC">dan </font>
+
+14
+00:00:33,540 --> 00:00:35,880
+ di sini Anda dapat melihat itu <font color="#CCCCCC">sekarang </font><font color="#E5E5E5">di </font>
+
+15
+00:00:35,880 --> 00:00:37,530
+ <font color="#E5E5E5">sistem ada </font><font color="#CCCCCC">tiga </font><font color="#E5E5E5">drive disk lokal </font>
+
+16
+00:00:37,530 --> 00:00:41,460
+ C maka D <font color="#CCCCCC">dan E </font><font color="#E5E5E5">jadi pertama-tama yang kita miliki </font>
+
+17
+00:00:41,460 --> 00:00:43,350
+ untuk memilih <font color="#CCCCCC">drive yang kita inginkan </font>
+
+18
+00:00:43,350 --> 00:00:45,660
+ mengenkripsi <font color="#E5E5E5">dan masuk dengan BitLocker </font><font color="#CCCCCC">jadi coba saja </font>
+
+19
+00:00:45,660 --> 00:00:47,520
+ <font color="#E5E5E5">untuk klik di sini dan di sini Anda akan melihat </font>
+
+20
+00:00:47,520 --> 00:00:50,340
+ satu opsi menyalakan BitLocker <font color="#CCCCCC">jadi jika ini </font>
+
+21
+00:00:50,340 --> 00:00:52,379
+ <font color="#CCCCCC">pilihan </font><font color="#E5E5E5">tidak </font><font color="#CCCCCC">tersedia di komputer Anda </font>
+
+22
+00:00:52,379 --> 00:00:54,780
+ yang <font color="#CCCCCC">artinya </font><font color="#E5E5E5">komputer </font><font color="#CCCCCC">Anda tidak </font>
+
+23
+00:00:54,780 --> 00:00:57,180
+ mendukung BitLocker <font color="#E5E5E5">jadi biarkan aku klik </font>
+
+24
+00:00:57,180 --> 00:01:00,660
+ <font color="#E5E5E5">di </font><font color="#CCCCCC">sini jadi ketika untuk pertama kalinya kamu </font>
+
+25
+00:01:00,660 --> 00:01:02,910
+ <font color="#E5E5E5">akan membuka bit </font><font color="#CCCCCC">Locker yang akan </font><font color="#E5E5E5">ditanyakan kepada Anda </font>
+
+26
+00:01:02,910 --> 00:01:04,700
+ apakah <font color="#E5E5E5">Anda ingin melindungi drive Anda </font>
+
+27
+00:01:04,700 --> 00:01:07,470
+ dengan menggunakan kata sandi atau Anda ingin melindungi 
+
+28
+00:01:07,470 --> 00:01:09,210
+ drive Anda dengan <font color="#E5E5E5">menggunakan kartu pintar jadi saya </font>
+
+29
+00:01:09,210 --> 00:01:11,100
+ merekomendasikan Anda <font color="#E5E5E5">untuk melindungi drive Anda </font>
+
+30
+00:01:11,100 --> 00:01:12,750
+ menggunakan <font color="#E5E5E5">kata sandi jadi di sini Anda harus menambahkan </font>
+
+31
+00:01:12,750 --> 00:01:17,720
+ <font color="#E5E5E5">kata sandi jadi izinkan saya menambahkan kata sandi di sini </font>
+
+32
+00:01:20,509 --> 00:01:25,110
+ klik berikutnya <font color="#E5E5E5">dan </font><font color="#CCCCCC">kemudian meminta Anda </font>
+
+33
+00:01:25,110 --> 00:01:27,420
+ <font color="#E5E5E5">menyimpan kunci pemulihan jadi apa yang terjadi </font>
+
+34
+00:01:27,420 --> 00:01:29,280
+ kapan untuk pertama <font color="#CCCCCC">kalinya Anda menetapkan </font>
+
+35
+00:01:29,280 --> 00:01:31,770
+ BitLocker <font color="#E5E5E5">Anda menambahkan kata sandi, lalu a </font>
+
+36
+00:01:31,770 --> 00:01:34,140
+ BitLocker akan memberi Anda <font color="#E5E5E5">satu kunci dan </font>
+
+37
+00:01:34,140 --> 00:01:35,880
+ dengan bantuan kunci itu Anda bisa 
+
+38
+00:01:35,880 --> 00:01:38,040
+ memulihkan <font color="#E5E5E5">data Anda hanya </font><font color="#CCCCCC">sebagai contoh Anda </font>
+
+39
+00:01:38,040 --> 00:01:40,200
+ lupa kata sandi <font color="#E5E5E5">Anda dan Anda tidak </font>
+
+40
+00:01:40,200 --> 00:01:43,770
+ <font color="#E5E5E5">dapat </font><font color="#CCCCCC">mengambil data Anda jadi apa Anda </font>
+
+41
+00:01:43,770 --> 00:01:46,020
+ bisa lakukan adalah Anda <font color="#E5E5E5">dapat mengambil </font><font color="#CCCCCC">data </font><font color="#E5E5E5">Anda </font><font color="#CCCCCC">dengan </font>
+
+42
+00:01:46,020 --> 00:01:47,850
+ menggunakan <font color="#E5E5E5">kunci pemulihan yang </font>
+
+43
+00:01:47,850 --> 00:01:49,799
+ BitLocker akan memberi Anda, itu sebabnya 
+
+44
+00:01:49,799 --> 00:01:51,659
+ sekarang BitLocker mengatakan bahwa di mana kita 
+
+45
+00:01:51,659 --> 00:01:53,460
+ ingin <font color="#E5E5E5">menyimpan kunci pemulihan di sana </font>
+
+46
+00:01:53,460 --> 00:01:55,049
+ <font color="#CCCCCC">pilihan yang berbeda </font><font color="#E5E5E5">kita bahkan bisa mencetak </font>
+
+47
+00:01:55,049 --> 00:01:56,790
+ kunci pemulihan kita dapat <font color="#E5E5E5">menyimpannya ke </font><font color="#CCCCCC">a </font>
+
+48
+00:01:56,790 --> 00:01:59,700
+ file dan kami dapat <font color="#E5E5E5">menyimpan </font><font color="#CCCCCC">kunci </font><font color="#E5E5E5">pemulihan ini </font>
+
+49
+00:01:59,700 --> 00:02:01,890
+ ke USB <font color="#E5E5E5">Drive tertentu juga dan kami </font>
+
+50
+00:02:01,890 --> 00:02:03,869
+ <font color="#E5E5E5">bahkan dapat menyimpan kunci pemulihan ini ke </font><font color="#CCCCCC">kami </font>
+
+51
+00:02:03,869 --> 00:02:06,509
+ Akun Microsoft <font color="#E5E5E5">sehingga untuk </font><font color="#CCCCCC">saat ini </font>
+
+52
+00:02:06,509 --> 00:02:08,369
+ Saya <font color="#CCCCCC">menyimpan </font><font color="#E5E5E5">kunci pemulihan itu ke file </font>
+
+53
+00:02:08,369 --> 00:02:10,440
+ <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">saya dapat menunjukkan kepada Anda </font><font color="#E5E5E5">bagaimana pemulihan itu </font>
+
+54
+00:02:10,440 --> 00:02:13,290
+ kunci tampak seperti biarkan aku klik di sini <font color="#E5E5E5">jadi </font><font color="#CCCCCC">aku </font>
+
+55
+00:02:13,290 --> 00:02:13,720
+ mengatakan 
+
+56
+00:02:13,720 --> 00:02:15,610
+ <font color="#E5E5E5">selama kunci pemulihan ini di desktop saya </font>
+
+57
+00:02:15,610 --> 00:02:17,590
+ <font color="#CCCCCC">Anda bisa lihat di sini kunci pemulihan BitLocker </font>
+
+58
+00:02:17,590 --> 00:02:21,900
+ klik simpan <font color="#E5E5E5">dan itu adalah file teks dan </font>
+
+59
+00:02:21,900 --> 00:02:25,690
+ sekarang klik di samping <font color="#CCCCCC">sekarang BitLocker </font>
+
+60
+00:02:25,690 --> 00:02:27,910
+ enkripsi sebenarnya dari dua jenis <font color="#CCCCCC">yang </font>
+
+61
+00:02:27,910 --> 00:02:30,100
+ <font color="#CCCCCC">Hal pertama adalah apakah Anda </font><font color="#E5E5E5">ingin </font>
+
+62
+00:02:30,100 --> 00:02:33,190
+ mengenkripsi <font color="#E5E5E5">seluruh data dalam drive atau Anda </font>
+
+63
+00:02:33,190 --> 00:02:36,010
+ ingin mengenkripsi <font color="#E5E5E5">seluruh Drive jadi hanya untuk </font>
+
+64
+00:02:36,010 --> 00:02:38,080
+ Misalnya <font color="#E5E5E5">jika </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">disk drive adalah </font><font color="#CCCCCC">50 </font>
+
+65
+00:02:38,080 --> 00:02:40,330
+ gigs <font color="#E5E5E5">dan data Anda di dalam drive </font><font color="#CCCCCC">itu </font>
+
+66
+00:02:40,330 --> 00:02:43,240
+ 20 <font color="#CCCCCC">gerbang jadi opsi pertama </font><font color="#E5E5E5">mengatakan itu </font>
+
+67
+00:02:43,240 --> 00:02:45,340
+ Anda ingin mengenkripsi <font color="#E5E5E5">hanya 20 gigs data </font>
+
+68
+00:02:45,340 --> 00:02:47,470
+ maka Anda <font color="#E5E5E5">dapat memilih satu di sini jadi itu a </font>
+
+69
+00:02:47,470 --> 00:02:49,840
+ lebih cepat dan jika Anda ingin mengenkripsi <font color="#E5E5E5">keseluruhan </font>
+
+70
+00:02:49,840 --> 00:02:52,600
+ <font color="#E5E5E5">Drive yang 500 gigs maka itu a </font>
+
+71
+00:02:52,600 --> 00:02:55,270
+ <font color="#E5E5E5">proses yang lebih lambat bisa Anda lihat di sini jadi saya </font>
+
+72
+00:02:55,270 --> 00:02:56,830
+ memilih <font color="#E5E5E5">yang pertama karena saya mau </font>
+
+73
+00:02:56,830 --> 00:02:59,140
+ untuk <font color="#E5E5E5">mengenkripsi data saya tidak seluruh Drive </font>
+
+74
+00:02:59,140 --> 00:03:01,840
+ klik <font color="#E5E5E5">berikutnya dan sekarang mulai mengenkripsi </font>
+
+75
+00:03:01,840 --> 00:03:04,120
+ <font color="#E5E5E5">dan itu akan memakan waktu tergantung </font>
+
+76
+00:03:04,120 --> 00:03:07,900
+ <font color="#E5E5E5">atas data Anda dan di sini Anda dapat melihat itu </font>
+
+77
+00:03:07,900 --> 00:03:10,870
+ <font color="#CCCCCC">enkripsi drive telah dimulai </font>
+
+78
+00:03:10,870 --> 00:03:15,459
+ di sini Anda <font color="#E5E5E5">dapat melihat prosesnya jadi </font><font color="#CCCCCC">saya </font>
+
+79
+00:03:15,459 --> 00:03:17,200
+ menghentikan video ini <font color="#E5E5E5">dan saya akan melanjutkan </font>
+
+80
+00:03:17,200 --> 00:03:19,540
+ video ini setelah enkripsi saya selesai 
+
+81
+00:03:19,540 --> 00:03:23,380
+ dan di sini Anda dapat melihat bahwa <font color="#E5E5E5">enkripsi </font>
+
+82
+00:03:23,380 --> 00:03:26,700
+ <font color="#CCCCCC">Drive itu selesai </font><font color="#E5E5E5">biarkan aku saja </font>
+
+83
+00:03:26,700 --> 00:03:31,450
+ matikan <font color="#E5E5E5">dan restart sistem saya dan kemudian </font>
+
+84
+00:03:31,450 --> 00:03:35,140
+ Saya akan melanjutkan video ini jadi di sini Anda bisa 
+
+85
+00:03:35,140 --> 00:03:38,320
+ melihat bahwa <font color="#E5E5E5">kami ini disk </font><font color="#CCCCCC">drive </font><font color="#E5E5E5">lokal D adalah </font>
+
+86
+00:03:38,320 --> 00:03:40,900
+ <font color="#E5E5E5">dienkripsi dan dikunci oleh BitLocker </font>
+
+87
+00:03:40,900 --> 00:03:43,120
+ Anda dapat melihat <font color="#E5E5E5">tanda login di sini dan jika saya </font>
+
+88
+00:03:43,120 --> 00:03:45,430
+ <font color="#CCCCCC">cukup </font><font color="#E5E5E5">klik </font><font color="#CCCCCC">dua kali </font><font color="#E5E5E5">lalu itu meminta kita </font>
+
+89
+00:03:45,430 --> 00:03:46,930
+ untuk <font color="#E5E5E5">password</font><font color="#CCCCCC"> jadi di sini Anda dapat melihat </font>
+
+90
+00:03:46,930 --> 00:03:48,910
+ bahwa <font color="#E5E5E5">itu meminta kami untuk kata sandi </font>
+
+91
+00:03:48,910 --> 00:03:51,780
+ biarkan <font color="#E5E5E5">saya tulis di sini kata sandi dan </font>
+
+92
+00:03:51,780 --> 00:03:55,840
+ klik buka kunci <font color="#E5E5E5">dan </font><font color="#CCCCCC">kemudian Anda bisa melihat </font>
+
+93
+00:03:55,840 --> 00:03:57,430
+ <font color="#E5E5E5">bahwa kami dapat mengambil data kami </font>
+
+94
+00:03:57,430 --> 00:03:59,860
+ kembali <font color="#E5E5E5">dan di sini Anda dapat melihat bahwa sekarang ini </font>
+
+95
+00:03:59,860 --> 00:04:02,860
+ kunci tidak terkunci <font color="#CCCCCC">jadi beginilah caranya </font>
+
+96
+00:04:02,860 --> 00:04:04,959
+ BitLocker berfungsi <font color="#CCCCCC">dan saya juga menunjukkannya kepada Anda </font>
+
+97
+00:04:04,959 --> 00:04:07,209
+ bahwa <font color="#CCCCCC">bagaimana kunci pemulihan terlihat seperti </font><font color="#E5E5E5">itu jika </font>
+
+98
+00:04:07,209 --> 00:04:09,100
+ <font color="#E5E5E5">Anda ingat, kami telah menyimpan ini </font>
+
+99
+00:04:09,100 --> 00:04:10,840
+ <font color="#E5E5E5">tombol pemulihan di desktop saya dan Anda </font><font color="#CCCCCC">bisa </font>
+
+100
+00:04:10,840 --> 00:04:13,630
+ lihat bahwa <font color="#E5E5E5">itu adalah file teks dan jika saya </font><font color="#CCCCCC">buka </font>
+
+101
+00:04:13,630 --> 00:04:16,358
+ <font color="#E5E5E5">kunci pemulihan ini jadi ini adalah bagaimana </font>
+
+102
+00:04:16,358 --> 00:04:18,640
+ kunci pemulihan tampak seperti di <font color="#E5E5E5">sekitar acak </font>
+
+103
+00:04:18,640 --> 00:04:24,550
+ nilai sehingga Anda dapat mengaktifkan BitLocker di 
+
+104
+00:04:24,550 --> 00:04:26,229
+ untuk melindungi <font color="#E5E5E5">data Anda </font><font color="#CCCCCC">dan dalam hal ini </font>
+
+105
+00:04:26,229 --> 00:04:27,580
+ <font color="#E5E5E5">video yang telah kami bahas </font>
+
+106
+00:04:27,580 --> 00:04:29,889
+ bahwa apa itu BitLocker <font color="#E5E5E5">dan bagaimana BitLocker </font>
+
+107
+00:04:29,889 --> 00:00:00,000
+ bekerja <font color="#CCCCCC">jadi terima kasih sudah </font><font color="#E5E5E5">menonton </font><font color="#CCCCCC">video ini </font>
+

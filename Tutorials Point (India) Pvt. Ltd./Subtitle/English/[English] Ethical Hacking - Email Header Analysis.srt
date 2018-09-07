@@ -1,0 +1,364 @@
+1
+00:00:00,089 --> 00:00:02,639
+<font color="#CCCCCC">hello everyone now let's talk about</font>
+
+2
+00:00:02,639 --> 00:00:05,609
+email header analysis<font color="#E5E5E5"> so as we all know</font>
+
+3
+00:00:05,609 --> 00:00:07,410
+that the email<font color="#E5E5E5"> stands for electronic</font>
+
+4
+00:00:07,410 --> 00:00:09,660
+<font color="#E5E5E5">mail and it's one of</font><font color="#CCCCCC"> the most popular</font>
+
+5
+00:00:09,660 --> 00:00:12,480
+medium used in order<font color="#E5E5E5"> to send our data or</font>
+
+6
+00:00:12,480 --> 00:00:15,330
+send our<font color="#CCCCCC"> message across</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> internet</font><font color="#E5E5E5"> but</font>
+
+7
+00:00:15,330 --> 00:00:18,150
+what does the email consists of so<font color="#E5E5E5"> email</font>
+
+8
+00:00:18,150 --> 00:00:20,310
+consists of three<font color="#CCCCCC"> things</font><font color="#E5E5E5"> the first</font><font color="#CCCCCC"> one</font>
+
+9
+00:00:20,310 --> 00:00:23,760
+is<font color="#E5E5E5"> envelope email body and email header</font>
+
+10
+00:00:23,760 --> 00:00:26,369
+<font color="#E5E5E5">so the email envelope actually contains</font>
+
+11
+00:00:26,369 --> 00:00:28,619
+some server configuration settings files
+
+12
+00:00:28,619 --> 00:00:30,810
+and data which<font color="#E5E5E5"> actually used for routing</font>
+
+13
+00:00:30,810 --> 00:00:33,540
+<font color="#E5E5E5">and</font><font color="#CCCCCC"> the email envelope can't be seen by</font>
+
+14
+00:00:33,540 --> 00:00:36,480
+the user<font color="#CCCCCC"> then the</font><font color="#E5E5E5"> next part of the</font><font color="#CCCCCC"> email</font>
+
+15
+00:00:36,480 --> 00:00:39,270
+which the<font color="#CCCCCC"> emails</font><font color="#E5E5E5"> ancestors body so the</font>
+
+16
+00:00:39,270 --> 00:00:41,700
+email body actually<font color="#E5E5E5"> consists our message</font>
+
+17
+00:00:41,700 --> 00:00:44,129
+<font color="#E5E5E5">which we see and then the next part of</font>
+
+18
+00:00:44,129 --> 00:00:46,649
+the<font color="#CCCCCC"> email is email header so email</font>
+
+19
+00:00:46,649 --> 00:00:48,420
+header contains interesting information
+
+20
+00:00:48,420 --> 00:00:50,789
+<font color="#E5E5E5">which one can use</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> find a good</font>
+
+21
+00:00:50,789 --> 00:00:52,469
+information<font color="#E5E5E5"> that from where the email</font>
+
+22
+00:00:52,469 --> 00:00:54,750
+came from and what's the IP of that
+
+23
+00:00:54,750 --> 00:00:57,719
+<font color="#E5E5E5">sender so the email header consists of a</font>
+
+24
+00:00:57,719 --> 00:01:02,010
+message ID<font color="#E5E5E5"> date</font><font color="#CCCCCC"> to from and user agent</font>
+
+25
+00:01:02,010 --> 00:01:05,129
+<font color="#CCCCCC">also and IP address of originated server</font>
+
+26
+00:01:05,129 --> 00:01:07,979
+or the<font color="#CCCCCC"> IP address of receiver so</font>
+
+27
+00:01:07,979 --> 00:01:10,320
+analyzing<font color="#E5E5E5"> the email header is important</font>
+
+28
+00:01:10,320 --> 00:01:12,330
+because through analyzing<font color="#E5E5E5"> email header</font>
+
+29
+00:01:12,330 --> 00:01:14,610
+<font color="#E5E5E5">we can come to know that from where the</font>
+
+30
+00:01:14,610 --> 00:01:16,500
+email came from and whether it came<font color="#CCCCCC"> from</font>
+
+31
+00:01:16,500 --> 00:01:18,509
+a legitimate resource and whether it's a
+
+32
+00:01:18,509 --> 00:01:20,640
+fake email<font color="#E5E5E5"> now let's see how we can</font>
+
+33
+00:01:20,640 --> 00:01:23,549
+<font color="#E5E5E5">analyze email by analyzing its header</font>
+
+34
+00:01:23,549 --> 00:01:26,670
+<font color="#CCCCCC">now let's analyze email header in order</font>
+
+35
+00:01:26,670 --> 00:01:29,490
+to find out the sender's IP address so
+
+36
+00:01:29,490 --> 00:01:31,049
+the first of all you<font color="#E5E5E5"> have</font><font color="#CCCCCC"> to do is you</font>
+
+37
+00:01:31,049 --> 00:01:33,780
+have<font color="#CCCCCC"> to open any email and here you can</font>
+
+38
+00:01:33,780 --> 00:01:36,240
+<font color="#E5E5E5">see that I have opened this emails</font><font color="#CCCCCC"> and</font>
+
+39
+00:01:36,240 --> 00:01:40,320
+this<font color="#E5E5E5"> email was sent by CloudFlare so</font>
+
+40
+00:01:40,320 --> 00:01:43,350
+just click over<font color="#CCCCCC"> here</font><font color="#E5E5E5"> and now click over</font>
+
+41
+00:01:43,350 --> 00:01:46,740
+here<font color="#E5E5E5"> show original and</font><font color="#CCCCCC"> here you will</font><font color="#E5E5E5"> see</font>
+
+42
+00:01:46,740 --> 00:01:49,470
+<font color="#CCCCCC">the email header</font><font color="#E5E5E5"> so the first thing we</font>
+
+43
+00:01:49,470 --> 00:01:51,360
+have to<font color="#CCCCCC"> do is we have to copy this email</font>
+
+44
+00:01:51,360 --> 00:01:53,369
+header<font color="#E5E5E5"> so once we got the him a letter</font>
+
+45
+00:01:53,369 --> 00:01:56,009
+<font color="#CCCCCC">then we can analyze it</font><font color="#E5E5E5"> so let's just</font>
+
+46
+00:01:56,009 --> 00:01:58,710
+<font color="#CCCCCC">start copying it from</font><font color="#E5E5E5"> here and we have</font>
+
+47
+00:01:58,710 --> 00:02:01,979
+to copy<font color="#E5E5E5"> it before the body starts and we</font>
+
+48
+00:02:01,979 --> 00:02:03,570
+have to copy it<font color="#E5E5E5"> here and here</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> can</font>
+
+49
+00:02:03,570 --> 00:02:05,640
+see that right<font color="#CCCCCC"> after</font><font color="#E5E5E5"> this email header</font>
+
+50
+00:02:05,640 --> 00:02:08,489
+<font color="#E5E5E5">our body starts so just copy this email</font>
+
+51
+00:02:08,489 --> 00:02:10,649
+header<font color="#E5E5E5"> and then we have to go here to</font>
+
+52
+00:02:10,649 --> 00:02:12,270
+this website that<font color="#E5E5E5"> is</font><font color="#CCCCCC"> what is my IP</font>
+
+53
+00:02:12,270 --> 00:02:13,860
+<font color="#CCCCCC">dot-com slash</font><font color="#E5E5E5"> email header</font>
+
+54
+00:02:13,860 --> 00:02:15,420
+<font color="#CCCCCC">lyza</font><font color="#E5E5E5"> so there are a</font><font color="#CCCCCC"> lot of other</font>
+
+55
+00:02:15,420 --> 00:02:17,280
+<font color="#CCCCCC">websites which provide the same</font>
+
+56
+00:02:17,280 --> 00:02:19,170
+<font color="#CCCCCC">functionality of analyzing email headers</font>
+
+57
+00:02:19,170 --> 00:02:23,160
+so example<font color="#E5E5E5"> of that websites are like</font><font color="#CCCCCC"> MX</font>
+
+58
+00:02:23,160 --> 00:02:26,670
+<font color="#E5E5E5">toolbox</font><font color="#CCCCCC"> com you get signal com so what</font>
+
+59
+00:02:26,670 --> 00:02:29,430
+we have to do is just paste<font color="#E5E5E5"> the</font>
+
+60
+00:02:29,430 --> 00:02:33,450
+simulator here<font color="#CCCCCC"> click on analyze and here</font>
+
+61
+00:02:33,450 --> 00:02:36,450
+you<font color="#E5E5E5"> will see the sender's IP</font><font color="#CCCCCC"> information</font>
+
+62
+00:02:36,450 --> 00:02:38,790
+<font color="#E5E5E5">so here you can see the email source IPS</font>
+
+63
+00:02:38,790 --> 00:02:41,490
+this so this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> IP</font><font color="#CCCCCC"> address</font><font color="#E5E5E5"> of the</font>
+
+64
+00:02:41,490 --> 00:02:44,280
+sender<font color="#E5E5E5"> and</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> host name is also</font><font color="#CCCCCC"> same</font>
+
+65
+00:02:44,280 --> 00:02:48,030
+<font color="#E5E5E5">and here you can see the email source IP</font>
+
+66
+00:02:48,030 --> 00:02:51,030
+lookup info that this IP is of United
+
+67
+00:02:51,030 --> 00:02:53,130
+<font color="#CCCCCC">States the countries United States and</font>
+
+68
+00:02:53,130 --> 00:02:55,709
+city is<font color="#CCCCCC"> Hillsborough</font><font color="#E5E5E5"> and here you can</font>
+
+69
+00:02:55,709 --> 00:02:57,540
+<font color="#CCCCCC">find out the longitude latitude</font><font color="#E5E5E5"> along</font>
+
+70
+00:02:57,540 --> 00:02:59,580
+with the area code and the ISP
+
+71
+00:02:59,580 --> 00:03:00,900
+information also<font color="#E5E5E5"> along</font><font color="#CCCCCC"> with the</font>
+
+72
+00:03:00,900 --> 00:03:03,120
+organization name so in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to just</font>
+
+73
+00:03:03,120 --> 00:03:05,640
+verify we can just go here to<font color="#E5E5E5"> what is my</font>
+
+74
+00:03:05,640 --> 00:03:07,920
+<font color="#CCCCCC">IP address comm and we can copy the</font>
+
+75
+00:03:07,920 --> 00:03:10,739
+sender's IP address from here and let's
+
+76
+00:03:10,739 --> 00:03:12,600
+go here<font color="#E5E5E5"> and</font><font color="#CCCCCC"> paste the IP address here in</font>
+
+77
+00:03:12,600 --> 00:03:20,340
+the<font color="#E5E5E5"> search bar</font><font color="#CCCCCC"> click on search</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> here</font>
+
+78
+00:03:20,340 --> 00:03:23,040
+you<font color="#E5E5E5"> will see the list of information</font><font color="#CCCCCC"> or</font>
+
+79
+00:03:23,040 --> 00:03:26,730
+the list of details of this IP and if I
+
+80
+00:03:26,730 --> 00:03:29,070
+scroll down<font color="#E5E5E5"> you</font><font color="#CCCCCC"> will found</font><font color="#E5E5E5"> the same</font>
+
+81
+00:03:29,070 --> 00:03:31,709
+information<font color="#CCCCCC"> the host name along with ISP</font>
+
+82
+00:03:31,709 --> 00:03:34,590
+<font color="#E5E5E5">CloudFlare and</font><font color="#CCCCCC"> first scroll down a</font>
+
+83
+00:03:34,590 --> 00:03:36,209
+<font color="#CCCCCC">little</font><font color="#E5E5E5"> bit more you will see</font><font color="#CCCCCC"> here</font>
+
+84
+00:03:36,209 --> 00:03:40,739
+continent country<font color="#E5E5E5"> state city along</font><font color="#CCCCCC"> with</font>
+
+85
+00:03:40,739 --> 00:03:44,580
+<font color="#E5E5E5">the longitude and</font><font color="#CCCCCC"> latitude</font><font color="#E5E5E5"> so this is</font>
+
+86
+00:03:44,580 --> 00:03:46,530
+how we can<font color="#E5E5E5"> analyze email header in order</font>
+
+87
+00:03:46,530 --> 00:03:50,910
+to find out the IP address of sender so
+
+88
+00:03:50,910 --> 00:03:52,739
+in this<font color="#E5E5E5"> video we have covered that what</font>
+
+89
+00:03:52,739 --> 00:03:54,330
+is the importance of analyzing email
+
+90
+00:03:54,330 --> 00:03:56,190
+header<font color="#E5E5E5"> and how we can analyze him</font><font color="#CCCCCC"> al</font>
+
+91
+00:03:56,190 --> 00:00:00,000
+header thanks for<font color="#E5E5E5"> watching this video</font>
+

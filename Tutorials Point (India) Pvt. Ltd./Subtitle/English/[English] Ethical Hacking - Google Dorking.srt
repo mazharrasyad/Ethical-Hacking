@@ -1,0 +1,716 @@
+1
+00:00:00,089 --> 00:00:02,220
+hello everyone in<font color="#CCCCCC"> this video we'll talk</font>
+
+2
+00:00:02,220 --> 00:00:04,770
+<font color="#CCCCCC">about Google Docs so all</font><font color="#E5E5E5"> of you might</font>
+
+3
+00:00:04,770 --> 00:00:05,879
+familiar with<font color="#E5E5E5"> the Google search engine</font>
+
+4
+00:00:05,879 --> 00:00:08,519
+<font color="#CCCCCC">that how Google search engine works</font><font color="#E5E5E5"> but</font>
+
+5
+00:00:08,519 --> 00:00:10,260
+have<font color="#CCCCCC"> never</font><font color="#E5E5E5"> been thought that what else</font>
+
+6
+00:00:10,260 --> 00:00:13,200
+we can search by using Google<font color="#E5E5E5"> so just</font>
+
+7
+00:00:13,200 --> 00:00:15,269
+for example<font color="#E5E5E5"> let me</font><font color="#CCCCCC"> ask you one question</font>
+
+8
+00:00:15,269 --> 00:00:17,940
+<font color="#E5E5E5">that if you want to find out all the</font>
+
+9
+00:00:17,940 --> 00:00:20,310
+admin pages of all the<font color="#E5E5E5"> websites which</font>
+
+10
+00:00:20,310 --> 00:00:21,330
+are present inside<font color="#CCCCCC"> of</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> Google</font>
+
+11
+00:00:21,330 --> 00:00:23,880
+database<font color="#CCCCCC"> do you know what the curious or</font>
+
+12
+00:00:23,880 --> 00:00:25,550
+what you will<font color="#E5E5E5"> type in Google search bar</font>
+
+13
+00:00:25,550 --> 00:00:28,710
+<font color="#E5E5E5">so another example is so what if if we</font>
+
+14
+00:00:28,710 --> 00:00:31,349
+want<font color="#E5E5E5"> to find all the public IP webcams</font>
+
+15
+00:00:31,349 --> 00:00:34,050
+<font color="#E5E5E5">in Google or even if you want to find</font>
+
+16
+00:00:34,050 --> 00:00:36,750
+out the<font color="#E5E5E5"> MySQL database passwords of all</font>
+
+17
+00:00:36,750 --> 00:00:39,000
+the<font color="#CCCCCC"> websites by using Google do you know</font>
+
+18
+00:00:39,000 --> 00:00:40,500
+what you will type in in the Google
+
+19
+00:00:40,500 --> 00:00:43,770
+search bar so our answer is Google Docs
+
+20
+00:00:43,770 --> 00:00:45,600
+<font color="#CCCCCC">now let's see what our Google Docs</font>
+
+21
+00:00:45,600 --> 00:00:48,059
+<font color="#E5E5E5">so Google Docs are nothing but just some</font>
+
+22
+00:00:48,059 --> 00:00:50,309
+special keywords or a special search
+
+23
+00:00:50,309 --> 00:00:52,860
+strings which we can use<font color="#E5E5E5"> in order</font><font color="#CCCCCC"> to get</font>
+
+24
+00:00:52,860 --> 00:00:54,780
+the desired<font color="#CCCCCC"> output from the Google</font>
+
+25
+00:00:54,780 --> 00:00:57,059
+database<font color="#E5E5E5"> so we can use</font><font color="#CCCCCC"> Google Docs in</font>
+
+26
+00:00:57,059 --> 00:00:59,460
+order to fetch interesting information
+
+27
+00:00:59,460 --> 00:01:01,739
+from Google<font color="#CCCCCC"> so there is one</font><font color="#E5E5E5"> website coil</font>
+
+28
+00:01:01,739 --> 00:01:04,260
+as exploit DB<font color="#CCCCCC"> com so this website</font>
+
+29
+00:01:04,260 --> 00:01:06,960
+<font color="#CCCCCC">contains a database</font><font color="#E5E5E5"> of called as Google</font>
+
+30
+00:01:06,960 --> 00:01:08,820
+hacking database so in<font color="#E5E5E5"> this</font><font color="#CCCCCC"> Google</font>
+
+31
+00:01:08,820 --> 00:01:10,470
+<font color="#CCCCCC">hacking database there is a collection</font>
+
+32
+00:01:10,470 --> 00:01:12,750
+of Google Docs<font color="#CCCCCC"> which we can use in order</font>
+
+33
+00:01:12,750 --> 00:01:14,490
+to<font color="#E5E5E5"> get some interesting</font><font color="#CCCCCC"> information from</font>
+
+34
+00:01:14,490 --> 00:01:16,470
+<font color="#CCCCCC">Google and all the Google Docs which are</font>
+
+35
+00:01:16,470 --> 00:01:18,119
+present<font color="#CCCCCC"> inside this Google hacking</font>
+
+36
+00:01:18,119 --> 00:01:20,450
+database are founded by various security
+
+37
+00:01:20,450 --> 00:01:22,890
+researchers now let's see how we can<font color="#CCCCCC"> use</font>
+
+38
+00:01:22,890 --> 00:01:24,360
+<font color="#CCCCCC">Google Docs in order to get some</font>
+
+39
+00:01:24,360 --> 00:01:27,240
+interesting<font color="#CCCCCC"> information from</font><font color="#E5E5E5"> Google now</font>
+
+40
+00:01:27,240 --> 00:01:28,979
+let's see how we can extract some useful
+
+41
+00:01:28,979 --> 00:01:31,530
+<font color="#CCCCCC">information from Google by passing</font>
+
+42
+00:01:31,530 --> 00:01:34,680
+malicious links into it<font color="#CCCCCC"> called as</font><font color="#E5E5E5"> Google</font>
+
+43
+00:01:34,680 --> 00:01:37,799
+<font color="#CCCCCC">Doc strings</font><font color="#E5E5E5"> well the Google</font><font color="#CCCCCC"> Sports</font>
+
+44
+00:01:37,799 --> 00:01:40,350
+various parameters or operators which we
+
+45
+00:01:40,350 --> 00:01:42,590
+can give in<font color="#E5E5E5"> order to find some</font>
+
+46
+00:01:42,590 --> 00:01:45,090
+<font color="#E5E5E5">interesting information so the first</font>
+
+47
+00:01:45,090 --> 00:01:47,700
+parameter we<font color="#CCCCCC"> can give is called as site</font>
+
+48
+00:01:47,700 --> 00:01:50,549
+<font color="#E5E5E5">so site parameters will list out a</font>
+
+49
+00:01:50,549 --> 00:01:52,649
+<font color="#CCCCCC">particular information of a particular</font>
+
+50
+00:01:52,649 --> 00:01:55,020
+website<font color="#E5E5E5"> only so just for</font><font color="#CCCCCC"> example I have</font>
+
+51
+00:01:55,020 --> 00:01:57,630
+written here site<font color="#E5E5E5"> then colon so if I</font>
+
+52
+00:01:57,630 --> 00:01:59,909
+<font color="#E5E5E5">just write here any website name like</font>
+
+53
+00:01:59,909 --> 00:02:06,780
+tutorialspoint.com<font color="#E5E5E5"> hit enter and here we</font>
+
+54
+00:02:06,780 --> 00:02:09,500
+will<font color="#CCCCCC"> see that each and every link of</font>
+
+55
+00:02:09,500 --> 00:02:13,260
+this<font color="#CCCCCC"> page is of tutorialspoint.com</font>
+
+56
+00:02:13,260 --> 00:02:15,060
+so this is the one operator or one
+
+57
+00:02:15,060 --> 00:02:17,340
+<font color="#CCCCCC">parameter which we can use</font><font color="#E5E5E5"> in order to</font>
+
+58
+00:02:17,340 --> 00:02:19,860
+<font color="#E5E5E5">find out a particular information of a</font>
+
+59
+00:02:19,860 --> 00:02:22,200
+<font color="#E5E5E5">particular website</font><font color="#CCCCCC"> by using</font><font color="#E5E5E5"> this site</font>
+
+60
+00:02:22,200 --> 00:02:25,290
+operator<font color="#E5E5E5"> so the next operator is file</font>
+
+61
+00:02:25,290 --> 00:02:28,650
+type<font color="#E5E5E5"> so we can also use this parameter</font>
+
+62
+00:02:28,650 --> 00:02:31,530
+called as file type<font color="#E5E5E5"> in order to find out</font>
+
+63
+00:02:31,530 --> 00:02:33,560
+a particular files present<font color="#E5E5E5"> in that</font>
+
+64
+00:02:33,560 --> 00:02:36,660
+<font color="#CCCCCC">website</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> if I just write here</font><font color="#E5E5E5"> file</font>
+
+65
+00:02:36,660 --> 00:02:38,819
+type and you can<font color="#CCCCCC"> write down any file</font>
+
+66
+00:02:38,819 --> 00:02:41,730
+type<font color="#CCCCCC"> like dog PDF XLS</font><font color="#E5E5E5"> so I have written</font>
+
+67
+00:02:41,730 --> 00:02:44,549
+here PDF and if I hit enter<font color="#CCCCCC"> here you</font>
+
+68
+00:02:44,549 --> 00:02:46,950
+<font color="#CCCCCC">will see</font><font color="#E5E5E5"> that it has listed out</font><font color="#CCCCCC"> all the</font>
+
+69
+00:02:46,950 --> 00:02:49,920
+<font color="#CCCCCC">URLs which contains PDF files and</font><font color="#E5E5E5"> here</font>
+
+70
+00:02:49,920 --> 00:02:52,980
+you can see one of<font color="#E5E5E5"> them so we</font><font color="#CCCCCC"> can also</font>
+
+71
+00:02:52,980 --> 00:02:55,319
+combine<font color="#CCCCCC"> two three parameters</font><font color="#E5E5E5"> to make our</font>
+
+72
+00:02:55,319 --> 00:02:58,140
+custom string which can be used<font color="#E5E5E5"> in</font><font color="#CCCCCC"> order</font>
+
+73
+00:02:58,140 --> 00:03:00,180
+to<font color="#E5E5E5"> find out a</font><font color="#CCCCCC"> particular data the next</font>
+
+74
+00:03:00,180 --> 00:03:02,849
+<font color="#E5E5E5">parameter we can use is called</font><font color="#CCCCCC"> as in URL</font>
+
+75
+00:03:02,849 --> 00:03:06,150
+so in URL parameters return<font color="#E5E5E5"> a particular</font>
+
+76
+00:03:06,150 --> 00:03:08,790
+string which is<font color="#E5E5E5"> present in that URL so</font>
+
+77
+00:03:08,790 --> 00:03:12,269
+<font color="#CCCCCC">let me just erase all this thing so if I</font>
+
+78
+00:03:12,269 --> 00:03:15,030
+just<font color="#E5E5E5"> write here in URL then here we</font><font color="#CCCCCC"> can</font>
+
+79
+00:03:15,030 --> 00:03:18,329
+<font color="#CCCCCC">specify a string or we can specify a</font>
+
+80
+00:03:18,329 --> 00:03:20,790
+particular<font color="#E5E5E5"> path which will be present</font><font color="#CCCCCC"> in</font>
+
+81
+00:03:20,790 --> 00:03:23,489
+<font color="#E5E5E5">all the URLs which Google will return so</font>
+
+82
+00:03:23,489 --> 00:03:25,169
+just for example you want<font color="#E5E5E5"> to find login</font>
+
+83
+00:03:25,169 --> 00:03:27,419
+pages so<font color="#E5E5E5"> you can just write</font><font color="#CCCCCC"> down</font><font color="#E5E5E5"> here in</font>
+
+84
+00:03:27,419 --> 00:03:33,810
+<font color="#E5E5E5">URL admin login dot PHP</font><font color="#CCCCCC"> and here you</font>
+
+85
+00:03:33,810 --> 00:03:35,459
+will<font color="#E5E5E5"> see</font><font color="#CCCCCC"> that the</font><font color="#E5E5E5"> Google will list out</font>
+
+86
+00:03:35,459 --> 00:03:39,870
+all<font color="#E5E5E5"> the links</font><font color="#CCCCCC"> of admin pages of a</font>
+
+87
+00:03:39,870 --> 00:03:42,269
+different<font color="#CCCCCC"> websites</font><font color="#E5E5E5"> so you can see all of</font>
+
+88
+00:03:42,269 --> 00:03:45,450
+them<font color="#E5E5E5"> here</font><font color="#CCCCCC"> I am opening these pages</font><font color="#E5E5E5"> and</font>
+
+89
+00:03:45,450 --> 00:03:48,720
+the next tab you can see here and each
+
+90
+00:03:48,720 --> 00:03:53,040
+<font color="#E5E5E5">of it is admin control panel so this is</font>
+
+91
+00:03:53,040 --> 00:03:55,680
+how we can use<font color="#CCCCCC"> in URL parameter</font><font color="#E5E5E5"> so the</font>
+
+92
+00:03:55,680 --> 00:03:57,629
+<font color="#E5E5E5">next parameter we</font><font color="#CCCCCC"> can use is called as</font>
+
+93
+00:03:57,629 --> 00:04:00,629
+<font color="#E5E5E5">in text so in text is used to find out</font>
+
+94
+00:04:00,629 --> 00:04:03,780
+text in a particular<font color="#CCCCCC"> website</font><font color="#E5E5E5"> which means</font>
+
+95
+00:04:03,780 --> 00:04:08,160
+<font color="#CCCCCC">if I just</font><font color="#E5E5E5"> write here in text and if I</font>
+
+96
+00:04:08,160 --> 00:04:11,340
+just<font color="#CCCCCC"> write here hacking then it will</font>
+
+97
+00:04:11,340 --> 00:04:13,410
+list out<font color="#E5E5E5"> all the</font><font color="#CCCCCC"> websites which contains</font>
+
+98
+00:04:13,410 --> 00:04:17,130
+<font color="#E5E5E5">this word in their body so you can see</font>
+
+99
+00:04:17,130 --> 00:04:19,289
+here each<font color="#E5E5E5"> and every website contains</font>
+
+100
+00:04:19,289 --> 00:04:22,260
+this<font color="#E5E5E5"> word in their body so this is how</font>
+
+101
+00:04:22,260 --> 00:04:25,979
+we can<font color="#E5E5E5"> use in text parameter now let me</font>
+
+102
+00:04:25,979 --> 00:04:26,940
+take<font color="#E5E5E5"> you</font>
+
+103
+00:04:26,940 --> 00:04:29,010
+<font color="#E5E5E5">to the database of</font><font color="#CCCCCC"> Google hacking</font>
+
+104
+00:04:29,010 --> 00:04:30,810
+database which is<font color="#CCCCCC"> men</font><font color="#E5E5E5"> st. maintained by</font>
+
+105
+00:04:30,810 --> 00:04:33,210
+exploit DB so<font color="#E5E5E5"> exploit DV dot-com</font>
+
+106
+00:04:33,210 --> 00:04:35,070
+maintains a<font color="#CCCCCC"> google hacking database</font>
+
+107
+00:04:35,070 --> 00:04:38,070
+which<font color="#E5E5E5"> means all the google hacking dots</font>
+
+108
+00:04:38,070 --> 00:04:40,920
+is<font color="#CCCCCC"> actually stored here in</font><font color="#E5E5E5"> the database</font>
+
+109
+00:04:40,920 --> 00:04:43,140
+of<font color="#CCCCCC"> exploitable com and here you</font><font color="#E5E5E5"> can see</font>
+
+110
+00:04:43,140 --> 00:04:45,120
+the<font color="#CCCCCC"> Google</font><font color="#E5E5E5"> hacking database and if I</font>
+
+111
+00:04:45,120 --> 00:04:47,220
+scroll<font color="#CCCCCC"> down</font><font color="#E5E5E5"> you can see here that</font><font color="#CCCCCC"> all</font>
+
+112
+00:04:47,220 --> 00:04:48,720
+<font color="#CCCCCC">the</font><font color="#E5E5E5"> Google</font><font color="#CCCCCC"> Docs strings are actually</font>
+
+113
+00:04:48,720 --> 00:04:50,340
+divided into different<font color="#CCCCCC"> categories</font><font color="#E5E5E5"> like</font>
+
+114
+00:04:50,340 --> 00:04:52,620
+<font color="#CCCCCC">the strings</font><font color="#E5E5E5"> for web server detection</font>
+
+115
+00:04:52,620 --> 00:04:54,870
+strings for file containing passwords
+
+116
+00:04:54,870 --> 00:04:57,000
+then strings for error<font color="#E5E5E5"> messages strings</font>
+
+117
+00:04:57,000 --> 00:04:59,070
+for burnable files so if I click over
+
+118
+00:04:59,070 --> 00:05:02,340
+<font color="#CCCCCC">here files containing password</font><font color="#E5E5E5"> then here</font>
+
+119
+00:05:02,340 --> 00:05:04,230
+you will see a list of<font color="#CCCCCC"> Google Docs</font>
+
+120
+00:05:04,230 --> 00:05:06,120
+strings which we can use in<font color="#E5E5E5"> order</font><font color="#CCCCCC"> to</font>
+
+121
+00:05:06,120 --> 00:05:07,640
+find out the files which contains
+
+122
+00:05:07,640 --> 00:05:10,350
+password and here<font color="#E5E5E5"> you can see all the</font>
+
+123
+00:05:10,350 --> 00:05:12,480
+<font color="#E5E5E5">Google</font><font color="#CCCCCC"> Docs strings</font><font color="#E5E5E5"> so all these Google</font>
+
+124
+00:05:12,480 --> 00:05:14,520
+Docs things are<font color="#E5E5E5"> actually founded by</font>
+
+125
+00:05:14,520 --> 00:05:16,590
+various<font color="#CCCCCC"> cyber security researchers and</font>
+
+126
+00:05:16,590 --> 00:05:18,540
+once they found the string then they
+
+127
+00:05:18,540 --> 00:05:20,490
+post it inside this<font color="#CCCCCC"> google hacking</font>
+
+128
+00:05:20,490 --> 00:05:23,040
+database so just for example let me
+
+129
+00:05:23,040 --> 00:05:26,070
+<font color="#E5E5E5">select this one the first</font><font color="#CCCCCC"> google docs</font>
+
+130
+00:05:26,070 --> 00:05:28,260
+string and here you can see the Google
+
+131
+00:05:28,260 --> 00:05:30,390
+<font color="#CCCCCC">Doc description so here is the</font><font color="#E5E5E5"> Google</font>
+
+132
+00:05:30,390 --> 00:05:32,820
+<font color="#CCCCCC">Doc string and what it does</font><font color="#E5E5E5"> is actually</font>
+
+133
+00:05:32,820 --> 00:05:37,320
+<font color="#E5E5E5">find out the password of</font><font color="#CCCCCC"> MySQL database</font>
+
+134
+00:05:37,320 --> 00:05:39,900
+<font color="#E5E5E5">so let's do one thing let</font><font color="#CCCCCC"> me copy this</font>
+
+135
+00:05:39,900 --> 00:05:43,290
+<font color="#CCCCCC">Google Doc string</font><font color="#E5E5E5"> and let's open</font>
+
+136
+00:05:43,290 --> 00:05:46,440
+google.com here and then let's<font color="#E5E5E5"> just</font>
+
+137
+00:05:46,440 --> 00:05:50,520
+paste<font color="#E5E5E5"> this string</font><font color="#CCCCCC"> and let's see what we</font>
+
+138
+00:05:50,520 --> 00:05:52,669
+got
+
+139
+00:05:53,030 --> 00:05:56,010
+so you can see here<font color="#E5E5E5"> that it has listed</font>
+
+140
+00:05:56,010 --> 00:06:00,230
+out<font color="#E5E5E5"> a various websites which contains</font>
+
+141
+00:06:00,230 --> 00:06:06,000
+MySQL database password and if I open
+
+142
+00:06:06,000 --> 00:06:09,210
+<font color="#CCCCCC">this tab</font><font color="#E5E5E5"> here you can see the</font><font color="#CCCCCC"> password</font>
+
+143
+00:06:09,210 --> 00:06:10,800
+so<font color="#CCCCCC"> that the</font><font color="#E5E5E5"> database name</font><font color="#CCCCCC"> is invisible</font>
+
+144
+00:06:10,800 --> 00:06:13,680
+<font color="#E5E5E5">so</font><font color="#CCCCCC"> username is also invisible</font><font color="#E5E5E5"> and DB one</font>
+
+145
+00:06:13,680 --> 00:06:16,200
+password<font color="#CCCCCC"> is visible so you can see here</font>
+
+146
+00:06:16,200 --> 00:06:18,840
+<font color="#E5E5E5">that we can</font><font color="#CCCCCC"> also got here</font><font color="#E5E5E5"> authentication</font>
+
+147
+00:06:18,840 --> 00:06:22,169
+<font color="#CCCCCC">keys</font><font color="#E5E5E5"> secure</font><font color="#CCCCCC"> key so similarly</font><font color="#E5E5E5"> you can see</font>
+
+148
+00:06:22,169 --> 00:06:24,780
+here<font color="#E5E5E5"> the database user database password</font>
+
+149
+00:06:24,780 --> 00:06:26,669
+and you can<font color="#CCCCCC"> check here</font><font color="#E5E5E5"> that the auth</font>
+
+150
+00:06:26,669 --> 00:06:29,220
+user is also<font color="#E5E5E5"> present the auth key and</font>
+
+151
+00:06:29,220 --> 00:06:32,280
+various access tokens so this is how
+
+152
+00:06:32,280 --> 00:06:35,190
+Google<font color="#E5E5E5"> Doc works</font><font color="#CCCCCC"> now let's try some more</font>
+
+153
+00:06:35,190 --> 00:06:37,970
+<font color="#E5E5E5">examples</font>
+
+154
+00:06:42,389 --> 00:06:44,560
+so if you want to<font color="#E5E5E5"> protect your website</font>
+
+155
+00:06:44,560 --> 00:06:46,659
+<font color="#CCCCCC">from Google docking then make sure that</font>
+
+156
+00:06:46,659 --> 00:06:48,460
+you disallow important directories or<font color="#E5E5E5"> a</font>
+
+157
+00:06:48,460 --> 00:06:50,379
+files from Google<font color="#E5E5E5"> by adding them in</font>
+
+158
+00:06:50,379 --> 00:06:54,610
+<font color="#E5E5E5">robots or</font><font color="#CCCCCC"> txt file on your server</font><font color="#E5E5E5"> so</font>
+
+159
+00:06:54,610 --> 00:06:56,620
+what what<font color="#E5E5E5"> else we can do is we can even</font>
+
+160
+00:06:56,620 --> 00:06:58,840
+find<font color="#E5E5E5"> out various online devices let's</font>
+
+161
+00:06:58,840 --> 00:07:00,580
+check<font color="#E5E5E5"> that what are the</font><font color="#CCCCCC"> google doc</font>
+
+162
+00:07:00,580 --> 00:07:03,699
+<font color="#E5E5E5">strings available for that so here you</font>
+
+163
+00:07:03,699 --> 00:07:10,779
+can see<font color="#CCCCCC"> google doc strings so let's just</font>
+
+164
+00:07:10,779 --> 00:07:19,840
+check<font color="#CCCCCC"> here webcam so here is that Google</font>
+
+165
+00:07:19,840 --> 00:07:25,270
+<font color="#CCCCCC">Doc strings</font><font color="#E5E5E5"> so what else you can do is</font>
+
+166
+00:07:25,270 --> 00:07:27,009
+you can<font color="#E5E5E5"> even combine this Google Doc</font>
+
+167
+00:07:27,009 --> 00:07:29,800
+string with that<font color="#CCCCCC"> site parameter in</font><font color="#E5E5E5"> order</font>
+
+168
+00:07:29,800 --> 00:07:32,620
+to find that<font color="#CCCCCC"> whether that</font><font color="#E5E5E5"> site contain</font>
+
+169
+00:07:32,620 --> 00:07:37,779
+this<font color="#CCCCCC"> Google Doc</font><font color="#E5E5E5"> string or not and here</font>
+
+170
+00:07:37,779 --> 00:07:39,310
+you<font color="#E5E5E5"> can see that it has listed out all</font>
+
+171
+00:07:39,310 --> 00:07:46,479
+<font color="#E5E5E5">the webcams of various countries so you</font>
+
+172
+00:07:46,479 --> 00:07:51,939
+<font color="#E5E5E5">can see here</font><font color="#CCCCCC"> a</font><font color="#E5E5E5"> webcam</font><font color="#CCCCCC"> and here you can</font>
+
+173
+00:07:51,939 --> 00:07:55,149
+see the same webcam and it's saying<font color="#CCCCCC"> that</font>
+
+174
+00:07:55,149 --> 00:07:58,300
+<font color="#E5E5E5">contacting IP camera so this is how we</font>
+
+175
+00:07:58,300 --> 00:08:00,279
+can<font color="#E5E5E5"> use</font><font color="#CCCCCC"> Google</font><font color="#E5E5E5"> Doc in order to find out</font>
+
+176
+00:08:00,279 --> 00:08:03,849
+<font color="#CCCCCC">interesting information so in</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> video</font>
+
+177
+00:08:03,849 --> 00:08:05,469
+we<font color="#E5E5E5"> have covered that what is</font><font color="#CCCCCC"> google doc</font>
+
+178
+00:08:05,469 --> 00:08:07,779
+strings<font color="#CCCCCC"> and how we can use them so</font>
+
+179
+00:08:07,779 --> 00:00:00,000
+thanks for<font color="#E5E5E5"> watching</font><font color="#CCCCCC"> this video</font>
+

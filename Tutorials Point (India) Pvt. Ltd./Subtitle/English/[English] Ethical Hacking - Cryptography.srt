@@ -1,0 +1,1164 @@
+1
+00:00:00,060 --> 00:00:02,370
+hello everyone in<font color="#CCCCCC"> this video we will</font>
+
+2
+00:00:02,370 --> 00:00:04,319
+talk<font color="#CCCCCC"> about one of the</font><font color="#E5E5E5"> most important</font>
+
+3
+00:00:04,319 --> 00:00:06,770
+term used in<font color="#CCCCCC"> cyber security called as</font>
+
+4
+00:00:06,770 --> 00:00:09,330
+<font color="#E5E5E5">cryptography so now</font><font color="#CCCCCC"> let's talk</font><font color="#E5E5E5"> about it</font>
+
+5
+00:00:09,330 --> 00:00:11,940
+<font color="#E5E5E5">so what is cryptography so cryptography</font>
+
+6
+00:00:11,940 --> 00:00:15,089
+is actually an art of hiding our data in
+
+7
+00:00:15,089 --> 00:00:17,609
+order<font color="#CCCCCC"> to protect</font><font color="#E5E5E5"> that data from third</font>
+
+8
+00:00:17,609 --> 00:00:19,680
+party people<font color="#CCCCCC"> so we</font><font color="#E5E5E5"> can even use</font>
+
+9
+00:00:19,680 --> 00:00:21,900
+cryptography<font color="#CCCCCC"> to convert our normal text</font>
+
+10
+00:00:21,900 --> 00:00:24,660
+into an unreadable form<font color="#E5E5E5"> so</font><font color="#CCCCCC"> that it can</font>
+
+11
+00:00:24,660 --> 00:00:26,849
+be<font color="#CCCCCC"> remained safe from the third</font><font color="#E5E5E5"> party</font>
+
+12
+00:00:26,849 --> 00:00:29,189
+people<font color="#CCCCCC"> so the main three principles</font><font color="#E5E5E5"> of</font>
+
+13
+00:00:29,189 --> 00:00:31,759
+cryptography<font color="#E5E5E5"> is confidentiality</font>
+
+14
+00:00:31,759 --> 00:00:34,350
+<font color="#E5E5E5">availability and integrity</font>
+
+15
+00:00:34,350 --> 00:00:37,020
+so confidentiality<font color="#E5E5E5"> ensures that our data</font>
+
+16
+00:00:37,020 --> 00:00:39,600
+<font color="#E5E5E5">is secure and integrity ensure us that</font>
+
+17
+00:00:39,600 --> 00:00:42,239
+data<font color="#E5E5E5"> our data is not being</font><font color="#CCCCCC"> tampered or</font>
+
+18
+00:00:42,239 --> 00:00:44,190
+altered by another third party people
+
+19
+00:00:44,190 --> 00:00:47,399
+<font color="#CCCCCC">and availability</font><font color="#E5E5E5"> ensure us that our data</font>
+
+20
+00:00:47,399 --> 00:00:50,579
+is available<font color="#E5E5E5"> whenever we need now let's</font>
+
+21
+00:00:50,579 --> 00:00:52,500
+talk about<font color="#E5E5E5"> one of the most popularly</font>
+
+22
+00:00:52,500 --> 00:00:54,600
+used cryptography technique<font color="#E5E5E5"> in order</font><font color="#CCCCCC"> to</font>
+
+23
+00:00:54,600 --> 00:00:56,670
+protect<font color="#E5E5E5"> our data and that technique is</font>
+
+24
+00:00:56,670 --> 00:00:59,070
+called as encryption<font color="#E5E5E5"> so what is</font>
+
+25
+00:00:59,070 --> 00:01:01,109
+encryption<font color="#E5E5E5"> so encryption is actually a</font>
+
+26
+00:01:01,109 --> 00:01:04,049
+<font color="#CCCCCC">process of</font><font color="#E5E5E5"> converting our plaintext into</font>
+
+27
+00:01:04,049 --> 00:01:06,900
+n ciphertext which<font color="#CCCCCC"> means here you can</font>
+
+28
+00:01:06,900 --> 00:01:09,200
+see that here is<font color="#E5E5E5"> our plaintext hello and</font>
+
+29
+00:01:09,200 --> 00:01:12,210
+after the encryption<font color="#E5E5E5"> our text becomes</font>
+
+30
+00:01:12,210 --> 00:01:15,060
+this<font color="#E5E5E5"> that is an unreadable form and this</font>
+
+31
+00:01:15,060 --> 00:01:17,460
+<font color="#CCCCCC">is</font><font color="#E5E5E5"> called as ciphertext so you can see</font>
+
+32
+00:01:17,460 --> 00:01:19,290
+here<font color="#E5E5E5"> encryption is a process of</font>
+
+33
+00:01:19,290 --> 00:01:23,100
+<font color="#E5E5E5">converting our data into a ciphertext</font><font color="#CCCCCC"> so</font>
+
+34
+00:01:23,100 --> 00:01:25,460
+that integrity of that data<font color="#E5E5E5"> can</font><font color="#CCCCCC"> be</font>
+
+35
+00:01:25,460 --> 00:01:28,320
+maintained and the<font color="#E5E5E5"> encryption is the</font>
+
+36
+00:01:28,320 --> 00:01:31,320
+path of a cryptography technique now
+
+37
+00:01:31,320 --> 00:01:33,360
+<font color="#E5E5E5">let's talk about different types of</font>
+
+38
+00:01:33,360 --> 00:01:34,920
+cryptography<font color="#E5E5E5"> techniques so there are</font>
+
+39
+00:01:34,920 --> 00:01:37,470
+three<font color="#E5E5E5"> types of cryptography security</font>
+
+40
+00:01:37,470 --> 00:01:39,659
+cryptography<font color="#E5E5E5"> public key cryptography and</font>
+
+41
+00:01:39,659 --> 00:01:41,670
+<font color="#E5E5E5">hash functions now let's talk</font><font color="#CCCCCC"> about each</font>
+
+42
+00:01:41,670 --> 00:01:44,040
+of them in detail<font color="#E5E5E5"> so first of all we</font>
+
+43
+00:01:44,040 --> 00:01:45,450
+will talk<font color="#CCCCCC"> about secret key cryptography</font>
+
+44
+00:01:45,450 --> 00:01:47,970
+<font color="#E5E5E5">so secret key cryptography is also</font>
+
+45
+00:01:47,970 --> 00:01:50,490
+called as symmetric key<font color="#E5E5E5"> encryption so</font>
+
+46
+00:01:50,490 --> 00:01:52,649
+what it<font color="#CCCCCC"> means it means</font><font color="#E5E5E5"> while encrypting</font>
+
+47
+00:01:52,649 --> 00:01:55,439
+the data<font color="#E5E5E5"> the key which we will</font><font color="#CCCCCC"> use in</font>
+
+48
+00:01:55,439 --> 00:01:57,719
+encryption will be the same and<font color="#E5E5E5"> while</font>
+
+49
+00:01:57,719 --> 00:01:59,909
+the time of decrypting the<font color="#CCCCCC"> data</font><font color="#E5E5E5"> the key</font>
+
+50
+00:01:59,909 --> 00:02:02,060
+which we will<font color="#CCCCCC"> use is the same as of</font>
+
+51
+00:02:02,060 --> 00:02:04,770
+encryption so here you<font color="#E5E5E5"> can see that here</font>
+
+52
+00:02:04,770 --> 00:02:06,780
+is<font color="#E5E5E5"> our data and the while the time of</font>
+
+53
+00:02:06,780 --> 00:02:09,598
+encrypting is this data<font color="#E5E5E5"> our key is</font><font color="#CCCCCC"> a</font>
+
+54
+00:02:09,598 --> 00:02:12,120
+secret key<font color="#E5E5E5"> and it's the same and once we</font>
+
+55
+00:02:12,120 --> 00:02:12,660
+got our
+
+56
+00:02:12,660 --> 00:02:13,390
+<font color="#E5E5E5">encrypt</font>
+
+57
+00:02:13,390 --> 00:02:15,850
+<font color="#E5E5E5">and we want to decrypt that so while the</font>
+
+58
+00:02:15,850 --> 00:02:18,069
+time of decryption we will use the same
+
+59
+00:02:18,069 --> 00:02:20,590
+key which we used in<font color="#E5E5E5"> order to</font><font color="#CCCCCC"> encrypt</font>
+
+60
+00:02:20,590 --> 00:02:23,280
+<font color="#E5E5E5">the data so this is in the case of</font>
+
+61
+00:02:23,280 --> 00:02:25,930
+secret key cryptography<font color="#CCCCCC"> now let us</font><font color="#E5E5E5"> talk</font>
+
+62
+00:02:25,930 --> 00:02:28,240
+about<font color="#E5E5E5"> public key cryptography</font><font color="#CCCCCC"> so in</font>
+
+63
+00:02:28,240 --> 00:02:30,160
+<font color="#E5E5E5">public key cryptography</font><font color="#CCCCCC"> there are two</font>
+
+64
+00:02:30,160 --> 00:02:32,410
+keys<font color="#E5E5E5"> so here you can see that the key</font>
+
+65
+00:02:32,410 --> 00:02:35,050
+for<font color="#E5E5E5"> encryption is different and the key</font>
+
+66
+00:02:35,050 --> 00:02:37,510
+which is<font color="#E5E5E5"> used while decrypting is</font>
+
+67
+00:02:37,510 --> 00:02:39,520
+different so that<font color="#E5E5E5"> is why public key</font>
+
+68
+00:02:39,520 --> 00:02:42,180
+cryptography<font color="#E5E5E5"> is also called as</font>
+
+69
+00:02:42,180 --> 00:02:45,280
+<font color="#CCCCCC">asymmetric encryption now let's talk</font>
+
+70
+00:02:45,280 --> 00:02:47,320
+about<font color="#E5E5E5"> the last type of cryptography</font><font color="#CCCCCC"> that</font>
+
+71
+00:02:47,320 --> 00:02:49,930
+<font color="#E5E5E5">is hash functions so what is hash</font>
+
+72
+00:02:49,930 --> 00:02:52,480
+function<font color="#E5E5E5"> so hashing is actually a</font><font color="#CCCCCC"> one</font>
+
+73
+00:02:52,480 --> 00:02:55,090
+<font color="#CCCCCC">way conversion which means we have won</font>
+
+74
+00:02:55,090 --> 00:02:57,070
+<font color="#E5E5E5">our text so here you</font><font color="#CCCCCC"> can see we have</font><font color="#E5E5E5"> one</font>
+
+75
+00:02:57,070 --> 00:02:59,350
+<font color="#E5E5E5">text that is hello so once we convert</font>
+
+76
+00:02:59,350 --> 00:03:02,080
+the hash of<font color="#E5E5E5"> this hello so you can see</font>
+
+77
+00:03:02,080 --> 00:03:04,420
+here that we got our hash and this is a
+
+78
+00:03:04,420 --> 00:03:06,670
+<font color="#CCCCCC">one-way conversion means</font><font color="#E5E5E5"> once we got our</font>
+
+79
+00:03:06,670 --> 00:03:09,040
+hash<font color="#E5E5E5"> we are not be able</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> retrieve our</font>
+
+80
+00:03:09,040 --> 00:03:09,970
+<font color="#E5E5E5">text back</font>
+
+81
+00:03:09,970 --> 00:03:11,650
+so that is why hashing is called as
+
+82
+00:03:11,650 --> 00:03:13,840
+<font color="#CCCCCC">one-way conversion and</font><font color="#E5E5E5"> it is not</font>
+
+83
+00:03:13,840 --> 00:03:16,390
+recommended to use<font color="#E5E5E5"> this technique in</font>
+
+84
+00:03:16,390 --> 00:03:19,090
+order<font color="#E5E5E5"> to protect your data now let's see</font>
+
+85
+00:03:19,090 --> 00:03:21,989
+how hash functions and encryption<font color="#E5E5E5"> works</font>
+
+86
+00:03:21,989 --> 00:03:24,010
+<font color="#E5E5E5">now let's have a look at different</font>
+
+87
+00:03:24,010 --> 00:03:26,140
+hashing algorithm<font color="#E5E5E5"> and let's see how</font>
+
+88
+00:03:26,140 --> 00:03:28,030
+encryption<font color="#E5E5E5"> works with the help of one</font>
+
+89
+00:03:28,030 --> 00:03:31,660
+Python program so in order<font color="#E5E5E5"> to proceed we</font>
+
+90
+00:03:31,660 --> 00:03:33,310
+have to download<font color="#E5E5E5"> this Python language</font>
+
+91
+00:03:33,310 --> 00:03:35,470
+<font color="#CCCCCC">and you</font><font color="#E5E5E5"> can download the Python from</font>
+
+92
+00:03:35,470 --> 00:03:38,620
+here from<font color="#E5E5E5"> Python dot</font><font color="#CCCCCC"> arc</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> python</font>
+
+93
+00:03:38,620 --> 00:03:40,540
+language<font color="#E5E5E5"> is available in two versions</font>
+
+94
+00:03:40,540 --> 00:03:43,630
+<font color="#CCCCCC">Python 3 and Python 2.7 so the only</font>
+
+95
+00:03:43,630 --> 00:03:45,280
+<font color="#E5E5E5">difference</font><font color="#CCCCCC"> between</font><font color="#E5E5E5"> these two</font><font color="#CCCCCC"> versions</font>
+
+96
+00:03:45,280 --> 00:03:48,160
+are<font color="#E5E5E5"> the difference of syntax or the way</font>
+
+97
+00:03:48,160 --> 00:03:51,700
+we<font color="#CCCCCC"> write the code so for that program</font><font color="#E5E5E5"> we</font>
+
+98
+00:03:51,700 --> 00:03:54,880
+have to download<font color="#E5E5E5"> this Python 2.7 and I</font>
+
+99
+00:03:54,880 --> 00:03:56,739
+have already<font color="#E5E5E5"> downloaded and</font><font color="#CCCCCC"> install</font>
+
+100
+00:03:56,739 --> 00:03:59,680
+<font color="#E5E5E5">Python 2.7 in my system</font><font color="#CCCCCC"> so once you</font>
+
+101
+00:03:59,680 --> 00:04:01,720
+install<font color="#CCCCCC"> the Python so the next thing you</font>
+
+102
+00:04:01,720 --> 00:04:04,049
+have<font color="#CCCCCC"> to</font><font color="#E5E5E5"> do is you have</font><font color="#CCCCCC"> to download that</font>
+
+103
+00:04:04,049 --> 00:04:07,239
+<font color="#CCCCCC">Python file that is called as Swiss</font>
+
+104
+00:04:07,239 --> 00:04:09,850
+crypto<font color="#CCCCCC"> so I have created this</font><font color="#E5E5E5"> file and</font>
+
+105
+00:04:09,850 --> 00:04:12,070
+name it as a Swiss crypto<font color="#E5E5E5"> and you can</font>
+
+106
+00:04:12,070 --> 00:04:14,260
+download this file from<font color="#E5E5E5"> my github</font><font color="#CCCCCC"> link</font>
+
+107
+00:04:14,260 --> 00:04:17,048
+that is<font color="#CCCCCC"> disk dot github.com</font><font color="#E5E5E5"> slash</font>
+
+108
+00:04:17,048 --> 00:04:21,339
+<font color="#CCCCCC">sharath</font><font color="#E5E5E5"> kumar 97 so let me just click</font>
+
+109
+00:04:21,339 --> 00:04:25,030
+over<font color="#E5E5E5"> here so here you can see that the</font>
+
+110
+00:04:25,030 --> 00:04:26,950
+file which<font color="#E5E5E5"> I have created so</font>
+
+111
+00:04:26,950 --> 00:04:28,930
+my name my name dit<font color="#E5E5E5"> as a Swiss crypto</font>
+
+112
+00:04:28,930 --> 00:04:31,540
+tool and it's<font color="#E5E5E5"> purely written in Python</font>
+
+113
+00:04:31,540 --> 00:04:33,490
+so<font color="#CCCCCC"> it</font><font color="#E5E5E5"> supports different hashing</font>
+
+114
+00:04:33,490 --> 00:04:34,930
+algorithms and different<font color="#E5E5E5"> encryption</font>
+
+115
+00:04:34,930 --> 00:04:38,140
+algorithms<font color="#E5E5E5"> so we can also send a secure</font>
+
+116
+00:04:38,140 --> 00:04:40,660
+email<font color="#E5E5E5"> by encrypting our body with the</font>
+
+117
+00:04:40,660 --> 00:04:42,490
+help of<font color="#E5E5E5"> private keys with the help of</font>
+
+118
+00:04:42,490 --> 00:04:44,770
+this tool<font color="#E5E5E5"> and this script is compatible</font>
+
+119
+00:04:44,770 --> 00:04:47,380
+with Python 2.7
+
+120
+00:04:47,380 --> 00:04:49,690
+so before running<font color="#E5E5E5"> the script we have to</font>
+
+121
+00:04:49,690 --> 00:04:52,510
+install<font color="#E5E5E5"> some</font><font color="#CCCCCC"> Python libraries that</font><font color="#E5E5E5"> is PI</font>
+
+122
+00:04:52,510 --> 00:04:55,660
+crypto and TK<font color="#CCCCCC"> Intel</font><font color="#E5E5E5"> and all we also have</font>
+
+123
+00:04:55,660 --> 00:04:58,150
+to resolve some dependencies issues<font color="#E5E5E5"> so</font>
+
+124
+00:04:58,150 --> 00:04:59,860
+if you face any problem while running
+
+125
+00:04:59,860 --> 00:05:01,840
+the<font color="#CCCCCC"> script</font><font color="#E5E5E5"> you can reach out</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> me</font><font color="#CCCCCC"> at</font>
+
+126
+00:05:01,840 --> 00:05:05,440
+this email address<font color="#E5E5E5"> and if I scroll</font><font color="#CCCCCC"> down</font>
+
+127
+00:05:05,440 --> 00:05:08,560
+<font color="#E5E5E5">here you can see the Python code so</font>
+
+128
+00:05:08,560 --> 00:05:13,080
+let's<font color="#E5E5E5"> save this file</font><font color="#CCCCCC"> click on draw</font>
+
+129
+00:05:13,890 --> 00:05:16,780
+<font color="#CCCCCC">right-click and click</font><font color="#E5E5E5"> on save page</font><font color="#CCCCCC"> s and</font>
+
+130
+00:05:16,780 --> 00:05:20,320
+let's save<font color="#CCCCCC"> the script</font><font color="#E5E5E5"> on my desktop with</font>
+
+131
+00:05:20,320 --> 00:05:24,220
+<font color="#E5E5E5">the name as Swiss crypto so if I go</font><font color="#CCCCCC"> here</font>
+
+132
+00:05:24,220 --> 00:05:26,680
+on my desktop<font color="#E5E5E5"> you</font><font color="#CCCCCC"> will see</font><font color="#E5E5E5"> this script</font>
+
+133
+00:05:26,680 --> 00:05:29,230
+<font color="#CCCCCC">Swiss crypto</font><font color="#E5E5E5"> and if you have Python</font>
+
+134
+00:05:29,230 --> 00:05:32,170
+correctly installed then this will<font color="#E5E5E5"> be</font>
+
+135
+00:05:32,170 --> 00:05:34,510
+<font color="#CCCCCC">the icon of the script</font><font color="#E5E5E5"> and here you can</font>
+
+136
+00:05:34,510 --> 00:05:36,910
+see that it's written<font color="#CCCCCC"> Python file so</font>
+
+137
+00:05:36,910 --> 00:05:39,490
+<font color="#E5E5E5">let's</font><font color="#CCCCCC"> right-click over here</font><font color="#E5E5E5"> and click on</font>
+
+138
+00:05:39,490 --> 00:05:43,420
+edit with<font color="#E5E5E5"> ID</font><font color="#CCCCCC"> ad</font><font color="#E5E5E5"> so here you can see the</font>
+
+139
+00:05:43,420 --> 00:05:45,850
+entire source code<font color="#CCCCCC"> of the script</font><font color="#E5E5E5"> so the</font>
+
+140
+00:05:45,850 --> 00:05:47,500
+<font color="#E5E5E5">next thing you</font><font color="#CCCCCC"> have to do is you have to</font>
+
+141
+00:05:47,500 --> 00:05:50,530
+install<font color="#E5E5E5"> PI crypto a library of Python</font>
+
+142
+00:05:50,530 --> 00:05:53,170
+<font color="#E5E5E5">which contains lot of cryptographic</font>
+
+143
+00:05:53,170 --> 00:05:55,360
+functions<font color="#E5E5E5"> which I have imported in this</font>
+
+144
+00:05:55,360 --> 00:05:58,360
+script<font color="#E5E5E5"> so in order to install any Python</font>
+
+145
+00:05:58,360 --> 00:06:01,420
+library so we<font color="#CCCCCC"> have to go to python</font>
+
+146
+00:06:01,420 --> 00:06:03,040
+directory<font color="#CCCCCC"> that where the python is</font>
+
+147
+00:06:03,040 --> 00:06:05,650
+installed<font color="#E5E5E5"> so by default the python is</font>
+
+148
+00:06:05,650 --> 00:06:08,140
+installed<font color="#E5E5E5"> in local disk c and here you</font>
+
+149
+00:06:08,140 --> 00:06:12,130
+<font color="#E5E5E5">will find a folder named as python 27 so</font>
+
+150
+00:06:12,130 --> 00:06:14,320
+let<font color="#CCCCCC"> me open this up</font><font color="#E5E5E5"> and here you will</font>
+
+151
+00:06:14,320 --> 00:06:16,900
+<font color="#E5E5E5">find one directory called as scripts so</font>
+
+152
+00:06:16,900 --> 00:06:20,380
+let<font color="#E5E5E5"> me double click over</font><font color="#CCCCCC"> here</font><font color="#E5E5E5"> so once we</font>
+
+153
+00:06:20,380 --> 00:06:23,770
+are<font color="#E5E5E5"> here</font><font color="#CCCCCC"> just press shift and then click</font>
+
+154
+00:06:23,770 --> 00:06:26,110
+<font color="#CCCCCC">on right mouse button</font><font color="#E5E5E5"> and here you will</font>
+
+155
+00:06:26,110 --> 00:06:27,880
+<font color="#E5E5E5">see one option that open command window</font>
+
+156
+00:06:27,880 --> 00:06:31,540
+here<font color="#CCCCCC"> so click over here</font><font color="#E5E5E5"> and here you</font>
+
+157
+00:06:31,540 --> 00:06:33,790
+<font color="#E5E5E5">will see that</font><font color="#CCCCCC"> a command prompt is open</font>
+
+158
+00:06:33,790 --> 00:06:36,550
+and here is the path that<font color="#CCCCCC"> where we are</font>
+
+159
+00:06:36,550 --> 00:06:40,780
+<font color="#CCCCCC">writin C Python 2.7</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> sick</font>
+
+160
+00:06:40,780 --> 00:06:43,780
+so we have two right here<font color="#E5E5E5"> with then</font>
+
+161
+00:06:43,780 --> 00:06:47,830
+install followed<font color="#E5E5E5"> by the Python library</font>
+
+162
+00:06:47,830 --> 00:06:50,110
+<font color="#E5E5E5">which we want to install so pip is a</font>
+
+163
+00:06:50,110 --> 00:06:52,840
+program in<font color="#E5E5E5"> Python</font><font color="#CCCCCC"> which is used in to</font>
+
+164
+00:06:52,840 --> 00:06:55,240
+install different<font color="#E5E5E5"> Python libraries so</font>
+
+165
+00:06:55,240 --> 00:07:02,200
+here you can write PI crypto so<font color="#E5E5E5"> I have</font>
+
+166
+00:07:02,200 --> 00:07:04,480
+already<font color="#E5E5E5"> downloaded and install this</font>
+
+167
+00:07:04,480 --> 00:07:06,610
+library<font color="#E5E5E5"> so that's right same requirement</font>
+
+168
+00:07:06,610 --> 00:07:08,800
+already<font color="#CCCCCC"> satisfied</font><font color="#E5E5E5"> so have to install the</font>
+
+169
+00:07:08,800 --> 00:07:11,440
+spike crypto library and if still<font color="#E5E5E5"> you</font>
+
+170
+00:07:11,440 --> 00:07:13,390
+are<font color="#CCCCCC"> facing some problems then you</font><font color="#E5E5E5"> just</font>
+
+171
+00:07:13,390 --> 00:07:15,970
+feel<font color="#CCCCCC"> free</font><font color="#E5E5E5"> to reach out</font><font color="#CCCCCC"> to me so let me</font>
+
+172
+00:07:15,970 --> 00:07:19,230
+<font color="#CCCCCC">just</font><font color="#E5E5E5"> close this up let's open this thing</font>
+
+173
+00:07:19,230 --> 00:07:22,360
+<font color="#CCCCCC">ok so now</font><font color="#E5E5E5"> let's try to</font><font color="#CCCCCC"> run this script</font>
+
+174
+00:07:22,360 --> 00:07:24,460
+<font color="#CCCCCC">so in order</font><font color="#E5E5E5"> to run it just click over</font>
+
+175
+00:07:24,460 --> 00:07:28,480
+here<font color="#E5E5E5"> run and run</font><font color="#CCCCCC"> module</font><font color="#E5E5E5"> so once we run</font>
+
+176
+00:07:28,480 --> 00:07:30,430
+<font color="#E5E5E5">it here you will see a beautiful</font>
+
+177
+00:07:30,430 --> 00:07:32,530
+graphical menu containing secure
+
+178
+00:07:32,530 --> 00:07:36,130
+messaging system<font color="#E5E5E5"> and it contains a lot</font>
+
+179
+00:07:36,130 --> 00:07:38,350
+<font color="#CCCCCC">of options in its menu that is hash</font>
+
+180
+00:07:38,350 --> 00:07:41,050
+<font color="#CCCCCC">convertor encryption decryption and</font>
+
+181
+00:07:41,050 --> 00:07:43,960
+secure email so but for<font color="#E5E5E5"> in this video</font>
+
+182
+00:07:43,960 --> 00:07:47,650
+we'll cover<font color="#E5E5E5"> all the hashing algorithms</font>
+
+183
+00:07:47,650 --> 00:07:50,920
+along with<font color="#E5E5E5"> one encryption algorithm so</font>
+
+184
+00:07:50,920 --> 00:07:53,020
+let's click over<font color="#CCCCCC"> here hash</font><font color="#E5E5E5"> converter and</font>
+
+185
+00:07:53,020 --> 00:07:54,880
+here you<font color="#E5E5E5"> will find a</font><font color="#CCCCCC"> different hashing</font>
+
+186
+00:07:54,880 --> 00:07:58,750
+algorithm like md5 sha-1<font color="#CCCCCC"> shot</font><font color="#E5E5E5"> 256</font>
+
+187
+00:07:58,750 --> 00:08:01,630
+<font color="#CCCCCC">shopify 112</font><font color="#E5E5E5"> just for example if I</font><font color="#CCCCCC"> click</font>
+
+188
+00:08:01,630 --> 00:08:05,410
+over<font color="#E5E5E5"> here</font><font color="#CCCCCC"> md5 and here it asks us</font><font color="#E5E5E5"> for</font>
+
+189
+00:08:05,410 --> 00:08:08,160
+entering the data so if I enter<font color="#E5E5E5"> the data</font>
+
+190
+00:08:08,160 --> 00:08:11,800
+<font color="#E5E5E5">hello and if I click on convert here you</font>
+
+191
+00:08:11,800 --> 00:08:14,380
+will see<font color="#E5E5E5"> that our data hello is actually</font>
+
+192
+00:08:14,380 --> 00:08:17,530
+<font color="#E5E5E5">converted into md5 hash and here you can</font>
+
+193
+00:08:17,530 --> 00:08:22,180
+<font color="#E5E5E5">find the hash of hello and behind the</font>
+
+194
+00:08:22,180 --> 00:08:24,160
+script you can<font color="#E5E5E5"> see here that in the</font>
+
+195
+00:08:24,160 --> 00:08:26,170
+Python<font color="#CCCCCC"> shell</font><font color="#E5E5E5"> the hash of hello is</font>
+
+196
+00:08:26,170 --> 00:08:29,440
+created and you<font color="#CCCCCC"> can copy it</font><font color="#E5E5E5"> from here so</font>
+
+197
+00:08:29,440 --> 00:08:31,270
+as I<font color="#CCCCCC"> told you earlier</font><font color="#E5E5E5"> that hashing is</font>
+
+198
+00:08:31,270 --> 00:08:33,729
+<font color="#E5E5E5">one way conversion that once we can</font>
+
+199
+00:08:33,729 --> 00:08:36,340
+<font color="#CCCCCC">watch our text into a hash</font><font color="#E5E5E5"> we are not</font>
+
+200
+00:08:36,340 --> 00:08:39,220
+able to retrieve<font color="#CCCCCC"> our text back</font><font color="#E5E5E5"> so</font>
+
+201
+00:08:39,220 --> 00:08:41,110
+depending upon the<font color="#E5E5E5"> hashing algorithm you</font>
+
+202
+00:08:41,110 --> 00:08:45,010
+are using<font color="#E5E5E5"> you will get a complex</font><font color="#CCCCCC"> hash so</font>
+
+203
+00:08:45,010 --> 00:08:47,230
+just for example<font color="#CCCCCC"> let's</font><font color="#E5E5E5"> try to convert</font>
+
+204
+00:08:47,230 --> 00:08:51,370
+<font color="#CCCCCC">our text by using sha-1</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> let's try to</font>
+
+205
+00:08:51,370 --> 00:08:53,110
+convert here sunlight let's try
+
+206
+00:08:53,110 --> 00:08:54,430
+something here called as
+
+207
+00:08:54,430 --> 00:08:57,430
+click on convert and<font color="#E5E5E5"> you will see that</font>
+
+208
+00:08:57,430 --> 00:09:00,670
+we<font color="#E5E5E5"> now this time we got a hash but that</font>
+
+209
+00:09:00,670 --> 00:09:04,630
+is a little bit longer than md5<font color="#E5E5E5"> and you</font>
+
+210
+00:09:04,630 --> 00:09:06,850
+can even<font color="#E5E5E5"> create a longest hash by using</font>
+
+211
+00:09:06,850 --> 00:09:09,820
+this algorithm<font color="#CCCCCC"> Shopify 112</font><font color="#E5E5E5"> that is 500</font>
+
+212
+00:09:09,820 --> 00:09:13,089
+<font color="#CCCCCC">bucks and let's</font><font color="#E5E5E5"> try</font><font color="#CCCCCC"> to convert this text</font>
+
+213
+00:09:13,089 --> 00:09:15,970
+<font color="#E5E5E5">only</font><font color="#CCCCCC"> by</font><font color="#E5E5E5"> using Shopify 112 and if I click</font>
+
+214
+00:09:15,970 --> 00:09:18,610
+<font color="#E5E5E5">on convert you will see that we got a</font>
+
+215
+00:09:18,610 --> 00:09:21,760
+<font color="#E5E5E5">very long hash you can see here the</font>
+
+216
+00:09:21,760 --> 00:09:24,850
+hashing value and if I go<font color="#CCCCCC"> back</font><font color="#E5E5E5"> here</font><font color="#CCCCCC"> you</font>
+
+217
+00:09:24,850 --> 00:09:27,130
+will see<font color="#E5E5E5"> that the</font><font color="#CCCCCC"> chef I won 12 hash of</font>
+
+218
+00:09:27,130 --> 00:09:31,149
+that<font color="#CCCCCC"> text so you</font><font color="#E5E5E5"> can also use this tool</font>
+
+219
+00:09:31,149 --> 00:09:33,370
+in<font color="#E5E5E5"> order to store passwords in your</font>
+
+220
+00:09:33,370 --> 00:09:37,270
+<font color="#E5E5E5">database in hashes</font><font color="#CCCCCC"> so this was all</font><font color="#E5E5E5"> about</font>
+
+221
+00:09:37,270 --> 00:09:39,700
+<font color="#E5E5E5">hashing algorithms now let's talk about</font>
+
+222
+00:09:39,700 --> 00:09:42,190
+encryption<font color="#E5E5E5"> that how encryption works so</font>
+
+223
+00:09:42,190 --> 00:09:44,830
+<font color="#E5E5E5">as I told</font><font color="#CCCCCC"> you earlier that in order to</font>
+
+224
+00:09:44,830 --> 00:09:47,140
+encrypt the data we<font color="#CCCCCC"> have</font><font color="#E5E5E5"> to add one key</font>
+
+225
+00:09:47,140 --> 00:09:49,540
+and<font color="#E5E5E5"> in order</font><font color="#CCCCCC"> to decrypt the data</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> have</font>
+
+226
+00:09:49,540 --> 00:09:51,490
+<font color="#E5E5E5">to add the same key depending upon the</font>
+
+227
+00:09:51,490 --> 00:09:54,100
+encryption algorithm we are<font color="#E5E5E5"> using so</font><font color="#CCCCCC"> let</font>
+
+228
+00:09:54,100 --> 00:09:58,209
+<font color="#CCCCCC">us run this file again and now</font><font color="#E5E5E5"> this time</font>
+
+229
+00:09:58,209 --> 00:10:01,209
+let's<font color="#CCCCCC"> go here to the encryption</font><font color="#E5E5E5"> let us</font>
+
+230
+00:10:01,209 --> 00:10:02,520
+click over here symmetric encryption
+
+231
+00:10:02,520 --> 00:10:07,150
+<font color="#E5E5E5">block cipher and in this video</font><font color="#CCCCCC"> let's</font>
+
+232
+00:10:07,150 --> 00:10:10,060
+<font color="#E5E5E5">concentrate</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> this stream ciphers and</font>
+
+233
+00:10:10,060 --> 00:10:11,680
+<font color="#E5E5E5">let's select this algorithm a our</font>
+
+234
+00:10:11,680 --> 00:10:14,800
+seafood<font color="#CCCCCC"> that</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> driver</font><font color="#E5E5E5"> cipher</font><font color="#CCCCCC"> 4 so these</font>
+
+235
+00:10:14,800 --> 00:10:16,930
+all kind of<font color="#E5E5E5"> different algorithms</font><font color="#CCCCCC"> I will</font>
+
+236
+00:10:16,930 --> 00:10:18,970
+explain<font color="#CCCCCC"> you in the next video but</font><font color="#E5E5E5"> for</font>
+
+237
+00:10:18,970 --> 00:10:21,190
+<font color="#E5E5E5">the sake of this video</font><font color="#CCCCCC"> let's consider it</font>
+
+238
+00:10:21,190 --> 00:10:24,160
+over here so it asks<font color="#CCCCCC"> us for</font><font color="#E5E5E5"> the key and</font>
+
+239
+00:10:24,160 --> 00:10:27,120
+the data to convert so in the first
+
+240
+00:10:27,120 --> 00:10:30,610
+<font color="#E5E5E5">input field let's write here the secret</font>
+
+241
+00:10:30,610 --> 00:10:35,230
+key and our secret<font color="#E5E5E5"> key will be you can</font>
+
+242
+00:10:35,230 --> 00:10:37,390
+write here anything<font color="#E5E5E5"> like secret 1 2 3 4</font>
+
+243
+00:10:37,390 --> 00:10:39,730
+5<font color="#E5E5E5"> so it's the secret key</font><font color="#CCCCCC"> is it's just</font>
+
+244
+00:10:39,730 --> 00:10:42,160
+<font color="#E5E5E5">like a password</font><font color="#CCCCCC"> so once we add the</font>
+
+245
+00:10:42,160 --> 00:10:44,829
+<font color="#CCCCCC">secret key</font><font color="#E5E5E5"> here we have to add our data</font>
+
+246
+00:10:44,829 --> 00:10:47,230
+which we want<font color="#E5E5E5"> to encrypt so let's add</font>
+
+247
+00:10:47,230 --> 00:10:53,260
+here let's add here any random<font color="#E5E5E5"> string</font>
+
+248
+00:10:53,260 --> 00:10:55,870
+that<font color="#CCCCCC"> is password of Facebook click on</font>
+
+249
+00:10:55,870 --> 00:10:58,510
+convert and here you<font color="#E5E5E5"> will see that</font><font color="#CCCCCC"> we</font>
+
+250
+00:10:58,510 --> 00:11:01,630
+got our encrypted<font color="#E5E5E5"> text and this text is</font>
+
+251
+00:11:01,630 --> 00:11:04,690
+in the form of hex value so here<font color="#E5E5E5"> you can</font>
+
+252
+00:11:04,690 --> 00:11:06,760
+see that our encrypted<font color="#E5E5E5"> text or we can</font>
+
+253
+00:11:06,760 --> 00:11:07,960
+say<font color="#E5E5E5"> that it's over</font>
+
+254
+00:11:07,960 --> 00:11:10,630
+cyphertext because it's encrypted now in
+
+255
+00:11:10,630 --> 00:11:13,270
+order<font color="#E5E5E5"> to decrypt this text we</font><font color="#CCCCCC"> want this</font>
+
+256
+00:11:13,270 --> 00:11:15,670
+<font color="#E5E5E5">encrypted text and along</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> this key</font>
+
+257
+00:11:15,670 --> 00:11:18,399
+so<font color="#CCCCCC"> now let us try</font><font color="#E5E5E5"> to decrypt this text</font>
+
+258
+00:11:18,399 --> 00:11:20,320
+click on description<font color="#E5E5E5"> so</font><font color="#CCCCCC"> may take</font>
+
+259
+00:11:20,320 --> 00:11:21,760
+encryption<font color="#E5E5E5"> and we have to select the</font>
+
+260
+00:11:21,760 --> 00:11:24,820
+same algorithm which we have used while
+
+261
+00:11:24,820 --> 00:11:28,720
+<font color="#E5E5E5">encrypting so here</font><font color="#CCCCCC"> Enter key to decrypt</font>
+
+262
+00:11:28,720 --> 00:11:35,470
+<font color="#E5E5E5">so our key was secret one two three four</font>
+
+263
+00:11:35,470 --> 00:11:38,410
+<font color="#E5E5E5">five and let us copy this in encrypted</font>
+
+264
+00:11:38,410 --> 00:11:42,190
+<font color="#CCCCCC">text from here let's</font><font color="#E5E5E5"> go</font><font color="#CCCCCC"> back</font><font color="#E5E5E5"> let's</font><font color="#CCCCCC"> save</font>
+
+265
+00:11:42,190 --> 00:11:45,190
+this text click on<font color="#CCCCCC"> ok</font><font color="#E5E5E5"> and here you will</font>
+
+266
+00:11:45,190 --> 00:11:48,370
+<font color="#E5E5E5">see that we got our normal</font><font color="#CCCCCC"> text back</font>
+
+267
+00:11:48,370 --> 00:11:50,500
+that was password<font color="#E5E5E5"> of Facebook and if I</font>
+
+268
+00:11:50,500 --> 00:11:53,080
+go<font color="#CCCCCC"> back</font><font color="#E5E5E5"> to the Python shell you will see</font>
+
+269
+00:11:53,080 --> 00:11:55,839
+here<font color="#CCCCCC"> that the decrypted text is the</font>
+
+270
+00:11:55,839 --> 00:11:57,430
+<font color="#E5E5E5">password of Facebook which we have</font>
+
+271
+00:11:57,430 --> 00:12:01,839
+entered<font color="#E5E5E5"> while encryption so this is how</font>
+
+272
+00:12:01,839 --> 00:12:04,600
+a normal encryption decryption<font color="#E5E5E5"> and</font>
+
+273
+00:12:04,600 --> 00:12:07,630
+hashing algorithm works<font color="#E5E5E5"> now let us try</font>
+
+274
+00:12:07,630 --> 00:12:11,770
+<font color="#E5E5E5">to</font><font color="#CCCCCC"> change a little</font><font color="#E5E5E5"> modification in</font><font color="#CCCCCC"> the</font>
+
+275
+00:12:11,770 --> 00:12:14,140
+encrypted<font color="#E5E5E5"> data</font><font color="#CCCCCC"> so here you</font><font color="#E5E5E5"> can see that</font>
+
+276
+00:12:14,140 --> 00:12:17,380
+if<font color="#E5E5E5"> I enter only</font><font color="#CCCCCC"> a</font><font color="#E5E5E5"> single word here like</font>
+
+277
+00:12:17,380 --> 00:12:22,089
+<font color="#E5E5E5">P and if I change one key</font><font color="#CCCCCC"> sum</font><font color="#E5E5E5"> to</font>
+
+278
+00:12:22,089 --> 00:12:24,339
+something random<font color="#E5E5E5"> and if I click on</font><font color="#CCCCCC"> OK</font>
+
+279
+00:12:24,339 --> 00:12:26,260
+<font color="#CCCCCC">here you</font><font color="#E5E5E5"> will see that it will give us</font>
+
+280
+00:12:26,260 --> 00:12:29,200
+<font color="#E5E5E5">an error of odd length string which</font>
+
+281
+00:12:29,200 --> 00:12:32,770
+<font color="#E5E5E5">means the key should be the same while</font>
+
+282
+00:12:32,770 --> 00:12:35,680
+encryption of data<font color="#E5E5E5"> and the data which we</font>
+
+283
+00:12:35,680 --> 00:12:37,750
+got after<font color="#E5E5E5"> an encryption should be the</font>
+
+284
+00:12:37,750 --> 00:12:42,220
+same so in this video<font color="#E5E5E5"> we</font><font color="#CCCCCC"> have covered</font>
+
+285
+00:12:42,220 --> 00:12:43,779
+<font color="#E5E5E5">that what is cryptography</font>
+
+286
+00:12:43,779 --> 00:12:45,850
+what is hashing algorithms and<font color="#CCCCCC"> virtus</font>
+
+287
+00:12:45,850 --> 00:12:48,490
+<font color="#E5E5E5">encryption and we have a look at one</font>
+
+288
+00:12:48,490 --> 00:12:50,500
+Python program which we can use<font color="#E5E5E5"> in order</font>
+
+289
+00:12:50,500 --> 00:12:52,959
+to encrypt something annual in order to
+
+290
+00:12:52,959 --> 00:12:55,690
+see that<font color="#CCCCCC"> how hashing</font><font color="#E5E5E5"> works thanks for</font>
+
+291
+00:12:55,690 --> 00:00:00,000
+watching this video
+

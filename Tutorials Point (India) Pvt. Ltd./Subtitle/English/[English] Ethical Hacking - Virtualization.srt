@@ -1,0 +1,208 @@
+1
+00:00:00,060 --> 00:00:02,760
+hello everyone in<font color="#CCCCCC"> this video we'll talk</font>
+
+2
+00:00:02,760 --> 00:00:05,220
+about virtualization<font color="#CCCCCC"> so what is</font>
+
+3
+00:00:05,220 --> 00:00:07,589
+virtualization so virtualization in the
+
+4
+00:00:07,589 --> 00:00:09,750
+term of computer<font color="#E5E5E5"> it actually means the</font>
+
+5
+00:00:09,750 --> 00:00:12,269
+<font color="#E5E5E5">duplicity of computer hardware as</font><font color="#CCCCCC"> well</font>
+
+6
+00:00:12,269 --> 00:00:14,910
+<font color="#E5E5E5">as the software so what it means</font>
+
+7
+00:00:14,910 --> 00:00:16,980
+<font color="#CCCCCC">so with the</font><font color="#E5E5E5"> help of virtualization we</font>
+
+8
+00:00:16,980 --> 00:00:19,080
+can properly<font color="#E5E5E5"> utilize the computer</font>
+
+9
+00:00:19,080 --> 00:00:21,720
+hardware<font color="#CCCCCC"> and its processor</font><font color="#E5E5E5"> even with the</font>
+
+10
+00:00:21,720 --> 00:00:24,119
+help of virtualization<font color="#CCCCCC"> we can create</font><font color="#E5E5E5"> and</font>
+
+11
+00:00:24,119 --> 00:00:26,189
+<font color="#E5E5E5">install different operating system in a</font>
+
+12
+00:00:26,189 --> 00:00:28,289
+single<font color="#E5E5E5"> operating system so here you can</font>
+
+13
+00:00:28,289 --> 00:00:30,240
+see that this is a<font color="#E5E5E5"> single computer or a</font>
+
+14
+00:00:30,240 --> 00:00:31,890
+<font color="#E5E5E5">single operating system and with the</font>
+
+15
+00:00:31,890 --> 00:00:33,719
+help of virtualization technique<font color="#CCCCCC"> we can</font>
+
+16
+00:00:33,719 --> 00:00:35,760
+install different<font color="#E5E5E5"> sub</font><font color="#CCCCCC"> operating system</font>
+
+17
+00:00:35,760 --> 00:00:38,670
+inside it<font color="#E5E5E5"> so the most popularly</font>
+
+18
+00:00:38,670 --> 00:00:41,309
+software's<font color="#CCCCCC"> which are used in order to</font>
+
+19
+00:00:41,309 --> 00:00:43,710
+<font color="#CCCCCC">perform virtualization</font><font color="#E5E5E5"> czar Oracle</font>
+
+20
+00:00:43,710 --> 00:00:46,710
+VirtualBox<font color="#E5E5E5"> and VMware</font><font color="#CCCCCC"> so now let's see</font>
+
+21
+00:00:46,710 --> 00:00:48,750
+how we can install one<font color="#CCCCCC"> of them that</font><font color="#E5E5E5"> is</font>
+
+22
+00:00:48,750 --> 00:00:51,870
+<font color="#E5E5E5">Oracle VirtualBox in our system now</font>
+
+23
+00:00:51,870 --> 00:00:53,670
+let's see<font color="#E5E5E5"> that how we can install</font>
+
+24
+00:00:53,670 --> 00:00:57,539
+VirtualBox<font color="#E5E5E5"> in our operating system so</font>
+
+25
+00:00:57,539 --> 00:01:00,270
+here you can see that<font color="#E5E5E5"> right</font><font color="#CCCCCC"> now I am at</font>
+
+26
+00:01:00,270 --> 00:01:03,449
+VirtualBox dot R and here are different
+
+27
+00:01:03,449 --> 00:01:06,299
+download links<font color="#E5E5E5"> so depending upon your</font>
+
+28
+00:01:06,299 --> 00:01:09,750
+pedestal<font color="#E5E5E5"> you can download one</font><font color="#CCCCCC"> of them</font><font color="#E5E5E5"> so</font>
+
+29
+00:01:09,750 --> 00:01:11,729
+I<font color="#E5E5E5"> have already downloaded the VirtualBox</font>
+
+30
+00:01:11,729 --> 00:01:15,119
+<font color="#E5E5E5">setup which you can see on my</font><font color="#CCCCCC"> desktop so</font>
+
+31
+00:01:15,119 --> 00:01:19,680
+<font color="#CCCCCC">I'm let's double click on it ok</font><font color="#E5E5E5"> click on</font>
+
+32
+00:01:19,680 --> 00:01:24,750
+next<font color="#E5E5E5"> next ok</font><font color="#CCCCCC"> so now task for the various</font>
+
+33
+00:01:24,750 --> 00:01:26,430
+things<font color="#E5E5E5"> like you want to create a</font>
+
+34
+00:01:26,430 --> 00:01:28,500
+<font color="#E5E5E5">shortcut in a quick launch bar you want</font>
+
+35
+00:01:28,500 --> 00:01:31,430
+<font color="#E5E5E5">to create a shortcut on</font><font color="#CCCCCC"> desktop</font><font color="#E5E5E5"> so</font>
+
+36
+00:01:31,430 --> 00:01:36,990
+uncheck these<font color="#E5E5E5"> two click on next</font><font color="#CCCCCC"> ok</font>
+
+37
+00:01:36,990 --> 00:01:41,119
+yes<font color="#E5E5E5"> and install</font>
+
+38
+00:01:51,399 --> 00:01:55,549
+<font color="#E5E5E5">okay now click on</font><font color="#CCCCCC"> finish' and it</font><font color="#E5E5E5"> will</font>
+
+39
+00:01:55,549 --> 00:01:58,850
+start<font color="#E5E5E5"> VirtualBox for us</font><font color="#CCCCCC"> ok</font><font color="#E5E5E5"> so here you</font>
+
+40
+00:01:58,850 --> 00:02:01,880
+<font color="#E5E5E5">can see that the system first menu of</font>
+
+41
+00:02:01,880 --> 00:02:05,119
+the Oracle VM VirtualBox<font color="#CCCCCC"> so here are</font>
+
+42
+00:02:05,119 --> 00:02:08,449
+<font color="#E5E5E5">some few options like file machine help</font>
+
+43
+00:02:08,449 --> 00:02:12,110
+so by clicking on<font color="#CCCCCC"> new we</font><font color="#E5E5E5"> can create a</font>
+
+44
+00:02:12,110 --> 00:02:15,200
+new virtual machine<font color="#CCCCCC"> and by</font><font color="#E5E5E5"> clicking on</font>
+
+45
+00:02:15,200 --> 00:02:17,660
+file<font color="#E5E5E5"> we can import our appliance and we</font>
+
+46
+00:02:17,660 --> 00:02:20,390
+can export an appliance<font color="#CCCCCC"> so here you</font><font color="#E5E5E5"> can</font>
+
+47
+00:02:20,390 --> 00:02:23,299
+also change some<font color="#E5E5E5"> network settings so</font>
+
+48
+00:02:23,299 --> 00:02:25,519
+this was all<font color="#E5E5E5"> about this video so in the</font>
+
+49
+00:02:25,519 --> 00:02:27,769
+next<font color="#CCCCCC"> video</font><font color="#E5E5E5"> I will show you that how we</font>
+
+50
+00:02:27,769 --> 00:02:29,989
+can<font color="#E5E5E5"> install Kali Linux inside the</font>
+
+51
+00:02:29,989 --> 00:02:32,420
+VirtualBox<font color="#CCCCCC"> thanks for</font><font color="#E5E5E5"> watching this</font>
+
+52
+00:02:32,420 --> 00:00:00,000
+video
+

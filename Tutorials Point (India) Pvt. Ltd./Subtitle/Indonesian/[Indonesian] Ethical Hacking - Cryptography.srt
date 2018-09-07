@@ -1,0 +1,1164 @@
+1
+00:00:00,060 --> 00:00:02,370
+ Halo semua orang di <font color="#CCCCCC">video ini </font>
+
+2
+00:00:02,370 --> 00:00:04,319
+ berbicara <font color="#CCCCCC">tentang salah satu yang </font><font color="#E5E5E5">paling penting </font>
+
+3
+00:00:04,319 --> 00:00:06,770
+ istilah yang digunakan dalam <font color="#CCCCCC">keamanan cyber disebut sebagai </font>
+
+4
+00:00:06,770 --> 00:00:09,330
+ <font color="#E5E5E5">kriptografi jadi sekarang </font><font color="#CCCCCC">mari kita bicara </font><font color="#E5E5E5">tentang itu </font>
+
+5
+00:00:09,330 --> 00:00:11,940
+ <font color="#E5E5E5">jadi apa itu kriptografi jadi kriptografi </font>
+
+6
+00:00:11,940 --> 00:00:15,089
+ sebenarnya adalah seni menyembunyikan data kami 
+
+7
+00:00:15,089 --> 00:00:17,609
+ <font color="#CCCCCC">untuk melindungi </font><font color="#E5E5E5">data itu dari ketiga </font>
+
+8
+00:00:17,609 --> 00:00:19,680
+ orang partai <font color="#CCCCCC">jadi kita </font><font color="#E5E5E5">bahkan bisa menggunakannya </font>
+
+9
+00:00:19,680 --> 00:00:21,900
+ kriptografi <font color="#CCCCCC">untuk mengkonversi teks normal kita </font>
+
+10
+00:00:21,900 --> 00:00:24,660
+ menjadi bentuk yang tidak terbaca <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">bisa </font>
+
+11
+00:00:24,660 --> 00:00:26,849
+ <font color="#CCCCCC">tetap aman dari </font><font color="#E5E5E5">pihak </font><font color="#CCCCCC">ketiga </font>
+
+12
+00:00:26,849 --> 00:00:29,189
+ orang <font color="#CCCCCC">jadi tiga prinsip </font><font color="#E5E5E5">utama </font>
+
+13
+00:00:29,189 --> 00:00:31,759
+ kriptografi <font color="#E5E5E5">adalah kerahasiaan </font>
+
+14
+00:00:31,759 --> 00:00:34,350
+ <font color="#E5E5E5">ketersediaan dan integritas </font>
+
+15
+00:00:34,350 --> 00:00:37,020
+ jadi kerahasiaan <font color="#E5E5E5">memastikan bahwa data kami </font>
+
+16
+00:00:37,020 --> 00:00:39,600
+ <font color="#E5E5E5">aman dan integritas memastikan hal itu </font>
+
+17
+00:00:39,600 --> 00:00:42,239
+ data data <font color="#E5E5E5">kami tidak </font><font color="#CCCCCC">dirusak atau </font>
+
+18
+00:00:42,239 --> 00:00:44,190
+ diubah oleh orang pihak ketiga lain 
+
+19
+00:00:44,190 --> 00:00:47,399
+ <font color="#CCCCCC">dan ketersediaan </font><font color="#E5E5E5">memastikan kami bahwa data kami </font>
+
+20
+00:00:47,399 --> 00:00:50,579
+ tersedia <font color="#E5E5E5">kapan pun kita butuhkan sekarang </font>
+
+21
+00:00:50,579 --> 00:00:52,500
+ berbicara tentang <font color="#E5E5E5">salah satu yang paling populer </font>
+
+22
+00:00:52,500 --> 00:00:54,600
+ teknik kriptografi digunakan <font color="#CCCCCC">untuk </font>
+
+23
+00:00:54,600 --> 00:00:56,670
+ melindungi <font color="#E5E5E5">data kami dan teknik itu </font>
+
+24
+00:00:56,670 --> 00:00:59,070
+ disebut sebagai enkripsi <font color="#E5E5E5">jadi apa </font>
+
+25
+00:00:59,070 --> 00:01:01,109
+ enkripsi <font color="#E5E5E5">sehingga enkripsi sebenarnya adalah sebuah </font>
+
+26
+00:01:01,109 --> 00:01:04,049
+ <font color="#CCCCCC">proses </font><font color="#E5E5E5">konversi plaintext kami menjadi </font>
+
+27
+00:01:04,049 --> 00:01:06,900
+ n ciphertext yang <font color="#CCCCCC">berarti di sini Anda bisa </font>
+
+28
+00:01:06,900 --> 00:01:09,200
+ lihat itu di sini adalah <font color="#E5E5E5">plaintext kami halo dan </font>
+
+29
+00:01:09,200 --> 00:01:12,210
+ setelah enkripsi <font color="#E5E5E5">teks kami menjadi </font>
+
+30
+00:01:12,210 --> 00:01:15,060
+ ini <font color="#E5E5E5">adalah bentuk yang tidak terbaca dan ini </font>
+
+31
+00:01:15,060 --> 00:01:17,460
+ <font color="#CCCCCC">disebut</font><font color="#E5E5E5"> sebagai ciphertext sehingga Anda dapat melihat </font>
+
+32
+00:01:17,460 --> 00:01:19,290
+ <font color="#E5E5E5">enkripsi di sini adalah proses </font>
+
+33
+00:01:19,290 --> 00:01:23,100
+ <font color="#E5E5E5">mengubah data kami menjadi ciphertext </font><font color="#CCCCCC">jadi </font>
+
+34
+00:01:23,100 --> 00:01:25,460
+ bahwa integritas data yang <font color="#CCCCCC">dapat </font>
+
+35
+00:01:25,460 --> 00:01:28,320
+ dipelihara dan <font color="#E5E5E5">enkripsi adalah </font>
+
+36
+00:01:28,320 --> 00:01:31,320
+ jalur teknik kriptografi sekarang 
+
+37
+00:01:31,320 --> 00:01:33,360
+ <font color="#E5E5E5">mari kita bicara tentang berbagai jenis </font>
+
+38
+00:01:33,360 --> 00:01:34,920
+ <font color="#E5E5E5">teknik kriptografi jadi ada </font>
+
+39
+00:01:34,920 --> 00:01:37,470
+ tiga <font color="#E5E5E5">jenis keamanan kriptografi </font>
+
+40
+00:01:37,470 --> 00:01:39,659
+ kriptografi <font color="#E5E5E5">kunci publik kriptografi dan </font>
+
+41
+00:01:39,659 --> 00:01:41,670
+ <font color="#E5E5E5">fungsi hash sekarang mari kita bicara </font><font color="#CCCCCC">tentang masing-masing </font>
+
+42
+00:01:41,670 --> 00:01:44,040
+ dari mereka secara detail <font color="#E5E5E5">jadi pertama-tama kita </font>
+
+43
+00:01:44,040 --> 00:01:45,450
+ akan berbicara <font color="#CCCCCC">tentang kriptografi kunci rahasia </font>
+
+44
+00:01:45,450 --> 00:01:47,970
+ <font color="#E5E5E5">jadi kriptografi kunci rahasia juga </font>
+
+45
+00:01:47,970 --> 00:01:50,490
+ disebut sebagai <font color="#E5E5E5">enkripsi kunci simetrik jadi </font>
+
+46
+00:01:50,490 --> 00:01:52,649
+ apa <font color="#CCCCCC">artinya itu berarti </font><font color="#E5E5E5">saat mengenkripsi </font>
+
+47
+00:01:52,649 --> 00:01:55,439
+ data <font color="#E5E5E5">kunci yang akan kita </font><font color="#CCCCCC">gunakan </font>
+
+48
+00:01:55,439 --> 00:01:57,719
+ enkripsi akan sama dan <font color="#E5E5E5">sementara </font>
+
+49
+00:01:57,719 --> 00:01:59,909
+ waktu mendekripsi <font color="#CCCCCC">data </font><font color="#E5E5E5">kunci </font>
+
+50
+00:01:59,909 --> 00:02:02,060
+ yang akan kita <font color="#CCCCCC">gunakan sama dengan </font>
+
+51
+00:02:02,060 --> 00:02:04,770
+ enkripsi jadi di sini Anda <font color="#E5E5E5">dapat melihat itu di sini </font>
+
+52
+00:02:04,770 --> 00:02:06,780
+ adalah <font color="#E5E5E5">data kami dan waktu saat itu </font>
+
+53
+00:02:06,780 --> 00:02:09,598
+ enkripsi data ini <font color="#E5E5E5">kunci kami </font><font color="#CCCCCC">adalah </font>
+
+54
+00:02:09,598 --> 00:02:12,120
+ kunci rahasia <font color="#E5E5E5">dan itu sama dan begitu kita </font>
+
+55
+00:02:12,120 --> 00:02:12,660
+ mendapat kami 
+
+56
+00:02:12,660 --> 00:02:13,390
+ <font color="#E5E5E5">mengenkripsi </font>
+
+57
+00:02:13,390 --> 00:02:15,850
+ <font color="#E5E5E5">dan kami ingin mendekripsi begitu sementara </font>
+
+58
+00:02:15,850 --> 00:02:18,069
+ waktu dekripsi kita akan menggunakan yang sama 
+
+59
+00:02:18,069 --> 00:02:20,590
+ kunci yang kami gunakan <font color="#E5E5E5">untuk </font><font color="#CCCCCC">mengenkripsi </font>
+
+60
+00:02:20,590 --> 00:02:23,280
+ <font color="#E5E5E5">data jadi ini dalam kasus </font>
+
+61
+00:02:23,280 --> 00:02:25,930
+ kriptografi kunci rahasia <font color="#CCCCCC">sekarang mari kita </font><font color="#E5E5E5">bicara </font>
+
+62
+00:02:25,930 --> 00:02:28,240
+ tentang <font color="#E5E5E5">kriptografi kunci publik </font><font color="#CCCCCC">sehingga dalam </font>
+
+63
+00:02:28,240 --> 00:02:30,160
+ <font color="#E5E5E5">kriptografi kunci publik </font><font color="#CCCCCC">ada dua </font>
+
+64
+00:02:30,160 --> 00:02:32,410
+ kunci <font color="#E5E5E5">jadi di sini Anda dapat melihat bahwa kuncinya </font>
+
+65
+00:02:32,410 --> 00:02:35,050
+ untuk <font color="#E5E5E5">enkripsi berbeda dan kuncinya </font>
+
+66
+00:02:35,050 --> 00:02:37,510
+ yang <font color="#E5E5E5">digunakan saat mendekripsi adalah </font>
+
+67
+00:02:37,510 --> 00:02:39,520
+ berbeda jadi <font color="#E5E5E5">itulah kunci publik </font>
+
+68
+00:02:39,520 --> 00:02:42,180
+ kriptografi <font color="#E5E5E5">juga disebut sebagai </font>
+
+69
+00:02:42,180 --> 00:02:45,280
+ <font color="#CCCCCC">enkripsi asimetris sekarang mari kita bicara </font>
+
+70
+00:02:45,280 --> 00:02:47,320
+ tentang <font color="#E5E5E5">tipe terakhir dari kriptografi </font><font color="#CCCCCC">itu </font>
+
+71
+00:02:47,320 --> 00:02:49,930
+ <font color="#E5E5E5">adalah fungsi hash jadi apa hash </font>
+
+72
+00:02:49,930 --> 00:02:52,480
+ berfungsi <font color="#E5E5E5">jadi hashing sebenarnya adalah </font><font color="#CCCCCC">satu </font>
+
+73
+00:02:52,480 --> 00:02:55,090
+ <font color="#CCCCCC">konversi cara yang berarti kita telah menang </font>
+
+74
+00:02:55,090 --> 00:02:57,070
+ <font color="#E5E5E5">teks kami jadi di sini Anda </font><font color="#CCCCCC">dapat melihat kami memiliki </font><font color="#E5E5E5">satu </font>
+
+75
+00:02:57,070 --> 00:02:59,350
+ <font color="#E5E5E5">teks itu adalah halo jadi setelah kami mengkonversi </font>
+
+76
+00:02:59,350 --> 00:03:02,080
+ hash dari <font color="#E5E5E5">halo ini sehingga Anda dapat melihat </font>
+
+77
+00:03:02,080 --> 00:03:04,420
+ di sini bahwa kami mendapat hash kami dan ini adalah a 
+
+78
+00:03:04,420 --> 00:03:06,670
+ <font color="#CCCCCC">konversi satu arah berarti </font><font color="#E5E5E5">begitu kita mendapatkannya </font>
+
+79
+00:03:06,670 --> 00:03:09,040
+ hash <font color="#E5E5E5">kita tidak </font><font color="#CCCCCC">bisa </font><font color="#E5E5E5">mengambil kami </font>
+
+80
+00:03:09,040 --> 00:03:09,970
+ <font color="#E5E5E5">kembali teks </font>
+
+81
+00:03:09,970 --> 00:03:11,650
+ jadi itulah mengapa hashing disebut sebagai 
+
+82
+00:03:11,650 --> 00:03:13,840
+ <font color="#CCCCCC">konversi satu arah dan </font><font color="#E5E5E5">itu tidak </font>
+
+83
+00:03:13,840 --> 00:03:16,390
+ direkomendasikan untuk menggunakan <font color="#E5E5E5">teknik ini </font>
+
+84
+00:03:16,390 --> 00:03:19,090
+ <font color="#E5E5E5">untuk melindungi data Anda sekarang mari kita lihat </font>
+
+85
+00:03:19,090 --> 00:03:21,989
+ bagaimana fungsi dan enkripsi hash <font color="#E5E5E5">bekerja </font>
+
+86
+00:03:21,989 --> 00:03:24,010
+ <font color="#E5E5E5">sekarang mari kita lihat berbeda </font>
+
+87
+00:03:24,010 --> 00:03:26,140
+ algoritma hashing <font color="#E5E5E5">dan mari kita lihat caranya </font>
+
+88
+00:03:26,140 --> 00:03:28,030
+ enkripsi <font color="#E5E5E5">berfungsi dengan bantuan satu </font>
+
+89
+00:03:28,030 --> 00:03:31,660
+ Program Python jadi <font color="#E5E5E5">untuk melanjutkan kita </font>
+
+90
+00:03:31,660 --> 00:03:33,310
+ harus mengunduh <font color="#E5E5E5">bahasa Python ini </font>
+
+91
+00:03:33,310 --> 00:03:35,470
+ <font color="#CCCCCC">dan Anda </font><font color="#E5E5E5">dapat mengunduh Python dari </font>
+
+92
+00:03:35,470 --> 00:03:38,620
+ di sini dari <font color="#E5E5E5">Python dot </font><font color="#CCCCCC">arc </font><font color="#E5E5E5">sehingga </font><font color="#CCCCCC">python </font>
+
+93
+00:03:38,620 --> 00:03:40,540
+ bahasa <font color="#E5E5E5">tersedia dalam dua versi </font>
+
+94
+00:03:40,540 --> 00:03:43,630
+ <font color="#CCCCCC">Python 3 dan Python 2.7 jadi satu-satunya </font>
+
+95
+00:03:43,630 --> 00:03:45,280
+ <font color="#E5E5E5">perbedaan </font><font color="#CCCCCC">antara </font><font color="#E5E5E5">dua </font><font color="#CCCCCC">versi ini </font>
+
+96
+00:03:45,280 --> 00:03:48,160
+ <font color="#E5E5E5">perbedaan sintaks atau caranya </font>
+
+97
+00:03:48,160 --> 00:03:51,700
+ kami <font color="#CCCCCC">menulis kode sehingga untuk program itu </font><font color="#E5E5E5">kami </font>
+
+98
+00:03:51,700 --> 00:03:54,880
+ harus mengunduh <font color="#E5E5E5">Python 2.7 dan saya ini </font>
+
+99
+00:03:54,880 --> 00:03:56,739
+ sudah <font color="#E5E5E5">mengunduh dan </font><font color="#CCCCCC">menginstal </font>
+
+100
+00:03:56,739 --> 00:03:59,680
+ <font color="#E5E5E5">Python 2.7 di sistem saya </font><font color="#CCCCCC">jadi begitu Anda </font>
+
+101
+00:03:59,680 --> 00:04:01,720
+ instal <font color="#CCCCCC">Python jadi hal berikutnya Anda </font>
+
+102
+00:04:01,720 --> 00:04:04,049
+ <font color="#CCCCCC">harus </font><font color="#E5E5E5">lakukan adalah Anda harus </font><font color="#CCCCCC">men-download yang </font>
+
+103
+00:04:04,049 --> 00:04:07,239
+ <font color="#CCCCCC">File Python yang disebut sebagai Swiss </font>
+
+104
+00:04:07,239 --> 00:04:09,850
+ crypto <font color="#CCCCCC">jadi saya telah membuat </font><font color="#E5E5E5">file </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">dan </font>
+
+105
+00:04:09,850 --> 00:04:12,070
+ beri nama sebagai crypto Swiss <font color="#E5E5E5">dan Anda bisa </font>
+
+106
+00:04:12,070 --> 00:04:14,260
+ unduh file ini dari <font color="#CCCCCC">tautan </font><font color="#E5E5E5">github saya </font>
+
+107
+00:04:14,260 --> 00:04:17,048
+ itu adalah <font color="#CCCCCC">disk dot github.com </font><font color="#E5E5E5">slash </font>
+
+108
+00:04:17,048 --> 00:04:21,339
+ <font color="#CCCCCC">sharath </font><font color="#E5E5E5">kumar 97 jadi biarkan aku klik saja </font>
+
+109
+00:04:21,339 --> 00:04:25,030
+ di <font color="#E5E5E5">sini jadi di sini Anda dapat melihat bahwa </font>
+
+110
+00:04:25,030 --> 00:04:26,950
+ file yang <font color="#E5E5E5">saya buat begitu </font>
+
+111
+00:04:26,950 --> 00:04:28,930
+ nama saya disebut <font color="#E5E5E5">sebagai crypto Swiss </font>
+
+112
+00:04:28,930 --> 00:04:31,540
+ alat dan itu <font color="#E5E5E5">murni ditulis dengan Python </font>
+
+113
+00:04:31,540 --> 00:04:33,490
+ <font color="#CCCCCC">sehingga </font><font color="#E5E5E5">mendukung hashing yang berbeda </font>
+
+114
+00:04:33,490 --> 00:04:34,930
+ algoritma dan <font color="#E5E5E5">enkripsi berbeda </font>
+
+115
+00:04:34,930 --> 00:04:38,140
+ algoritma <font color="#E5E5E5">sehingga kami juga dapat mengirim aman </font>
+
+116
+00:04:38,140 --> 00:04:40,660
+ email <font color="#E5E5E5">dengan mengenkripsi tubuh kita dengan </font>
+
+117
+00:04:40,660 --> 00:04:42,490
+ bantuan <font color="#E5E5E5">kunci pribadi dengan bantuan </font>
+
+118
+00:04:42,490 --> 00:04:44,770
+ alat ini <font color="#E5E5E5">dan skrip ini kompatibel </font>
+
+119
+00:04:44,770 --> 00:04:47,380
+ dengan Python 2.7 
+
+120
+00:04:47,380 --> 00:04:49,690
+ jadi sebelum menjalankan <font color="#E5E5E5">skrip kita harus </font>
+
+121
+00:04:49,690 --> 00:04:52,510
+ menginstal <font color="#E5E5E5">beberapa </font><font color="#CCCCCC">pustaka Python yaitu </font><font color="#E5E5E5">PI </font>
+
+122
+00:04:52,510 --> 00:04:55,660
+ crypto dan TK <font color="#CCCCCC">Intel </font><font color="#E5E5E5">dan semua yang kami miliki </font>
+
+123
+00:04:55,660 --> 00:04:58,150
+ untuk menyelesaikan beberapa masalah dependensi <font color="#E5E5E5">sehingga </font>
+
+124
+00:04:58,150 --> 00:04:59,860
+ jika Anda menghadapi masalah saat berlari 
+
+125
+00:04:59,860 --> 00:05:01,840
+ <font color="#CCCCCC">script </font><font color="#E5E5E5">Anda dapat </font><font color="#CCCCCC">menjangkau </font><font color="#E5E5E5">saya </font><font color="#CCCCCC">di </font>
+
+126
+00:05:01,840 --> 00:05:05,440
+ alamat email ini <font color="#E5E5E5">dan jika saya gulir </font><font color="#CCCCCC">ke bawah </font>
+
+127
+00:05:05,440 --> 00:05:08,560
+ <font color="#E5E5E5">di sini Anda dapat melihat kode Python jadi </font>
+
+128
+00:05:08,560 --> 00:05:13,080
+ mari kita <font color="#E5E5E5">simpan file ini </font><font color="#CCCCCC">klik undian </font>
+
+129
+00:05:13,890 --> 00:05:16,780
+ <font color="#CCCCCC">klik kanan dan klik </font><font color="#E5E5E5">simpan halaman </font><font color="#CCCCCC">s dan </font>
+
+130
+00:05:16,780 --> 00:05:20,320
+ mari kita simpan <font color="#CCCCCC">skrip </font><font color="#E5E5E5">di desktop saya </font>
+
+131
+00:05:20,320 --> 00:05:24,220
+ <font color="#E5E5E5">nama sebagai crypto Swiss jadi jika saya pergi ke </font><font color="#CCCCCC">sini </font>
+
+132
+00:05:24,220 --> 00:05:26,680
+ di desktop saya <font color="#E5E5E5">Anda </font><font color="#CCCCCC">akan melihat </font><font color="#E5E5E5">skrip ini </font>
+
+133
+00:05:26,680 --> 00:05:29,230
+ <font color="#CCCCCC">Crypto Swiss </font><font color="#E5E5E5">dan jika Anda memiliki Python </font>
+
+134
+00:05:29,230 --> 00:05:32,170
+ diinstal dengan benar maka ini akan <font color="#E5E5E5">menjadi </font>
+
+135
+00:05:32,170 --> 00:05:34,510
+ <font color="#CCCCCC">ikon skrip </font><font color="#E5E5E5">dan di sini Anda bisa </font>
+
+136
+00:05:34,510 --> 00:05:36,910
+ melihat bahwa itu <font color="#CCCCCC">file Python yang ditulis begitu </font>
+
+137
+00:05:36,910 --> 00:05:39,490
+ <font color="#E5E5E5">mari </font><font color="#CCCCCC">klik kanan di sini </font><font color="#E5E5E5">dan klik </font>
+
+138
+00:05:39,490 --> 00:05:43,420
+ edit dengan <font color="#CCCCCC">iklan </font><font color="#E5E5E5">ID jadi di sini Anda dapat melihat </font>
+
+139
+00:05:43,420 --> 00:05:45,850
+ seluruh kode sumber <font color="#CCCCCC">dari skrip </font><font color="#E5E5E5">jadi </font>
+
+140
+00:05:45,850 --> 00:05:47,500
+ <font color="#E5E5E5">hal berikutnya yang </font><font color="#CCCCCC">harus </font><font color="#E5E5E5">Anda </font><font color="#CCCCCC">lakukan adalah Anda harus melakukannya </font>
+
+141
+00:05:47,500 --> 00:05:50,530
+ instal <font color="#E5E5E5">PI crypto perpustakaan Python </font>
+
+142
+00:05:50,530 --> 00:05:53,170
+ <font color="#E5E5E5">yang berisi banyak kriptografi </font>
+
+143
+00:05:53,170 --> 00:05:55,360
+ fungsi <font color="#E5E5E5">yang telah saya impor dalam hal ini </font>
+
+144
+00:05:55,360 --> 00:05:58,360
+ skrip <font color="#E5E5E5">sehingga untuk memasang Python apa pun </font>
+
+145
+00:05:58,360 --> 00:06:01,420
+ perpustakaan jadi kita <font color="#CCCCCC">harus pergi ke python </font>
+
+146
+00:06:01,420 --> 00:06:03,040
+ direktori <font color="#CCCCCC">tempat python berada </font>
+
+147
+00:06:03,040 --> 00:06:05,650
+ diinstal <font color="#E5E5E5">sehingga secara default python adalah </font>
+
+148
+00:06:05,650 --> 00:06:08,140
+ dipasang <font color="#E5E5E5">di disk c lokal dan di sini Anda </font>
+
+149
+00:06:08,140 --> 00:06:12,130
+ <font color="#E5E5E5">akan menemukan folder bernama python 27 jadi </font>
+
+150
+00:06:12,130 --> 00:06:14,320
+ biarkan <font color="#CCCCCC">saya membuka ini </font><font color="#E5E5E5">dan di sini Anda akan </font>
+
+151
+00:06:14,320 --> 00:06:16,900
+ <font color="#E5E5E5">temukan satu direktori yang disebut skrip </font>
+
+152
+00:06:16,900 --> 00:06:20,380
+ biarkan <font color="#E5E5E5">saya klik dua kali di </font><font color="#CCCCCC">sini </font><font color="#E5E5E5">jadi setelah kami </font>
+
+153
+00:06:20,380 --> 00:06:23,770
+ di <font color="#E5E5E5">sini </font><font color="#CCCCCC">cukup tekan shift dan kemudian klik </font>
+
+154
+00:06:23,770 --> 00:06:26,110
+ <font color="#CCCCCC">pada tombol kanan mouse </font><font color="#E5E5E5">dan di sini Anda akan melakukannya </font>
+
+155
+00:06:26,110 --> 00:06:27,880
+ <font color="#E5E5E5">lihat satu opsi yang membuka jendela perintah </font>
+
+156
+00:06:27,880 --> 00:06:31,540
+ di sini <font color="#CCCCCC">jadi klik di sini </font><font color="#E5E5E5">dan di sini Anda </font>
+
+157
+00:06:31,540 --> 00:06:33,790
+ <font color="#E5E5E5">akan melihat bahwa </font><font color="#CCCCCC">prompt perintah terbuka </font>
+
+158
+00:06:33,790 --> 00:06:36,550
+ dan di sini adalah jalan di <font color="#CCCCCC">mana kita berada </font>
+
+159
+00:06:36,550 --> 00:06:40,780
+ <font color="#CCCCCC">writin C Python 2.7 </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">sakit </font>
+
+160
+00:06:40,780 --> 00:06:43,780
+ jadi kita punya dua di sini <font color="#E5E5E5">dengan itu </font>
+
+161
+00:06:43,780 --> 00:06:47,830
+ instal diikuti <font color="#E5E5E5">oleh pustaka Python </font>
+
+162
+00:06:47,830 --> 00:06:50,110
+ <font color="#E5E5E5">yang ingin kita instal sehingga pip adalah a </font>
+
+163
+00:06:50,110 --> 00:06:52,840
+ program dengan <font color="#E5E5E5">Python </font><font color="#CCCCCC">yang digunakan untuk </font>
+
+164
+00:06:52,840 --> 00:06:55,240
+ instal <font color="#E5E5E5">pustaka Python yang berbeda </font>
+
+165
+00:06:55,240 --> 00:07:02,200
+ di sini Anda dapat menulis PI crypto jadi <font color="#E5E5E5">saya punya </font>
+
+166
+00:07:02,200 --> 00:07:04,480
+ sudah <font color="#E5E5E5">mengunduh dan menginstal ini </font>
+
+167
+00:07:04,480 --> 00:07:06,610
+ perpustakaan <font color="#E5E5E5">jadi itu persyaratan yang tepat sama </font>
+
+168
+00:07:06,610 --> 00:07:08,800
+ sudah <font color="#CCCCCC">puas </font><font color="#E5E5E5">jadi harus menginstal </font>
+
+169
+00:07:08,800 --> 00:07:11,440
+ spike crypto library dan jika <font color="#E5E5E5">Anda masih </font>
+
+170
+00:07:11,440 --> 00:07:13,390
+ sedang <font color="#CCCCCC">menghadapi beberapa masalah maka Anda </font><font color="#E5E5E5">hanya </font>
+
+171
+00:07:13,390 --> 00:07:15,970
+ merasa <font color="#CCCCCC">bebas </font><font color="#E5E5E5">untuk menjangkau </font><font color="#CCCCCC">saya, jadi biarkan saya </font>
+
+172
+00:07:15,970 --> 00:07:19,230
+ <font color="#E5E5E5">tutup </font><font color="#CCCCCC">saja </font><font color="#E5E5E5">ini mari kita buka ini </font>
+
+173
+00:07:19,230 --> 00:07:22,360
+ <font color="#CCCCCC">ok jadi sekarang </font><font color="#E5E5E5">mari coba </font><font color="#CCCCCC">jalankan skrip ini </font>
+
+174
+00:07:22,360 --> 00:07:24,460
+ <font color="#CCCCCC">jadi </font><font color="#E5E5E5">untuk menjalankannya klik saja </font>
+
+175
+00:07:24,460 --> 00:07:28,480
+ disini <font color="#E5E5E5">jalankan dan jalankan </font><font color="#CCCCCC">modul </font><font color="#E5E5E5">jadi setelah kita jalankan </font>
+
+176
+00:07:28,480 --> 00:07:30,430
+ <font color="#E5E5E5">Di sini Anda akan melihat indah </font>
+
+177
+00:07:30,430 --> 00:07:32,530
+ menu grafis yang mengandung aman 
+
+178
+00:07:32,530 --> 00:07:36,130
+ sistem perpesanan <font color="#E5E5E5">dan banyak mengandung </font>
+
+179
+00:07:36,130 --> 00:07:38,350
+ <font color="#CCCCCC">pilihan di menu yang hash </font>
+
+180
+00:07:38,350 --> 00:07:41,050
+ <font color="#CCCCCC">dekripsi enkripsi konvertor dan </font>
+
+181
+00:07:41,050 --> 00:07:43,960
+ amankan email begitu tapi untuk <font color="#E5E5E5">di video ini </font>
+
+182
+00:07:43,960 --> 00:07:47,650
+ kita akan membahas <font color="#E5E5E5">semua algoritma hashing </font>
+
+183
+00:07:47,650 --> 00:07:50,920
+ bersama dengan <font color="#E5E5E5">satu algoritma enkripsi jadi </font>
+
+184
+00:07:50,920 --> 00:07:53,020
+ mari klik di <font color="#CCCCCC">sini hash </font><font color="#E5E5E5">converter dan </font>
+
+185
+00:07:53,020 --> 00:07:54,880
+ di sini Anda <font color="#E5E5E5">akan menemukan </font><font color="#CCCCCC">hashing yang berbeda </font>
+
+186
+00:07:54,880 --> 00:07:58,750
+ algoritma seperti md5 sha-1 <font color="#CCCCCC">shot </font><font color="#E5E5E5">256 </font>
+
+187
+00:07:58,750 --> 00:08:01,630
+ <font color="#CCCCCC">shopify 112 </font><font color="#E5E5E5">hanya sebagai contoh jika saya </font><font color="#CCCCCC">mengklik </font>
+
+188
+00:08:01,630 --> 00:08:05,410
+ di <font color="#E5E5E5">sini </font><font color="#CCCCCC">md5 dan di sini meminta kita </font><font color="#E5E5E5">untuk </font>
+
+189
+00:08:05,410 --> 00:08:08,160
+ memasukkan data jadi jika saya memasukkan <font color="#E5E5E5">data </font>
+
+190
+00:08:08,160 --> 00:08:11,800
+ <font color="#E5E5E5">halo dan jika saya klik konversi di sini Anda </font>
+
+191
+00:08:11,800 --> 00:08:14,380
+ akan melihat <font color="#E5E5E5">bahwa data hello kami sebenarnya </font>
+
+192
+00:08:14,380 --> 00:08:17,530
+ <font color="#E5E5E5">diubah menjadi md5 hash dan di sini Anda bisa </font>
+
+193
+00:08:17,530 --> 00:08:22,180
+ <font color="#E5E5E5">temukan hash hello dan di belakang </font>
+
+194
+00:08:22,180 --> 00:08:24,160
+ skrip Anda bisa <font color="#E5E5E5">lihat di sini bahwa di </font>
+
+195
+00:08:24,160 --> 00:08:26,170
+ Python <font color="#CCCCCC">shell </font><font color="#E5E5E5">hash of hello adalah </font>
+
+196
+00:08:26,170 --> 00:08:29,440
+ dibuat dan Anda <font color="#CCCCCC">dapat menyalinnya </font><font color="#E5E5E5">dari sini jadi </font>
+
+197
+00:08:29,440 --> 00:08:31,270
+ seperti yang saya <font color="#CCCCCC">katakan sebelumnya </font><font color="#E5E5E5">bahwa hashing itu </font>
+
+198
+00:08:31,270 --> 00:08:33,729
+ <font color="#E5E5E5">konversi satu arah yang dulu kita bisa </font>
+
+199
+00:08:33,729 --> 00:08:36,340
+ <font color="#CCCCCC">perhatikan teks kami menjadi hash, </font><font color="#E5E5E5">kami tidak </font>
+
+200
+00:08:36,340 --> 00:08:39,220
+ mampu mengambil <font color="#CCCCCC">teks kita kembali </font><font color="#E5E5E5">jadi </font>
+
+201
+00:08:39,220 --> 00:08:41,110
+ tergantung pada <font color="#E5E5E5">hashing algoritma Anda </font>
+
+202
+00:08:41,110 --> 00:08:45,010
+ menggunakan <font color="#E5E5E5">Anda akan mendapatkan </font><font color="#CCCCCC">hash yang </font><font color="#E5E5E5">rumit </font>
+
+203
+00:08:45,010 --> 00:08:47,230
+ hanya sebagai contoh <font color="#CCCCCC">mari kita </font><font color="#E5E5E5">coba konversi </font>
+
+204
+00:08:47,230 --> 00:08:51,370
+ <font color="#CCCCCC">teks kami dengan menggunakan sha-1 </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">mari kita coba </font>
+
+205
+00:08:51,370 --> 00:08:53,110
+ mengkonversi di sini sinar matahari mari kita coba 
+
+206
+00:08:53,110 --> 00:08:54,430
+ sesuatu di sini disebut sebagai 
+
+207
+00:08:54,430 --> 00:08:57,430
+ klik pada konversi dan <font color="#E5E5E5">Anda akan melihat itu </font>
+
+208
+00:08:57,430 --> 00:09:00,670
+ kami <font color="#E5E5E5">sekarang kali ini kami mendapat hash tapi itu </font>
+
+209
+00:09:00,670 --> 00:09:04,630
+ sedikit lebih panjang dari md5 <font color="#E5E5E5">dan Anda </font>
+
+210
+00:09:04,630 --> 00:09:06,850
+ bahkan dapat <font color="#E5E5E5">membuat hash terpanjang dengan menggunakan </font>
+
+211
+00:09:06,850 --> 00:09:09,820
+ algoritma ini <font color="#CCCCCC">Shopify 112 </font><font color="#E5E5E5">yaitu 500 </font>
+
+212
+00:09:09,820 --> 00:09:13,089
+ <font color="#CCCCCC">dolar dan mari kita </font><font color="#E5E5E5">coba </font><font color="#CCCCCC">untuk mengubah teks ini </font>
+
+213
+00:09:13,089 --> 00:09:15,970
+ <font color="#E5E5E5">hanya </font><font color="#CCCCCC">dengan </font><font color="#E5E5E5">menggunakan Shopify 112 dan jika saya klik </font>
+
+214
+00:09:15,970 --> 00:09:18,610
+ <font color="#E5E5E5">pada konversi Anda akan melihat bahwa kami mendapat </font>
+
+215
+00:09:18,610 --> 00:09:21,760
+ <font color="#E5E5E5">hash yang sangat panjang Anda bisa lihat di sini </font>
+
+216
+00:09:21,760 --> 00:09:24,850
+ hashing value dan jika saya <font color="#CCCCCC">kembali ke </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">Anda </font>
+
+217
+00:09:24,850 --> 00:09:27,130
+ akan melihat <font color="#E5E5E5">bahwa </font><font color="#CCCCCC">koki saya memenangkan 12 potong </font>
+
+218
+00:09:27,130 --> 00:09:31,149
+ <font color="#CCCCCC">teks itu sehingga Anda </font><font color="#E5E5E5">juga dapat menggunakan alat ini </font>
+
+219
+00:09:31,149 --> 00:09:33,370
+ <font color="#E5E5E5">untuk menyimpan kata sandi di Anda </font>
+
+220
+00:09:33,370 --> 00:09:37,270
+ <font color="#E5E5E5">database dalam hash </font><font color="#CCCCCC">jadi ini semua </font><font color="#E5E5E5">tentang </font>
+
+221
+00:09:37,270 --> 00:09:39,700
+ <font color="#E5E5E5">hashing algorithms sekarang mari kita bahas </font>
+
+222
+00:09:39,700 --> 00:09:42,190
+ enkripsi <font color="#E5E5E5">bahwa cara kerja enkripsi begitu </font>
+
+223
+00:09:42,190 --> 00:09:44,830
+ <font color="#E5E5E5">seperti yang saya katakan </font><font color="#CCCCCC">sebelumnya bahwa untuk </font>
+
+224
+00:09:44,830 --> 00:09:47,140
+ mengenkripsi data kita <font color="#CCCCCC">harus </font><font color="#E5E5E5">menambahkan satu kunci </font>
+
+225
+00:09:47,140 --> 00:09:49,540
+ dan <font color="#E5E5E5">untuk</font><font color="#CCCCCC"> mendekripsi data yang </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">miliki </font>
+
+226
+00:09:49,540 --> 00:09:51,490
+ <font color="#E5E5E5">untuk menambahkan kunci yang sama tergantung pada </font>
+
+227
+00:09:51,490 --> 00:09:54,100
+ algoritma enkripsi yang kami <font color="#E5E5E5">gunakan jadi </font><font color="#CCCCCC">mari </font>
+
+228
+00:09:54,100 --> 00:09:58,209
+ <font color="#CCCCCC">kita jalankan file ini lagi dan sekarang </font><font color="#E5E5E5">kali ini </font>
+
+229
+00:09:58,209 --> 00:10:01,209
+ mari kita <font color="#CCCCCC">pergi ke sini untuk enkripsi, </font><font color="#E5E5E5">biarkan kami </font>
+
+230
+00:10:01,209 --> 00:10:02,520
+ klik di sini enkripsi simetris 
+
+231
+00:10:02,520 --> 00:10:07,150
+ <font color="#E5E5E5">block cipher dan dalam video ini </font><font color="#CCCCCC">mari </font>
+
+232
+00:10:07,150 --> 00:10:10,060
+ <font color="#E5E5E5">berkonsentrasi </font><font color="#CCCCCC">pada </font><font color="#E5E5E5">stream cipher ini dan </font>
+
+233
+00:10:10,060 --> 00:10:11,680
+ <font color="#E5E5E5">mari kita pilih algoritma ini </font>
+
+234
+00:10:11,680 --> 00:10:14,800
+ seafood <font color="#CCCCCC">yang </font><font color="#E5E5E5">merupakan </font><font color="#CCCCCC">driver </font><font color="#E5E5E5">cipher </font><font color="#CCCCCC">4 jadi ini </font>
+
+235
+00:10:14,800 --> 00:10:16,930
+ semua jenis <font color="#E5E5E5">algoritma yang berbeda </font><font color="#CCCCCC">saya akan </font>
+
+236
+00:10:16,930 --> 00:10:18,970
+ menjelaskan <font color="#CCCCCC">Anda di video berikutnya tetapi </font><font color="#E5E5E5">untuk </font>
+
+237
+00:10:18,970 --> 00:10:21,190
+ <font color="#E5E5E5">Demi video ini, </font><font color="#CCCCCC">mari kita pertimbangkan </font>
+
+238
+00:10:21,190 --> 00:10:24,160
+ di sini jadi itu meminta <font color="#CCCCCC">kita untuk </font><font color="#E5E5E5">kunci dan </font>
+
+239
+00:10:24,160 --> 00:10:27,120
+ data yang akan dikonversi jadi yang pertama 
+
+240
+00:10:27,120 --> 00:10:30,610
+ <font color="#E5E5E5">masukan bidang mari kita tulis di sini rahasianya </font>
+
+241
+00:10:30,610 --> 00:10:35,230
+ kunci dan kunci rahasia kami <font color="#E5E5E5">adalah Anda bisa </font>
+
+242
+00:10:35,230 --> 00:10:37,390
+ tulis di sini sesuatu <font color="#E5E5E5">seperti rahasia 1 2 3 4 </font>
+
+243
+00:10:37,390 --> 00:10:39,730
+ 5 <font color="#E5E5E5">jadi kunci rahasianya </font><font color="#CCCCCC">hanya saja </font>
+
+244
+00:10:39,730 --> 00:10:42,160
+ <font color="#E5E5E5">seperti kata sandi, </font><font color="#CCCCCC">begitu kami menambahkan </font>
+
+245
+00:10:42,160 --> 00:10:44,829
+ <font color="#CCCCCC">kunci rahasia di </font><font color="#E5E5E5">sini kita harus menambahkan data kami </font>
+
+246
+00:10:44,829 --> 00:10:47,230
+ yang kami ingin <font color="#E5E5E5">mengenkripsi jadi mari kita tambahkan </font>
+
+247
+00:10:47,230 --> 00:10:53,260
+ di sini mari kita tambahkan di sini sembarang <font color="#E5E5E5">string acak </font>
+
+248
+00:10:53,260 --> 00:10:55,870
+ itu <font color="#CCCCCC">adalah kata sandi dari Facebook klik </font>
+
+249
+00:10:55,870 --> 00:10:58,510
+ mengkonversi dan di sini Anda <font color="#E5E5E5">akan melihat bahwa </font><font color="#CCCCCC">kita </font>
+
+250
+00:10:58,510 --> 00:11:01,630
+ mendapat <font color="#E5E5E5">teks terenkripsi kami dan teks ini </font>
+
+251
+00:11:01,630 --> 00:11:04,690
+ dalam bentuk nilai hex jadi di sini <font color="#E5E5E5">Anda bisa </font>
+
+252
+00:11:04,690 --> 00:11:06,760
+ lihat bahwa <font color="#E5E5E5">teks terenkripsi kami atau kami bisa </font>
+
+253
+00:11:06,760 --> 00:11:07,960
+ mengatakan <font color="#E5E5E5">bahwa itu sudah berakhir </font>
+
+254
+00:11:07,960 --> 00:11:10,630
+ cyphertext karena dienkripsi sekarang 
+
+255
+00:11:10,630 --> 00:11:13,270
+ <font color="#E5E5E5">untuk mendekripsi teks ini kami </font><font color="#CCCCCC">menginginkan ini </font>
+
+256
+00:11:13,270 --> 00:11:15,670
+ <font color="#E5E5E5">teks terenkripsi dan bersama </font><font color="#CCCCCC">dengan </font><font color="#E5E5E5">kunci ini </font>
+
+257
+00:11:15,670 --> 00:11:18,399
+ jadi <font color="#CCCCCC">sekarang mari kita coba </font><font color="#E5E5E5">dekripsi teks ini </font>
+
+258
+00:11:18,399 --> 00:11:20,320
+ klik pada deskripsi <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">dapat mengambil </font>
+
+259
+00:11:20,320 --> 00:11:21,760
+ enkripsi <font color="#E5E5E5">dan kami harus memilih </font>
+
+260
+00:11:21,760 --> 00:11:24,820
+ algoritma yang sama yang telah kami gunakan sementara 
+
+261
+00:11:24,820 --> 00:11:28,720
+ <font color="#E5E5E5">mengenkripsi jadi di sini </font><font color="#CCCCCC">Masukkan kunci untuk mendekripsi </font>
+
+262
+00:11:28,720 --> 00:11:35,470
+ <font color="#E5E5E5">jadi kunci kami adalah rahasia satu dua tiga empat </font>
+
+263
+00:11:35,470 --> 00:11:38,410
+ <font color="#E5E5E5">lima dan mari kita salin ini dienkripsi </font>
+
+264
+00:11:38,410 --> 00:11:42,190
+ <font color="#CCCCCC">teks dari sini mari </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">kembali </font><font color="#E5E5E5">mari kita </font><font color="#CCCCCC">simpan </font>
+
+265
+00:11:42,190 --> 00:11:45,190
+ teks ini klik <font color="#CCCCCC">ok </font><font color="#E5E5E5">dan di sini Anda akan </font>
+
+266
+00:11:45,190 --> 00:11:48,370
+ <font color="#E5E5E5">lihat bahwa kami mendapat </font><font color="#CCCCCC">teks </font><font color="#E5E5E5">normal </font><font color="#CCCCCC">kembali </font>
+
+267
+00:11:48,370 --> 00:11:50,500
+ itu kata sandi <font color="#E5E5E5">Facebook dan jika saya </font>
+
+268
+00:11:50,500 --> 00:11:53,080
+ <font color="#CCCCCC">kembali </font><font color="#E5E5E5">ke shell Python yang akan Anda lihat </font>
+
+269
+00:11:53,080 --> 00:11:55,839
+ di sini <font color="#CCCCCC">bahwa teks yang didekripsi adalah </font>
+
+270
+00:11:55,839 --> 00:11:57,430
+ <font color="#E5E5E5">kata sandi Facebook yang kami miliki </font>
+
+271
+00:11:57,430 --> 00:12:01,839
+ masuk <font color="#E5E5E5">saat enkripsi jadi ini caranya </font>
+
+272
+00:12:01,839 --> 00:12:04,600
+ dekripsi enkripsi normal <font color="#E5E5E5">dan </font>
+
+273
+00:12:04,600 --> 00:12:07,630
+ algoritma hashing berfungsi <font color="#E5E5E5">sekarang mari kita coba </font>
+
+274
+00:12:07,630 --> 00:12:11,770
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">mengubah sedikit </font><font color="#E5E5E5">modifikasi </font><font color="#CCCCCC">di </font>
+
+275
+00:12:11,770 --> 00:12:14,140
+ <font color="#E5E5E5">data terenkripsi </font><font color="#CCCCCC">jadi di sini Anda </font><font color="#E5E5E5">dapat melihat itu </font>
+
+276
+00:12:14,140 --> 00:12:17,380
+ jika <font color="#E5E5E5">saya masukkan hanya </font><font color="#CCCCCC">satu</font><font color="#E5E5E5"> kata di sini seperti </font>
+
+277
+00:12:17,380 --> 00:12:22,089
+ <font color="#E5E5E5">P dan jika saya mengubah satu </font><font color="#CCCCCC">jumlah </font><font color="#E5E5E5">kunci menjadi </font>
+
+278
+00:12:22,089 --> 00:12:24,339
+ sesuatu yang acak <font color="#E5E5E5">dan jika saya mengklik </font><font color="#CCCCCC">OK </font>
+
+279
+00:12:24,339 --> 00:12:26,260
+ <font color="#CCCCCC">di sini Anda </font><font color="#E5E5E5">akan melihat bahwa itu akan memberi kita </font>
+
+280
+00:12:26,260 --> 00:12:29,200
+ <font color="#E5E5E5">kesalahan string panjang aneh yang </font>
+
+281
+00:12:29,200 --> 00:12:32,770
+ <font color="#E5E5E5">artinya kuncinya harus sama sementara </font>
+
+282
+00:12:32,770 --> 00:12:35,680
+ enkripsi data <font color="#E5E5E5">dan data yang kami </font>
+
+283
+00:12:35,680 --> 00:12:37,750
+ dapatkan setelah <font color="#E5E5E5">enkripsi harus menjadi </font>
+
+284
+00:12:37,750 --> 00:12:42,220
+ sama sehingga dalam video ini <font color="#E5E5E5">kita </font><font color="#CCCCCC">telah membahas </font>
+
+285
+00:12:42,220 --> 00:12:43,779
+ <font color="#E5E5E5">apa itu kriptografi </font>
+
+286
+00:12:43,779 --> 00:12:45,850
+ apa yang hashing algoritma dan <font color="#CCCCCC">virtus </font>
+
+287
+00:12:45,850 --> 00:12:48,490
+ <font color="#E5E5E5">enkripsi dan kami melihat satu </font>
+
+288
+00:12:48,490 --> 00:12:50,500
+ Program Python yang bisa kita gunakan <font color="#E5E5E5">secara berurutan </font>
+
+289
+00:12:50,500 --> 00:12:52,959
+ untuk mengenkripsi sesuatu tahunan untuk 
+
+290
+00:12:52,959 --> 00:12:55,690
+ lihat <font color="#CCCCCC">bagaimana hashing </font><font color="#E5E5E5">berfungsi, terima kasih </font>
+
+291
+00:12:55,690 --> 00:00:00,000
+ menonton video ini 
+

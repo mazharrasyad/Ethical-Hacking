@@ -1,0 +1,1012 @@
+1
+00:00:00,060 --> 00:00:02,580
+hello everyone in<font color="#CCCCCC"> this video we'll</font><font color="#E5E5E5"> start</font>
+
+2
+00:00:02,580 --> 00:00:04,500
+with the first<font color="#E5E5E5"> topic of Windows hacking</font>
+
+3
+00:00:04,500 --> 00:00:06,930
+<font color="#E5E5E5">that is Windows</font><font color="#CCCCCC"> password storage policy</font>
+
+4
+00:00:06,930 --> 00:00:08,970
+<font color="#E5E5E5">so before getting into</font><font color="#CCCCCC"> windows hacking</font>
+
+5
+00:00:08,970 --> 00:00:11,460
+we must know that<font color="#E5E5E5"> how</font><font color="#CCCCCC"> windows store ever</font>
+
+6
+00:00:11,460 --> 00:00:13,230
+<font color="#E5E5E5">password so Windows operating system</font>
+
+7
+00:00:13,230 --> 00:00:14,730
+stores our password in the form of
+
+8
+00:00:14,730 --> 00:00:17,100
+hashes and these passwords are present
+
+9
+00:00:17,100 --> 00:00:20,189
+<font color="#E5E5E5">inside Sam</font><font color="#CCCCCC"> files so the Sam file stands</font>
+
+10
+00:00:20,189 --> 00:00:22,800
+for a system account manager<font color="#E5E5E5"> and this</font>
+
+11
+00:00:22,800 --> 00:00:24,980
+file<font color="#E5E5E5"> is responsible for containing</font><font color="#CCCCCC"> our</font>
+
+12
+00:00:24,980 --> 00:00:27,750
+password<font color="#E5E5E5"> so the directory in which this</font>
+
+13
+00:00:27,750 --> 00:00:30,449
+file<font color="#CCCCCC"> Sam file is present is</font><font color="#E5E5E5"> here you can</font>
+
+14
+00:00:30,449 --> 00:00:33,809
+<font color="#E5E5E5">see it's a C local disk C</font><font color="#CCCCCC"> Windows then</font>
+
+15
+00:00:33,809 --> 00:00:37,469
+<font color="#E5E5E5">system 32 config</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> Sam so we can find</font>
+
+16
+00:00:37,469 --> 00:00:40,739
+this file<font color="#E5E5E5"> Sam file in this directory</font><font color="#CCCCCC"> now</font>
+
+17
+00:00:40,739 --> 00:00:43,020
+let's talk<font color="#CCCCCC"> about some features or affect</font>
+
+18
+00:00:43,020 --> 00:00:46,079
+about Sam file so the Sam file system
+
+19
+00:00:46,079 --> 00:00:47,730
+<font color="#E5E5E5">account manager is one of the most</font>
+
+20
+00:00:47,730 --> 00:00:49,469
+secure file in Windows operating system
+
+21
+00:00:49,469 --> 00:00:51,750
+so why it<font color="#E5E5E5"> is more secure file now let's</font>
+
+22
+00:00:51,750 --> 00:00:52,800
+<font color="#CCCCCC">talk about</font><font color="#E5E5E5"> it</font>
+
+23
+00:00:52,800 --> 00:00:55,649
+so<font color="#E5E5E5"> the</font><font color="#CCCCCC"> San</font><font color="#E5E5E5"> files can't be opened can't</font>
+
+24
+00:00:55,649 --> 00:00:58,350
+be edited<font color="#CCCCCC"> and can't be</font><font color="#E5E5E5"> copied if the</font>
+
+25
+00:00:58,350 --> 00:00:59,430
+Windows operating system is running
+
+26
+00:00:59,430 --> 00:01:01,620
+<font color="#CCCCCC">which means if we are using a Windows</font>
+
+27
+00:01:01,620 --> 00:01:04,080
+<font color="#CCCCCC">operating system then we can't copy this</font>
+
+28
+00:01:04,080 --> 00:01:06,330
+file<font color="#E5E5E5"> we can't open this file and</font><font color="#CCCCCC"> we</font>
+
+29
+00:01:06,330 --> 00:01:08,549
+can't even<font color="#E5E5E5"> edit this file so this is the</font>
+
+30
+00:01:08,549 --> 00:01:10,590
+first<font color="#CCCCCC"> security feature of this</font><font color="#E5E5E5"> file then</font>
+
+31
+00:01:10,590 --> 00:01:12,930
+<font color="#E5E5E5">the next feature is because we know that</font>
+
+32
+00:01:12,930 --> 00:01:15,119
+this<font color="#E5E5E5"> Sam file contains the password in</font>
+
+33
+00:01:15,119 --> 00:01:17,460
+the form of hashes<font color="#E5E5E5"> so what we can do we</font>
+
+34
+00:01:17,460 --> 00:01:19,530
+<font color="#CCCCCC">can</font><font color="#E5E5E5"> over crypt this file in order to</font>
+
+35
+00:01:19,530 --> 00:01:21,810
+make it more secure<font color="#E5E5E5"> so you can see here</font>
+
+36
+00:01:21,810 --> 00:01:24,060
+<font color="#E5E5E5">that it can be over kept by</font><font color="#CCCCCC"> Windows</font>
+
+37
+00:01:24,060 --> 00:01:26,700
+using special features so these are the
+
+38
+00:01:26,700 --> 00:01:29,549
+two<font color="#CCCCCC"> security features of</font><font color="#E5E5E5"> San file but in</font>
+
+39
+00:01:29,549 --> 00:01:32,100
+order to<font color="#E5E5E5"> find the</font><font color="#CCCCCC"> password from the</font><font color="#E5E5E5"> Sam</font>
+
+40
+00:01:32,100 --> 00:01:34,590
+file or in order<font color="#E5E5E5"> to see that what</font><font color="#CCCCCC"> is the</font>
+
+41
+00:01:34,590 --> 00:01:36,509
+content which is present inside the Sam
+
+42
+00:01:36,509 --> 00:01:38,850
+file we need one<font color="#CCCCCC"> more file that is</font>
+
+43
+00:01:38,850 --> 00:01:40,770
+called a<font color="#E5E5E5"> system so the system file</font>
+
+44
+00:01:40,770 --> 00:01:43,680
+actually<font color="#E5E5E5"> contains key which is used in</font>
+
+45
+00:01:43,680 --> 00:01:46,799
+order to<font color="#E5E5E5"> see the content of Sam</font><font color="#CCCCCC"> files</font><font color="#E5E5E5"> so</font>
+
+46
+00:01:46,799 --> 00:01:49,320
+as a hacker<font color="#E5E5E5"> we need two files the first</font>
+
+47
+00:01:49,320 --> 00:01:51,450
+<font color="#E5E5E5">one is Sam file then the second one is</font>
+
+48
+00:01:51,450 --> 00:01:53,820
+system<font color="#E5E5E5"> file in order</font><font color="#CCCCCC"> to find password</font>
+
+49
+00:01:53,820 --> 00:01:56,430
+from<font color="#CCCCCC"> the Sam fight so these all things</font>
+
+50
+00:01:56,430 --> 00:01:59,670
+make a<font color="#E5E5E5"> Sam a good</font><font color="#CCCCCC"> account manager so now</font>
+
+51
+00:01:59,670 --> 00:02:01,469
+let's see how we can copy the Sam file
+
+52
+00:02:01,469 --> 00:02:03,840
+and can crack or find the<font color="#CCCCCC"> passwords from</font>
+
+53
+00:02:03,840 --> 00:02:07,350
+<font color="#E5E5E5">Sam file in our system now</font><font color="#CCCCCC"> let's copy</font>
+
+54
+00:02:07,350 --> 00:02:09,750
+<font color="#E5E5E5">Sam and system file in order to find</font>
+
+55
+00:02:09,750 --> 00:02:12,840
+password of a particular user<font color="#CCCCCC"> so I'm</font>
+
+56
+00:02:12,840 --> 00:02:13,560
+<font color="#E5E5E5">using Windows</font>
+
+57
+00:02:13,560 --> 00:02:15,450
+<font color="#CCCCCC">címon operating system in my virtual</font><font color="#E5E5E5"> box</font>
+
+58
+00:02:15,450 --> 00:02:17,730
+so<font color="#E5E5E5"> you can see here so the reason behind</font>
+
+59
+00:02:17,730 --> 00:02:19,680
+it<font color="#CCCCCC"> that I'm using this</font><font color="#E5E5E5"> window</font><font color="#CCCCCC"> salmon</font>
+
+60
+00:02:19,680 --> 00:02:22,080
+<font color="#E5E5E5">boarding system because in Windows 8</font><font color="#CCCCCC"> and</font>
+
+61
+00:02:22,080 --> 00:02:24,599
+Windows<font color="#E5E5E5"> 10 the way Microsoft stores</font>
+
+62
+00:02:24,599 --> 00:02:27,239
+passwords<font color="#E5E5E5"> in window is totally changed</font>
+
+63
+00:02:27,239 --> 00:02:29,520
+due<font color="#CCCCCC"> to</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> association of Microsoft</font>
+
+64
+00:02:29,520 --> 00:02:31,290
+account<font color="#CCCCCC"> so that's why I'm choosing this</font>
+
+65
+00:02:31,290 --> 00:02:32,940
+<font color="#CCCCCC">Windows 7 operating system</font><font color="#E5E5E5"> as my first</font>
+
+66
+00:02:32,940 --> 00:02:36,480
+target<font color="#E5E5E5"> well I told you</font><font color="#CCCCCC"> earlier that</font><font color="#E5E5E5"> the</font>
+
+67
+00:02:36,480 --> 00:02:38,069
+Sam file contains the passwords<font color="#E5E5E5"> and</font>
+
+68
+00:02:38,069 --> 00:02:39,989
+there is one more<font color="#CCCCCC"> file called a system</font>
+
+69
+00:02:39,989 --> 00:02:42,930
+which contains the key to open that<font color="#E5E5E5"> Sam</font>
+
+70
+00:02:42,930 --> 00:02:45,510
+file and one more thing I<font color="#CCCCCC"> told you that</font>
+
+71
+00:02:45,510 --> 00:02:47,040
+<font color="#E5E5E5">we can't copy a</font><font color="#CCCCCC"> SAM file</font>
+
+72
+00:02:47,040 --> 00:02:49,709
+<font color="#E5E5E5">we can't edit it and we can't modify</font><font color="#CCCCCC"> the</font>
+
+73
+00:02:49,709 --> 00:02:51,959
+<font color="#E5E5E5">same file when the system is</font><font color="#CCCCCC"> running</font><font color="#E5E5E5"> but</font>
+
+74
+00:02:51,959 --> 00:02:54,480
+is there any way<font color="#E5E5E5"> so that we can export</font>
+
+75
+00:02:54,480 --> 00:03:00,090
+the same file<font color="#CCCCCC"> yes there is so what we</font>
+
+76
+00:03:00,090 --> 00:03:02,580
+have to do is in the just run bar<font color="#E5E5E5"> just</font>
+
+77
+00:03:02,580 --> 00:03:06,390
+right here<font color="#CCCCCC"> regedit and click on yes</font><font color="#E5E5E5"> so</font>
+
+78
+00:03:06,390 --> 00:03:08,700
+this<font color="#E5E5E5"> will open a registry editor for us</font>
+
+79
+00:03:08,700 --> 00:03:10,380
+so here you can see that the registry
+
+80
+00:03:10,380 --> 00:03:12,510
+<font color="#CCCCCC">editor so then we have to go here to the</font>
+
+81
+00:03:12,510 --> 00:03:15,090
+<font color="#CCCCCC">H key local machine</font><font color="#E5E5E5"> and here you can see</font>
+
+82
+00:03:15,090 --> 00:03:17,459
+there are two<font color="#CCCCCC"> folders or the files</font><font color="#E5E5E5"> Sam</font>
+
+83
+00:03:17,459 --> 00:03:20,250
+and system<font color="#E5E5E5"> so what we can do is we can</font>
+
+84
+00:03:20,250 --> 00:03:23,280
+export<font color="#E5E5E5"> both of them so</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> right click</font>
+
+85
+00:03:23,280 --> 00:03:25,500
+<font color="#CCCCCC">over here</font><font color="#E5E5E5"> click on export you have to</font>
+
+86
+00:03:25,500 --> 00:03:28,230
+give a location<font color="#E5E5E5"> so just right here Sam</font>
+
+87
+00:03:28,230 --> 00:03:30,540
+<font color="#E5E5E5">and here we have to do little</font>
+
+88
+00:03:30,540 --> 00:03:32,519
+<font color="#E5E5E5">modification we have to change its type</font>
+
+89
+00:03:32,519 --> 00:03:35,579
+<font color="#E5E5E5">to registry hi files click on save</font><font color="#CCCCCC"> and</font>
+
+90
+00:03:35,579 --> 00:03:37,560
+<font color="#CCCCCC">you will see here that on my desktop</font>
+
+91
+00:03:37,560 --> 00:03:40,200
+assign file is exported
+
+92
+00:03:40,200 --> 00:03:43,250
+similarly<font color="#E5E5E5"> knowledge export system file</font>
+
+93
+00:03:43,250 --> 00:03:45,840
+<font color="#E5E5E5">click on export so we have to give right</font>
+
+94
+00:03:45,840 --> 00:03:49,440
+the same name system and we have<font color="#E5E5E5"> to</font>
+
+95
+00:03:49,440 --> 00:03:51,090
+change the file type also<font color="#CCCCCC"> to the</font>
+
+96
+00:03:51,090 --> 00:03:53,130
+registry hi files click<font color="#E5E5E5"> on save so you</font>
+
+97
+00:03:53,130 --> 00:03:54,690
+can see here that<font color="#CCCCCC"> the system</font><font color="#E5E5E5"> file and</font>
+
+98
+00:03:54,690 --> 00:03:59,010
+the<font color="#E5E5E5"> Sam file is present</font><font color="#CCCCCC"> now what we have</font>
+
+99
+00:03:59,010 --> 00:04:00,930
+<font color="#CCCCCC">to do is in order</font><font color="#E5E5E5"> to open these files</font>
+
+100
+00:04:00,930 --> 00:04:03,150
+<font color="#E5E5E5">and in order to crack and find the</font>
+
+101
+00:04:03,150 --> 00:04:05,250
+passwords inside<font color="#E5E5E5"> them we have to</font>
+
+102
+00:04:05,250 --> 00:04:09,450
+<font color="#E5E5E5">download</font><font color="#CCCCCC"> one tool</font><font color="#E5E5E5"> that is</font><font color="#CCCCCC"> called as kan</font>
+
+103
+00:04:09,450 --> 00:04:11,489
+and<font color="#CCCCCC"> Abel so you can download this tool</font>
+
+104
+00:04:11,489 --> 00:04:14,910
+<font color="#E5E5E5">from here from</font><font color="#CCCCCC"> oxide I T and Cain so</font>
+
+105
+00:04:14,910 --> 00:04:17,190
+this tool<font color="#CCCCCC"> is very powerful tool in order</font>
+
+106
+00:04:17,190 --> 00:04:19,950
+<font color="#E5E5E5">to do cracking and we can also do some</font>
+
+107
+00:04:19,950 --> 00:04:22,890
+wireless attacks<font color="#E5E5E5"> by using this tool so</font>
+
+108
+00:04:22,890 --> 00:04:24,690
+just click over<font color="#E5E5E5"> here download Cain and</font>
+
+109
+00:04:24,690 --> 00:04:26,849
+Abel<font color="#E5E5E5"> for</font><font color="#CCCCCC"> a Windows and I have already</font>
+
+110
+00:04:26,849 --> 00:04:27,530
+<font color="#E5E5E5">downloaded this</font>
+
+111
+00:04:27,530 --> 00:04:29,150
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> my Windows operating system so you</font>
+
+112
+00:04:29,150 --> 00:04:31,400
+can<font color="#E5E5E5"> see it here now let's install this</font>
+
+113
+00:04:31,400 --> 00:04:33,460
+tool
+
+114
+00:04:47,169 --> 00:04:49,850
+so this tool requires<font color="#E5E5E5"> also additional</font>
+
+115
+00:04:49,850 --> 00:04:52,490
+there are<font color="#E5E5E5"> drivers</font><font color="#CCCCCC"> of WinPcap</font><font color="#E5E5E5"> so you also</font>
+
+116
+00:04:52,490 --> 00:04:54,080
+have<font color="#E5E5E5"> to download it</font><font color="#CCCCCC"> and install this</font>
+
+117
+00:04:54,080 --> 00:04:57,410
+software<font color="#CCCCCC"> wind</font><font color="#E5E5E5"> pcap click on finish</font>
+
+118
+00:04:57,410 --> 00:05:00,130
+<font color="#E5E5E5">and here you can see that on my desktop</font>
+
+119
+00:05:00,130 --> 00:05:02,900
+<font color="#E5E5E5">the tool icon</font><font color="#CCCCCC"> is present</font><font color="#E5E5E5"> so let me just</font>
+
+120
+00:05:02,900 --> 00:05:04,850
+open<font color="#E5E5E5"> it up and it requires</font><font color="#CCCCCC"> an</font>
+
+121
+00:05:04,850 --> 00:05:07,280
+administrative privileges<font color="#E5E5E5"> and when every</font>
+
+122
+00:05:07,280 --> 00:05:09,290
+time<font color="#CCCCCC"> you start this tool this</font><font color="#E5E5E5"> will give</font>
+
+123
+00:05:09,290 --> 00:05:11,690
+you<font color="#E5E5E5"> this warning that Windows Firewall</font>
+
+124
+00:05:11,690 --> 00:05:14,210
+is<font color="#CCCCCC"> enabled so</font><font color="#E5E5E5"> you have we just have to</font>
+
+125
+00:05:14,210 --> 00:05:17,510
+<font color="#CCCCCC">ignore this click on ok and</font><font color="#E5E5E5"> here you can</font>
+
+126
+00:05:17,510 --> 00:05:20,660
+see the main menu<font color="#E5E5E5"> of</font><font color="#CCCCCC"> this tool</font><font color="#E5E5E5"> there are</font>
+
+127
+00:05:20,660 --> 00:05:22,970
+<font color="#E5E5E5">a lot of sections like decoders</font><font color="#CCCCCC"> network</font>
+
+128
+00:05:22,970 --> 00:05:25,700
+sniffers crackers we can even trace a
+
+129
+00:05:25,700 --> 00:05:28,190
+particular trace route then wireless and
+
+130
+00:05:28,190 --> 00:05:31,010
+<font color="#E5E5E5">Kure so but for the time being</font><font color="#CCCCCC"> we are</font>
+
+131
+00:05:31,010 --> 00:05:33,919
+<font color="#E5E5E5">interested</font><font color="#CCCCCC"> here</font><font color="#E5E5E5"> in the cracker and as I</font>
+
+132
+00:05:33,919 --> 00:05:36,350
+told<font color="#CCCCCC"> you earlier that</font><font color="#E5E5E5"> in Sam file our</font>
+
+133
+00:05:36,350 --> 00:05:38,300
+<font color="#CCCCCC">Windows passwords are stored in the form</font>
+
+134
+00:05:38,300 --> 00:05:41,479
+of LM and ntlm hashes<font color="#E5E5E5"> so once we are</font>
+
+135
+00:05:41,479 --> 00:05:44,450
+<font color="#E5E5E5">here inside the cracker menu we</font><font color="#CCCCCC"> have to</font>
+
+136
+00:05:44,450 --> 00:05:46,789
+<font color="#E5E5E5">select this one LM and ntlm hashes</font><font color="#CCCCCC"> so</font>
+
+137
+00:05:46,789 --> 00:05:51,590
+<font color="#CCCCCC">once we</font><font color="#E5E5E5"> click over here</font><font color="#CCCCCC"> and then we have</font>
+
+138
+00:05:51,590 --> 00:05:53,990
+to click over<font color="#E5E5E5"> here this plus icon in</font>
+
+139
+00:05:53,990 --> 00:05:56,030
+order<font color="#CCCCCC"> to add a Sam database</font><font color="#E5E5E5"> along</font><font color="#CCCCCC"> with</font>
+
+140
+00:05:56,030 --> 00:05:58,880
+the<font color="#E5E5E5"> system file so click over</font><font color="#CCCCCC"> here so</font>
+
+141
+00:05:58,880 --> 00:06:02,660
+the<font color="#E5E5E5"> first option is import but we want</font>
+
+142
+00:06:02,660 --> 00:06:04,729
+to<font color="#E5E5E5"> import</font><font color="#CCCCCC"> from a Sam database</font><font color="#E5E5E5"> because we</font>
+
+143
+00:06:04,729 --> 00:06:06,229
+already have a<font color="#E5E5E5"> Sam file so</font><font color="#CCCCCC"> click over</font>
+
+144
+00:06:06,229 --> 00:06:08,660
+here<font color="#E5E5E5"> import hashes from a Sam</font><font color="#CCCCCC"> database</font>
+
+145
+00:06:08,660 --> 00:06:10,550
+and here we have to give a<font color="#E5E5E5"> Sam file</font>
+
+146
+00:06:10,550 --> 00:06:15,590
+location so it's on my desktop<font color="#CCCCCC"> so let</font><font color="#E5E5E5"> me</font>
+
+147
+00:06:15,590 --> 00:06:17,900
+give the location<font color="#CCCCCC"> and then here you can</font>
+
+148
+00:06:17,900 --> 00:06:21,260
+<font color="#CCCCCC">see a boot key so it's a</font><font color="#E5E5E5"> system file</font><font color="#CCCCCC"> so</font>
+
+149
+00:06:21,260 --> 00:06:22,910
+we have to give a location<font color="#CCCCCC"> of a system</font>
+
+150
+00:06:22,910 --> 00:06:28,610
+file also and here you can<font color="#E5E5E5"> see that the</font>
+
+151
+00:06:28,610 --> 00:06:31,460
+key comes<font color="#E5E5E5"> so let me copy this key click</font>
+
+152
+00:06:31,460 --> 00:06:33,530
+on<font color="#E5E5E5"> exit and let's paste this key here</font>
+
+153
+00:06:33,530 --> 00:06:36,410
+and click<font color="#E5E5E5"> on next so here you can see</font>
+
+154
+00:06:36,410 --> 00:06:39,560
+that our<font color="#E5E5E5"> Sam file is opened inside this</font>
+
+155
+00:06:39,560 --> 00:06:41,950
+tool you<font color="#E5E5E5"> can see here a user names and</font>
+
+156
+00:06:41,950 --> 00:06:45,590
+along with<font color="#E5E5E5"> the element</font><font color="#CCCCCC"> n T hash</font><font color="#E5E5E5"> and here</font>
+
+157
+00:06:45,590 --> 00:06:47,780
+you can<font color="#E5E5E5"> see that currently there are</font><font color="#CCCCCC"> 3</font>
+
+158
+00:06:47,780 --> 00:06:49,970
+users in my<font color="#CCCCCC"> Windows</font><font color="#E5E5E5"> 7 operating system</font>
+
+159
+00:06:49,970 --> 00:06:53,389
+administrator<font color="#E5E5E5"> guest and root so now</font>
+
+160
+00:06:53,389 --> 00:06:55,130
+let's just verify so here you can<font color="#E5E5E5"> see</font>
+
+161
+00:06:55,130 --> 00:06:57,289
+that right<font color="#CCCCCC"> now we are</font><font color="#E5E5E5"> logged in as a</font>
+
+162
+00:06:57,289 --> 00:07:00,050
+root so what we will do first<font color="#E5E5E5"> of all we</font>
+
+163
+00:07:00,050 --> 00:07:01,009
+<font color="#E5E5E5">will find the password</font>
+
+164
+00:07:01,009 --> 00:07:03,710
+<font color="#E5E5E5">this user that is</font><font color="#CCCCCC"> route and here you can</font>
+
+165
+00:07:03,710 --> 00:07:06,289
+see that if I select this<font color="#CCCCCC"> one</font><font color="#E5E5E5"> route and</font>
+
+166
+00:07:06,289 --> 00:07:08,809
+in the column<font color="#E5E5E5"> of a lemon</font><font color="#CCCCCC"> and T hashes</font>
+
+167
+00:07:08,809 --> 00:07:10,729
+you can see here there are two hashes
+
+168
+00:07:10,729 --> 00:07:13,789
+<font color="#E5E5E5">associated with this user which means</font>
+
+169
+00:07:13,789 --> 00:07:18,740
+this user is password protected<font color="#CCCCCC"> now in</font>
+
+170
+00:07:18,740 --> 00:07:21,020
+order to find<font color="#CCCCCC"> a password or</font><font color="#E5E5E5"> in order to</font>
+
+171
+00:07:21,020 --> 00:07:23,529
+<font color="#E5E5E5">crack</font><font color="#CCCCCC"> a password of</font><font color="#E5E5E5"> a particular user</font>
+
+172
+00:07:23,529 --> 00:07:26,059
+<font color="#CCCCCC">there are different password guessing</font>
+
+173
+00:07:26,059 --> 00:07:28,669
+<font color="#E5E5E5">attacks so the first one is dictionary</font>
+
+174
+00:07:28,669 --> 00:07:30,740
+attacks<font color="#E5E5E5"> then the second one is brute</font>
+
+175
+00:07:30,740 --> 00:07:33,080
+force and so on so in dictionary attack
+
+176
+00:07:33,080 --> 00:07:34,759
+<font color="#CCCCCC">what happen is there is one dictionary</font>
+
+177
+00:07:34,759 --> 00:07:37,729
+<font color="#E5E5E5">file which contains lot of words so we</font>
+
+178
+00:07:37,729 --> 00:07:40,009
+will pick<font color="#CCCCCC"> one word</font><font color="#E5E5E5"> and then we will make</font>
+
+179
+00:07:40,009 --> 00:07:42,319
+element<font color="#CCCCCC"> e hash of that word and then we</font>
+
+180
+00:07:42,319 --> 00:07:44,809
+<font color="#CCCCCC">will match that</font><font color="#E5E5E5"> element</font><font color="#CCCCCC"> e hash value</font>
+
+181
+00:07:44,809 --> 00:07:47,029
+along<font color="#E5E5E5"> with this value</font><font color="#CCCCCC"> and if the</font><font color="#E5E5E5"> value</font>
+
+182
+00:07:47,029 --> 00:07:49,279
+matches<font color="#CCCCCC"> then we are successfully able to</font>
+
+183
+00:07:49,279 --> 00:07:52,009
+find the password<font color="#E5E5E5"> then other kind of</font>
+
+184
+00:07:52,009 --> 00:07:53,870
+attack which we can do is brute force
+
+185
+00:07:53,870 --> 00:07:54,349
+attack
+
+186
+00:07:54,349 --> 00:07:56,149
+so in<font color="#E5E5E5"> brute-force attack we actually</font>
+
+187
+00:07:56,149 --> 00:07:57,830
+make a<font color="#E5E5E5"> combination of</font><font color="#CCCCCC"> different letters</font>
+
+188
+00:07:57,830 --> 00:08:00,979
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> digits</font><font color="#CCCCCC"> in order</font><font color="#E5E5E5"> to create ntlm</font>
+
+189
+00:08:00,979 --> 00:08:02,990
+hashes<font color="#E5E5E5"> and then</font><font color="#CCCCCC"> we'll match a value and</font>
+
+190
+00:08:02,990 --> 00:08:04,759
+then another<font color="#E5E5E5"> kind of attack is also</font>
+
+191
+00:08:04,759 --> 00:08:06,740
+called as a<font color="#E5E5E5"> rainbow tables attack but</font>
+
+192
+00:08:06,740 --> 00:08:09,129
+here in<font color="#E5E5E5"> this video we will do a</font>
+
+193
+00:08:09,129 --> 00:08:11,930
+dictionary<font color="#CCCCCC"> attack and then we'll try</font>
+
+194
+00:08:11,930 --> 00:08:13,639
+<font color="#CCCCCC">that whether we can find</font><font color="#E5E5E5"> the password</font><font color="#CCCCCC"> of</font>
+
+195
+00:08:13,639 --> 00:08:15,740
+this user or not<font color="#E5E5E5"> but in dictionary</font>
+
+196
+00:08:15,740 --> 00:08:18,800
+attack there<font color="#CCCCCC"> is one limitation that</font><font color="#E5E5E5"> we</font>
+
+197
+00:08:18,800 --> 00:08:21,199
+can only<font color="#E5E5E5"> be able to find a password of a</font>
+
+198
+00:08:21,199 --> 00:08:23,449
+particular user<font color="#E5E5E5"> if the password of that</font>
+
+199
+00:08:23,449 --> 00:08:25,219
+user<font color="#E5E5E5"> will be present in that dictionary</font>
+
+200
+00:08:25,219 --> 00:08:28,849
+<font color="#E5E5E5">file so there are lot of online</font><font color="#CCCCCC"> websites</font>
+
+201
+00:08:28,849 --> 00:08:30,589
+from where you can<font color="#E5E5E5"> download a long</font>
+
+202
+00:08:30,589 --> 00:08:32,240
+dictionary file which contains million
+
+203
+00:08:32,240 --> 00:08:36,260
+of passwords<font color="#E5E5E5"> but in this tool can enable</font>
+
+204
+00:08:36,260 --> 00:08:39,260
+so when we download<font color="#E5E5E5"> this tool and if we</font>
+
+205
+00:08:39,260 --> 00:08:41,539
+<font color="#CCCCCC">just go here inside</font><font color="#E5E5E5"> its directory so</font>
+
+206
+00:08:41,539 --> 00:08:43,099
+let's go here to<font color="#E5E5E5"> the</font><font color="#CCCCCC"> Program Files</font><font color="#E5E5E5"> and</font>
+
+207
+00:08:43,099 --> 00:08:46,040
+<font color="#E5E5E5">here is its folder and if I open</font><font color="#CCCCCC"> it up</font>
+
+208
+00:08:46,040 --> 00:08:48,889
+<font color="#CCCCCC">it also contains a</font><font color="#E5E5E5"> one directory</font><font color="#CCCCCC"> called</font>
+
+209
+00:08:48,889 --> 00:08:52,250
+as word list<font color="#E5E5E5"> in which it contains lot of</font>
+
+210
+00:08:52,250 --> 00:08:54,319
+passwords which we can use<font color="#E5E5E5"> in order to</font>
+
+211
+00:08:54,319 --> 00:08:56,959
+<font color="#E5E5E5">find a password of a particular user but</font>
+
+212
+00:08:56,959 --> 00:08:59,449
+I already have<font color="#E5E5E5"> one word list file so I</font>
+
+213
+00:08:59,449 --> 00:09:01,490
+am using<font color="#CCCCCC"> that file in order to find a</font>
+
+214
+00:09:01,490 --> 00:09:03,829
+password<font color="#E5E5E5"> so what we have to do is just</font>
+
+215
+00:09:03,829 --> 00:09:06,199
+right click over here<font color="#E5E5E5"> here you can see</font>
+
+216
+00:09:06,199 --> 00:09:07,399
+that<font color="#E5E5E5"> there are different different</font>
+
+217
+00:09:07,399 --> 00:09:09,170
+attacks<font color="#E5E5E5"> dictionary attack</font><font color="#CCCCCC"> brute-force</font>
+
+218
+00:09:09,170 --> 00:09:11,779
+attack cryptanalysis attack so now let's
+
+219
+00:09:11,779 --> 00:09:14,420
+go here<font color="#E5E5E5"> prediction area attack and then</font>
+
+220
+00:09:14,420 --> 00:09:15,140
+we have to<font color="#E5E5E5"> sell</font>
+
+221
+00:09:15,140 --> 00:09:19,640
+<font color="#CCCCCC">ntlm hashes click over here</font><font color="#E5E5E5"> and here</font><font color="#CCCCCC"> we</font>
+
+222
+00:09:19,640 --> 00:09:20,839
+have to give the location<font color="#E5E5E5"> of a</font>
+
+223
+00:09:20,839 --> 00:09:22,579
+dictionary<font color="#E5E5E5"> file so</font><font color="#CCCCCC"> just right click and</font>
+
+224
+00:09:22,579 --> 00:09:25,519
+<font color="#E5E5E5">click</font><font color="#CCCCCC"> on add to</font><font color="#E5E5E5"> list and my dictionary</font>
+
+225
+00:09:25,519 --> 00:09:28,790
+file is present<font color="#CCCCCC"> in my documents</font><font color="#E5E5E5"> so I</font>
+
+226
+00:09:28,790 --> 00:09:30,200
+have selected<font color="#E5E5E5"> this file and click on</font>
+
+227
+00:09:30,200 --> 00:09:32,899
+open<font color="#E5E5E5"> so here you can see that a</font>
+
+228
+00:09:32,899 --> 00:09:35,420
+<font color="#CCCCCC">dictionary file is</font><font color="#E5E5E5"> added now what we</font>
+
+229
+00:09:35,420 --> 00:09:37,040
+have<font color="#CCCCCC"> to do is we just have to click</font><font color="#E5E5E5"> on</font>
+
+230
+00:09:37,040 --> 00:09:40,459
+<font color="#CCCCCC">start and here you can see that it</font>
+
+231
+00:09:40,459 --> 00:09:42,620
+started searching passwords and here you
+
+232
+00:09:42,620 --> 00:09:44,450
+can see a password per<font color="#CCCCCC"> second</font><font color="#E5E5E5"> and</font>
+
+233
+00:09:44,450 --> 00:09:47,029
+dictionary position so<font color="#CCCCCC"> 37% of dictionary</font>
+
+234
+00:09:47,029 --> 00:09:50,230
+file is completed<font color="#E5E5E5"> password</font>
+
+235
+00:09:51,759 --> 00:09:54,160
+so here you can<font color="#CCCCCC"> see that it's a ntlm</font>
+
+236
+00:09:54,160 --> 00:09:57,429
+hash of the password<font color="#E5E5E5"> of this account and</font>
+
+237
+00:09:57,429 --> 00:10:01,600
+the value is<font color="#E5E5E5"> 2 which means this is the</font>
+
+238
+00:10:01,600 --> 00:10:05,589
+<font color="#E5E5E5">actual password which I have settled</font><font color="#CCCCCC"> for</font>
+
+239
+00:10:05,589 --> 00:10:08,259
+this account<font color="#E5E5E5"> and here you can see that</font>
+
+240
+00:10:08,259 --> 00:10:12,519
+attack stopped hashes<font color="#CCCCCC"> cracked</font><font color="#E5E5E5"> and here</font>
+
+241
+00:10:12,519 --> 00:10:14,529
+you can<font color="#E5E5E5"> see that it's a password now</font>
+
+242
+00:10:14,529 --> 00:10:21,249
+click<font color="#CCCCCC"> on exit</font><font color="#E5E5E5"> now let's just verify and</font>
+
+243
+00:10:21,249 --> 00:10:25,149
+I'm<font color="#E5E5E5"> just writing here</font><font color="#CCCCCC"> twr</font><font color="#E5E5E5"> hit enter and</font>
+
+244
+00:10:25,149 --> 00:10:27,069
+here you will<font color="#E5E5E5"> see</font><font color="#CCCCCC"> that we are</font>
+
+245
+00:10:27,069 --> 00:10:29,709
+<font color="#E5E5E5">successfully able to find a password by</font>
+
+246
+00:10:29,709 --> 00:10:33,220
+using dictionary attack<font color="#E5E5E5"> so similarly you</font>
+
+247
+00:10:33,220 --> 00:10:35,619
+<font color="#CCCCCC">can also</font><font color="#E5E5E5"> use different attacks like</font>
+
+248
+00:10:35,619 --> 00:10:37,569
+<font color="#CCCCCC">crypt analysis rainbow table attacks</font><font color="#E5E5E5"> and</font>
+
+249
+00:10:37,569 --> 00:10:40,869
+<font color="#E5E5E5">brute</font><font color="#CCCCCC"> force attack also so in this video</font>
+
+250
+00:10:40,869 --> 00:10:43,209
+we<font color="#E5E5E5"> have</font><font color="#CCCCCC"> discussed that</font><font color="#E5E5E5"> how we can copy</font>
+
+251
+00:10:43,209 --> 00:10:45,699
+Sam and system file<font color="#E5E5E5"> and how we can find</font>
+
+252
+00:10:45,699 --> 00:10:48,939
+password<font color="#E5E5E5"> by using dictionary attack so</font>
+
+253
+00:10:48,939 --> 00:00:00,000
+thanks<font color="#E5E5E5"> for</font><font color="#CCCCCC"> watching this video</font>
+

@@ -1,0 +1,120 @@
+1
+00:00:00,089 --> 00:00:02,250
+hello everyone in<font color="#CCCCCC"> this video we will</font>
+
+2
+00:00:02,250 --> 00:00:04,200
+cover web application<font color="#E5E5E5"> penetration</font>
+
+3
+00:00:04,200 --> 00:00:06,029
+testing<font color="#E5E5E5"> so what is web application</font>
+
+4
+00:00:06,029 --> 00:00:08,039
+penetration testing<font color="#E5E5E5"> so web application</font>
+
+5
+00:00:08,039 --> 00:00:09,900
+penetration testing is a process of
+
+6
+00:00:09,900 --> 00:00:11,849
+penetrating<font color="#E5E5E5"> the web application and</font>
+
+7
+00:00:11,849 --> 00:00:13,580
+finding out security<font color="#E5E5E5"> issues</font>
+
+8
+00:00:13,580 --> 00:00:16,320
+vulnerabilities inside them<font color="#E5E5E5"> so I have</font>
+
+9
+00:00:16,320 --> 00:00:18,420
+already<font color="#E5E5E5"> made a separate course on web</font>
+
+10
+00:00:18,420 --> 00:00:20,160
+application penetration testing which
+
+11
+00:00:20,160 --> 00:00:22,560
+you can find<font color="#E5E5E5"> on tutorials point so I</font>
+
+12
+00:00:22,560 --> 00:00:24,570
+have covered<font color="#E5E5E5"> lot of vulnerabilities</font>
+
+13
+00:00:24,570 --> 00:00:26,550
+inside them and I have listed<font color="#CCCCCC"> some</font>
+
+14
+00:00:26,550 --> 00:00:28,920
+vulnerabilities here so you can see so I
+
+15
+00:00:28,920 --> 00:00:30,480
+have covered various injection
+
+16
+00:00:30,480 --> 00:00:32,250
+vulnerabilities like HTML injection
+
+17
+00:00:32,250 --> 00:00:34,350
+where we can<font color="#E5E5E5"> inject HTML into a web</font>
+
+18
+00:00:34,350 --> 00:00:37,140
+application<font color="#E5E5E5"> CSS</font><font color="#CCCCCC"> rejection SQL</font><font color="#E5E5E5"> injection</font>
+
+19
+00:00:37,140 --> 00:00:39,600
+and demon<font color="#E5E5E5"> I have also covered some web</font>
+
+20
+00:00:39,600 --> 00:00:41,460
+2.0<font color="#E5E5E5"> burn abilities which are highly</font>
+
+21
+00:00:41,460 --> 00:00:44,520
+complex vulnerabilities<font color="#E5E5E5"> like CSRF</font><font color="#CCCCCC"> idor</font>
+
+22
+00:00:44,520 --> 00:00:46,770
+<font color="#E5E5E5">SS RF</font><font color="#CCCCCC"> attacks server-side</font><font color="#E5E5E5"> request</font>
+
+23
+00:00:46,770 --> 00:00:50,340
+<font color="#E5E5E5">forgery and even RFI</font><font color="#CCCCCC"> lfi vulnerability</font>
+
+24
+00:00:50,340 --> 00:00:53,070
+so if you are curious<font color="#E5E5E5"> about finding out</font>
+
+25
+00:00:53,070 --> 00:00:54,809
+<font color="#E5E5E5">security issues and web application or</font>
+
+26
+00:00:54,809 --> 00:00:56,789
+even<font color="#E5E5E5"> if you want to hack websites then</font>
+
+27
+00:00:56,789 --> 00:00:58,590
+what you can<font color="#E5E5E5"> do you can refer my course</font>
+
+28
+00:00:58,590 --> 00:01:00,899
+<font color="#E5E5E5">of web application penetration testing</font>
+
+29
+00:01:00,899 --> 00:01:03,059
+and you can check<font color="#E5E5E5"> out all the</font><font color="#CCCCCC"> videos so</font>
+
+30
+00:01:03,059 --> 00:00:00,000
+thanks for<font color="#E5E5E5"> watching</font><font color="#CCCCCC"> this video</font>
+

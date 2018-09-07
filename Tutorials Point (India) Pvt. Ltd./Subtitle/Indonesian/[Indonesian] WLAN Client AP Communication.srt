@@ -1,0 +1,628 @@
+1
+00:00:00,060 --> 00:00:02,129
+ Halo semua orang <font color="#CCCCCC">di </font><font color="#E5E5E5">video </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">kita akan bicara </font>
+
+2
+00:00:02,129 --> 00:00:04,350
+ <font color="#E5E5E5">tentang itu bagaimana titik akses nirkabel </font>
+
+3
+00:00:04,350 --> 00:00:07,170
+ <font color="#E5E5E5">dan komunikasi klien nirkabel </font>
+
+4
+00:00:07,170 --> 00:00:09,120
+ berlangsung <font color="#CCCCCC">jadi </font><font color="#E5E5E5">proses komunikasi </font>
+
+5
+00:00:09,120 --> 00:00:11,730
+ antara <font color="#E5E5E5">jalur akses dan klien </font>
+
+6
+00:00:11,730 --> 00:00:14,280
+ dibagi menjadi <font color="#E5E5E5">enam langkah sehingga dengan melihat </font>
+
+7
+00:00:14,280 --> 00:00:16,560
+ gambar ini <font color="#E5E5E5">bisa Anda </font><font color="#CCCCCC">lihat di sini bahwa di sini adalah </font>
+
+8
+00:00:16,560 --> 00:00:19,020
+ <font color="#E5E5E5">klien kami dan di sini adalah jalur akses kami </font>
+
+9
+00:00:19,020 --> 00:00:21,180
+ <font color="#E5E5E5">jadi yang pertama adalah kapanpun kita </font>
+
+10
+00:00:21,180 --> 00:00:24,359
+ <font color="#E5E5E5">klien menyalakan Wi-Fi-nya maka kami </font>
+
+11
+00:00:24,359 --> 00:00:27,000
+ klien <font color="#E5E5E5">mulai mengirim permintaan penyelidikan </font>
+
+12
+00:00:27,000 --> 00:00:29,250
+ ke udara <font color="#E5E5E5">sehingga Anda bisa lihat di sini itu </font>
+
+13
+00:00:29,250 --> 00:00:31,170
+ <font color="#E5E5E5">pertama dari semua klien kami akan mengirim </font>
+
+14
+00:00:31,170 --> 00:00:33,750
+ permintaan probe ke udara sehingga probe 
+
+15
+00:00:33,750 --> 00:00:36,300
+ permintaan berarti bahwa hei saya <font color="#E5E5E5">baru di sini adalah </font>
+
+16
+00:00:36,300 --> 00:00:38,280
+ ada yang bisa <font color="#E5E5E5">diakses untuk terhubung </font>
+
+17
+00:00:38,280 --> 00:00:40,530
+ dengan saya jadi jika ada <font color="#CCCCCC">jalur akses </font>
+
+18
+00:00:40,530 --> 00:00:43,110
+ <font color="#E5E5E5">yang ingin terhubung dengan </font><font color="#CCCCCC">klien </font><font color="#E5E5E5">itu </font>
+
+19
+00:00:43,110 --> 00:00:45,360
+ <font color="#CCCCCC">titik akses itu akan mengirim probe e </font>
+
+20
+00:00:45,360 --> 00:00:47,910
+ menumbuhkan untuk klien itu <font color="#CCCCCC">dan </font><font color="#E5E5E5">dalam penyelidikan itu </font>
+
+21
+00:00:47,910 --> 00:00:50,280
+ <font color="#E5E5E5">respons jalur akses akan mengirim </font>
+
+22
+00:00:50,280 --> 00:00:52,980
+ <font color="#E5E5E5">persyaratan khusus yang dibutuhkan </font>
+
+23
+00:00:52,980 --> 00:00:54,809
+ <font color="#CCCCCC">untuk terhubung dengan akses itu </font>
+
+24
+00:00:54,809 --> 00:00:57,120
+ titik <font color="#E5E5E5">begitu sekali respon probe </font>
+
+25
+00:00:57,120 --> 00:01:00,000
+ diterima oleh <font color="#CCCCCC">klien kami maka klien kami </font>
+
+26
+00:01:00,000 --> 00:01:02,460
+ atau <font color="#CCCCCC">ponsel kami </font><font color="#E5E5E5">akan mengirim </font>
+
+27
+00:01:02,460 --> 00:01:04,739
+ permintaan otentikasi ke <font color="#E5E5E5">akses itu </font>
+
+28
+00:01:04,739 --> 00:01:06,930
+ <font color="#E5E5E5">titik </font><font color="#CCCCCC">jadi dalam </font><font color="#E5E5E5">permintaan otentikasi itu </font>
+
+29
+00:01:06,930 --> 00:01:09,570
+ <font color="#E5E5E5">klien kami akan mengirim frasa sandi ke </font>
+
+30
+00:01:09,570 --> 00:01:11,310
+ jalur akses itu <font color="#E5E5E5">dan setelah itu </font>
+
+31
+00:01:11,310 --> 00:01:13,290
+ <font color="#CCCCCC">passphrase dan </font><font color="#E5E5E5">otentikasi </font>
+
+32
+00:01:13,290 --> 00:01:16,049
+ permintaan diterima oleh <font color="#CCCCCC">jalur akses itu </font>
+
+33
+00:01:16,049 --> 00:01:17,900
+ maka jalur akses itu akan dikirim 
+
+34
+00:01:17,900 --> 00:01:20,159
+ respons otentikasi <font color="#E5E5E5">dan setelah kami </font>
+
+35
+00:01:20,159 --> 00:01:21,930
+ klien menerima otentikasi 
+
+36
+00:01:21,930 --> 00:01:24,540
+ respon jadi sampai di sini <font color="#E5E5E5">jalur akses kami </font>
+
+37
+00:01:24,540 --> 00:01:25,860
+ komunikasi <font color="#CCCCCC">terjadi </font>
+
+38
+00:01:25,860 --> 00:01:28,020
+ jadi setelah <font color="#E5E5E5">respon otentikasi </font>
+
+39
+00:01:28,020 --> 00:01:29,430
+ diterima oleh slide kami 
+
+40
+00:01:29,430 --> 00:01:31,829
+ maka klien kami akan mengirim <font color="#E5E5E5">Asosiasi </font>
+
+41
+00:01:31,829 --> 00:01:33,990
+ <font color="#E5E5E5">permintaan untuk permintaan asosiasi </font><font color="#CCCCCC">bagus </font>
+
+42
+00:01:33,990 --> 00:01:36,689
+ <font color="#CCCCCC">ok kita terhubung sekarang mari kita mulai </font>
+
+43
+00:01:36,689 --> 00:01:38,820
+ mentransfer beberapa data jadi <font color="#E5E5E5">untuk </font>
+
+44
+00:01:38,820 --> 00:01:40,979
+ <font color="#E5E5E5">mentransfer beberapa data yang pertama </font><font color="#CCCCCC">dari semua kami </font>
+
+45
+00:01:40,979 --> 00:01:43,170
+ klien akan mengirim <font color="#E5E5E5">permintaan Asosiasi dan </font>
+
+46
+00:01:43,170 --> 00:01:45,659
+ klien <font color="#E5E5E5">akan menunggu Asosiasi </font>
+
+47
+00:01:45,659 --> 00:01:48,390
+ respon dari titik akses <font color="#CCCCCC">jadi ini </font>
+
+48
+00:01:48,390 --> 00:01:50,430
+ enam langkah yang <font color="#CCCCCC">diperlukan secara berurutan </font>
+
+49
+00:01:50,430 --> 00:01:52,710
+ <font color="#E5E5E5">komunikasi terjadi </font><font color="#CCCCCC">antara kami </font>
+
+50
+00:01:52,710 --> 00:01:54,840
+ <font color="#E5E5E5">client dan nirkabel </font><font color="#CCCCCC">sekarang mari kita coba </font><font color="#E5E5E5">untuk </font>
+
+51
+00:01:54,840 --> 00:01:57,450
+ membuat <font color="#E5E5E5">paket </font><font color="#CCCCCC">Wireless </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">menganalisis </font>
+
+52
+00:01:57,450 --> 00:01:59,850
+ bagaimana komunikasi antar akses 
+
+53
+00:01:59,850 --> 00:02:02,219
+ <font color="#E5E5E5">poin dan klien berlangsung dengan </font>
+
+54
+00:02:02,219 --> 00:02:03,840
+ <font color="#E5E5E5">bantuan Wireshark </font>
+
+55
+00:02:03,840 --> 00:02:06,149
+ sekarang <font color="#CCCCCC">mari kita </font><font color="#E5E5E5">menganalisis suatu komunikasi </font>
+
+56
+00:02:06,149 --> 00:02:08,310
+ antara jalur akses <font color="#E5E5E5">dan klien </font>
+
+57
+00:02:08,310 --> 00:02:10,110
+ dengan bantuan <font color="#E5E5E5">Wireshark </font>
+
+58
+00:02:10,110 --> 00:02:12,120
+ jadi di sini Anda dapat melihat bahwa <font color="#CCCCCC">rekan saya </font>
+
+59
+00:02:12,120 --> 00:02:13,319
+ Linux sudah aktif dan berjalan 
+
+60
+00:02:13,319 --> 00:02:15,269
+ dan saya sudah <font color="#CCCCCC">mengambil beberapa </font><font color="#E5E5E5">paket </font>
+
+61
+00:02:15,269 --> 00:02:16,920
+ dengan bantuan <font color="#E5E5E5">utilitas panah dump dan </font>
+
+62
+00:02:16,920 --> 00:02:19,349
+ di sini Anda dapat melihat satu file pcap yang disebut sebagai 
+
+63
+00:02:19,349 --> 00:02:21,959
+ <font color="#CCCCCC">Klein dot ketuk jadi mari kita menganalisa </font><font color="#E5E5E5">file ini </font>
+
+64
+00:02:21,959 --> 00:02:33,120
+ di Wireshark jadi pertama-tama <font color="#E5E5E5">saya akan tunjukkan </font>
+
+65
+00:02:33,120 --> 00:02:35,159
+ Anda bahwa bagaimana kita dapat <font color="#CCCCCC">menambahkan filter </font><font color="#E5E5E5">di </font>
+
+66
+00:02:35,159 --> 00:02:37,260
+ Wireshark <font color="#E5E5E5">agar bersih rapi </font>
+
+67
+00:02:37,260 --> 00:02:39,510
+ output <font color="#E5E5E5">jadi di sini Anda dapat melihat itu benar </font>
+
+68
+00:02:39,510 --> 00:02:42,450
+ sekarang <font color="#CCCCCC">ada begitu banyak paket </font><font color="#E5E5E5">dan semuanya </font>
+
+69
+00:02:42,450 --> 00:02:44,389
+ <font color="#E5E5E5">paket-paket ini adalah klien yang </font><font color="#CCCCCC">berbeda </font>
+
+70
+00:02:44,389 --> 00:02:48,090
+ <font color="#E5E5E5">tetapi saya tahu bahwa nama jalur akses saya adalah </font>
+
+71
+00:02:48,090 --> 00:02:50,129
+ yang ini jadi <font color="#E5E5E5">apa yang </font><font color="#CCCCCC">akan saya lakukan di sini </font>
+
+72
+00:02:50,129 --> 00:02:52,590
+ <font color="#CCCCCC">pertama- </font><font color="#E5E5E5">tama untuk </font><font color="#CCCCCC">menerapkan </font>
+
+73
+00:02:52,590 --> 00:02:54,389
+ <font color="#E5E5E5">filter di Wireshark ada dua cara </font>
+
+74
+00:02:54,389 --> 00:02:56,579
+ <font color="#CCCCCC">jadi cara pertama adalah Anda bisa </font><font color="#E5E5E5">menulis </font>
+
+75
+00:02:56,579 --> 00:02:58,829
+ <font color="#E5E5E5">filter di sini filter string di sini </font>
+
+76
+00:02:58,829 --> 00:03:00,959
+ di <font color="#E5E5E5">bar ini maka </font><font color="#CCCCCC">cara </font><font color="#E5E5E5">lain yang </font><font color="#CCCCCC">Anda bisa </font>
+
+77
+00:03:00,959 --> 00:03:03,810
+ pilih <font color="#E5E5E5">paket tertentu dan kemudian Anda </font>
+
+78
+00:03:03,810 --> 00:03:06,000
+ bisa pergi ke header <font color="#E5E5E5">dan kemudian Anda bisa </font>
+
+79
+00:03:06,000 --> 00:03:07,859
+ tambahkan <font color="#CCCCCC">filter jadi apa yang </font><font color="#E5E5E5">akan </font><font color="#CCCCCC">saya </font><font color="#E5E5E5">lakukan </font>
+
+80
+00:03:07,859 --> 00:03:10,230
+ <font color="#E5E5E5">di sini begitu pertama-tama </font><font color="#CCCCCC">saya akan menerapkan </font>
+
+81
+00:03:10,230 --> 00:03:13,709
+ <font color="#E5E5E5">filter dari </font><font color="#CCCCCC">bssid dari jalur akses saya </font>
+
+82
+00:03:13,709 --> 00:03:16,169
+ <font color="#E5E5E5">maka kita akan mendapatkan semua paket itu </font>
+
+83
+00:03:16,169 --> 00:03:19,259
+ jalur akses <font color="#CCCCCC">jadi nama jalur akses saya </font>
+
+84
+00:03:19,259 --> 00:03:23,310
+ Hawaii <font color="#E5E5E5">dan di sini Anda dapat melihat bahwa </font>
+
+85
+00:03:23,310 --> 00:03:25,979
+ bssid dari jalur akses saya adalah ini <font color="#CCCCCC">begitu masuk </font>
+
+86
+00:03:25,979 --> 00:03:27,750
+ memesan <font color="#E5E5E5">untuk menambahkan filter </font><font color="#CCCCCC">klik kanan </font>
+
+87
+00:03:27,750 --> 00:03:30,659
+ di sini <font color="#E5E5E5">kita dapat menerapkan sebagai filter dan </font>
+
+88
+00:03:30,659 --> 00:03:34,199
+ klik pada yang dipilih dan di sini Anda dapat melihat 
+
+89
+00:03:34,199 --> 00:03:36,900
+ bahwa string secara otomatis ditulis 
+
+90
+00:03:36,900 --> 00:03:40,049
+ di sini di bar ini dan di sini Anda bisa melihat 
+
+91
+00:03:40,049 --> 00:03:42,239
+ <font color="#E5E5E5">filter sekarang hal yang harus diperhatikan adalah </font>
+
+92
+00:03:42,239 --> 00:03:44,699
+ yang <font color="#E5E5E5">di kolom sumber semua </font>
+
+93
+00:03:44,699 --> 00:03:48,030
+ paket-paket <font color="#CCCCCC">dari bssid ini atau alamat kami </font>
+
+94
+00:03:48,030 --> 00:03:50,489
+ jadi hal berikutnya yang harus kita <font color="#E5E5E5">lakukan adalah kita </font>
+
+95
+00:03:50,489 --> 00:03:52,970
+ <font color="#E5E5E5">hanya bisa </font><font color="#CCCCCC">menulis di sini, bukan bssid </font>
+
+96
+00:03:52,970 --> 00:03:57,359
+ <font color="#E5E5E5">addr yang berarti alamat sekarang apa yang </font><font color="#CCCCCC">saya miliki </font>
+
+97
+00:03:57,359 --> 00:04:00,419
+ <font color="#E5E5E5">lakukan adalah kita akan menerapkan </font><font color="#CCCCCC">filter </font><font color="#E5E5E5">selanjutnya </font>
+
+98
+00:04:00,419 --> 00:04:03,150
+ klien kami sehingga <font color="#E5E5E5">kami dapat </font><font color="#CCCCCC">menganalisis </font>
+
+99
+00:04:03,150 --> 00:04:04,829
+ komunikasi yang <font color="#CCCCCC">terjadi antara </font>
+
+100
+00:04:04,829 --> 00:04:07,859
+ <font color="#E5E5E5">jalur akses kami dan klien jadi saya </font>
+
+101
+00:04:07,859 --> 00:04:11,430
+ nama klien adalah <font color="#CCCCCC">samson dan Anda akan ditemukan </font>
+
+102
+00:04:11,430 --> 00:04:15,889
+ satu paket itu di sini dan di <font color="#E5E5E5">sini </font><font color="#CCCCCC">adalah itu </font>
+
+103
+00:04:15,889 --> 00:04:19,108
+ paket jadi di sini adalah klien saya jadi apa <font color="#CCCCCC">saya </font>
+
+104
+00:04:19,108 --> 00:04:20,699
+ akan <font color="#E5E5E5">lakukan di sini adalah </font><font color="#CCCCCC">saya menambahkan satu lagi </font>
+
+105
+00:04:20,699 --> 00:04:22,650
+ <font color="#E5E5E5">filter dari </font><font color="#CCCCCC">bssid </font><font color="#E5E5E5">klien saya </font>
+
+106
+00:04:22,650 --> 00:04:25,650
+ dan klien saya <font color="#CCCCCC">bssid adalah ini jadi biarkan aku </font>
+
+107
+00:04:25,650 --> 00:04:27,030
+ tambahkan satu <font color="#E5E5E5">filter lagi </font>
+
+108
+00:04:27,030 --> 00:04:29,370
+ dan sekarang <font color="#E5E5E5">kali ini saya akan lakukan dan pilih </font>
+
+109
+00:04:29,370 --> 00:04:33,360
+ <font color="#E5E5E5">dan saya akan mengubah hal yang sama dan membuatnya </font>
+
+110
+00:04:33,360 --> 00:04:38,580
+ itu sebagai hit DDR masuk dan di sini Anda <font color="#E5E5E5">akan </font>
+
+111
+00:04:38,580 --> 00:04:41,150
+ <font color="#E5E5E5">melihat komunikasi terjadi antara </font>
+
+112
+00:04:41,150 --> 00:04:45,870
+ jalur akses kami <font color="#E5E5E5">dan klien kami jadi sementara </font>
+
+113
+00:04:45,870 --> 00:04:47,639
+ Saya <font color="#CCCCCC">katakan </font><font color="#E5E5E5">di sini bahwa yang pertama </font>
+
+114
+00:04:47,639 --> 00:04:49,410
+ semua klien akan mengirim permintaan penyelidikan 
+
+115
+00:04:49,410 --> 00:04:52,710
+ maka jalur akses akan mengirim probe 
+
+116
+00:04:52,710 --> 00:04:53,400
+ tanggapan 
+
+117
+00:04:53,400 --> 00:04:55,889
+ jadi di <font color="#CCCCCC">dump paket Wireshark ini saya tidak </font>
+
+118
+00:04:55,889 --> 00:04:57,570
+ memiliki paket permintaan probe tetapi Anda 
+
+119
+00:04:57,570 --> 00:04:59,580
+ bisa lihat di sini respon probe <font color="#E5E5E5">yang </font>
+
+120
+00:04:59,580 --> 00:05:03,180
+ dikirim oleh <font color="#CCCCCC">jalur akses kami ke kami </font>
+
+121
+00:05:03,180 --> 00:05:06,060
+ klien <font color="#E5E5E5">jadi setelah </font><font color="#CCCCCC">klien mendapat probe </font>
+
+122
+00:05:06,060 --> 00:05:08,130
+ respon <font color="#E5E5E5">maka klien akan mengirim </font>
+
+123
+00:05:08,130 --> 00:05:10,169
+ permintaan otentikasi termasuk 
+
+124
+00:05:10,169 --> 00:05:13,710
+ passphrase <font color="#E5E5E5">ke titik akses itu </font><font color="#CCCCCC">dan di sini </font>
+
+125
+00:05:13,710 --> 00:05:17,100
+ Anda <font color="#E5E5E5">akan melihat permintaan </font><font color="#CCCCCC">otentikasi </font>
+
+126
+00:05:17,100 --> 00:05:20,160
+ <font color="#E5E5E5">yang dikirimkan oleh </font><font color="#CCCCCC">klien kami </font><font color="#E5E5E5">sehingga </font><font color="#CCCCCC">Anda </font>
+
+127
+00:05:20,160 --> 00:05:21,890
+ bisa lihat di sini klien kami adalah <font color="#CCCCCC">mengirim </font>
+
+128
+00:05:21,890 --> 00:05:25,050
+ <font color="#E5E5E5">permintaan otentikasi ke akses kami </font>
+
+129
+00:05:25,050 --> 00:05:27,180
+ titik <font color="#E5E5E5">dan kemudian </font><font color="#CCCCCC">kita akan mendapat </font>
+
+130
+00:05:27,180 --> 00:05:29,729
+ respons otentikasi dan di sini Anda bisa 
+
+131
+00:05:29,729 --> 00:05:31,770
+ lihat respons autentikasi <font color="#E5E5E5">sedang </font>
+
+132
+00:05:31,770 --> 00:05:36,150
+ dikirim oleh <font color="#E5E5E5">jalur akses kami ke klien kami </font>
+
+133
+00:05:36,150 --> 00:05:39,000
+ <font color="#E5E5E5">dan sekali klien kami mendapat </font><font color="#CCCCCC">kesempatan ke </font><font color="#E5E5E5">- </font><font color="#CCCCCC">n </font>
+
+134
+00:05:39,000 --> 00:05:41,310
+ paket respon <font color="#E5E5E5">maka klien kami akan </font>
+
+135
+00:05:41,310 --> 00:05:43,650
+ kirim permintaan <font color="#E5E5E5">untuk itu </font>
+
+136
+00:05:43,650 --> 00:05:46,650
+ <font color="#E5E5E5">jalur akses dan tepat setelah paket ini </font>
+
+137
+00:05:46,650 --> 00:05:48,840
+ Anda <font color="#CCCCCC">dapat melihat di sini </font><font color="#E5E5E5">bahwa </font><font color="#CCCCCC">klien kami memiliki </font>
+
+138
+00:05:48,840 --> 00:05:51,570
+ mengirim permintaan pengaitan ke ini 
+
+139
+00:05:51,570 --> 00:05:54,690
+ tujuan jadi tujuan ini adalah milik kita 
+
+140
+00:05:54,690 --> 00:05:58,380
+ jalur akses <font color="#CCCCCC">sehingga tepat </font><font color="#E5E5E5">setelah </font>
+
+141
+00:05:58,380 --> 00:06:00,720
+ <font color="#CCCCCC">paket respons otentikasi di sini Anda </font>
+
+142
+00:06:00,720 --> 00:06:03,090
+ dapat melihat bahwa klien kami telah mengirim 
+
+143
+00:06:03,090 --> 00:06:05,820
+ permintaan asosiasi ke <font color="#CCCCCC">titik akses kami </font>
+
+144
+00:06:05,820 --> 00:06:08,880
+ <font color="#E5E5E5">dan setelah titik akses kami diterima </font>
+
+145
+00:06:08,880 --> 00:06:11,789
+ <font color="#E5E5E5">permintaan asosiasi kemudian akses </font>
+
+146
+00:06:11,789 --> 00:06:14,039
+ titik akan mengirim <font color="#E5E5E5">tanggapan asosiasi </font>
+
+147
+00:06:14,039 --> 00:06:15,870
+ untuk klien kami <font color="#E5E5E5">dan di sini Anda dapat melihat itu </font>
+
+148
+00:06:15,870 --> 00:06:18,390
+ sebagai tanggapan asosiasi sedang dikirim 
+
+149
+00:06:18,390 --> 00:06:22,590
+ oleh <font color="#CCCCCC">jalur akses untuk klien kami </font><font color="#E5E5E5">sehingga </font>
+
+150
+00:06:22,590 --> 00:06:25,020
+ ini adalah bagaimana dan komunikasi antara begitu 
+
+151
+00:06:25,020 --> 00:06:26,700
+ <font color="#E5E5E5">ini adalah </font><font color="#CCCCCC">bagaimana komunikasi antara </font>
+
+152
+00:06:26,700 --> 00:06:29,430
+ titik akses dan <font color="#E5E5E5">klien terjadi di </font>
+
+153
+00:06:29,430 --> 00:06:32,039
+ memesan untuk mentransfer data <font color="#E5E5E5">jadi di video ini </font>
+
+154
+00:06:32,039 --> 00:06:34,080
+ <font color="#E5E5E5">kami telah </font><font color="#CCCCCC">membahas bahwa </font><font color="#E5E5E5">bagaimana seorang klien dan </font>
+
+155
+00:06:34,080 --> 00:06:35,599
+ komunikasi jalur akses 
+
+156
+00:06:35,599 --> 00:06:38,640
+ <font color="#E5E5E5">berkomunikasi </font><font color="#CCCCCC">untuk mentransfer data jadi </font>
+
+157
+00:06:38,640 --> 00:00:00,000
+ terima kasih telah <font color="#E5E5E5">menonton </font><font color="#CCCCCC">video ini </font>
+

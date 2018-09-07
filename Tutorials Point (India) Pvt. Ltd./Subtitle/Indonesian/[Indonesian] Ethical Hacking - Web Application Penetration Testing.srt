@@ -1,0 +1,120 @@
+1
+00:00:00,089 --> 00:00:02,250
+ Halo semua orang di <font color="#CCCCCC">video ini </font>
+
+2
+00:00:02,250 --> 00:00:04,200
+ menutupi <font color="#E5E5E5">penetrasi aplikasi web </font>
+
+3
+00:00:04,200 --> 00:00:06,029
+ pengujian <font color="#E5E5E5">jadi apa itu aplikasi web </font>
+
+4
+00:00:06,029 --> 00:00:08,039
+ pengujian penetrasi <font color="#E5E5E5">sehingga aplikasi web </font>
+
+5
+00:00:08,039 --> 00:00:09,900
+ pengujian penetrasi adalah proses 
+
+6
+00:00:09,900 --> 00:00:11,849
+ menembus <font color="#E5E5E5">aplikasi web dan </font>
+
+7
+00:00:11,849 --> 00:00:13,580
+ mencari tahu <font color="#E5E5E5">masalah keamanan </font>
+
+8
+00:00:13,580 --> 00:00:16,320
+ kerentanan di dalamnya, <font color="#E5E5E5">jadi saya punya </font>
+
+9
+00:00:16,320 --> 00:00:18,420
+ sudah <font color="#E5E5E5">membuat kursus terpisah di web </font>
+
+10
+00:00:18,420 --> 00:00:20,160
+ pengujian penetrasi aplikasi yang 
+
+11
+00:00:20,160 --> 00:00:22,560
+ Anda dapat menemukan <font color="#E5E5E5">pada titik tutorial jadi saya </font>
+
+12
+00:00:22,560 --> 00:00:24,570
+ telah mencakup <font color="#E5E5E5">banyak kerentanan </font>
+
+13
+00:00:24,570 --> 00:00:26,550
+ di dalamnya dan saya telah membuat daftar <font color="#CCCCCC">beberapa </font>
+
+14
+00:00:26,550 --> 00:00:28,920
+ kerentanan di sini sehingga Anda dapat melihat begitu saya 
+
+15
+00:00:28,920 --> 00:00:30,480
+ telah mencakup berbagai suntikan 
+
+16
+00:00:30,480 --> 00:00:32,250
+ kerentanan seperti injeksi HTML 
+
+17
+00:00:32,250 --> 00:00:34,350
+ di mana kita dapat <font color="#E5E5E5">menyuntikkan HTML ke dalam web </font>
+
+18
+00:00:34,350 --> 00:00:37,140
+ aplikasi <font color="#E5E5E5">CSS </font><font color="#CCCCCC">penolakan </font><font color="#E5E5E5">injeksi </font><font color="#CCCCCC">SQL </font>
+
+19
+00:00:37,140 --> 00:00:39,600
+ dan iblis <font color="#E5E5E5">saya juga telah membahas beberapa web </font>
+
+20
+00:00:39,600 --> 00:00:41,460
+ 2.0 <font color="#E5E5E5">membakar kemampuan yang sangat tinggi </font>
+
+21
+00:00:41,460 --> 00:00:44,520
+ Kerentanan yang kompleks <font color="#E5E5E5">seperti CSRF </font><font color="#CCCCCC">idor </font>
+
+22
+00:00:44,520 --> 00:00:46,770
+ <font color="#E5E5E5">SS RF </font><font color="#CCCCCC">menyerang </font><font color="#E5E5E5">permintaan </font><font color="#CCCCCC">sisi server </font>
+
+23
+00:00:46,770 --> 00:00:50,340
+ <font color="#E5E5E5">pemalsuan dan bahkan </font><font color="#CCCCCC">kerentanan </font><font color="#E5E5E5">RFI </font><font color="#CCCCCC">lfi </font>
+
+24
+00:00:50,340 --> 00:00:53,070
+ jadi jika Anda ingin tahu <font color="#E5E5E5">tentang mencari tahu </font>
+
+25
+00:00:53,070 --> 00:00:54,809
+ <font color="#E5E5E5">masalah keamanan dan aplikasi web atau </font>
+
+26
+00:00:54,809 --> 00:00:56,789
+ bahkan <font color="#E5E5E5">jika Anda ingin meretas situs web itu </font>
+
+27
+00:00:56,789 --> 00:00:58,590
+ apa yang dapat Anda <font color="#E5E5E5">lakukan Anda bisa merujuk kursus saya </font>
+
+28
+00:00:58,590 --> 00:01:00,899
+ <font color="#E5E5E5">pengujian penetrasi aplikasi web </font>
+
+29
+00:01:00,899 --> 00:01:03,059
+ dan Anda dapat melihat <font color="#E5E5E5">semua </font><font color="#CCCCCC">video itu </font>
+
+30
+00:01:03,059 --> 00:00:00,000
+ terima kasih telah <font color="#E5E5E5">menonton </font><font color="#CCCCCC">video ini </font>
+

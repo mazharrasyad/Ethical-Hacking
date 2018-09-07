@@ -1,0 +1,1388 @@
+1
+00:00:00,089 --> 00:00:02,610
+ Halo semua orang di <font color="#E5E5E5">video ini </font>
+
+2
+00:00:02,610 --> 00:00:04,770
+ <font color="#E5E5E5">berbicara </font><font color="#CCCCCC">tentang </font><font color="#E5E5E5">steganografi </font>
+
+3
+00:00:04,770 --> 00:00:06,870
+ jadi <font color="#CCCCCC">rasa apa eggnog Rafi begitu </font>
+
+4
+00:00:06,870 --> 00:00:09,330
+ steganografi <font color="#E5E5E5">sebenarnya adalah seni </font>
+
+5
+00:00:09,330 --> 00:00:11,400
+ menulis <font color="#E5E5E5">pesan tersembunyi begitu dengan </font>
+
+6
+00:00:11,400 --> 00:00:13,740
+ bantuan <font color="#E5E5E5">steganografi </font><font color="#CCCCCC">kita bisa menulis a </font>
+
+7
+00:00:13,740 --> 00:00:16,199
+ pesan tersembunyi <font color="#CCCCCC">yang </font><font color="#E5E5E5">hanya bisa dilihat </font>
+
+8
+00:00:16,199 --> 00:00:19,289
+ <font color="#CCCCCC">oleh </font><font color="#E5E5E5">penerima </font><font color="#CCCCCC">kami </font><font color="#E5E5E5">sehingga dengan bantuan </font>
+
+9
+00:00:19,289 --> 00:00:21,600
+ steganografi kita bisa menyembunyikan <font color="#E5E5E5">satu bagian </font>
+
+10
+00:00:21,600 --> 00:00:23,730
+ informasi di <font color="#E5E5E5">balik potongan lain </font>
+
+11
+00:00:23,730 --> 00:00:25,800
+ <font color="#E5E5E5">informasi </font><font color="#CCCCCC">jadi </font><font color="#E5E5E5">misalnya Anda bisa </font>
+
+12
+00:00:25,800 --> 00:00:27,900
+ lihat di sini <font color="#CCCCCC">bahwa di sini adalah file teks kami </font>
+
+13
+00:00:27,900 --> 00:00:29,880
+ yang berisi <font color="#CCCCCC">pesan tersembunyi kami, jadi kami </font>
+
+14
+00:00:29,880 --> 00:00:33,090
+ dapat menyembunyikan file teks ini di <font color="#E5E5E5">belakang jpg </font>
+
+15
+00:00:33,090 --> 00:00:35,550
+ gambar dan bahkan kita dapat menyembunyikan teks ini 
+
+16
+00:00:35,550 --> 00:00:38,640
+ file di <font color="#E5E5E5">belakang file mp3 </font><font color="#CCCCCC">jadi itu </font>
+
+17
+00:00:38,640 --> 00:00:39,690
+ <font color="#CCCCCC">sebaliknya yang sama </font>
+
+18
+00:00:39,690 --> 00:00:42,450
+ kita bahkan bisa <font color="#E5E5E5">menyembunyikan satu </font><font color="#CCCCCC">file </font><font color="#E5E5E5">mp3 </font><font color="#CCCCCC">dibelakangnya </font>
+
+19
+00:00:42,450 --> 00:00:45,360
+ file jpg dan bahkan kita dapat menyembunyikan jpg apa pun 
+
+20
+00:00:45,360 --> 00:00:47,910
+ file di balik file <font color="#E5E5E5">teks </font><font color="#CCCCCC">jadi ini </font><font color="#E5E5E5">adalah </font>
+
+21
+00:00:47,910 --> 00:00:50,039
+ Keindahan steganografi <font color="#CCCCCC">yang bisa kita sembunyikan </font>
+
+22
+00:00:50,039 --> 00:00:53,370
+ satu bagian <font color="#CCCCCC">data di belakang </font><font color="#E5E5E5">yang lain </font>
+
+23
+00:00:53,370 --> 00:00:54,930
+ <font color="#E5E5E5">sepotong </font><font color="#CCCCCC">data </font><font color="#E5E5E5">jadi ada yang berbeda </font>
+
+24
+00:00:54,930 --> 00:00:56,879
+ <font color="#E5E5E5">teknik yang berbeda seperti LSB </font>
+
+25
+00:00:56,879 --> 00:00:58,710
+ bit signifikan terakhir jadi ada 
+
+26
+00:00:58,710 --> 00:01:00,239
+ <font color="#E5E5E5">teknik berbeda yang </font><font color="#CCCCCC">digunakan dalam </font>
+
+27
+00:01:00,239 --> 00:01:02,460
+ <font color="#E5E5E5">untuk menyembunyikan data kami jadi sekarang mari kita lihat </font>
+
+28
+00:01:02,460 --> 00:01:05,549
+ bagaimana steganografi <font color="#CCCCCC">bekerja </font><font color="#E5E5E5">sekarang mari kita lihat </font>
+
+29
+00:01:05,549 --> 00:01:07,950
+ bagaimana kita <font color="#E5E5E5">bisa menyembunyikan teks di balik gambar </font>
+
+30
+00:01:07,950 --> 00:01:10,229
+ file <font color="#E5E5E5">dengan menggunakan </font><font color="#CCCCCC">satu </font><font color="#E5E5E5">skrip Python begitu masuk </font>
+
+31
+00:01:10,229 --> 00:01:12,090
+ <font color="#E5E5E5">untuk melakukan itu </font><font color="#CCCCCC">kita harus </font><font color="#E5E5E5">memulai Kali kita </font>
+
+32
+00:01:12,090 --> 00:01:14,640
+ Linux <font color="#E5E5E5">dan di sini Anda dapat melihat bahwa saya </font>
+
+33
+00:01:14,640 --> 00:01:18,840
+ <font color="#E5E5E5">College Linux sudah berdiri dan berjalan jadi mari </font>
+
+34
+00:01:18,840 --> 00:01:20,400
+ unduh skrip itu <font color="#CCCCCC">dari </font><font color="#E5E5E5">github </font><font color="#CCCCCC">saya </font>
+
+35
+00:01:20,400 --> 00:01:29,549
+ profil jadi <font color="#CCCCCC">tepat di </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">G adalah T dot </font>
+
+36
+00:01:29,549 --> 00:01:38,340
+ github.com <font color="#CCCCCC">/ r </font><font color="#E5E5E5">Kumar 97 dan ini dia </font>
+
+37
+00:01:38,340 --> 00:01:41,579
+ <font color="#CCCCCC">menemukan </font><font color="#E5E5E5">satu file bernama </font><font color="#CCCCCC">sebagai tag Oh terhuyung-huyung </font>
+
+38
+00:01:41,579 --> 00:01:49,560
+ dot py jadi mari kita unduh file ini <font color="#E5E5E5">klik </font>
+
+39
+00:01:49,560 --> 00:01:55,130
+ <font color="#CCCCCC">di sini </font><font color="#E5E5E5">dan mari kita </font><font color="#CCCCCC">simpan halamannya </font>
+
+40
+00:01:56,780 --> 00:02:01,160
+ jadi saya menyimpan <font color="#E5E5E5">ini di desktop saya, </font><font color="#CCCCCC">oke jadi </font>
+
+41
+00:02:01,160 --> 00:02:04,450
+ file <font color="#E5E5E5">telah disimpan sekarang Anda bisa lihat di sini </font>
+
+42
+00:02:04,450 --> 00:02:10,399
+ <font color="#E5E5E5">sekarang mari kita buka terminal kita dan ayo pergi </font>
+
+43
+00:02:10,399 --> 00:02:12,500
+ di sini untuk <font color="#E5E5E5">desktop </font><font color="#CCCCCC">di sini Anda akan </font><font color="#E5E5E5">melihat </font>
+
+44
+00:02:12,500 --> 00:02:14,930
+ daftar <font color="#E5E5E5">file </font><font color="#CCCCCC">dan di sini adalah file kami </font>
+
+45
+00:02:14,930 --> 00:02:17,030
+ <font color="#CCCCCC">macan dot py </font><font color="#E5E5E5">jadi hal pertama yang kita miliki </font>
+
+46
+00:02:17,030 --> 00:02:20,180
+ Yang harus <font color="#E5E5E5">dilakukan adalah kita harus </font><font color="#CCCCCC">mengubah modenya dan </font>
+
+47
+00:02:20,180 --> 00:02:23,120
+ kita harus <font color="#CCCCCC">membuatnya bisa dieksekusi jadi mari </font>
+
+48
+00:02:23,120 --> 00:02:27,530
+ di sini chmod <font color="#E5E5E5">dan </font><font color="#CCCCCC">nama file </font><font color="#E5E5E5">kami </font><font color="#CCCCCC">dan jika </font>
+
+49
+00:02:27,530 --> 00:02:30,170
+ Saya melakukan <font color="#CCCCCC">LS </font><font color="#E5E5E5">Anda akan melihat di sini bahwa </font><font color="#CCCCCC">sekarang kami </font>
+
+50
+00:02:30,170 --> 00:02:34,400
+ file adalah file yang dapat dieksekusi sebelumnya 
+
+51
+00:02:34,400 --> 00:02:36,680
+ menjalankan file ini kita harus <font color="#E5E5E5">menginstal </font><font color="#CCCCCC">pip </font>
+
+52
+00:02:36,680 --> 00:02:38,870
+ <font color="#E5E5E5">yang sebenarnya adalah perpustakaan lab Python </font>
+
+53
+00:02:38,870 --> 00:02:41,870
+ manajer yang <font color="#E5E5E5">digunakan untuk </font><font color="#CCCCCC">menginstal </font><font color="#E5E5E5">python </font>
+
+54
+00:02:41,870 --> 00:02:44,480
+ perpustakaan jadi hanya di sini apt-get 
+
+55
+00:02:44,480 --> 00:02:50,300
+ instal python <font color="#CCCCCC">yep dan file ini </font>
+
+56
+00:02:50,300 --> 00:02:52,340
+ <font color="#CCCCCC">py terhuyung sebenarnya kompatibel dengan </font>
+
+57
+00:02:52,340 --> 00:03:02,989
+ Sementara Python 2.7, mari kita baca 
+
+58
+00:03:02,989 --> 00:03:05,630
+ kode sumber dari <font color="#E5E5E5">file itu jadi ketika kami </font>
+
+59
+00:03:05,630 --> 00:03:08,239
+ <font color="#E5E5E5">Tujuan Python juga dipasang </font><font color="#CCCCCC">begitu </font>
+
+60
+00:03:08,239 --> 00:03:11,769
+ <font color="#CCCCCC">mari kita lihat apa yang ada di </font><font color="#E5E5E5">dalam file ini </font>
+
+61
+00:03:11,769 --> 00:03:16,100
+ <font color="#CCCCCC">ok jadi di sini </font><font color="#E5E5E5">Anda dapat melihat bahwa </font><font color="#CCCCCC">Di sinilah aku </font>
+
+62
+00:03:16,100 --> 00:03:18,140
+ <font color="#E5E5E5">mengimpor </font><font color="#CCCCCC">beberapa perpustakaan </font><font color="#E5E5E5">steganografi </font>
+
+63
+00:03:18,140 --> 00:03:21,380
+ perpustakaan maka <font color="#E5E5E5">saya telah menambahkan parser ini </font>
+
+64
+00:03:21,380 --> 00:03:23,690
+ yang sebenarnya <font color="#E5E5E5">membutuhkan tiga parameter </font>
+
+65
+00:03:23,690 --> 00:03:25,730
+ yang pertama adalah pembawa di mana kita 
+
+66
+00:03:25,730 --> 00:03:27,860
+ akan menentukan file pembawa lalu <font color="#E5E5E5">styro </font>
+
+67
+00:03:27,860 --> 00:03:30,200
+ teks di mana kita akan <font color="#E5E5E5">menulis teks </font>
+
+68
+00:03:30,200 --> 00:03:32,870
+ yang akan disembunyikan di dalam file kami dan 
+
+69
+00:03:32,870 --> 00:03:34,700
+ <font color="#E5E5E5">di terakhir </font><font color="#CCCCCC">parameter </font><font color="#E5E5E5">ketiga </font><font color="#CCCCCC">adalah </font>
+
+70
+00:03:34,700 --> 00:03:36,829
+ sebenarnya digunakan <font color="#E5E5E5">untuk mencari tahu yang tersembunyi </font>
+
+71
+00:03:36,829 --> 00:03:39,829
+ teks di balik <font color="#E5E5E5">file gambar apa pun dan di sini saya </font>
+
+72
+00:03:39,829 --> 00:03:42,350
+ telah membuat <font color="#E5E5E5">dua fungsi def </font><font color="#CCCCCC">hi text </font>
+
+73
+00:03:42,350 --> 00:03:44,090
+ yang <font color="#E5E5E5">digunakan untuk menyembunyikan </font><font color="#CCCCCC">teks di </font><font color="#E5E5E5">belakang </font>
+
+74
+00:03:44,090 --> 00:03:46,820
+ <font color="#E5E5E5">file dan teks kemudian def baik </font><font color="#CCCCCC">yang </font>
+
+75
+00:03:46,820 --> 00:03:49,790
+ digunakan <font color="#E5E5E5">untuk mencari teks di balik file apa saja </font>
+
+76
+00:03:49,790 --> 00:03:52,160
+ ini mengatakan <font color="#E5E5E5">kode sumber kecil ini </font>
+
+77
+00:03:52,160 --> 00:03:54,230
+ file <font color="#E5E5E5">dan di sini Anda dapat melihat bahwa sekarang kami </font>
+
+78
+00:03:54,230 --> 00:03:59,690
+ <font color="#CCCCCC">pep diinstal </font><font color="#E5E5E5">sehingga </font><font color="#CCCCCC">Anda bisa </font><font color="#E5E5E5">membaca </font>
+
+79
+00:03:59,690 --> 00:04:02,440
+ <font color="#E5E5E5">halaman utamanya </font>
+
+80
+00:04:03,720 --> 00:04:05,910
+ jadi ini adalah alat untuk menginstal pengelolaan 
+
+81
+00:04:05,910 --> 00:04:08,360
+ Paket Python sekarang mari <font color="#CCCCCC">instal </font>
+
+82
+00:04:08,360 --> 00:04:11,820
+ <font color="#E5E5E5">paket steganografi di sistem kami </font><font color="#CCCCCC">jadi </font>
+
+83
+00:04:11,820 --> 00:04:15,720
+ yang dapat <font color="#E5E5E5">diimpor oleh file kami jadi hanya </font>
+
+84
+00:04:15,720 --> 00:04:18,019
+ <font color="#E5E5E5">sampai di sini pip instal </font>
+
+85
+00:04:18,019 --> 00:04:26,060
+ <font color="#CCCCCC">steganografi tekan </font><font color="#E5E5E5">enter </font>
+
+86
+00:04:31,310 --> 00:04:34,400
+ <font color="#E5E5E5">oke dan di sini Anda dapat melihat ini </font>
+
+87
+00:04:34,400 --> 00:04:36,530
+ <font color="#E5E5E5">paket steganografi berhasil </font>
+
+88
+00:04:36,530 --> 00:04:39,680
+ <font color="#CCCCCC">terinstal </font><font color="#E5E5E5">sekarang mari kita </font><font color="#CCCCCC">lakukan LS dan di sini adalah </font>
+
+89
+00:04:39,680 --> 00:04:42,620
+ <font color="#E5E5E5">file kami jadi pertama-tama mari kita jalankan ini </font>
+
+90
+00:04:42,620 --> 00:04:45,919
+ file <font color="#E5E5E5">dan mari kita melewatkannya satu parameter </font>
+
+91
+00:04:45,919 --> 00:04:48,110
+ disebut sebagai bantuan <font color="#E5E5E5">untuk melihat apa itu </font>
+
+92
+00:04:48,110 --> 00:04:51,500
+ <font color="#CCCCCC">jenis parameter yang </font><font color="#E5E5E5">diterima file ini </font>
+
+93
+00:04:51,500 --> 00:04:53,060
+ di sini Anda dapat <font color="#E5E5E5">melihat itu </font><font color="#CCCCCC">sekarang kami bisa </font>
+
+94
+00:04:53,060 --> 00:04:54,710
+ berikan tiga parameter yang pertama 
+
+95
+00:04:54,710 --> 00:04:57,290
+ parameter adalah pembawa di mana di <font color="#E5E5E5">mana </font>
+
+96
+00:04:57,290 --> 00:04:59,210
+ kami akan menentukan <font color="#E5E5E5">jalur pembawa </font>
+
+97
+00:04:59,210 --> 00:05:02,240
+ file yang akan berisi <font color="#E5E5E5">teks kita itu </font>
+
+98
+00:05:02,240 --> 00:05:04,880
+ parameter berikutnya yang <font color="#CCCCCC">harus </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">berikan - - </font>
+
+99
+00:05:04,880 --> 00:05:06,950
+ <font color="#CCCCCC">teks stego dan cara di mana kita </font>
+
+100
+00:05:06,950 --> 00:05:09,500
+ akan memasuki teks <font color="#CCCCCC">- tinggi sekarang </font>
+
+101
+00:05:09,500 --> 00:05:11,450
+ Parameter ketiga <font color="#CCCCCC">digunakan untuk </font><font color="#E5E5E5">mengetahui </font>
+
+102
+00:05:11,450 --> 00:05:13,760
+ teks di <font color="#CCCCCC">belakang gambar jadi pertama- </font><font color="#E5E5E5">tama Anda </font>
+
+103
+00:05:13,760 --> 00:05:15,530
+ bisa <font color="#E5E5E5">lihat di sini </font><font color="#CCCCCC">bahwa di teks saya ada </font>
+
+104
+00:05:15,530 --> 00:05:19,520
+ satu <font color="#E5E5E5">gambar disebut sebagai dot dot jpg begitu dengan </font>
+
+105
+00:05:19,520 --> 00:05:25,780
+ saya <font color="#E5E5E5">hanya mengganti namanya dan menjadikannya </font><font color="#CCCCCC">sebagai demo </font>
+
+106
+00:05:25,780 --> 00:05:29,090
+ oke <font color="#CCCCCC">jadi mari kita jalankan file Python ini </font>
+
+107
+00:05:29,090 --> 00:05:31,790
+ <font color="#E5E5E5">py terhuyung dan mari kita beri yang </font><font color="#CCCCCC">pertama </font>
+
+108
+00:05:31,790 --> 00:05:36,229
+ <font color="#CCCCCC">parameter yang pembawa </font><font color="#E5E5E5">dan di sini saya </font>
+
+109
+00:05:36,229 --> 00:05:38,630
+ akan <font color="#E5E5E5">menentukan nama </font><font color="#CCCCCC">file </font><font color="#E5E5E5">nama jpg </font>
+
+110
+00:05:38,630 --> 00:05:42,380
+ disebut sebagai demo dot jpg <font color="#E5E5E5">maka saya akan berikan </font>
+
+111
+00:05:42,380 --> 00:05:46,900
+ <font color="#E5E5E5">parameter berikutnya yaitu tag </font><font color="#CCCCCC">Oh teks dan </font>
+
+112
+00:05:46,900 --> 00:05:49,400
+ di sini saya akan <font color="#CCCCCC">menulis </font><font color="#E5E5E5">teks yang saya </font>
+
+113
+00:05:49,400 --> 00:05:53,120
+ ingin <font color="#E5E5E5">bersembunyi di balik file ini, jadi biarkan saja </font>
+
+114
+00:05:53,120 --> 00:06:00,970
+ <font color="#CCCCCC">jadilah </font><font color="#E5E5E5">ini </font><font color="#CCCCCC">rahasia </font><font color="#E5E5E5">dan tekan saja </font><font color="#CCCCCC">enter jadi </font>
+
+115
+00:06:00,970 --> 00:06:04,729
+ <font color="#CCCCCC">itu memberi </font><font color="#E5E5E5">kita kesalahan tanpa file atau demo </font>
+
+116
+00:06:04,729 --> 00:06:08,930
+ dot jpg <font color="#E5E5E5">oke saya pikir kita harus mengganti nama </font>
+
+117
+00:06:08,930 --> 00:06:11,410
+ <font color="#CCCCCC">lagi </font>
+
+118
+00:06:16,880 --> 00:06:21,270
+ sekarang mari kita lihat apa yang terjadi, <font color="#E5E5E5">jadi di sini </font>
+
+119
+00:06:21,270 --> 00:06:25,070
+ Anda <font color="#E5E5E5">dapat melihat bahwa skrip kami berjalan </font>
+
+120
+00:06:26,720 --> 00:06:31,590
+ dan di balik <font color="#CCCCCC">shell ini di </font><font color="#E5E5E5">desktop </font><font color="#CCCCCC">saya </font><font color="#E5E5E5">Anda </font>
+
+121
+00:06:31,590 --> 00:06:34,680
+ <font color="#E5E5E5">dapat melihat bahwa skrip ini telah membuat file </font>
+
+122
+00:06:34,680 --> 00:06:37,140
+ file baru bernama <font color="#CCCCCC">stager dot PNG </font><font color="#E5E5E5">dan </font>
+
+123
+00:06:37,140 --> 00:06:39,360
+ file ini <font color="#E5E5E5">sebenarnya berisi teks </font>
+
+124
+00:06:39,360 --> 00:06:42,210
+ <font color="#E5E5E5">di belakangnya jadi apa yang </font><font color="#CCCCCC">bisa </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">lakukan adalah kita bisa </font>
+
+125
+00:06:42,210 --> 00:06:44,070
+ bahkan periksa <font color="#E5E5E5">sifat-sifat lama kita </font>
+
+126
+00:06:44,070 --> 00:06:47,280
+ file sehingga <font color="#CCCCCC">Anda </font><font color="#E5E5E5">dapat melihat di sini bahwa itu ukuran </font>
+
+127
+00:06:47,280 --> 00:06:50,490
+ adalah <font color="#E5E5E5">138 kV </font><font color="#CCCCCC">dan sekarang mari kita </font><font color="#E5E5E5">ambil saja </font>
+
+128
+00:06:50,490 --> 00:06:53,250
+ milik <font color="#E5E5E5">file gambar baru kami yang </font>
+
+129
+00:06:53,250 --> 00:06:57,060
+ dibuat <font color="#CCCCCC">oleh </font><font color="#E5E5E5">skrip dan propertinya </font>
+
+130
+00:06:57,060 --> 00:06:59,970
+ adalah 7 7 <font color="#E5E5E5">8 KB sehingga Anda dapat melihat di sini itu </font>
+
+131
+00:06:59,970 --> 00:07:03,150
+ ada <font color="#CCCCCC">perubahan dalam </font><font color="#E5E5E5">ukuran dan bahkan dalam </font>
+
+132
+00:07:03,150 --> 00:07:08,270
+ data exif kecil kecil <font color="#CCCCCC">di gambar baru ini </font>
+
+133
+00:07:08,270 --> 00:07:11,460
+ sekarang mari kita melakukan satu hal sekarang <font color="#E5E5E5">mari kita coba </font><font color="#CCCCCC">untuk </font>
+
+134
+00:07:11,460 --> 00:07:13,710
+ <font color="#E5E5E5">cari tahu teks yang </font><font color="#CCCCCC">ada </font>
+
+135
+00:07:13,710 --> 00:07:17,670
+ di dalam file ini <font color="#E5E5E5">bintang dot PNG jadi kami punya </font>
+
+136
+00:07:17,670 --> 00:07:20,040
+ untuk menjalankan lebih dari file ini <font color="#CCCCCC">terhadap </font><font color="#E5E5E5">Godot py </font>
+
+137
+00:07:20,040 --> 00:07:25,290
+ tetapi di sini <font color="#E5E5E5">kali ini kami akan menentukan ini </font>
+
+138
+00:07:25,290 --> 00:07:28,590
+ parameter - - star <font color="#E5E5E5">go find dan kami akan </font>
+
+139
+00:07:28,590 --> 00:07:31,140
+ berikan path atau nama <font color="#E5E5E5">file ini </font>
+
+140
+00:07:31,140 --> 00:07:36,620
+ <font color="#CCCCCC">stager dot PNG jadi mari tulis </font><font color="#E5E5E5">di sini saja </font>
+
+141
+00:07:36,620 --> 00:07:41,910
+ stego baik dan di sini kami akan menentukan 
+
+142
+00:07:41,910 --> 00:07:44,490
+ nama itulah stager dot PNG <font color="#E5E5E5">dan kami akan </font>
+
+143
+00:07:44,490 --> 00:07:47,040
+ lihat <font color="#CCCCCC">apakah </font><font color="#E5E5E5">skrip bisa </font>
+
+144
+00:07:47,040 --> 00:07:49,290
+ temukan <font color="#E5E5E5">teks yang tersembunyi di sini </font>
+
+145
+00:07:49,290 --> 00:07:56,820
+ <font color="#E5E5E5">file atau tidak jadi cukup tekan enter dan di sini </font>
+
+146
+00:07:56,820 --> 00:07:58,950
+ Anda akan <font color="#E5E5E5">melihat bahwa kami telah mendirikan satu </font>
+
+147
+00:07:58,950 --> 00:08:02,040
+ teks teks tersembunyi ditemukan <font color="#E5E5E5">dan ini adalah </font>
+
+148
+00:08:02,040 --> 00:08:05,280
+ teks yang ditemukan ini adalah rahasia 
+
+149
+00:08:05,280 --> 00:08:07,440
+ ini adalah bagaimana kita bisa menyembunyikan teks di belakang 
+
+150
+00:08:07,440 --> 00:08:10,320
+ <font color="#E5E5E5">file gambar apa pun </font><font color="#CCCCCC">jadi </font><font color="#E5E5E5">ini adalah demo singkat </font>
+
+151
+00:08:10,320 --> 00:08:12,870
+ <font color="#E5E5E5">steganografi </font><font color="#CCCCCC">tetapi ini semua tentang </font>
+
+152
+00:08:12,870 --> 00:08:15,000
+ <font color="#E5E5E5">Linux berarti kita bisa menjalankan skripnya </font>
+
+153
+00:08:15,000 --> 00:08:17,550
+ Linux <font color="#E5E5E5">dan windows tetapi bagaimana dengan Anda </font>
+
+154
+00:08:17,550 --> 00:08:20,040
+ ingin menyembunyikan <font color="#E5E5E5">satu file di belakang yang lain </font>
+
+155
+00:08:20,040 --> 00:08:22,080
+ file artinya ada dua <font color="#CCCCCC">gambar file Anda </font>
+
+156
+00:08:22,080 --> 00:08:23,970
+ ingin <font color="#E5E5E5">menyembunyikan satu file gambar di belakang </font>
+
+157
+00:08:23,970 --> 00:08:26,190
+ <font color="#E5E5E5">file gambar lain atau Anda ingin sembunyikan </font>
+
+158
+00:08:26,190 --> 00:08:27,030
+ sebuah PC 
+
+159
+00:08:27,030 --> 00:08:29,760
+ file di <font color="#E5E5E5">balik file gambar </font><font color="#CCCCCC">jadi untuk </font>
+
+160
+00:08:29,760 --> 00:08:33,690
+ <font color="#E5E5E5">lakukan begitu ada alat yang sangat bagus yang disebut </font>
+
+161
+00:08:33,690 --> 00:08:36,390
+ sebagai rahasia yang tak terlihat <font color="#E5E5E5">sehingga Anda bisa lihat di sini </font>
+
+162
+00:08:36,390 --> 00:08:38,610
+ jadi Anda dapat mengunduh alat ini dari sini 
+
+163
+00:08:38,610 --> 00:08:40,830
+ <font color="#E5E5E5">rahasia tersembunyi </font><font color="#CCCCCC">unduhan dot-coms </font>
+
+164
+00:08:40,830 --> 00:08:44,460
+ <font color="#E5E5E5">dan itu tersedia untuk dua versi </font><font color="#CCCCCC">yang </font>
+
+165
+00:08:44,460 --> 00:08:47,430
+ pro satu dan yang gratis jadi <font color="#CCCCCC">saya punya </font>
+
+166
+00:08:47,430 --> 00:08:49,200
+ <font color="#E5E5E5">unduh dan instal yang satu </font><font color="#CCCCCC">ini ini </font>
+
+167
+00:08:49,200 --> 00:08:51,120
+ <font color="#E5E5E5">salinan uji coba gratis sehingga Anda dapat mengunduhnya </font>
+
+168
+00:08:51,120 --> 00:08:53,670
+ <font color="#E5E5E5">dari </font><font color="#CCCCCC">sini </font><font color="#E5E5E5">jadi setelah Anda </font><font color="#CCCCCC">mengunduh alat ini </font>
+
+169
+00:08:53,670 --> 00:08:58,770
+ dan pasang alat ini sehingga akan terlihat 
+
+170
+00:08:58,770 --> 00:09:07,110
+ <font color="#CCCCCC">seperti ini jadi Anda harus klik di sini </font>
+
+171
+00:09:07,110 --> 00:09:09,330
+ melanjutkan uji coba <font color="#E5E5E5">dan jika Anda ingin membeli </font>
+
+172
+00:09:09,330 --> 00:09:11,430
+ alat ini maka <font color="#E5E5E5">Anda bisa karena alat ini </font>
+
+173
+00:09:11,430 --> 00:09:13,800
+ adalah <font color="#CCCCCC">alat yang sangat baik dalam kriptografi </font><font color="#E5E5E5">sehingga </font>
+
+174
+00:09:13,800 --> 00:09:15,870
+ di sini Anda <font color="#E5E5E5">dapat melihat menu alat ini </font>
+
+175
+00:09:15,870 --> 00:09:18,270
+ <font color="#E5E5E5">jadi ini berisi banyak fungsi seperti </font>
+
+176
+00:09:18,270 --> 00:09:20,400
+ <font color="#CCCCCC">menyembunyikan file kita dapat </font><font color="#E5E5E5">menyembunyikan file dan kita bisa </font>
+
+177
+00:09:20,400 --> 00:09:22,590
+ Perlihatkan file <font color="#E5E5E5">bahkan </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">dapat mengenkripsi file </font>
+
+178
+00:09:22,590 --> 00:09:24,570
+ menggunakan <font color="#E5E5E5">algoritme tertentu yang kami bisa </font>
+
+179
+00:09:24,570 --> 00:09:26,970
+ mendekripsi file yang <font color="#E5E5E5">dapat kita buat </font><font color="#CCCCCC">sendiri </font>
+
+180
+00:09:26,970 --> 00:09:30,030
+ mendekripsi paket kita bahkan dapat <font color="#E5E5E5">mengirim </font>
+
+181
+00:09:30,030 --> 00:09:32,670
+ file <font color="#E5E5E5">dari satu IP ke IP lain dengan menggunakan </font>
+
+182
+00:09:32,670 --> 00:09:35,190
+ <font color="#E5E5E5">transfer kata sandi aman bahkan kita bisa </font>
+
+183
+00:09:35,190 --> 00:09:37,890
+ mengunci aplikasi tertentu <font color="#CCCCCC">di kami </font>
+
+184
+00:09:37,890 --> 00:09:40,200
+ komputer seperti yang Anda <font color="#CCCCCC">unduh </font><font color="#E5E5E5">dan </font>
+
+185
+00:09:40,200 --> 00:09:42,570
+ menginstal satu perangkat lunak <font color="#E5E5E5">dan Anda ingin </font>
+
+186
+00:09:42,570 --> 00:09:44,610
+ mengenkripsi <font color="#CCCCCC">perangkat lunak itu </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">Anda ingin </font>
+
+187
+00:09:44,610 --> 00:09:47,040
+ mengunci perangkat lunak yang <font color="#CCCCCC">sehingga</font><font color="#E5E5E5"> lain </font>
+
+188
+00:09:47,040 --> 00:09:48,930
+ pengguna tidak <font color="#E5E5E5">akan dapat mengaksesnya </font>
+
+189
+00:09:48,930 --> 00:09:50,580
+ perangkat lunak <font color="#E5E5E5">maka </font><font color="#CCCCCC">Anda dapat dengan bantuan </font>
+
+190
+00:09:50,580 --> 00:09:52,920
+ aplikasi login fungsi ini tetapi 
+
+191
+00:09:52,920 --> 00:09:55,320
+ pertama-tama <font color="#CCCCCC">kita akan melihat bagaimana kita bisa </font>
+
+192
+00:09:55,320 --> 00:09:57,960
+ sembunyikan satu file di belakang <font color="#E5E5E5">file lain dan di </font>
+
+193
+00:09:57,960 --> 00:09:59,880
+ desktop saya <font color="#CCCCCC">Anda </font><font color="#E5E5E5">bisa </font><font color="#CCCCCC">lihat di sini saya punya </font><font color="#E5E5E5">dua </font>
+
+194
+00:09:59,880 --> 00:10:05,130
+ <font color="#CCCCCC">gambar yang pertama adalah pembawa dan </font>
+
+195
+00:10:05,130 --> 00:10:07,290
+ Yang kedua adalah <font color="#E5E5E5">tinggi sekarang mari kita lakukan </font>
+
+196
+00:10:07,290 --> 00:10:10,170
+ hal <font color="#E5E5E5">klik di sini menyembunyikan file dan di </font>
+
+197
+00:10:10,170 --> 00:10:12,990
+ yang pertama di sini <font color="#E5E5E5">kita harus memberikan file </font>
+
+198
+00:10:12,990 --> 00:10:15,180
+ yang ingin kami <font color="#E5E5E5">sembunyikan di operator </font>
+
+199
+00:10:15,180 --> 00:10:17,370
+ file berarti di sini pada titik pertama <font color="#E5E5E5">kita </font>
+
+200
+00:10:17,370 --> 00:10:19,230
+ harus memberikan file yang kita <font color="#E5E5E5">ingin </font>
+
+201
+00:10:19,230 --> 00:10:23,310
+ sembunyikan jadi mari kita klik file ini 
+
+202
+00:10:23,310 --> 00:10:30,020
+ di sini <font color="#E5E5E5">tambahkan file dan pilih file ini </font>
+
+203
+00:10:30,020 --> 00:10:34,050
+ klik <font color="#E5E5E5">di sebelah dan di sini kita harus </font>
+
+204
+00:10:34,050 --> 00:10:36,870
+ <font color="#CCCCCC">tentukan </font><font color="#E5E5E5">nama </font><font color="#CCCCCC">file operator </font><font color="#E5E5E5">yang </font>
+
+205
+00:10:36,870 --> 00:10:40,820
+ akan <font color="#E5E5E5">membawa </font><font color="#CCCCCC">file hide </font>
+
+206
+00:10:41,230 --> 00:10:47,300
+ jadi klik di sini <font color="#E5E5E5">sekarang kali ini kita akan </font>
+
+207
+00:10:47,300 --> 00:10:48,879
+ berikan operator file ini 
+
+208
+00:10:48,879 --> 00:10:53,029
+ oke jadi kariotipe adalah <font color="#E5E5E5">jpg dan mari klik </font>
+
+209
+00:10:53,029 --> 00:10:56,689
+ <font color="#E5E5E5">di sini lihat gambar jpg jadi ini adalah </font>
+
+210
+00:10:56,689 --> 00:11:00,040
+ gambar yang akan <font color="#E5E5E5">ditampilkan setelah </font><font color="#CCCCCC">ini </font>
+
+211
+00:11:00,040 --> 00:11:02,809
+ <font color="#E5E5E5">steganografi </font><font color="#CCCCCC">atau setelah menyembunyikan </font><font color="#E5E5E5">file ini </font>
+
+212
+00:11:02,809 --> 00:11:06,589
+ jadi klik <font color="#CCCCCC">selanjutnya </font><font color="#E5E5E5">dan klik di sini </font>
+
+213
+00:11:06,589 --> 00:11:09,379
+ hapus file operator setelah proses jadi sekali 
+
+214
+00:11:09,379 --> 00:11:11,480
+ <font color="#E5E5E5">file ini disembunyikan di dalam operator </font>
+
+215
+00:11:11,480 --> 00:11:13,999
+ file <font color="#E5E5E5">gambar ini akan dihapus dan </font>
+
+216
+00:11:13,999 --> 00:11:17,149
+ gambar baru <font color="#CCCCCC">akan datang dan </font><font color="#E5E5E5">ada satu </font>
+
+217
+00:11:17,149 --> 00:11:19,249
+ lebih banyak opsi yang <font color="#CCCCCC">bahkan dapat kami tentukan </font>
+
+218
+00:11:19,249 --> 00:11:22,369
+ kata sandi <font color="#E5E5E5">untuk mengenkripsi file kami jadi </font>
+
+219
+00:11:22,369 --> 00:11:24,499
+ jika <font color="#CCCCCC">Anda ingin </font><font color="#E5E5E5">memberikan kata sandi maka Anda </font>
+
+220
+00:11:24,499 --> 00:11:27,139
+ <font color="#E5E5E5">jika tidak Anda dapat melewatkan ini </font>
+
+221
+00:11:27,139 --> 00:11:34,459
+ <font color="#E5E5E5">enkripsi tetapi </font><font color="#CCCCCC">saya pikir itu tidak membiarkan </font>
+
+222
+00:11:34,459 --> 00:11:37,100
+ <font color="#E5E5E5">kita lewati ayo tambahkan saja kata sandinya </font>
+
+223
+00:11:37,100 --> 00:11:39,429
+ sini 
+
+224
+00:11:44,280 --> 00:11:49,440
+ jadi <font color="#CCCCCC">mari tulis di </font><font color="#E5E5E5">sini demo dan di sini Anda </font>
+
+225
+00:11:49,440 --> 00:11:50,820
+ dapat <font color="#CCCCCC">memilih </font><font color="#E5E5E5">enkripsi </font><font color="#CCCCCC">tertentu </font>
+
+226
+00:11:50,820 --> 00:11:53,880
+ algoritma yang ingin Anda gunakan jadi saya menggunakan ini 
+
+227
+00:11:53,880 --> 00:11:58,020
+ Blowfish <font color="#E5E5E5">klik di sebelah </font><font color="#CCCCCC">dan di </font><font color="#E5E5E5">sini kita punya </font>
+
+228
+00:11:58,020 --> 00:12:00,750
+ untuk menambah <font color="#E5E5E5">atau menuliskan nama </font><font color="#CCCCCC">yang baru </font>
+
+229
+00:12:00,750 --> 00:12:03,180
+ file yang akan <font color="#E5E5E5">dibuat dan yang mana </font>
+
+230
+00:12:03,180 --> 00:12:06,900
+ mengandung <font color="#E5E5E5">file dot jpg yang </font><font color="#CCCCCC">tinggi ini </font>
+
+231
+00:12:06,900 --> 00:12:08,730
+ <font color="#CCCCCC">klik di sini </font><font color="#E5E5E5">dan kami bahkan dapat memilih </font>
+
+232
+00:12:08,730 --> 00:12:10,770
+ <font color="#E5E5E5">lokasi tertentu </font><font color="#CCCCCC">jadi kami ingin aku </font><font color="#E5E5E5">ingin </font>
+
+233
+00:12:10,770 --> 00:12:12,720
+ simpan file baru di desktop saya <font color="#E5E5E5">dan </font>
+
+234
+00:12:12,720 --> 00:12:18,570
+ nama file baru <font color="#E5E5E5">akan menjadi klik tersembunyi baru </font>
+
+235
+00:12:18,570 --> 00:12:24,930
+ simpan <font color="#E5E5E5">dan klik di sini di hide dan di sini </font>
+
+236
+00:12:24,930 --> 00:12:27,420
+ Anda <font color="#E5E5E5">dapat melihat bahwa file operator kami </font>
+
+237
+00:12:27,420 --> 00:12:29,880
+ dihapus <font color="#E5E5E5">dan file baru bernama sebagai Newton </font>
+
+238
+00:12:29,880 --> 00:12:32,370
+ dibuat <font color="#E5E5E5">di desktop saya jadi jika saya buka </font>
+
+239
+00:12:32,370 --> 00:12:36,560
+ <font color="#CCCCCC">file ini Anda dapat </font><font color="#E5E5E5">melihat tidak ada perubahan tetapi </font>
+
+240
+00:12:36,560 --> 00:12:39,960
+ mari kita coba <font color="#E5E5E5">untuk mengetahui </font><font color="#CCCCCC">ukuran</font><font color="#E5E5E5"> ini </font>
+
+241
+00:12:39,960 --> 00:12:43,770
+ <font color="#CCCCCC">file </font><font color="#E5E5E5">itu 1 MB tetapi di sini Anda dapat melihat itu </font>
+
+242
+00:12:43,770 --> 00:12:45,810
+ <font color="#E5E5E5">ukurannya meningkat </font><font color="#CCCCCC">karena itu </font>
+
+243
+00:12:45,810 --> 00:12:49,680
+ <font color="#E5E5E5">berisi file ini dengan sendirinya sekarang klik </font>
+
+244
+00:12:49,680 --> 00:12:53,790
+ di depan <font color="#CCCCCC">dan selesai </font><font color="#E5E5E5">jadi sekarang Anda dapat mengirim </font>
+
+245
+00:12:53,790 --> 00:12:56,780
+ file ini kepada <font color="#E5E5E5">siapa pun dan untuk </font>
+
+246
+00:12:56,780 --> 00:12:59,160
+ Perlihatkan file ini atau untuk mengambil file 
+
+247
+00:12:59,160 --> 00:13:02,100
+ file tersembunyi dari file ini jadi pertama 
+
+248
+00:13:02,100 --> 00:13:03,720
+ semua mari kita lakukan satu hal, <font color="#CCCCCC">mari kita hapus ini </font>
+
+249
+00:13:03,720 --> 00:13:07,020
+ <font color="#E5E5E5">file hide ok sekarang klik pada file unhide </font>
+
+250
+00:13:07,020 --> 00:13:09,330
+ <font color="#E5E5E5">dan di sini kami harus memberikan lokasi </font>
+
+251
+00:13:09,330 --> 00:13:11,340
+ file yang berisi <font color="#E5E5E5">file tersembunyi dan </font>
+
+252
+00:13:11,340 --> 00:13:13,920
+ di sini adalah <font color="#E5E5E5">file baru yang tersembunyi klik </font>
+
+253
+00:13:13,920 --> 00:13:16,860
+ buka dan klik berikutnya dan di <font color="#E5E5E5">sini kita punya </font>
+
+254
+00:13:16,860 --> 00:13:18,960
+ untuk menentukan kata sandi yang kami miliki 
+
+255
+00:13:18,960 --> 00:13:21,750
+ diberikan <font color="#E5E5E5">saat menyembunyikan file itu dan kami punya </font>
+
+256
+00:13:21,750 --> 00:13:23,730
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">memilih </font><font color="#E5E5E5">algoritma </font><font color="#CCCCCC">tertentu </font><font color="#E5E5E5">yang </font>
+
+257
+00:13:23,730 --> 00:13:26,610
+ <font color="#E5E5E5">digunakan saat enkripsi jadi saya telah menggunakan </font>
+
+258
+00:13:26,610 --> 00:13:28,680
+ <font color="#E5E5E5">Blowfish ini </font><font color="#CCCCCC">jadi saya harus menggunakan yang sama </font>
+
+259
+00:13:28,680 --> 00:13:31,020
+ algoritma <font color="#CCCCCC">untuk mendekripsi klik </font>
+
+260
+00:13:31,020 --> 00:13:34,320
+ selanjutnya <font color="#CCCCCC">dan di sini Anda dapat melihat bahwa alat ini </font>
+
+261
+00:13:34,320 --> 00:13:37,280
+ telah <font color="#E5E5E5">menemukan satu file bernama sebagai hi dot jpg </font>
+
+262
+00:13:37,280 --> 00:13:41,280
+ di dalam <font color="#E5E5E5">file ini </font><font color="#CCCCCC">sehingga di mana kita </font><font color="#E5E5E5">ingin </font>
+
+263
+00:13:41,280 --> 00:13:42,900
+ <font color="#E5E5E5">ambil itu jadi mari kita ambil ini </font>
+
+264
+00:13:42,900 --> 00:13:44,940
+ tinggi atau <font color="#E5E5E5">file jpg di desktop saya jadi </font>
+
+265
+00:13:44,940 --> 00:13:50,670
+ <font color="#E5E5E5">pilih klik ini pada klik OK pada unhide </font>
+
+266
+00:13:50,670 --> 00:13:54,570
+ dan di sini Anda akan <font color="#E5E5E5">melihat file baru bernama </font>
+
+267
+00:13:54,570 --> 00:13:58,019
+ sebagai <font color="#E5E5E5">hi dot jpg yang </font><font color="#CCCCCC">sebenarnya </font><font color="#E5E5E5">tersembunyi </font>
+
+268
+00:13:58,019 --> 00:14:00,779
+ file <font color="#E5E5E5">ini diambil jadi beginilah caranya </font>
+
+269
+00:14:00,779 --> 00:14:03,809
+ Anda dapat menyembunyikan <font color="#E5E5E5">satu file di belakang yang lain </font>
+
+270
+00:14:03,809 --> 00:14:05,550
+ file dengan <font color="#CCCCCC">menggunakan alat ini tidak terlihat </font>
+
+271
+00:14:05,550 --> 00:14:07,589
+ rahasia sekarang mari kita lihat bagaimana kita bisa mengenkripsi 
+
+272
+00:14:07,589 --> 00:14:10,259
+ <font color="#E5E5E5">file dengan </font><font color="#CCCCCC">menggunakan alat ini jadi klik </font><font color="#E5E5E5">selesai </font>
+
+273
+00:14:10,259 --> 00:14:12,540
+ di sini di file crypt <font color="#CCCCCC">jadi di sini kita harus </font>
+
+274
+00:14:12,540 --> 00:14:14,730
+ berikan lokasi <font color="#E5E5E5">file yang kita inginkan </font>
+
+275
+00:14:14,730 --> 00:14:16,470
+ <font color="#E5E5E5">untuk mengenkripsi dan kami bahkan dapat mengenkripsi a </font>
+
+276
+00:14:16,470 --> 00:14:18,629
+ folder tertentu <font color="#CCCCCC">jadi klik add file </font>
+
+277
+00:14:18,629 --> 00:14:23,399
+ <font color="#E5E5E5">mari kita coba untuk mengenkripsi file ini </font><font color="#CCCCCC">sembunyikan </font><font color="#E5E5E5">hi </font>
+
+278
+00:14:23,399 --> 00:14:27,179
+ dot jpg <font color="#CCCCCC">klik terbuka dan klik berikutnya </font>
+
+279
+00:14:27,179 --> 00:14:30,139
+ <font color="#E5E5E5">dan di sini kita harus menentukan kata sandinya </font>
+
+280
+00:14:30,139 --> 00:14:31,949
+ kita <font color="#E5E5E5">bahkan dapat memilih yang khusus </font>
+
+281
+00:14:31,949 --> 00:14:33,809
+ <font color="#CCCCCC">Algoritma sekarang ini waktu itu berarti suka </font>
+
+282
+00:14:33,809 --> 00:14:35,970
+ <font color="#CCCCCC">tarsi untuk itu adalah cipher terbalik </font><font color="#E5E5E5">untuk </font>
+
+283
+00:14:35,970 --> 00:14:40,170
+ Algoritma klik pada mengenkripsi dan klik 
+
+284
+00:14:40,170 --> 00:14:43,290
+ <font color="#E5E5E5">selesai dan di sini Anda akan melihat file </font>
+
+285
+00:14:43,290 --> 00:14:46,290
+ disebut sebagai <font color="#E5E5E5">hi dot jpg dibuat dan jika </font>
+
+286
+00:14:46,290 --> 00:14:47,850
+ kita hanya <font color="#CCCCCC">melihat propertinya </font>
+
+287
+00:14:47,850 --> 00:14:50,610
+ ia mengatakan file terenkripsi rahasia yang tidak terlihat 
+
+288
+00:14:50,610 --> 00:14:53,160
+ <font color="#CCCCCC">dan </font><font color="#E5E5E5">untuk </font><font color="#CCCCCC">dan jika Anda </font><font color="#E5E5E5">membuka ini </font>
+
+289
+00:14:53,160 --> 00:15:01,110
+ file itu akan meminta kami untuk <font color="#E5E5E5">kata sandi jadi </font>
+
+290
+00:15:01,110 --> 00:15:03,240
+ <font color="#E5E5E5">kami memiliki dua di sini kata sandi yang kami miliki </font>
+
+291
+00:15:03,240 --> 00:15:06,119
+ untuk memilih <font color="#CCCCCC">klik </font><font color="#E5E5E5">rc4 algoritma yang sama </font>
+
+292
+00:15:06,119 --> 00:15:08,850
+ di dekripsi <font color="#E5E5E5">dan di sini Anda melihat yang Anda inginkan </font>
+
+293
+00:15:08,850 --> 00:15:13,559
+ untuk menggantikannya ya <font color="#CCCCCC">dan di sini Anda bisa melihat </font>
+
+294
+00:15:13,559 --> 00:15:18,990
+ <font color="#E5E5E5">bahwa kami mendapat file yang sama kami </font><font color="#CCCCCC">hi dot jpg </font><font color="#E5E5E5">jadi </font>
+
+295
+00:15:18,990 --> 00:15:20,759
+ ini adalah bagaimana kita dapat mengenkripsi <font color="#E5E5E5">file yang kita bisa </font>
+
+296
+00:15:20,759 --> 00:15:23,399
+ dekripsi file dengan menggunakan <font color="#E5E5E5">alat ini </font>
+
+297
+00:15:23,399 --> 00:15:25,110
+ Anda <font color="#CCCCCC">harus </font><font color="#E5E5E5">klik di </font><font color="#CCCCCC">sini login </font>
+
+298
+00:15:25,110 --> 00:15:27,749
+ aplikasi <font color="#CCCCCC">untuk mengunci atau mengenkripsi </font>
+
+299
+00:15:27,749 --> 00:15:29,910
+ aplikasi tertentu di <font color="#E5E5E5">Windows jadi </font>
+
+300
+00:15:29,910 --> 00:15:32,009
+ mari klik di <font color="#CCCCCC">sini </font><font color="#E5E5E5">dan kapan untuk </font>
+
+301
+00:15:32,009 --> 00:15:35,429
+ <font color="#CCCCCC">pertama kali Anda akan membuka </font><font color="#E5E5E5">tautan ini lokal </font>
+
+302
+00:15:35,429 --> 00:15:37,589
+ aplikasi itu akan meminta Anda untuk masuk 
+
+303
+00:15:37,589 --> 00:15:39,540
+ <font color="#E5E5E5">kata sandi baru dan </font><font color="#CCCCCC">kemudian konfirmasikan kata sandi </font>
+
+304
+00:15:39,540 --> 00:15:41,759
+ dan saya sudah mengaturnya kata sandi saya <font color="#CCCCCC">begitu </font>
+
+305
+00:15:41,759 --> 00:15:43,919
+ <font color="#CCCCCC">itu sebabnya itu </font><font color="#E5E5E5">tidak meminta saya </font><font color="#CCCCCC">untuk memasukkan </font>
+
+306
+00:15:43,919 --> 00:15:45,990
+ <font color="#CCCCCC">kata sandi baru dan itu </font><font color="#E5E5E5">meminta </font><font color="#CCCCCC">saya untuk masuk </font>
+
+307
+00:15:45,990 --> 00:15:48,269
+ <font color="#E5E5E5">yang sudah ada jadi biarkan aku masuk </font>
+
+308
+00:15:48,269 --> 00:15:49,790
+ <font color="#E5E5E5">kata sandi di sini </font>
+
+309
+00:15:49,790 --> 00:15:54,299
+ <font color="#E5E5E5">dan di sini Anda dapat melihat itu </font><font color="#CCCCCC">sekarang </font>
+
+310
+00:15:54,299 --> 00:15:56,009
+ berada <font color="#CCCCCC">di dalam </font><font color="#E5E5E5">aplikasi kunci </font><font color="#CCCCCC">menu ini </font>
+
+311
+00:15:56,009 --> 00:15:57,839
+ <font color="#E5E5E5">dan di sini adalah satu kunci tombol baru </font>
+
+312
+00:15:57,839 --> 00:16:00,809
+ aplikasi jadi klik di sini <font color="#E5E5E5">dan itu </font>
+
+313
+00:16:00,809 --> 00:16:02,519
+ akan mencari dan daftar semua 
+
+314
+00:16:02,519 --> 00:16:04,470
+ <font color="#E5E5E5">aplikasi yang diinstal di kami </font>
+
+315
+00:16:04,470 --> 00:16:06,600
+ komputer di sini <font color="#E5E5E5">Anda bisa lihat di sini sekarang mari kita </font>
+
+316
+00:16:06,600 --> 00:16:08,249
+ lakukan satu hal, <font color="#CCCCCC">mari kita coba untuk mencatat ini </font>
+
+317
+00:16:08,249 --> 00:16:11,870
+ kalkulator jadi tekan <font color="#CCCCCC">enter </font>
+
+318
+00:16:11,870 --> 00:16:17,910
+ karena sedang digunakan <font color="#CCCCCC">oke jadi mari kita coba </font>
+
+319
+00:16:17,910 --> 00:16:25,470
+ <font color="#CCCCCC">untuk login yang ini oke </font><font color="#E5E5E5">jadi di sini Anda bisa lihat </font>
+
+320
+00:16:25,470 --> 00:16:27,630
+ bahwa <font color="#CCCCCC">saya telah </font><font color="#E5E5E5">mengunci </font><font color="#CCCCCC">le </font><font color="#E5E5E5">Python </font><font color="#CCCCCC">ID ini dan </font>
+
+321
+00:16:27,630 --> 00:16:31,950
+ sekarang <font color="#E5E5E5">klik pada selesai </font><font color="#CCCCCC">dan sekarang di sini Anda bisa </font>
+
+322
+00:16:31,950 --> 00:16:35,850
+ <font color="#E5E5E5">lihat bahwa jika saya mencari Python </font><font color="#CCCCCC">dan sebagainya </font>
+
+323
+00:16:35,850 --> 00:16:37,350
+ di sini Anda <font color="#CCCCCC">akan melihat </font><font color="#E5E5E5">bahwa </font><font color="#CCCCCC">saya melihat </font>
+
+324
+00:16:37,350 --> 00:16:41,640
+ Python <font color="#CCCCCC">idealnya 3,6 </font><font color="#E5E5E5">tetapi Python </font>
+
+325
+00:16:41,640 --> 00:16:43,410
+ <font color="#CCCCCC">idealnya yang saya telah login adalah Python </font>
+
+326
+00:16:43,410 --> 00:16:46,320
+ <font color="#E5E5E5">2.7 dan Anda dapat melihat bahwa Python 2.7 </font>
+
+327
+00:16:46,320 --> 00:16:49,010
+ tidak ada tempat <font color="#CCCCCC">bahkan kita </font><font color="#E5E5E5">bisa memastikannya </font>
+
+328
+00:16:49,010 --> 00:16:54,390
+ pergi <font color="#E5E5E5">ke </font><font color="#CCCCCC">direktori Python di sini </font>
+
+329
+00:16:54,390 --> 00:16:59,100
+ <font color="#CCCCCC">python 2.7 </font><font color="#E5E5E5">dan jika </font><font color="#CCCCCC">saya gulir ke bawah Anda akan </font>
+
+330
+00:16:59,100 --> 00:17:01,320
+ <font color="#E5E5E5">melihat bahwa </font><font color="#CCCCCC">ada </font><font color="#E5E5E5">tidak ada file python </font>
+
+331
+00:17:01,320 --> 00:17:05,760
+ idealnya <font color="#E5E5E5">adalah 2,7 python sekarang dalam rangka </font>
+
+332
+00:17:05,760 --> 00:17:09,030
+ untuk mendekripsi <font color="#E5E5E5">atau memperlihatkan file itu </font><font color="#CCCCCC">atau </font>
+
+333
+00:17:09,030 --> 00:17:10,410
+ aplikasi kita harus klik <font color="#E5E5E5">di sini </font>
+
+334
+00:17:10,410 --> 00:17:12,720
+ log aplikasi <font color="#CCCCCC">lagi yang </font><font color="#E5E5E5">harus kita tambahkan </font>
+
+335
+00:17:12,720 --> 00:17:17,010
+ <font color="#E5E5E5">kata sandi kami di sini klik </font><font color="#CCCCCC">ok pilih </font>
+
+336
+00:17:17,010 --> 00:17:18,750
+ <font color="#E5E5E5">aplikasi ini dan klik buka kunci </font>
+
+337
+00:17:18,750 --> 00:17:20,579
+ dipilih dan Anda akan melihat <font color="#E5E5E5">sekarang </font>
+
+338
+00:17:20,579 --> 00:17:28,170
+ <font color="#E5E5E5">aplikasi tidak terkunci bahkan kita bisa </font>
+
+339
+00:17:28,170 --> 00:17:30,809
+ konfirmasikan <font color="#E5E5E5">hanya dengan mengetik di sini python </font>
+
+340
+00:17:30,809 --> 00:17:32,700
+ dan di sini Anda <font color="#E5E5E5">akan melihat di bagian </font><font color="#CCCCCC">atas yang kita </font><font color="#E5E5E5">punya </font>
+
+341
+00:17:32,700 --> 00:17:38,790
+ <font color="#CCCCCC">ID kami le </font><font color="#E5E5E5">python jadi ini adalah bagaimana </font><font color="#CCCCCC">tumpukan </font>
+
+342
+00:17:38,790 --> 00:17:40,770
+ <font color="#CCCCCC">monografi </font><font color="#E5E5E5">bekerja dan dalam video ini kita </font>
+
+343
+00:17:40,770 --> 00:17:42,540
+ telah <font color="#CCCCCC">membahas bahwa </font><font color="#E5E5E5">apa itu </font><font color="#CCCCCC">teknis </font>
+
+344
+00:17:42,540 --> 00:17:44,790
+ <font color="#CCCCCC">biaya </font><font color="#E5E5E5">dan bagaimana kita bisa menyembunyikan satu file di belakang </font>
+
+345
+00:17:44,790 --> 00:17:46,800
+ file lain dengan menggunakan steganografi 
+
+346
+00:17:46,800 --> 00:17:49,200
+ teknik <font color="#E5E5E5">terima kasih untuk menonton ini </font>
+
+347
+00:17:49,200 --> 00:00:00,000
+ video 
+

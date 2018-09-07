@@ -1,0 +1,632 @@
+1
+00:00:00,089 --> 00:00:02,310
+ Halo semuanya selamat datang di <font color="#E5E5E5">tutorial </font>
+
+2
+00:00:02,310 --> 00:00:04,370
+ titik <font color="#CCCCCC">sehingga dalam video ini </font><font color="#E5E5E5">kita akan bicarakan </font>
+
+3
+00:00:04,370 --> 00:00:07,710
+ <font color="#E5E5E5">penebang kunci jadi sebelum pergi lebih jauh biarkan </font>
+
+4
+00:00:07,710 --> 00:00:08,730
+ <font color="#E5E5E5">saya bertanya satu </font><font color="#CCCCCC">pertanyaan </font>
+
+5
+00:00:08,730 --> 00:00:11,309
+ jadi <font color="#CCCCCC">pernahkah Anda </font><font color="#E5E5E5">mencoba untuk memeriksanya </font>
+
+6
+00:00:11,309 --> 00:00:13,290
+ bahwa apa yang teman Anda <font color="#E5E5E5">atau yang lain </font>
+
+7
+00:00:13,290 --> 00:00:15,780
+ orang melakukan <font color="#E5E5E5">komputernya jadi milikmu </font>
+
+8
+00:00:15,780 --> 00:00:18,810
+ Jawabannya adalah <font color="#E5E5E5">key logger sehingga key logger </font><font color="#CCCCCC">adalah </font>
+
+9
+00:00:18,810 --> 00:00:21,420
+ spyware atau <font color="#E5E5E5">perangkat lunak pengintai yang mana </font>
+
+10
+00:00:21,420 --> 00:00:24,150
+ dapat kita gunakan <font color="#E5E5E5">untuk melacak aktivitas </font>
+
+11
+00:00:24,150 --> 00:00:26,250
+ <font color="#E5E5E5">pengguna tertentu </font><font color="#CCCCCC">jadi bantuan kunci </font>
+
+12
+00:00:26,250 --> 00:00:28,439
+ Logger apa yang bisa kita lakukan, kita dapat merekam 
+
+13
+00:00:28,439 --> 00:00:30,689
+ keystroke <font color="#E5E5E5">yang </font><font color="#CCCCCC">menjalankan pengguna mengetik </font>
+
+14
+00:00:30,689 --> 00:00:32,520
+ keyboard-nya <font color="#E5E5E5">dan dengan bantuan kunci </font>
+
+15
+00:00:32,520 --> 00:00:34,530
+ logger kami juga bisa mengambil screenshot 
+
+16
+00:00:34,530 --> 00:00:37,079
+ <font color="#CCCCCC">sistem itu </font><font color="#E5E5E5">sehingga beberapa penebang kunci sangat </font>
+
+17
+00:00:37,079 --> 00:00:38,610
+ maju dan <font color="#E5E5E5">mereka mampu </font>
+
+18
+00:00:38,610 --> 00:00:41,070
+ merekam riwayat internet <font color="#CCCCCC">jadi semua kita </font>
+
+19
+00:00:41,070 --> 00:00:42,989
+ <font color="#CCCCCC">harus lakukan adalah kita hanya perlu </font><font color="#E5E5E5">menginstal </font>
+
+20
+00:00:42,989 --> 00:00:46,050
+ program logger utama di <font color="#E5E5E5">dalam yang ditargetkan </font>
+
+21
+00:00:46,050 --> 00:00:47,910
+ sistem <font color="#E5E5E5">begitu setelah kita menginstal logger kunci </font>
+
+22
+00:00:47,910 --> 00:00:50,070
+ <font color="#E5E5E5">maka kita dapat memantau semua aktivitas </font>
+
+23
+00:00:50,070 --> 00:00:51,660
+ <font color="#E5E5E5">pengguna tertentu dan jika Anda seorang </font>
+
+24
+00:00:51,660 --> 00:00:53,670
+ orang tua <font color="#E5E5E5">maka saya sarankan Anda untuk menyenangkan </font>
+
+25
+00:00:53,670 --> 00:00:54,719
+ instal pencatat kunci 
+
+26
+00:00:54,719 --> 00:00:56,399
+ untuk memantau <font color="#E5E5E5">apa itu milikmu </font>
+
+27
+00:00:56,399 --> 00:00:59,340
+ anak <font color="#E5E5E5">lakukan di internet jadi penebang kunci </font>
+
+28
+00:00:59,340 --> 00:01:02,579
+ tersedia untuk <font color="#CCCCCC">Windows Linux Mac dan </font>
+
+29
+00:01:02,579 --> 00:01:04,199
+ saat ini <font color="#E5E5E5">penebang kunci juga tersedia </font>
+
+30
+00:01:04,199 --> 00:01:06,869
+ untuk smartphone <font color="#CCCCCC">bahkan untuk iPhone juga </font>
+
+31
+00:01:06,869 --> 00:01:08,760
+ sekarang mari kita lihat bagaimana kita dapat menginstal satu <font color="#E5E5E5">kunci </font>
+
+32
+00:01:08,760 --> 00:01:11,390
+ logger <font color="#E5E5E5">dinamakan sebagai pencatat anak di sistem kami </font>
+
+33
+00:01:11,390 --> 00:01:14,520
+ <font color="#E5E5E5">sekarang mari kita gunakan </font><font color="#CCCCCC">tit logger </font><font color="#E5E5E5">untuk </font>
+
+34
+00:01:14,520 --> 00:01:17,100
+ <font color="#CCCCCC">tangkap </font><font color="#E5E5E5">ketikan </font><font color="#CCCCCC">screenshot </font><font color="#E5E5E5">juga </font>
+
+35
+00:01:17,100 --> 00:01:19,290
+ sebagai pesan audio yang <font color="#E5E5E5">bisa kita unduh </font>
+
+36
+00:01:19,290 --> 00:01:21,180
+ <font color="#E5E5E5">kit Locker dari sini dari yang resmi </font>
+
+37
+00:01:21,180 --> 00:01:23,240
+ situs web <font color="#CCCCCC">yang dikunci </font><font color="#E5E5E5">logger dotnet dan </font>
+
+38
+00:01:23,240 --> 00:01:25,799
+ ini adalah <font color="#E5E5E5">logger kunci yang sangat berguna yang saya miliki </font>
+
+39
+00:01:25,799 --> 00:01:28,770
+ pernah digunakan <font color="#CCCCCC">jadi biarkan </font><font color="#E5E5E5">aku pergi </font><font color="#CCCCCC">ke sini </font>
+
+40
+00:01:28,770 --> 00:01:30,869
+ unduh <font color="#E5E5E5">dan pencatat kunci ini </font>
+
+41
+00:01:30,869 --> 00:01:35,250
+ tersedia untuk OS Windows Linux Android 
+
+42
+00:01:35,250 --> 00:01:37,200
+ ponsel <font color="#E5E5E5">dan bahkan untuk </font><font color="#CCCCCC">ponsel Blackberry </font>
+
+43
+00:01:37,200 --> 00:01:40,409
+ <font color="#CCCCCC">juga jadi biarkan saya mengunduhnya </font><font color="#E5E5E5">dan itu a </font>
+
+44
+00:01:40,409 --> 00:01:43,500
+ file arsip zip dan di sini Anda dapat melihat 
+
+45
+00:01:43,500 --> 00:01:46,890
+ file zip dibuat <font color="#CCCCCC">dan di sini adalah </font>
+
+46
+00:01:46,890 --> 00:01:49,320
+ <font color="#E5E5E5">setup jadi kata sandi dari logger kunci ini </font>
+
+47
+00:01:49,320 --> 00:01:51,899
+ adalah <font color="#E5E5E5">satu dua </font><font color="#CCCCCC">tiga </font><font color="#E5E5E5">empat lima klik pada </font><font color="#CCCCCC">OK </font>
+
+48
+00:01:51,899 --> 00:01:56,540
+ dan <font color="#E5E5E5">mari kita </font><font color="#CCCCCC">instal pencatat kunci ini </font>
+
+49
+00:02:00,930 --> 00:02:03,840
+ dan di sini Anda <font color="#E5E5E5">dapat melihat bahwa pencatat kunci </font>
+
+50
+00:02:03,840 --> 00:02:06,030
+ diinstal <font color="#E5E5E5">sekarang klik pada selesai dan </font>
+
+51
+00:02:06,030 --> 00:02:08,280
+ <font color="#E5E5E5">di sini Anda akan melihat bahwa logger utama kami </font>
+
+52
+00:02:08,280 --> 00:02:10,199
+ akan diluncurkan <font color="#E5E5E5">jadi ini yang utama </font>
+
+53
+00:02:10,199 --> 00:02:12,150
+ <font color="#E5E5E5">menu </font><font color="#CCCCCC">logger kunci ini </font><font color="#E5E5E5">sehingga Anda dapat </font>
+
+54
+00:02:12,150 --> 00:02:14,280
+ ambil <font color="#E5E5E5">penekanan tombol semua pengguna </font>
+
+55
+00:02:14,280 --> 00:02:16,710
+ <font color="#E5E5E5">dengan hanya </font><font color="#CCCCCC">memilih pengguna </font><font color="#E5E5E5">itu sekarang </font>
+
+56
+00:02:16,710 --> 00:02:18,660
+ dalam sistem saya <font color="#CCCCCC">hanya ada satu pengguna itu </font>
+
+57
+00:02:18,660 --> 00:02:21,060
+ diberi nama sebagai pengguna sehingga Anda bisa lihat di sini 
+
+58
+00:02:21,060 --> 00:02:23,310
+ biarkan aku <font color="#CCCCCC">hanya </font><font color="#E5E5E5">memeriksa ini </font><font color="#CCCCCC">dan jika aku pergi </font>
+
+59
+00:02:23,310 --> 00:02:26,250
+ di sini <font color="#CCCCCC">untuk opsi </font><font color="#E5E5E5">Anda akan melihat opsi </font>
+
+60
+00:02:26,250 --> 00:02:28,380
+ adalah hal-hal yang <font color="#CCCCCC">ingin </font><font color="#E5E5E5">kita rekam </font>
+
+61
+00:02:28,380 --> 00:02:30,240
+ <font color="#E5E5E5">atau kami ingin </font><font color="#CCCCCC">menangkap </font><font color="#E5E5E5">sehingga Anda dapat melihat </font>
+
+62
+00:02:30,240 --> 00:02:32,490
+ bahwa ini akan menyimpan keystrokes <font color="#E5E5E5">artinya </font>
+
+63
+00:02:32,490 --> 00:02:34,770
+ jika saya mengetik apa pun <font color="#E5E5E5">di keyboard saya itu </font>
+
+64
+00:02:34,770 --> 00:02:37,070
+ akan disimpan dan kemudian akan juga 
+
+65
+00:02:37,070 --> 00:02:39,600
+ mencatat <font color="#E5E5E5">USB removable </font>
+
+66
+00:02:39,600 --> 00:02:42,510
+ sisipan <font color="#E5E5E5">maka itu </font><font color="#CCCCCC">juga </font><font color="#E5E5E5">akan </font><font color="#CCCCCC">merekam </font>
+
+67
+00:02:42,510 --> 00:02:46,380
+ Obrolan Skype <font color="#CCCCCC">dan pesan Roo dan kemudian </font>
+
+68
+00:02:46,380 --> 00:02:49,800
+ juga akan <font color="#E5E5E5">mengambil snapshot atau itu akan </font>
+
+69
+00:02:49,800 --> 00:02:51,630
+ <font color="#CCCCCC">juga menyimpan sejarah browser </font><font color="#E5E5E5">dan </font>
+
+70
+00:02:51,630 --> 00:02:54,060
+ frasa pencarian jadi apa lagi yang bisa kita lakukan adalah 
+
+71
+00:02:54,060 --> 00:02:55,800
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">melindungi </font><font color="#E5E5E5">logger kunci </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">dan </font>
+
+72
+00:02:55,800 --> 00:02:58,650
+ jika kita ingin tidak ada yang bisa mengakses <font color="#E5E5E5">ini </font>
+
+73
+00:02:58,650 --> 00:03:00,750
+ key logger <font color="#E5E5E5">jadi kami juga bisa melindungi ini </font>
+
+74
+00:03:00,750 --> 00:03:03,150
+ aplikasi utama logger dengan <font color="#CCCCCC">mengklik di atas </font>
+
+75
+00:03:03,150 --> 00:03:04,620
+ <font color="#E5E5E5">disini kunci logger kunci yang dilindungi dan </font>
+
+76
+00:03:04,620 --> 00:03:06,900
+ <font color="#E5E5E5">kita bisa mengatur kata sandi tertentu </font>
+
+77
+00:03:06,900 --> 00:03:09,330
+ di sini Anda akan melihat <font color="#CCCCCC">folder output </font>
+
+78
+00:03:09,330 --> 00:03:11,730
+ <font color="#E5E5E5">berarti di mana logger kunci ini menyimpan </font>
+
+79
+00:03:11,730 --> 00:03:13,620
+ file <font color="#E5E5E5">jadi ini logger kunci akan menyimpan </font>
+
+80
+00:03:13,620 --> 00:03:16,200
+ file dalam file program disk c lokal <font color="#E5E5E5">kit </font>
+
+81
+00:03:16,200 --> 00:03:17,940
+ logger <font color="#E5E5E5">dan di sini adalah salah satu direktori yang disebut </font>
+
+82
+00:03:17,940 --> 00:03:20,790
+ <font color="#E5E5E5">log dan setelah 15 hari </font><font color="#CCCCCC">semua file akan </font>
+
+83
+00:03:20,790 --> 00:03:22,200
+ dihapus <font color="#CCCCCC">sehingga Anda dapat mengubah beberapa </font>
+
+84
+00:03:22,200 --> 00:03:24,660
+ pengaturan dari <font color="#E5E5E5">sini sehingga bahkan Anda bisa </font>
+
+85
+00:03:24,660 --> 00:03:26,549
+ hubungkan logger kunci ini <font color="#CCCCCC">ke kit Anda </font>
+
+86
+00:03:26,549 --> 00:03:28,739
+ akun dotnet logger tetapi untuk itu Anda 
+
+87
+00:03:28,739 --> 00:03:30,930
+ <font color="#CCCCCC">harus membeli langganan </font><font color="#E5E5E5">premium </font>
+
+88
+00:03:30,930 --> 00:03:33,360
+ logger kunci ini dan dengan pergi <font color="#CCCCCC">ke sini untuk </font>
+
+89
+00:03:33,360 --> 00:03:36,060
+ perekam suara <font color="#E5E5E5">apa yang bisa kita lakukan </font>
+
+90
+00:03:36,060 --> 00:03:38,820
+ bahkan merekam <font color="#E5E5E5">suara pengguna tertentu </font>
+
+91
+00:03:38,820 --> 00:03:41,250
+ <font color="#CCCCCC">jadi di sini adalah pilihan </font><font color="#E5E5E5">screen capture </font>
+
+92
+00:03:41,250 --> 00:03:43,350
+ jadi apa screen capture akan melakukan <font color="#E5E5E5">ini </font>
+
+93
+00:03:43,350 --> 00:03:45,780
+ logger kunci akan mengambil <font color="#CCCCCC">screenshot </font>
+
+94
+00:03:45,780 --> 00:03:49,260
+ komputer pengguna setelah <font color="#CCCCCC">tertentu </font>
+
+95
+00:03:49,260 --> 00:03:51,959
+ interval jadi biarkan aku pergi di sini <font color="#CCCCCC">biarkan </font><font color="#E5E5E5">aku dekat </font>
+
+96
+00:03:51,959 --> 00:03:53,730
+ ini <font color="#E5E5E5">dan mari kita klik mulai </font>
+
+97
+00:03:53,730 --> 00:03:56,070
+ pemantauan <font color="#CCCCCC">dan di sini Anda akan melihat itu </font>
+
+98
+00:03:56,070 --> 00:03:58,140
+ mengirim <font color="#E5E5E5">pesan yang dimiliki oleh pembuat </font><font color="#CCCCCC">log </font>
+
+99
+00:03:58,140 --> 00:04:00,900
+ telah diaktifkan dengan <font color="#E5E5E5">sukses </font><font color="#CCCCCC">jadi sekarang saya bisa </font>
+
+100
+00:04:00,900 --> 00:04:03,299
+ tutup logger kunci ini <font color="#E5E5E5">sekarang untuk </font>
+
+101
+00:04:03,299 --> 00:04:06,980
+ verifikasi <font color="#E5E5E5">biarkan saya </font><font color="#CCCCCC">membuka file notepad </font>
+
+102
+00:04:08,500 --> 00:04:10,780
+ jadi saya hanya <font color="#E5E5E5">di sini apa pun </font><font color="#CCCCCC">kita </font>
+
+103
+00:04:10,780 --> 00:04:16,329
+ <font color="#CCCCCC">dimonitor peretasan Anda jadi hanya </font>
+
+104
+00:04:16,329 --> 00:04:24,490
+ Tuliskan <font color="#CCCCCC">apa pun yang dilihat seseorang </font>
+
+105
+00:04:24,490 --> 00:04:28,120
+ kami <font color="#E5E5E5">biarkan saya menutup file notepad ini sekarang </font>
+
+106
+00:04:28,120 --> 00:04:30,130
+ <font color="#E5E5E5">untuk</font><font color="#CCCCCC"> melihat bahwa </font><font color="#E5E5E5">apakah kunci ini </font>
+
+107
+00:04:30,130 --> 00:04:32,470
+ logger adalah menyimpan <font color="#E5E5E5">dari </font><font color="#CCCCCC">keystroke </font><font color="#E5E5E5">atau tidak </font>
+
+108
+00:04:32,470 --> 00:04:35,140
+ apa yang bisa kita lakukan adalah <font color="#E5E5E5">ada dua </font>
+
+109
+00:04:35,140 --> 00:04:36,670
+ hal <font color="#E5E5E5">yang </font><font color="#CCCCCC">pertama </font><font color="#E5E5E5">adalah kita bisa berhenti </font>
+
+110
+00:04:36,670 --> 00:04:38,920
+ tombol logger <font color="#E5E5E5">dan kemudian kita dapat memeriksa </font>
+
+111
+00:04:38,920 --> 00:04:41,440
+ <font color="#E5E5E5">sisi lain kita bisa langsung pergi </font><font color="#CCCCCC">ke </font>
+
+112
+00:04:41,440 --> 00:04:44,140
+ bahwa <font color="#CCCCCC">direktori this.c lokal di mana </font>
+
+113
+00:04:44,140 --> 00:04:46,030
+ <font color="#E5E5E5">key logger sebenarnya menyimpan semua </font>
+
+114
+00:04:46,030 --> 00:04:49,480
+ barang <font color="#E5E5E5">jadi itu Program Files dan di sini adalah </font>
+
+115
+00:04:49,480 --> 00:04:51,130
+ direktori yang disebut <font color="#CCCCCC">pencatat negara jadi Anda </font>
+
+116
+00:04:51,130 --> 00:04:54,160
+ bisa lihat di sini dan di <font color="#E5E5E5">sini adalah direktori itu </font>
+
+117
+00:04:54,160 --> 00:04:56,410
+ log <font color="#E5E5E5">jadi pencatat kunci logger kunci ini </font>
+
+118
+00:04:56,410 --> 00:04:59,620
+ <font color="#CCCCCC">menyimpan semua </font><font color="#E5E5E5">data dalam </font><font color="#CCCCCC">file </font><font color="#E5E5E5">HTML </font><font color="#CCCCCC">sehingga Anda </font>
+
+119
+00:04:59,620 --> 00:05:01,810
+ bisa <font color="#E5E5E5">lihat di sini bahwa file HTML dibuat </font>
+
+120
+00:05:01,810 --> 00:05:05,620
+ <font color="#E5E5E5">dan ini tanggalnya jadi biarkan aku membuka ini </font>
+
+121
+00:05:05,620 --> 00:05:08,440
+ file <font color="#E5E5E5">dan di sini Anda dapat melihat bahwa itu adalah a </font>
+
+122
+00:05:08,440 --> 00:05:10,390
+ sesi baru <font color="#E5E5E5">untuk pengguna jadi pertama-tama </font>
+
+123
+00:05:10,390 --> 00:05:12,820
+ <font color="#CCCCCC">itu menampilkan </font><font color="#E5E5E5">apa itu apa </font>
+
+124
+00:05:12,820 --> 00:05:15,460
+ aplikasi <font color="#E5E5E5">yang digunakan pengguna sebagai </font>
+
+125
+00:05:15,460 --> 00:05:17,740
+ kita <font color="#E5E5E5">tahu bahwa kita memiliki notepad terbuka </font>
+
+126
+00:05:17,740 --> 00:05:19,720
+ <font color="#E5E5E5">itu sebabnya mereka jadi itu sebabnya daftar itu </font>
+
+127
+00:05:19,720 --> 00:05:22,330
+ <font color="#E5E5E5">itu tercantum di sini notepad </font><font color="#CCCCCC">maka di </font><font color="#E5E5E5">sini adalah </font>
+
+128
+00:05:22,330 --> 00:05:23,919
+ data yang <font color="#CCCCCC">kami tuliskan untuk Anda </font>
+
+129
+00:05:23,919 --> 00:05:26,800
+ bisa lihat di sini dan kemudian <font color="#CCCCCC">kita punya </font><font color="#E5E5E5">anak terbuka </font>
+
+130
+00:05:26,800 --> 00:05:28,750
+ <font color="#E5E5E5">logger dan kemudian kami membuka </font><font color="#CCCCCC">Mozilla </font>
+
+131
+00:05:28,750 --> 00:05:32,680
+ Firefox <font color="#E5E5E5">maka kami telah membuka notepad </font><font color="#CCCCCC">jadi </font>
+
+132
+00:05:32,680 --> 00:05:34,570
+ logger kunci ini juga mencatat semua 
+
+133
+00:05:34,570 --> 00:05:36,100
+ <font color="#E5E5E5">aplikasi yang sedang dijalankan </font>
+
+134
+00:05:36,100 --> 00:05:39,040
+ <font color="#E5E5E5">sistem operasi itu </font><font color="#CCCCCC">jadi di </font><font color="#E5E5E5">atas sini </font>
+
+135
+00:05:39,040 --> 00:05:40,419
+ <font color="#CCCCCC">Anda dapat </font><font color="#E5E5E5">melihat bahwa kami </font><font color="#CCCCCC">juga </font><font color="#E5E5E5">dapat menerapkan </font>
+
+136
+00:05:40,419 --> 00:05:42,100
+ <font color="#CCCCCC">filter tertentu ada banyak </font>
+
+137
+00:05:42,100 --> 00:05:43,870
+ filter seperti jika saya mengeklik aplikasi 
+
+138
+00:05:43,870 --> 00:05:45,070
+ maka itu akan daftar semua 
+
+139
+00:05:45,070 --> 00:05:47,410
+ aplikasi yang <font color="#CCCCCC">dibuka oleh pengguna </font><font color="#E5E5E5">jadi </font>
+
+140
+00:05:47,410 --> 00:05:49,510
+ Anda <font color="#CCCCCC">dapat melihat Kate </font><font color="#E5E5E5">logon kemudian jalankan </font>
+
+141
+00:05:49,510 --> 00:05:52,300
+ <font color="#CCCCCC">notepad dan bahkan jika </font><font color="#E5E5E5">saya klik di web itu </font>
+
+142
+00:05:52,300 --> 00:05:53,680
+ tidak ada karena <font color="#CCCCCC">kami belum dibuka </font>
+
+143
+00:05:53,680 --> 00:05:55,750
+ belum apa-apa tetapi atau jika Anda lakukan 
+
+144
+00:05:55,750 --> 00:05:58,150
+ <font color="#E5E5E5">Skype obrolan maka logger kunci ini akan </font>
+
+145
+00:05:58,150 --> 00:06:00,520
+ juga merekam <font color="#E5E5E5">obrolan Skype itu </font>
+
+146
+00:06:00,520 --> 00:06:02,680
+ Anda hanya bisa melihat pesan itu itu 
+
+147
+00:06:02,680 --> 00:06:04,300
+ Skype chat dengan <font color="#CCCCCC">mengklik di sini </font>
+
+148
+00:06:04,300 --> 00:06:06,460
+ pesan tetapi saat ini <font color="#E5E5E5">tidak ada </font>
+
+149
+00:06:06,460 --> 00:06:08,740
+ <font color="#CCCCCC">pesan </font><font color="#E5E5E5">jadi biarkan saya memilih secara default </font>
+
+150
+00:06:08,740 --> 00:06:10,450
+ opsi itu pilih jenis dan di sini Anda 
+
+151
+00:06:10,450 --> 00:06:13,180
+ akan <font color="#E5E5E5">melihat </font><font color="#CCCCCC">semua hal </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">begini caranya </font>
+
+152
+00:06:13,180 --> 00:06:15,460
+ logger kunci khas bekerja <font color="#E5E5E5">dan dalam hal ini </font>
+
+153
+00:06:15,460 --> 00:06:18,220
+ <font color="#E5E5E5">video yang telah kita </font><font color="#CCCCCC">diskusikan bahwa </font><font color="#E5E5E5">apa kuncinya </font>
+
+154
+00:06:18,220 --> 00:06:19,930
+ logger <font color="#CCCCCC">dan apa saja jenis yang berbeda </font>
+
+155
+00:06:19,930 --> 00:06:21,640
+ <font color="#E5E5E5">penebang kunci dan bagaimana kita dapat menggunakan </font><font color="#CCCCCC">gerbang </font>
+
+156
+00:06:21,640 --> 00:06:22,360
+ logger yang <font color="#CCCCCC">Anda </font><font color="#E5E5E5">tahu </font>
+
+157
+00:06:22,360 --> 00:06:24,580
+ <font color="#CCCCCC">untuk menangkap keystrokes jadi terima kasih </font><font color="#E5E5E5">untuk </font>
+
+158
+00:06:24,580 --> 00:00:00,000
+ <font color="#CCCCCC">menonton video ini </font>
+

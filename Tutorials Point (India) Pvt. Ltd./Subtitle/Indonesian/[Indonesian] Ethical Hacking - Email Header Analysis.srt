@@ -1,0 +1,364 @@
+1
+00:00:00,089 --> 00:00:02,639
+ <font color="#CCCCCC">Halo semuanya, mari kita bicarakan </font>
+
+2
+00:00:02,639 --> 00:00:05,609
+ analisis header email <font color="#E5E5E5">sehingga kita semua tahu </font>
+
+3
+00:00:05,609 --> 00:00:07,410
+ bahwa email <font color="#E5E5E5">adalah singkatan dari elektronik </font>
+
+4
+00:00:07,410 --> 00:00:09,660
+ <font color="#E5E5E5">surat dan itu salah satu </font><font color="#CCCCCC">yang paling populer </font>
+
+5
+00:00:09,660 --> 00:00:12,480
+ media yang digunakan <font color="#E5E5E5">untuk mengirim data kami atau </font>
+
+6
+00:00:12,480 --> 00:00:15,330
+ mengirim <font color="#CCCCCC">pesan kami di internet </font><font color="#E5E5E5">tapi </font>
+
+7
+00:00:15,330 --> 00:00:18,150
+ apa isi email itu dari <font color="#E5E5E5">email </font>
+
+8
+00:00:18,150 --> 00:00:20,310
+ terdiri dari tiga <font color="#CCCCCC">hal yang</font><font color="#E5E5E5"> pertama </font>
+
+9
+00:00:20,310 --> 00:00:23,760
+ adalah <font color="#E5E5E5">amplop badan email dan header email </font>
+
+10
+00:00:23,760 --> 00:00:26,369
+ <font color="#E5E5E5">jadi amplop email sebenarnya mengandung </font>
+
+11
+00:00:26,369 --> 00:00:28,619
+ beberapa file pengaturan konfigurasi server 
+
+12
+00:00:28,619 --> 00:00:30,810
+ dan data yang <font color="#E5E5E5">sebenarnya digunakan untuk routing </font>
+
+13
+00:00:30,810 --> 00:00:33,540
+ <font color="#E5E5E5">dan </font><font color="#CCCCCC">amplop email tidak bisa dilihat oleh </font>
+
+14
+00:00:33,540 --> 00:00:36,480
+ pengguna <font color="#CCCCCC">kemudian bagian </font><font color="#E5E5E5">selanjutnya dari </font><font color="#CCCCCC">email </font>
+
+15
+00:00:36,480 --> 00:00:39,270
+ dimana <font color="#E5E5E5">nenek moyang </font><font color="#CCCCCC">email </font><font color="#E5E5E5">tubuh jadi </font>
+
+16
+00:00:39,270 --> 00:00:41,700
+ badan email sebenarnya <font color="#E5E5E5">terdiri dari pesan kami </font>
+
+17
+00:00:41,700 --> 00:00:44,129
+ <font color="#E5E5E5">yang kita lihat dan kemudian bagian selanjutnya dari </font>
+
+18
+00:00:44,129 --> 00:00:46,649
+ <font color="#CCCCCC">email adalah header email jadi email </font>
+
+19
+00:00:46,649 --> 00:00:48,420
+ tajuk berisi informasi menarik 
+
+20
+00:00:48,420 --> 00:00:50,789
+ <font color="#E5E5E5">yang mana bisa digunakan </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">menemukan yang baik </font>
+
+21
+00:00:50,789 --> 00:00:52,469
+ informasi <font color="#E5E5E5">itu dari mana email </font>
+
+22
+00:00:52,469 --> 00:00:54,750
+ berasal dari dan apa IP itu 
+
+23
+00:00:54,750 --> 00:00:57,719
+ <font color="#E5E5E5">pengirim jadi header email terdiri dari a </font>
+
+24
+00:00:57,719 --> 00:01:02,010
+ <font color="#E5E5E5">tanggal ID pesan </font><font color="#CCCCCC">dari dan agen pengguna </font>
+
+25
+00:01:02,010 --> 00:01:05,129
+ <font color="#CCCCCC">juga dan alamat IP dari server asli </font>
+
+26
+00:01:05,129 --> 00:01:07,979
+ atau <font color="#CCCCCC">alamat IP penerima jadi </font>
+
+27
+00:01:07,979 --> 00:01:10,320
+ menganalisis <font color="#E5E5E5">header email itu penting </font>
+
+28
+00:01:10,320 --> 00:01:12,330
+ karena melalui analisis <font color="#E5E5E5">header email </font>
+
+29
+00:01:12,330 --> 00:01:14,610
+ <font color="#E5E5E5">kita bisa mengetahui bahwa dari mana </font>
+
+30
+00:01:14,610 --> 00:01:16,500
+ email datang dari dan apakah itu berasal <font color="#CCCCCC">dari </font>
+
+31
+00:01:16,500 --> 00:01:18,509
+ sumber yang sah dan apakah itu 
+
+32
+00:01:18,509 --> 00:01:20,640
+ email palsu <font color="#E5E5E5">sekarang mari kita lihat bagaimana kita bisa </font>
+
+33
+00:01:20,640 --> 00:01:23,549
+ <font color="#E5E5E5">menganalisis email dengan menganalisis tajuknya </font>
+
+34
+00:01:23,549 --> 00:01:26,670
+ <font color="#CCCCCC">sekarang mari kita menganalisis header email secara berurutan </font>
+
+35
+00:01:26,670 --> 00:01:29,490
+ untuk mengetahui alamat IP pengirimnya 
+
+36
+00:01:29,490 --> 00:01:31,049
+ yang pertama-tama yang <font color="#E5E5E5">harus Anda </font><font color="#CCCCCC">lakukan adalah Anda </font>
+
+37
+00:01:31,049 --> 00:01:33,780
+ harus <font color="#CCCCCC">membuka email apa pun dan di sini Anda bisa </font>
+
+38
+00:01:33,780 --> 00:01:36,240
+ <font color="#E5E5E5">lihat bahwa saya telah membuka email ini </font><font color="#CCCCCC">dan </font>
+
+39
+00:01:36,240 --> 00:01:40,320
+ <font color="#E5E5E5">email ini dikirim oleh CloudFlare begitu </font>
+
+40
+00:01:40,320 --> 00:01:43,350
+ klik saja di <font color="#CCCCCC">sini </font><font color="#E5E5E5">dan sekarang klik di atas </font>
+
+41
+00:01:43,350 --> 00:01:46,740
+ di sini <font color="#E5E5E5">menunjukkan asli dan di </font><font color="#CCCCCC">sini Anda akan </font><font color="#E5E5E5">melihat </font>
+
+42
+00:01:46,740 --> 00:01:49,470
+ <font color="#CCCCCC">header email </font><font color="#E5E5E5">jadi hal pertama kami </font>
+
+43
+00:01:49,470 --> 00:01:51,360
+ harus <font color="#CCCCCC">lakukan adalah kita harus menyalin email ini </font>
+
+44
+00:01:51,360 --> 00:01:53,369
+ header <font color="#E5E5E5">jadi setelah kami mendapatkan surat kepadanya </font>
+
+45
+00:01:53,369 --> 00:01:56,009
+ <font color="#CCCCCC">maka kita bisa menganalisisnya </font><font color="#E5E5E5">jadi ayo </font>
+
+46
+00:01:56,009 --> 00:01:58,710
+ <font color="#CCCCCC">mulai menyalinnya dari </font><font color="#E5E5E5">sini dan kami punya </font>
+
+47
+00:01:58,710 --> 00:02:01,979
+ untuk menyalinnya <font color="#E5E5E5">sebelum tubuh dimulai dan kita </font>
+
+48
+00:02:01,979 --> 00:02:03,570
+ harus menyalinnya di <font color="#E5E5E5">sini dan di sini </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">bisa </font>
+
+49
+00:02:03,570 --> 00:02:05,640
+ lihat itu tepat <font color="#CCCCCC">setelah </font><font color="#E5E5E5">header email ini </font>
+
+50
+00:02:05,640 --> 00:02:08,489
+ <font color="#E5E5E5">tubuh kita mulai begitu saja salin email ini </font>
+
+51
+00:02:08,489 --> 00:02:10,649
+ header <font color="#E5E5E5">dan kemudian kita harus pergi ke sini </font>
+
+52
+00:02:10,649 --> 00:02:12,270
+ website ini <font color="#E5E5E5">yang </font><font color="#CCCCCC">apa IP saya </font>
+
+53
+00:02:12,270 --> 00:02:13,860
+ <font color="#CCCCCC">dot-com slash </font><font color="#E5E5E5">email header </font>
+
+54
+00:02:13,860 --> 00:02:15,420
+ <font color="#CCCCCC">lyza </font><font color="#E5E5E5">jadi ada </font><font color="#CCCCCC">banyak yang lain </font>
+
+55
+00:02:15,420 --> 00:02:17,280
+ <font color="#CCCCCC">situs web yang menyediakan hal yang sama </font>
+
+56
+00:02:17,280 --> 00:02:19,170
+ <font color="#CCCCCC">fungsionalitas menganalisis header email </font>
+
+57
+00:02:19,170 --> 00:02:23,160
+ jadi contoh <font color="#E5E5E5">dari situs web itu seperti </font><font color="#CCCCCC">MX </font>
+
+58
+00:02:23,160 --> 00:02:26,670
+ <font color="#CCCCCC">com </font><font color="#E5E5E5">toolbox </font><font color="#CCCCCC">Anda mendapatkan sinyal com jadi apa </font>
+
+59
+00:02:26,670 --> 00:02:29,430
+ yang harus kita lakukan adalah hanya <font color="#E5E5E5">sisipkan </font>
+
+60
+00:02:29,430 --> 00:02:33,450
+ simulator di sini <font color="#CCCCCC">klik menganalisis dan di sini </font>
+
+61
+00:02:33,450 --> 00:02:36,450
+ Anda <font color="#E5E5E5">akan melihat </font><font color="#CCCCCC">informasi </font><font color="#E5E5E5">IP pengirim </font>
+
+62
+00:02:36,450 --> 00:02:38,790
+ <font color="#E5E5E5">jadi di sini Anda dapat melihat sumber email IPS </font>
+
+63
+00:02:38,790 --> 00:02:41,490
+ ini jadi ini <font color="#CCCCCC">adalah alamat </font><font color="#E5E5E5">IP dari </font>
+
+64
+00:02:41,490 --> 00:02:44,280
+ pengirim <font color="#E5E5E5">dan </font><font color="#CCCCCC">nama</font><font color="#E5E5E5"> host juga </font><font color="#CCCCCC">sama </font>
+
+65
+00:02:44,280 --> 00:02:48,030
+ <font color="#E5E5E5">dan di sini Anda dapat melihat IP sumber email </font>
+
+66
+00:02:48,030 --> 00:02:51,030
+ info pencarian bahwa IP ini adalah United 
+
+67
+00:02:51,030 --> 00:02:53,130
+ <font color="#CCCCCC">Negara-negara Amerika Serikat dan </font>
+
+68
+00:02:53,130 --> 00:02:55,709
+ kota adalah <font color="#CCCCCC">Hillsborough </font><font color="#E5E5E5">dan di sini Anda bisa </font>
+
+69
+00:02:55,709 --> 00:02:57,540
+ <font color="#CCCCCC">temukan garis bujur </font><font color="#E5E5E5">sepanjang </font>
+
+70
+00:02:57,540 --> 00:02:59,580
+ dengan kode area dan ISP 
+
+71
+00:02:59,580 --> 00:03:00,900
+ informasi juga <font color="#E5E5E5">bersama </font><font color="#CCCCCC">dengan </font>
+
+72
+00:03:00,900 --> 00:03:03,120
+ nama organisasi sehingga <font color="#CCCCCC">untuk</font><font color="#E5E5E5"> hanya </font>
+
+73
+00:03:03,120 --> 00:03:05,640
+ verifikasi kita bisa pergi ke sini untuk <font color="#E5E5E5">apa milik saya </font>
+
+74
+00:03:05,640 --> 00:03:07,920
+ <font color="#CCCCCC">Alamat IP dan kami dapat menyalin </font>
+
+75
+00:03:07,920 --> 00:03:10,739
+ alamat IP pengirim dari sini dan mari 
+
+76
+00:03:10,739 --> 00:03:12,600
+ buka di sini <font color="#E5E5E5">dan </font><font color="#CCCCCC">tempelkan alamat IP di sini </font>
+
+77
+00:03:12,600 --> 00:03:20,340
+ <font color="#E5E5E5">bilah pencarian </font><font color="#CCCCCC">klik pada pencarian </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">di sini </font>
+
+78
+00:03:20,340 --> 00:03:23,040
+ Anda <font color="#E5E5E5">akan melihat daftar informasi </font><font color="#CCCCCC">atau </font>
+
+79
+00:03:23,040 --> 00:03:26,730
+ daftar rincian IP ini dan jika saya 
+
+80
+00:03:26,730 --> 00:03:29,070
+ gulir ke bawah <font color="#E5E5E5">Anda </font><font color="#CCCCCC">akan menemukan </font><font color="#E5E5E5">hal yang sama </font>
+
+81
+00:03:29,070 --> 00:03:31,709
+ informasi <font color="#CCCCCC">nama host bersama dengan ISP </font>
+
+82
+00:03:31,709 --> 00:03:34,590
+ <font color="#E5E5E5">CloudFlare dan </font><font color="#CCCCCC">pertama gulir ke bawah a </font>
+
+83
+00:03:34,590 --> 00:03:36,209
+ <font color="#CCCCCC">sedikit </font><font color="#E5E5E5">lebih banyak Anda akan lihat </font><font color="#CCCCCC">di sini </font>
+
+84
+00:03:36,209 --> 00:03:40,739
+ negara benua <font color="#E5E5E5">kota negara bersama </font><font color="#CCCCCC">dengan </font>
+
+85
+00:03:40,739 --> 00:03:44,580
+ <font color="#E5E5E5">garis bujur dan </font><font color="#CCCCCC">garis lintang </font><font color="#E5E5E5">jadi ini </font>
+
+86
+00:03:44,580 --> 00:03:46,530
+ bagaimana kita bisa <font color="#E5E5E5">menganalisis header email secara berurutan </font>
+
+87
+00:03:46,530 --> 00:03:50,910
+ untuk mengetahui alamat IP pengirimnya 
+
+88
+00:03:50,910 --> 00:03:52,739
+ dalam <font color="#E5E5E5">video ini kita telah membahasnya </font>
+
+89
+00:03:52,739 --> 00:03:54,330
+ adalah pentingnya menganalisis email 
+
+90
+00:03:54,330 --> 00:03:56,190
+ tajuk <font color="#E5E5E5">dan bagaimana kita bisa menganalisisnya </font><font color="#CCCCCC">al </font>
+
+91
+00:03:56,190 --> 00:00:00,000
+ terima kasih untuk <font color="#E5E5E5">menonton video ini </font>
+

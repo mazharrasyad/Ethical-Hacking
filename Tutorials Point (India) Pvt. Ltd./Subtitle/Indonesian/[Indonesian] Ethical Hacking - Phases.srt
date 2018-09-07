@@ -1,0 +1,356 @@
+1
+00:00:00,089 --> 00:00:02,490
+ Halo semua orang di <font color="#CCCCCC">video ini kita akan bicara </font>
+
+2
+00:00:02,490 --> 00:00:05,609
+ tentang <font color="#E5E5E5">wajah peretasan etis atau langkah-langkahnya </font>
+
+3
+00:00:05,609 --> 00:00:07,350
+ yang mana harus <font color="#E5E5E5">diikuti untuk </font>
+
+4
+00:00:07,350 --> 00:00:10,620
+ <font color="#CCCCCC">melakukan heck yang sukses </font><font color="#E5E5E5">jadi ada </font>
+
+5
+00:00:10,620 --> 00:00:12,799
+ lima <font color="#E5E5E5">wajah </font><font color="#CCCCCC">rekomendasi </font><font color="#E5E5E5">peretasan etis </font>
+
+6
+00:00:12,799 --> 00:00:15,269
+ <font color="#E5E5E5">pemindaian mendapatkan pemeliharaan akses </font>
+
+7
+00:00:15,269 --> 00:00:17,910
+ mengakses <font color="#E5E5E5">dan menghapus track </font><font color="#CCCCCC">jadi yang pertama </font>
+
+8
+00:00:17,910 --> 00:00:19,740
+ <font color="#E5E5E5">fase peretasan vertikal diakui </font>
+
+9
+00:00:19,740 --> 00:00:21,930
+ <font color="#E5E5E5">sehingga istilah merekomendasikan juga </font><font color="#CCCCCC">singkatan </font>
+
+10
+00:00:21,930 --> 00:00:23,340
+ <font color="#E5E5E5">pengumpulan informasi yang berarti </font>
+
+11
+00:00:23,340 --> 00:00:25,050
+ <font color="#E5E5E5">mengumpulkan informasi tentang kami </font>
+
+12
+00:00:25,050 --> 00:00:27,090
+ <font color="#CCCCCC">target jadi target kita </font><font color="#E5E5E5">bisa apa saja </font>
+
+13
+00:00:27,090 --> 00:00:30,390
+ <font color="#CCCCCC">seperti </font><font color="#E5E5E5">orang web server </font><font color="#CCCCCC">situs </font><font color="#E5E5E5">web atau lebih </font>
+
+14
+00:00:30,390 --> 00:00:33,000
+ <font color="#E5E5E5">jadi apa yang bisa kita lakukan adalah dalam fase ini </font>
+
+15
+00:00:33,000 --> 00:00:35,340
+ <font color="#CCCCCC">pengulangan </font><font color="#E5E5E5">atau pengumpulan </font><font color="#CCCCCC">informasi </font><font color="#E5E5E5">kami </font>
+
+16
+00:00:35,340 --> 00:00:37,200
+ mencoba mencari informasi <font color="#E5E5E5">tentang kami </font>
+
+17
+00:00:37,200 --> 00:00:39,480
+ <font color="#CCCCCC">target </font><font color="#E5E5E5">jadi jika target kami adalah situs web </font>
+
+18
+00:00:39,480 --> 00:00:41,190
+ maka <font color="#CCCCCC">Anda </font><font color="#E5E5E5">dapat menemukan informasi </font><font color="#CCCCCC">dari </font>
+
+19
+00:00:41,190 --> 00:00:43,890
+ <font color="#CCCCCC">situs web itu seperti alamat IP </font><font color="#E5E5E5">itu </font>
+
+20
+00:00:43,890 --> 00:00:46,020
+ <font color="#CCCCCC">situs web adalah situs web yang dihosting di </font>
+
+21
+00:00:46,020 --> 00:00:48,000
+ server bersama <font color="#E5E5E5">atau </font><font color="#CCCCCC">server </font><font color="#E5E5E5">khusus </font><font color="#CCCCCC">atau </font>
+
+22
+00:00:48,000 --> 00:00:50,850
+ <font color="#E5E5E5">atau situs web itu dibangun dengan apa pun </font>
+
+23
+00:00:50,850 --> 00:00:52,800
+ <font color="#E5E5E5">sistem manajemen konten atau jenis apa </font>
+
+24
+00:00:52,800 --> 00:00:54,390
+ kerangka yang digunakan <font color="#E5E5E5">untuk</font><font color="#CCCCCC"> membangun </font>
+
+25
+00:00:54,390 --> 00:00:57,690
+ <font color="#E5E5E5">situs web itu </font><font color="#CCCCCC">jadi jika target kami adalah web </font>
+
+26
+00:00:57,690 --> 00:00:59,609
+ server <font color="#E5E5E5">maka kita bisa mengetahui </font><font color="#CCCCCC">itu apa </font>
+
+27
+00:00:59,609 --> 00:01:01,140
+ <font color="#CCCCCC">adalah port terbuka di server web itu </font>
+
+28
+00:01:01,140 --> 00:01:02,789
+ <font color="#E5E5E5">dan </font><font color="#CCCCCC">layanan lain </font><font color="#E5E5E5">apa yang </font><font color="#CCCCCC">sedang dijalankan </font>
+
+29
+00:01:02,789 --> 00:01:05,040
+ mereka dan jika <font color="#CCCCCC">target </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">adalah seseorang itu </font>
+
+30
+00:01:05,040 --> 00:01:07,140
+ kami akan mencoba <font color="#E5E5E5">mencari </font><font color="#CCCCCC">informasi </font><font color="#E5E5E5">tentangnya </font>
+
+31
+00:01:07,140 --> 00:01:09,510
+ <font color="#E5E5E5">sejarah orang seperti dimana tempatnya </font>
+
+32
+00:01:09,510 --> 00:01:11,310
+ <font color="#E5E5E5">orang itu bekerja nomor kontaknya </font>
+
+33
+00:01:11,310 --> 00:01:13,890
+ dan <font color="#CCCCCC">sesuatu </font><font color="#E5E5E5">informasi menarik </font>
+
+34
+00:01:13,890 --> 00:01:16,500
+ dari <font color="#E5E5E5">profil sosialnya sehingga begitu kita </font>
+
+35
+00:01:16,500 --> 00:01:18,240
+ <font color="#CCCCCC">lengkap dengan referensi fase pertama ini </font>
+
+36
+00:01:18,240 --> 00:01:20,280
+ kemudian kita akan melompat ke <font color="#E5E5E5">pemindaian sehingga di </font>
+
+37
+00:01:20,280 --> 00:01:22,530
+ <font color="#CCCCCC">fase pemindaian kami benar-benar memindai masing-masing dan </font>
+
+38
+00:01:22,530 --> 00:01:24,540
+ setiap <font color="#E5E5E5">komponen dari </font><font color="#CCCCCC">sistem</font><font color="#E5E5E5"> atau </font>
+
+39
+00:01:24,540 --> 00:01:26,670
+ <font color="#E5E5E5">situs web untuk menemukan </font>
+
+40
+00:01:26,670 --> 00:01:28,439
+ kerentanan <font color="#CCCCCC">jadi setelah kami menemukan </font>
+
+41
+00:01:28,439 --> 00:01:30,780
+ kerentanan maka langkah selanjutnya adalah 
+
+42
+00:01:30,780 --> 00:01:33,420
+ mengeksploitasi <font color="#E5E5E5">kerentanan yang berarti </font>
+
+43
+00:01:33,420 --> 00:01:35,909
+ <font color="#CCCCCC">untuk </font><font color="#E5E5E5">mengambil </font><font color="#CCCCCC">akses jadi begitu kami </font>
+
+44
+00:01:35,909 --> 00:01:37,500
+ memindai sistem <font color="#CCCCCC">kami </font><font color="#E5E5E5">menemukan </font>
+
+45
+00:01:37,500 --> 00:01:40,110
+ kerentanan <font color="#E5E5E5">maka kita akan coba ambil </font>
+
+46
+00:01:40,110 --> 00:01:42,570
+ akses <font color="#CCCCCC">sistem itu dengan mengeksploitasi </font>
+
+47
+00:01:42,570 --> 00:01:44,909
+ <font color="#CCCCCC">kerentanan itu sehingga pada fase ketiga </font>
+
+48
+00:01:44,909 --> 00:01:47,490
+ <font color="#E5E5E5">kami benar-benar mengambil akses dan begitu kami </font>
+
+49
+00:01:47,490 --> 00:01:49,020
+ <font color="#E5E5E5">di </font><font color="#CCCCCC">dalam sistem </font><font color="#E5E5E5">sekali kita </font>
+
+50
+00:01:49,020 --> 00:01:51,240
+ <font color="#CCCCCC">berhasil ahli dalam </font><font color="#E5E5E5">sistem itu </font>
+
+51
+00:01:51,240 --> 00:01:53,280
+ <font color="#CCCCCC">langkah pertama yang </font><font color="#E5E5E5">harus dilakukan seseorang </font>
+
+52
+00:01:53,280 --> 00:01:56,399
+ <font color="#E5E5E5">adalah kita harus terlebih dahulu membuat </font><font color="#CCCCCC">backdoor </font><font color="#E5E5E5">jadi </font>
+
+53
+00:01:56,399 --> 00:01:58,259
+ apa yang backdoor hanya untuk contoh <font color="#CCCCCC">kita </font>
+
+54
+00:01:58,259 --> 00:02:00,600
+ di dalam satu sistem <font color="#E5E5E5">dan kami entah bagaimana hilang </font>
+
+55
+00:02:00,600 --> 00:02:03,329
+ <font color="#CCCCCC">akses dari sistem </font><font color="#E5E5E5">bahwa apa yang kita </font>
+
+56
+00:02:03,329 --> 00:02:06,240
+ bisa <font color="#E5E5E5">kita tidak bisa masuk ke </font><font color="#CCCCCC">itu </font>
+
+57
+00:02:06,240 --> 00:02:09,538
+ <font color="#CCCCCC">sistem </font><font color="#E5E5E5">kembali jadi proses pertama adalah itu </font>
+
+58
+00:02:09,538 --> 00:02:11,879
+ <font color="#E5E5E5">begitu kita berada di dalam sistem yang kita coba </font>
+
+59
+00:02:11,879 --> 00:02:13,410
+ <font color="#CCCCCC">menjaga akses kami </font>
+
+60
+00:02:13,410 --> 00:02:15,630
+ jadi <font color="#CCCCCC">untuk </font><font color="#E5E5E5">menjaga akses kami </font>
+
+61
+00:02:15,630 --> 00:02:18,000
+ dapat <font color="#E5E5E5">mengunggah cangkang dan bahkan kita bisa </font>
+
+62
+00:02:18,000 --> 00:02:20,520
+ menghasilkan <font color="#CCCCCC">kerentanan kita sendiri dalam hal itu </font>
+
+63
+00:02:20,520 --> 00:02:22,620
+ <font color="#E5E5E5">sistem sehingga kita bisa kembali </font><font color="#CCCCCC">ke </font>
+
+64
+00:02:22,620 --> 00:02:25,080
+ <font color="#E5E5E5">sistem </font><font color="#CCCCCC">mereka untuk </font><font color="#E5E5E5">mengambil akses jadi </font>
+
+65
+00:02:25,080 --> 00:02:27,420
+ inilah yang kami lakukan dalam <font color="#E5E5E5">menjaga akses </font>
+
+66
+00:02:27,420 --> 00:02:29,580
+ fase ada fase <font color="#CCCCCC">keempat </font><font color="#E5E5E5">jadi setelah kita </font>
+
+67
+00:02:29,580 --> 00:02:30,930
+ mempertahankan akses kami begitu kami memilikinya 
+
+68
+00:02:30,930 --> 00:02:32,910
+ mengeksploitasi <font color="#E5E5E5">sistem lalu yang terakhir </font>
+
+69
+00:02:32,910 --> 00:02:35,460
+ membersihkan trek <font color="#E5E5E5">yang berarti membersihkan </font>
+
+70
+00:02:35,460 --> 00:02:37,980
+ catatan kami jadi <font color="#E5E5E5">kami apa yang bisa kami lakukan adalah kami </font>
+
+71
+00:02:37,980 --> 00:02:39,750
+ <font color="#E5E5E5">bahkan dapat meninggalkan file log yang kami bisa </font>
+
+72
+00:02:39,750 --> 00:02:42,390
+ <font color="#E5E5E5">membersihkan sejarah bahkan </font><font color="#CCCCCC">kita bisa berubah </font>
+
+73
+00:02:42,390 --> 00:02:45,000
+ pengaturan registri mereka <font color="#CCCCCC">jadi ini adalah </font>
+
+74
+00:02:45,000 --> 00:02:47,370
+ lima <font color="#E5E5E5">fase kekambuhan yang kita temukan </font>
+
+75
+00:02:47,370 --> 00:02:49,470
+ <font color="#CCCCCC">informasi </font><font color="#E5E5E5">lalu memindai di mana </font>
+
+76
+00:02:49,470 --> 00:02:51,210
+ kami <font color="#E5E5E5">berdiri di sistem </font><font color="#CCCCCC">dan menemukan </font>
+
+77
+00:02:51,210 --> 00:02:52,710
+ kerentanan <font color="#E5E5E5">maka yang ketiga adalah </font>
+
+78
+00:02:52,710 --> 00:02:54,150
+ <font color="#CCCCCC">mendapatkan akses di mana </font><font color="#E5E5E5">kami mencoba </font>
+
+79
+00:02:54,150 --> 00:02:56,520
+ mengeksploitasi sistem <font color="#E5E5E5">kemudian mempertahankannya </font>
+
+80
+00:02:56,520 --> 00:02:58,920
+ <font color="#E5E5E5">akses di mana kami dapat mengunggah web apa pun </font>
+
+81
+00:02:58,920 --> 00:03:01,200
+ shell atau kita dapat <font color="#E5E5E5">membuat </font><font color="#CCCCCC">backdoor sehingga </font>
+
+82
+00:03:01,200 --> 00:03:02,790
+ kita bisa kembali <font color="#E5E5E5">ke dalam </font><font color="#CCCCCC">sistem yang </font><font color="#E5E5E5">di </font>
+
+83
+00:03:02,790 --> 00:03:04,740
+ <font color="#CCCCCC">memesan </font><font color="#E5E5E5">untuk mengambil aksesnya kemudian di </font>
+
+84
+00:03:04,740 --> 00:03:06,960
+ <font color="#E5E5E5">trek kliring terakhir jadi ini adalah </font>
+
+85
+00:03:06,960 --> 00:03:08,910
+ lima fase yang harus <font color="#E5E5E5">diikuti </font>
+
+86
+00:03:08,910 --> 00:03:11,160
+ melakukan hack yang berhasil jadi ini 
+
+87
+00:03:11,160 --> 00:03:12,750
+ video <font color="#E5E5E5">telah membahas ada </font><font color="#CCCCCC">apa </font>
+
+88
+00:03:12,750 --> 00:03:14,280
+ lima <font color="#E5E5E5">fase peretasan etis dan </font>
+
+89
+00:03:14,280 --> 00:00:00,000
+ terima kasih telah <font color="#E5E5E5">menonton </font><font color="#CCCCCC">video ini </font>
+

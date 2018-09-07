@@ -1,0 +1,1012 @@
+1
+00:00:00,060 --> 00:00:02,159
+ Halo semua orang di <font color="#E5E5E5">video ini </font>
+
+2
+00:00:02,159 --> 00:00:05,370
+ berbicara <font color="#E5E5E5">tentang </font><font color="#CCCCCC">pengumpulan </font><font color="#E5E5E5">informasi jadi apa </font>
+
+3
+00:00:05,370 --> 00:00:07,230
+ adalah <font color="#CCCCCC">pengumpulan informasi seperti yang saya katakan </font>
+
+4
+00:00:07,230 --> 00:00:09,059
+ Anda sebelumnya <font color="#CCCCCC">yang mengumpulkan informasi </font>
+
+5
+00:00:09,059 --> 00:00:11,280
+ juga disebut sebagai referensi <font color="#E5E5E5">yang merupakan </font>
+
+6
+00:00:11,280 --> 00:00:13,440
+ fase pertama <font color="#E5E5E5">peretasan etis jadi </font>
+
+7
+00:00:13,440 --> 00:00:15,000
+ <font color="#E5E5E5">pengumpulan informasi sebenarnya </font>
+
+8
+00:00:15,000 --> 00:00:17,310
+ proses mengetahui <font color="#CCCCCC">dengan baik target dan </font>
+
+9
+00:00:17,310 --> 00:00:19,140
+ menemukan <font color="#CCCCCC">informasi yang menarik </font>
+
+10
+00:00:19,140 --> 00:00:21,660
+ <font color="#CCCCCC">tentang </font><font color="#E5E5E5">target kami yang dapat kami gunakan </font>
+
+11
+00:00:21,660 --> 00:00:23,430
+ <font color="#E5E5E5">untuk mengeksploitasi </font><font color="#CCCCCC">target itu di </font>
+
+12
+00:00:23,430 --> 00:00:25,949
+ masa depan <font color="#E5E5E5">jadi di sini Anda dapat melihat bahwa itu adalah a </font>
+
+13
+00:00:25,949 --> 00:00:27,420
+ proses <font color="#E5E5E5">mengetahui target dengan baik </font>
+
+14
+00:00:27,420 --> 00:00:30,330
+ <font color="#E5E5E5">menggali detail </font><font color="#CCCCCC">footprinting and keeping </font>
+
+15
+00:00:30,330 --> 00:00:32,790
+ berhubungan dengan <font color="#CCCCCC">target jadi itu sebabnya </font>
+
+16
+00:00:32,790 --> 00:00:34,710
+ kami disebut sebagai pada <font color="#E5E5E5">fase pertama </font>
+
+17
+00:00:34,710 --> 00:00:37,620
+ peretasan etika <font color="#CCCCCC">sehingga </font><font color="#E5E5E5">pengumpulan </font><font color="#CCCCCC">informasi </font>
+
+18
+00:00:37,620 --> 00:00:39,570
+ <font color="#E5E5E5">sebenarnya dari dua jenis </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">pertama </font>
+
+19
+00:00:39,570 --> 00:00:41,820
+ adalah <font color="#E5E5E5">pengumpulan informasi aktif dan </font>
+
+20
+00:00:41,820 --> 00:00:43,559
+ yang berikutnya adalah informasi pasif 
+
+21
+00:00:43,559 --> 00:00:45,239
+ mengumpulkan <font color="#CCCCCC">begitu dalam informasi aktif </font>
+
+22
+00:00:45,239 --> 00:00:47,190
+ <font color="#E5E5E5">mengumpulkan informasi </font><font color="#CCCCCC">dikumpulkan </font>
+
+23
+00:00:47,190 --> 00:00:49,469
+ langsung yang artinya jika target kita <font color="#E5E5E5">adalah a </font>
+
+24
+00:00:49,469 --> 00:00:51,390
+ orang itu <font color="#E5E5E5">untuk mendapatkan informasi </font>
+
+25
+00:00:51,390 --> 00:00:53,640
+ <font color="#E5E5E5">dari orang itu </font><font color="#CCCCCC">dengan menggunakan aktif </font>
+
+26
+00:00:53,640 --> 00:00:55,739
+ <font color="#CCCCCC">mengumpulkan informasi </font><font color="#E5E5E5">apa yang bisa kita lakukan kita </font>
+
+27
+00:00:55,739 --> 00:00:57,090
+ dapat mengumpulkan informasi <font color="#CCCCCC">melalui </font>
+
+28
+00:00:57,090 --> 00:00:58,859
+ panggilan telepon <font color="#E5E5E5">kita bisa melakukan tatap muka </font>
+
+29
+00:00:58,859 --> 00:01:00,690
+ bertemu kita dapat mengambil wawancara tentang itu 
+
+30
+00:01:00,690 --> 00:01:03,629
+ orang <font color="#E5E5E5">tetapi sedangkan di pasif </font>
+
+31
+00:01:03,629 --> 00:01:05,549
+ informasi yang mengumpulkan informasi <font color="#CCCCCC">tersebut </font>
+
+32
+00:01:05,549 --> 00:01:08,250
+ dikumpulkan menggunakan <font color="#E5E5E5">pihak ketiga </font><font color="#CCCCCC">sehingga sebagian besar </font>
+
+33
+00:01:08,250 --> 00:01:10,770
+ para <font color="#CCCCCC">peretas menggunakan informasi pasif ini </font>
+
+34
+00:01:10,770 --> 00:01:12,330
+ <font color="#CCCCCC">teknik pengumpulan untuk mengumpulkan </font>
+
+35
+00:01:12,330 --> 00:01:14,729
+ informasi <font color="#E5E5E5">tentang target mereka karena </font>
+
+36
+00:01:14,729 --> 00:01:16,740
+ jika Anda menggunakan informasi pasif 
+
+37
+00:01:16,740 --> 00:01:18,960
+ teknik pengumpulan <font color="#E5E5E5">maka itu Anda </font>
+
+38
+00:01:18,960 --> 00:01:20,790
+ <font color="#E5E5E5">target </font><font color="#CCCCCC">tidak akan bisa </font><font color="#E5E5E5">tahu itu </font>
+
+39
+00:01:20,790 --> 00:01:22,950
+ <font color="#E5E5E5">seseorang mencari </font><font color="#CCCCCC">informasi tentang </font>
+
+40
+00:01:22,950 --> 00:01:25,229
+ saya jadi <font color="#E5E5E5">itulah mengapa informasi pasif </font>
+
+41
+00:01:25,229 --> 00:01:27,270
+ gathering <font color="#E5E5E5">adalah salah satu yang terbaik jadi apa kita </font>
+
+42
+00:01:27,270 --> 00:01:28,740
+ <font color="#E5E5E5">dapat lakukan adalah kita bahkan dapat menemukan </font>
+
+43
+00:01:28,740 --> 00:01:30,509
+ informasi <font color="#CCCCCC">tentang target kami menggunakan </font>
+
+44
+00:01:30,509 --> 00:01:32,729
+ <font color="#E5E5E5">alat mesin pencari atau bahkan dari </font>
+
+45
+00:01:32,729 --> 00:01:35,579
+ <font color="#CCCCCC">vendor pihak ketiga atau aplikasi web </font>
+
+46
+00:01:35,579 --> 00:01:37,590
+ jadi ini <font color="#E5E5E5">perbedaan </font><font color="#CCCCCC">antara aktif </font>
+
+47
+00:01:37,590 --> 00:01:39,060
+ dan <font color="#E5E5E5">pasif </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">aktif mengumpulkan </font>
+
+48
+00:01:39,060 --> 00:01:41,369
+ informasi secara langsung dan <font color="#CCCCCC">kita yang pasif </font>
+
+49
+00:01:41,369 --> 00:01:43,229
+ kumpulkan informasi <font color="#CCCCCC">menggunakan yang ketiga </font>
+
+50
+00:01:43,229 --> 00:01:46,079
+ <font color="#CCCCCC">pesta atau secara diam-diam maka mari kita bicara </font>
+
+51
+00:01:46,079 --> 00:01:47,880
+ <font color="#E5E5E5">tentang pengumpulan informasi pasif </font>
+
+52
+00:01:47,880 --> 00:01:50,250
+ <font color="#E5E5E5">target jadi target kita </font><font color="#CCCCCC">bisa </font><font color="#E5E5E5">apa saja </font>
+
+53
+00:01:50,250 --> 00:01:52,049
+ <font color="#CCCCCC">entah itu bisa berupa </font><font color="#E5E5E5">email situs web </font>
+
+54
+00:01:52,049 --> 00:01:55,680
+ alamat web server <font color="#E5E5E5">dan seseorang jadi apa </font>
+
+55
+00:01:55,680 --> 00:01:57,990
+ jika jika <font color="#E5E5E5">target kami adalah </font><font color="#CCCCCC">situs web lalu apa </font>
+
+56
+00:01:57,990 --> 00:02:00,689
+ kita bisa melakukannya di <font color="#CCCCCC">sini Anda dapat melihat bahwa </font>
+
+57
+00:02:00,689 --> 00:02:02,460
+ <font color="#CCCCCC">mengumpulkan informasi situs web </font><font color="#E5E5E5">jadi hanya </font>
+
+58
+00:02:02,460 --> 00:02:04,049
+ misalnya <font color="#CCCCCC">jika </font><font color="#E5E5E5">target kami </font><font color="#CCCCCC">adalah situs web </font>
+
+59
+00:02:04,049 --> 00:02:06,360
+ <font color="#E5E5E5">kemudian sebelum menguji situs web itu di </font>
+
+60
+00:02:06,360 --> 00:02:08,369
+ <font color="#E5E5E5">memesan untuk menemukan kerentanan apa yang kami bisa </font>
+
+61
+00:02:08,369 --> 00:02:09,780
+ apakah kita <font color="#CCCCCC">bisa mengumpulkan beberapa yang menarik </font>
+
+62
+00:02:09,780 --> 00:02:11,580
+ informasi <font color="#CCCCCC">tentang </font><font color="#E5E5E5">situs web </font><font color="#CCCCCC">itu </font>
+
+63
+00:02:11,580 --> 00:02:13,350
+ <font color="#E5E5E5">informasi menarik teman saya </font>
+
+64
+00:02:13,350 --> 00:02:15,510
+ <font color="#E5E5E5">di yang merupakan informasi bahwa apa </font><font color="#CCCCCC">yang </font>
+
+65
+00:02:15,510 --> 00:02:17,190
+ <font color="#CCCCCC">Informasi registrar dari situs web </font><font color="#E5E5E5">kami </font>
+
+66
+00:02:17,190 --> 00:02:19,650
+ <font color="#CCCCCC">dapat menemukan </font><font color="#E5E5E5">catatan DNS </font><font color="#CCCCCC">situs web yang </font><font color="#E5E5E5">kami dapat </font>
+
+67
+00:02:19,650 --> 00:02:21,720
+ <font color="#CCCCCC">juga periksa platform mana atau </font>
+
+68
+00:02:21,720 --> 00:02:24,060
+ kerangka <font color="#E5E5E5">situs web yang dibangun dan bahkan </font>
+
+69
+00:02:24,060 --> 00:02:26,070
+ kita bisa melakukan pemeriksaan reverse IP di mana <font color="#E5E5E5">kita </font>
+
+70
+00:02:26,070 --> 00:02:28,260
+ temukan <font color="#E5E5E5">apa itu </font><font color="#CCCCCC">situs web lain </font>
+
+71
+00:02:28,260 --> 00:02:30,480
+ yang di- <font color="#E5E5E5">host di </font><font color="#CCCCCC">server web yang sama </font>
+
+72
+00:02:30,480 --> 00:02:34,200
+ <font color="#E5E5E5">jadi ini semua tentang apakah target kami adalah a </font>
+
+73
+00:02:34,200 --> 00:02:36,360
+ <font color="#CCCCCC">situs web jadi bagaimana </font><font color="#E5E5E5">jika jika </font><font color="#CCCCCC">target </font><font color="#E5E5E5">kami </font><font color="#CCCCCC">adalah </font>
+
+74
+00:02:36,360 --> 00:02:38,070
+ web server <font color="#CCCCCC">lalu </font><font color="#E5E5E5">apa yang bisa kita lakukan </font>
+
+75
+00:02:38,070 --> 00:02:41,160
+ jadi jika target kami <font color="#E5E5E5">adalah server web kemudian masuk </font>
+
+76
+00:02:41,160 --> 00:02:43,200
+ <font color="#CCCCCC">memesan untuk </font><font color="#E5E5E5">menemukan informasi </font><font color="#CCCCCC">tentang kami </font><font color="#E5E5E5">yang </font>
+
+77
+00:02:43,200 --> 00:02:45,360
+ dapat menemukannya <font color="#E5E5E5">membuka port </font><font color="#CCCCCC">kita dapat menemukan </font>
+
+78
+00:02:45,360 --> 00:02:47,370
+ <font color="#E5E5E5">layanan yang berjalan di server itu dan jika </font>
+
+79
+00:02:47,370 --> 00:02:49,710
+ port yang terbuka kami <font color="#E5E5E5">juga dapat mencoba </font><font color="#CCCCCC">untuk </font>
+
+80
+00:02:49,710 --> 00:02:51,840
+ membuat koneksi <font color="#E5E5E5">dengan port itu dan </font>
+
+81
+00:02:51,840 --> 00:02:54,390
+ bahkan kita dapat menemukan layanan yang menarik 
+
+82
+00:02:54,390 --> 00:02:55,920
+ yang <font color="#E5E5E5">berjalan pada mereka </font><font color="#CCCCCC">termasuk mereka </font>
+
+83
+00:02:55,920 --> 00:02:58,380
+ nomor versi jadi setelah kami mendapat <font color="#E5E5E5">ini </font>
+
+84
+00:02:58,380 --> 00:03:00,210
+ <font color="#E5E5E5">informasi menarik tentang target kami </font>
+
+85
+00:03:00,210 --> 00:03:02,940
+ <font color="#E5E5E5">maka kita bisa menggunakan informasi ini di </font>
+
+86
+00:03:02,940 --> 00:03:05,580
+ untuk mengeksploitasi <font color="#E5E5E5">target itu sekarang mari </font>
+
+87
+00:03:05,580 --> 00:03:07,230
+ lihat bagaimana kami bisa melakukan pengumpulan informasi 
+
+88
+00:03:07,230 --> 00:03:09,630
+ melalui <font color="#E5E5E5">sistem kami sekarang pertama-tama </font>
+
+89
+00:03:09,630 --> 00:03:12,720
+ mari temukan <font color="#E5E5E5">informasi Whois tentang a </font>
+
+90
+00:03:12,720 --> 00:03:15,030
+ <font color="#CCCCCC">situs web tertentu </font><font color="#E5E5E5">sehingga dapat ditemukan </font>
+
+91
+00:03:15,030 --> 00:03:17,340
+ <font color="#CCCCCC">Informasi </font><font color="#E5E5E5">Whois </font><font color="#CCCCCC">ada di sana </font>
+
+92
+00:03:17,340 --> 00:03:18,990
+ <font color="#E5E5E5">informasi </font><font color="#CCCCCC">perusak </font><font color="#E5E5E5">tertentu </font>
+
+93
+00:03:18,990 --> 00:03:25,290
+ <font color="#E5E5E5">situs web hanya pergi ke siapa </font><font color="#CCCCCC">s dot s jadi </font>
+
+94
+00:03:25,290 --> 00:03:26,640
+ ada <font color="#E5E5E5">banyak </font><font color="#CCCCCC">situs web yang </font>
+
+95
+00:03:26,640 --> 00:03:29,370
+ menyediakan fungsi yang sama <font color="#E5E5E5">tetapi ini </font>
+
+96
+00:03:29,370 --> 00:03:33,060
+ <font color="#CCCCCC">Situs web adalah salah </font><font color="#E5E5E5">satu yang terbaik jadi </font>
+
+97
+00:03:33,060 --> 00:03:38,930
+ tulis <font color="#E5E5E5">siapa yang dot SC dan tekan enter </font>
+
+98
+00:03:45,599 --> 00:03:47,819
+ jadi di sini kita harus <font color="#E5E5E5">menulis situs web </font>
+
+99
+00:03:47,819 --> 00:03:53,840
+ <font color="#CCCCCC">beri nama tutorialspoint.com sebelah kiri </font><font color="#E5E5E5">dan </font>
+
+100
+00:03:53,840 --> 00:03:57,409
+ klik <font color="#E5E5E5">pencarian </font>
+
+101
+00:04:01,470 --> 00:04:05,370
+ dan kami harus membuktikan bahwa kami <font color="#E5E5E5">belum </font>
+
+102
+00:04:05,370 --> 00:04:12,540
+ robot <font color="#CCCCCC">jadi kita harus mengisi CAPTCHA ini jadi </font>
+
+103
+00:04:12,540 --> 00:04:15,360
+ di sini Anda dapat melihat semua <font color="#CCCCCC">Whois </font>
+
+104
+00:04:15,360 --> 00:04:18,238
+ <font color="#CCCCCC">informasi dari tutorialspoint.com jadi </font>
+
+105
+00:04:18,238 --> 00:04:20,130
+ <font color="#E5E5E5">organisasi pendaftaran </font><font color="#CCCCCC">memiliki tutorial </font>
+
+106
+00:04:20,130 --> 00:04:22,500
+ <font color="#CCCCCC">titik </font><font color="#E5E5E5">India Private Limited dan </font>
+
+107
+00:04:22,500 --> 00:04:24,990
+ <font color="#E5E5E5">Registrar </font><font color="#CCCCCC">adalah GoDaddy dan di sini Anda bisa </font>
+
+108
+00:04:24,990 --> 00:04:26,400
+ <font color="#E5E5E5">temukan detail server nama </font><font color="#CCCCCC">domain </font>
+
+109
+00:04:26,400 --> 00:04:29,970
+ <font color="#E5E5E5">bersama dengan IP dan lokasi IP </font><font color="#CCCCCC">jadi </font>
+
+110
+00:04:29,970 --> 00:04:32,580
+ jika Anda menggulir <font color="#CCCCCC">ke sini Anda dapat </font><font color="#E5E5E5">menemukan </font>
+
+111
+00:04:32,580 --> 00:04:35,550
+ <font color="#CCCCCC">judul </font><font color="#E5E5E5">situs web </font><font color="#CCCCCC">kode respons </font><font color="#E5E5E5">dan beberapa </font>
+
+112
+00:04:35,550 --> 00:04:37,560
+ <font color="#E5E5E5">informasi tambahan </font><font color="#CCCCCC">termasuk </font>
+
+113
+00:04:37,560 --> 00:04:40,910
+ nama domain dan <font color="#CCCCCC">nama kekuatan raja </font>
+
+114
+00:04:40,910 --> 00:04:44,070
+ jadi ini semua <font color="#E5E5E5">tentang siapa yang tenang begitu </font>
+
+115
+00:04:44,070 --> 00:04:46,110
+ setelah kami menemukan <font color="#CCCCCC">detail Whois dari kami </font>
+
+116
+00:04:46,110 --> 00:04:49,350
+ target <font color="#CCCCCC">apa yang bisa kita lakukan adalah kita bisa melakukan </font>
+
+117
+00:04:49,350 --> 00:04:52,170
+ reverse IP lookup <font color="#E5E5E5">dari target kami yang mana </font>
+
+118
+00:04:52,170 --> 00:04:54,780
+ <font color="#E5E5E5">artinya memeriksa berapa </font><font color="#CCCCCC">banyak lainnya </font>
+
+119
+00:04:54,780 --> 00:04:56,610
+ situs web di <font color="#CCCCCC">-host di server yang sama </font>
+
+120
+00:04:56,610 --> 00:04:59,940
+ <font color="#E5E5E5">dari target kami jadi untuk melakukan itu </font><font color="#CCCCCC">pergi ke satu </font>
+
+121
+00:04:59,940 --> 00:05:05,040
+ <font color="#CCCCCC">situs web Anda mendapatkan sinyal tenang </font><font color="#E5E5E5">jadi ini </font>
+
+122
+00:05:05,040 --> 00:05:07,830
+ <font color="#CCCCCC">situs web menyediakan </font><font color="#E5E5E5">berbagai </font><font color="#CCCCCC">fitur yang </font>
+
+123
+00:05:07,830 --> 00:05:10,500
+ dapat kita gunakan <font color="#E5E5E5">untuk melakukan informasi </font>
+
+124
+00:05:10,500 --> 00:05:13,110
+ mengumpulkan target kita <font color="#CCCCCC">tetapi sekarang kita </font>
+
+125
+00:05:13,110 --> 00:05:15,600
+ <font color="#CCCCCC">hanya </font><font color="#E5E5E5">tertarik </font><font color="#CCCCCC">pada </font><font color="#E5E5E5">IP terbalik ini </font>
+
+126
+00:05:15,600 --> 00:05:19,770
+ <font color="#CCCCCC">cek domain itu juga menyediakan hal yang sama </font>
+
+127
+00:05:19,770 --> 00:05:23,000
+ <font color="#CCCCCC">yang berfungsi dari </font><font color="#E5E5E5">fungsi mana juga </font>
+
+128
+00:05:23,000 --> 00:05:26,700
+ <font color="#E5E5E5">jadi di sini kita harus menulis situs web </font>
+
+129
+00:05:26,700 --> 00:05:28,940
+ nama 
+
+130
+00:05:32,660 --> 00:05:36,070
+ <font color="#E5E5E5">klik pada cek </font>
+
+131
+00:05:38,300 --> 00:05:41,630
+ jadi di sini Anda <font color="#E5E5E5">dapat melihat </font><font color="#CCCCCC">80 lainnya </font>
+
+132
+00:05:41,630 --> 00:05:44,990
+ <font color="#E5E5E5">situs web </font><font color="#CCCCCC">80 domain lainnya dihosting </font>
+
+133
+00:05:44,990 --> 00:05:46,390
+ <font color="#CCCCCC">server web yang sama </font>
+
+134
+00:05:46,390 --> 00:05:50,930
+ tutorialspoint.com <font color="#CCCCCC">jadi dengan </font><font color="#E5E5E5">memeriksa </font>
+
+135
+00:05:50,930 --> 00:05:54,140
+ Reverse IP <font color="#E5E5E5">itu juga </font><font color="#CCCCCC">memberi </font><font color="#E5E5E5">kita beberapa ide </font>
+
+136
+00:05:54,140 --> 00:05:56,450
+ <font color="#CCCCCC">apakah target kami dihosting </font><font color="#E5E5E5">di </font>
+
+137
+00:05:56,450 --> 00:05:59,270
+ server web bersama atau <font color="#E5E5E5">web </font><font color="#CCCCCC">khusus </font>
+
+138
+00:05:59,270 --> 00:06:01,490
+ server <font color="#CCCCCC">jadi untuk </font><font color="#E5E5E5">contoh jika saya </font><font color="#CCCCCC">hanya menulis </font>
+
+139
+00:06:01,490 --> 00:06:10,310
+ di sini <font color="#E5E5E5">google.com dan klik pada cek sekarang </font>
+
+140
+00:06:10,310 --> 00:06:12,980
+ di sini Anda dapat <font color="#E5E5E5">melihat bahwa 124 domain berada </font>
+
+141
+00:06:12,980 --> 00:06:14,570
+ di-host <font color="#E5E5E5">di </font><font color="#CCCCCC">server web yang </font><font color="#E5E5E5">sama </font>
+
+142
+00:06:14,570 --> 00:06:17,720
+ google.com <font color="#CCCCCC">tetapi di sini perhatikan </font><font color="#E5E5E5">bahwa </font><font color="#CCCCCC">semua </font>
+
+143
+00:06:17,720 --> 00:06:20,540
+ domain terkait dengan <font color="#E5E5E5">google.com </font>
+
+144
+00:06:20,540 --> 00:06:24,920
+ <font color="#E5E5E5">yang berarti ini </font><font color="#CCCCCC">adalah </font><font color="#E5E5E5">hosting khusus </font>
+
+145
+00:06:24,920 --> 00:06:29,900
+ atau dedicated <font color="#E5E5E5">server sekarang langkah selanjutnya </font>
+
+146
+00:06:29,900 --> 00:06:31,370
+ <font color="#E5E5E5">setelah </font><font color="#CCCCCC">mengumpulkan informasi Whois </font>
+
+147
+00:06:31,370 --> 00:06:35,480
+ <font color="#E5E5E5">dan pemeriksaan IP sebaliknya adalah menemukan </font>
+
+148
+00:06:35,480 --> 00:06:40,790
+ subdomain dari target kami sehingga melakukan itu 
+
+149
+00:06:40,790 --> 00:06:43,460
+ kita harus memulai Kali Linux kita <font color="#E5E5E5">dengan benar </font>
+
+150
+00:06:43,460 --> 00:06:48,490
+ sekarang saya berada <font color="#CCCCCC">di dalam instance Kali Linux saya </font>
+
+151
+00:06:49,570 --> 00:06:52,760
+ jadi <font color="#CCCCCC">untuk </font><font color="#E5E5E5">mencari subdomain </font>
+
+152
+00:06:52,760 --> 00:06:58,970
+ Saya menggunakan <font color="#CCCCCC">scan </font><font color="#E5E5E5">subdomain </font><font color="#CCCCCC">Knox ini </font>
+
+153
+00:06:58,970 --> 00:07:01,130
+ itu alat yang sangat baik <font color="#CCCCCC">untuk </font><font color="#E5E5E5">menemukan </font>
+
+154
+00:07:01,130 --> 00:07:03,350
+ <font color="#E5E5E5">subdomain dan Anda dapat mengunduhnya dari </font>
+
+155
+00:07:03,350 --> 00:07:06,140
+ di sini <font color="#CCCCCC">dari URL ini </font><font color="#E5E5E5">jika tidak apa yang </font><font color="#CCCCCC">Anda </font>
+
+156
+00:07:06,140 --> 00:07:10,990
+ dapat Anda lakukan adalah Anda bahkan dapat <font color="#E5E5E5">menginstalnya </font>
+
+157
+00:07:10,990 --> 00:07:14,360
+ secara manual dengan <font color="#CCCCCC">masuk ke </font><font color="#E5E5E5">baris </font><font color="#CCCCCC">perintah </font><font color="#E5E5E5">jadi sekarang </font>
+
+158
+00:07:14,360 --> 00:07:18,530
+ sekarang mari kita instal <font color="#E5E5E5">tinja jadi di sini adalah </font>
+
+159
+00:07:18,530 --> 00:07:21,340
+ terminal saya <font color="#E5E5E5">yang bisa Anda lihat dan </font>
+
+160
+00:07:21,340 --> 00:07:26,420
+ biarkan saya <font color="#CCCCCC">menyalin hal ini jadi </font><font color="#E5E5E5">itu a </font>
+
+161
+00:07:26,420 --> 00:07:30,260
+ <font color="#E5E5E5">Skrip Python jadi itu sebabnya </font>
+
+162
+00:07:30,260 --> 00:07:32,330
+ menginstal dengan menggunakan <font color="#CCCCCC">pip </font>
+
+163
+00:07:32,330 --> 00:07:35,750
+ jadi tempelkan perintah di sini <font color="#E5E5E5">dan tekan </font>
+
+164
+00:07:35,750 --> 00:07:38,110
+ pada <font color="#CCCCCC">masuk </font>
+
+165
+00:07:40,620 --> 00:07:42,900
+ pertama- <font color="#E5E5E5">tama ia akan mengunduh zip ini </font>
+
+166
+00:07:42,900 --> 00:07:45,990
+ <font color="#E5E5E5">file dan instal ini jadi saya sudah </font>
+
+167
+00:07:45,990 --> 00:07:48,240
+ menginstal <font color="#CCCCCC">alat ini sehingga hanya akan </font><font color="#E5E5E5">memberi </font>
+
+168
+00:07:48,240 --> 00:07:50,970
+ saya kesalahan <font color="#E5E5E5">persyaratan itu sudah </font>
+
+169
+00:07:50,970 --> 00:07:52,260
+ puas <font color="#CCCCCC">oke </font>
+
+170
+00:07:52,260 --> 00:07:54,930
+ jadi sekarang <font color="#E5E5E5">untuk menjalankan alat ini yang kita </font><font color="#CCCCCC">miliki </font>
+
+171
+00:07:54,930 --> 00:07:58,320
+ kita harus menuliskan <font color="#CCCCCC">knock PI diikuti </font>
+
+172
+00:07:58,320 --> 00:08:01,170
+ oleh <font color="#CCCCCC">nama situs web yang kami inginkan </font>
+
+173
+00:08:01,170 --> 00:08:04,320
+ memindai subdomain <font color="#CCCCCC">hanya sebagai contoh </font>
+
+174
+00:08:04,320 --> 00:08:07,800
+ <font color="#E5E5E5">cukup </font><font color="#CCCCCC">tulis di </font><font color="#E5E5E5">sini google.com dan tekan </font>
+
+175
+00:08:07,800 --> 00:08:10,190
+ memasukkan 
+
+176
+00:08:14,210 --> 00:08:17,460
+ jadi di sini Anda <font color="#E5E5E5">dapat melihat kinerjanya </font>
+
+177
+00:08:17,460 --> 00:08:20,840
+ beberapa pemeriksaan dan beberapa pindaian 
+
+178
+00:08:27,610 --> 00:08:32,809
+ <font color="#CCCCCC">oke sekarang bagaimana Anda bisa </font><font color="#E5E5E5">melihat itu dimulai </font>
+
+179
+00:08:32,809 --> 00:08:34,940
+ meniru subdomain berbeda dari 
+
+180
+00:08:34,940 --> 00:08:37,580
+ <font color="#CCCCCC">google.com jadi di sini Anda </font><font color="#E5E5E5">dapat melihat sub </font>
+
+181
+00:08:37,580 --> 00:08:40,090
+ nama domain seperti accounts.google.com 
+
+182
+00:08:40,090 --> 00:08:43,640
+ <font color="#E5E5E5">status dan bersama </font><font color="#CCCCCC">dengan alamat IP-nya </font>
+
+183
+00:08:43,640 --> 00:08:46,940
+ <font color="#E5E5E5">ada beberapa situs web tambahan yang </font>
+
+184
+00:08:46,940 --> 00:08:48,410
+ Anda dapat menggunakan untuk <font color="#CCCCCC">mencari </font><font color="#E5E5E5">tahu subdomain </font>
+
+185
+00:08:48,410 --> 00:08:51,830
+ <font color="#E5E5E5">tetapi sebagian besar waktu yang </font><font color="#CCCCCC">tidak berfungsi jadi saya </font>
+
+186
+00:08:51,830 --> 00:08:55,720
+ merekomendasikan Anda <font color="#E5E5E5">untuk mencari tahu subdomain </font>
+
+187
+00:08:55,720 --> 00:08:59,750
+ <font color="#E5E5E5">dengan mengunduh alat ini jadi setelah kami selesai </font>
+
+188
+00:08:59,750 --> 00:09:02,240
+ dengan itu <font color="#E5E5E5">maka langkah selanjutnya adalah </font>
+
+189
+00:09:02,240 --> 00:09:04,310
+ mendeteksi sistem operasi yang mana 
+
+190
+00:09:04,310 --> 00:09:08,180
+ <font color="#CCCCCC">situs web dihosting </font><font color="#E5E5E5">karena jika kita tahu </font>
+
+191
+00:09:08,180 --> 00:09:10,850
+ sebagai <font color="#CCCCCC">pentester </font><font color="#E5E5E5">yang beroperasi </font>
+
+192
+00:09:10,850 --> 00:09:13,910
+ <font color="#CCCCCC">sistem </font><font color="#E5E5E5">situs web di-host kita bisa saja </font>
+
+193
+00:09:13,910 --> 00:09:16,480
+ cari <font color="#E5E5E5">tahu </font><font color="#CCCCCC">cara untuk mengeksploitasi </font>
+
+194
+00:09:16,480 --> 00:09:20,450
+ sistem operasi sehingga <font color="#E5E5E5">untuk</font><font color="#CCCCCC"> menemukan </font>
+
+195
+00:09:20,450 --> 00:09:22,370
+ <font color="#E5E5E5">sistem operasi yang </font><font color="#CCCCCC">website</font><font color="#E5E5E5"> ini </font>
+
+196
+00:09:22,370 --> 00:09:23,870
+ <font color="#CCCCCC">host </font><font color="#E5E5E5">ada yang berbeda beda </font>
+
+197
+00:09:23,870 --> 00:09:26,960
+ <font color="#CCCCCC">cara </font><font color="#E5E5E5">tetapi </font><font color="#CCCCCC">cara </font><font color="#E5E5E5">yang paling mudah </font><font color="#CCCCCC">adalah dengan adil </font>
+
+198
+00:09:26,960 --> 00:09:29,870
+ <font color="#E5E5E5">ping situs web itu dan periksa </font>
+
+199
+00:09:29,870 --> 00:09:33,320
+ respon <font color="#CCCCCC">sekarang biarkan saya membuka </font><font color="#E5E5E5">perintah </font><font color="#CCCCCC">saya </font>
+
+200
+00:09:33,320 --> 00:09:36,350
+ meminta <font color="#E5E5E5">jadi misalnya saya menulis </font>
+
+201
+00:09:36,350 --> 00:09:44,060
+ di sini <font color="#CCCCCC">ping dan nama situs web dan tekan </font>
+
+202
+00:09:44,060 --> 00:09:47,600
+ masukkan <font color="#E5E5E5">jadi hei jadi jika saya hanya melihat </font>
+
+203
+00:09:47,600 --> 00:09:50,630
+ tanggapan <font color="#CCCCCC">jadi di sini Anda </font><font color="#E5E5E5">dapat melihat balasan dari </font>
+
+204
+00:09:50,630 --> 00:09:54,920
+ menggigit dan <font color="#CCCCCC">nilai TTL jadi inilah masalahnya </font>
+
+205
+00:09:54,920 --> 00:09:55,760
+ menjadi pemberitahuan 
+
+206
+00:09:55,760 --> 00:09:59,089
+ <font color="#CCCCCC">Nilai TTL jadi TTL berarti waktu </font><font color="#E5E5E5">untuk hidup </font>
+
+207
+00:09:59,089 --> 00:10:02,240
+ jadi jika nilai TTL <font color="#E5E5E5">dari salah satu </font>
+
+208
+00:10:02,240 --> 00:10:05,960
+ situs web <font color="#E5E5E5">dekat sekitar 60 atau kurang dari 60 </font>
+
+209
+00:10:05,960 --> 00:10:08,870
+ maka <font color="#E5E5E5">itu berarti kemudian </font><font color="#CCCCCC">situs web dihosting </font>
+
+210
+00:10:08,870 --> 00:10:12,710
+ <font color="#E5E5E5">pada Linux server Linux jadi jika TTL </font>
+
+211
+00:10:12,710 --> 00:10:15,290
+ nilainya <font color="#E5E5E5">lebih </font><font color="#CCCCCC">dari 50 atau </font><font color="#E5E5E5">lebih dari 60 </font>
+
+212
+00:10:15,290 --> 00:10:17,960
+ yang berarti <font color="#CCCCCC">situs web dihosting </font>
+
+213
+00:10:17,960 --> 00:10:20,230
+ <font color="#E5E5E5">pada Windows </font>
+
+214
+00:10:20,230 --> 00:10:23,560
+ jadi jika nilai TTL <font color="#CCCCCC">dekat </font><font color="#E5E5E5">sekitar 110 atau </font>
+
+215
+00:10:23,560 --> 00:10:26,680
+ lebih dari 110 maka itu berarti <font color="#E5E5E5">bahwa </font>
+
+216
+00:10:26,680 --> 00:10:31,899
+ <font color="#CCCCCC">website di-host </font><font color="#E5E5E5">di </font><font color="#CCCCCC">windows server jadi </font>
+
+217
+00:10:31,899 --> 00:10:34,540
+ setelah kami menemukan <font color="#E5E5E5">sistem operasi itu </font>
+
+218
+00:10:34,540 --> 00:10:37,180
+ langkah terakhir <font color="#E5E5E5">adalah menemukan itu </font>
+
+219
+00:10:37,180 --> 00:10:40,660
+ platform <font color="#CCCCCC">situs web dihosting </font><font color="#E5E5E5">atau </font>
+
+220
+00:10:40,660 --> 00:10:42,370
+ <font color="#E5E5E5">situs web </font><font color="#CCCCCC">sedang berjalan apakah situs web </font>
+
+221
+00:10:42,370 --> 00:10:44,829
+ sedang berjalan di <font color="#E5E5E5">WordPress atau di mana saja </font>
+
+222
+00:10:44,829 --> 00:10:47,230
+ sistem manajemen konten <font color="#E5E5E5">atau </font><font color="#CCCCCC">situs web </font>
+
+223
+00:10:47,230 --> 00:10:48,820
+ sedang berjalan atau semacam <font color="#E5E5E5">kerangka kerja </font>
+
+224
+00:10:48,820 --> 00:10:53,050
+ <font color="#CCCCCC">seperti PHP </font><font color="#E5E5E5">atau bahasa sumber terbuka apa pun </font>
+
+225
+00:10:53,050 --> 00:10:56,380
+ <font color="#CCCCCC">untuk menyelesaikan </font><font color="#E5E5E5">tugas itu di sana </font>
+
+226
+00:10:56,380 --> 00:11:00,570
+ adalah salah satu situs web yang <font color="#E5E5E5">disebut dibangun dengan tenang </font>
+
+227
+00:11:04,680 --> 00:11:10,139
+ jadi di sini kita harus menulis <font color="#E5E5E5">URL </font>
+
+228
+00:11:17,160 --> 00:11:20,009
+ <font color="#E5E5E5">oke jadi sekarang ini menunjukkan kepada kita detailnya </font>
+
+229
+00:11:20,009 --> 00:11:21,839
+ dari techcrunch.com 
+
+230
+00:11:21,839 --> 00:11:24,089
+ jadi web server Anda bisa melihat web itu 
+
+231
+00:11:24,089 --> 00:11:31,050
+ server <font color="#CCCCCC">adalah nginx dan sertifikat SSL </font>
+
+232
+00:11:31,050 --> 00:11:33,480
+ adalah WordPress SSL berarti situs web ini 
+
+233
+00:11:33,480 --> 00:11:35,879
+ berjalan <font color="#E5E5E5">entah bagaimana di WordPress jadi di sini Anda </font>
+
+234
+00:11:35,879 --> 00:11:37,529
+ <font color="#E5E5E5">juga dapat menemukan </font><font color="#CCCCCC">detail registrar </font>
+
+235
+00:11:37,529 --> 00:11:41,579
+ GoDaddy dan <font color="#E5E5E5">server nama adalah WordPress </font>
+
+236
+00:11:41,579 --> 00:11:44,579
+ lagi <font color="#E5E5E5">jadi server email </font><font color="#CCCCCC">dalam </font><font color="#E5E5E5">layanan email </font>
+
+237
+00:11:44,579 --> 00:11:49,730
+ detail kemudian penyedia hosting dan 
+
+238
+00:11:49,730 --> 00:11:52,500
+ sistem manajemen konten jadi ini 
+
+239
+00:11:52,500 --> 00:11:55,230
+ situs web <font color="#E5E5E5">techcrunch.com sebenarnya </font>
+
+240
+00:11:55,230 --> 00:11:57,480
+ berjalan di <font color="#CCCCCC">WordPress yang merupakan konten </font>
+
+241
+00:11:57,480 --> 00:11:59,730
+ <font color="#E5E5E5">sistem manajemen </font><font color="#CCCCCC">dan kerangka kerjanya </font>
+
+242
+00:11:59,730 --> 00:12:06,480
+ PHP dan jika saya turun <font color="#E5E5E5">Anda akan </font><font color="#CCCCCC">menemukan banyak </font>
+
+243
+00:12:06,480 --> 00:12:07,949
+ <font color="#CCCCCC">rincian juicy </font><font color="#E5E5E5">informasi berair </font>
+
+244
+00:12:07,949 --> 00:12:10,980
+ <font color="#E5E5E5">informasi menarik tentang JavaScript </font>
+
+245
+00:12:10,980 --> 00:12:13,829
+ perpustakaan versi <font color="#CCCCCC">media audio video </font>
+
+246
+00:12:13,829 --> 00:12:16,680
+ penyedia pembayaran juga <font color="#E5E5E5">meskipun itu </font>
+
+247
+00:12:16,680 --> 00:12:18,660
+ menggunakan <font color="#E5E5E5">dan Anda juga dapat mengetahui </font>
+
+248
+00:12:18,660 --> 00:12:21,029
+ <font color="#E5E5E5">detail jaringan pengiriman konten CDN </font>
+
+249
+00:12:21,029 --> 00:12:26,509
+ situs web dan informasi tag meta Anda 
+
+250
+00:12:26,899 --> 00:12:30,120
+ jadi merebut kembali informasi juga <font color="#E5E5E5">semua </font>
+
+251
+00:12:30,120 --> 00:12:32,970
+ teknik yang dapat kita gunakan <font color="#E5E5E5">untuk menemukan </font>
+
+252
+00:12:32,970 --> 00:12:35,490
+ informasi penting dari target kami jadi 
+
+253
+00:12:35,490 --> 00:00:00,000
+ terima kasih telah <font color="#CCCCCC">menonton video ini </font>
+

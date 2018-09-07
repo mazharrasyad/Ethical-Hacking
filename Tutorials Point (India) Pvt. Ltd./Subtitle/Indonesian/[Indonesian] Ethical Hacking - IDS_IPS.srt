@@ -1,0 +1,1096 @@
+1
+00:00:00,060 --> 00:00:02,220
+ Halo semua orang di <font color="#CCCCCC">video ini kita akan bicara </font>
+
+2
+00:00:02,220 --> 00:00:04,319
+ tentang <font color="#E5E5E5">konsep yang sangat penting yang </font><font color="#CCCCCC">disebut sebagai </font>
+
+3
+00:00:04,319 --> 00:00:07,859
+ <font color="#E5E5E5">ID dan sistem IPS jadi ide berdiri </font>
+
+4
+00:00:07,859 --> 00:00:10,110
+ <font color="#E5E5E5">sistem pendeteksi intrusi sedangkan </font><font color="#CCCCCC">IP </font>
+
+5
+00:00:10,110 --> 00:00:12,269
+ <font color="#E5E5E5">singkatan dari sistem pencegahan intrusi </font>
+
+6
+00:00:12,269 --> 00:00:15,179
+ jadi kedua sistem ini bekerja sama <font color="#E5E5E5">dalam </font>
+
+7
+00:00:15,179 --> 00:00:17,730
+ <font color="#E5E5E5">untuk mendeteksi aktivitas penyusup di kami </font>
+
+8
+00:00:17,730 --> 00:00:19,770
+ jaringan <font color="#E5E5E5">dan setelah mereka menemukan penyusup </font>
+
+9
+00:00:19,770 --> 00:00:21,539
+ aktivitas <font color="#E5E5E5">maka mereka mengambil yang sesuai </font>
+
+10
+00:00:21,539 --> 00:00:24,390
+ langkah-langkah <font color="#E5E5E5">untuk menghentikan aktivitas itu </font>
+
+11
+00:00:24,390 --> 00:00:26,580
+ <font color="#E5E5E5">di sini Anda dapat melihat bahwa di sini adalah lokal kami </font>
+
+12
+00:00:26,580 --> 00:00:28,710
+ jaringan area di <font color="#E5E5E5">sini adalah sistem ide kami </font>
+
+13
+00:00:28,710 --> 00:00:31,170
+ di sini adalah router firewall kami dan <font color="#CCCCCC">internet </font>
+
+14
+00:00:31,170 --> 00:00:33,180
+ <font color="#E5E5E5">jadi ada </font><font color="#CCCCCC">permintaan untuk internet yang mana </font>
+
+15
+00:00:33,180 --> 00:00:35,370
+ masuk <font color="#CCCCCC">ke </font><font color="#E5E5E5">jaringan area lokal </font><font color="#CCCCCC">kami </font><font color="#E5E5E5">akan </font>
+
+16
+00:00:35,370 --> 00:00:37,829
+ <font color="#E5E5E5">harus lulus dari </font><font color="#CCCCCC">ID dan permintaan apa pun </font>
+
+17
+00:00:37,829 --> 00:00:40,050
+ yang akan <font color="#CCCCCC">keluar </font><font color="#E5E5E5">dari area lokal kami </font>
+
+18
+00:00:40,050 --> 00:00:43,079
+ jaringan harus lulus dari <font color="#E5E5E5">ID </font><font color="#CCCCCC">ke dalam </font>
+
+19
+00:00:43,079 --> 00:00:44,640
+ sistem pendeteksian gen dan <font color="#CCCCCC">intrusi </font>
+
+20
+00:00:44,640 --> 00:00:46,680
+ <font color="#CCCCCC">sistem pencegahan bisa menjadi </font>
+
+21
+00:00:46,680 --> 00:00:48,930
+ perangkat keras atau kombinasi <font color="#E5E5E5">keduanya </font><font color="#CCCCCC">atau </font>
+
+22
+00:00:48,930 --> 00:00:50,280
+ kombinasi <font color="#CCCCCC">perangkat keras </font><font color="#E5E5E5">dan perangkat lunak </font>
+
+23
+00:00:50,280 --> 00:00:52,890
+ <font color="#E5E5E5">yang dapat kami terapkan </font><font color="#CCCCCC">di jaringan kami dan </font>
+
+24
+00:00:52,890 --> 00:00:54,930
+ aplikasi web <font color="#CCCCCC">untuk mendeteksi </font>
+
+25
+00:00:54,930 --> 00:00:57,420
+ Kegiatan penyusup jadi <font color="#E5E5E5">tergantung </font>
+
+26
+00:00:57,420 --> 00:00:59,730
+ kemampuan mereka yang seberapa rumit mereka 
+
+27
+00:00:59,730 --> 00:01:01,710
+ apakah <font color="#E5E5E5">mereka menggunakan teknik yang berbeda </font>
+
+28
+00:01:01,710 --> 00:01:04,049
+ <font color="#E5E5E5">untuk memindai aktivitas penyusup di </font><font color="#CCCCCC">kami </font>
+
+29
+00:01:04,049 --> 00:01:05,729
+ jaringan <font color="#CCCCCC">sehingga beberapa teknik mereka </font>
+
+30
+00:01:05,729 --> 00:01:08,010
+ <font color="#E5E5E5">yang mereka gunakan adalah tanda tangan sehingga mereka </font>
+
+31
+00:01:08,010 --> 00:01:10,320
+ cocok dengan <font color="#E5E5E5">tanda tangan paket berbahaya </font>
+
+32
+00:01:10,320 --> 00:01:12,810
+ <font color="#E5E5E5">dengan yang asli dan beberapa dari mereka </font>
+
+33
+00:01:12,810 --> 00:01:14,880
+ dapat menggunakan <font color="#E5E5E5">teknik berbasis anomali di </font>
+
+34
+00:01:14,880 --> 00:01:16,770
+ <font color="#CCCCCC">untuk mendeteksi aktivitas penyusup dan </font>
+
+35
+00:01:16,770 --> 00:01:18,600
+ <font color="#CCCCCC">sistem deteksi intrusi adalah </font>
+
+36
+00:01:18,600 --> 00:01:20,939
+ <font color="#E5E5E5">berbagai </font><font color="#CCCCCC">jenis tergantung pada yang mana </font>
+
+37
+00:01:20,939 --> 00:01:22,950
+ <font color="#CCCCCC">Platform kami ingin </font><font color="#E5E5E5">menyebarkan begitu sebagian </font>
+
+38
+00:01:22,950 --> 00:01:25,710
+ <font color="#E5E5E5">contoh-contohnya adalah n-ID, </font><font color="#CCCCCC">jadi </font><font color="#E5E5E5">ID adalah singkatan </font>
+
+39
+00:01:25,710 --> 00:01:27,570
+ <font color="#E5E5E5">untuk sistem deteksi intrusi jaringan </font>
+
+40
+00:01:27,570 --> 00:01:29,549
+ yang <font color="#E5E5E5">ditempatkan di jaringan dalam rangka </font>
+
+41
+00:01:29,549 --> 00:01:31,710
+ <font color="#E5E5E5">untuk memindai aktivitas penyusup atau peretas </font>
+
+42
+00:01:31,710 --> 00:01:34,799
+ aktivitas di <font color="#E5E5E5">jaringan sedangkan HID berdiri </font>
+
+43
+00:01:34,799 --> 00:01:36,840
+ untuk sistem deteksi intrusi host 
+
+44
+00:01:36,840 --> 00:01:38,670
+ <font color="#E5E5E5">yang dikerahkan pada host tertentu </font>
+
+45
+00:01:38,670 --> 00:01:41,220
+ <font color="#CCCCCC">untuk</font><font color="#E5E5E5"> memindai aktivitas penyusup di </font>
+
+46
+00:01:41,220 --> 00:01:43,649
+ <font color="#CCCCCC">bahwa tuan rumah </font><font color="#E5E5E5">sedangkan beberapa intrusi </font>
+
+47
+00:01:43,649 --> 00:01:45,450
+ sistem deteksi juga digunakan <font color="#E5E5E5">pada </font>
+
+48
+00:01:45,450 --> 00:01:48,119
+ aplikasi web <font color="#E5E5E5">untuk memindai atau </font>
+
+49
+00:01:48,119 --> 00:01:51,390
+ mendeteksi aktivitas peretas di <font color="#CCCCCC">web itu </font>
+
+50
+00:01:51,390 --> 00:01:53,579
+ <font color="#CCCCCC">aplikasi </font><font color="#E5E5E5">jadi ada satu open source </font>
+
+51
+00:01:53,579 --> 00:01:55,590
+ <font color="#CCCCCC">jaringan ID </font><font color="#E5E5E5">ke dalam sistem injeksi </font>
+
+52
+00:01:55,590 --> 00:01:58,770
+ disebut ingus <font color="#E5E5E5">jadi kami akan menggunakan tidak </font>
+
+53
+00:01:58,770 --> 00:02:01,110
+ <font color="#E5E5E5">video ini untuk melihat bagaimana cara </font><font color="#CCCCCC">menyebarkannya </font>
+
+54
+00:02:01,110 --> 00:02:03,750
+ <font color="#E5E5E5">ID di jaringan kami dan </font><font color="#CCCCCC">kami dapat mendeteksi </font>
+
+55
+00:02:03,750 --> 00:02:06,119
+ aktivitas penyusup sehingga <font color="#CCCCCC">Anda </font><font color="#E5E5E5">bisa lihat di sini </font>
+
+56
+00:02:06,119 --> 00:02:08,098
+ <font color="#CCCCCC">bahwa ingus adalah sebuah </font><font color="#E5E5E5">jaringan </font><font color="#CCCCCC">open source ke </font>
+
+57
+00:02:08,098 --> 00:02:09,750
+ <font color="#CCCCCC">sistem induksi </font><font color="#E5E5E5">dan itu tersedia </font>
+
+58
+00:02:09,750 --> 00:02:11,970
+ <font color="#E5E5E5">untuk Linux dan Windows dan Anda bisa </font>
+
+59
+00:02:11,970 --> 00:02:13,200
+ <font color="#E5E5E5">unduh snot </font>
+
+60
+00:02:13,200 --> 00:02:15,030
+ di sini dari <font color="#E5E5E5">situs </font><font color="#CCCCCC">web </font><font color="#E5E5E5">resmi </font><font color="#CCCCCC">itu </font>
+
+61
+00:02:15,030 --> 00:02:16,920
+ <font color="#E5E5E5">tidak semua </font><font color="#CCCCCC">titik </font><font color="#E5E5E5">sekarang mari kita lihat bagaimana kita </font>
+
+62
+00:02:16,920 --> 00:02:20,069
+ dapat <font color="#CCCCCC">menyebarkan </font><font color="#E5E5E5">itu tidak sekarang mari menyebarkan dan </font>
+
+63
+00:02:20,069 --> 00:02:22,830
+ <font color="#E5E5E5">mengkonfigurasi snot di jaringan kita dengan baik </font>
+
+64
+00:02:22,830 --> 00:02:24,840
+ dapat mengunduh snot dari sini <font color="#E5E5E5">dari mereka </font>
+
+65
+00:02:24,840 --> 00:02:25,739
+ situs <font color="#CCCCCC">web resmi </font>
+
+66
+00:02:25,739 --> 00:02:28,349
+ ingus dot dot dan di sini Anda dapat melihat itu 
+
+67
+00:02:28,349 --> 00:02:32,040
+ <font color="#E5E5E5">sekarang</font><font color="#CCCCCC"> saya di ingus Ark </font><font color="#E5E5E5">jadi biarkan aku pergi </font>
+
+68
+00:02:32,040 --> 00:02:35,280
+ di sini <font color="#CCCCCC">untuk mencatat sehingga Anda dapat menyebarkan </font>
+
+69
+00:02:35,280 --> 00:02:37,500
+ ingus pada <font color="#E5E5E5">sistem operasi apa pun </font><font color="#CCCCCC">seperti Anda </font>
+
+70
+00:02:37,500 --> 00:02:39,360
+ ingin menggunakan snot di <font color="#CCCCCC">windows Anda </font>
+
+71
+00:02:39,360 --> 00:02:40,680
+ <font color="#E5E5E5">bahkan bisa menyebarkannya bukan pada </font><font color="#CCCCCC">persen </font>
+
+72
+00:02:40,680 --> 00:02:43,110
+ <font color="#E5E5E5">sistem operasi di server Anda dan di sini </font>
+
+73
+00:02:43,110 --> 00:02:45,060
+ Anda dapat melihat binari dari ingus 
+
+74
+00:02:45,060 --> 00:02:47,310
+ jadi <font color="#CCCCCC">E minor ini tersedia untuk </font>
+
+75
+00:02:47,310 --> 00:02:49,080
+ <font color="#E5E5E5">sistem operasi yang berbeda seperti RPM </font>
+
+76
+00:02:49,080 --> 00:02:51,989
+ <font color="#CCCCCC">paket untuk Red Hat </font><font color="#E5E5E5">7 dan kemudian kirim ke </font>
+
+77
+00:02:51,989 --> 00:02:54,690
+ <font color="#E5E5E5">kami tapi apa yang saat ini saya akan menyebarkan </font>
+
+78
+00:02:54,690 --> 00:02:57,000
+ <font color="#E5E5E5">ingus pada sistem operasi Windows jadi </font>
+
+79
+00:02:57,000 --> 00:02:59,400
+ biarkan <font color="#E5E5E5">aku klik di </font><font color="#CCCCCC">sini jadi ingus di sini </font>
+
+80
+00:02:59,400 --> 00:03:01,079
+ Anda dapat melihat binari <font color="#E5E5E5">Windows </font><font color="#CCCCCC">yang </font>
+
+81
+00:03:01,079 --> 00:03:03,720
+ installer dot exe <font color="#E5E5E5">jadi biarkan saya klik </font>
+
+82
+00:03:03,720 --> 00:03:07,769
+ <font color="#E5E5E5">di sini dan unduh snot dot exe jadi </font>
+
+83
+00:03:07,769 --> 00:03:11,430
+ biarkan aku klik <font color="#E5E5E5">simpan file jadi aku menggunakan </font>
+
+84
+00:03:11,430 --> 00:03:14,250
+ Windows <font color="#CCCCCC">7 sebagai mesin virtual saya dalam rangka </font>
+
+85
+00:03:14,250 --> 00:03:17,340
+ untuk <font color="#E5E5E5">mengerahkan ingus jadi saya </font><font color="#CCCCCC">sudah </font>
+
+86
+00:03:17,340 --> 00:03:19,470
+ <font color="#E5E5E5">download snot dot exe agar Anda bisa melihat </font>
+
+87
+00:03:19,470 --> 00:03:22,049
+ di sini <font color="#CCCCCC">Installer ingus </font><font color="#E5E5E5">jadi biarkan aku </font>
+
+88
+00:03:22,049 --> 00:03:25,049
+ menginstal ingus pada <font color="#CCCCCC">operasi </font><font color="#E5E5E5">Windows 7 saya </font>
+
+89
+00:03:25,049 --> 00:03:31,560
+ sistem jadi di sini Anda dapat melihat <font color="#E5E5E5">bahwa ingus </font>
+
+90
+00:03:31,560 --> 00:03:33,450
+ <font color="#E5E5E5">pengaturan instalasi selesai klik </font>
+
+91
+00:03:33,450 --> 00:03:35,819
+ tutup dan hal tambahan yang kami miliki 
+
+92
+00:03:35,819 --> 00:03:38,160
+ lakukan adalah kita juga <font color="#E5E5E5">harus menginstal </font>
+
+93
+00:03:38,160 --> 00:03:40,620
+ <font color="#CCCCCC">PCap angin sehingga Anda </font><font color="#E5E5E5">dapat mengunduhnya </font>
+
+94
+00:03:40,620 --> 00:03:43,170
+ dari <font color="#CCCCCC">sini dari angin pcap </font><font color="#E5E5E5">gelap dan </font><font color="#CCCCCC">saya punya </font>
+
+95
+00:03:43,170 --> 00:03:44,940
+ sudah <font color="#E5E5E5">mengunduh </font><font color="#CCCCCC">instal pcap </font><font color="#E5E5E5">angin </font>
+
+96
+00:03:44,940 --> 00:03:46,980
+ di sini Anda bisa lihat di sini jadi biarkan <font color="#E5E5E5">saya menginstal </font>
+
+97
+00:03:46,980 --> 00:03:53,910
+ pcap angin juga jadi <font color="#E5E5E5">di aplikasi puncaknya </font>
+
+98
+00:03:53,910 --> 00:03:56,670
+ sebenarnya <font color="#CCCCCC">berisi </font><font color="#E5E5E5">driver jaringan </font>
+
+99
+00:03:56,670 --> 00:03:58,980
+ yang <font color="#E5E5E5">ingus akan digunakan untuk </font><font color="#CCCCCC">menangkap </font>
+
+100
+00:03:58,980 --> 00:04:01,980
+ dan mengendus <font color="#E5E5E5">paket jaringan jadi di sini Anda </font>
+
+101
+00:04:01,980 --> 00:04:03,959
+ <font color="#CCCCCC">dapat melihat bahwa saya telah menginstal </font><font color="#E5E5E5">ingus dan </font>
+
+102
+00:04:03,959 --> 00:04:04,560
+ winpcap 
+
+103
+00:04:04,560 --> 00:04:07,530
+ jadi biarkan saya pergi ke <font color="#CCCCCC">drive lokal melihat di mana </font>
+
+104
+00:04:07,530 --> 00:04:10,440
+ ingus diinstal <font color="#E5E5E5">dan di sini Anda akan melihat </font>
+
+105
+00:04:10,440 --> 00:04:12,299
+ <font color="#CCCCCC">bahwa direktori atau folder bernama sebagai </font>
+
+106
+00:04:12,299 --> 00:04:15,150
+ tidak dibuat <font color="#E5E5E5">jadi jika saya membuka ini Anda </font>
+
+107
+00:04:15,150 --> 00:04:19,200
+ akan <font color="#CCCCCC">melihat </font><font color="#E5E5E5">direktori snot baik saya </font>
+
+108
+00:04:19,200 --> 00:04:21,149
+ <font color="#E5E5E5">mengatakan kepada Anda sebelumnya </font><font color="#CCCCCC">bahwa ingus bekerja </font>
+
+109
+00:04:21,149 --> 00:04:23,340
+ <font color="#E5E5E5">aturan berbeda yang bisa kita atur </font><font color="#CCCCCC">sendiri </font>
+
+110
+00:04:23,340 --> 00:04:26,130
+ aturan <font color="#E5E5E5">dan kami juga dapat menggunakan standar </font>
+
+111
+00:04:26,130 --> 00:04:26,850
+ aturan <font color="#E5E5E5">di </font>
+
+112
+00:04:26,850 --> 00:04:30,090
+ <font color="#CCCCCC">- Biarkan ingus mengendus paket </font><font color="#E5E5E5">itu </font>
+
+113
+00:04:30,090 --> 00:04:31,680
+ <font color="#E5E5E5">hal berikutnya yang harus kita lakukan adalah kita miliki </font>
+
+114
+00:04:31,680 --> 00:04:34,620
+ <font color="#E5E5E5">untuk mengunduh aturan snot agar teratur </font>
+
+115
+00:04:34,620 --> 00:04:36,210
+ <font color="#E5E5E5">untuk mengunduh aturan snot yang </font><font color="#CCCCCC">pertama </font>
+
+116
+00:04:36,210 --> 00:04:37,410
+ hal yang <font color="#E5E5E5">harus Anda </font><font color="#CCCCCC">lakukan adalah Anda harus melakukannya </font>
+
+117
+00:04:37,410 --> 00:04:41,490
+ <font color="#CCCCCC">buat akun dan kemudian setelah Anda </font>
+
+118
+00:04:41,490 --> 00:04:43,860
+ buat <font color="#E5E5E5">akun </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">ingus situs web Anda </font>
+
+119
+00:04:43,860 --> 00:04:48,500
+ <font color="#E5E5E5">Login</font><font color="#CCCCCC"> jadi biar hanya login </font>
+
+120
+00:04:55,559 --> 00:04:58,289
+ jadi setelah Anda <font color="#E5E5E5">login di hal berikutnya </font>
+
+121
+00:04:58,289 --> 00:04:59,489
+ Yang harus Anda <font color="#CCCCCC">lakukan adalah Anda harus mengunduh </font>
+
+122
+00:04:59,489 --> 00:05:01,589
+ <font color="#E5E5E5">aturan snot jadi buka di sini untuk mengunduh </font>
+
+123
+00:05:01,589 --> 00:05:03,149
+ <font color="#E5E5E5">dan di sini Anda akan melihat satu opsi </font>
+
+124
+00:05:03,149 --> 00:05:05,069
+ aturan <font color="#E5E5E5">jadi saya klik di sini </font>
+
+125
+00:05:05,069 --> 00:05:09,719
+ <font color="#E5E5E5">dan di sini Anda akan melihat aturan ingus jadi kami </font>
+
+126
+00:05:09,719 --> 00:05:11,579
+ harus <font color="#CCCCCC">mengunduh </font><font color="#E5E5E5">aturan mendengus ini </font>
+
+127
+00:05:11,579 --> 00:05:14,699
+ snapshot <font color="#CCCCCC">dan </font><font color="#E5E5E5">itu yang terbaru </font><font color="#CCCCCC">298 </font><font color="#E5E5E5">3 </font>
+
+128
+00:05:14,699 --> 00:05:17,459
+ menjadi 9 <font color="#E5E5E5">0 tar dan itu file tar </font><font color="#CCCCCC">jadi biarkan </font>
+
+129
+00:05:17,459 --> 00:05:18,629
+ <font color="#E5E5E5">saya mengunduh ini satu dua sembilan delapan </font>
+
+130
+00:05:18,629 --> 00:05:20,999
+ <font color="#CCCCCC">tiga tar.gz dan saya sudah </font>
+
+131
+00:05:20,999 --> 00:05:22,679
+ <font color="#E5E5E5">aturan snot yang diunduh dan yang mana </font>
+
+132
+00:05:22,679 --> 00:05:24,869
+ hadir di <font color="#CCCCCC">mesin </font><font color="#E5E5E5">virtual saya </font><font color="#CCCCCC">sehingga Anda bisa </font>
+
+133
+00:05:24,869 --> 00:05:27,869
+ <font color="#CCCCCC">lihat di sini file tar </font><font color="#E5E5E5">aturan snort begitu </font>
+
+134
+00:05:27,869 --> 00:05:30,859
+ biarkan saya mengekstraknya 
+
+135
+00:05:38,900 --> 00:05:41,000
+ jadi jika Anda <font color="#E5E5E5">menggunakan ingus pada </font><font color="#CCCCCC">Anda </font>
+
+136
+00:05:41,000 --> 00:05:43,040
+ server <font color="#E5E5E5">maka Anda dapat mengikuti hal yang sama </font>
+
+137
+00:05:43,040 --> 00:05:52,160
+ langkah-langkah seperti yang <font color="#E5E5E5">saya lakukan </font><font color="#CCCCCC">di sini di </font><font color="#E5E5E5">windows saya begitu </font>
+
+138
+00:05:52,160 --> 00:05:54,229
+ setelah kami mendapat aturan snot <font color="#E5E5E5">biarkan aku buka </font>
+
+139
+00:05:54,229 --> 00:05:56,810
+ ini dan menunjukkan <font color="#E5E5E5">Anda sehingga mengandung </font>
+
+140
+00:05:56,810 --> 00:05:58,699
+ <font color="#E5E5E5">direktori yang berbeda </font><font color="#CCCCCC">hal berikutnya kita </font>
+
+141
+00:05:58,699 --> 00:06:00,650
+ harus <font color="#CCCCCC">lakukan adalah kita harus </font><font color="#E5E5E5">menyalin ini semua </font>
+
+142
+00:06:00,650 --> 00:06:03,020
+ direktori atau folder dan kita harus 
+
+143
+00:06:03,020 --> 00:06:06,800
+ tempelkan mereka di dalam direktori snot 
+
+144
+00:06:06,800 --> 00:06:09,080
+ yang <font color="#CCCCCC">ada di dalam laut drive lokal </font><font color="#E5E5E5">jadi di sini </font>
+
+145
+00:06:09,080 --> 00:06:12,110
+ Anda <font color="#E5E5E5">dapat melihat itu tidak jadi biarkan saya tempel semua </font>
+
+146
+00:06:12,110 --> 00:06:21,500
+ folder <font color="#E5E5E5">dan file ini di sini </font><font color="#CCCCCC">dan kemudian </font>
+
+147
+00:06:21,500 --> 00:06:23,360
+ bertanya kepada <font color="#CCCCCC">kami bahwa apakah kami ingin mengganti </font>
+
+148
+00:06:23,360 --> 00:06:24,590
+ <font color="#E5E5E5">beberapa yang sudah ada </font>
+
+149
+00:06:24,590 --> 00:06:28,850
+ jadi ya <font color="#E5E5E5">klik </font><font color="#CCCCCC">di sini klik ya begitu </font>
+
+150
+00:06:28,850 --> 00:06:32,450
+ ya salin dan <font color="#CCCCCC">ganti semuanya jadi di sini </font>
+
+151
+00:06:32,450 --> 00:06:34,460
+ Anda <font color="#CCCCCC">dapat melihat </font><font color="#E5E5E5">bahwa ingus kami siap </font>
+
+152
+00:06:34,460 --> 00:06:36,740
+ bekerja <font color="#E5E5E5">hal </font><font color="#CCCCCC">berikutnya </font><font color="#E5E5E5">yang harus kita </font><font color="#CCCCCC">lakukan adalah kita </font>
+
+153
+00:06:36,740 --> 00:06:38,720
+ <font color="#CCCCCC">harus </font><font color="#E5E5E5">membuat dua file </font><font color="#CCCCCC">dalam </font>
+
+154
+00:06:38,720 --> 00:06:41,300
+ <font color="#CCCCCC">menghirup direktori jadi biarkan aku membuka </font><font color="#E5E5E5">notepad </font>
+
+155
+00:06:41,300 --> 00:06:44,330
+ <font color="#E5E5E5">jadi </font><font color="#CCCCCC">Anda dapat menggunakan </font><font color="#E5E5E5">editor </font><font color="#CCCCCC">teks apa pun </font><font color="#E5E5E5">sehingga kami </font>
+
+156
+00:06:44,330 --> 00:06:45,919
+ harus <font color="#CCCCCC">membuat dua file bernama sebagai </font>
+
+157
+00:06:45,919 --> 00:06:48,410
+ whitelist dot rules dan blacklist <font color="#E5E5E5">rot </font>
+
+158
+00:06:48,410 --> 00:06:51,229
+ aturan <font color="#E5E5E5">sehingga ingus akan mengkonfigurasi dan </font>
+
+159
+00:06:51,229 --> 00:06:53,539
+ slot akan bekerja tergantung pada aturan kami 
+
+160
+00:06:53,539 --> 00:06:56,630
+ yang akan kami sediakan jadi saya membuat 
+
+161
+00:06:56,630 --> 00:06:59,360
+ file bernama sebagai aturan whitelist dot <font color="#E5E5E5">jadi kami </font>
+
+162
+00:06:59,360 --> 00:07:01,220
+ harus menyimpan file ini <font color="#E5E5E5">di dalam ingus </font>
+
+163
+00:07:01,220 --> 00:07:04,310
+ direktori <font color="#E5E5E5">jadi klik pada ingus </font><font color="#CCCCCC">dan di sini adalah </font>
+
+164
+00:07:04,310 --> 00:07:06,800
+ satu direktori <font color="#E5E5E5">disebut sebagai aturan jadi saya </font>
+
+165
+00:07:06,800 --> 00:07:09,110
+ <font color="#E5E5E5">hanya meninggalkan file ini kosong dan aku </font>
+
+166
+00:07:09,110 --> 00:07:13,870
+ mengganti nama itu sebagai aturan dot daftar putih dan 
+
+167
+00:07:13,870 --> 00:07:16,099
+ maka kita harus membuat <font color="#CCCCCC">file lain </font>
+
+168
+00:07:16,099 --> 00:07:18,410
+ disebut sebagai aturan daftar hitam dan kami 
+
+169
+00:07:18,410 --> 00:07:20,539
+ harus <font color="#CCCCCC">menyimpannya </font><font color="#E5E5E5">dalam yang sama </font>
+
+170
+00:07:20,539 --> 00:07:23,060
+ <font color="#E5E5E5">aturan snot direktori sehingga </font><font color="#CCCCCC">nama file </font>
+
+171
+00:07:23,060 --> 00:07:29,330
+ adalah <font color="#E5E5E5">aturan daftar hitam dot sekarang di sini Anda bisa </font>
+
+172
+00:07:29,330 --> 00:07:30,950
+ <font color="#E5E5E5">melihat bahwa daftar hitam dua file </font><font color="#CCCCCC">adalah </font>
+
+173
+00:07:30,950 --> 00:07:33,380
+ aturan dan aturan whitelist dot 
+
+174
+00:07:33,380 --> 00:07:36,200
+ dibuat <font color="#CCCCCC">dan saya katakan sebelumnya bahwa </font><font color="#E5E5E5">dalam </font>
+
+175
+00:07:36,200 --> 00:07:37,820
+ video singkat ini saya <font color="#CCCCCC">hanya akan memberi Anda </font>
+
+176
+00:07:37,820 --> 00:07:40,340
+ <font color="#E5E5E5">gambaran kecil dari ingus tetapi di depan </font>
+
+177
+00:07:40,340 --> 00:07:43,130
+ video seri ingus <font color="#E5E5E5">saya akan menunjukkan itu </font>
+
+178
+00:07:43,130 --> 00:07:45,800
+ <font color="#E5E5E5">bagaimana kita bisa mengatur aturan kustom kita sendiri dengan </font>
+
+179
+00:07:45,800 --> 00:07:47,780
+ menambahkannya dalam dua <font color="#E5E5E5">daftar hitam file ini </font>
+
+180
+00:07:47,780 --> 00:07:49,460
+ <font color="#E5E5E5">aturan kami dan daftar putih </font><font color="#CCCCCC">alat kami </font>
+
+181
+00:07:49,460 --> 00:07:51,380
+ sekarang semuanya sudah siap <font color="#E5E5E5">biar kuberikan </font>
+
+182
+00:07:51,380 --> 00:07:52,430
+ <font color="#E5E5E5">rekap kecil itu apa </font>
+
+183
+00:07:52,430 --> 00:07:54,440
+ telah mati <font color="#E5E5E5">jadi kami telah </font><font color="#CCCCCC">mengunduh snot dan </font>
+
+184
+00:07:54,440 --> 00:07:56,090
+ <font color="#E5E5E5">kami telah menginstal ingus </font>
+
+185
+00:07:56,090 --> 00:07:59,420
+ dengan <font color="#E5E5E5">utilitas pcap angin ini maka kita punya </font>
+
+186
+00:07:59,420 --> 00:08:01,250
+ mengunduh <font color="#E5E5E5">aturan mendengus dan lalu kami punya </font>
+
+187
+00:08:01,250 --> 00:08:03,530
+ mengekstraksi <font color="#CCCCCC">aturan snot </font><font color="#E5E5E5">dan kami punya </font>
+
+188
+00:08:03,530 --> 00:08:05,650
+ menyalin semua file ini di dalam <font color="#E5E5E5">ingus </font>
+
+189
+00:08:05,650 --> 00:08:08,060
+ direktori <font color="#E5E5E5">jadi kami telah membuat dua </font>
+
+190
+00:08:08,060 --> 00:08:09,970
+ file <font color="#CCCCCC">yang merupakan daftar putih </font><font color="#E5E5E5">atau alat dan </font>
+
+191
+00:08:09,970 --> 00:08:14,720
+ daftar hitam <font color="#CCCCCC">aturan kami </font><font color="#E5E5E5">sekarang </font><font color="#CCCCCC">untuk menjalankan </font>
+
+192
+00:08:14,720 --> 00:08:16,790
+ <font color="#CCCCCC">mendengus kita harus </font><font color="#E5E5E5">membuka command prompt dan </font>
+
+193
+00:08:16,790 --> 00:08:19,430
+ <font color="#E5E5E5">kita </font><font color="#CCCCCC">harus pergi ke Drive </font><font color="#E5E5E5">lokal </font><font color="#CCCCCC">untuk melihat di mana </font>
+
+194
+00:08:19,430 --> 00:08:25,750
+ ingus dipasang <font color="#CCCCCC">jadi biarkan </font><font color="#E5E5E5">aku pergi ke sana dan </font>
+
+195
+00:08:25,750 --> 00:08:27,980
+ di sini Anda akan <font color="#E5E5E5">melihat satu direktori yang disebut </font>
+
+196
+00:08:27,980 --> 00:08:30,980
+ tidak jadi <font color="#E5E5E5">mari kita pergi ke sana dan kemudian kita </font>
+
+197
+00:08:30,980 --> 00:08:33,110
+ harus pergi direktori bin <font color="#CCCCCC">yang </font>
+
+198
+00:08:33,110 --> 00:08:38,419
+ hadir di dalam ingus jadi di sini Anda bisa melihat 
+
+199
+00:08:38,419 --> 00:08:40,549
+ bahwa sekarang <font color="#CCCCCC">kita berada di dalam </font><font color="#E5E5E5">tong sampah </font>
+
+200
+00:08:40,549 --> 00:08:42,980
+ <font color="#E5E5E5">dan di dalam direktori bin ada </font>
+
+201
+00:08:42,980 --> 00:08:46,010
+ satu file disebut sebagai <font color="#E5E5E5">dot exe jadi ini </font>
+
+202
+00:08:46,010 --> 00:08:48,050
+ file atau <font color="#E5E5E5">file eksekusi utama dari </font>
+
+203
+00:08:48,050 --> 00:08:50,780
+ ingus yang akan kita gunakan <font color="#E5E5E5">jadi yang pertama </font>
+
+204
+00:08:50,780 --> 00:08:53,060
+ hal yang harus kita <font color="#E5E5E5">lakukan adalah kita harus memeriksa </font>
+
+205
+00:08:53,060 --> 00:08:55,070
+ bahwa <font color="#E5E5E5">apa adapter jaringan atau </font>
+
+206
+00:08:55,070 --> 00:08:56,540
+ antarmuka jaringan yang <font color="#E5E5E5">tersedia </font>
+
+207
+00:08:56,540 --> 00:08:59,720
+ <font color="#E5E5E5">dalam sistem operasi ini sehingga kami </font><font color="#CCCCCC">dapat melakukannya </font>
+
+208
+00:08:59,720 --> 00:09:02,150
+ dengan <font color="#CCCCCC">menulis snort exe dan kemudian kita harus </font>
+
+209
+00:09:02,150 --> 00:09:05,330
+ <font color="#E5E5E5">tentukan satu parameter yaitu </font><font color="#CCCCCC">- modal </font>
+
+210
+00:09:05,330 --> 00:09:08,930
+ <font color="#E5E5E5">W tekan enter dan di sini Anda akan melihat itu </font>
+
+211
+00:09:08,930 --> 00:09:10,670
+ telah tercantum bahwa ada <font color="#CCCCCC">satu </font>
+
+212
+00:09:10,670 --> 00:09:13,040
+ antarmuka atau <font color="#E5E5E5">adaptor jaringan satu yang </font>
+
+213
+00:09:13,040 --> 00:09:15,230
+ <font color="#CCCCCC">hadir di dalam </font><font color="#E5E5E5">Windows </font><font color="#CCCCCC">tujuh ini </font>
+
+214
+00:09:15,230 --> 00:09:16,970
+ <font color="#E5E5E5">Anda dapat melihat nilai indeksnya </font><font color="#CCCCCC">1 </font>
+
+215
+00:09:16,970 --> 00:09:19,010
+ di sini Anda <font color="#CCCCCC">dapat melihat alamat fisik atau </font>
+
+216
+00:09:19,010 --> 00:09:20,630
+ alamat MAC dari <font color="#CCCCCC">adapter jaringan itu </font>
+
+217
+00:09:20,630 --> 00:09:22,970
+ <font color="#E5E5E5">di sini Anda dapat melihat alamat IP </font><font color="#CCCCCC">itu </font>
+
+218
+00:09:22,970 --> 00:09:25,310
+ ipv6 dan kemudian di sini <font color="#E5E5E5">Anda dapat </font><font color="#CCCCCC">melihat </font>
+
+219
+00:09:25,310 --> 00:09:28,280
+ deskripsi <font color="#E5E5E5">dan ada di adaptor desktop </font>
+
+220
+00:09:28,280 --> 00:09:30,680
+ Anda bisa <font color="#CCCCCC">lihat di sini jadi apa adaptor ini </font>
+
+221
+00:09:30,680 --> 00:09:33,050
+ berarti demikian saja misalnya <font color="#E5E5E5">di Anda </font>
+
+222
+00:09:33,050 --> 00:09:34,850
+ <font color="#E5E5E5">sistem operasi ada </font><font color="#CCCCCC">dua jaringan </font>
+
+223
+00:09:34,850 --> 00:09:36,320
+ Adaptor berarti Anda juga menggunakan 
+
+224
+00:09:36,320 --> 00:09:40,460
+ Koneksi Ethernet dan Anda <font color="#CCCCCC">juga </font>
+
+225
+00:09:40,460 --> 00:09:42,830
+ menggunakan adaptor nirkabel <font color="#E5E5E5">jadi semua </font><font color="#CCCCCC">kedalamannya </font>
+
+226
+00:09:42,830 --> 00:09:44,300
+ <font color="#CCCCCC">s </font><font color="#E5E5E5">yang ada di </font><font color="#CCCCCC">sistem Anda </font><font color="#E5E5E5">akan </font>
+
+227
+00:09:44,300 --> 00:09:46,520
+ hanya <font color="#E5E5E5">terdaftar di </font><font color="#CCCCCC">sini </font><font color="#E5E5E5">jadi ingusan </font>
+
+228
+00:09:46,520 --> 00:09:49,370
+ sebenarnya bekerja pada <font color="#E5E5E5">adaptor tertentu </font>
+
+229
+00:09:49,370 --> 00:09:51,260
+ <font color="#CCCCCC">apakah Anda ingin mengkonfigurasi ingus </font><font color="#E5E5E5">di </font>
+
+230
+00:09:51,260 --> 00:09:53,030
+ adaptor fisik apakah Anda mau 
+
+231
+00:09:53,030 --> 00:09:55,220
+ mengkonfigurasi snot pada <font color="#E5E5E5">adaptor nirkabel </font>
+
+232
+00:09:55,220 --> 00:09:57,800
+ Anda dapat dengan <font color="#E5E5E5">memeriksa adaptor dari </font>
+
+233
+00:09:57,800 --> 00:09:59,810
+ di sini maka hal berikutnya yang <font color="#E5E5E5">harus kita </font><font color="#CCCCCC">lakukan </font>
+
+234
+00:09:59,810 --> 00:10:02,240
+ adalah <font color="#CCCCCC">untuk menghisap ingus yang kita miliki </font>
+
+235
+00:10:02,240 --> 00:10:06,230
+ menulis ingus atau exe lalu <font color="#CCCCCC">di sini </font>
+
+236
+00:10:06,230 --> 00:10:09,050
+ <font color="#CCCCCC">oleh satu parameter yaitu - V </font><font color="#E5E5E5">dan - V </font>
+
+237
+00:10:09,050 --> 00:10:11,510
+ untuk mode verbose <font color="#E5E5E5">maka di sini kita </font><font color="#CCCCCC">harus </font>
+
+238
+00:10:11,510 --> 00:10:13,970
+ tentukan adaptor jaringan <font color="#E5E5E5">tempat kami </font>
+
+239
+00:10:13,970 --> 00:10:16,730
+ <font color="#E5E5E5">ingin mengkonfigurasi </font><font color="#CCCCCC">ingus</font><font color="#E5E5E5"> sehingga kami dapat melakukan </font>
+
+240
+00:10:16,730 --> 00:10:19,340
+ jadi dengan <font color="#E5E5E5">menentukan parameter ini </font><font color="#CCCCCC">- </font><font color="#E5E5E5">I dan </font>
+
+241
+00:10:19,340 --> 00:10:21,230
+ di sini kita harus <font color="#E5E5E5">menuliskan indeks </font>
+
+242
+00:10:21,230 --> 00:10:23,450
+ <font color="#CCCCCC">jumlah </font><font color="#E5E5E5">adaptor jaringan itu jadi benar </font>
+
+243
+00:10:23,450 --> 00:10:25,100
+ sekarang hanya ada <font color="#E5E5E5">satu adapter jaringan </font>
+
+244
+00:10:25,100 --> 00:10:26,720
+ yang <font color="#CCCCCC">terdaftar di sini jadi saya </font><font color="#E5E5E5">hanya </font>
+
+245
+00:10:26,720 --> 00:10:28,940
+ <font color="#CCCCCC">menulis di sini - I dan nomor indeksnya </font>
+
+246
+00:10:28,940 --> 00:10:32,000
+ <font color="#CCCCCC">1 jadi tekan enter jadi di sini Anda </font><font color="#E5E5E5">dapat melihat itu </font>
+
+247
+00:10:32,000 --> 00:10:34,990
+ <font color="#E5E5E5">ingus kami dimulai dan baru saja dimulai </font>
+
+248
+00:10:34,990 --> 00:10:37,880
+ <font color="#E5E5E5">mengendus </font><font color="#CCCCCC">paket itu sekarang </font><font color="#E5E5E5">untuk </font>
+
+249
+00:10:37,880 --> 00:10:39,710
+ verifikasi <font color="#E5E5E5">apa yang bisa kita lakukan biarkan aku terbuka </font>
+
+250
+00:10:39,710 --> 00:10:42,650
+ command prompt lagi <font color="#E5E5E5">sekarang apa yang </font><font color="#CCCCCC">akan saya lakukan </font>
+
+251
+00:10:42,650 --> 00:10:44,870
+ <font color="#CCCCCC">lakukan di sini </font><font color="#E5E5E5">adalah saya akan ping ke Google comm </font>
+
+252
+00:10:44,870 --> 00:10:47,270
+ dan Anda akan melihat setiap <font color="#CCCCCC">internet </font>
+
+253
+00:10:47,270 --> 00:10:48,970
+ paket yang akan masuk ke dalam <font color="#CCCCCC">kami </font>
+
+254
+00:10:48,970 --> 00:10:52,160
+ jaringan <font color="#E5E5E5">hanya akan dimonitor oleh ingus </font>
+
+255
+00:10:52,160 --> 00:10:54,230
+ jadi jika saya hanya <font color="#E5E5E5">menulis di sini </font><font color="#CCCCCC">ping google.com </font>
+
+256
+00:10:54,230 --> 00:10:57,110
+ <font color="#E5E5E5">dan Anda akan melihat bahwa balasan gema dari </font>
+
+257
+00:10:57,110 --> 00:10:59,750
+ google.com akan dimonitor oleh ingus <font color="#E5E5E5">begitu </font>
+
+258
+00:10:59,750 --> 00:11:02,660
+ jika saya hanya <font color="#E5E5E5">menekan </font><font color="#CCCCCC">enter </font><font color="#E5E5E5">dan di sini Anda akan </font>
+
+259
+00:11:02,660 --> 00:11:05,390
+ <font color="#E5E5E5">lihat paket balasan </font><font color="#CCCCCC">Eco gema maka Anda </font>
+
+260
+00:11:05,390 --> 00:11:07,010
+ dapat membalas yang berarti setiap paket yang mana 
+
+261
+00:11:07,010 --> 00:11:09,110
+ <font color="#E5E5E5">akan masuk dan keluar dari kami </font>
+
+262
+00:11:09,110 --> 00:11:12,830
+ jaringan <font color="#E5E5E5">akan </font><font color="#CCCCCC">dimonitor oleh ingus </font><font color="#E5E5E5">begitu </font>
+
+263
+00:11:12,830 --> 00:11:14,900
+ ini adalah bagaimana ingus bekerja <font color="#E5E5E5">dan di </font>
+
+264
+00:11:14,900 --> 00:11:16,610
+ <font color="#E5E5E5">seri video lanjutan dari ingus saya akan </font>
+
+265
+00:11:16,610 --> 00:11:18,050
+ menunjukkan kepada Anda bagaimana kita <font color="#E5E5E5">bisa mengatur sendiri </font>
+
+266
+00:11:18,050 --> 00:11:19,580
+ aturan khusus <font color="#E5E5E5">untuk memblokir a </font>
+
+267
+00:11:19,580 --> 00:11:22,040
+ <font color="#CCCCCC">lalu lintas tertentu atau port tertentu </font>
+
+268
+00:11:22,040 --> 00:11:25,070
+ <font color="#E5E5E5">tetapi ini adalah gambaran kecil dari ingus </font>
+
+269
+00:11:25,070 --> 00:11:29,780
+ <font color="#E5E5E5">bahwa </font><font color="#CCCCCC">bagaimana kita dapat menggunakan ingus dalam hal ini </font>
+
+270
+00:11:29,780 --> 00:11:31,550
+ video yang <font color="#E5E5E5">telah kita diskusikan bahwa apa yang tidak </font>
+
+271
+00:11:31,550 --> 00:11:33,080
+ dan <font color="#E5E5E5">apa jenis ide yang berbeda </font>
+
+272
+00:11:33,080 --> 00:11:35,390
+ sistem <font color="#E5E5E5">dan kemudian kita telah melihat itu caranya </font>
+
+273
+00:11:35,390 --> 00:11:37,790
+ kita bisa <font color="#CCCCCC">menyebarkan bukan pada Windows 7 jadi </font>
+
+274
+00:11:37,790 --> 00:00:00,000
+ terima kasih <font color="#E5E5E5">telah </font><font color="#CCCCCC">menonton video ini </font>
+

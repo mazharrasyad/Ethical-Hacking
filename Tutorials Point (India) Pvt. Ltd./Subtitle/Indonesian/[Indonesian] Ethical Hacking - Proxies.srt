@@ -1,0 +1,1464 @@
+1
+00:00:00,089 --> 00:00:02,220
+ Halo semua orang <font color="#CCCCCC">di video ini kita akan bicara </font>
+
+2
+00:00:02,220 --> 00:00:04,080
+ <font color="#CCCCCC">tentang salah satu </font><font color="#E5E5E5">konsep yang paling penting </font>
+
+3
+00:00:04,080 --> 00:00:06,600
+ <font color="#E5E5E5">keamanan cyber serta </font><font color="#CCCCCC">jaringan </font>
+
+4
+00:00:06,600 --> 00:00:10,019
+ <font color="#E5E5E5">disebut sebagai proxy </font><font color="#CCCCCC">jadi sekarang apa itu </font><font color="#E5E5E5">proxy </font>
+
+5
+00:00:10,019 --> 00:00:12,870
+ jadi proxy tidak lain hanyalah a 
+
+6
+00:00:12,870 --> 00:00:15,780
+ perantara antara <font color="#E5E5E5">kami dan server jarak jauh </font>
+
+7
+00:00:15,780 --> 00:00:18,090
+ <font color="#CCCCCC">jadi Anda bisa lihat di sini </font><font color="#E5E5E5">bahwa </font><font color="#CCCCCC">ini adalah kami </font>
+
+8
+00:00:18,090 --> 00:00:21,180
+ komputer dan di sini adalah proxy kami <font color="#E5E5E5">dan di sini </font>
+
+9
+00:00:21,180 --> 00:00:23,369
+ adalah server web jarak jauh kami sehingga <font color="#E5E5E5">Anda dapat melihat </font>
+
+10
+00:00:23,369 --> 00:00:25,350
+ di sini <font color="#E5E5E5">bahwa proxy adalah perantara yang </font>
+
+11
+00:00:25,350 --> 00:00:27,150
+ sedang duduk di antara kami dan seorang remote 
+
+12
+00:00:27,150 --> 00:00:30,090
+ server <font color="#E5E5E5">jadi dengan menggunakan proxy apa yang terjadi adalah </font>
+
+13
+00:00:30,090 --> 00:00:32,369
+ jika kami <font color="#E5E5E5">membuat </font><font color="#CCCCCC">permintaan </font><font color="#E5E5E5">untuk web itu </font>
+
+14
+00:00:32,369 --> 00:00:34,770
+ server sehingga <font color="#E5E5E5">permintaan harus </font>
+
+15
+00:00:34,770 --> 00:00:37,500
+ lulus dari server proxy ini jadi sekarang 
+
+16
+00:00:37,500 --> 00:00:39,750
+ mari baca di sini jadi proxy server 
+
+17
+00:00:39,750 --> 00:00:42,000
+ yang bertindak sebagai perantara <font color="#E5E5E5">antara </font>
+
+18
+00:00:42,000 --> 00:00:44,610
+ klien dan server jadi server proxy 
+
+19
+00:00:44,610 --> 00:00:47,100
+ melindungi dan menyembunyikan komputer <font color="#E5E5E5">dari </font>
+
+20
+00:00:47,100 --> 00:00:49,379
+ di luar <font color="#CCCCCC">jaringan sehingga Anda bisa lihat di sini </font><font color="#E5E5E5">itu </font>
+
+21
+00:00:49,379 --> 00:00:51,930
+ di sini adalah <font color="#E5E5E5">alamat IP kami jadi jika kami membuatnya </font>
+
+22
+00:00:51,930 --> 00:00:54,750
+ <font color="#CCCCCC">permintaan </font><font color="#E5E5E5">ke google.com </font><font color="#CCCCCC">maka permintaan itu </font>
+
+23
+00:00:54,750 --> 00:00:57,600
+ <font color="#CCCCCC">harus </font><font color="#E5E5E5">diloloskan dari proksi </font><font color="#CCCCCC">dan satu kali </font><font color="#E5E5E5">a </font>
+
+24
+00:00:57,600 --> 00:01:00,480
+ Server proxy menerima <font color="#E5E5E5">permintaan kami </font>
+
+25
+00:01:00,480 --> 00:01:03,680
+ <font color="#CCCCCC">server proxy akan bersembunyi di atas IP dan </font>
+
+26
+00:01:03,680 --> 00:01:07,619
+ kirim <font color="#E5E5E5">permintaan itu dengan IP-nya oleh </font>
+
+27
+00:01:07,619 --> 00:01:09,330
+ menggunakan server proxy kita <font color="#CCCCCC">bisa menyembunyikan beberapa </font>
+
+28
+00:01:09,330 --> 00:01:11,850
+ Alamat IP dan salah satu <font color="#E5E5E5">manfaat utamanya </font>
+
+29
+00:01:11,850 --> 00:01:13,650
+ dari <font color="#E5E5E5">server proxy </font><font color="#CCCCCC">adalah bahwa Anda mungkin </font>
+
+30
+00:01:13,650 --> 00:01:16,229
+ telah <font color="#E5E5E5">melihat di perguruan tinggi bahwa beberapa </font><font color="#CCCCCC">web </font>
+
+31
+00:01:16,229 --> 00:01:17,700
+ <font color="#CCCCCC">situs diblokir </font><font color="#E5E5E5">oleh jaringan </font>
+
+32
+00:01:17,700 --> 00:01:19,830
+ administrator sehingga kami dapat melewati <font color="#E5E5E5">itu </font>
+
+33
+00:01:19,830 --> 00:01:22,740
+ filter dengan menggunakan proxy <font color="#E5E5E5">sekarang mari kita lihat </font>
+
+34
+00:01:22,740 --> 00:01:24,600
+ <font color="#CCCCCC">berapa banyak </font><font color="#E5E5E5">jenis proxy yang bisa kita gunakan </font>
+
+35
+00:01:24,600 --> 00:01:26,759
+ di sistem kami <font color="#CCCCCC">jadi pertama-tama </font><font color="#E5E5E5">kita akan bicara </font>
+
+36
+00:01:26,759 --> 00:01:28,979
+ tentang proksi <font color="#E5E5E5">berbasis tab jadi tab berbasis </font>
+
+37
+00:01:28,979 --> 00:01:30,930
+ proksi hanya akan bekerja di tempat <font color="#CCCCCC">tertentu </font>
+
+38
+00:01:30,930 --> 00:01:33,210
+ tab jadi ada <font color="#E5E5E5">beberapa situs web </font><font color="#CCCCCC">yang </font>
+
+39
+00:01:33,210 --> 00:01:35,220
+ menyediakan fungsionalitas berbasis tab 
+
+40
+00:01:35,220 --> 00:01:36,720
+ <font color="#E5E5E5">fitur jadi di sini adalah link </font><font color="#CCCCCC">itu </font>
+
+41
+00:01:36,720 --> 00:01:37,470
+ <font color="#CCCCCC">situs web </font>
+
+42
+00:01:37,470 --> 00:01:40,079
+ <font color="#E5E5E5">Zankou comm hide - dot-com jadi ada </font>
+
+43
+00:01:40,079 --> 00:01:41,790
+ banyak <font color="#E5E5E5">situs web yang menyediakan hal yang sama </font>
+
+44
+00:01:41,790 --> 00:01:43,829
+ fungsi <font color="#CCCCCC">tetapi hal yang </font><font color="#E5E5E5">harus diperhatikan </font>
+
+45
+00:01:43,829 --> 00:01:46,799
+ adalah bahwa dalam proxy berbasis tab <font color="#E5E5E5">proxy </font>
+
+46
+00:01:46,799 --> 00:01:48,899
+ <font color="#E5E5E5">akan jadi hanya satu tab yang akan didapatkan </font>
+
+47
+00:01:48,899 --> 00:01:51,899
+ <font color="#E5E5E5">dipengaruhi oleh proxy itu tetapi bagaimana jika jika kita </font>
+
+48
+00:01:51,899 --> 00:01:54,960
+ menginginkan proxy di seluruh browser, <font color="#E5E5E5">jadi di sana </font>
+
+49
+00:01:54,960 --> 00:01:56,969
+ beberapa proxy yang <font color="#CCCCCC">bisa kita gunakan </font><font color="#E5E5E5">dalam </font>
+
+50
+00:01:56,969 --> 00:01:59,369
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">menginfeksi seluruh browser kita </font>
+
+51
+00:01:59,369 --> 00:02:01,680
+ Proxy itu disebut sebagai browser <font color="#E5E5E5">berbasis </font>
+
+52
+00:02:01,680 --> 00:02:03,780
+ proksi <font color="#CCCCCC">jadi bagaimana kita bisa menggunakan browser </font><font color="#E5E5E5">berbasis </font>
+
+53
+00:02:03,780 --> 00:02:05,850
+ proksi jadi apa yang <font color="#E5E5E5">terjadi adalah ada beberapa </font>
+
+54
+00:02:05,850 --> 00:02:08,190
+ situs web <font color="#E5E5E5">di Internet yang menyediakan </font>
+
+55
+00:02:08,190 --> 00:02:10,139
+ daftar proxy server gratis di <font color="#E5E5E5">sekitar </font>
+
+56
+00:02:10,139 --> 00:02:12,540
+ <font color="#E5E5E5">dunia jadi di sini adalah beberapa situs web gratis prop </font>
+
+57
+00:02:12,540 --> 00:02:13,660
+ <font color="#E5E5E5">com stylist </font>
+
+58
+00:02:13,660 --> 00:02:16,660
+ <font color="#E5E5E5">sembunyikan </font><font color="#CCCCCC">- tenang </font><font color="#E5E5E5">sehingga kami dapat menyalin IP </font>
+
+59
+00:02:16,660 --> 00:02:19,570
+ alamat dari <font color="#CCCCCC">itu </font><font color="#E5E5E5">website dan kemudian kami </font>
+
+60
+00:02:19,570 --> 00:02:21,550
+ dapat mengubah pengaturan proxy browser kami 
+
+61
+00:02:21,550 --> 00:02:23,170
+ lalu kita dapat menambahkan alamat itu di 
+
+62
+00:02:23,170 --> 00:02:25,060
+ <font color="#E5E5E5">untuk mempengaruhi seluruh browser kami dan </font>
+
+63
+00:02:25,060 --> 00:02:27,730
+ dengan menggunakan <font color="#E5E5E5">proxy berbasis browser tidak </font>
+
+64
+00:02:27,730 --> 00:02:30,130
+ yang penting <font color="#CCCCCC">berapa </font><font color="#E5E5E5">banyak tab yang Anda buka </font>
+
+65
+00:02:30,130 --> 00:02:32,410
+ setiap tab yang akan Anda <font color="#CCCCCC">buka akan didapatkan </font>
+
+66
+00:02:32,410 --> 00:02:35,020
+ dipengaruhi <font color="#E5E5E5">oleh proxy itu </font><font color="#CCCCCC">jadi itu sebabnya </font>
+
+67
+00:02:35,020 --> 00:02:37,300
+ <font color="#E5E5E5">proksi berbasis browser sekarang lebih baik dibiarkan </font>
+
+68
+00:02:37,300 --> 00:02:39,520
+ kami <font color="#E5E5E5">berbicara tentang proxy anonim begitu </font>
+
+69
+00:02:39,520 --> 00:02:41,650
+ proxy nonnamous disebut proxy toko 
+
+70
+00:02:41,650 --> 00:02:43,840
+ jadi <font color="#E5E5E5">proxy tor adalah contoh dari sebuah </font>
+
+71
+00:02:43,840 --> 00:02:45,940
+ <font color="#CCCCCC">proxy </font><font color="#E5E5E5">dan tor </font><font color="#CCCCCC">hewan </font><font color="#E5E5E5">adalah sumber terbuka </font>
+
+72
+00:02:45,940 --> 00:02:48,940
+ <font color="#E5E5E5">perangkat lunak yang dirancang untuk masuk </font>
+
+73
+00:02:48,940 --> 00:02:50,800
+ alamat proxy yang berbeda dan kemudian <font color="#E5E5E5">kami </font>
+
+74
+00:02:50,800 --> 00:02:53,380
+ permintaan akan pergi ke server itu jadi tor 
+
+75
+00:02:53,380 --> 00:02:55,390
+ proxy adalah salah satu proxy yang paling aman 
+
+76
+00:02:55,390 --> 00:02:58,210
+ yang sedang digunakan sekarang <font color="#CCCCCC">jadi apa </font>
+
+77
+00:02:58,210 --> 00:03:00,250
+ Terjadi jika <font color="#CCCCCC">kami membuat </font><font color="#E5E5E5">permintaan apa pun oleh </font>
+
+78
+00:03:00,250 --> 00:03:03,400
+ menggunakan proxy tor <font color="#E5E5E5">maka permintaan itu akan </font>
+
+79
+00:03:03,400 --> 00:03:05,830
+ masuk ke <font color="#E5E5E5">server yang berbeda dan kemudian </font>
+
+80
+00:03:05,830 --> 00:03:08,500
+ akan pergi ke <font color="#CCCCCC">alamat</font><font color="#E5E5E5"> IP remote atau </font>
+
+81
+00:03:08,500 --> 00:03:10,810
+ server jauh sehingga <font color="#E5E5E5">proxy Tor datang </font>
+
+82
+00:03:10,810 --> 00:03:12,790
+ dengan <font color="#E5E5E5">browser tor dan Anda dapat menggunakan tor </font>
+
+83
+00:03:12,790 --> 00:03:14,560
+ proksi dan unduh <font color="#E5E5E5">dari </font><font color="#CCCCCC">sini </font>
+
+84
+00:03:14,560 --> 00:03:16,900
+ tor project.org <font color="#CCCCCC">dan tor proxy adalah </font>
+
+85
+00:03:16,900 --> 00:03:18,790
+ tersedia untuk <font color="#CCCCCC">sistem operasi yang berbeda </font>
+
+86
+00:03:18,790 --> 00:03:22,030
+ OS Microsoft Linux dan bahkan smartphone 
+
+87
+00:03:22,030 --> 00:03:25,120
+ juga <font color="#E5E5E5">jadi bagaimana jika jika Anda menginginkan keseluruhan </font>
+
+88
+00:03:25,120 --> 00:03:27,520
+ sistem <font color="#E5E5E5">seluruh sistem operasi yang akan </font>
+
+89
+00:03:27,520 --> 00:03:29,860
+ dipengaruhi oleh <font color="#E5E5E5">proxy </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">sehingga ada </font>
+
+90
+00:03:29,860 --> 00:03:31,720
+ satu sistem operasi yang <font color="#E5E5E5">disebut sebagai </font><font color="#CCCCCC">Unix </font>
+
+91
+00:03:31,720 --> 00:03:34,030
+ jadi kita bisa menggunakan <font color="#CCCCCC">sistem operasi monique </font>
+
+92
+00:03:34,030 --> 00:03:36,370
+ <font color="#E5E5E5">untuk menggunakan proxy untuk keseluruhan </font>
+
+93
+00:03:36,370 --> 00:03:38,470
+ sistem operasi <font color="#CCCCCC">jadi apa yang terjadi bahkan </font>
+
+94
+00:03:38,470 --> 00:03:41,170
+ <font color="#E5E5E5">jika Anda memilih situs web tertentu kemudian </font>
+
+95
+00:03:41,170 --> 00:03:42,940
+ <font color="#CCCCCC">permintaan ping kami juga akan terpengaruh </font>
+
+96
+00:03:42,940 --> 00:03:46,780
+ <font color="#CCCCCC">oleh tor proxy </font><font color="#E5E5E5">dengan menggunakan </font><font color="#CCCCCC">unix </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">1x </font>
+
+97
+00:03:46,780 --> 00:03:48,400
+ <font color="#E5E5E5">sistem operasi datang ke unix </font>
+
+98
+00:03:48,400 --> 00:03:50,830
+ gerbang jadi apa yang terjadi adalah jika kita <font color="#E5E5E5">membuat </font>
+
+99
+00:03:50,830 --> 00:03:52,959
+ <font color="#CCCCCC">permintaan </font><font color="#E5E5E5">dari sistem operasi UNIX itu </font>
+
+100
+00:03:52,959 --> 00:03:55,540
+ <font color="#E5E5E5">permintaan itu akan masuk ke gerbang UNIX </font>
+
+101
+00:03:55,540 --> 00:03:58,450
+ dan di gerbang UNIX ada <font color="#E5E5E5">proxy tor </font>
+
+102
+00:03:58,450 --> 00:04:01,360
+ <font color="#E5E5E5">yang menunggu permintaan kami </font><font color="#CCCCCC">jadi ini </font>
+
+103
+00:04:01,360 --> 00:04:03,280
+ adalah cara <font color="#CCCCCC">kerja onyx </font><font color="#E5E5E5">dan kita juga bisa menggunakannya </font>
+
+104
+00:04:03,280 --> 00:04:05,440
+ phonics <font color="#CCCCCC">untuk</font><font color="#E5E5E5"> melakukan beberapa internet </font>
+
+105
+00:04:05,440 --> 00:04:08,170
+ penipuan scamming karena <font color="#E5E5E5">UNIX menyembunyikan kami </font>
+
+106
+00:04:08,170 --> 00:04:10,810
+ <font color="#E5E5E5">alamat IP sebenarnya sekarang </font><font color="#CCCCCC">mari kita bicarakan </font>
+
+107
+00:04:10,810 --> 00:04:13,150
+ tiga <font color="#E5E5E5">jenis proxy yang </font><font color="#CCCCCC">berbeda </font><font color="#E5E5E5">jadi di sini </font>
+
+108
+00:04:13,150 --> 00:04:14,739
+ Anda <font color="#E5E5E5">dapat melihat bahwa ada </font><font color="#CCCCCC">tiga proxy </font>
+
+109
+00:04:14,739 --> 00:04:16,988
+ <font color="#E5E5E5">cahaya transparan anonim jadi ini </font>
+
+110
+00:04:16,988 --> 00:04:18,970
+ kategori proksi yang bisa kita gunakan 
+
+111
+00:04:18,970 --> 00:04:21,488
+ jadi yang pertama adalah anonim <font color="#CCCCCC">seperti saya </font>
+
+112
+00:04:21,488 --> 00:04:23,530
+ mengatakan kepada Anda sebelumnya <font color="#CCCCCC">bahwa proxy anonim adalah </font>
+
+113
+00:04:23,530 --> 00:04:25,360
+ salah satu proksi paling aman yang bisa kita gunakan 
+
+114
+00:04:25,360 --> 00:04:27,520
+ dan kemudian <font color="#E5E5E5">jenis proksi lain adalah </font><font color="#CCCCCC">kebohongan </font>
+
+115
+00:04:27,520 --> 00:04:29,830
+ jadi <font color="#CCCCCC">proxy kehidupan juga </font><font color="#E5E5E5">aman dan mereka </font>
+
+116
+00:04:29,830 --> 00:04:32,020
+ juga <font color="#E5E5E5">menyembunyikan </font><font color="#CCCCCC">alamat </font><font color="#E5E5E5">IP kita sehingga </font><font color="#CCCCCC">sedangkan </font>
+
+117
+00:04:32,020 --> 00:04:34,479
+ <font color="#CCCCCC">blok transparan proksi </font><font color="#E5E5E5">berubah </font>
+
+118
+00:04:34,479 --> 00:04:37,410
+ Alamat IP tetapi mereka tidak aman <font color="#E5E5E5">sehingga </font>
+
+119
+00:04:37,410 --> 00:04:39,400
+ <font color="#E5E5E5">Proxy transparan tidak </font><font color="#CCCCCC">aman </font>
+
+120
+00:04:39,400 --> 00:04:41,380
+ <font color="#E5E5E5">itulah sebabnya kecepatan transparan </font>
+
+121
+00:04:41,380 --> 00:04:43,840
+ proxy sangat tinggi sedangkan kecepatan 
+
+122
+00:04:43,840 --> 00:04:45,729
+ proxy anonim dan <font color="#E5E5E5">proksi terang </font>
+
+123
+00:04:45,729 --> 00:04:48,520
+ sangat lambat <font color="#E5E5E5">jadi ini adalah jenis </font>
+
+124
+00:04:48,520 --> 00:04:50,440
+ proksi <font color="#CCCCCC">yang bisa kita gunakan sekarang mari kita lihat </font>
+
+125
+00:04:50,440 --> 00:04:52,690
+ bagaimana kita bisa <font color="#CCCCCC">menggunakan proksi dalam operasi kita </font>
+
+126
+00:04:52,690 --> 00:04:55,599
+ sistem <font color="#E5E5E5">sekarang mari kita gunakan browser berbasis tab </font>
+
+127
+00:04:55,599 --> 00:04:58,539
+ <font color="#CCCCCC">buang dan sistem berdasarkan proxy jadi biarkan aku </font>
+
+128
+00:04:58,539 --> 00:05:01,330
+ buka <font color="#E5E5E5">Mozilla Firefox </font><font color="#CCCCCC">saya, saya sudah </font><font color="#E5E5E5">bilang </font>
+
+129
+00:05:01,330 --> 00:05:04,120
+ <font color="#CCCCCC">sebelumnya bahwa </font><font color="#E5E5E5">dalam proksi berbasis tab </font>
+
+130
+00:05:04,120 --> 00:05:06,610
+ proxy hanya akan berfungsi di <font color="#CCCCCC">tab tertentu </font>
+
+131
+00:05:06,610 --> 00:05:08,889
+ dan di sini Anda dapat melihat bahwa saya telah membuka 
+
+132
+00:05:08,889 --> 00:05:11,740
+ tab ini <font color="#E5E5E5">dan di sini adalah situs web ini Zankou </font>
+
+133
+00:05:11,740 --> 00:05:14,139
+ <font color="#CCCCCC">comm </font><font color="#E5E5E5">sehingga website ini memberikan kami </font>
+
+134
+00:05:14,139 --> 00:05:16,300
+ fitur <font color="#E5E5E5">proxy berbasis tab jadi setelah Anda </font>
+
+135
+00:05:16,300 --> 00:05:18,639
+ <font color="#CCCCCC">buka </font><font color="#E5E5E5">situs web </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">Anda akan melihat masukan </font>
+
+136
+00:05:18,639 --> 00:05:21,009
+ kotak di sini <font color="#CCCCCC">jadi hanya </font><font color="#E5E5E5">misalnya </font><font color="#CCCCCC">jika saya menulis </font>
+
+137
+00:05:21,009 --> 00:05:25,120
+ <font color="#E5E5E5">disini google.com dan tekan enter jadi </font><font color="#CCCCCC">di sini </font>
+
+138
+00:05:25,120 --> 00:05:26,710
+ Anda <font color="#E5E5E5">akan melihat bahwa Google </font><font color="#CCCCCC">dari </font>
+
+139
+00:05:26,710 --> 00:05:29,169
+ <font color="#E5E5E5">Belanda terbuka yang berarti </font><font color="#CCCCCC">ada </font>
+
+140
+00:05:29,169 --> 00:05:31,990
+ proxy <font color="#E5E5E5">yang mengaturnya hanya </font><font color="#CCCCCC">dalam hal ini </font>
+
+141
+00:05:31,990 --> 00:05:34,599
+ <font color="#E5E5E5">tab dan untuk mengkonfirmasi kami dapat memeriksa </font>
+
+142
+00:05:34,599 --> 00:05:36,759
+ <font color="#E5E5E5">alamat IP kami dengan pergi </font><font color="#CCCCCC">ke sini untuk apa </font>
+
+143
+00:05:36,759 --> 00:05:42,370
+ saya <font color="#CCCCCC">comm alamat IP </font><font color="#E5E5E5">dan di sini Anda dapat melihat </font>
+
+144
+00:05:42,370 --> 00:05:44,469
+ <font color="#E5E5E5">alamat IP bersama dengan detail ISP </font>
+
+145
+00:05:44,469 --> 00:05:48,099
+ layanan <font color="#E5E5E5">dan negara sehingga proxy ini akan </font>
+
+146
+00:05:48,099 --> 00:05:50,080
+ hanya bekerja di tab ini <font color="#CCCCCC">untuk </font>
+
+147
+00:05:50,080 --> 00:05:51,880
+ konfirmasi biarkan saya membuka <font color="#E5E5E5">tab lain </font><font color="#CCCCCC">dan </font>
+
+148
+00:05:51,880 --> 00:05:53,889
+ mari kita <font color="#E5E5E5">tulis di sini apa IP saya </font>
+
+149
+00:05:53,889 --> 00:06:00,190
+ alamat <font color="#CCCCCC">comm dan Anda </font><font color="#E5E5E5">akan lihat di sini itu </font>
+
+150
+00:06:00,190 --> 00:06:06,460
+ <font color="#E5E5E5">alamat IP asli </font><font color="#CCCCCC">kami di </font><font color="#E5E5E5">India </font>
+
+151
+00:06:06,460 --> 00:06:08,860
+ mirip dengan <font color="#CCCCCC">center.com </font><font color="#E5E5E5">situs ini sehingga </font>
+
+152
+00:06:08,860 --> 00:06:11,560
+ ada satu <font color="#E5E5E5">lagi situs web yang disebut sebagai hide </font>
+
+153
+00:06:11,560 --> 00:06:14,710
+ proxy dot <font color="#CCCCCC">m-mean jadi ini adalah situs web </font>
+
+154
+00:06:14,710 --> 00:06:22,740
+ <font color="#E5E5E5">panjangnya jadi tinggi dot </font><font color="#CCCCCC">garis miring </font>
+
+155
+00:06:22,740 --> 00:06:26,110
+ <font color="#E5E5E5">slash proxy jadi ini juga memberi </font><font color="#CCCCCC">kita </font>
+
+156
+00:06:26,110 --> 00:06:28,750
+ fitur <font color="#E5E5E5">proksi berbasis tab sehingga kami bisa </font>
+
+157
+00:06:28,750 --> 00:06:30,310
+ tulis <font color="#E5E5E5">di sini alamat web yang kami </font>
+
+158
+00:06:30,310 --> 00:06:31,810
+ ingin <font color="#E5E5E5">membuka jadi biar saya tulis di sini </font>
+
+159
+00:06:31,810 --> 00:06:34,389
+ google.com <font color="#E5E5E5">dan situs web ini </font><font color="#CCCCCC">juga menyediakan </font>
+
+160
+00:06:34,389 --> 00:06:35,949
+ <font color="#CCCCCC">kami fitur </font><font color="#E5E5E5">memilih proxy </font>
+
+161
+00:06:35,949 --> 00:06:37,810
+ lokasi apakah Anda ingin menggunakan <font color="#CCCCCC">proxy </font>
+
+162
+00:06:37,810 --> 00:06:41,169
+ <font color="#E5E5E5">server </font><font color="#CCCCCC">Amerika Serikat Jerman atau Belanda </font>
+
+163
+00:06:41,169 --> 00:06:43,120
+ klik di <font color="#E5E5E5">sini ke Jerman dan kamu bisa </font>
+
+164
+00:06:43,120 --> 00:06:44,669
+ klik <font color="#CCCCCC">di sini nan mengunjungi secara anonim </font>
+
+165
+00:06:44,669 --> 00:06:48,909
+ <font color="#E5E5E5">dan Anda akan melihat di sini </font><font color="#CCCCCC">bahwa </font><font color="#E5E5E5">Google dari </font>
+
+166
+00:06:48,909 --> 00:06:53,099
+ Jerman adalah pengetahuan terbuka <font color="#CCCCCC">hanya memverifikasi </font>
+
+167
+00:06:57,539 --> 00:07:02,710
+ dan di sini Anda dapat melihat ISP <font color="#E5E5E5">IP kami </font>
+
+168
+00:07:02,710 --> 00:07:05,889
+ <font color="#E5E5E5">alamat bersama dengan </font><font color="#CCCCCC">nama </font><font color="#E5E5E5">negara </font><font color="#CCCCCC">jadi </font>
+
+169
+00:07:05,889 --> 00:07:08,529
+ Anda <font color="#E5E5E5">dapat menggunakan kedua situs ini secara berurutan </font>
+
+170
+00:07:08,529 --> 00:07:11,529
+ untuk menggunakan proksi berbasis tab <font color="#E5E5E5">tetapi bagaimana jika jika </font>
+
+171
+00:07:11,529 --> 00:07:13,930
+ kami ingin <font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">proxy berbasis browser </font>
+
+172
+00:07:13,930 --> 00:07:16,960
+ bahwa jika <font color="#E5E5E5">Anda membuka tab yang berbeda dan </font><font color="#CCCCCC">itu </font>
+
+173
+00:07:16,960 --> 00:07:19,360
+ juga akan <font color="#E5E5E5">terpengaruh oleh proksi itu </font>
+
+174
+00:07:19,360 --> 00:07:21,909
+ <font color="#E5E5E5">jadi sebelum </font><font color="#CCCCCC">memulai dengan </font><font color="#E5E5E5">itu </font>
+
+175
+00:07:21,909 --> 00:07:23,919
+ <font color="#E5E5E5">proxy </font><font color="#CCCCCC">berbasis browser </font><font color="#E5E5E5">adalah hal pertama yang kami </font>
+
+176
+00:07:23,919 --> 00:07:25,419
+ harus <font color="#CCCCCC">tahu </font><font color="#E5E5E5">apakah itu berbasis browser </font>
+
+177
+00:07:25,419 --> 00:07:28,659
+ Proxy bekerja setelah mengkonfigurasi 
+
+178
+00:07:28,659 --> 00:07:30,580
+ pengaturan jaringan browser jadi yang artinya 
+
+179
+00:07:30,580 --> 00:07:32,680
+ pertama- <font color="#E5E5E5">tama yang harus kita lakukan adalah kita </font>
+
+180
+00:07:32,680 --> 00:07:34,449
+ harus <font color="#E5E5E5">mencari tahu proxy yang mana </font>
+
+181
+00:07:34,449 --> 00:07:36,999
+ tersedia <font color="#CCCCCC">dan mendengarkan </font><font color="#E5E5E5">dan kemudian kita bisa </font>
+
+182
+00:07:36,999 --> 00:07:40,089
+ gunakan <font color="#CCCCCC">proxy itu atau alamat IP di kami </font>
+
+183
+00:07:40,089 --> 00:07:42,520
+ <font color="#E5E5E5">pengaturan jaringan browser jadi di sini Anda bisa </font>
+
+184
+00:07:42,520 --> 00:07:44,560
+ <font color="#E5E5E5">lihat bahwa di sini adalah salah satu situs web yang disebut sebagai </font>
+
+185
+00:07:44,560 --> 00:07:47,289
+ daftar proxy gratis dotnet <font color="#E5E5E5">dan itu menyediakan </font>
+
+186
+00:07:47,289 --> 00:07:49,449
+ kami daftar proxy gratis sehingga Anda <font color="#E5E5E5">dapat melihat </font>
+
+187
+00:07:49,449 --> 00:07:51,550
+ disini semua <font color="#E5E5E5">alamat IP </font><font color="#CCCCCC">jadi IP ini </font>
+
+188
+00:07:51,550 --> 00:07:53,469
+ alamat <font color="#CCCCCC">adalah dari server proxy bersama </font>
+
+189
+00:07:53,469 --> 00:07:55,089
+ dengan <font color="#E5E5E5">port di sini Anda dapat melihat </font>
+
+190
+00:07:55,089 --> 00:07:57,279
+ protokol <font color="#E5E5E5">anonimitas bersama dengan </font>
+
+191
+00:07:57,279 --> 00:07:59,949
+ <font color="#E5E5E5">negara dan waktu siaga dan respons dan </font>
+
+192
+00:07:59,949 --> 00:08:02,800
+ transfer rate <font color="#E5E5E5">jadi tergantung pada Anda </font>
+
+193
+00:08:02,800 --> 00:08:06,370
+ <font color="#E5E5E5">Anda perlu dapat </font><font color="#CCCCCC">memilih salah satu dari mereka jadi hanya </font>
+
+194
+00:08:06,370 --> 00:08:09,520
+ <font color="#E5E5E5">misalnya</font><font color="#CCCCCC"> jika saya </font><font color="#E5E5E5">ingin menggunakan proxy ini </font>
+
+195
+00:08:09,520 --> 00:08:12,009
+ jadi saya bisa <font color="#E5E5E5">menyalin </font><font color="#CCCCCC">alamat </font><font color="#E5E5E5">IP ini </font><font color="#CCCCCC">lalu apa </font>
+
+196
+00:08:12,009 --> 00:08:15,129
+ Yang harus saya lakukan adalah saya harus <font color="#E5E5E5">pergi ke sini </font>
+
+197
+00:08:15,129 --> 00:08:17,589
+ pengaturan browser saya jadi saya menggunakan Mozilla 
+
+198
+00:08:17,589 --> 00:08:19,569
+ Firefox jadi mari kita pergi ke sini untuk <font color="#E5E5E5">opsi </font>
+
+199
+00:08:19,569 --> 00:08:22,330
+ <font color="#E5E5E5">kemudian maju maka kita harus pergi ke sini </font>
+
+200
+00:08:22,330 --> 00:08:23,979
+ <font color="#E5E5E5">jaringan dan di sini Anda bisa melihat </font>
+
+201
+00:08:23,979 --> 00:08:26,050
+ mengkonfigurasi bagaimana Firefox terhubung ke 
+
+202
+00:08:26,050 --> 00:08:28,509
+ <font color="#CCCCCC">Internet sekarang klik pengaturannya </font><font color="#E5E5E5">di sini </font>
+
+203
+00:08:28,509 --> 00:08:30,879
+ secara default <font color="#CCCCCC">peramban kami berfungsi dengan ini </font>
+
+204
+00:08:30,879 --> 00:08:33,458
+ menggunakan pengaturan proxy sistem <font color="#E5E5E5">dan di sini kita </font>
+
+205
+00:08:33,458 --> 00:08:35,529
+ ingin <font color="#E5E5E5">secara manual mengkonfigurasi proxy </font>
+
+206
+00:08:35,529 --> 00:08:37,958
+ <font color="#E5E5E5">pengaturan jadi mari kita paste alamat IP di sini </font>
+
+207
+00:08:37,958 --> 00:08:42,399
+ yang kami ingin <font color="#E5E5E5">gunakan sebagai proxy dan di sini </font>
+
+208
+00:08:42,399 --> 00:08:44,319
+ kita harus <font color="#CCCCCC">menuliskan </font><font color="#E5E5E5">port jadi </font><font color="#CCCCCC">mari kita </font>
+
+209
+00:08:44,319 --> 00:08:46,540
+ <font color="#CCCCCC">kembali ke sini </font><font color="#E5E5E5">dan Anda </font><font color="#CCCCCC">dapat melihat bahwa </font>
+
+210
+00:08:46,540 --> 00:08:47,079
+ <font color="#CCCCCC">tuangkan tes </font>
+
+211
+00:08:47,079 --> 00:08:50,260
+ <font color="#CCCCCC">8:08 satu jadi biar saya tulis saja di sini </font>
+
+212
+00:08:50,260 --> 00:08:53,640
+ <font color="#CCCCCC">nomor port </font><font color="#E5E5E5">yang </font><font color="#CCCCCC">delapan oh </font>
+
+213
+00:08:53,640 --> 00:08:56,550
+ <font color="#E5E5E5">8: 1 </font><font color="#CCCCCC">dan jika Anda ingin menggunakan proxy ini </font>
+
+214
+00:08:56,550 --> 00:08:58,740
+ untuk <font color="#E5E5E5">protokol CD PS juga </font><font color="#CCCCCC">FTP </font>
+
+215
+00:08:58,740 --> 00:09:01,500
+ protokol juga <font color="#E5E5E5">maka </font><font color="#CCCCCC">Anda bisa </font><font color="#E5E5E5">memeriksanya </font>
+
+216
+00:09:01,500 --> 00:09:05,490
+ kotak centang ini dan klik <font color="#CCCCCC">OK </font><font color="#E5E5E5">sekarang jika saya </font>
+
+217
+00:09:05,490 --> 00:09:16,230
+ di langkah berikutnya saya buka google.com dan masuk 
+
+218
+00:09:16,230 --> 00:09:18,060
+ <font color="#CCCCCC">tab berikutnya membiarkan saya membuka apa </font><font color="#E5E5E5">IP </font><font color="#CCCCCC">saya </font>
+
+219
+00:09:18,060 --> 00:09:24,630
+ alamat <font color="#CCCCCC">komunikasi sehingga Anda dapat melihat di sini </font><font color="#E5E5E5">sekarang kami </font>
+
+220
+00:09:24,630 --> 00:09:27,060
+ <font color="#CCCCCC">Alamat IP </font><font color="#E5E5E5">Rusia di sini dapat Anda lihat </font>
+
+221
+00:09:27,060 --> 00:09:29,070
+ negara bersama <font color="#CCCCCC">dengan alamat IP </font><font color="#E5E5E5">yang </font>
+
+222
+00:09:29,070 --> 00:09:32,790
+ berarti sekarang seluruh browser kami terpengaruh 
+
+223
+00:09:32,790 --> 00:09:35,220
+ oleh proxy ini jadi ini adalah bagaimana browser 
+
+224
+00:09:35,220 --> 00:09:37,050
+ proxy berbasis bekerja sehingga ada <font color="#CCCCCC">banyak </font>
+
+225
+00:09:37,050 --> 00:09:39,300
+ situs web <font color="#E5E5E5">dari mana Anda bisa mendapatkan gratis </font>
+
+226
+00:09:39,300 --> 00:09:41,490
+ <font color="#E5E5E5">daftar proxy jadi contoh lain dari </font>
+
+227
+00:09:41,490 --> 00:09:43,800
+ web <font color="#E5E5E5">situs web ini adalah kami proxy dot </font><font color="#CCCCCC">org </font><font color="#E5E5E5">dan </font>
+
+228
+00:09:43,800 --> 00:09:46,500
+ di sini Anda <font color="#E5E5E5">juga bisa mendapatkan proxy gratis </font>
+
+229
+00:09:46,500 --> 00:09:49,350
+ daftar jadi ini adalah bagaimana <font color="#E5E5E5">browser berbasis </font>
+
+230
+00:09:49,350 --> 00:09:53,130
+ Proxy bekerja <font color="#E5E5E5">tetapi tetapi jika jika Anda mau </font>
+
+231
+00:09:53,130 --> 00:09:56,490
+ gunakan proxy <font color="#E5E5E5">untuk seluruh sistem Anda berarti </font>
+
+232
+00:09:56,490 --> 00:09:59,940
+ jika sistem Anda membuat <font color="#E5E5E5">permintaan </font><font color="#CCCCCC">apa pun </font>
+
+233
+00:09:59,940 --> 00:10:02,220
+ <font color="#CCCCCC">internet dan </font><font color="#E5E5E5">Anda menginginkan hal itu </font>
+
+234
+00:10:02,220 --> 00:10:04,260
+ permintaan akan melewati <font color="#E5E5E5">proxy itu </font>
+
+235
+00:10:04,260 --> 00:10:07,050
+ <font color="#CCCCCC">apa yang bisa kita </font><font color="#E5E5E5">lakukan adakah solusi ya </font>
+
+236
+00:10:07,050 --> 00:10:09,480
+ ada beberapa <font color="#E5E5E5">sistem operasi atau </font>
+
+237
+00:10:09,480 --> 00:10:12,090
+ ada beberapa alat proksi sistem yang 
+
+238
+00:10:12,090 --> 00:10:14,100
+ <font color="#E5E5E5">bisa kita gunakan </font><font color="#CCCCCC">untuk mengatur sistem kita </font>
+
+239
+00:10:14,100 --> 00:10:16,800
+ di belakang <font color="#CCCCCC">server proxy jadi ada satu </font>
+
+240
+00:10:16,800 --> 00:10:19,560
+ <font color="#E5E5E5">proxy berbasis sistem yang paling umum digunakan </font>
+
+241
+00:10:19,560 --> 00:10:21,210
+ sistem operasi <font color="#E5E5E5">yang disebut sebagai Unix </font>
+
+242
+00:10:21,210 --> 00:10:24,450
+ <font color="#E5E5E5">jadi Anda bisa mengunduh UNIX dari sini </font>
+
+243
+00:10:24,450 --> 00:10:26,370
+ <font color="#E5E5E5">dari </font><font color="#CCCCCC">website </font><font color="#E5E5E5">resmi mereka runing </font><font color="#CCCCCC">mencolok </font>
+
+244
+00:10:26,370 --> 00:10:29,010
+ <font color="#E5E5E5">dan sistem operasi UNIX adalah </font>
+
+245
+00:10:29,010 --> 00:10:32,220
+ sebenarnya <font color="#E5E5E5">berdasarkan proksi tar tar jadi jika </font>
+
+246
+00:10:32,220 --> 00:10:35,040
+ Anda tidak tahu apa itu <font color="#CCCCCC">proxy todd </font><font color="#E5E5E5">jadi </font>
+
+247
+00:10:35,040 --> 00:10:37,440
+ situs web resmi dari proxy tar ada di 
+
+248
+00:10:37,440 --> 00:10:40,170
+ membintangi <font color="#CCCCCC">project.org </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">proxy tor adalah </font>
+
+249
+00:10:40,170 --> 00:10:42,390
+ sebenarnya salah satu proxy anonim terbaik 
+
+250
+00:10:42,390 --> 00:10:44,370
+ yang dapat kita gunakan <font color="#CCCCCC">untuk</font><font color="#E5E5E5"> membuka </font>
+
+251
+00:10:44,370 --> 00:10:46,710
+ aplikasi web <font color="#CCCCCC">atau situs web apa pun </font><font color="#E5E5E5">jadi tor </font>
+
+252
+00:10:46,710 --> 00:10:48,420
+ proxy dilengkapi dengan <font color="#CCCCCC">browser </font><font color="#E5E5E5">tor </font><font color="#CCCCCC">yang </font>
+
+253
+00:10:48,420 --> 00:10:50,730
+ berarti sekali <font color="#E5E5E5">proxy tar mengaturnya </font>
+
+254
+00:10:50,730 --> 00:10:53,130
+ maka kita dapat mengaksesnya <font color="#CCCCCC">secara khusus </font>
+
+255
+00:10:53,130 --> 00:10:55,860
+ situs web dengan <font color="#CCCCCC">menggunakan proxy tor </font><font color="#E5E5E5">dan dengan menggunakan </font>
+
+256
+00:10:55,860 --> 00:10:58,140
+ <font color="#E5E5E5">browser tor ini sehingga Anda </font><font color="#CCCCCC">dapat </font><font color="#E5E5E5">mengunduh </font>
+
+257
+00:10:58,140 --> 00:11:00,060
+ untuk browser <font color="#E5E5E5">dari sini </font><font color="#CCCCCC">jika Anda tidak mau </font>
+
+258
+00:11:00,060 --> 00:11:01,890
+ untuk menggunakan sistem proxy dan Anda hanya <font color="#CCCCCC">ingin </font>
+
+259
+00:11:01,890 --> 00:11:04,170
+ gunakan <font color="#E5E5E5">browser tor lalu Anda dapat mengunduh </font>
+
+260
+00:11:04,170 --> 00:11:06,030
+ <font color="#E5E5E5">browser toko dari sini dan ini adalah sebuah </font>
+
+261
+00:11:06,030 --> 00:11:07,710
+ <font color="#CCCCCC">sumber terbuka </font>
+
+262
+00:11:07,710 --> 00:11:09,810
+ jadi sistem operasi pagi ini 
+
+263
+00:11:09,810 --> 00:11:12,690
+ sebenarnya <font color="#E5E5E5">dilengkapi dengan gerbang UNIX dan </font>
+
+264
+00:11:12,690 --> 00:11:15,810
+ <font color="#CCCCCC">permintaan apa pun yang akan kami buat oleh UNIX </font>
+
+265
+00:11:15,810 --> 00:11:17,520
+ sistem operasi <font color="#E5E5E5">akan melewati </font>
+
+266
+00:11:17,520 --> 00:11:20,870
+ <font color="#E5E5E5">Gerbang UNIX dan kemudian akan pergi ke </font>
+
+267
+00:11:20,870 --> 00:11:24,360
+ <font color="#E5E5E5">node proxy tower yang berbeda jadi biarkan aku </font>
+
+268
+00:11:24,360 --> 00:11:25,680
+ tunjukkan di <font color="#E5E5E5">sini ke situs </font><font color="#CCCCCC">web </font><font color="#E5E5E5">resmi mereka </font>
+
+269
+00:11:25,680 --> 00:11:28,200
+ <font color="#CCCCCC">jadi di sini Anda dapat melihat arsitektur </font>
+
+270
+00:11:28,200 --> 00:11:30,480
+ UNIX workstation jadi di sini Anda bisa melihat 
+
+271
+00:11:30,480 --> 00:11:32,700
+ <font color="#E5E5E5">bahwa dalam kotak hijau ini adalah </font>
+
+272
+00:11:32,700 --> 00:11:35,100
+ aplikasi yang akan kami <font color="#CCCCCC">gunakan </font><font color="#E5E5E5">dalam </font>
+
+273
+00:11:35,100 --> 00:11:36,690
+ Workstation UNIX sehingga Anda dapat menggunakan apapun 
+
+274
+00:11:36,690 --> 00:11:39,570
+ aplikasi begitu sama lihat yang bisa kita katakan 
+
+275
+00:11:39,570 --> 00:11:42,420
+ bahwa itu adalah browser Firefox, <font color="#CCCCCC">begitu pun </font>
+
+276
+00:11:42,420 --> 00:11:45,210
+ <font color="#CCCCCC">permintaan </font><font color="#E5E5E5">yang akan kami buat melalui UNIX </font>
+
+277
+00:11:45,210 --> 00:11:47,190
+ workstation akan melewati UNIX 
+
+278
+00:11:47,190 --> 00:11:50,220
+ gerbang dan kemudian akan menuju ke 
+
+279
+00:11:50,220 --> 00:11:51,960
+ <font color="#E5E5E5">node yang berbeda dan di sini Anda dapat melihat kami </font>
+
+280
+00:11:51,960 --> 00:11:54,210
+ <font color="#E5E5E5">node pertama jadi node pertama </font><font color="#CCCCCC">sebenarnya </font>
+
+281
+00:11:54,210 --> 00:11:56,190
+ <font color="#E5E5E5">atau Anda dapat mengatakan bahwa itu adalah proxy, </font><font color="#CCCCCC">maka itu </font>
+
+282
+00:11:56,190 --> 00:11:58,350
+ akan pergi <font color="#E5E5E5">ke server proxy kedua kemudian </font>
+
+283
+00:11:58,350 --> 00:12:00,000
+ <font color="#E5E5E5">server proxy ketiga dan yang ketiga </font>
+
+284
+00:12:00,000 --> 00:12:02,100
+ node <font color="#E5E5E5">juga disebut sebagai node keluar dari </font>
+
+285
+00:12:02,100 --> 00:12:05,790
+ <font color="#E5E5E5">di mana permintaan kami akan keluar dan di sini </font>
+
+286
+00:12:05,790 --> 00:12:08,960
+ <font color="#E5E5E5">akhirnya website kami akan menuju a </font>
+
+287
+00:12:08,960 --> 00:12:12,240
+ <font color="#E5E5E5">situs web yang kami ingin buka jadi ini </font>
+
+288
+00:12:12,240 --> 00:12:14,580
+ bagaimana workstation wanax bekerja dan Anda <font color="#E5E5E5">bisa </font>
+
+289
+00:12:14,580 --> 00:12:17,040
+ unduh <font color="#E5E5E5">workstation UNIX untuk Windows </font>
+
+290
+00:12:17,040 --> 00:12:19,710
+ Linux dan OS tergantung pada Anda 
+
+291
+00:12:19,710 --> 00:12:21,360
+ sistem operasi <font color="#CCCCCC">jadi saya sudah </font>
+
+292
+00:12:21,360 --> 00:12:23,730
+ <font color="#CCCCCC">mengunduh sistem operasi UNIX </font><font color="#E5E5E5">dan saya </font>
+
+293
+00:12:23,730 --> 00:12:25,710
+ juga telah menginstal <font color="#E5E5E5">operasi UNIX </font>
+
+294
+00:12:25,710 --> 00:12:27,810
+ sistem <font color="#CCCCCC">begitu Anda menginstal </font><font color="#E5E5E5">UNIX </font>
+
+295
+00:12:27,810 --> 00:12:30,450
+ <font color="#E5E5E5">sistem operasi Anda akan melihat bahwa dalam </font>
+
+296
+00:12:30,450 --> 00:12:35,310
+ VirtualBox <font color="#E5E5E5">akan ada dua virtual </font>
+
+297
+00:12:35,310 --> 00:12:37,110
+ mesin <font color="#CCCCCC">yang akan </font><font color="#E5E5E5">dibuat oleh ini </font>
+
+298
+00:12:37,110 --> 00:12:41,600
+ <font color="#E5E5E5">satu X jadi jika saya </font><font color="#CCCCCC">membuka VirtualBox saya </font><font color="#E5E5E5">dan </font>
+
+299
+00:12:41,600 --> 00:12:44,070
+ <font color="#E5E5E5">di sini Anda dapat melihat dua virtual </font>
+
+300
+00:12:44,070 --> 00:12:46,470
+ mesin <font color="#E5E5E5">dinamai workstation Linux dan </font>
+
+301
+00:12:46,470 --> 00:12:50,310
+ <font color="#CCCCCC">Muniz </font><font color="#E5E5E5">gateway dibuat oleh </font><font color="#CCCCCC">Phonics </font><font color="#E5E5E5">jadi biarkan </font>
+
+302
+00:12:50,310 --> 00:12:53,070
+ <font color="#E5E5E5">saya tutup saja VirtualBox ini dan di sini </font>
+
+303
+00:12:53,070 --> 00:12:55,740
+ Anda dapat melihat bahwa di <font color="#E5E5E5">desktop saya ada </font>
+
+304
+00:12:55,740 --> 00:12:57,900
+ satu ikon disebut sebagai Linux untuk Windows 
+
+305
+00:12:57,900 --> 00:12:59,550
+ jadi saya telah menginstal <font color="#CCCCCC">operasi fonox ini </font>
+
+306
+00:12:59,550 --> 00:13:01,380
+ sistem jadi biarkan aku membuka aplikasi ini 
+
+307
+00:13:01,380 --> 00:13:04,650
+ <font color="#CCCCCC">dan di sini ada dua opsi </font><font color="#E5E5E5">mulai </font><font color="#CCCCCC">onyx </font><font color="#E5E5E5">dan </font>
+
+308
+00:13:04,650 --> 00:13:06,720
+ lanjutan jadi biarkan saya klik di <font color="#E5E5E5">sini mulai </font>
+
+309
+00:13:06,720 --> 00:13:09,030
+ <font color="#CCCCCC">Unix </font><font color="#E5E5E5">segera setelah saya klik di </font><font color="#CCCCCC">sini </font>
+
+310
+00:13:09,030 --> 00:13:11,970
+ <font color="#CCCCCC">mulai onyx dua mesin virtual </font>
+
+311
+00:13:11,970 --> 00:13:15,300
+ <font color="#E5E5E5">yang merupakan workstation UNIX dan UNIX </font>
+
+312
+00:13:15,300 --> 00:13:17,850
+ <font color="#E5E5E5">gerbang terbuka dan di sini Anda dapat melihat </font>
+
+313
+00:13:17,850 --> 00:13:19,560
+ bahwa <font color="#E5E5E5">itu adalah workstation UNIX jadi biarkan aku </font>
+
+314
+00:13:19,560 --> 00:13:20,499
+ mulai <font color="#E5E5E5">ini </font>
+
+315
+00:13:20,499 --> 00:13:23,889
+ UNIX workstation dan tepat setelah <font color="#E5E5E5">itu </font>
+
+316
+00:13:23,889 --> 00:13:26,559
+ <font color="#E5E5E5">gerbang </font><font color="#CCCCCC">bonus </font><font color="#E5E5E5">juga berjalan di sini Anda bisa </font>
+
+317
+00:13:26,559 --> 00:13:32,849
+ lihat, ayo tunggu 
+
+318
+00:14:29,370 --> 00:14:31,740
+ dan di sini Anda <font color="#E5E5E5">dapat melihat bahwa UNIX kami </font>
+
+319
+00:14:31,740 --> 00:14:34,110
+ workstation <font color="#E5E5E5">sudah aktif dan berjalan di </font><font color="#CCCCCC">sini Anda </font>
+
+320
+00:14:34,110 --> 00:14:36,870
+ dapat melihat <font color="#E5E5E5">desktop-nya </font><font color="#CCCCCC">dan sekarang mari kita lihat </font>
+
+321
+00:14:36,870 --> 00:14:40,470
+ bagaimana <font color="#CCCCCC">gerbang onyx terlihat seperti dan di sini Anda </font>
+
+322
+00:14:40,470 --> 00:14:43,080
+ dapat <font color="#E5E5E5">melihat gerbang pernis sehingga Anda bisa </font>
+
+323
+00:14:43,080 --> 00:14:44,580
+ ubah semua pengaturan jaringan dari 
+
+324
+00:14:44,580 --> 00:14:47,250
+ <font color="#E5E5E5">gerbang uniess dan efeknya </font>
+
+325
+00:14:47,250 --> 00:14:51,140
+ pengaturan dapat <font color="#CCCCCC">dilihat di workstation UNIX </font>
+
+326
+00:14:51,140 --> 00:14:53,910
+ jadi sekarang izinkan saya <font color="#CCCCCC">pergi </font><font color="#E5E5E5">ke workstation UNIX </font>
+
+327
+00:14:53,910 --> 00:14:56,370
+ <font color="#E5E5E5">dan biarkan saya tunjukkan bagaimana onyx bekerja begitu </font>
+
+328
+00:14:56,370 --> 00:14:58,020
+ di sini Anda <font color="#E5E5E5">dapat melihat workstation UNIX </font>
+
+329
+00:14:58,020 --> 00:15:04,710
+ dan biarkan aku pergi di sini biarkan <font color="#E5E5E5">aku pergi ke Internet </font>
+
+330
+00:15:04,710 --> 00:15:08,700
+ <font color="#CCCCCC">dan biarkan aku klik di sini, </font><font color="#E5E5E5">jadi itu </font>
+
+331
+00:15:08,700 --> 00:15:10,350
+ browser tor yang sama saat ini <font color="#E5E5E5">tidak </font>
+
+332
+00:15:10,350 --> 00:15:12,779
+ terpasang <font color="#E5E5E5">tetapi jangan khawatir kami </font><font color="#CCCCCC">bisa membuka </font>
+
+333
+00:15:12,779 --> 00:15:15,830
+ <font color="#CCCCCC">Firefox </font><font color="#E5E5E5">juga </font>
+
+334
+00:15:22,460 --> 00:15:24,950
+ sekarang di sini Anda <font color="#E5E5E5">dapat </font><font color="#CCCCCC">melihat itu </font><font color="#E5E5E5">segera </font><font color="#CCCCCC">setelah kami </font>
+
+335
+00:15:24,950 --> 00:15:27,950
+ mulai <font color="#CCCCCC">workstation UNIX ini </font><font color="#E5E5E5">Finlandia </font>
+
+336
+00:15:27,950 --> 00:15:31,760
+ workstation sepenuhnya akan ditutup oleh <font color="#CCCCCC">tor </font>
+
+337
+00:15:31,760 --> 00:15:35,870
+ proxy <font color="#E5E5E5">dan jika saya membuka </font><font color="#CCCCCC">dan dan jika saya </font><font color="#E5E5E5">membuka saya </font>
+
+338
+00:15:35,870 --> 00:15:37,910
+ Mozilla Firefox dan buka apa IP saya 
+
+339
+00:15:37,910 --> 00:15:40,339
+ alamat <font color="#CCCCCC">com di sini Anda akan </font><font color="#E5E5E5">melihat itu di sana </font>
+
+340
+00:15:40,339 --> 00:15:43,130
+ tidak perlu <font color="#E5E5E5">menyiapkan proxy </font>
+
+341
+00:15:43,130 --> 00:15:45,080
+ <font color="#E5E5E5">pengaturan atau tidak perlu </font><font color="#CCCCCC">digunakan </font>
+
+342
+00:15:45,080 --> 00:15:47,660
+ <font color="#E5E5E5">proxy karena yang satu ini adalah workstation </font>
+
+343
+00:15:47,660 --> 00:15:49,970
+ <font color="#E5E5E5">proxy itu sendiri </font><font color="#CCCCCC">dan di sini Anda bisa melihat </font>
+
+344
+00:15:49,970 --> 00:15:52,279
+ <font color="#E5E5E5">bahwa alamat IP kami Anda dapat melihat ISP </font>
+
+345
+00:15:52,279 --> 00:15:55,279
+ <font color="#E5E5E5">University of Waterloo dan di sini Anda bisa </font>
+
+346
+00:15:55,279 --> 00:15:57,440
+ <font color="#E5E5E5">lihat bahwa itu di simpul keluar kami yang </font>
+
+347
+00:15:57,440 --> 00:15:59,690
+ berarti itu adalah <font color="#E5E5E5">server toko besar dari </font>
+
+348
+00:15:59,690 --> 00:16:03,200
+ <font color="#E5E5E5">dimanapun permintaan akan keluar dan bahkan </font>
+
+349
+00:16:03,200 --> 00:16:06,020
+ <font color="#E5E5E5">jika Anda melakukan ping situs web tertentu kemudian </font>
+
+350
+00:16:06,020 --> 00:16:09,170
+ permintaan ping Anda juga akan dibahas 
+
+351
+00:16:09,170 --> 00:16:16,550
+ oleh <font color="#CCCCCC">server proxy tor jadi biarkan </font><font color="#E5E5E5">aku terbuka </font>
+
+352
+00:16:16,550 --> 00:16:22,570
+ <font color="#E5E5E5">konsol ini dan izinkan saya memasang google.com </font>
+
+353
+00:16:28,290 --> 00:16:30,330
+ dan di sini Anda dapat melihat bahwa itu akan <font color="#CCCCCC">membutuhkan </font>
+
+354
+00:16:30,330 --> 00:16:33,900
+ <font color="#E5E5E5">sedikit waktu mengapa karena </font><font color="#CCCCCC">permintaan </font><font color="#E5E5E5">kami </font>
+
+355
+00:16:33,900 --> 00:16:36,030
+ <font color="#E5E5E5">pertama-tama akan melewati </font><font color="#CCCCCC">berbeda </font>
+
+356
+00:16:36,030 --> 00:16:41,070
+ <font color="#E5E5E5">node </font><font color="#CCCCCC">menara </font><font color="#E5E5E5">dan kemudian akan mencapai </font>
+
+357
+00:16:41,070 --> 00:16:43,980
+ google.com <font color="#E5E5E5">jadi ini adalah cara yang bisa kami </font><font color="#CCCCCC">gunakan </font>
+
+358
+00:16:43,980 --> 00:16:47,910
+ UNIX <font color="#CCCCCC">Delta proxy sistem </font><font color="#E5E5E5">dan kemudian tab </font>
+
+359
+00:16:47,910 --> 00:16:50,250
+ proksi berbasis dan proxy berbasis browser 
+
+360
+00:16:50,250 --> 00:16:52,740
+ <font color="#E5E5E5">Anda tahu </font><font color="#CCCCCC">untuk menyembunyikan </font><font color="#E5E5E5">alamat </font><font color="#CCCCCC">IP kami </font>
+
+361
+00:16:52,740 --> 00:16:56,250
+ dan menjadi <font color="#E5E5E5">anonim </font><font color="#CCCCCC">jadi di </font><font color="#E5E5E5">video ini kita </font>
+
+362
+00:16:56,250 --> 00:16:58,320
+ telah <font color="#E5E5E5">membahas bahwa apa itu proxy dan bagaimana caranya </font>
+
+363
+00:16:58,320 --> 00:17:00,540
+ kita bisa menggunakan proxy yang berbeda <font color="#E5E5E5">untuk </font>
+
+364
+00:17:00,540 --> 00:17:02,880
+ menyembunyikan alamat IP kami <font color="#CCCCCC">dan menjelajah internet </font>
+
+365
+00:17:02,880 --> 00:17:05,160
+ secara anonim <font color="#E5E5E5">jadi terima kasih untuk menonton </font><font color="#CCCCCC">ini </font>
+
+366
+00:17:05,160 --> 00:00:00,000
+ video 
+

@@ -1,0 +1,208 @@
+1
+00:00:00,060 --> 00:00:02,760
+ Halo semua orang di <font color="#CCCCCC">video ini kita akan bicara </font>
+
+2
+00:00:02,760 --> 00:00:05,220
+ tentang virtualisasi <font color="#CCCCCC">jadi apa </font>
+
+3
+00:00:05,220 --> 00:00:07,589
+ virtualisasi sehingga virtualisasi dalam 
+
+4
+00:00:07,589 --> 00:00:09,750
+ istilah komputer <font color="#E5E5E5">itu sebenarnya berarti </font>
+
+5
+00:00:09,750 --> 00:00:12,269
+ <font color="#E5E5E5">duplikasi perangkat keras komputer </font><font color="#CCCCCC">juga </font>
+
+6
+00:00:12,269 --> 00:00:14,910
+ <font color="#E5E5E5">sebagai perangkat lunak jadi apa artinya </font>
+
+7
+00:00:14,910 --> 00:00:16,980
+ <font color="#CCCCCC">jadi dengan </font><font color="#E5E5E5">bantuan virtualisasi kami </font>
+
+8
+00:00:16,980 --> 00:00:19,080
+ dapat <font color="#E5E5E5">memanfaatkan komputer dengan benar </font>
+
+9
+00:00:19,080 --> 00:00:21,720
+ perangkat keras <font color="#CCCCCC">dan prosesornya </font><font color="#E5E5E5">bahkan dengan </font>
+
+10
+00:00:21,720 --> 00:00:24,119
+ bantuan virtualisasi yang <font color="#CCCCCC">dapat kita buat </font><font color="#E5E5E5">dan </font>
+
+11
+00:00:24,119 --> 00:00:26,189
+ <font color="#E5E5E5">menginstal sistem operasi yang berbeda dalam </font>
+
+12
+00:00:26,189 --> 00:00:28,289
+ <font color="#E5E5E5">sistem operasi tunggal jadi di sini Anda bisa </font>
+
+13
+00:00:28,289 --> 00:00:30,240
+ lihat bahwa ini adalah <font color="#E5E5E5">komputer tunggal atau </font>
+
+14
+00:00:30,240 --> 00:00:31,890
+ <font color="#E5E5E5">sistem operasi tunggal dan dengan </font>
+
+15
+00:00:31,890 --> 00:00:33,719
+ bantuan teknik virtualisasi yang <font color="#CCCCCC">kami bisa </font>
+
+16
+00:00:33,719 --> 00:00:35,760
+ menginstal <font color="#CCCCCC">sistem operasi </font><font color="#E5E5E5">sub yang berbeda </font>
+
+17
+00:00:35,760 --> 00:00:38,670
+ di dalamnya <font color="#E5E5E5">jadi yang paling populer </font>
+
+18
+00:00:38,670 --> 00:00:41,309
+ perangkat lunak <font color="#CCCCCC">yang digunakan untuk </font>
+
+19
+00:00:41,309 --> 00:00:43,710
+ <font color="#CCCCCC">melakukan virtualisasi </font><font color="#E5E5E5">tsar Oracle </font>
+
+20
+00:00:43,710 --> 00:00:46,710
+ VirtualBox <font color="#E5E5E5">dan VMware </font><font color="#CCCCCC">jadi sekarang mari kita lihat </font>
+
+21
+00:00:46,710 --> 00:00:48,750
+ bagaimana kita dapat menginstal salah satu <font color="#CCCCCC">dari mereka </font><font color="#E5E5E5">yang </font>
+
+22
+00:00:48,750 --> 00:00:51,870
+ <font color="#E5E5E5">Oracle VirtualBox di sistem kami sekarang </font>
+
+23
+00:00:51,870 --> 00:00:53,670
+ mari kita lihat <font color="#E5E5E5">bagaimana cara menginstalnya </font>
+
+24
+00:00:53,670 --> 00:00:57,539
+ VirtualBox <font color="#E5E5E5">dalam sistem operasi kami jadi </font>
+
+25
+00:00:57,539 --> 00:01:00,270
+ di sini Anda dapat melihat bahwa <font color="#E5E5E5">sekarang</font><font color="#CCCCCC"> saya di </font>
+
+26
+00:01:00,270 --> 00:01:03,449
+ VirtualBox dot R dan di sini berbeda 
+
+27
+00:01:03,449 --> 00:01:06,299
+ unduh tautan <font color="#E5E5E5">jadi tergantung pada Anda </font>
+
+28
+00:01:06,299 --> 00:01:09,750
+ tumpuan <font color="#E5E5E5">Anda bisa mengunduh salah </font><font color="#CCCCCC">satunya </font><font color="#E5E5E5">jadi </font>
+
+29
+00:01:09,750 --> 00:01:11,729
+ Saya <font color="#E5E5E5">sudah mengunduh VirtualBox </font>
+
+30
+00:01:11,729 --> 00:01:15,119
+ <font color="#E5E5E5">setup yang bisa Anda lihat di </font><font color="#CCCCCC">desktop </font><font color="#E5E5E5">saya </font><font color="#CCCCCC">begitu </font>
+
+31
+00:01:15,119 --> 00:01:19,680
+ <font color="#CCCCCC">Saya mari kita klik dua kali pada itu </font><font color="#E5E5E5">klik </font><font color="#CCCCCC">ok </font><font color="#E5E5E5">pada </font>
+
+32
+00:01:19,680 --> 00:01:24,750
+ selanjutnya <font color="#E5E5E5">selanjutnya ok </font><font color="#CCCCCC">jadi sekarang tugas untuk berbagai </font>
+
+33
+00:01:24,750 --> 00:01:26,430
+ hal <font color="#E5E5E5">- hal seperti Anda ingin membuat </font>
+
+34
+00:01:26,430 --> 00:01:28,500
+ <font color="#E5E5E5">pintas di bilah luncur cepat yang Anda inginkan </font>
+
+35
+00:01:28,500 --> 00:01:31,430
+ <font color="#E5E5E5">untuk membuat shortcut di </font><font color="#CCCCCC">desktop </font><font color="#E5E5E5">jadi </font>
+
+36
+00:01:31,430 --> 00:01:36,990
+ hapus centang <font color="#E5E5E5">dua klik ini di </font><font color="#CCCCCC">ok </font><font color="#E5E5E5">berikutnya </font>
+
+37
+00:01:36,990 --> 00:01:41,119
+ ya <font color="#E5E5E5">dan instal </font>
+
+38
+00:01:51,399 --> 00:01:55,549
+ <font color="#E5E5E5">oke sekarang klik pada </font><font color="#CCCCCC">finish 'dan itu </font><font color="#E5E5E5">akan </font>
+
+39
+00:01:55,549 --> 00:01:58,850
+ mulai <font color="#E5E5E5">VirtualBox untuk kami </font><font color="#CCCCCC">ok </font><font color="#E5E5E5">jadi di sini Anda </font>
+
+40
+00:01:58,850 --> 00:02:01,880
+ <font color="#E5E5E5">dapat melihat bahwa sistem menu pertama </font>
+
+41
+00:02:01,880 --> 00:02:05,119
+ Oracle VM VirtualBox <font color="#CCCCCC">jadi di sini adalah </font>
+
+42
+00:02:05,119 --> 00:02:08,449
+ <font color="#E5E5E5">beberapa opsi seperti bantuan mesin file </font>
+
+43
+00:02:08,449 --> 00:02:12,110
+ jadi dengan mengklik <font color="#CCCCCC">baru kita </font><font color="#E5E5E5">bisa membuat </font>
+
+44
+00:02:12,110 --> 00:02:15,200
+ mesin virtual baru <font color="#CCCCCC">dan dengan </font><font color="#E5E5E5">mengklik </font>
+
+45
+00:02:15,200 --> 00:02:17,660
+ file <font color="#E5E5E5">kita dapat mengimpor alat kami dan kami </font>
+
+46
+00:02:17,660 --> 00:02:20,390
+ dapat mengekspor alat <font color="#CCCCCC">jadi di sini Anda </font><font color="#E5E5E5">bisa </font>
+
+47
+00:02:20,390 --> 00:02:23,299
+ juga mengubah beberapa <font color="#E5E5E5">pengaturan jaringan </font>
+
+48
+00:02:23,299 --> 00:02:25,519
+ ini semua <font color="#E5E5E5">tentang video ini jadi di </font>
+
+49
+00:02:25,519 --> 00:02:27,769
+ <font color="#CCCCCC">video berikutnya </font><font color="#E5E5E5">saya akan menunjukkan kepada Anda bagaimana kita </font>
+
+50
+00:02:27,769 --> 00:02:29,989
+ dapat <font color="#E5E5E5">menginstal Kali Linux di dalam </font>
+
+51
+00:02:29,989 --> 00:02:32,420
+ <font color="#CCCCCC">Terima kasih VirtualBox untuk </font><font color="#E5E5E5">menonton ini </font>
+
+52
+00:02:32,420 --> 00:00:00,000
+ video 
+

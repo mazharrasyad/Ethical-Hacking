@@ -1,0 +1,1844 @@
+1
+00:00:00,060 --> 00:00:02,639
+ Halo semua orang <font color="#E5E5E5">di </font><font color="#CCCCCC">video </font><font color="#E5E5E5">ini </font><font color="#CCCCCC">kita akan bicara </font>
+
+2
+00:00:02,639 --> 00:00:04,500
+ <font color="#CCCCCC">tentang </font><font color="#E5E5E5">jenis pemrograman yang </font><font color="#CCCCCC">unik </font>
+
+3
+00:00:04,500 --> 00:00:06,600
+ bahasa yang digunakan <font color="#CCCCCC">pada </font><font color="#E5E5E5">Windows di Windows Vista </font>
+
+4
+00:00:06,600 --> 00:00:09,059
+ untuk mengotomatiskan <font color="#E5E5E5">tugas </font><font color="#CCCCCC">sehari-hari </font><font color="#E5E5E5">dan </font>
+
+5
+00:00:09,059 --> 00:00:11,010
+ <font color="#E5E5E5">bahasa pemrograman itu disebut sebagai </font>
+
+6
+00:00:11,010 --> 00:00:13,860
+ <font color="#E5E5E5">bahasa pemrograman terbaik dan </font><font color="#CCCCCC">terbaik </font><font color="#E5E5E5">ini </font>
+
+7
+00:00:13,860 --> 00:00:15,660
+ bahasa pemrograman <font color="#E5E5E5">juga digunakan oleh </font>
+
+8
+00:00:15,660 --> 00:00:18,510
+ peretas <font color="#E5E5E5">dan </font><font color="#CCCCCC">pelacak </font><font color="#E5E5E5">untuk membuat </font>
+
+9
+00:00:18,510 --> 00:00:20,460
+ beberapa file berbahaya dan dengan bantuan 
+
+10
+00:00:20,460 --> 00:00:22,320
+ itu file <font color="#E5E5E5">peretas dan </font>
+
+11
+00:00:22,320 --> 00:00:24,029
+ biskuit <font color="#E5E5E5">bisa melakukan beberapa hal jahat </font>
+
+12
+00:00:24,029 --> 00:00:26,070
+ kegiatan pada sistem tertentu <font color="#CCCCCC">demikian </font>
+
+13
+00:00:26,070 --> 00:00:27,990
+ <font color="#E5E5E5">bahasa pemrograman batch ini juga </font>
+
+14
+00:00:27,990 --> 00:00:30,029
+ digunakan oleh <font color="#CCCCCC">pengembang </font><font color="#E5E5E5">untuk mengotomatiskan </font>
+
+15
+00:00:30,029 --> 00:00:32,729
+ beberapa <font color="#E5E5E5">tugas sehari-hari tetapi sebelum pergi </font>
+
+16
+00:00:32,729 --> 00:00:34,590
+ lebih lanjut <font color="#E5E5E5">mari kita bicara tentang itu apa </font>
+
+17
+00:00:34,590 --> 00:00:36,480
+ apa <font color="#E5E5E5">lingkungan eksekusi </font>
+
+18
+00:00:36,480 --> 00:00:39,090
+ program batch ini atau <font color="#E5E5E5">apakah ada </font>
+
+19
+00:00:39,090 --> 00:00:40,739
+ <font color="#E5E5E5">perangkat lunak khusus yang kami </font><font color="#CCCCCC">butuhkan </font><font color="#E5E5E5">untuk </font>
+
+20
+00:00:40,739 --> 00:00:43,410
+ <font color="#E5E5E5">buat file-file ini jadi eksekusi </font>
+
+21
+00:00:43,410 --> 00:00:45,600
+ <font color="#E5E5E5">lingkungan file batch sangat sederhana </font>
+
+22
+00:00:45,600 --> 00:00:48,210
+ kita tidak membutuhkan apa pun yang <font color="#E5E5E5">kita </font><font color="#CCCCCC">butuhkan hanyalah kita </font>
+
+23
+00:00:48,210 --> 00:00:50,700
+ membutuhkan <font color="#E5E5E5">editor </font><font color="#CCCCCC">teks yang bahkan bisa </font><font color="#E5E5E5">kita gunakan </font>
+
+24
+00:00:50,700 --> 00:00:52,620
+ notepad dan <font color="#E5E5E5">notepad plus plus dan </font>
+
+25
+00:00:52,620 --> 00:00:55,920
+ itu saja yang <font color="#CCCCCC">harus kita lakukan </font>
+
+26
+00:00:55,920 --> 00:00:58,260
+ perintah apa saja <font color="#E5E5E5">yang bisa dijalankan pada </font>
+
+27
+00:00:58,260 --> 00:01:01,079
+ command prompt <font color="#E5E5E5">dapat digunakan secara batch </font>
+
+28
+00:01:01,079 --> 00:01:03,390
+ file <font color="#E5E5E5">atau bahasa pemrograman batch jadi </font>
+
+29
+00:01:03,390 --> 00:01:05,729
+ di sini Anda dapat melihat bahwa setiap perintah <font color="#E5E5E5">yang mana </font>
+
+30
+00:01:05,729 --> 00:01:08,250
+ dapat <font color="#E5E5E5">dijalankan pada command prompt bisa </font>
+
+31
+00:01:08,250 --> 00:01:10,229
+ <font color="#E5E5E5">digunakan dalam file batch kami jadi ini </font>
+
+32
+00:01:10,229 --> 00:01:12,240
+ perintah dapat <font color="#CCCCCC">ditulis dalam file batch </font>
+
+33
+00:01:12,240 --> 00:01:14,490
+ <font color="#E5E5E5">jadi yang berarti file batch kami atau kami </font>
+
+34
+00:01:14,490 --> 00:01:16,729
+ program batch benar <font color="#CCCCCC">- benar akan berjalan pada </font>
+
+35
+00:01:16,729 --> 00:01:19,439
+ command prompt jadi itulah mengapa kita perlu 
+
+36
+00:01:19,439 --> 00:01:21,810
+ <font color="#E5E5E5">tidak ada yang hanya </font><font color="#CCCCCC">notepad </font><font color="#E5E5E5">untuk </font>
+
+37
+00:01:21,810 --> 00:01:24,330
+ buat file batch kami <font color="#E5E5E5">sekarang </font><font color="#CCCCCC">mari kita bicara </font>
+
+38
+00:01:24,330 --> 00:01:26,580
+ <font color="#CCCCCC">tentang beberapa program sampel yang akan kita </font>
+
+39
+00:01:26,580 --> 00:01:28,619
+ buat di <font color="#E5E5E5">video ini jadi </font><font color="#CCCCCC">program </font><font color="#E5E5E5">- </font><font color="#CCCCCC">program </font><font color="#E5E5E5">ini </font>
+
+40
+00:01:28,619 --> 00:01:30,780
+ termasuk <font color="#CCCCCC">mengunci sistem Anda sehingga bantuan </font>
+
+41
+00:01:30,780 --> 00:01:32,549
+ beberapa program bahkan bisa kita kunci 
+
+42
+00:01:32,549 --> 00:01:34,560
+ sistem tertentu <font color="#E5E5E5">sehingga apa yang bisa kita lakukan adalah </font>
+
+43
+00:01:34,560 --> 00:01:36,570
+ kita bisa <font color="#E5E5E5">membuat satu file batch dan kita bisa </font>
+
+44
+00:01:36,570 --> 00:01:38,640
+ <font color="#E5E5E5">kirim </font><font color="#CCCCCC">file itu ke siapa saja </font><font color="#E5E5E5">dan jika </font><font color="#CCCCCC">ada </font>
+
+45
+00:01:38,640 --> 00:01:40,500
+ <font color="#E5E5E5">buka saja file itu lalu </font><font color="#CCCCCC">komputernya </font>
+
+46
+00:01:40,500 --> 00:01:42,450
+ <font color="#E5E5E5">terkunci saja jadi apa lagi yang bisa kita lakukan </font>
+
+47
+00:01:42,450 --> 00:01:44,549
+ kita <font color="#E5E5E5">juga bisa membuka </font><font color="#CCCCCC">banyak halaman </font>
+
+48
+00:01:44,549 --> 00:01:46,680
+ <font color="#E5E5E5">browser dan bahkan kita bisa membuat </font>
+
+49
+00:01:46,680 --> 00:01:48,630
+ file batch berbahaya <font color="#E5E5E5">yang mungkin dihasilkan </font>
+
+50
+00:01:48,630 --> 00:01:50,939
+ di firewall dinonaktifkan dan kita <font color="#E5E5E5">bahkan bisa </font>
+
+51
+00:01:50,939 --> 00:01:52,890
+ <font color="#E5E5E5">membuat backdoor untuk </font><font color="#CCCCCC">Windows </font><font color="#E5E5E5">dan </font>
+
+52
+00:01:52,890 --> 00:01:54,570
+ pembunuh proses <font color="#CCCCCC">begitu dengan bantuan beberapa orang </font>
+
+53
+00:01:54,570 --> 00:01:56,310
+ alat-alat file pemrograman batch yang <font color="#E5E5E5">kita dapat </font>
+
+54
+00:01:56,310 --> 00:01:58,469
+ bahkan beberapa data ekstrak dari <font color="#E5E5E5">sistem </font>
+
+55
+00:01:58,469 --> 00:02:00,630
+ <font color="#E5E5E5">jadi itulah mengapa pemrograman batch </font>
+
+56
+00:02:00,630 --> 00:02:02,640
+ digunakan adalah fitur yang paling populer <font color="#E5E5E5">dan </font>
+
+57
+00:02:02,640 --> 00:02:05,280
+ <font color="#CCCCCC">windows </font><font color="#E5E5E5">sekarang mari kita lihat bagaimana kita bisa membuatnya </font>
+
+58
+00:02:05,280 --> 00:02:07,200
+ <font color="#E5E5E5">beberapa file batch untuk mengotomatiskan </font>
+
+59
+00:02:07,200 --> 00:02:08,910
+ <font color="#CCCCCC">tugas sehari-hari </font><font color="#E5E5E5">dan mari kita buat beberapa </font>
+
+60
+00:02:08,910 --> 00:02:10,649
+ file berbahaya dengan bantuan batch 
+
+61
+00:02:10,649 --> 00:02:11,550
+ <font color="#E5E5E5">bahasa pemrograman </font>
+
+62
+00:02:11,550 --> 00:02:14,430
+ sekarang mari kita buat <font color="#CCCCCC">beberapa file batch secara berurutan </font>
+
+63
+00:02:14,430 --> 00:02:16,050
+ untuk memahami bahwa <font color="#E5E5E5">bagaimana pemrograman batch </font>
+
+64
+00:02:16,050 --> 00:02:19,230
+ berfungsi dengan <font color="#E5E5E5">baik </font><font color="#CCCCCC">untuk membuat file batch </font>
+
+65
+00:02:19,230 --> 00:02:22,170
+ dan mengujinya <font color="#CCCCCC">saya akan menggunakan Windows 7 </font>
+
+66
+00:02:22,170 --> 00:02:24,330
+ sistem operasi <font color="#E5E5E5">di VirtualBox saya begitu </font>
+
+67
+00:02:24,330 --> 00:02:26,220
+ bahwa sistem operasi induk utama saya 
+
+68
+00:02:26,220 --> 00:02:27,990
+ <font color="#E5E5E5">tidak akan terpengaruh </font><font color="#CCCCCC">oleh file batch itu </font>
+
+69
+00:02:27,990 --> 00:02:30,900
+ <font color="#E5E5E5">jadi saya menyarankan Anda untuk menggunakan Windows </font>
+
+70
+00:02:30,900 --> 00:02:33,540
+ 7 <font color="#E5E5E5">di VirtualBox </font><font color="#CCCCCC">untuk</font><font color="#E5E5E5"> menguji </font>
+
+71
+00:02:33,540 --> 00:02:35,460
+ file batch <font color="#E5E5E5">yang akan kita buat dalam ini </font>
+
+72
+00:02:35,460 --> 00:02:40,170
+ Tentu saja <font color="#E5E5E5">seperti yang saya katakan </font><font color="#CCCCCC">sebelumnya bahwa dalam </font>
+
+73
+00:02:40,170 --> 00:02:43,320
+ CMD <font color="#E5E5E5">itulah perintah apa saja yang bisa dijalankan </font>
+
+74
+00:02:43,320 --> 00:02:46,050
+ di dalam <font color="#E5E5E5">command prompt ini dapat digunakan </font>
+
+75
+00:02:46,050 --> 00:02:48,630
+ di dalam file batch atau di <font color="#E5E5E5">dalam yang lain </font>
+
+76
+00:02:48,630 --> 00:02:51,000
+ kata perintah apa saja yang <font color="#E5E5E5">didukung oleh </font>
+
+77
+00:02:51,000 --> 00:02:53,760
+ command prompt ini dapat <font color="#E5E5E5">digunakan di dalam </font>
+
+78
+00:02:53,760 --> 00:02:56,310
+ file batch kami jadi hanya sebagai <font color="#CCCCCC">contoh jika </font>
+
+79
+00:02:56,310 --> 00:02:59,340
+ kami menulis di sini ping google.com <font color="#E5E5E5">Anda bisa </font>
+
+80
+00:02:59,340 --> 00:03:01,260
+ lihat di sini <font color="#E5E5E5">bahwa </font><font color="#CCCCCC">perintah </font><font color="#E5E5E5">ping </font>
+
+81
+00:03:01,260 --> 00:03:03,810
+ didukung dan jika <font color="#E5E5E5">kita ingin melihat </font>
+
+82
+00:03:03,810 --> 00:03:06,000
+ daftar direktori tepat di sini dir 
+
+83
+00:03:06,000 --> 00:03:08,100
+ dan itu akan mencantumkan semua direktori 
+
+84
+00:03:08,100 --> 00:03:11,160
+ <font color="#E5E5E5">dan jika Anda ingin memeriksa siapa saya </font>
+
+85
+00:03:11,160 --> 00:03:12,450
+ apakah kita <font color="#E5E5E5">adalah </font><font color="#CCCCCC">root atau </font>
+
+86
+00:03:12,450 --> 00:03:15,959
+ <font color="#CCCCCC">administrator di </font><font color="#E5E5E5">sini Anda bisa lihat di sini </font>
+
+87
+00:03:15,959 --> 00:03:17,610
+ yang berarti <font color="#E5E5E5">semua perintah yang kami bisa </font>
+
+88
+00:03:17,610 --> 00:03:20,550
+ ketik di <font color="#E5E5E5">sini dan jika perintah itu berjalan kita </font>
+
+89
+00:03:20,550 --> 00:03:22,860
+ dapat menggunakan perintah itu <font color="#E5E5E5">di dalam batch kami </font>
+
+90
+00:03:22,860 --> 00:03:26,190
+ file jadi kami <font color="#E5E5E5">tidak membutuhkan apa pun </font>
+
+91
+00:03:26,190 --> 00:03:28,080
+ <font color="#E5E5E5">editor teks khusus untuk membuatnya </font>
+
+92
+00:03:28,080 --> 00:03:30,600
+ file batch dan kami juga tidak membutuhkannya 
+
+93
+00:03:30,600 --> 00:03:32,490
+ <font color="#E5E5E5">jenis lingkungan eksekusi </font><font color="#CCCCCC">dalam rangka </font>
+
+94
+00:03:32,490 --> 00:03:35,100
+ <font color="#CCCCCC">untuk menjalankan </font><font color="#E5E5E5">file batch yang </font><font color="#CCCCCC">kita butuhkan </font>
+
+95
+00:03:35,100 --> 00:03:38,820
+ adalah satu notepad <font color="#CCCCCC">sehingga Anda dapat menggunakan </font><font color="#E5E5E5">teks apa pun </font>
+
+96
+00:03:38,820 --> 00:03:40,830
+ <font color="#E5E5E5">editor jadi saya menggunakan </font><font color="#CCCCCC">notepad di sini </font><font color="#E5E5E5">dan </font>
+
+97
+00:03:40,830 --> 00:03:44,930
+ <font color="#E5E5E5">hal berikutnya yang </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">butuhkan adalah command prompt </font>
+
+98
+00:03:44,930 --> 00:03:47,370
+ jadi pertama-tama <font color="#CCCCCC">sebelum memulai </font>
+
+99
+00:03:47,370 --> 00:03:49,140
+ file batch <font color="#E5E5E5">izinkan saya memberi Anda </font><font color="#CCCCCC">pendek </font>
+
+100
+00:03:49,140 --> 00:03:50,940
+ pengenalan perintah yang kita 
+
+101
+00:03:50,940 --> 00:03:54,600
+ dapat digunakan di dalam <font color="#E5E5E5">command prompt jadi mari </font>
+
+102
+00:03:54,600 --> 00:03:58,380
+ saya menutup ini <font color="#E5E5E5">dan</font><font color="#CCCCCC"> mari kita mulai </font>
+
+103
+00:03:58,380 --> 00:04:04,380
+ <font color="#E5E5E5">command prompt sebagai administrator </font>
+
+104
+00:04:04,380 --> 00:04:06,060
+ <font color="#E5E5E5">setiap kali Anda memulai command prompt sebagai </font>
+
+105
+00:04:06,060 --> 00:04:08,280
+ seorang administrator <font color="#CCCCCC">sehingga Anda akan </font><font color="#E5E5E5">melihat di sini </font>
+
+106
+00:04:08,280 --> 00:04:10,250
+ bahwa <font color="#CCCCCC">kita berada di dalam system32 </font>
+
+107
+00:04:10,250 --> 00:04:13,530
+ direktori jadi ini adalah jalan kita saat ini 
+
+108
+00:04:13,530 --> 00:04:16,079
+ bahwa di mana kita <font color="#E5E5E5">berada tepat </font><font color="#CCCCCC">di sana jika kita mau </font>
+
+109
+00:04:16,079 --> 00:04:18,298
+ untuk <font color="#E5E5E5">menemukan dan mencantumkan </font><font color="#CCCCCC">file dan </font>
+
+110
+00:04:18,298 --> 00:04:20,040
+ direktori yang ada <font color="#E5E5E5">di dalamnya </font>
+
+111
+00:04:20,040 --> 00:04:23,130
+ direktori ini <font color="#E5E5E5">system32 Anda hanya perlu </font>
+
+112
+00:04:23,130 --> 00:04:25,300
+ tulis dir hit <font color="#E5E5E5">enter </font>
+
+113
+00:04:25,300 --> 00:04:27,250
+ dan itu akan <font color="#E5E5E5">daftar semua </font><font color="#CCCCCC">file </font><font color="#E5E5E5">yang </font>
+
+114
+00:04:27,250 --> 00:04:32,289
+ hadir <font color="#E5E5E5">di dalam direktori ini </font>
+
+115
+00:04:32,289 --> 00:04:35,650
+ jika kita ingin <font color="#E5E5E5">mengubah direktori </font><font color="#CCCCCC">saja </font>
+
+116
+00:04:35,650 --> 00:04:40,479
+ <font color="#E5E5E5">misalnya jika saya gulir ke </font><font color="#CCCCCC">atas Anda akan menemukan </font>
+
+117
+00:04:40,479 --> 00:04:43,720
+ <font color="#CCCCCC">di sini ada file lama </font><font color="#E5E5E5">tetapi hanya untuk </font>
+
+118
+00:04:43,720 --> 00:04:45,699
+ Misalnya <font color="#CCCCCC">Anda ingin </font><font color="#E5E5E5">kembali satu </font>
+
+119
+00:04:45,699 --> 00:04:48,009
+ direktori <font color="#E5E5E5">sehingga Anda ingin pergi ke sini </font><font color="#CCCCCC">Windows </font>
+
+120
+00:04:48,009 --> 00:04:50,199
+ jadi hanya di sini CD CD untuk perubahan 
+
+121
+00:04:50,199 --> 00:04:52,810
+ <font color="#CCCCCC">direktori dan dua titik </font><font color="#E5E5E5">jadi jika Anda menekan </font>
+
+122
+00:04:52,810 --> 00:04:55,300
+ masukkan Anda akan <font color="#CCCCCC">melihat bahwa kami </font><font color="#E5E5E5">keluar </font>
+
+123
+00:04:55,300 --> 00:04:57,550
+ satu direktori kembali dan sekarang <font color="#E5E5E5">kami </font>
+
+124
+00:04:57,550 --> 00:05:02,080
+ <font color="#E5E5E5">di sini di disk lokal C </font><font color="#CCCCCC">Windows dan mari </font>
+
+125
+00:05:02,080 --> 00:05:04,900
+ <font color="#E5E5E5">kembali lagi jadi sekarang Anda dapat melihat kami </font>
+
+126
+00:05:04,900 --> 00:05:08,080
+ <font color="#CCCCCC">berada di </font><font color="#E5E5E5">direktori C </font><font color="#CCCCCC">disk </font><font color="#E5E5E5">lokal jadi mari </font>
+
+127
+00:05:08,080 --> 00:05:09,669
+ daftar <font color="#CCCCCC">file-file yang </font><font color="#E5E5E5">ada </font>
+
+128
+00:05:09,669 --> 00:05:12,400
+ <font color="#CCCCCC">di dalam ini sehingga Anda bisa lihat di sini ada </font>
+
+129
+00:05:12,400 --> 00:05:14,469
+ satu direktori yang disebut <font color="#E5E5E5">sebagai pengguna Windows </font>
+
+130
+00:05:14,469 --> 00:05:16,840
+ dan jika <font color="#CCCCCC">kami ingin </font><font color="#E5E5E5">mengubah </font><font color="#CCCCCC">direktori </font><font color="#E5E5E5">Anda </font>
+
+131
+00:05:16,840 --> 00:05:18,610
+ <font color="#CCCCCC">dan Anda ingin pergi </font><font color="#E5E5E5">ke </font><font color="#CCCCCC">sini </font><font color="#E5E5E5">untuk para pengguna </font>
+
+132
+00:05:18,610 --> 00:05:24,340
+ <font color="#E5E5E5">tepat di sini pengguna CD menekan enter dan </font>
+
+133
+00:05:24,340 --> 00:05:26,280
+ Anda dapat <font color="#CCCCCC">melihat bahwa saat ini kami berada </font><font color="#E5E5E5">di dalam </font>
+
+134
+00:05:26,280 --> 00:05:29,349
+ direktori pengguna <font color="#E5E5E5">hal utama untuk menjadi </font>
+
+135
+00:05:29,349 --> 00:05:32,469
+ perhatikan adalah bahwa dalam command prompt itu 
+
+136
+00:05:32,469 --> 00:05:34,630
+ tidak <font color="#E5E5E5">wajib bahwa </font><font color="#CCCCCC">Anda menulis semua </font>
+
+137
+00:05:34,630 --> 00:05:37,270
+ perintah dalam <font color="#E5E5E5">huruf kecil dan bahkan </font><font color="#CCCCCC">di </font>
+
+138
+00:05:37,270 --> 00:05:39,340
+ huruf besar <font color="#CCCCCC">Anda </font><font color="#E5E5E5">bisa lihat di sini bahwa jika </font>
+
+139
+00:05:39,340 --> 00:05:41,830
+ Saya menulis di <font color="#E5E5E5">sini dir maka itu juga akan bekerja </font>
+
+140
+00:05:41,830 --> 00:05:44,020
+ dan jika kita <font color="#CCCCCC">menulis di sini di </font><font color="#E5E5E5">dir di kecil </font>
+
+141
+00:05:44,020 --> 00:05:46,509
+ <font color="#CCCCCC">huruf maka itu juga akan berfungsi </font><font color="#E5E5E5">jadi </font>
+
+142
+00:05:46,509 --> 00:05:48,789
+ hal yang sama bisa kita <font color="#E5E5E5">terapkan saat membuat kita </font>
+
+143
+00:05:48,789 --> 00:05:52,719
+ file batch <font color="#E5E5E5">sekarang mari kita buat sederhana </font>
+
+144
+00:05:52,719 --> 00:05:55,750
+ <font color="#E5E5E5">file batch tetapi sebelum pergi ke sana biarkan aku </font>
+
+145
+00:05:55,750 --> 00:05:57,610
+ <font color="#CCCCCC">memberi Anda pengenalan perintah echo </font>
+
+146
+00:05:57,610 --> 00:05:59,289
+ <font color="#E5E5E5">jadi jika Anda </font><font color="#CCCCCC">terbiasa </font><font color="#E5E5E5">dengan perintah ini </font>
+
+147
+00:05:59,289 --> 00:06:01,360
+ <font color="#E5E5E5">gema jadi perintah ini </font><font color="#CCCCCC">juga digunakan di </font>
+
+148
+00:06:01,360 --> 00:06:03,729
+ <font color="#E5E5E5">Linux </font><font color="#CCCCCC">untuk mencetak sesuatu jadi jika </font>
+
+149
+00:06:03,729 --> 00:06:07,930
+ Saya <font color="#E5E5E5">menulis di sini gema halo </font><font color="#CCCCCC">dan tekan </font><font color="#E5E5E5">enter </font><font color="#CCCCCC">sehingga </font>
+
+150
+00:06:07,930 --> 00:06:09,789
+ <font color="#CCCCCC">di sini Anda akan melihat </font><font color="#E5E5E5">bahwa </font><font color="#CCCCCC">halo adalah </font>
+
+151
+00:06:09,789 --> 00:06:12,250
+ dicetak tepat setelah perintah ini <font color="#E5E5E5">dan Anda </font>
+
+152
+00:06:12,250 --> 00:06:15,669
+ bisa lihat di <font color="#E5E5E5">sini di sini adalah output kami sekarang </font>
+
+153
+00:06:15,669 --> 00:06:17,349
+ mari kita lakukan <font color="#E5E5E5">satu hal </font><font color="#CCCCCC">dulu </font>
+
+154
+00:06:17,349 --> 00:06:19,479
+ <font color="#E5E5E5">mari kita buat file batch sederhana yang </font>
+
+155
+00:06:19,479 --> 00:06:22,539
+ akan mencetak <font color="#E5E5E5">halo untuk kami </font><font color="#CCCCCC">jadi kapan saja </font>
+
+156
+00:06:22,539 --> 00:06:25,360
+ <font color="#E5E5E5">kita akan membuat file batch baru kita </font>
+
+157
+00:06:25,360 --> 00:06:27,849
+ selalu harus menulis pada <font color="#CCCCCC">tingkat </font><font color="#E5E5E5">gema </font>
+
+158
+00:06:27,849 --> 00:06:31,330
+ off jadi mengapa kami <font color="#CCCCCC">menulis ini sebagai </font>
+
+159
+00:06:31,330 --> 00:06:33,639
+ ratico <font color="#CCCCCC">dari saya akan menjelaskan </font><font color="#E5E5E5">Anda </font><font color="#CCCCCC">sedikit </font>
+
+160
+00:06:33,639 --> 00:06:37,120
+ <font color="#E5E5E5">kemudian </font><font color="#CCCCCC">tekan enter </font><font color="#E5E5E5">lalu di sini kita punya </font>
+
+161
+00:06:37,120 --> 00:06:39,160
+ <font color="#CCCCCC">untuk menentukan perintah yang mana </font>
+
+162
+00:06:39,160 --> 00:06:40,930
+ kami ingin <font color="#CCCCCC">mengeksekusi ketika </font><font color="#E5E5E5">file ini akan </font>
+
+163
+00:06:40,930 --> 00:06:46,980
+ jalankan begitu <font color="#CCCCCC">tepat di </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">Eko saya </font><font color="#E5E5E5">file baru </font>
+
+164
+00:06:46,980 --> 00:06:50,470
+ <font color="#E5E5E5">tekan enter </font><font color="#CCCCCC">dan di </font><font color="#E5E5E5">babak kita </font><font color="#CCCCCC">harus </font>
+
+165
+00:06:50,470 --> 00:06:53,770
+ <font color="#CCCCCC">tulis di sini </font><font color="#E5E5E5">jeda jadi saya menulis </font><font color="#CCCCCC">di sini </font>
+
+166
+00:06:53,770 --> 00:06:56,530
+ jeda saya akan menjelaskan kepada Anda kapan saya akan melakukannya 
+
+167
+00:06:56,530 --> 00:06:58,720
+ jelaskan <font color="#CCCCCC">konsep ini di reticle </font>
+
+168
+00:06:58,720 --> 00:07:00,970
+ <font color="#E5E5E5">jadi mari kita simpan file ini yang dapat Anda simpan </font>
+
+169
+00:07:00,970 --> 00:07:04,180
+ file ini <font color="#E5E5E5">di desktop dan di tempat </font><font color="#CCCCCC">lain </font>
+
+170
+00:07:04,180 --> 00:07:08,380
+ <font color="#CCCCCC">jadi tuliskan nama demo </font><font color="#E5E5E5">dan kami </font>
+
+171
+00:07:08,380 --> 00:07:11,170
+ selalu harus <font color="#CCCCCC">menyimpan file batch dengan </font>
+
+172
+00:07:11,170 --> 00:07:14,200
+ <font color="#CCCCCC">ekstensi dot dat yang dot bat </font><font color="#E5E5E5">begitu </font>
+
+173
+00:07:14,200 --> 00:07:16,600
+ setelah saya menyimpan file ini, <font color="#E5E5E5">Anda dapat melihatnya </font>
+
+174
+00:07:16,600 --> 00:07:18,870
+ file <font color="#CCCCCC">ini dibuat </font><font color="#E5E5E5">di desktop saya dan </font>
+
+175
+00:07:18,870 --> 00:07:21,640
+ <font color="#CCCCCC">semua file batch terlihat seperti ini </font>
+
+176
+00:07:21,640 --> 00:07:23,770
+ <font color="#E5E5E5">ini adalah ikon dari file batch </font><font color="#CCCCCC">dan </font>
+
+177
+00:07:23,770 --> 00:07:27,850
+ jika <font color="#E5E5E5">saya pergi ke sifat-sifatnya itu </font><font color="#CCCCCC">akan berkata </font>
+
+178
+00:07:27,850 --> 00:07:30,220
+ <font color="#E5E5E5">bahwa itu adalah file batch Windows dan jika saya </font>
+
+179
+00:07:30,220 --> 00:07:32,980
+ <font color="#E5E5E5">buka file ini </font><font color="#CCCCCC">Anda bisa </font><font color="#E5E5E5">lihat di sini bahwa </font><font color="#CCCCCC">itu </font>
+
+180
+00:07:32,980 --> 00:07:35,320
+ telah mencetak <font color="#CCCCCC">saya file baru </font><font color="#E5E5E5">dan sebagai </font>
+
+181
+00:07:35,320 --> 00:07:37,360
+ meminta kami untuk menekan tombol apa saja untuk melanjutkan 
+
+182
+00:07:37,360 --> 00:07:42,300
+ <font color="#CCCCCC">dan jika saya menekan tombol apa saja </font>
+
+183
+00:07:42,300 --> 00:07:45,610
+ dihentikan <font color="#E5E5E5">jadi sekarang </font><font color="#CCCCCC">mari kita kembali ke sini </font>
+
+184
+00:07:45,610 --> 00:07:48,010
+ kode sumber kami <font color="#CCCCCC">sekarang hal </font><font color="#E5E5E5">ini jelas </font>
+
+185
+00:07:48,010 --> 00:07:50,410
+ kepada Anda <font color="#CCCCCC">bahwa perintah echo digunakan untuk </font>
+
+186
+00:07:50,410 --> 00:07:53,770
+ mencetak <font color="#CCCCCC">sesuatu dan sekarang apa </font>
+
+187
+00:07:53,770 --> 00:07:56,800
+ penggunaan <font color="#CCCCCC">ini </font><font color="#E5E5E5">di tingkat gema begitu </font><font color="#CCCCCC">saja </font>
+
+188
+00:07:56,800 --> 00:07:59,140
+ misalnya <font color="#E5E5E5">biarkan </font><font color="#CCCCCC">saya menghapus baris ini </font>
+
+189
+00:07:59,140 --> 00:08:01,180
+ <font color="#E5E5E5">saya simpan file ini </font><font color="#CCCCCC">lagi dan </font><font color="#E5E5E5">biarkan saya </font><font color="#CCCCCC">jalankan </font>
+
+190
+00:08:01,180 --> 00:08:02,740
+ <font color="#E5E5E5">ini lagi sehingga kamu bisa mengerti </font>
+
+191
+00:08:02,740 --> 00:08:05,800
+ <font color="#CCCCCC">perbedaan </font><font color="#E5E5E5">antara gema dan </font><font color="#CCCCCC">pada </font>
+
+192
+00:08:05,800 --> 00:08:08,430
+ <font color="#E5E5E5">ratico </font><font color="#CCCCCC">jadi sekarang Anda bisa lihat di sini </font>
+
+193
+00:08:08,430 --> 00:08:12,120
+ <font color="#CCCCCC">bahwa jika kita tidak menggunakan pada tingkat echo off </font>
+
+194
+00:08:12,120 --> 00:08:15,820
+ maka yang terjadi adalah command prompt ini 
+
+195
+00:08:15,820 --> 00:08:20,320
+ akan mengeksekusi baris ini terlebih dahulu <font color="#E5E5E5">lalu satu kali </font>
+
+196
+00:08:20,320 --> 00:08:22,000
+ ini <font color="#E5E5E5">mengeksekusi baris ini atau yang pertama </font>
+
+197
+00:08:22,000 --> 00:08:24,490
+ perintah lalu jalankan <font color="#CCCCCC">yang kedua </font>
+
+198
+00:08:24,490 --> 00:08:27,850
+ perintah setelah <font color="#E5E5E5">yang sebelumnya </font><font color="#CCCCCC">dan Anda </font>
+
+199
+00:08:27,850 --> 00:08:34,719
+ bisa <font color="#E5E5E5">lihat di sini sehingga Anda bisa lihat di sini bahwa </font><font color="#CCCCCC">di </font>
+
+200
+00:08:34,719 --> 00:08:36,669
+ <font color="#E5E5E5">prompt perintah pertama ini </font>
+
+201
+00:08:36,669 --> 00:08:39,250
+ dieksekusi <font color="#E5E5E5">echo saya file baru dan di sini </font>
+
+202
+00:08:39,250 --> 00:08:41,530
+ Anda <font color="#E5E5E5">dapat melihat outputnya dan kemudian nanti </font>
+
+203
+00:08:41,530 --> 00:08:46,150
+ itu telah mengeksekusi <font color="#CCCCCC">jeda ini dan Anda bisa </font>
+
+204
+00:08:46,150 --> 00:08:48,210
+ lihat di sini <font color="#E5E5E5">bahwa ada </font><font color="#CCCCCC">yang positif </font><font color="#E5E5E5">dan </font>
+
+205
+00:08:48,210 --> 00:08:50,170
+ itu <font color="#CCCCCC">mengatakan tekan tombol apa saja untuk melanjutkan </font>
+
+206
+00:08:50,170 --> 00:08:53,020
+ <font color="#CCCCCC">dan kerugian utama lainnya </font>
+
+207
+00:08:53,020 --> 00:08:55,510
+ tidak menggunakan <font color="#E5E5E5">pada tingkat </font><font color="#CCCCCC">Eco Office </font><font color="#E5E5E5">itu </font>
+
+208
+00:08:55,510 --> 00:08:58,990
+ jika kita <font color="#E5E5E5">tidak menggunakan pada tingkat </font><font color="#CCCCCC">eco off kemudian </font>
+
+209
+00:08:58,990 --> 00:09:01,330
+ kode yang akan kami tulis di <font color="#E5E5E5">kami </font>
+
+210
+00:09:01,330 --> 00:09:03,580
+ file batch <font color="#E5E5E5">juga akan dicetak pada </font>
+
+211
+00:09:03,580 --> 00:09:05,200
+ command prompt <font color="#E5E5E5">Anda </font><font color="#CCCCCC">bisa </font><font color="#E5E5E5">lihat di sini itu </font>
+
+212
+00:09:05,200 --> 00:09:07,390
+ di sini adalah kode kami <font color="#E5E5E5">echo saya file baru </font>
+
+213
+00:09:07,390 --> 00:09:09,370
+ dan kode yang sama dicetak pada 
+
+214
+00:09:09,370 --> 00:09:11,830
+ command prompt <font color="#CCCCCC">jadi itu sebabnya </font>
+
+215
+00:09:11,830 --> 00:09:15,760
+ wajib <font color="#CCCCCC">menulis pada </font><font color="#E5E5E5">tingkat echo off </font>
+
+216
+00:09:15,760 --> 00:09:18,190
+ <font color="#E5E5E5">untuk menyembunyikan kode kami dan jika saya hanya </font>
+
+217
+00:09:18,190 --> 00:09:20,530
+ jalankan file ini <font color="#CCCCCC">lagi Anda akan melihat bersih </font>
+
+218
+00:09:20,530 --> 00:09:22,900
+ <font color="#E5E5E5">output rapi jadi mari kita hapus jeda ini </font>
+
+219
+00:09:22,900 --> 00:09:26,820
+ dan jalankan lagi dan <font color="#E5E5E5">Anda akan melihatnya </font>
+
+220
+00:09:26,820 --> 00:09:29,770
+ setiap kali saya mengklik dua kali pada <font color="#E5E5E5">suatu perintah </font>
+
+221
+00:09:29,770 --> 00:09:33,840
+ prompt akan datang dan tiba-tiba menghilang 
+
+222
+00:09:34,800 --> 00:09:38,800
+ Anda bisa lihat di sini jadi <font color="#E5E5E5">itulah yang kami gunakan </font>
+
+223
+00:09:38,800 --> 00:09:40,900
+ jeda <font color="#E5E5E5">untuk memegang perintah kami </font>
+
+224
+00:09:40,900 --> 00:09:43,690
+ cepat <font color="#E5E5E5">dan Anda bisa lihat di sini sekarang di sini </font>
+
+225
+00:09:43,690 --> 00:09:47,980
+ command prompt kami jadi ini adalah dasar 
+
+226
+00:09:47,980 --> 00:09:49,900
+ penggunaan itu bagaimana kita <font color="#E5E5E5">bisa membuat batch </font>
+
+227
+00:09:49,900 --> 00:09:52,180
+ file <font color="#E5E5E5">dan bagaimana file batch bekerja </font>
+
+228
+00:09:52,180 --> 00:09:56,830
+ <font color="#CCCCCC">sekarang mari kita buat beberapa file batch secara berurutan </font>
+
+229
+00:09:56,830 --> 00:10:00,400
+ <font color="#E5E5E5">untuk melihat apa lagi yang bisa kita lakukan lebih dulu </font>
+
+230
+00:10:00,400 --> 00:10:03,400
+ dari <font color="#E5E5E5">semua itu kita akan melihat bagaimana </font><font color="#CCCCCC">kita bisa </font><font color="#E5E5E5">membuatnya </font>
+
+231
+00:10:03,400 --> 00:10:06,490
+ sebuah bom folder sehingga kita <font color="#E5E5E5">dapat mengatakan batch </font>
+
+232
+00:10:06,490 --> 00:10:09,310
+ file adalah virus sehingga kita bisa <font color="#E5E5E5">mengatakannya </font>
+
+233
+00:10:09,310 --> 00:10:11,530
+ <font color="#CCCCCC">bahwa batch file yang </font><font color="#E5E5E5">sebenarnya </font>
+
+234
+00:10:11,530 --> 00:10:14,380
+ file yang <font color="#E5E5E5">digunakan untuk </font><font color="#CCCCCC">mengeksekusi </font>
+
+235
+00:10:14,380 --> 00:10:17,020
+ <font color="#E5E5E5">perintah tertentu pada suatu hal tertentu </font>
+
+236
+00:10:17,020 --> 00:10:20,170
+ sistem <font color="#E5E5E5">sehingga folder bom sebenarnya </font>
+
+237
+00:10:20,170 --> 00:10:22,750
+ hanya file batch yang akan <font color="#E5E5E5">membuat </font>
+
+238
+00:10:22,750 --> 00:10:27,400
+ folder acak di dalam mesin target jadi 
+
+239
+00:10:27,400 --> 00:10:29,650
+ bagaimana cara <font color="#E5E5E5">membuat folder pertama-tama, biarkan saya </font>
+
+240
+00:10:29,650 --> 00:10:33,340
+ <font color="#E5E5E5">buka saja </font><font color="#CCCCCC">command prompt saya ok jadi biarkan saya </font>
+
+241
+00:10:33,340 --> 00:10:35,530
+ <font color="#E5E5E5">mari kita daftar semuanya jadi Anda bisa lihat </font>
+
+242
+00:10:35,530 --> 00:10:38,470
+ di sini daftar folder <font color="#E5E5E5">sekarang di perintah </font>
+
+243
+00:10:38,470 --> 00:10:41,680
+ prompt <font color="#E5E5E5">jika kita ingin membuat folder </font>
+
+244
+00:10:41,680 --> 00:10:43,540
+ apa yang <font color="#CCCCCC">harus Anda lakukan sangat tepat </font>
+
+245
+00:10:43,540 --> 00:10:45,700
+ di sini <font color="#E5E5E5">MD yang untuk membuat direktori atau </font>
+
+246
+00:10:45,700 --> 00:10:48,280
+ membuat folder diikuti <font color="#E5E5E5">dengan nama folder </font>
+
+247
+00:10:48,280 --> 00:10:49,720
+ yang <font color="#CCCCCC">ingin Anda </font><font color="#E5E5E5">buat jadi tepat </font>
+
+248
+00:10:49,720 --> 00:10:52,390
+ disini demo <font color="#E5E5E5">tekan enter dan jika Anda mau </font>
+
+249
+00:10:52,390 --> 00:10:54,460
+ <font color="#CCCCCC">tulis di </font><font color="#E5E5E5">sini dir Anda akan melihat yang baru </font>
+
+250
+00:10:54,460 --> 00:10:58,480
+ direktori bernama sebagai demo dibuat sekarang 
+
+251
+00:10:58,480 --> 00:11:00,940
+ apa yang akan kita lakukan adalah <font color="#CCCCCC">di </font><font color="#E5E5E5">file batch kami </font>
+
+252
+00:11:00,940 --> 00:11:04,170
+ akan <font color="#E5E5E5">membuat kode yang akan membuat </font>
+
+253
+00:11:04,170 --> 00:11:07,080
+ ribuan folder 
+
+254
+00:11:07,080 --> 00:11:11,650
+ di <font color="#E5E5E5">mesin target kami, mari kembali ke sini </font>
+
+255
+00:11:11,650 --> 00:11:17,290
+ <font color="#CCCCCC">ke </font><font color="#E5E5E5">file notepad mari buat a </font>
+
+256
+00:11:17,290 --> 00:11:23,500
+ memisahkan satu jadi saya akan mulai <font color="#E5E5E5">dengan </font><font color="#CCCCCC">eco </font>
+
+257
+00:11:23,500 --> 00:11:27,700
+ off maka di sini <font color="#E5E5E5">saya akan memulai satu putaran </font>
+
+258
+00:11:27,700 --> 00:11:31,840
+ yang akan iterasi <font color="#E5E5E5">dan pergi masih tak terbatas </font>
+
+259
+00:11:31,840 --> 00:11:35,260
+ <font color="#E5E5E5">jadi </font><font color="#CCCCCC">untuk memulai loop dan batch </font>
+
+260
+00:11:35,260 --> 00:11:37,690
+ pemrograman yang harus kita <font color="#E5E5E5">tulis di sini </font><font color="#CCCCCC">: </font><font color="#E5E5E5">kemudian </font>
+
+261
+00:11:37,690 --> 00:11:40,360
+ <font color="#CCCCCC">kapak sehingga Anda dapat menulis di sini </font><font color="#E5E5E5">seperti </font><font color="#CCCCCC">X </font>
+
+262
+00:11:40,360 --> 00:11:43,270
+ <font color="#CCCCCC">YB </font><font color="#E5E5E5">hanya ada variabel maka di sini kita </font>
+
+263
+00:11:43,270 --> 00:11:44,710
+ <font color="#CCCCCC">harus </font><font color="#E5E5E5">menuliskan perintah yang kita </font>
+
+264
+00:11:44,710 --> 00:11:46,600
+ <font color="#CCCCCC">ingin </font><font color="#E5E5E5">mengeksekusi sehingga Anda ingin mengeksekusi </font>
+
+265
+00:11:46,600 --> 00:11:51,180
+ <font color="#E5E5E5">MD maka di sini saya akan menulis di sini secara acak </font>
+
+266
+00:11:51,180 --> 00:11:57,490
+ di dalam persentase jadi apa itu 
+
+267
+00:11:57,490 --> 00:12:00,970
+ arti <font color="#E5E5E5">ini </font><font color="#CCCCCC">jadi seperti yang saya katakan sebelumnya </font>
+
+268
+00:12:00,970 --> 00:12:02,860
+ itu <font color="#E5E5E5">untuk membuat folder atau </font>
+
+269
+00:12:02,860 --> 00:12:04,750
+ direktori <font color="#E5E5E5">kita harus </font><font color="#CCCCCC">menulis di sini MD </font>
+
+270
+00:12:04,750 --> 00:12:06,850
+ <font color="#E5E5E5">diikuti dengan nama direktori yang kami </font>
+
+271
+00:12:06,850 --> 00:12:10,720
+ ingin <font color="#E5E5E5">menciptakan </font><font color="#CCCCCC">seperti dulu </font><font color="#E5E5E5">jadi sekarang kita mau </font>
+
+272
+00:12:10,720 --> 00:12:14,440
+ <font color="#E5E5E5">untuk membuat direktori </font><font color="#CCCCCC">atau ribuan </font>
+
+273
+00:12:14,440 --> 00:12:17,260
+ waktu tetapi kami <font color="#E5E5E5">tidak ingin membungkus menentukan </font>
+
+274
+00:12:17,260 --> 00:12:19,570
+ <font color="#E5E5E5">nama tertentu jadi itu sebabnya saya punya </font>
+
+275
+00:12:19,570 --> 00:12:21,490
+ ditulis di sini secara acak sehingga akan dimulai 
+
+276
+00:12:21,490 --> 00:12:24,490
+ dari <font color="#E5E5E5">nomor acak apa pun sehingga </font><font color="#CCCCCC">MD </font>
+
+277
+00:12:24,490 --> 00:12:27,310
+ <font color="#E5E5E5">persen </font><font color="#CCCCCC">saya acak dan yang terakhir kita akan </font>
+
+278
+00:12:27,310 --> 00:12:32,320
+ <font color="#E5E5E5">tulis di sini dan pergi ke dan X jadi di sini Anda </font>
+
+279
+00:12:32,320 --> 00:12:34,060
+ dapat melihat bahwa kami telah menetapkan <font color="#E5E5E5">a </font>
+
+280
+00:12:34,060 --> 00:12:35,860
+ <font color="#CCCCCC">loop tertentu yang baru dimulai </font><font color="#E5E5E5">dari </font>
+
+281
+00:12:35,860 --> 00:12:39,190
+ di sini kemudian jalankan baris ini <font color="#CCCCCC">sampai bagaimana </font>
+
+282
+00:12:39,190 --> 00:12:41,590
+ sampai berapa <font color="#E5E5E5">lama Anda harus </font><font color="#CCCCCC">melaksanakan ini </font>
+
+283
+00:12:41,590 --> 00:12:44,980
+ kode yang <font color="#E5E5E5">saya </font><font color="#CCCCCC">tulis di sini pergi ke X berarti </font>
+
+284
+00:12:44,980 --> 00:12:47,200
+ kami <font color="#E5E5E5">belum menetapkan secara khusus </font>
+
+285
+00:12:47,200 --> 00:12:49,630
+ <font color="#CCCCCC">menunjukkan bahwa </font><font color="#E5E5E5">setelah </font><font color="#CCCCCC">10 kali Anda akan melakukannya </font>
+
+286
+00:12:49,630 --> 00:12:51,310
+ berakhir setelah <font color="#E5E5E5">15 kali Anda akan melakukannya </font>
+
+287
+00:12:51,310 --> 00:12:55,320
+ hentikan begitu saja jalankan perintah ini di 
+
+288
+00:12:55,320 --> 00:12:58,660
+ infinity jadi biarkan <font color="#E5E5E5">aku menyimpan file ini </font>
+
+289
+00:12:58,660 --> 00:13:00,640
+ dan izinkan saya mengatakan setiap <font color="#CCCCCC">kembali atau desktop </font>
+
+290
+00:13:00,640 --> 00:13:07,290
+ <font color="#E5E5E5">dan beri nama sebagai folder bom dot bat </font><font color="#CCCCCC">dan </font>
+
+291
+00:13:07,290 --> 00:13:10,330
+ di sini Anda akan <font color="#E5E5E5">melihat </font><font color="#CCCCCC">bahwa </font><font color="#E5E5E5">folder file </font>
+
+292
+00:13:10,330 --> 00:13:12,460
+ bom dibuat sekarang <font color="#E5E5E5">mari kita buat yang baru </font>
+
+293
+00:13:12,460 --> 00:13:16,020
+ folder dan taruh <font color="#E5E5E5">di dalam </font>
+
+294
+00:13:18,370 --> 00:13:20,709
+ oke jadi di sini Anda <font color="#E5E5E5">dapat melihat file itu </font>
+
+295
+00:13:20,709 --> 00:13:24,879
+ <font color="#CCCCCC">di sini </font><font color="#E5E5E5">dan mari kita klik dua kali </font>
+
+296
+00:13:24,879 --> 00:13:26,709
+ file ini <font color="#E5E5E5">dan Anda akan lihat di sini a </font>
+
+297
+00:13:26,709 --> 00:13:28,689
+ subdirektori atau file sudah <font color="#E5E5E5">ada </font>
+
+298
+00:13:28,689 --> 00:13:31,389
+ dan jika Anda melihat di sini di 
+
+299
+00:13:31,389 --> 00:13:33,550
+ <font color="#E5E5E5">latar belakang Anda akan melihat di sini </font><font color="#CCCCCC">itu untuk </font>
+
+300
+00:13:33,550 --> 00:13:35,920
+ mulai membuat folder Anda dapat <font color="#CCCCCC">melihat panjang </font>
+
+301
+00:13:35,920 --> 00:13:44,589
+ Daftar folder sehingga <font color="#CCCCCC">untuk</font><font color="#E5E5E5"> menghentikan ini </font>
+
+302
+00:13:44,589 --> 00:13:47,860
+ file dan <font color="#E5E5E5">untuk menghentikan folder kami </font>
+
+303
+00:13:47,860 --> 00:13:50,319
+ harus menutup file ini <font color="#CCCCCC">dan Anda bisa </font>
+
+304
+00:13:50,319 --> 00:13:53,589
+ <font color="#CCCCCC">lihat di sini </font><font color="#E5E5E5">bahwa </font><font color="#CCCCCC">dalam detik ini </font>
+
+305
+00:13:53,589 --> 00:13:56,559
+ <font color="#E5E5E5">file telah menghasilkan 14.000 hingga enam puluh enam </font>
+
+306
+00:13:56,559 --> 00:13:59,199
+ folder jadi ini adalah keindahan bets 
+
+307
+00:13:59,199 --> 00:14:04,120
+ file <font color="#E5E5E5">sekarang mari kita coba </font><font color="#CCCCCC">membuat file </font>
+
+308
+00:14:04,120 --> 00:14:06,670
+ yang akan menambahkan <font color="#CCCCCC">akun pengguna acak </font><font color="#E5E5E5">di </font>
+
+309
+00:14:06,670 --> 00:14:10,420
+ salah satu sistem operasi <font color="#E5E5E5">jadi mari kita pergi ke sini </font>
+
+310
+00:14:10,420 --> 00:14:15,160
+ <font color="#CCCCCC">jadi di Windows jika Anda tidak terbiasa </font>
+
+311
+00:14:15,160 --> 00:14:17,980
+ dengan <font color="#E5E5E5">itu </font><font color="#CCCCCC">bagaimana kami dapat memeriksa akun </font>
+
+312
+00:14:17,980 --> 00:14:20,860
+ di command prompt maka ada <font color="#E5E5E5">satu </font>
+
+313
+00:14:20,860 --> 00:14:23,439
+ perintah disebut sebagai pengguna net yang kita bisa 
+
+314
+00:14:23,439 --> 00:14:25,420
+ gunakan <font color="#E5E5E5">untuk memeriksa berapa banyak </font>
+
+315
+00:14:25,420 --> 00:14:27,279
+ <font color="#E5E5E5">akun terkait </font><font color="#CCCCCC">dengan ini </font>
+
+316
+00:14:27,279 --> 00:14:29,290
+ <font color="#E5E5E5">Sistem operasi Windows jadi jika saya menekan </font>
+
+317
+00:14:29,290 --> 00:14:31,269
+ masukkan <font color="#CCCCCC">di sini </font><font color="#E5E5E5">Anda akan melihat bahwa sekarang </font>
+
+318
+00:14:31,269 --> 00:14:32,379
+ ada <font color="#CCCCCC">tiga akun </font>
+
+319
+00:14:32,379 --> 00:14:34,480
+ yang pertama adalah administrator 
+
+320
+00:14:34,480 --> 00:14:36,939
+ ada tamu <font color="#E5E5E5">maka ada root jadi </font>
+
+321
+00:14:36,939 --> 00:14:39,129
+ kami <font color="#E5E5E5">juga dapat memverifikasi di sini sekarang </font>
+
+322
+00:14:39,129 --> 00:14:44,379
+ kita login <font color="#E5E5E5">sebagai root agar berurutan </font>
+
+323
+00:14:44,379 --> 00:14:48,069
+ <font color="#CCCCCC">untuk </font><font color="#E5E5E5">menambahkan pengguna tertentu di dalam </font>
+
+324
+00:14:48,069 --> 00:14:50,620
+ Sistem operasi Windows <font color="#E5E5E5">adalah hal pertama </font>
+
+325
+00:14:50,620 --> 00:14:52,540
+ Yang harus kita <font color="#CCCCCC">lakukan adalah kita harus </font><font color="#E5E5E5">membuka </font><font color="#CCCCCC">a </font>
+
+326
+00:14:52,540 --> 00:14:55,120
+ command prompt dengan administrator 
+
+327
+00:14:55,120 --> 00:15:00,160
+ hak <font color="#E5E5E5">dan maka di sini kita </font><font color="#CCCCCC">harus </font>
+
+328
+00:15:00,160 --> 00:15:03,189
+ <font color="#CCCCCC">tulis di sini pengguna bersih pengguna internet </font>
+
+329
+00:15:03,189 --> 00:15:05,800
+ diikuti oleh nama pengguna yang <font color="#E5E5E5">ingin </font><font color="#CCCCCC">kami </font><font color="#E5E5E5">tambahkan </font>
+
+330
+00:15:05,800 --> 00:15:07,600
+ <font color="#E5E5E5">jadi misalnya Anda ingin membuat </font>
+
+331
+00:15:07,600 --> 00:15:12,459
+ pengguna baru <font color="#E5E5E5">jadi biarkan itu menjadi demo satu dan kemudian </font>
+
+332
+00:15:12,459 --> 00:15:16,839
+ kita harus <font color="#E5E5E5">menulis di sini </font><font color="#CCCCCC">/ iklan </font><font color="#E5E5E5">jadi jika saya memukul </font>
+
+333
+00:15:16,839 --> 00:15:18,670
+ masukkan di <font color="#CCCCCC">sini Anda </font><font color="#E5E5E5">akan melihat bahwa perintah </font>
+
+334
+00:15:18,670 --> 00:15:21,399
+ berhasil diselesaikan <font color="#E5E5E5">sekarang mari verifikasi </font>
+
+335
+00:15:21,399 --> 00:15:23,559
+ <font color="#E5E5E5">apakah pengguna ini dibuat atau tidak </font>
+
+336
+00:15:23,559 --> 00:15:25,839
+ <font color="#CCCCCC">dan Anda akan </font><font color="#E5E5E5">melihat di sini </font><font color="#CCCCCC">bahwa seorang pengguna bernama </font>
+
+337
+00:15:25,839 --> 00:15:27,879
+ sebagai demo <font color="#CCCCCC">1 dibuat jadi kita bisa saja </font>
+
+338
+00:15:27,879 --> 00:15:31,079
+ verifikasi dari sini 
+
+339
+00:15:38,480 --> 00:15:41,060
+ jadi kelola akun lain <font color="#CCCCCC">dan di sini Anda </font>
+
+340
+00:15:41,060 --> 00:15:44,050
+ <font color="#E5E5E5">akan melihat </font><font color="#CCCCCC">bahwa pengguna bernama sebagai demo - </font>
+
+341
+00:15:44,050 --> 00:15:46,670
+ buat sekarang mari lakukan <font color="#E5E5E5">satu hal </font>
+
+342
+00:15:46,670 --> 00:15:49,630
+ <font color="#CCCCCC">buat satu file batch yang akan menambahkan </font>
+
+343
+00:15:49,630 --> 00:15:53,990
+ <font color="#E5E5E5">ribuan pengguna di Windows </font><font color="#CCCCCC">7 </font>
+
+344
+00:15:53,990 --> 00:15:58,639
+ sistem operasi jadi apa yang bisa Anda lakukan adalah 
+
+345
+00:15:58,639 --> 00:16:00,529
+ Anda dapat <font color="#E5E5E5">mengirim file-file ini ke teman-teman Anda </font>
+
+346
+00:16:00,529 --> 00:16:03,529
+ <font color="#E5E5E5">dalam drive USB dari melalui melalui email dan </font>
+
+347
+00:16:03,529 --> 00:16:06,139
+ jika seseorang hanya membuka file ini <font color="#E5E5E5">dan itu </font>
+
+348
+00:16:06,139 --> 00:16:10,670
+ <font color="#E5E5E5">orang </font><font color="#CCCCCC">hanya </font><font color="#E5E5E5">akan terpengaruh jadi mari </font>
+
+349
+00:16:10,670 --> 00:16:14,660
+ buat file notepad baru <font color="#CCCCCC">oke jadi </font>
+
+350
+00:16:14,660 --> 00:16:16,820
+ <font color="#E5E5E5">hal yang sama saya akan menulis </font><font color="#CCCCCC">di </font><font color="#E5E5E5">sini </font><font color="#CCCCCC">pada tingkat </font>
+
+351
+00:16:16,820 --> 00:16:20,899
+ <font color="#E5E5E5">echo off maka saya akan tambahkan </font><font color="#CCCCCC">di sini di </font>
+
+352
+00:16:20,899 --> 00:16:23,600
+ <font color="#E5E5E5">putaran tak terbatas </font><font color="#CCCCCC">dan saya akan menulis di sini </font>
+
+353
+00:16:23,600 --> 00:16:27,170
+ perintah pengguna net maka di sini sama 
+
+354
+00:16:27,170 --> 00:16:29,019
+ hal yang <font color="#CCCCCC">akan saya </font><font color="#E5E5E5">lakukan saya akan menulis di </font><font color="#CCCCCC">sini acak </font>
+
+355
+00:16:29,019 --> 00:16:32,329
+ karena <font color="#E5E5E5">kami tidak ingin menentukan pengguna </font>
+
+356
+00:16:32,329 --> 00:16:36,110
+ <font color="#E5E5E5">nama kemudian tambahkan dan yang terakhir saya akan </font>
+
+357
+00:16:36,110 --> 00:16:38,420
+ <font color="#E5E5E5">tulis di sini untuk </font><font color="#CCCCCC">memberi tahu </font><font color="#E5E5E5">X bahwa kami belum </font>
+
+358
+00:16:38,420 --> 00:16:40,220
+ ditentukan <font color="#CCCCCC">posisi tertentu jadi </font>
+
+359
+00:16:40,220 --> 00:16:42,769
+ itu sebabnya <font color="#E5E5E5">saya menulis di sini pergi ke X ke </font>
+
+360
+00:16:42,769 --> 00:16:46,399
+ <font color="#E5E5E5">menjadikannya sebagai infinite loop yang tak terbatas </font>
+
+361
+00:16:46,399 --> 00:16:53,660
+ biarkan saya menyimpan file ini sehingga pengguna menambahkan titik 
+
+362
+00:16:53,660 --> 00:16:56,779
+ <font color="#CCCCCC">b8e ayo kita simpan file ini dan kamu </font>
+
+363
+00:16:56,779 --> 00:16:59,959
+ bisa <font color="#CCCCCC">lihat di sini </font><font color="#E5E5E5">bahwa file </font><font color="#CCCCCC">dibuat </font><font color="#E5E5E5">begitu </font>
+
+364
+00:16:59,959 --> 00:17:02,269
+ jika Anda <font color="#E5E5E5">ingat maka saya katakan itu </font>
+
+365
+00:17:02,269 --> 00:17:04,369
+ memesan <font color="#CCCCCC">untuk membuat pengguna dengan command prompt </font>
+
+366
+00:17:04,369 --> 00:17:06,290
+ kita harus <font color="#E5E5E5">membuka command prompt dengan </font>
+
+367
+00:17:06,290 --> 00:17:08,119
+ <font color="#CCCCCC">hak administrator jadi hanya untuk </font>
+
+368
+00:17:08,119 --> 00:17:09,470
+ Sebagai contoh <font color="#E5E5E5">jika saya </font><font color="#CCCCCC">menjalankan skrip ini </font>
+
+369
+00:17:09,470 --> 00:17:11,359
+ <font color="#E5E5E5">tanpa hak administratif mari </font>
+
+370
+00:17:11,359 --> 00:17:13,669
+ lihat apa yang terjadi <font color="#E5E5E5">sehingga Anda bisa melihatnya </font>
+
+371
+00:17:13,669 --> 00:17:15,260
+ itu memberi kita kesalahan <font color="#E5E5E5">bahwa akses </font><font color="#CCCCCC">adalah </font>
+
+372
+00:17:15,260 --> 00:17:17,929
+ ditolak tetapi <font color="#E5E5E5">jika saya hanya menjalankan skrip ini sebagai </font>
+
+373
+00:17:17,929 --> 00:17:20,419
+ administrator <font color="#E5E5E5">apa yang akan kita lihat </font>
+
+374
+00:17:20,419 --> 00:17:22,130
+ <font color="#E5E5E5">perintah selesai dengan sukses jadi mari </font>
+
+375
+00:17:22,130 --> 00:17:30,790
+ hentikan saja file ini dan mari kita pergi ke sini 
+
+376
+00:17:30,790 --> 00:17:34,880
+ klik pada <font color="#E5E5E5">kelola akun dan Anda akan melihat </font>
+
+377
+00:17:34,880 --> 00:17:38,360
+ Di sini <font color="#CCCCCC">file ini </font><font color="#E5E5E5">telah membuat banyak </font>
+
+378
+00:17:38,360 --> 00:17:43,150
+ pengguna dalam <font color="#E5E5E5">sistem operasi ini </font>
+
+379
+00:17:45,370 --> 00:17:49,270
+ jadi saya tidak membiarkan <font color="#CCCCCC">saya menutup ini </font>
+
+380
+00:17:49,270 --> 00:17:52,240
+ <font color="#E5E5E5">tapi jangan khawatir, apa yang bisa kita lakukan adalah kita </font>
+
+381
+00:17:52,240 --> 00:17:54,940
+ <font color="#E5E5E5">bahkan dapat memverifikasi dengan menulis di sini pengguna net </font>
+
+382
+00:17:54,940 --> 00:17:57,610
+ dan Anda dapat melihat <font color="#E5E5E5">nama pengguna sekarang mari </font>
+
+383
+00:17:57,610 --> 00:17:59,950
+ kita lihat satu <font color="#E5E5E5">file batch lagi </font>
+
+384
+00:17:59,950 --> 00:18:14,410
+ disebut sebagai <font color="#CCCCCC">benjolan rakyat sehingga dalam operasi </font>
+
+385
+00:18:14,410 --> 00:18:16,960
+ sistem ada <font color="#CCCCCC">satu panggilan yang disebut sebagai untuk </font>
+
+386
+00:18:16,960 --> 00:18:19,900
+ panggil <font color="#E5E5E5">begitu sehingga apa yang garpu untuk itu </font>
+
+387
+00:18:19,900 --> 00:18:22,060
+ sebenarnya membuat banyak <font color="#E5E5E5">proses di </font>
+
+388
+00:18:22,060 --> 00:18:25,000
+ sistem kami yang akhirnya membuat kami 
+
+389
+00:18:25,000 --> 00:18:28,390
+ <font color="#E5E5E5">sistem macet sekarang mari kita </font><font color="#CCCCCC">tulis di sini di </font>
+
+390
+00:18:28,390 --> 00:18:30,130
+ tingkat echo <font color="#E5E5E5">off </font><font color="#CCCCCC">dan Anda hanya akan mendapatkan </font>
+
+391
+00:18:30,130 --> 00:18:32,770
+ <font color="#E5E5E5">Miss</font><font color="#CCCCCC"> bahwa </font><font color="#E5E5E5">untuk sistem crash </font><font color="#CCCCCC">setiap </font>
+
+392
+00:18:32,770 --> 00:18:35,860
+ yang kita <font color="#CCCCCC">butuhkan hanyalah </font><font color="#E5E5E5">kode lima digit </font>
+
+393
+00:18:35,860 --> 00:18:38,290
+ <font color="#E5E5E5">atau lima huruf yang pertama </font>
+
+394
+00:18:38,290 --> 00:18:42,580
+ persentil kemudian 0 kemudian <font color="#CCCCCC">lagi </font><font color="#E5E5E5">persentil </font>
+
+395
+00:18:42,580 --> 00:18:46,470
+ sekali <font color="#E5E5E5">lagi 0 dan jika saya menyimpan file ini dan </font>
+
+396
+00:18:46,470 --> 00:18:49,120
+ mari kita ganti namanya saja sebagai <font color="#CCCCCC">garpu </font>
+
+397
+00:18:49,120 --> 00:18:53,980
+ dot bat <font color="#E5E5E5">klik save dan ini dia </font>
+
+398
+00:18:53,980 --> 00:18:56,530
+ file Anda dapat melihat jadi jika saya hanya <font color="#CCCCCC">membuka ini </font>
+
+399
+00:18:56,530 --> 00:19:00,240
+ <font color="#E5E5E5">file </font><font color="#CCCCCC">tunggu </font><font color="#E5E5E5">selama lima detik </font>
+
+400
+00:19:05,620 --> 00:19:08,230
+ dan di sini Anda akan <font color="#CCCCCC">melihat bahwa sistem saya </font>
+
+401
+00:19:08,230 --> 00:19:12,460
+ terjebak sekarang <font color="#E5E5E5">saya tidak bisa berbuat apa-apa jika </font><font color="#CCCCCC">saya mau </font>
+
+402
+00:19:12,460 --> 00:19:15,460
+ untuk menutup file <font color="#E5E5E5">ini tidak akan membiarkannya </font>
+
+403
+00:19:15,460 --> 00:19:18,070
+ saya untuk menutup ini Anda bisa lihat di sini 
+
+404
+00:19:18,070 --> 00:19:19,690
+ <font color="#CCCCCC">sistem </font><font color="#E5E5E5">berada di luar ruang lingkungan </font>
+
+405
+00:19:19,690 --> 00:19:22,030
+ karena telah menciptakan <font color="#E5E5E5">banyak proses </font>
+
+406
+00:19:22,030 --> 00:19:25,240
+ di <font color="#E5E5E5">latar belakang Anda bisa lihat di sini itu </font>
+
+407
+00:19:25,240 --> 00:19:28,720
+ Saya <font color="#CCCCCC">bisa melakukan </font><font color="#E5E5E5">apa saja </font><font color="#CCCCCC">jadi </font><font color="#E5E5E5">satu </font><font color="#CCCCCC">- </font><font color="#E5E5E5">satunya hal saya </font>
+
+408
+00:19:28,720 --> 00:19:36,430
+ Yang bisa dilakukan <font color="#CCCCCC">hanyalah reboot sistem saja </font>
+
+409
+00:19:36,430 --> 00:19:42,220
+ mari kita reboot sistem <font color="#E5E5E5">dan mari </font>
+
+410
+00:19:42,220 --> 00:19:48,460
+ mulai <font color="#E5E5E5">lagi jadi ini adalah keindahan </font>
+
+411
+00:19:48,460 --> 00:19:50,830
+ batch <font color="#E5E5E5">programming maka kita dapat melakukan </font><font color="#CCCCCC">banyak </font>
+
+412
+00:19:50,830 --> 00:19:54,010
+ hal-hal jika kita tahu <font color="#E5E5E5">benar bagaimana kita </font>
+
+413
+00:19:54,010 --> 00:19:59,530
+ dapat <font color="#CCCCCC">membuat file batch dan di sini Anda </font>
+
+414
+00:19:59,530 --> 00:20:02,760
+ dapat melihat bahwa <font color="#E5E5E5">mereka </font><font color="#CCCCCC">memiliki </font><font color="#E5E5E5">banyak </font><font color="#CCCCCC">pengguna, tetapi </font>
+
+415
+00:20:02,760 --> 00:20:06,210
+ ini milikku 
+
+416
+00:20:13,490 --> 00:20:16,440
+ jadi sekarang mari kita buat file batch yang 
+
+417
+00:20:16,440 --> 00:20:18,450
+ akan mematikan firewall <font color="#E5E5E5">saat pengguna </font>
+
+418
+00:20:18,450 --> 00:20:20,910
+ membuka <font color="#E5E5E5">file batch itu dengan administratif </font>
+
+419
+00:20:20,910 --> 00:20:23,190
+ hak istimewa tetapi sebelum pergi ke sana <font color="#CCCCCC">mari </font>
+
+420
+00:20:23,190 --> 00:20:24,960
+ lihat <font color="#E5E5E5">bagaimana </font><font color="#CCCCCC">kita bisa mematikan firewall </font>
+
+421
+00:20:24,960 --> 00:20:27,540
+ <font color="#E5E5E5">dengan menggunakan command prompt jadi ada satu </font>
+
+422
+00:20:27,540 --> 00:20:35,160
+ perintah yang disebut sebagai <font color="#E5E5E5">firewall net </font><font color="#CCCCCC">SH </font>
+
+423
+00:20:35,160 --> 00:20:37,230
+ mode yang merupakan mode operasi dan kami inginkan 
+
+424
+00:20:37,230 --> 00:20:44,130
+ untuk <font color="#E5E5E5">menonaktifkannya </font><font color="#CCCCCC">dan jika saya tekan enter </font><font color="#E5E5E5">Anda </font>
+
+425
+00:20:44,130 --> 00:20:45,990
+ akan <font color="#CCCCCC">melihat </font><font color="#E5E5E5">bahwa operasi yang diminta </font>
+
+426
+00:20:45,990 --> 00:20:49,020
+ membutuhkan peningkatan yang berarti ini 
+
+427
+00:20:49,020 --> 00:20:51,180
+ perintah <font color="#E5E5E5">tidak berhasil dijalankan </font>
+
+428
+00:20:51,180 --> 00:20:54,780
+ <font color="#E5E5E5">karena kita bukan administrator </font><font color="#CCCCCC">sehingga </font>
+
+429
+00:20:54,780 --> 00:20:57,240
+ <font color="#CCCCCC">itu sebabnya kita harus menjalankan perintah ini </font>
+
+430
+00:20:57,240 --> 00:21:00,210
+ <font color="#E5E5E5">di command prompt oleh dengan </font><font color="#CCCCCC">administrator </font>
+
+431
+00:21:00,210 --> 00:21:07,490
+ hak istimewa sekarang mari kita tulis di sini firewall 
+
+432
+00:21:07,490 --> 00:21:15,480
+ mengatur mode dan <font color="#CCCCCC">dinonaktifkan </font><font color="#E5E5E5">dan jika saya memukul </font>
+
+433
+00:21:15,480 --> 00:21:17,100
+ <font color="#E5E5E5">masukkan di sini </font><font color="#CCCCCC">Anda akan melihat </font><font color="#E5E5E5">bahwa perintah </font>
+
+434
+00:21:17,100 --> 00:21:19,950
+ <font color="#E5E5E5">berhasil dieksekusi di sini itu </font>
+
+435
+00:21:19,950 --> 00:21:22,050
+ pesan sukses <font color="#CCCCCC">oke </font><font color="#E5E5E5">sekarang mari kita </font>
+
+436
+00:21:22,050 --> 00:21:24,990
+ verifikasi ini, mari kita <font color="#E5E5E5">ke sini untuk </font><font color="#CCCCCC">mengontrol </font>
+
+437
+00:21:24,990 --> 00:21:29,700
+ <font color="#E5E5E5">keamanan panel Windows Firewall </font><font color="#CCCCCC">dan di sini </font>
+
+438
+00:21:29,700 --> 00:21:30,900
+ Anda <font color="#E5E5E5">akan melihat </font><font color="#CCCCCC">bahwa Windows Firewall </font>
+
+439
+00:21:30,900 --> 00:21:33,390
+ tidak <font color="#E5E5E5">aktif Anda dapat melihat </font><font color="#CCCCCC">status Windows </font>
+
+440
+00:21:33,390 --> 00:21:35,640
+ Status firewall sekarang <font color="#E5E5E5">untuk mengaktifkan </font>
+
+441
+00:21:35,640 --> 00:21:40,920
+ firewall ini <font color="#E5E5E5">tepat di sini memungkinkan dan </font>
+
+442
+00:21:40,920 --> 00:21:43,470
+ Anda akan melihat bahwa firewall itu 
+
+443
+00:21:43,470 --> 00:21:50,730
+ diaktifkan sekarang Anda dapat melihat <font color="#CCCCCC">statusnya sekarang </font>
+
+444
+00:21:50,730 --> 00:21:52,350
+ mari kita tambahkan fungsi ini di kami 
+
+445
+00:21:52,350 --> 00:21:54,980
+ file batch 
+
+446
+00:22:06,590 --> 00:22:09,630
+ jadi biarkan <font color="#E5E5E5">saya menyimpan file ini di desktop saya </font>
+
+447
+00:22:09,630 --> 00:22:17,280
+ dan di <font color="#CCCCCC">sini baik-baik saja biarkan aku menjalankannya </font>
+
+448
+00:22:17,280 --> 00:22:27,870
+ sebagai administrator <font color="#E5E5E5">dan mari kita pergi </font>
+
+449
+00:22:27,870 --> 00:22:31,500
+ kembali ke <font color="#E5E5E5">sistem </font><font color="#CCCCCC">panel </font><font color="#E5E5E5">kontrol </font><font color="#CCCCCC">kami </font><font color="#E5E5E5">dan </font>
+
+450
+00:22:31,500 --> 00:22:33,870
+ keamanan <font color="#E5E5E5">Windows Firewall </font><font color="#CCCCCC">dan di sini Anda </font>
+
+451
+00:22:33,870 --> 00:22:36,750
+ <font color="#E5E5E5">akan melihat bahwa sekarang firewall </font><font color="#CCCCCC">telah berubah </font>
+
+452
+00:22:36,750 --> 00:22:39,600
+ off jadi ini <font color="#E5E5E5">adalah bagaimana kita bisa </font><font color="#CCCCCC">menggunakan buruk </font>
+
+453
+00:22:39,600 --> 00:22:41,640
+ pemrograman <font color="#E5E5E5">untuk mengotomatisasi </font><font color="#CCCCCC">hari ini </font>
+
+454
+00:22:41,640 --> 00:22:44,340
+ <font color="#CCCCCC">tugas </font><font color="#E5E5E5">dan bahkan kita dapat membuat beberapa </font>
+
+455
+00:22:44,340 --> 00:22:46,820
+ skrip berbahaya <font color="#E5E5E5">yang dapat menginfeksi a </font>
+
+456
+00:22:46,820 --> 00:22:49,950
+ sistem tertentu sehingga dalam <font color="#E5E5E5">video </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">kita </font>
+
+457
+00:22:49,950 --> 00:22:51,510
+ telah <font color="#CCCCCC">membahas bahwa </font><font color="#E5E5E5">berdasarkan </font><font color="#CCCCCC">vertex </font>
+
+458
+00:22:51,510 --> 00:22:54,180
+ pemrograman <font color="#E5E5E5">dan cara </font><font color="#CCCCCC">membuatnya </font><font color="#E5E5E5">sederhana </font>
+
+459
+00:22:54,180 --> 00:22:56,310
+ file batch <font color="#E5E5E5">untuk melihat </font><font color="#CCCCCC">itu caranya </font>
+
+460
+00:22:56,310 --> 00:22:59,370
+ banyak <font color="#CCCCCC">karya pemrograman </font><font color="#E5E5E5">jadi terima kasih </font>
+
+461
+00:22:59,370 --> 00:00:00,000
+ menonton <font color="#CCCCCC">video ini </font>
+

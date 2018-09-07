@@ -1,0 +1,356 @@
+1
+00:00:00,089 --> 00:00:02,490
+hello everyone in<font color="#CCCCCC"> this video we'll talk</font>
+
+2
+00:00:02,490 --> 00:00:05,609
+about<font color="#E5E5E5"> ethical hacking faces or the steps</font>
+
+3
+00:00:05,609 --> 00:00:07,350
+which one have to<font color="#E5E5E5"> follow in order to</font>
+
+4
+00:00:07,350 --> 00:00:10,620
+<font color="#CCCCCC">perform a successful heck</font><font color="#E5E5E5"> so there are</font>
+
+5
+00:00:10,620 --> 00:00:12,799
+five<font color="#E5E5E5"> faces of ethical hacking</font><font color="#CCCCCC"> recommends</font>
+
+6
+00:00:12,799 --> 00:00:15,269
+<font color="#E5E5E5">scanning gaining access maintaining</font>
+
+7
+00:00:15,269 --> 00:00:17,910
+access<font color="#E5E5E5"> and clearing tracks</font><font color="#CCCCCC"> so the first</font>
+
+8
+00:00:17,910 --> 00:00:19,740
+<font color="#E5E5E5">phase of vertical hacking is recognized</font>
+
+9
+00:00:19,740 --> 00:00:21,930
+<font color="#E5E5E5">so the term recommends also stands</font><font color="#CCCCCC"> for</font>
+
+10
+00:00:21,930 --> 00:00:23,340
+information<font color="#E5E5E5"> gathering which means</font>
+
+11
+00:00:23,340 --> 00:00:25,050
+<font color="#E5E5E5">gathering the information about our</font>
+
+12
+00:00:25,050 --> 00:00:27,090
+<font color="#CCCCCC">target so our target</font><font color="#E5E5E5"> could be anything</font>
+
+13
+00:00:27,090 --> 00:00:30,390
+<font color="#CCCCCC">like a website</font><font color="#E5E5E5"> person web server or so</font>
+
+14
+00:00:30,390 --> 00:00:33,000
+on<font color="#E5E5E5"> so what we can do is in this phase</font>
+
+15
+00:00:33,000 --> 00:00:35,340
+<font color="#CCCCCC">recurrence</font><font color="#E5E5E5"> or</font><font color="#CCCCCC"> information</font><font color="#E5E5E5"> gathering we</font>
+
+16
+00:00:35,340 --> 00:00:37,200
+tries to find information<font color="#E5E5E5"> about our</font>
+
+17
+00:00:37,200 --> 00:00:39,480
+<font color="#CCCCCC">target</font><font color="#E5E5E5"> so if our target is a website</font>
+
+18
+00:00:39,480 --> 00:00:41,190
+then<font color="#CCCCCC"> you</font><font color="#E5E5E5"> can find the information</font><font color="#CCCCCC"> of</font>
+
+19
+00:00:41,190 --> 00:00:43,890
+that<font color="#CCCCCC"> website like the IP address of</font><font color="#E5E5E5"> that</font>
+
+20
+00:00:43,890 --> 00:00:46,020
+<font color="#CCCCCC">website is that website hosted on a</font>
+
+21
+00:00:46,020 --> 00:00:48,000
+shared server<font color="#E5E5E5"> or a dedicated</font><font color="#CCCCCC"> server or</font>
+
+22
+00:00:48,000 --> 00:00:50,850
+<font color="#E5E5E5">the or that website is built with any</font>
+
+23
+00:00:50,850 --> 00:00:52,800
+content<font color="#E5E5E5"> management system or what kind</font>
+
+24
+00:00:52,800 --> 00:00:54,390
+of frameworks are used in<font color="#E5E5E5"> order</font><font color="#CCCCCC"> to build</font>
+
+25
+00:00:54,390 --> 00:00:57,690
+<font color="#E5E5E5">that website</font><font color="#CCCCCC"> so if our target is a web</font>
+
+26
+00:00:57,690 --> 00:00:59,609
+server<font color="#E5E5E5"> then we can find out</font><font color="#CCCCCC"> that what</font>
+
+27
+00:00:59,609 --> 00:01:01,140
+<font color="#CCCCCC">are the open ports on that web server</font>
+
+28
+00:01:01,140 --> 00:01:02,789
+<font color="#E5E5E5">and what</font><font color="#CCCCCC"> other service is running on</font>
+
+29
+00:01:02,789 --> 00:01:05,040
+them and if<font color="#E5E5E5"> our</font><font color="#CCCCCC"> target is a person then</font>
+
+30
+00:01:05,040 --> 00:01:07,140
+we'll try<font color="#E5E5E5"> to find the</font><font color="#CCCCCC"> information</font><font color="#E5E5E5"> about</font>
+
+31
+00:01:07,140 --> 00:01:09,510
+<font color="#E5E5E5">the person history like where the where</font>
+
+32
+00:01:09,510 --> 00:01:11,310
+that<font color="#E5E5E5"> person works its contacts number</font>
+
+33
+00:01:11,310 --> 00:01:13,890
+and<font color="#CCCCCC"> something</font><font color="#E5E5E5"> interesting information</font>
+
+34
+00:01:13,890 --> 00:01:16,500
+from<font color="#E5E5E5"> its social profile so that once we</font>
+
+35
+00:01:16,500 --> 00:01:18,240
+<font color="#CCCCCC">complete with this first phase reference</font>
+
+36
+00:01:18,240 --> 00:01:20,280
+then we'll jump into<font color="#E5E5E5"> scanning so in the</font>
+
+37
+00:01:20,280 --> 00:01:22,530
+scanning<font color="#CCCCCC"> phase we actually scan each and</font>
+
+38
+00:01:22,530 --> 00:01:24,540
+every<font color="#E5E5E5"> component of</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> system or the</font>
+
+39
+00:01:24,540 --> 00:01:26,670
+<font color="#E5E5E5">website in order to find the</font>
+
+40
+00:01:26,670 --> 00:01:28,439
+vulnerabilities<font color="#CCCCCC"> so once we found the</font>
+
+41
+00:01:28,439 --> 00:01:30,780
+vulnerabilities then the next step is to
+
+42
+00:01:30,780 --> 00:01:33,420
+exploit<font color="#E5E5E5"> that vulnerability which means</font>
+
+43
+00:01:33,420 --> 00:01:35,909
+in order<font color="#CCCCCC"> to</font><font color="#E5E5E5"> take the</font><font color="#CCCCCC"> access so once we</font>
+
+44
+00:01:35,909 --> 00:01:37,500
+scan the system<font color="#CCCCCC"> we found</font><font color="#E5E5E5"> the</font>
+
+45
+00:01:37,500 --> 00:01:40,110
+vulnerability<font color="#E5E5E5"> then we will try to take</font>
+
+46
+00:01:40,110 --> 00:01:42,570
+the access of<font color="#CCCCCC"> that system by exploiting</font>
+
+47
+00:01:42,570 --> 00:01:44,909
+<font color="#CCCCCC">that vulnerability so in the third phase</font>
+
+48
+00:01:44,909 --> 00:01:47,490
+<font color="#E5E5E5">we actually take access and once we are</font>
+
+49
+00:01:47,490 --> 00:01:49,020
+<font color="#E5E5E5">inside</font><font color="#CCCCCC"> the system</font><font color="#E5E5E5"> once we are</font>
+
+50
+00:01:49,020 --> 00:01:51,240
+<font color="#CCCCCC">successfully expert in</font><font color="#E5E5E5"> that system then</font>
+
+51
+00:01:51,240 --> 00:01:53,280
+the first<font color="#CCCCCC"> step which one</font><font color="#E5E5E5"> have to perform</font>
+
+52
+00:01:53,280 --> 00:01:56,399
+<font color="#E5E5E5">is we have to first make a</font><font color="#CCCCCC"> backdoor</font><font color="#E5E5E5"> so</font>
+
+53
+00:01:56,399 --> 00:01:58,259
+what is backdoor just for example we<font color="#CCCCCC"> are</font>
+
+54
+00:01:58,259 --> 00:02:00,600
+inside one system<font color="#E5E5E5"> and we somehow lost</font>
+
+55
+00:02:00,600 --> 00:02:03,329
+<font color="#CCCCCC">the access from</font><font color="#E5E5E5"> that</font><font color="#CCCCCC"> system</font><font color="#E5E5E5"> that what we</font>
+
+56
+00:02:03,329 --> 00:02:06,240
+can<font color="#E5E5E5"> do we are not able to get into</font><font color="#CCCCCC"> that</font>
+
+57
+00:02:06,240 --> 00:02:09,538
+<font color="#CCCCCC">system</font><font color="#E5E5E5"> back so the first process is that</font>
+
+58
+00:02:09,538 --> 00:02:11,879
+<font color="#E5E5E5">once we are inside system we tries to</font>
+
+59
+00:02:11,879 --> 00:02:13,410
+<font color="#CCCCCC">maintain our access</font>
+
+60
+00:02:13,410 --> 00:02:15,630
+so in order<font color="#CCCCCC"> to</font><font color="#E5E5E5"> maintain our access we</font>
+
+61
+00:02:15,630 --> 00:02:18,000
+can<font color="#E5E5E5"> upload any shell and even we can</font>
+
+62
+00:02:18,000 --> 00:02:20,520
+generate our own<font color="#CCCCCC"> vulnerability in that</font>
+
+63
+00:02:20,520 --> 00:02:22,620
+<font color="#E5E5E5">system so that we can come back</font><font color="#CCCCCC"> into</font>
+
+64
+00:02:22,620 --> 00:02:25,080
+<font color="#CCCCCC">their</font><font color="#E5E5E5"> system in order</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> take access so</font>
+
+65
+00:02:25,080 --> 00:02:27,420
+this is what we do in<font color="#E5E5E5"> maintaining access</font>
+
+66
+00:02:27,420 --> 00:02:29,580
+phase there<font color="#CCCCCC"> is fourth phase</font><font color="#E5E5E5"> so once we</font>
+
+67
+00:02:29,580 --> 00:02:30,930
+maintained our access once we have
+
+68
+00:02:30,930 --> 00:02:32,910
+exploited<font color="#E5E5E5"> the system then the last one</font>
+
+69
+00:02:32,910 --> 00:02:35,460
+is clearing tracks<font color="#E5E5E5"> which means clearing</font>
+
+70
+00:02:35,460 --> 00:02:37,980
+our records so<font color="#E5E5E5"> we what we can do is we</font>
+
+71
+00:02:37,980 --> 00:02:39,750
+can<font color="#E5E5E5"> even leave the log files we can</font>
+
+72
+00:02:39,750 --> 00:02:42,390
+<font color="#E5E5E5">clear the histories even</font><font color="#CCCCCC"> we can change</font>
+
+73
+00:02:42,390 --> 00:02:45,000
+them registry settings<font color="#CCCCCC"> so these are the</font>
+
+74
+00:02:45,000 --> 00:02:47,370
+five<font color="#E5E5E5"> phases recurrence in which we find</font>
+
+75
+00:02:47,370 --> 00:02:49,470
+<font color="#CCCCCC">the information</font><font color="#E5E5E5"> then scanning in which</font>
+
+76
+00:02:49,470 --> 00:02:51,210
+we<font color="#E5E5E5"> stand the system</font><font color="#CCCCCC"> and finds the</font>
+
+77
+00:02:51,210 --> 00:02:52,710
+vulnerabilities<font color="#E5E5E5"> then the third one is</font>
+
+78
+00:02:52,710 --> 00:02:54,150
+<font color="#CCCCCC">gaining access in which</font><font color="#E5E5E5"> we try to</font>
+
+79
+00:02:54,150 --> 00:02:56,520
+exploit the system<font color="#E5E5E5"> then maintaining</font>
+
+80
+00:02:56,520 --> 00:02:58,920
+<font color="#E5E5E5">access in which we can upload any web</font>
+
+81
+00:02:58,920 --> 00:03:01,200
+shell or we can make<font color="#E5E5E5"> a</font><font color="#CCCCCC"> backdoor so that</font>
+
+82
+00:03:01,200 --> 00:03:02,790
+we can come back<font color="#E5E5E5"> into</font><font color="#CCCCCC"> that system</font><font color="#E5E5E5"> in</font>
+
+83
+00:03:02,790 --> 00:03:04,740
+<font color="#CCCCCC">order</font><font color="#E5E5E5"> to take its access then in the</font>
+
+84
+00:03:04,740 --> 00:03:06,960
+last clearing<font color="#E5E5E5"> tracks so these are the</font>
+
+85
+00:03:06,960 --> 00:03:08,910
+five phases which one have to<font color="#E5E5E5"> follow to</font>
+
+86
+00:03:08,910 --> 00:03:11,160
+perform a successful hack so in this
+
+87
+00:03:11,160 --> 00:03:12,750
+video we<font color="#E5E5E5"> have covered there what are</font><font color="#CCCCCC"> the</font>
+
+88
+00:03:12,750 --> 00:03:14,280
+five<font color="#E5E5E5"> phases of ethical hacking and</font>
+
+89
+00:03:14,280 --> 00:00:00,000
+thanks for<font color="#E5E5E5"> watching</font><font color="#CCCCCC"> this video</font>
+

@@ -1,0 +1,5888 @@
+1
+00:00:00,979 --> 00:00:04,580
+ sekarang mari kita bicara tentang <font color="#E5E5E5">bagaimana Anda dapat mengamankan </font>
+
+2
+00:00:04,580 --> 00:00:06,640
+ <font color="#E5E5E5">situs web Anda dari unggahan file </font>
+
+3
+00:00:06,640 --> 00:00:09,150
+ kerentanan 
+
+4
+00:00:09,150 --> 00:00:11,780
+ hal utama yang <font color="#CCCCCC">perlu diingat adalah itu </font>
+
+5
+00:00:11,780 --> 00:00:15,420
+ jangan pernah mengizinkan orang untuk <font color="#E5E5E5">mengunggah file yang dapat dieksekusi </font>
+
+6
+00:00:15,420 --> 00:00:17,580
+ <font color="#E5E5E5">Seharusnya tidak perlu bagi </font><font color="#CCCCCC">Anda untuk melakukannya </font>
+
+7
+00:00:17,580 --> 00:00:19,890
+ <font color="#CCCCCC">izinkan </font><font color="#E5E5E5">orang untuk mengunggah file yang dapat dieksekusi </font>
+
+8
+00:00:19,890 --> 00:00:22,939
+ benar-benar jadi hal <font color="#CCCCCC">- hal seperti skrip bash PHP </font>
+
+9
+00:00:22,939 --> 00:00:26,430
+ executable seperti <font color="#CCCCCC">exe comm </font><font color="#E5E5E5">semua ini </font>
+
+10
+00:00:26,430 --> 00:00:28,470
+ file yang <font color="#CCCCCC">tidak boleh Anda izinkan orang </font>
+
+11
+00:00:28,470 --> 00:00:30,510
+ upload <font color="#E5E5E5">mereka karena ada yang tinggi </font>
+
+12
+00:00:30,510 --> 00:00:32,610
+ kemungkinan <font color="#E5E5E5">bahwa file-file ini dapat membahayakan </font>
+
+13
+00:00:32,610 --> 00:00:34,420
+ <font color="#E5E5E5">server Anda </font>
+
+14
+00:00:34,420 --> 00:00:37,570
+ yang kedua adalah Anda perlu <font color="#CCCCCC">memeriksanya </font>
+
+15
+00:00:37,570 --> 00:00:41,350
+ bahwa <font color="#E5E5E5">jenis file adalah apa yang Anda </font>
+
+16
+00:00:41,350 --> 00:00:44,140
+ inginkan adalah <font color="#E5E5E5">apa yang Anda harapkan dan periksa </font>
+
+17
+00:00:44,140 --> 00:00:47,530
+ ekstensi pada <font color="#E5E5E5">saat yang sama jadi kapan </font>
+
+18
+00:00:47,530 --> 00:00:49,660
+ kami <font color="#CCCCCC">melihat ketika kami memeriksa dengan kami </font>
+
+19
+00:00:49,660 --> 00:00:52,660
+ <font color="#E5E5E5">tes dan video sebelumnya di bagian bawah </font>
+
+20
+00:00:52,660 --> 00:00:54,520
+ <font color="#E5E5E5">tingkat keamanan jelas </font><font color="#CCCCCC">tidak ada </font>
+
+21
+00:00:54,520 --> 00:00:56,950
+ cek di <font color="#E5E5E5">tingkat keamanan menengah </font>
+
+22
+00:00:56,950 --> 00:00:59,590
+ hanya ada <font color="#CCCCCC">pemeriksaan </font><font color="#E5E5E5">untuk </font><font color="#CCCCCC">file itu </font>
+
+23
+00:00:59,590 --> 00:01:02,590
+ ketik <font color="#E5E5E5">dan pada tingkat keamanan yang tinggi mereka </font>
+
+24
+00:01:02,590 --> 00:01:07,600
+ memeriksa <font color="#E5E5E5">untuk ekstensi </font><font color="#CCCCCC">hanya </font><font color="#E5E5E5">begitu </font>
+
+25
+00:01:07,600 --> 00:01:09,400
+ apa yang ingin Anda <font color="#E5E5E5">lakukan benar-benar tidak pernah ada </font>
+
+26
+00:01:09,400 --> 00:01:12,790
+ izinkan eksekutabel memastikan upload 
+
+27
+00:01:12,790 --> 00:01:14,890
+ file adalah apa yang Anda harapkan, jadi jika 
+
+28
+00:01:14,890 --> 00:01:16,720
+ Anda mengunggah gambar <font color="#E5E5E5">untuk memastikannya </font>
+
+29
+00:01:16,720 --> 00:01:19,240
+ jenis file <font color="#CCCCCC">adalah gambar dan dan </font>
+
+30
+00:01:19,240 --> 00:01:22,330
+ ekstensi adalah ekstensi gambar jadi 
+
+31
+00:01:22,330 --> 00:01:25,780
+ ini adalah <font color="#E5E5E5">JPEG atau PNG atau gambar lainnya </font>
+
+32
+00:01:25,780 --> 00:01:28,360
+ ketik <font color="#E5E5E5">saja </font><font color="#CCCCCC">dan setelah Anda melakukan keduanya </font>
+
+33
+00:01:28,360 --> 00:01:31,570
+ periksa <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">pastikan itu </font>
+
+34
+00:01:31,570 --> 00:01:34,450
+ <font color="#CCCCCC">Anda </font><font color="#E5E5E5">membuat ulang file yang diunggah sehingga Anda </font>
+
+35
+00:01:34,450 --> 00:01:36,610
+ periksa apakah <font color="#E5E5E5">file tersebut adalah gambar dan Anda </font>
+
+36
+00:01:36,610 --> 00:01:38,440
+ periksa bahwa <font color="#CCCCCC">ekstensi adalah gambar </font>
+
+37
+00:01:38,440 --> 00:01:41,860
+ ekstensi kemudian menganalisa <font color="#CCCCCC">file </font><font color="#E5E5E5">menggunakan </font>
+
+38
+00:01:41,860 --> 00:01:44,290
+ semacam <font color="#E5E5E5">perpustakaan jadi tergantung pada </font>
+
+39
+00:01:44,290 --> 00:01:46,090
+ <font color="#E5E5E5">bahasa pemrograman yang Anda gunakan </font>
+
+40
+00:01:46,090 --> 00:01:49,030
+ <font color="#CCCCCC">server Anda </font><font color="#E5E5E5">memastikan bahwa Anda </font><font color="#CCCCCC">menganalisa </font>
+
+41
+00:01:49,030 --> 00:01:51,130
+ Anda meneruskan <font color="#E5E5E5">file ini ke pustaka dan </font>
+
+42
+00:01:51,130 --> 00:01:53,710
+ menganalisis isinya dan Anda membuat ulang 
+
+43
+00:01:53,710 --> 00:01:56,229
+ file yang sesuai dengan situs web Anda <font color="#CCCCCC">sekarang ini </font>
+
+44
+00:01:56,229 --> 00:01:58,390
+ <font color="#CCCCCC">sebenarnya merupakan langkah yang baik pula </font><font color="#E5E5E5">karena </font>
+
+45
+00:01:58,390 --> 00:02:00,310
+ <font color="#E5E5E5">karena Anda menampilkan ini pada Anda </font>
+
+46
+00:02:00,310 --> 00:02:02,080
+ <font color="#CCCCCC">situs web </font><font color="#E5E5E5">yang ingin Anda pastikan bahwa </font>
+
+47
+00:02:02,080 --> 00:02:04,439
+ gambar <font color="#E5E5E5">tidak terlalu besar dan bahwa mereka </font>
+
+48
+00:02:04,439 --> 00:02:08,560
+ dioptimalkan <font color="#E5E5E5">untuk aplikasi web jadi itu a </font>
+
+49
+00:02:08,560 --> 00:02:10,000
+ <font color="#E5E5E5">hal baik </font><font color="#CCCCCC">untuk situs web Anda untuk </font><font color="#E5E5E5">berjalan </font>
+
+50
+00:02:10,000 --> 00:02:12,070
+ lebih cepat <font color="#E5E5E5">dan itu juga hal yang baik </font>
+
+51
+00:02:12,070 --> 00:02:14,290
+ <font color="#CCCCCC">pastikan bahwa gambar ini sebenarnya adalah </font>
+
+52
+00:02:14,290 --> 00:02:16,660
+ gambar <font color="#E5E5E5">dan itu tidak </font><font color="#CCCCCC">membahayakan file berbahaya </font>
+
+53
+00:02:16,660 --> 00:02:18,820
+ jadi <font color="#E5E5E5">mari kita lihat sumbernya </font>
+
+54
+00:02:18,820 --> 00:02:20,620
+ kode <font color="#CCCCCC">sekarang saya tahu saya selalu </font><font color="#E5E5E5">mengatakan kami lakukan </font>
+
+55
+00:02:20,620 --> 00:02:22,600
+ pengujian kotak hitam <font color="#E5E5E5">tapi kami </font><font color="#CCCCCC">berbicara </font>
+
+56
+00:02:22,600 --> 00:02:24,190
+ <font color="#E5E5E5">tentang keamanan sekarang jadi Anda sebenarnya </font>
+
+57
+00:02:24,190 --> 00:02:25,780
+ <font color="#E5E5E5">harus melihat kode sumber untuk </font><font color="#CCCCCC">melihat caranya </font>
+
+58
+00:02:25,780 --> 00:02:28,989
+ <font color="#CCCCCC">Anda dapat mengamankan </font><font color="#E5E5E5">itu </font><font color="#CCCCCC">jadi aku </font><font color="#E5E5E5">hanya </font><font color="#CCCCCC">akan </font>
+
+59
+00:02:28,989 --> 00:02:31,450
+ mengatur tingkat keamanan ke media <font color="#E5E5E5">karena </font>
+
+60
+00:02:31,450 --> 00:02:32,829
+ beban <font color="#CCCCCC">hanya </font><font color="#E5E5E5">tidak benar-benar memeriksa </font>
+
+61
+00:02:32,829 --> 00:02:34,660
+ apa pun <font color="#E5E5E5">jadi kami hanya akan pergi </font><font color="#CCCCCC">dengan </font>
+
+62
+00:02:34,660 --> 00:02:38,410
+ <font color="#E5E5E5">media </font><font color="#CCCCCC">untuk sekarang </font><font color="#E5E5E5">dan kita akan pergi </font><font color="#CCCCCC">pada </font>
+
+63
+00:02:38,410 --> 00:02:40,890
+ <font color="#E5E5E5">unggah </font>
+
+64
+00:02:41,610 --> 00:02:44,820
+ dan saya akan <font color="#E5E5E5">melihat sumbernya seperti itu </font>
+
+65
+00:02:44,820 --> 00:02:47,070
+ Anda bisa <font color="#E5E5E5">lihat sekarang di media itu saja </font>
+
+66
+00:02:47,070 --> 00:02:50,280
+ <font color="#E5E5E5">memeriksa apakah jenis file yang diunggah adalah </font>
+
+67
+00:02:50,280 --> 00:02:53,100
+ gambar <font color="#E5E5E5">sekarang saya </font><font color="#CCCCCC">tidak ingin </font><font color="#E5E5E5">masuk juga </font>
+
+68
+00:02:53,100 --> 00:02:55,170
+ <font color="#CCCCCC">banyak detail tentang pengkodean karena </font><font color="#E5E5E5">ini </font>
+
+69
+00:02:55,170 --> 00:02:57,990
+ bukan kursus pengkodean yang <font color="#E5E5E5">hanya kita bicarakan </font>
+
+70
+00:02:57,990 --> 00:03:00,840
+ tentang <font color="#E5E5E5">bagaimana Anda mengamankan diri sendiri dan tentang </font>
+
+71
+00:03:00,840 --> 00:03:02,820
+ <font color="#E5E5E5">pengujian penetrasi jadi saya harus meliput </font>
+
+72
+00:03:02,820 --> 00:03:04,800
+ bagian <font color="#CCCCCC">keamanan jadi kita akan </font><font color="#E5E5E5">bicara </font>
+
+73
+00:03:04,800 --> 00:03:07,500
+ <font color="#CCCCCC">tentang </font><font color="#E5E5E5">konsep tetapi bukan yang sebenarnya </font>
+
+74
+00:03:07,500 --> 00:03:09,120
+ kode <font color="#CCCCCC">yang perlu Anda </font><font color="#E5E5E5">gunakan </font><font color="#CCCCCC">karena Anda </font>
+
+75
+00:03:09,120 --> 00:03:10,530
+ bisa <font color="#E5E5E5">menggunakan pemrograman yang berbeda </font>
+
+76
+00:03:10,530 --> 00:03:12,810
+ bahasa <font color="#E5E5E5">jadi di sini mereka menggunakan </font><font color="#CCCCCC">PHP </font>
+
+77
+00:03:12,810 --> 00:03:14,940
+ dan apa yang mereka <font color="#CCCCCC">lakukan adalah mereka baru saja </font>
+
+78
+00:03:14,940 --> 00:03:16,800
+ <font color="#CCCCCC">pernyataan </font><font color="#E5E5E5">sederhana jika dan mereka </font>
+
+79
+00:03:16,800 --> 00:03:19,080
+ memeriksa <font color="#E5E5E5">apakah jika gambar jika </font>
+
+80
+00:03:19,080 --> 00:03:22,110
+ <font color="#E5E5E5">Jenis file yang diunggah adalah gambar jadi kami </font>
+
+81
+00:03:22,110 --> 00:03:24,300
+ <font color="#E5E5E5">melihat bagaimana kita bisa </font><font color="#CCCCCC">melewati ini dengan mudah </font>
+
+82
+00:03:24,300 --> 00:03:26,490
+ mengunggah <font color="#E5E5E5">gambar dan kemudian mengubah </font>
+
+83
+00:03:26,490 --> 00:03:29,580
+ ekstensi <font color="#E5E5E5">dengan </font><font color="#CCCCCC">mengganti nama </font><font color="#E5E5E5">rak kami menjadi </font>
+
+84
+00:03:29,580 --> 00:03:32,400
+ <font color="#E5E5E5">jpg yang akan mengunggahnya yang akan </font>
+
+85
+00:03:32,400 --> 00:03:34,650
+ diterima sebagai gambar <font color="#E5E5E5">dan kemudian kita akan </font>
+
+86
+00:03:34,650 --> 00:03:37,430
+ hanya mengubah nama itu karena sudah di-upload <font color="#CCCCCC">ke </font>
+
+87
+00:03:37,430 --> 00:03:42,990
+ <font color="#E5E5E5">File PHP sekarang jika kita mengatur ini ke tinggi </font>
+
+88
+00:03:42,990 --> 00:03:45,890
+ tingkat keamanan 
+
+89
+00:03:48,500 --> 00:03:51,710
+ dan Anda <font color="#E5E5E5">kembali </font><font color="#CCCCCC">ke unggahan </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">memiliki </font>
+
+90
+00:03:51,710 --> 00:03:54,740
+ lihat <font color="#E5E5E5">kode sumber </font><font color="#CCCCCC">Anda dapat melihat </font><font color="#E5E5E5">itu </font>
+
+91
+00:03:54,740 --> 00:03:56,930
+ apa yang mereka <font color="#E5E5E5">lakukan di sini mereka sedang memeriksa </font>
+
+92
+00:03:56,930 --> 00:04:02,090
+ bahwa ekstensi adalah jpg <font color="#E5E5E5">atau jpg dan </font>
+
+93
+00:04:02,090 --> 00:04:04,700
+ maka Anda dapat <font color="#E5E5E5">mengunggah gambar itu </font>
+
+94
+00:04:04,700 --> 00:04:06,320
+ mereka tidak memeriksa <font color="#E5E5E5">jenis file </font>
+
+95
+00:04:06,320 --> 00:04:08,600
+ kali ini <font color="#E5E5E5">jadi seperti yang saya katakan, </font><font color="#CCCCCC">Anda perlu </font><font color="#E5E5E5">memeriksa </font>
+
+96
+00:04:08,600 --> 00:04:12,380
+ untuk keduanya sekarang <font color="#E5E5E5">dalam versi baru dvwa </font>
+
+97
+00:04:12,380 --> 00:04:14,600
+ <font color="#CCCCCC">itu sebenarnya memiliki keamanan ekstra </font>
+
+98
+00:04:14,600 --> 00:04:15,620
+ <font color="#E5E5E5">pengaturan disebut </font>
+
+99
+00:04:15,620 --> 00:04:18,048
+ <font color="#E5E5E5">tidak mungkin dan apa itu pada dasarnya </font>
+
+100
+00:04:18,048 --> 00:04:20,450
+ <font color="#CCCCCC">hanya menunjukkan implementasi yang </font><font color="#E5E5E5">tepat </font>
+
+101
+00:04:20,450 --> 00:04:23,330
+ dari masing-masing halaman ini <font color="#CCCCCC">jadi </font><font color="#E5E5E5">itu </font>
+
+102
+00:04:23,330 --> 00:04:24,860
+ <font color="#E5E5E5">sebenarnya </font><font color="#CCCCCC">tidak bisa diretas, itu haknya </font>
+
+103
+00:04:24,860 --> 00:04:25,640
+ cara <font color="#E5E5E5">melakukannya </font>
+
+104
+00:04:25,640 --> 00:04:29,090
+ versi dvwa yang datang <font color="#E5E5E5">dengan </font>
+
+105
+00:04:29,090 --> 00:04:30,500
+ <font color="#CCCCCC">Metasploit Apple </font><font color="#E5E5E5">tidak memilikinya </font>
+
+106
+00:04:30,500 --> 00:04:32,390
+ <font color="#E5E5E5">pengaturan keamanan tetapi kami tidak benar-benar </font>
+
+107
+00:04:32,390 --> 00:04:34,070
+ perlu <font color="#CCCCCC">menggunakannya tetap kita hanya </font><font color="#E5E5E5">perlu </font>
+
+108
+00:04:34,070 --> 00:04:36,200
+ lihat <font color="#E5E5E5">kode jadi saya memilikinya di sini </font><font color="#CCCCCC">di github </font>
+
+109
+00:04:36,200 --> 00:04:39,560
+ <font color="#E5E5E5">dan cara cara yang tepat </font><font color="#CCCCCC">untuk diterapkan </font>
+
+110
+00:04:39,560 --> 00:04:41,810
+ <font color="#E5E5E5">ini jika kita melihat ini sama </font>
+
+111
+00:04:41,810 --> 00:04:43,880
+ jika pernyataan <font color="#E5E5E5">dan pada dasarnya apa yang mereka </font>
+
+112
+00:04:43,880 --> 00:04:46,340
+ <font color="#E5E5E5">memeriksa apakah mereka memeriksa ekstensi tersebut </font>
+
+113
+00:04:46,340 --> 00:04:50,540
+ adalah ekstensi gambar seperti JPEG atau jpg 
+
+114
+00:04:50,540 --> 00:04:54,440
+ <font color="#E5E5E5">atau PNG </font><font color="#CCCCCC">jadi itu </font><font color="#E5E5E5">bagus jadi harus </font>
+
+115
+00:04:54,440 --> 00:04:58,070
+ menjadi salah satu <font color="#E5E5E5">dari hal-hal ini dan itu harus terjadi </font>
+
+116
+00:04:58,070 --> 00:05:01,370
+ dari jenis gambar sehingga harus tipe 
+
+117
+00:05:01,370 --> 00:05:05,510
+ gambar JPEG atau gambar PNG <font color="#CCCCCC">dan </font><font color="#E5E5E5">tidak </font>
+
+118
+00:05:05,510 --> 00:05:07,160
+ berhenti <font color="#CCCCCC">di </font><font color="#E5E5E5">yang benar-benar memeriksa ukuran </font>
+
+119
+00:05:07,160 --> 00:05:08,060
+ tapi tidak <font color="#E5E5E5">apa - apa </font>
+
+120
+00:05:08,060 --> 00:05:10,880
+ apa yang juga dilakukannya yang saya bicarakan 
+
+121
+00:05:10,880 --> 00:05:12,979
+ <font color="#E5E5E5">tentang yang menciptakan gambar </font>
+
+122
+00:05:12,979 --> 00:05:13,640
+ diri 
+
+123
+00:05:13,640 --> 00:05:15,880
+ jadi yang mereka <font color="#CCCCCC">lakukan adalah mereka </font>
+
+124
+00:05:15,880 --> 00:05:18,680
+ melucuti metadata <font color="#CCCCCC">gambar </font><font color="#E5E5E5">dan </font>
+
+125
+00:05:18,680 --> 00:05:21,350
+ mereka <font color="#E5E5E5">menggunakan perpustakaan sebenarnya </font>
+
+126
+00:05:21,350 --> 00:05:23,510
+ tidak <font color="#CCCCCC">menggunakan perpustakaan itu tetapi </font><font color="#E5E5E5">Anda seharusnya </font>
+
+127
+00:05:23,510 --> 00:05:26,060
+ menggunakan <font color="#CCCCCC">pustaka itu yang disebut PHP a </font>
+
+128
+00:05:26,060 --> 00:05:28,370
+ sihir atau apa pun yang <font color="#E5E5E5">ada </font>
+
+129
+00:05:28,370 --> 00:05:30,500
+ pustaka serupa untuk Python dan Ruby 
+
+130
+00:05:30,500 --> 00:05:33,680
+ dan <font color="#CCCCCC">semua </font><font color="#E5E5E5">itu </font><font color="#CCCCCC">- </font><font color="#E5E5E5">pada dasarnya apa yang mereka lakukan </font>
+
+131
+00:05:33,680 --> 00:05:36,890
+ <font color="#E5E5E5">apakah mereka membuat ulang </font><font color="#CCCCCC">gambar lain dari </font>
+
+132
+00:05:36,890 --> 00:05:39,640
+ <font color="#CCCCCC">gambar yang </font><font color="#E5E5E5">diunggah </font>
+
+133
+00:05:40,480 --> 00:05:43,330
+ begitu mereka melakukan itu, mereka benar-benar <font color="#E5E5E5">menghapusnya </font>
+
+134
+00:05:43,330 --> 00:05:46,870
+ dan <font color="#CCCCCC">menghancurkan </font><font color="#E5E5E5">gambar lama dan menggunakan </font>
+
+135
+00:05:46,870 --> 00:05:49,300
+ gambar baru <font color="#CCCCCC">dengan </font><font color="#E5E5E5">nama </font><font color="#CCCCCC">baru sehingga mereka buat </font>
+
+136
+00:05:49,300 --> 00:05:51,760
+ <font color="#E5E5E5">gambar baru dari citra lama mereka </font>
+
+137
+00:05:51,760 --> 00:05:53,740
+ ganti namanya dan kemudian <font color="#E5E5E5">Anda menggunakannya </font>
+
+138
+00:05:53,740 --> 00:05:56,290
+ gambar <font color="#E5E5E5">jadi ini adalah tiga hal yang Anda </font><font color="#CCCCCC">butuhkan </font>
+
+139
+00:05:56,290 --> 00:05:58,360
+ <font color="#E5E5E5">untuk memeriksa pemeriksaan ekstensi untuk </font>
+
+140
+00:05:58,360 --> 00:06:01,690
+ jenis file buat ulang gambar <font color="#E5E5E5">itu sendiri </font>
+
+141
+00:06:01,690 --> 00:06:04,420
+ cara <font color="#E5E5E5">bahkan jika seseorang mencoba untuk mengunggah </font>
+
+142
+00:06:04,420 --> 00:06:08,470
+ file yang buruk <font color="#E5E5E5">atau file berbahaya maka Anda akan </font>
+
+143
+00:06:08,470 --> 00:06:11,320
+ <font color="#E5E5E5">dapat melindungi aplikasi web Anda </font>
+
+144
+00:06:11,320 --> 00:06:14,800
+ dan server Anda dari file <font color="#E5E5E5">itu bahkan </font>
+
+145
+00:06:14,800 --> 00:06:16,720
+ jika mereka <font color="#CCCCCC">berhasil mengunggah file itu </font>
+
+146
+00:06:16,720 --> 00:06:18,760
+ <font color="#CCCCCC">file </font><font color="#E5E5E5">akan </font><font color="#CCCCCC">dihancurkan </font><font color="#E5E5E5">karena </font>
+
+147
+00:06:18,760 --> 00:06:22,380
+ <font color="#CCCCCC">proses rekreasi </font>
+
+148
+00:06:22,520 --> 00:06:26,280
+ kode eksekusi kerentanan ini 
+
+149
+00:06:26,280 --> 00:06:28,170
+ jenis kerentanan memungkinkan <font color="#E5E5E5">kami untuk </font>
+
+150
+00:06:28,170 --> 00:06:30,990
+ jalankan kode sistem operasi pada 
+
+151
+00:06:30,990 --> 00:06:33,120
+ server target <font color="#E5E5E5">jadi jika server target </font>
+
+152
+00:06:33,120 --> 00:06:34,860
+ menggunakan <font color="#E5E5E5">Windows akan dapat mengeksekusi </font>
+
+153
+00:06:34,860 --> 00:06:37,200
+ <font color="#CCCCCC">Perintah Windows </font><font color="#E5E5E5">jika menggunakan </font><font color="#CCCCCC">Linux itu </font>
+
+154
+00:06:37,200 --> 00:06:38,730
+ <font color="#E5E5E5">kita akan bisa </font><font color="#CCCCCC">menggunakannya untuk menggunakan yang berikutnya </font>
+
+155
+00:06:38,730 --> 00:06:42,000
+ Perintah <font color="#E5E5E5">jelas ini benar-benar </font>
+
+156
+00:06:42,000 --> 00:06:44,430
+ masalah kritis <font color="#E5E5E5">yang memungkinkan kami </font><font color="#CCCCCC">melakukannya </font>
+
+157
+00:06:44,430 --> 00:06:46,440
+ lakukan apapun yang kita inginkan <font color="#CCCCCC">dengan target </font>
+
+158
+00:06:46,440 --> 00:06:50,550
+ <font color="#E5E5E5">kita benar-benar dapat mengunggah shell PHP menggunakan W </font>
+
+159
+00:06:50,550 --> 00:06:53,250
+ dapatkan perintah <font color="#E5E5E5">atau unggah payload virus </font>
+
+160
+00:06:53,250 --> 00:06:56,280
+ apa pun yang kita inginkan <font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">WKW </font><font color="#E5E5E5">mendapatkan </font>
+
+161
+00:06:56,280 --> 00:06:58,560
+ Perintah Linux Anda hanya perlu <font color="#CCCCCC">memastikan </font>
+
+162
+00:06:58,560 --> 00:07:00,600
+ <font color="#E5E5E5">bahwa Anda mengunggahnya ke </font><font color="#CCCCCC">file atau ke </font>
+
+163
+00:07:00,600 --> 00:07:02,370
+ direktori yang <font color="#CCCCCC">diizinkan untuk Anda </font>
+
+164
+00:07:02,370 --> 00:07:05,640
+ <font color="#E5E5E5">menulis hal-hal dengan </font><font color="#CCCCCC">cara </font><font color="#E5E5E5">lain mengeksploitasi </font>
+
+165
+00:07:05,640 --> 00:07:08,880
+ Kerentanan <font color="#E5E5E5">ini hanya menjalankan OS </font>
+
+166
+00:07:08,880 --> 00:07:11,070
+ <font color="#E5E5E5">perintah dan dapatkan shell reverse berdasarkan </font>
+
+167
+00:07:11,070 --> 00:07:13,200
+ <font color="#E5E5E5">pada </font><font color="#CCCCCC">perintah ini </font><font color="#E5E5E5">jadi karena kita bisa berlari </font>
+
+168
+00:07:13,200 --> 00:07:15,630
+ perintah sistem operasi yang <font color="#CCCCCC">bisa kita gunakan </font>
+
+169
+00:07:15,630 --> 00:07:17,490
+ <font color="#E5E5E5">bahasa pemrograman yang didukung oleh itu </font>
+
+170
+00:07:17,490 --> 00:07:20,550
+ <font color="#E5E5E5">sistem operasi untuk mencoba dan mendapatkan </font>
+
+171
+00:07:20,550 --> 00:07:24,570
+ koneksi terbalik atau di <font color="#CCCCCC">komputer kita begitu </font>
+
+172
+00:07:24,570 --> 00:07:27,600
+ pertama-tama mari kita <font color="#CCCCCC">asumsikan saja </font>
+
+173
+00:07:27,600 --> 00:07:30,930
+ <font color="#CCCCCC">kami sedang menjelajah di sini dan kami mengaturnya </font>
+
+174
+00:07:30,930 --> 00:07:34,890
+ <font color="#E5E5E5">berkeliling dan kemudian kita masuk ke tab </font>
+
+175
+00:07:34,890 --> 00:07:37,590
+ <font color="#CCCCCC">situs web di mana memungkinkan Anda </font><font color="#E5E5E5">untuk untuk </font>
+
+176
+00:07:37,590 --> 00:07:39,780
+ Misalnya <font color="#CCCCCC">lakukan ping sekarang </font><font color="#E5E5E5">apa yang </font><font color="#CCCCCC">harus </font><font color="#E5E5E5">Anda </font><font color="#CCCCCC">lakukan </font>
+
+177
+00:07:39,780 --> 00:07:42,690
+ apakah Anda harus <font color="#E5E5E5">selalu mencoba bereksperimen </font>
+
+178
+00:07:42,690 --> 00:07:45,450
+ <font color="#E5E5E5">dengan kotak input apa pun yang Anda lihat coba lihat </font>
+
+179
+00:07:45,450 --> 00:07:48,120
+ apa <font color="#E5E5E5">yang dilakukan kotak input dan apa yang bisa </font>
+
+180
+00:07:48,120 --> 00:07:50,730
+ <font color="#E5E5E5">Anda menyuntikkan ke dalamnya apa yang dapat Anda lakukan </font>
+
+181
+00:07:50,730 --> 00:07:53,280
+ dapatkan hal-hal yang berjalan <font color="#E5E5E5">jadi misalnya ini </font>
+
+182
+00:07:53,280 --> 00:07:54,780
+ kotak input <font color="#E5E5E5">memberi tahu Anda bahwa itu </font><font color="#CCCCCC">akan terjadi </font>
+
+183
+00:07:54,780 --> 00:07:57,210
+ lakukan ping dan jika Anda <font color="#E5E5E5">memasang infus </font>
+
+184
+00:07:57,210 --> 00:08:00,330
+ <font color="#E5E5E5">Misalnya saya akan menempatkan 10 2014 203 yang </font>
+
+185
+00:08:00,330 --> 00:08:03,720
+ adalah IP saya sendiri hanya untuk melihatnya menggunakannya 
+
+186
+00:08:03,720 --> 00:08:05,460
+ <font color="#CCCCCC">orang normal </font><font color="#E5E5E5">dan aku akan </font><font color="#CCCCCC">melakukan </font>
+
+187
+00:08:05,460 --> 00:08:07,830
+ kirimkan dan itu akan dilanjutkan <font color="#CCCCCC">dan ping </font>
+
+188
+00:08:07,830 --> 00:08:10,080
+ untuk saya dan memberi saya <font color="#E5E5E5">hasil merah muda </font>
+
+189
+00:08:10,080 --> 00:08:12,500
+ <font color="#E5E5E5">jadi apa yang terlihat </font><font color="#CCCCCC">seperti ini sebenarnya </font>
+
+190
+00:08:12,500 --> 00:08:16,500
+ <font color="#E5E5E5">mengeksekusi </font><font color="#CCCCCC">perintah </font><font color="#E5E5E5">ping </font><font color="#CCCCCC">dan Linux </font>
+
+191
+00:08:16,500 --> 00:08:19,140
+ <font color="#CCCCCC">sistem </font><font color="#E5E5E5">sekarang mari kita lihat apakah kita bisa mengeksploitasi </font>
+
+192
+00:08:19,140 --> 00:08:21,660
+ bahwa <font color="#CCCCCC">jika itu benar-benar mengeksekusi ping </font>
+
+193
+00:08:21,660 --> 00:08:23,790
+ <font color="#CCCCCC">perintah jadi apa yang dilakukannya itu akan terjadi </font>
+
+194
+00:08:23,790 --> 00:08:29,940
+ <font color="#E5E5E5">dan kami melakukannya mengirimkan 10 2014 </font>
+
+195
+00:08:29,940 --> 00:08:32,760
+ 2 <font color="#CCCCCC">o3 </font><font color="#E5E5E5">sebagai merah muda dan kemudian itu akan </font>
+
+196
+00:08:32,760 --> 00:08:35,159
+ <font color="#E5E5E5">ke server web dan </font><font color="#CCCCCC">server web </font>
+
+197
+00:08:35,159 --> 00:08:35,950
+ <font color="#E5E5E5">adalah lakukan </font>
+
+198
+00:08:35,950 --> 00:08:41,480
+ <font color="#CCCCCC">hal 10 2014 2 atau 3 </font>
+
+199
+00:08:41,480 --> 00:08:44,030
+ jadi mari kita lihat apakah <font color="#E5E5E5">kita bisa memanfaatkan ini caranya </font>
+
+200
+00:08:44,030 --> 00:08:46,460
+ akankah <font color="#E5E5E5">kita memanfaatkannya </font><font color="#CCCCCC">jika diambil apa </font>
+
+201
+00:08:46,460 --> 00:08:48,950
+ kami <font color="#E5E5E5">mengimpor di sini dan kemudian itu </font>
+
+202
+00:08:48,950 --> 00:08:54,650
+ <font color="#CCCCCC">melakukan </font><font color="#E5E5E5">pink yang sekarang di Linux dan UNIX </font>
+
+203
+00:08:54,650 --> 00:08:58,070
+ berdasarkan perintah Anda dapat <font color="#CCCCCC">menggunakan tanda ini </font>
+
+204
+00:08:58,070 --> 00:09:01,970
+ <font color="#CCCCCC">untuk </font><font color="#E5E5E5">menjalankan beberapa </font><font color="#CCCCCC">perintah </font><font color="#E5E5E5">pada satu baris </font>
+
+205
+00:09:01,970 --> 00:09:05,240
+ <font color="#CCCCCC">jadi jika Anda melakukan ini </font><font color="#E5E5E5">jika </font><font color="#CCCCCC">misalnya di blog Anda </font>
+
+206
+00:09:05,240 --> 00:09:07,340
+ terminal sendiri <font color="#CCCCCC">jadi saya </font><font color="#E5E5E5">hanya akan pergi ke </font>
+
+207
+00:09:07,340 --> 00:09:09,200
+ <font color="#CCCCCC">terminal </font><font color="#E5E5E5">saya di </font><font color="#CCCCCC">sini dan saya hanya </font><font color="#E5E5E5">akan melakukannya </font>
+
+208
+00:09:09,200 --> 00:09:11,960
+ lakukan LS yang merupakan perintah daftar dan kemudian 
+
+209
+00:09:11,960 --> 00:09:14,930
+ PWD adalah daftar <font color="#E5E5E5">apa yang menunjukkan Anda </font>
+
+210
+00:09:14,930 --> 00:09:17,350
+ <font color="#CCCCCC">direktori kerja jadi jika saya melakukan LS </font>
+
+211
+00:09:17,350 --> 00:09:21,320
+ diikuti <font color="#E5E5E5">dengan tanda ini dan kemudian lakukan PWD itu </font>
+
+212
+00:09:21,320 --> 00:09:23,720
+ akan menjalankan kedua perintah <font color="#CCCCCC">sehingga akan dilakukan </font>
+
+213
+00:09:23,720 --> 00:09:25,850
+ ini <font color="#E5E5E5">dan kemudian ia akan </font><font color="#CCCCCC">menunjukkan di mana </font>
+
+214
+00:09:25,850 --> 00:09:28,970
+ <font color="#E5E5E5">direktori kerja </font><font color="#CCCCCC">sehingga kita bisa melakukan itu </font>
+
+215
+00:09:28,970 --> 00:09:30,920
+ hal yang sama dengan ini dan lihat apakah <font color="#E5E5E5">itu bekerja </font>
+
+216
+00:09:30,920 --> 00:09:33,890
+ bagi <font color="#CCCCCC">kita sehingga kita akan menempatkan </font><font color="#E5E5E5">IV </font><font color="#CCCCCC">write </font>
+
+217
+00:09:33,890 --> 00:09:36,560
+ IP dan kemudian <font color="#E5E5E5">aku </font><font color="#CCCCCC">hanya </font><font color="#E5E5E5">akan melakukan PWD dan </font>
+
+218
+00:09:36,560 --> 00:09:39,310
+ lihat apakah <font color="#E5E5E5">akan mengeksekusi PWD untuk saya </font><font color="#CCCCCC">jika </font>
+
+219
+00:09:39,310 --> 00:09:42,350
+ Maka ini adalah eksekusi kode 
+
+220
+00:09:42,350 --> 00:09:44,900
+ kerentanan dan saya bisa melakukan <font color="#E5E5E5">apa saja </font>
+
+221
+00:09:44,900 --> 00:09:47,330
+ Saya ingin <font color="#E5E5E5">di server jadi mari kita lihat apa </font>
+
+222
+00:09:47,330 --> 00:09:49,580
+ <font color="#CCCCCC">akan </font><font color="#E5E5E5">terjadi saya tempel ini dan saya </font>
+
+223
+00:09:49,580 --> 00:09:53,450
+ <font color="#E5E5E5">akan klik kirim sekarang seperti yang bisa kita lihat </font>
+
+224
+00:09:53,450 --> 00:09:56,210
+ <font color="#CCCCCC">mendapat hasil besar </font><font color="#E5E5E5">tetapi pada akhirnya kami dapatkan </font>
+
+225
+00:09:56,210 --> 00:09:58,070
+ direktori kerja kami saat ini <font color="#CCCCCC">jadi itu </font>
+
+226
+00:09:58,070 --> 00:10:03,470
+ sangat www <font color="#E5E5E5">DV w </font><font color="#CCCCCC">yaitu </font><font color="#E5E5E5">kerentanan adalah suatu </font>
+
+227
+00:10:03,470 --> 00:10:07,430
+ <font color="#E5E5E5">keluar jadi dieksekusi PWD yang </font><font color="#CCCCCC">saya </font>
+
+228
+00:10:07,430 --> 00:10:09,980
+ disisipkan <font color="#E5E5E5">dan itu berarti saya bisa memasukkan apapun </font>
+
+229
+00:10:09,980 --> 00:10:12,050
+ perintah <font color="#CCCCCC">saya inginkan di sana dan mereka </font><font color="#E5E5E5">akan </font>
+
+230
+00:10:12,050 --> 00:10:16,910
+ <font color="#CCCCCC">dieksekusi jadi saya sudah memasukkan </font><font color="#E5E5E5">sumber daya </font>
+
+231
+00:10:16,910 --> 00:10:20,330
+ <font color="#E5E5E5">file yang akan Anda gunakan untuk mendapatkannya </font>
+
+232
+00:10:20,330 --> 00:10:22,280
+ koneksi terbalik dari target 
+
+233
+00:10:22,280 --> 00:10:24,860
+ komputer <font color="#E5E5E5">sekarang ada </font><font color="#CCCCCC">sejumlah </font><font color="#E5E5E5">cara a </font>
+
+234
+00:10:24,860 --> 00:10:26,570
+ jumlah perintah yang <font color="#E5E5E5">akan memberi Anda </font>
+
+235
+00:10:26,570 --> 00:10:28,670
+ koneksi terbalik semua perintah ini 
+
+236
+00:10:28,670 --> 00:10:30,440
+ tergantung pada <font color="#E5E5E5">bahasa pemrograman jadi </font>
+
+237
+00:10:30,440 --> 00:10:33,080
+ misalnya kita punya perintah <font color="#CCCCCC">di PHP kita </font>
+
+238
+00:10:33,080 --> 00:10:35,030
+ punya perintah Ruby kamu punya Perl 
+
+239
+00:10:35,030 --> 00:10:37,850
+ perintah <font color="#E5E5E5">dan kami memiliki </font><font color="#CCCCCC">1 untuk bash bash </font>
+
+240
+00:10:37,850 --> 00:10:42,320
+ adalah bahasa perintah shell linux <font color="#E5E5E5">begitu </font>
+
+241
+00:10:42,320 --> 00:10:45,260
+ semua <font color="#E5E5E5">sistem operasi UNIX akan bisa </font>
+
+242
+00:10:45,260 --> 00:10:48,440
+ untuk menjalankan <font color="#E5E5E5">perintah bash jadi itu a </font>
+
+243
+00:10:48,440 --> 00:10:52,660
+ cara yang sangat <font color="#E5E5E5">sangat baik </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">melakukan itu jadi </font><font color="#CCCCCC">sebagian besar </font>
+
+244
+00:10:52,660 --> 00:10:55,430
+ <font color="#CCCCCC">Sistem UNIX </font><font color="#E5E5E5">perintah ini harus bekerja </font>
+
+245
+00:10:55,430 --> 00:10:58,250
+ pada kebanyakan <font color="#E5E5E5">sistem berbasis UNIX jadi ini akan </font>
+
+246
+00:10:58,250 --> 00:10:59,980
+ menjadi cara yang sangat <font color="#E5E5E5">baik untuk </font><font color="#CCCCCC">melakukannya lagi </font>
+
+247
+00:10:59,980 --> 00:11:02,870
+ <font color="#CCCCCC">kebanyakan </font><font color="#E5E5E5">dari mereka akan memiliki Python sehingga Python </font>
+
+248
+00:11:02,870 --> 00:11:05,360
+ <font color="#CCCCCC">akan </font><font color="#E5E5E5">menjadi cara netcat yang baik sebagian besar dari mereka </font>
+
+249
+00:11:05,360 --> 00:11:07,460
+ memang memiliki <font color="#E5E5E5">kucing bersih juga </font><font color="#CCCCCC">jadi kucing bersih adalah a </font>
+
+250
+00:11:07,460 --> 00:11:09,590
+ cara yang baik untuk melakukan <font color="#CCCCCC">itu </font><font color="#E5E5E5">dan kami </font>
+
+251
+00:11:09,590 --> 00:11:11,060
+ benar-benar akan <font color="#CCCCCC">menggunakan kucing net dalam hal ini </font>
+
+252
+00:11:11,060 --> 00:11:14,030
+ video <font color="#E5E5E5">jadi apa yang akan saya lakukan adalah yang pertama </font>
+
+253
+00:11:14,030 --> 00:11:15,800
+ Aku akan mendengarkan <font color="#CCCCCC">koneksi saja </font>
+
+254
+00:11:15,800 --> 00:11:17,420
+ seperti yang biasa kita <font color="#E5E5E5">lakukan dengan </font><font color="#CCCCCC">Metasploit kapan </font>
+
+255
+00:11:17,420 --> 00:11:19,730
+ kami biasanya <font color="#E5E5E5">melakukan multi handler yang Anda bisa </font>
+
+256
+00:11:19,730 --> 00:11:21,410
+ sebenarnya <font color="#E5E5E5">menggunakan multi handler untuk ini </font>
+
+257
+00:11:21,410 --> 00:11:23,660
+ <font color="#E5E5E5">dan dengarkan koneksi </font><font color="#CCCCCC">tapi </font><font color="#E5E5E5">aku hanya </font>
+
+258
+00:11:23,660 --> 00:11:25,430
+ akan <font color="#E5E5E5">membuatnya lebih sederhana </font><font color="#CCCCCC">dan menunjukkan Anda yang baru </font>
+
+259
+00:11:25,430 --> 00:11:28,220
+ cara <font color="#E5E5E5">dan aku akan menggunakan </font><font color="#CCCCCC">kucing itu begitu bersih </font>
+
+260
+00:11:28,220 --> 00:11:30,430
+ kucing 
+
+261
+00:11:32,910 --> 00:11:34,920
+ netiquette hanyalah alat yang memungkinkan 
+
+262
+00:11:34,920 --> 00:11:37,350
+ <font color="#CCCCCC">Anda </font><font color="#E5E5E5">untuk mendengarkan dan menghubungkan komputer </font>
+
+263
+00:11:37,350 --> 00:11:39,899
+ bersama-sama <font color="#E5E5E5">jadi saya </font><font color="#CCCCCC">akan mendengarkan di port </font>
+
+264
+00:11:39,899 --> 00:11:42,839
+ 8080 jadi <font color="#E5E5E5">netcat adalah program </font><font color="#CCCCCC">Vivi ini </font>
+
+265
+00:11:42,839 --> 00:11:44,940
+ hanya untuk melihat output verbose sehingga kita <font color="#E5E5E5">bisa melihat </font>
+
+266
+00:11:44,940 --> 00:11:46,889
+ banyak <font color="#CCCCCC">output yang tidak beres kita </font>
+
+267
+00:11:46,889 --> 00:11:48,990
+ bisa <font color="#E5E5E5">melihatnya dan kami mengatakan hal itu </font><font color="#CCCCCC">untuk </font>
+
+268
+00:11:48,990 --> 00:11:52,250
+ dengarkan <font color="#E5E5E5">menggunakan opsi </font><font color="#CCCCCC">l </font><font color="#E5E5E5">pada port 8080 </font>
+
+269
+00:11:52,250 --> 00:11:55,560
+ <font color="#CCCCCC">jadi saya akan </font><font color="#E5E5E5">menekan enter dan itu katakan </font>
+
+270
+00:11:55,560 --> 00:11:57,569
+ itu hanya mendengarkan pada port 8080 itu 
+
+271
+00:11:57,569 --> 00:12:00,240
+ semua itu akan melakukan <font color="#E5E5E5">perintah selanjutnya </font>
+
+272
+00:12:00,240 --> 00:12:02,639
+ kita akan lakukan adalah kita <font color="#CCCCCC">akan </font><font color="#E5E5E5">mencoba </font>
+
+273
+00:12:02,639 --> 00:12:05,190
+ untuk terhubung <font color="#E5E5E5">dari </font><font color="#CCCCCC">server web kembali ke </font>
+
+274
+00:12:05,190 --> 00:12:08,069
+ <font color="#CCCCCC">komputer saya </font><font color="#E5E5E5">menggunakan netcat juga begitu </font>
+
+275
+00:12:08,069 --> 00:12:09,899
+ kami mengasumsikan server web memiliki netcat 
+
+276
+00:12:09,899 --> 00:12:12,720
+ <font color="#E5E5E5">kami akan </font><font color="#CCCCCC">pergi </font><font color="#E5E5E5">mencobanya dan melihat </font><font color="#CCCCCC">apakah yang bekerja </font><font color="#E5E5E5">begitu </font>
+
+277
+00:12:12,720 --> 00:12:14,459
+ perintahnya <font color="#CCCCCC">sangat sederhana </font><font color="#E5E5E5">, netcat </font>
+
+278
+00:12:14,459 --> 00:12:17,069
+ dan kami mengatakan itu untuk menggunakan bash otak 
+
+279
+00:12:17,069 --> 00:12:21,360
+ dan kami memberikannya <font color="#E5E5E5">IP perangkat saya </font>
+
+280
+00:12:21,360 --> 00:12:26,870
+ <font color="#E5E5E5">perangkat penyerang saya yang 10 2014 </font>
+
+281
+00:12:27,550 --> 00:12:31,420
+ dan kemudian port <font color="#E5E5E5">80 80 yang mana </font>
+
+282
+00:12:31,420 --> 00:12:34,959
+ <font color="#E5E5E5">kita sedang mendengarkan di sini jadi aku </font>
+
+283
+00:12:34,959 --> 00:12:38,200
+ akan menyalin <font color="#CCCCCC">itu dan aku </font><font color="#E5E5E5">hanya akan </font>
+
+284
+00:12:38,200 --> 00:12:39,910
+ jalankan <font color="#E5E5E5">dengan cara yang sama seperti dulu </font>
+
+285
+00:12:39,910 --> 00:12:44,280
+ jalankan <font color="#E5E5E5">PW perintah PWD </font>
+
+286
+00:12:44,280 --> 00:12:49,640
+ jadi hal terakhir yang kami <font color="#CCCCCC">lakukan adalah 10:20 </font>
+
+287
+00:12:50,320 --> 00:12:54,160
+ <font color="#CCCCCC">14 203 </font>
+
+288
+00:12:54,420 --> 00:12:57,089
+ lalu kami melakukan PWD <font color="#E5E5E5">jadi apa yang akan saya lakukan </font>
+
+289
+00:12:57,089 --> 00:12:59,399
+ sekarang saya <font color="#E5E5E5">akan menghapus </font><font color="#CCCCCC">PWD </font><font color="#E5E5E5">dan paste </font>
+
+290
+00:12:59,399 --> 00:13:02,160
+ kode yang <font color="#CCCCCC">baru kita buat </font><font color="#E5E5E5">yang akan </font>
+
+291
+00:13:02,160 --> 00:13:05,100
+ coba <font color="#CCCCCC">hubungkan </font><font color="#E5E5E5">dari </font><font color="#CCCCCC">web server kembali </font>
+
+292
+00:13:05,100 --> 00:13:06,839
+ <font color="#E5E5E5">ke </font><font color="#CCCCCC">mesin callee </font><font color="#E5E5E5">ke penyerang </font>
+
+293
+00:13:06,839 --> 00:13:10,800
+ mesin <font color="#E5E5E5">dan aku akan datang ke sini </font><font color="#CCCCCC">dan sebagai </font>
+
+294
+00:13:10,800 --> 00:13:12,360
+ Anda dapat melihat <font color="#E5E5E5">kami mendapat </font><font color="#CCCCCC">koneksi kembali </font>
+
+295
+00:13:12,360 --> 00:13:17,310
+ dari <font color="#CCCCCC">dua ke kami dari 10 2014 204 </font>
+
+296
+00:13:17,310 --> 00:13:20,459
+ jadi itulah <font color="#E5E5E5">komputer target </font><font color="#CCCCCC">dan jika kita </font>
+
+297
+00:13:20,459 --> 00:13:23,160
+ lakukan PWD Anda akan melihat bahwa kami <font color="#E5E5E5">memiliki </font>
+
+298
+00:13:23,160 --> 00:13:26,810
+ <font color="#CCCCCC">pembalikan jika kita melakukan LS jika kita melakukan ID </font>
+
+299
+00:13:26,810 --> 00:13:30,300
+ Anda akan melihat <font color="#CCCCCC">kata </font><font color="#E5E5E5">itu </font><font color="#CCCCCC">setiap W data dan jika </font>
+
+300
+00:13:30,300 --> 00:13:33,410
+ kami melakukan Anda nama hanya untuk mengkonfirmasi itu 
+
+301
+00:13:33,410 --> 00:13:36,389
+ <font color="#CCCCCC">Saya di temui dieksploitasi </font><font color="#E5E5E5">dan Anda bisa </font>
+
+302
+00:13:36,389 --> 00:13:38,519
+ melihat <font color="#CCCCCC">momentum </font><font color="#E5E5E5">yang</font><font color="#CCCCCC"> dieksploitasi </font><font color="#E5E5E5">dan aku </font>
+
+303
+00:13:38,519 --> 00:13:41,040
+ <font color="#E5E5E5">dapat </font><font color="#CCCCCC">menjalankan perintah apa pun </font><font color="#E5E5E5">yang saya inginkan </font>
+
+304
+00:13:41,040 --> 00:13:43,110
+ komputer target <font color="#E5E5E5">jadi pada dasarnya saya punya </font>
+
+305
+00:13:43,110 --> 00:13:47,180
+ <font color="#E5E5E5">akses penuh ke komputer </font><font color="#CCCCCC">target </font>
+
+306
+00:13:49,629 --> 00:13:52,910
+ <font color="#E5E5E5">oke sekarang kita berhasil mengeksekusi </font>
+
+307
+00:13:52,910 --> 00:13:55,699
+ perintah <font color="#E5E5E5">di </font><font color="#CCCCCC">server menggunakan </font><font color="#E5E5E5">rendah </font>
+
+308
+00:13:55,699 --> 00:13:58,100
+ <font color="#E5E5E5">pengaturan keamanan mari kita lihat apakah kita bisa </font>
+
+309
+00:13:58,100 --> 00:14:00,709
+ mengaturnya <font color="#CCCCCC">hingga sedang dan jika kita bisa melakukan itu </font>
+
+310
+00:14:00,709 --> 00:14:03,800
+ sama <font color="#CCCCCC">setelah meningkatkan </font><font color="#E5E5E5">keamanan jadi kami </font>
+
+311
+00:14:03,800 --> 00:14:05,990
+ <font color="#E5E5E5">menutupi kasus dasar dan sekarang saya akan pergi </font>
+
+312
+00:14:05,990 --> 00:14:08,449
+ <font color="#E5E5E5">untuk pergi ke keamanan dan saya akan mengirim set </font>
+
+313
+00:14:08,449 --> 00:14:11,360
+ <font color="#E5E5E5">tingkat</font><font color="#CCCCCC"> keamanan untuk menengah </font><font color="#E5E5E5">aku akan </font>
+
+314
+00:14:11,360 --> 00:14:14,269
+ <font color="#E5E5E5">kirimkan ini maka kita akan kembali </font><font color="#CCCCCC">ke </font>
+
+315
+00:14:14,269 --> 00:14:17,029
+ <font color="#CCCCCC">eksekusi perintah kami </font><font color="#E5E5E5">dan saya akan </font>
+
+316
+00:14:17,029 --> 00:14:18,920
+ masukan IP saya sekarang, saya <font color="#CCCCCC">hanya ingin tahu itu </font>
+
+317
+00:14:18,920 --> 00:14:20,809
+ <font color="#E5E5E5">IP saya berbeda sekarang </font>
+
+318
+00:14:20,809 --> 00:14:23,449
+ jika Anda melihat bahwa IP server 
+
+319
+00:14:23,449 --> 00:14:27,709
+ sekarang <font color="#E5E5E5">adalah 209 dan </font><font color="#CCCCCC">IP </font><font color="#E5E5E5">mesin saya </font><font color="#CCCCCC">adalah 2i </font>
+
+320
+00:14:27,709 --> 00:14:30,879
+ <font color="#CCCCCC">jika saya melakukannya dengan </font><font color="#E5E5E5">konflik </font>
+
+321
+00:14:31,160 --> 00:14:34,100
+ Anda dapat melihat <font color="#E5E5E5">IP </font><font color="#CCCCCC">dari caddy saya </font>
+
+322
+00:14:34,100 --> 00:14:37,040
+ mesin adalah 208 <font color="#CCCCCC">jadi lagi aku akan mencoba </font><font color="#E5E5E5">untuk </font>
+
+323
+00:14:37,040 --> 00:14:38,720
+ <font color="#E5E5E5">pikir </font><font color="#CCCCCC">mesin Cali mari kita pertama kali </font>
+
+324
+00:14:38,720 --> 00:14:41,870
+ <font color="#E5E5E5">lihat apakah kita bisa memikirkan sesuatu jadi kita </font>
+
+325
+00:14:41,870 --> 00:14:43,519
+ dengan asumsi bahwa <font color="#E5E5E5">kita </font><font color="#CCCCCC">tidak mengetahui situs web ini </font>
+
+326
+00:14:43,519 --> 00:14:45,829
+ dan lagi <font color="#E5E5E5">ini pergi dari kotak hitam </font>
+
+327
+00:14:45,829 --> 00:14:48,019
+ <font color="#E5E5E5">sudut pandang sehingga kita tidak </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">melihat </font>
+
+328
+00:14:48,019 --> 00:14:50,839
+ di kode sumber <font color="#CCCCCC">jadi kami hanya akan </font>
+
+329
+00:14:50,839 --> 00:14:53,149
+ jalankan <font color="#E5E5E5">dan situs web ini memberi tahu kami </font>
+
+330
+00:14:53,149 --> 00:14:55,069
+ akan <font color="#E5E5E5">hal merah muda bagi kita jadi aku hanya </font>
+
+331
+00:14:55,069 --> 00:14:57,889
+ akan <font color="#E5E5E5">menempatkan IP dari </font><font color="#CCCCCC">Kali </font><font color="#E5E5E5">dan melihat apakah </font>
+
+332
+00:14:57,889 --> 00:14:59,899
+ <font color="#CCCCCC">warna merah muda bekerja </font><font color="#E5E5E5">jadi kita akan melakukannya </font>
+
+333
+00:14:59,899 --> 00:15:02,500
+ taruh <font color="#CCCCCC">10 </font>
+
+334
+00:15:04,310 --> 00:15:06,290
+ dan seperti yang Anda <font color="#E5E5E5">lihat </font><font color="#CCCCCC">sekarang perintah pink </font>
+
+335
+00:15:06,290 --> 00:15:09,740
+ sedang bekerja <font color="#CCCCCC">sekarang mari kita lihat </font><font color="#E5E5E5">dan coba lakukan </font>
+
+336
+00:15:09,740 --> 00:15:12,830
+ apa yang <font color="#CCCCCC">kami </font><font color="#E5E5E5">lakukan </font><font color="#CCCCCC">sebelumnya </font><font color="#E5E5E5">jadi kami biasa melakukannya </font>
+
+337
+00:15:12,830 --> 00:15:15,590
+ letakkan IP <font color="#E5E5E5">dan kemudian kita gunakan </font><font color="#CCCCCC">titik koma </font>
+
+338
+00:15:15,590 --> 00:15:18,560
+ <font color="#CCCCCC">untuk mengatakan bahwa jalankan perintah </font><font color="#E5E5E5">ini dan ini </font>
+
+339
+00:15:18,560 --> 00:15:22,100
+ perintah <font color="#E5E5E5">dan dalam </font><font color="#CCCCCC">pengaturan </font><font color="#E5E5E5">keamanan rendah </font>
+
+340
+00:15:22,100 --> 00:15:24,800
+ <font color="#E5E5E5">ini digunakan untuk bekerja </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">jadi kita akan </font>
+
+341
+00:15:24,800 --> 00:15:27,350
+ <font color="#E5E5E5">kirimkan ini dan di bagian bawah seharusnya </font>
+
+342
+00:15:27,350 --> 00:15:28,820
+ tunjukkan <font color="#E5E5E5">direktori kerja kami saat ini </font>
+
+343
+00:15:28,820 --> 00:15:32,240
+ karena <font color="#E5E5E5">kami memiliki PWD di sini jadi saya </font>
+
+344
+00:15:32,240 --> 00:15:34,380
+ mengirimkan <font color="#E5E5E5">ini </font>
+
+345
+00:15:34,380 --> 00:15:36,990
+ dan seperti yang Anda lihat <font color="#E5E5E5">tidak ada yang dieksekusi </font>
+
+346
+00:15:36,990 --> 00:15:39,120
+ <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">bahkan </font><font color="#E5E5E5">tidak perintah ping </font><font color="#CCCCCC">mendapat </font>
+
+347
+00:15:39,120 --> 00:15:42,360
+ dieksekusi <font color="#CCCCCC">jadi lagi mencari dari </font>
+
+348
+00:15:42,360 --> 00:15:44,580
+ <font color="#CCCCCC">sudut pandang blackbox </font><font color="#E5E5E5">kita akan berpikir </font>
+
+349
+00:15:44,580 --> 00:15:46,410
+ oh mungkin mereka <font color="#E5E5E5">menggunakan semacam itu </font>
+
+350
+00:15:46,410 --> 00:15:48,570
+ penyaringan <font color="#E5E5E5">pada titik koma jadi mereka </font>
+
+351
+00:15:48,570 --> 00:15:50,160
+ <font color="#E5E5E5">memeriksa apakah perintah mengandung a </font>
+
+352
+00:15:50,160 --> 00:15:53,940
+ titik koma <font color="#CCCCCC">maka mereka akan mengabaikan itu </font>
+
+353
+00:15:53,940 --> 00:15:56,820
+ <font color="#CCCCCC">perintah dan </font><font color="#E5E5E5">tidak menjalankannya jadi kami hanya </font>
+
+354
+00:15:56,820 --> 00:15:58,290
+ <font color="#E5E5E5">akan </font><font color="#CCCCCC">mencoba </font><font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">trik lain </font>
+
+355
+00:15:58,290 --> 00:16:00,990
+ <font color="#E5E5E5">sesuatu yang </font><font color="#CCCCCC">mirip dengan titik koma </font><font color="#E5E5E5">begitu </font>
+
+356
+00:16:00,990 --> 00:16:02,940
+ apa yang biasa kita <font color="#E5E5E5">lakukan sebelum </font><font color="#CCCCCC">kita punya </font>
+
+357
+00:16:02,940 --> 00:16:05,940
+ contoh <font color="#CCCCCC">melakukan </font><font color="#E5E5E5">LS jadi itulah </font><font color="#CCCCCC">NIST </font>
+
+358
+00:16:05,940 --> 00:16:09,660
+ perintah <font color="#E5E5E5">dan atau dan dan PWD adalah apa yang ditunjukkan </font>
+
+359
+00:16:09,660 --> 00:16:12,030
+ direktori kerja <font color="#CCCCCC">dan kita bisa menggabungkan </font>
+
+360
+00:16:12,030 --> 00:16:15,990
+ <font color="#CCCCCC">dua </font><font color="#E5E5E5">ini </font><font color="#CCCCCC">dengan melakukan LS titik koma dan </font><font color="#E5E5E5">kemudian </font>
+
+361
+00:16:15,990 --> 00:16:19,170
+ <font color="#E5E5E5">kami melakukan PWD </font>
+
+362
+00:16:19,170 --> 00:16:21,480
+ dan itu akan melakukan keduanya <font color="#E5E5E5">akan melakukan itu </font>
+
+363
+00:16:21,480 --> 00:16:24,750
+ Sekutu dan <font color="#CCCCCC">PWD seperti yang Anda gunakan </font>
+
+364
+00:16:24,750 --> 00:16:26,430
+ <font color="#E5E5E5">bekerja </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">kami tidak berfungsi lagi </font>
+
+365
+00:16:26,430 --> 00:16:28,680
+ <font color="#E5E5E5">karena mereka mungkin menyaring berdasarkan </font>
+
+366
+00:16:28,680 --> 00:16:31,950
+ pada karakter khusus ini <font color="#E5E5E5">jadi apa kita </font>
+
+367
+00:16:31,950 --> 00:16:34,110
+ <font color="#E5E5E5">akan lakukan adalah kita akan menggunakan sesuatu </font>
+
+368
+00:16:34,110 --> 00:16:37,019
+ lain yang <font color="#E5E5E5">tersedia </font><font color="#CCCCCC">bagi kita di UNIX </font>
+
+369
+00:16:37,019 --> 00:16:40,290
+ <font color="#E5E5E5">perintah yang merupakan pipa sehingga piping adalah </font>
+
+370
+00:16:40,290 --> 00:16:41,910
+ benar-benar berguna <font color="#E5E5E5">ketika datang ke UNIX </font>
+
+371
+00:16:41,910 --> 00:16:43,889
+ Anda akan banyak <font color="#CCCCCC">menggunakannya pada dasarnya </font>
+
+372
+00:16:43,889 --> 00:16:47,839
+ apakah <font color="#E5E5E5">itu berarti menjalankan perintah pertama dan </font>
+
+373
+00:16:47,839 --> 00:16:50,730
+ setelah Anda menjalankan <font color="#E5E5E5">perintah itu, kirim </font>
+
+374
+00:16:50,730 --> 00:16:53,010
+ <font color="#CCCCCC">output atau pipa output </font><font color="#E5E5E5">ke ini </font>
+
+375
+00:16:53,010 --> 00:16:55,910
+ perintah <font color="#E5E5E5">dan jalankan perintah kedua di </font><font color="#CCCCCC">atasnya </font>
+
+376
+00:16:55,910 --> 00:16:58,889
+ jadi intinya akan <font color="#E5E5E5">menjalankan dua perintah </font>
+
+377
+00:16:58,889 --> 00:17:00,899
+ <font color="#E5E5E5">dalam kasus kami sekarang Anda dapat menggunakan pipa untuk </font>
+
+378
+00:17:00,899 --> 00:17:03,240
+ banyak <font color="#E5E5E5">hal dan digunakan dalam dua regex </font>
+
+379
+00:17:03,240 --> 00:17:05,819
+ <font color="#CCCCCC">dan hal-hal seperti </font><font color="#E5E5E5">itu untuk </font><font color="#CCCCCC">kita semua yang kita inginkan </font>
+
+380
+00:17:05,819 --> 00:17:07,679
+ <font color="#E5E5E5">Yang harus dilakukan adalah kami tertarik </font><font color="#CCCCCC">untuk mendapatkan </font>
+
+381
+00:17:07,679 --> 00:17:10,799
+ <font color="#CCCCCC">perintah kedua untuk menjalankan jadi mari </font>
+
+382
+00:17:10,799 --> 00:17:14,240
+ <font color="#CCCCCC">contoh </font><font color="#E5E5E5">ini jadi kami </font><font color="#CCCCCC">akan melakukan LS </font>
+
+383
+00:17:14,240 --> 00:17:16,679
+ yang akan <font color="#E5E5E5">mirip dengan ping kami </font>
+
+384
+00:17:16,679 --> 00:17:19,980
+ <font color="#CCCCCC">dan kemudian kita </font><font color="#E5E5E5">akan memasang pipa </font>
+
+385
+00:17:19,980 --> 00:17:22,280
+ karakter <font color="#E5E5E5">yang </font><font color="#CCCCCC">merupakan bar vertikal </font><font color="#E5E5E5">dan </font>
+
+386
+00:17:22,280 --> 00:17:24,630
+ Maka kita <font color="#CCCCCC">akan menempatkan perintah kedua </font>
+
+387
+00:17:24,630 --> 00:17:27,780
+ bahwa output LS harus <font color="#E5E5E5">diteruskan ke </font>
+
+388
+00:17:27,780 --> 00:17:30,929
+ sekarang PWD yang <font color="#E5E5E5">tidak mengharapkan apapun masukan </font><font color="#CCCCCC">untuk </font>
+
+389
+00:17:30,929 --> 00:17:33,570
+ dilewatkan ke sana sehingga pada saat <font color="#E5E5E5">ketika kita </font>
+
+390
+00:17:33,570 --> 00:17:36,570
+ <font color="#E5E5E5">menjalankan ini pada dasarnya akan menjalankan keduanya, tetapi itu </font>
+
+391
+00:17:36,570 --> 00:17:38,549
+ tidak akan menunjukkan <font color="#E5E5E5">hasil dari menjalankan LS </font>
+
+392
+00:17:38,549 --> 00:17:41,220
+ itu akan memberi makan kepada PWD <font color="#E5E5E5">dan menunjukkan kepada Anda </font>
+
+393
+00:17:41,220 --> 00:17:44,610
+ hasil dari PWD <font color="#E5E5E5">jadi ketika saya menekan enter </font>
+
+394
+00:17:44,610 --> 00:17:49,860
+ Anda akan <font color="#E5E5E5">melihat bahwa PWD dijalankan begitu </font>
+
+395
+00:17:49,860 --> 00:17:51,900
+ contoh kami apa yang <font color="#CCCCCC">terjadi adalah kami </font><font color="#E5E5E5">memiliki </font>
+
+396
+00:17:51,900 --> 00:17:55,440
+ ping maka kita <font color="#E5E5E5">memasukkan IP kita </font>
+
+397
+00:17:55,440 --> 00:17:58,280
+ kita <font color="#E5E5E5">akan memasukkan IP kita </font>
+
+398
+00:17:59,320 --> 00:18:01,090
+ dan kemudian kita <font color="#CCCCCC">akan </font><font color="#E5E5E5">menggunakan bar </font>
+
+399
+00:18:01,090 --> 00:18:03,760
+ karakter <font color="#CCCCCC">dan kita akan </font><font color="#E5E5E5">menempatkan </font>
+
+400
+00:18:03,760 --> 00:18:05,290
+ perintah kedua <font color="#CCCCCC">yang ingin kita </font><font color="#E5E5E5">jalankan yang mana </font>
+
+401
+00:18:05,290 --> 00:18:06,640
+ akan menjadi perintah <font color="#CCCCCC">yang </font><font color="#E5E5E5">akan memberi kita </font>
+
+402
+00:18:06,640 --> 00:18:08,980
+ <font color="#E5E5E5">shell di server </font><font color="#CCCCCC">tetapi untuk untuk </font>
+
+403
+00:18:08,980 --> 00:18:10,870
+ pengujian kami hanya akan <font color="#CCCCCC">melakukan PWD dan </font>
+
+404
+00:18:10,870 --> 00:18:13,180
+ lagi seperti yang Anda <font color="#CCCCCC">lihat kami tidak melihat </font>
+
+405
+00:18:13,180 --> 00:18:15,040
+ hasil <font color="#CCCCCC">pink </font><font color="#E5E5E5">kita hanya melihat </font>
+
+406
+00:18:15,040 --> 00:18:17,770
+ hasil dari PWD <font color="#CCCCCC">karena lagi untuk </font>
+
+407
+00:18:17,770 --> 00:18:20,290
+ <font color="#CCCCCC">ketiga </font><font color="#E5E5E5">kalinya perintah ini akan menjalankan ini </font>
+
+408
+00:18:20,290 --> 00:18:23,690
+ dan memberi makan <font color="#CCCCCC">output ke PWD </font>
+
+409
+00:18:23,690 --> 00:18:26,540
+ jadi mari kita coba ini <font color="#E5E5E5">di sini jadi kita akan </font>
+
+410
+00:18:26,540 --> 00:18:29,300
+ apakah kita <font color="#E5E5E5">akan menempatkan IP kita lagi seperti kita </font>
+
+411
+00:18:29,300 --> 00:18:32,930
+ <font color="#E5E5E5">lakukan sebelumnya dan kami </font><font color="#CCCCCC">gunakan </font><font color="#E5E5E5">untuk menempatkan PWD seperti </font>
+
+412
+00:18:32,930 --> 00:18:35,780
+ itu tapi aku hanya <font color="#CCCCCC">akan menaruh </font><font color="#E5E5E5">barku </font>
+
+413
+00:18:35,780 --> 00:18:37,930
+ karakter 
+
+414
+00:18:37,930 --> 00:18:41,010
+ dan <font color="#CCCCCC">masuk </font>
+
+415
+00:18:41,570 --> 00:18:43,910
+ dan seperti yang Anda <font color="#E5E5E5">lihat perintah kedua </font>
+
+416
+00:18:43,910 --> 00:18:46,430
+ <font color="#E5E5E5">dieksekusi dan kami mendapat arus kami </font>
+
+417
+00:18:46,430 --> 00:18:49,780
+ direktori kerja <font color="#E5E5E5">sekarang kita dapat memodifikasi ini </font>
+
+418
+00:18:49,780 --> 00:18:54,110
+ untuk mendapatkan cangkang di komputer kita jadi lagi 
+
+419
+00:18:54,110 --> 00:18:57,350
+ kita <font color="#CCCCCC">akan menggunakan bar dan kita akan melakukannya </font>
+
+420
+00:18:57,350 --> 00:19:00,020
+ mendapatkannya untuk <font color="#CCCCCC">Anda, </font><font color="#E5E5E5">kami </font><font color="#CCCCCC">akan menggunakan yang tepat </font>
+
+421
+00:19:00,020 --> 00:19:01,610
+ <font color="#E5E5E5">metode yang sama yang </font><font color="#CCCCCC">kita gunakan </font><font color="#E5E5E5">terakhir kali </font>
+
+422
+00:19:01,610 --> 00:19:05,990
+ kita akan <font color="#E5E5E5">melakukan </font><font color="#CCCCCC">C minus E dan </font><font color="#E5E5E5">menempatkan </font>
+
+423
+00:19:05,990 --> 00:19:06,480
+ IP ku 
+
+424
+00:19:06,480 --> 00:19:08,370
+ [Musik] 
+
+425
+00:19:08,370 --> 00:19:11,550
+ dan kemudian saya akan <font color="#CCCCCC">meletakkan port yang mana </font>
+
+426
+00:19:11,550 --> 00:19:15,059
+ adalah 8080 <font color="#E5E5E5">sekarang sebelum saya menjalankan ini saya </font>
+
+427
+00:19:15,059 --> 00:19:17,850
+ akan <font color="#CCCCCC">mendengarkan pada port 8080 untuk </font>
+
+428
+00:19:17,850 --> 00:19:19,650
+ koneksi di sini dan kami akan <font color="#E5E5E5">menggunakan </font>
+
+429
+00:19:19,650 --> 00:19:21,120
+ perintah yang sama seperti sebelumnya <font color="#CCCCCC">menggunakan </font>
+
+430
+00:19:21,120 --> 00:19:28,690
+ netcat <font color="#E5E5E5">jadi dan </font><font color="#CCCCCC">lihat VV </font><font color="#E5E5E5">LP 88 </font>
+
+431
+00:19:28,690 --> 00:19:31,540
+ ini mendengarkan <font color="#E5E5E5">dan kita akan </font>
+
+432
+00:19:31,540 --> 00:19:34,360
+ hubungkan kembali dari sini ke <font color="#CCCCCC">hit Cali </font>
+
+433
+00:19:34,360 --> 00:19:36,340
+ <font color="#CCCCCC">mengirimkan dan cukup yakin kita </font><font color="#E5E5E5">mendapatkan </font>
+
+434
+00:19:36,340 --> 00:19:38,800
+ <font color="#E5E5E5">koneksi di sini yang memungkinkan kita </font><font color="#CCCCCC">untuk menjalankannya </font>
+
+435
+00:19:38,800 --> 00:19:40,780
+ perintah yang kami inginkan <font color="#E5E5E5">di </font><font color="#CCCCCC">server agar kami </font><font color="#E5E5E5">bisa </font>
+
+436
+00:19:40,780 --> 00:19:44,680
+ lakukan PWD sekarang <font color="#E5E5E5">kita bisa daftar file yang kita bisa </font>
+
+437
+00:19:44,680 --> 00:19:48,300
+ <font color="#E5E5E5">mendapatkan ID kami atau melakukan apa pun yang kita inginkan </font><font color="#CCCCCC">pada </font>
+
+438
+00:19:48,300 --> 00:19:50,590
+ server saat ini jadi kami <font color="#E5E5E5">pada dasarnya berhasil </font>
+
+439
+00:19:50,590 --> 00:19:54,450
+ untuk mendapatkan akses ke <font color="#E5E5E5">situs web itu </font>
+
+440
+00:19:55,440 --> 00:19:57,690
+ mari kita bicara tentang bagaimana kita bisa mencegahnya 
+
+441
+00:19:57,690 --> 00:20:00,510
+ kerentanan ini sekarang <font color="#CCCCCC">dan ini </font>
+
+442
+00:20:00,510 --> 00:20:03,060
+ mengeksploitasi kami dapat <font color="#CCCCCC">menjalankan kode apa pun yang kami </font>
+
+443
+00:20:03,060 --> 00:20:05,970
+ inginkan pada <font color="#E5E5E5">komputer target lagi ini </font>
+
+444
+00:20:05,970 --> 00:20:07,860
+ <font color="#CCCCCC">fungsionalitas harus </font><font color="#E5E5E5">dihindari Anda </font>
+
+445
+00:20:07,860 --> 00:20:10,290
+ harus menghindari <font color="#E5E5E5">mengizinkan pengguna untuk menjalankannya </font>
+
+446
+00:20:10,290 --> 00:20:13,770
+ semacam <font color="#E5E5E5">kode di server Anda coba hindari </font>
+
+447
+00:20:13,770 --> 00:20:15,510
+ semua fungsi-fungsi ini <font color="#CCCCCC">seperti </font><font color="#E5E5E5">eval </font>
+
+448
+00:20:15,510 --> 00:20:17,340
+ <font color="#CCCCCC">pass-through </font><font color="#E5E5E5">dan semua fungsi ini </font>
+
+449
+00:20:17,340 --> 00:20:20,280
+ <font color="#CCCCCC">yang memungkinkan </font><font color="#E5E5E5">pengguna untuk menjalankan operasi </font>
+
+450
+00:20:20,280 --> 00:20:22,650
+ <font color="#E5E5E5">kode sistem di server jika Anda </font>
+
+451
+00:20:22,650 --> 00:20:24,750
+ benar <font color="#E5E5E5">- benar harus </font><font color="#CCCCCC">menggunakan sesuatu seperti itu </font>
+
+452
+00:20:24,750 --> 00:20:27,260
+ maka pastikan Anda menganalisis inputnya 
+
+453
+00:20:27,260 --> 00:20:30,570
+ <font color="#E5E5E5">sebelum Anda mengeksekusi misalnya di </font>
+
+454
+00:20:30,570 --> 00:20:33,270
+ Misalnya <font color="#CCCCCC">kita melihat di mana kode itu lakukan </font>
+
+455
+00:20:33,270 --> 00:20:35,490
+ <font color="#CCCCCC">ping dan itu akan berpikir apa pun yang kita masukkan </font>
+
+456
+00:20:35,490 --> 00:20:38,400
+ <font color="#E5E5E5">di kotak teks jadi saya dimasukkan </font><font color="#CCCCCC">di sini </font><font color="#E5E5E5">garis miring </font>
+
+457
+00:20:38,400 --> 00:20:40,160
+ ada <font color="#E5E5E5">kotak teks kami </font><font color="#CCCCCC">hanya untuk menunjukkan itu </font>
+
+458
+00:20:40,160 --> 00:20:42,570
+ <font color="#E5E5E5">ini adalah </font><font color="#CCCCCC">masukan </font><font color="#E5E5E5">yang kami masukkan ke dalam </font>
+
+459
+00:20:42,570 --> 00:20:44,400
+ <font color="#E5E5E5">kotak </font><font color="#CCCCCC">teks </font><font color="#E5E5E5">inilah yang programnya </font>
+
+460
+00:20:44,400 --> 00:20:45,840
+ <font color="#E5E5E5">sebenarnya terlihat seperti jika terlihat </font>
+
+461
+00:20:45,840 --> 00:20:47,640
+ rumit <font color="#CCCCCC">lupakan </font><font color="#E5E5E5">saja kami hanya </font>
+
+462
+00:20:47,640 --> 00:20:49,680
+ <font color="#E5E5E5">berbicara tentang konsep di sini jadi kita </font>
+
+463
+00:20:49,680 --> 00:20:52,310
+ akan <font color="#E5E5E5">berbicara </font><font color="#CCCCCC">tentang </font><font color="#E5E5E5">tahun ini </font>
+
+464
+00:20:52,310 --> 00:20:55,310
+ jadi katakanlah misalnya Anda <font color="#CCCCCC">meletakkan apa yang kami lakukan </font>
+
+465
+00:20:55,310 --> 00:20:58,800
+ adalah <font color="#CCCCCC">kita menempatkan </font><font color="#E5E5E5">IP yang normal </font>
+
+466
+00:20:58,800 --> 00:21:01,800
+ dan kemudian kita meletakkan titik koma <font color="#E5E5E5">dan kemudian </font>
+
+467
+00:21:01,800 --> 00:21:04,140
+ kami memberi perintah <font color="#E5E5E5">bahwa kami ingin melakukannya </font>
+
+468
+00:21:04,140 --> 00:21:07,200
+ kami melakukan <font color="#CCCCCC">misalnya </font><font color="#E5E5E5">LS </font><font color="#CCCCCC">la masalahnya </font>
+
+469
+00:21:07,200 --> 00:21:09,870
+ dengan <font color="#E5E5E5">ini adalah aplikasi web yang digunakan untuk </font>
+
+470
+00:21:09,870 --> 00:21:12,990
+ ambil ini cara menyalinnya <font color="#CCCCCC">dan jalankan </font>
+
+471
+00:21:12,990 --> 00:21:15,810
+ itu <font color="#CCCCCC">di sini yang akan ketika Anda saat Anda </font>
+
+472
+00:21:15,810 --> 00:21:19,140
+ jalankan <font color="#E5E5E5">perintah ini </font><font color="#CCCCCC">akan melakukan merah muda </font>
+
+473
+00:21:19,140 --> 00:21:22,020
+ pertama <font color="#E5E5E5">dan kemudian akan melakukan LS la </font>
+
+474
+00:21:22,020 --> 00:21:24,510
+ yang merupakan perintah yang <font color="#E5E5E5">kami inginkan </font>
+
+475
+00:21:24,510 --> 00:21:26,790
+ Yang <font color="#E5E5E5">perlu Anda lakukan adalah </font><font color="#CCCCCC">misalnya jika Anda punya </font>
+
+476
+00:21:26,790 --> 00:21:28,650
+ untuk melakukannya apa yang saya sarankan adalah Anda <font color="#E5E5E5">tidak </font>
+
+477
+00:21:28,650 --> 00:21:30,990
+ gunakan <font color="#E5E5E5">fungsi - fungsi ini </font><font color="#CCCCCC">jika Anda harus menggunakan </font>
+
+478
+00:21:30,990 --> 00:21:33,840
+ berfungsi <font color="#E5E5E5">fungsi</font><font color="#CCCCCC"> seperti ini maka apa </font>
+
+479
+00:21:33,840 --> 00:21:36,660
+ yang <font color="#CCCCCC">harus Anda </font><font color="#E5E5E5">lakukan adalah </font><font color="#CCCCCC">memeriksa apakah input tersebut </font>
+
+480
+00:21:36,660 --> 00:21:38,340
+ apa yang Anda harapkan misalnya Anda 
+
+481
+00:21:38,340 --> 00:21:40,620
+ mengharapkan <font color="#CCCCCC">alamat IP dan tidak ada yang </font><font color="#E5E5E5">lain </font>
+
+482
+00:21:40,620 --> 00:21:43,530
+ <font color="#E5E5E5">sehingga Anda dapat </font><font color="#CCCCCC">menggunakan reg X untuk memastikan sekarang </font>
+
+483
+00:21:43,530 --> 00:21:45,030
+ Saya tidak akan <font color="#E5E5E5">berbicara </font><font color="#CCCCCC">tentang reg X atau </font>
+
+484
+00:21:45,030 --> 00:21:47,760
+ <font color="#E5E5E5">apa logika reg X </font><font color="#CCCCCC">pada dasarnya adalah aturan </font>
+
+485
+00:21:47,760 --> 00:21:49,710
+ yang akan <font color="#CCCCCC">memastikan</font><font color="#E5E5E5"> bahwa masukan terlihat </font>
+
+486
+00:21:49,710 --> 00:21:51,630
+ pada <font color="#E5E5E5">format berikut sehingga dibutuhkan a </font>
+
+487
+00:21:51,630 --> 00:21:54,870
+ digit digit digit digit digit digit 
+
+488
+00:21:54,870 --> 00:21:58,050
+ digit digit <font color="#E5E5E5">yang jika saya memasukkan hal lain </font>
+
+489
+00:21:58,050 --> 00:22:00,030
+ maka aplikasi web harus menolak 
+
+490
+00:22:00,030 --> 00:22:05,760
+ <font color="#E5E5E5">dan ini persis apa </font><font color="#CCCCCC">yang tinggi </font>
+
+491
+00:22:05,760 --> 00:22:08,490
+ <font color="#CCCCCC">tingkat keamanan untuk kode </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">sekarang </font>
+
+492
+00:22:08,490 --> 00:22:10,440
+ kita sedang berbicara <font color="#CCCCCC">tentang </font><font color="#E5E5E5">pengujian kotak hitam </font>
+
+493
+00:22:10,440 --> 00:22:11,730
+ dan <font color="#CCCCCC">segalanya </font><font color="#E5E5E5">tetapi saya ingin menunjukkannya kepada Anda </font>
+
+494
+00:22:11,730 --> 00:22:14,850
+ apa <font color="#E5E5E5">kode yang aman harus terlihat </font><font color="#CCCCCC">seperti </font><font color="#E5E5E5">itu </font>
+
+495
+00:22:14,850 --> 00:22:17,640
+ jika kita pergi ke <font color="#E5E5E5">pengaturan keamanan </font><font color="#CCCCCC">dan </font>
+
+496
+00:22:17,640 --> 00:22:19,830
+ <font color="#E5E5E5">Aku </font><font color="#CCCCCC">akan mengatur ini ke tinggi </font><font color="#E5E5E5">ini </font>
+
+497
+00:22:19,830 --> 00:22:22,320
+ sebenarnya disebut <font color="#E5E5E5">mustahil dan baru </font>
+
+498
+00:22:22,320 --> 00:22:25,140
+ versi dvwa 
+
+499
+00:22:25,140 --> 00:22:26,910
+ tapi kami menggunakan <font color="#E5E5E5">yang ada </font>
+
+500
+00:22:26,910 --> 00:22:28,740
+ <font color="#CCCCCC">bertemu dieksploitasi dan itu hanya disebut hi </font>
+
+501
+00:22:28,740 --> 00:22:30,270
+ <font color="#E5E5E5">jadi alasan mengapa mereka </font><font color="#CCCCCC">menyebutnya </font>
+
+502
+00:22:30,270 --> 00:22:33,420
+ <font color="#CCCCCC">tidak mungkin karena </font><font color="#E5E5E5">sangat aman </font>
+
+503
+00:22:33,420 --> 00:22:35,580
+ jika kita pergi <font color="#E5E5E5">ke eksekusi perintah lagi </font>
+
+504
+00:22:35,580 --> 00:22:37,140
+ dan saya <font color="#CCCCCC">hanya </font><font color="#E5E5E5">akan memiliki Anda sumbernya </font>
+
+505
+00:22:37,140 --> 00:22:39,210
+ untuk menunjukkan apa yang mereka lakukan <font color="#E5E5E5">sehingga </font>
+
+506
+00:22:39,210 --> 00:22:41,310
+ mereka menerapkan cara yang <font color="#E5E5E5">sangat </font><font color="#CCCCCC">mirip </font>
+
+507
+00:22:41,310 --> 00:22:43,950
+ untuk <font color="#CCCCCC">menggunakan reg </font><font color="#E5E5E5">XI </font><font color="#CCCCCC">pikir pengguna reg X bisa </font>
+
+508
+00:22:43,950 --> 00:22:47,640
+ <font color="#CCCCCC">menjadi sedikit lebih baik </font><font color="#E5E5E5">dalam hal seperti </font>
+
+509
+00:22:47,640 --> 00:22:49,440
+ tampilan <font color="#E5E5E5">kode tetapi mereka menggunakan </font>
+
+510
+00:22:49,440 --> 00:22:52,470
+ konsep yang sama jadi pada dasarnya apa yang mereka miliki 
+
+511
+00:22:52,470 --> 00:22:56,370
+ apakah mereka <font color="#CCCCCC">memiliki target di sini juga </font>
+
+512
+00:22:56,370 --> 00:22:59,610
+ ini <font color="#E5E5E5">adalah apa yang Anda </font><font color="#CCCCCC">masukkan ini adalah apa yang kita </font>
+
+513
+00:22:59,610 --> 00:23:01,860
+ <font color="#CCCCCC">dimasukkan ke </font><font color="#E5E5E5">sini jadi apa pun yang Anda ketik di sini </font>
+
+514
+00:23:01,860 --> 00:23:04,980
+ <font color="#E5E5E5">akan muncul sebagai variabel ini </font><font color="#CCCCCC">benar </font>
+
+515
+00:23:04,980 --> 00:23:08,760
+ <font color="#CCCCCC">disini </font><font color="#E5E5E5">target dolar terakhir </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">jadi </font>
+
+516
+00:23:08,760 --> 00:23:10,620
+ hal pertama <font color="#CCCCCC">yang </font><font color="#E5E5E5">mereka lakukan </font><font color="#CCCCCC">ada di sana </font>
+
+517
+00:23:10,620 --> 00:23:13,290
+ <font color="#CCCCCC">sedang </font><font color="#E5E5E5">menanggalkan garis miring dari itu </font>
+
+518
+00:23:13,290 --> 00:23:16,270
+ setelah mereka melakukan itu <font color="#E5E5E5">mereka membagi </font>
+
+519
+00:23:16,270 --> 00:23:18,100
+ IP menggunakan <font color="#E5E5E5">fungsi ini </font><font color="#CCCCCC">jadi apa ini </font>
+
+520
+00:23:18,100 --> 00:23:21,310
+ fungsi <font color="#CCCCCC">apakah itu membagi IP berdasarkan </font>
+
+521
+00:23:21,310 --> 00:23:23,980
+ titik <font color="#E5E5E5">jadi kami memiliki nomor nomor titik </font>
+
+522
+00:23:23,980 --> 00:23:25,810
+ nomor angka nomor titik dot 
+
+523
+00:23:25,810 --> 00:23:28,540
+ nomor nomor jadi mereka membagi ini 
+
+524
+00:23:28,540 --> 00:23:31,660
+ titik ke array <font color="#E5E5E5">jadi misalnya jika Anda </font>
+
+525
+00:23:31,660 --> 00:23:34,860
+ memiliki IP <font color="#CCCCCC">katakanlah </font>
+
+526
+00:23:36,400 --> 00:23:41,130
+ jadi ketika kita <font color="#CCCCCC">menempatkan IP kita yang 10 </font>
+
+527
+00:23:41,130 --> 00:23:44,850
+ 2014 208 
+
+528
+00:23:44,850 --> 00:23:48,300
+ apa fungsi ini melakukan apa yang meledak 
+
+529
+00:23:48,300 --> 00:23:50,460
+ <font color="#CCCCCC">fungsi tidak di sini </font><font color="#E5E5E5">itu akan </font><font color="#CCCCCC">membagi </font>
+
+530
+00:23:50,460 --> 00:23:53,940
+ ini menjadi <font color="#E5E5E5">empat dan </font><font color="#CCCCCC">dua array </font><font color="#E5E5E5">empat </font>
+
+531
+00:23:53,940 --> 00:23:55,920
+ <font color="#CCCCCC">elemen sehingga array </font><font color="#E5E5E5">akan </font><font color="#CCCCCC">menjadi </font>
+
+532
+00:23:55,920 --> 00:24:02,870
+ <font color="#CCCCCC">sesuatu seperti ini </font><font color="#E5E5E5">akan </font><font color="#CCCCCC">menjadi 10 2014 </font>
+
+533
+00:24:02,870 --> 00:24:05,419
+ <font color="#CCCCCC">menjadi putih </font>
+
+534
+00:24:05,419 --> 00:24:08,839
+ <font color="#E5E5E5">oke </font><font color="#CCCCCC">dan masing-masing elemen ini bisa </font>
+
+535
+00:24:08,839 --> 00:24:11,509
+ <font color="#CCCCCC">diakses berdasarkan nomornya yang tepat </font>
+
+536
+00:24:11,509 --> 00:24:14,959
+ di sini jadi apa yang mereka lakukan adalah mereka memeriksa apakah 
+
+537
+00:24:14,959 --> 00:24:17,989
+ masing-masing <font color="#E5E5E5">elemen ini adalah angka </font>
+
+538
+00:24:17,989 --> 00:24:20,509
+ jadi itu memeriksa <font color="#CCCCCC">apakah </font><font color="#E5E5E5">itu numerik untuk </font>
+
+539
+00:24:20,509 --> 00:24:23,809
+ perbarui untuk <font color="#E5E5E5">nol untuk yang 42 dan </font>
+
+540
+00:24:23,809 --> 00:24:26,839
+ 43 dan yang memeriksa <font color="#CCCCCC">elemen ini ini </font>
+
+541
+00:24:26,839 --> 00:24:29,659
+ elemen elemen ini <font color="#E5E5E5">dan elemen ini jadi </font>
+
+542
+00:24:29,659 --> 00:24:31,279
+ mereka <font color="#CCCCCC">memastikan </font><font color="#E5E5E5">bahwa kami memiliki </font>
+
+543
+00:24:31,279 --> 00:24:34,070
+ nomor nomor nomor <font color="#E5E5E5">jadi ketika kita </font>
+
+544
+00:24:34,070 --> 00:24:35,950
+ mencoba <font color="#CCCCCC">menyuntikkan kode kami di sini </font>
+
+545
+00:24:35,950 --> 00:24:38,599
+ <font color="#CCCCCC">terlepas dari karakter apa yang kita gunakan </font><font color="#E5E5E5">kami </font>
+
+546
+00:24:38,599 --> 00:24:40,909
+ <font color="#E5E5E5">kata-kata trik apa yang kita gunakan selama </font>
+
+547
+00:24:40,909 --> 00:24:42,799
+ <font color="#CCCCCC">kita akan </font><font color="#E5E5E5">memasukkan karakter di sini </font>
+
+548
+00:24:42,799 --> 00:24:45,829
+ <font color="#E5E5E5">misalnya PWD karakter </font><font color="#CCCCCC">akan </font>
+
+549
+00:24:45,829 --> 00:24:48,529
+ <font color="#CCCCCC">masuk ke </font><font color="#E5E5E5">sini juga ke yang terakhir </font>
+
+550
+00:24:48,529 --> 00:24:51,379
+ elemen <font color="#E5E5E5">dan kapan elemen terakhir ini mendapat </font>
+
+551
+00:24:51,379 --> 00:24:54,589
+ diperiksa dalam <font color="#E5E5E5">menggunakan fungsi ini </font><font color="#CCCCCC">menggunakan </font>
+
+552
+00:24:54,589 --> 00:24:58,339
+ adalah <font color="#CCCCCC">fungsi jumlah numerik itu akan memberikan </font>
+
+553
+00:24:58,339 --> 00:25:00,799
+ <font color="#E5E5E5">kesalahan karena jelas ini </font><font color="#CCCCCC">tidak </font>
+
+554
+00:25:00,799 --> 00:25:04,759
+ <font color="#E5E5E5">nomor </font><font color="#CCCCCC">208 </font><font color="#E5E5E5">semicolon PWD bukan angka </font>
+
+555
+00:25:04,759 --> 00:25:08,119
+ <font color="#CCCCCC">dan itu akan memberi kita kesalahan mengatakan itu </font>
+
+556
+00:25:08,119 --> 00:25:11,209
+ kami telah <font color="#E5E5E5">memasukkan IP yang tidak valid sehingga </font>
+
+557
+00:25:11,209 --> 00:25:13,519
+ <font color="#E5E5E5">Cara terbaik untuk melakukan ini lagi adalah dengan membuatnya </font>
+
+558
+00:25:13,519 --> 00:25:16,039
+ yakin <font color="#E5E5E5">apa yang dimasukkan pengguna adalah apa </font>
+
+559
+00:25:16,039 --> 00:25:17,809
+ Anda mengharapkan dalam hal ini <font color="#CCCCCC">kami </font>
+
+560
+00:25:17,809 --> 00:25:20,509
+ mengharapkan nomor nomor nomor 
+
+561
+00:25:20,509 --> 00:25:22,249
+ nomor nomor titik angka dot 
+
+562
+00:25:22,249 --> 00:25:24,499
+ nomor angka nomor angka angka 
+
+563
+00:25:24,499 --> 00:25:26,839
+ jadi membagi ini menjadi <font color="#E5E5E5">empat elemen dan </font>
+
+564
+00:25:26,839 --> 00:25:28,729
+ <font color="#E5E5E5">pastikan masing-masing elemen ini </font>
+
+565
+00:25:28,729 --> 00:25:32,089
+ sebuah angka <font color="#E5E5E5">akan membantu kita untuk melindungi ini </font>
+
+566
+00:25:32,089 --> 00:25:34,789
+ <font color="#CCCCCC">masukan dan validasikan masukannya </font>
+
+567
+00:25:34,789 --> 00:25:37,669
+ benar <font color="#CCCCCC">dan tidak akan peretas ganjil </font><font color="#E5E5E5">menginginkannya </font>
+
+568
+00:25:37,669 --> 00:25:39,649
+ <font color="#E5E5E5">untuk dapat menggunakannya untuk </font><font color="#CCCCCC">meretas ke kami </font>
+
+569
+00:25:39,649 --> 00:25:42,070
+ <font color="#E5E5E5">server </font>
+
+570
+00:25:42,580 --> 00:25:45,520
+ kerentanan file inklusi lokal 
+
+571
+00:25:45,520 --> 00:25:48,590
+ eksploitasi <font color="#E5E5E5">atau kerentanan ini memungkinkan </font>
+
+572
+00:25:48,590 --> 00:25:52,190
+ Anda untuk membaca file apa saja <font color="#E5E5E5">yang ada di dalam </font>
+
+573
+00:25:52,190 --> 00:25:56,090
+ server yang sama <font color="#E5E5E5">bahkan jika file tersebut ada </font>
+
+574
+00:25:56,090 --> 00:26:00,260
+ di luar <font color="#E5E5E5">VAR www Anda akan </font><font color="#CCCCCC">dapat </font>
+
+575
+00:26:00,260 --> 00:26:03,170
+ baca dan baca info dengannya sekarang mengapa 
+
+576
+00:26:03,170 --> 00:26:05,810
+ <font color="#E5E5E5">Kerentanan ini sangat penting karena </font>
+
+577
+00:26:05,810 --> 00:26:09,470
+ Anda <font color="#CCCCCC">dapat membaca file apa saja jika ada pengguna </font>
+
+578
+00:26:09,470 --> 00:26:11,720
+ menyimpan semacam file penting 
+
+579
+00:26:11,720 --> 00:26:15,440
+ atau file password maka Anda akan <font color="#CCCCCC">dapat </font>
+
+580
+00:26:15,440 --> 00:26:17,120
+ membacanya dan <font color="#E5E5E5">kemudian dari sana Anda bisa </font>
+
+581
+00:26:17,120 --> 00:26:20,720
+ <font color="#E5E5E5">Eksploitasi lebih lanjut target Anda juga jika </font>
+
+582
+00:26:20,720 --> 00:26:22,370
+ ada <font color="#CCCCCC">sejumlah situs web </font><font color="#E5E5E5">di </font>
+
+583
+00:26:22,370 --> 00:26:24,950
+ server yang sama <font color="#E5E5E5">dan Anda berhasil menemukan ini </font>
+
+584
+00:26:24,950 --> 00:26:26,540
+ di situs web <font color="#E5E5E5">yang tidak Anda targetkan </font>
+
+585
+00:26:26,540 --> 00:26:29,000
+ <font color="#E5E5E5">maka Anda mungkin dapat </font><font color="#CCCCCC">mengakses file </font>
+
+586
+00:26:29,000 --> 00:26:31,490
+ terkait <font color="#CCCCCC">dengan Anda </font><font color="#E5E5E5">ke situs web itu </font>
+
+587
+00:26:31,490 --> 00:26:33,350
+ <font color="#CCCCCC">Anda </font><font color="#E5E5E5">menargetkan dan selanjutnya </font>
+
+588
+00:26:33,350 --> 00:26:37,400
+ mengeksploitasi situs web Anda dari sana <font color="#E5E5E5">jadi mari </font>
+
+589
+00:26:37,400 --> 00:26:39,350
+ lihat <font color="#E5E5E5">ini dan kami juga akan </font>
+
+590
+00:26:39,350 --> 00:26:41,030
+ cara kita akan <font color="#E5E5E5">mengeksploitasi ini </font>
+
+591
+00:26:41,030 --> 00:26:44,030
+ <font color="#E5E5E5">kerentanan adalah melalui URL jadi </font>
+
+592
+00:26:44,030 --> 00:26:47,330
+ biasanya dalam contoh eksekusi kode kami 
+
+593
+00:26:47,330 --> 00:26:50,350
+ sedang menulis <font color="#E5E5E5">kode di </font><font color="#CCCCCC">sini sekarang </font>
+
+594
+00:26:50,350 --> 00:26:54,200
+ kadang-kadang Anda <font color="#E5E5E5">mungkin menemukan kode yang dibakar </font>
+
+595
+00:26:54,200 --> 00:26:56,540
+ <font color="#CCCCCC">kerentanan dan </font><font color="#E5E5E5">URL sehingga akan </font>
+
+596
+00:26:56,540 --> 00:26:58,910
+ menjadi sesuatu seperti CMD dan kemudian Anda letakkan 
+
+597
+00:26:58,910 --> 00:27:00,800
+ perintah <font color="#CCCCCC">atau </font><font color="#E5E5E5">misalnya</font><font color="#CCCCCC"> dalam </font><font color="#E5E5E5">kasus </font><font color="#CCCCCC">ini </font>
+
+598
+00:27:00,800 --> 00:27:03,710
+ itu akan <font color="#CCCCCC">menjadi IP sama dengan IP untuk </font>
+
+599
+00:27:03,710 --> 00:27:09,410
+ contoh 10 2014 2 O 3 <font color="#CCCCCC">dan kemudian Anda lakukan </font>
+
+600
+00:27:09,410 --> 00:27:11,150
+ Anda menaruh tanda itu dan <font color="#E5E5E5">kemudian meletakkannya </font>
+
+601
+00:27:11,150 --> 00:27:14,480
+ <font color="#E5E5E5">PWD setelah itu misalnya </font><font color="#CCCCCC">begitu karena kami </font>
+
+602
+00:27:14,480 --> 00:27:18,320
+ Contohnya <font color="#E5E5E5">hanya di kotak teks yang sama </font>
+
+603
+00:27:18,320 --> 00:27:20,570
+ <font color="#E5E5E5">akan terjadi di sini </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">inklusi file kami </font>
+
+604
+00:27:20,570 --> 00:27:23,330
+ kerentanan sehingga kita dapat melihat itu kapan 
+
+605
+00:27:23,330 --> 00:27:27,200
+ Anda berada <font color="#E5E5E5">di sini </font><font color="#CCCCCC">di </font><font color="#E5E5E5">URL ini yang dikatakannya </font>
+
+606
+00:27:27,200 --> 00:27:31,670
+ bahwa <font color="#E5E5E5">file ini </font><font color="#CCCCCC">akan mengambil halaman dan </font>
+
+607
+00:27:31,670 --> 00:27:34,220
+ itu memuat sesuatu yang <font color="#E5E5E5">disebut termasuk </font>
+
+608
+00:27:34,220 --> 00:27:36,680
+ <font color="#E5E5E5">PHP sehingga terlihat </font><font color="#CCCCCC">seperti itu sebenarnya </font>
+
+609
+00:27:36,680 --> 00:27:39,020
+ memuat <font color="#E5E5E5">halaman lain seperti saat ini </font>
+
+610
+00:27:39,020 --> 00:27:41,330
+ halaman memuat halaman lain yang disebut 
+
+611
+00:27:41,330 --> 00:27:44,120
+ <font color="#E5E5E5">termasuk dot PHP </font><font color="#CCCCCC">jadi sekali lagi Anda akan </font>
+
+612
+00:27:44,120 --> 00:27:46,190
+ menjelajahi <font color="#CCCCCC">server web dan </font><font color="#E5E5E5">mencoba </font>
+
+613
+00:27:46,190 --> 00:27:47,930
+ dapatkan nuansa itu <font color="#CCCCCC">dan Anda melihat sesuatu </font>
+
+614
+00:27:47,930 --> 00:27:51,080
+ <font color="#CCCCCC">seperti </font><font color="#E5E5E5">ini atau Anda melihat sesuatu yang disebut IP </font>
+
+615
+00:27:51,080 --> 00:27:53,030
+ sama dengan IP dan <font color="#E5E5E5">kemudian Anda tahu </font>
+
+616
+00:27:53,030 --> 00:27:55,490
+ <font color="#E5E5E5">pink misalnya untuk yang sebelumnya </font>
+
+617
+00:27:55,490 --> 00:27:57,800
+ video <font color="#CCCCCC">jadi </font><font color="#E5E5E5">untuk ini yang kita tahu bahwa kami </font>
+
+618
+00:27:57,800 --> 00:28:00,470
+ <font color="#CCCCCC">target mencoba membuka </font><font color="#E5E5E5">file dan </font>
+
+619
+00:28:00,470 --> 00:28:05,210
+ file <font color="#CCCCCC">disebut termasuk dot </font><font color="#E5E5E5">PHP mari kita lihat </font>
+
+620
+00:28:05,210 --> 00:28:07,130
+ jika <font color="#CCCCCC">sebenarnya ada file bernama </font>
+
+621
+00:28:07,130 --> 00:28:10,010
+ termasuk dot PHP <font color="#E5E5E5">jadi saya hanya akan </font><font color="#CCCCCC">melakukannya </font>
+
+622
+00:28:10,010 --> 00:28:15,080
+ hapus <font color="#E5E5E5">semuanya di sini dan coba akses </font>
+
+623
+00:28:15,080 --> 00:28:18,590
+ termasuk dot PHP secara langsung dan semampu kita 
+
+624
+00:28:18,590 --> 00:28:20,630
+ <font color="#E5E5E5">lihat kita </font><font color="#CCCCCC">sebenarnya memiliki </font><font color="#E5E5E5">file </font><font color="#CCCCCC">bernama </font>
+
+625
+00:28:20,630 --> 00:28:23,780
+ termasuk dot PHP <font color="#E5E5E5">itu tidak berjalan </font>
+
+626
+00:28:23,780 --> 00:28:26,630
+ <font color="#CCCCCC">benar tetapi ada dan itu di </font>
+
+627
+00:28:26,630 --> 00:28:31,820
+ direktori kerja yang sama jadi mari kita coba dan 
+
+628
+00:28:31,820 --> 00:28:35,420
+ lihat apakah <font color="#E5E5E5">kita bisa membaca file yang disimpan </font>
+
+629
+00:28:35,420 --> 00:28:38,150
+ <font color="#E5E5E5">di komputer dan kita akan </font><font color="#CCCCCC">menggunakan </font>
+
+630
+00:28:38,150 --> 00:28:41,600
+ file yang disebut <font color="#CCCCCC">kata sandi ITC </font><font color="#E5E5E5">jadi itu </font>
+
+631
+00:28:41,600 --> 00:28:43,400
+ file yang berisi <font color="#E5E5E5">semua pengguna dan </font>
+
+632
+00:28:43,400 --> 00:28:47,260
+ <font color="#CCCCCC">jalur mereka ada di </font><font color="#E5E5E5">server web </font><font color="#CCCCCC">saat ini </font>
+
+633
+00:28:47,260 --> 00:28:51,940
+ <font color="#E5E5E5">jadi mari kita lihat ini </font>
+
+634
+00:28:51,940 --> 00:28:58,060
+ jadi <font color="#CCCCCC">dll 'file ini </font><font color="#E5E5E5">berisi semua pengguna </font>
+
+635
+00:28:58,060 --> 00:29:00,160
+ untuk <font color="#E5E5E5">sistem operasi saat ini jadi jika saya </font>
+
+636
+00:29:00,160 --> 00:29:02,560
+ hanya <font color="#E5E5E5">pergi di </font><font color="#CCCCCC">caddy saya </font><font color="#E5E5E5">di sini dan jika saya </font>
+
+637
+00:29:02,560 --> 00:29:08,370
+ jalankan di sini <font color="#E5E5E5">jika saya memotongnya jika </font><font color="#CCCCCC">Anda melihatnya </font>
+
+638
+00:29:08,370 --> 00:29:11,650
+ <font color="#E5E5E5">kata sandi Anda akan melihat semua </font><font color="#CCCCCC">pengguna yang </font><font color="#E5E5E5">saya </font>
+
+639
+00:29:11,650 --> 00:29:16,090
+ ada di komputer saat ini <font color="#E5E5E5">dan mereka </font>
+
+640
+00:29:16,090 --> 00:29:18,670
+ jalur default <font color="#CCCCCC">pada operasi saat ini </font>
+
+641
+00:29:18,670 --> 00:29:20,950
+ <font color="#E5E5E5">sistem jadi kita akan mencoba membaca </font>
+
+642
+00:29:20,950 --> 00:29:24,970
+ file ini <font color="#E5E5E5">dan untuk itu mari kita kembali </font>
+
+643
+00:29:24,970 --> 00:29:28,060
+ <font color="#CCCCCC">dan melihat lokasi kami saat ini jadi kami </font>
+
+644
+00:29:28,060 --> 00:29:31,060
+ <font color="#CCCCCC">lokasi saat ini dalam </font><font color="#E5E5E5">file FIA ​​dan </font>
+
+645
+00:29:31,060 --> 00:29:34,350
+ direktori FI jadi <font color="#E5E5E5">kami harus kembali </font>
+
+646
+00:29:34,350 --> 00:29:39,370
+ satu dua tiga empat lima kali dan kemudian 
+
+647
+00:29:39,370 --> 00:29:41,950
+ <font color="#CCCCCC">pergi ke </font><font color="#E5E5E5">kata sandi </font><font color="#CCCCCC">dll </font><font color="#E5E5E5">sehingga akan kembali </font>
+
+648
+00:29:41,950 --> 00:29:46,810
+ <font color="#E5E5E5">dilakukan menggunakan dot dot dan mari coba </font>
+
+649
+00:29:46,810 --> 00:29:49,560
+ dan lakukan itu <font color="#E5E5E5">jadi pada saat </font><font color="#CCCCCC">itu </font>
+
+650
+00:29:49,560 --> 00:29:53,320
+ mengakses file saat ini dan hanya <font color="#CCCCCC">untuk </font>
+
+651
+00:29:53,320 --> 00:29:55,000
+ membuatnya <font color="#E5E5E5">lebih mudah bagi Anda sebenarnya </font>
+
+652
+00:29:55,000 --> 00:29:58,320
+ <font color="#E5E5E5">letakkan saja jalur lengkapnya di sini </font>
+
+653
+00:29:59,850 --> 00:30:02,850
+ jadi <font color="#E5E5E5">di halaman itu mencoba </font><font color="#CCCCCC">mengakses </font>
+
+654
+00:30:02,850 --> 00:30:05,190
+ halaman ini <font color="#E5E5E5">jadi apa yang kita butuhkan kita sebenarnya </font>
+
+655
+00:30:05,190 --> 00:30:08,730
+ ingin tempat yang disebut <font color="#CCCCCC">password ATC jadi kami </font>
+
+656
+00:30:08,730 --> 00:30:11,130
+ <font color="#E5E5E5">harus kembali lima kali untuk ini </font>
+
+657
+00:30:11,130 --> 00:30:12,990
+ direktori jadi ini akan <font color="#CCCCCC">menjadi </font>
+
+658
+00:30:12,990 --> 00:30:15,270
+ mari kita mulai <font color="#CCCCCC">dari sini </font>
+
+659
+00:30:15,270 --> 00:30:25,430
+ jadi kami akan kembali kembali <font color="#CCCCCC">dan kembali </font>
+
+660
+00:30:25,430 --> 00:30:29,900
+ <font color="#CCCCCC">kembali dan kemudian kita akan </font><font color="#E5E5E5">pergi ke </font><font color="#CCCCCC">dll </font>
+
+661
+00:30:29,900 --> 00:30:34,350
+ kata sandi <font color="#E5E5E5">dan seperti yang Anda </font><font color="#CCCCCC">lihat sekarang kami miliki </font>
+
+662
+00:30:34,350 --> 00:30:38,370
+ <font color="#E5E5E5">output dari </font><font color="#CCCCCC">file kata sandi dll </font><font color="#E5E5E5">kami </font>
+
+663
+00:30:38,370 --> 00:30:39,030
+ dapat <font color="#E5E5E5">menyalin itu </font>
+
+664
+00:30:39,030 --> 00:30:42,090
+ <font color="#CCCCCC">dan mulai di sini dan kemudian </font><font color="#E5E5E5">Anda akan </font><font color="#CCCCCC">bisa </font>
+
+665
+00:30:42,090 --> 00:30:44,550
+ untuk membacanya <font color="#E5E5E5">dan </font><font color="#CCCCCC">dapatkan lebih banyak informasi </font>
+
+666
+00:30:44,550 --> 00:30:46,680
+ <font color="#E5E5E5">tentang situs web </font><font color="#CCCCCC">yang Anda targetkan </font>
+
+667
+00:30:46,680 --> 00:30:50,640
+ <font color="#E5E5E5">sekarang lagi Anda dapat menggunakan ini untuk mencoba </font>
+
+668
+00:30:50,640 --> 00:30:53,190
+ untuk mengakses <font color="#E5E5E5">file yang berbeda sensitif </font>
+
+669
+00:30:53,190 --> 00:30:55,830
+ file atau file dari situs web lain <font color="#CCCCCC">di </font>
+
+670
+00:30:55,830 --> 00:30:58,340
+ server yang sama 
+
+671
+00:30:59,970 --> 00:31:01,679
+ sekarang mari kita pergi ke pengaturan keamanan 
+
+672
+00:31:01,679 --> 00:31:05,429
+ <font color="#CCCCCC">dan aku akan </font><font color="#E5E5E5">mengatur ini menjadi medium karena </font>
+
+673
+00:31:05,429 --> 00:31:06,990
+ Saya <font color="#CCCCCC">hanya ingin menunjukkan kepada Anda bahwa mediumnya </font>
+
+674
+00:31:06,990 --> 00:31:09,509
+ pengaturan <font color="#E5E5E5">ini sebenarnya bisa </font>
+
+675
+00:31:09,509 --> 00:31:12,389
+ <font color="#CCCCCC">dieksploitasi dengan </font><font color="#E5E5E5">cara yang </font><font color="#CCCCCC">persis sama </font><font color="#E5E5E5">dengan </font>
+
+676
+00:31:12,389 --> 00:31:15,360
+ <font color="#CCCCCC">tingkat rendah </font><font color="#E5E5E5">sehingga keamanan </font><font color="#CCCCCC">diatur ke sedang </font>
+
+677
+00:31:15,360 --> 00:31:18,649
+ <font color="#E5E5E5">Saya akan kembali </font><font color="#CCCCCC">ke file inklusi dan </font>
+
+678
+00:31:18,649 --> 00:31:21,000
+ kita akan menggunakan eksploit yang tepat 
+
+679
+00:31:21,000 --> 00:31:23,820
+ cara yang sama yang <font color="#E5E5E5">kita lakukan sebelum </font>
+
+680
+00:31:23,820 --> 00:31:26,220
+ dan seperti yang Anda <font color="#E5E5E5">lihat kami berhasil mendapatkan </font>
+
+681
+00:31:26,220 --> 00:31:30,650
+ isi <font color="#CCCCCC">kata sandi dll </font>
+
+682
+00:31:30,650 --> 00:31:33,680
+ jadi penyertaan file lokal sangat <font color="#CCCCCC">bagus </font>
+
+683
+00:31:33,680 --> 00:31:35,960
+ karena <font color="#E5E5E5">memungkinkan </font><font color="#CCCCCC">kita untuk membaca file di </font>
+
+684
+00:31:35,960 --> 00:31:38,360
+ server dan kami mungkin <font color="#CCCCCC">bisa membaca </font>
+
+685
+00:31:38,360 --> 00:31:40,309
+ file dengan kata sandi atau sensitif 
+
+686
+00:31:40,309 --> 00:31:42,000
+ <font color="#E5E5E5">informasi </font>
+
+687
+00:31:42,000 --> 00:31:45,210
+ apa yang benar <font color="#E5E5E5">- benar hebat adalah jika kita bisa </font>
+
+688
+00:31:45,210 --> 00:31:47,430
+ <font color="#CCCCCC">benar-benar mendapatkan akses penuh atau penuh </font>
+
+689
+00:31:47,430 --> 00:31:50,190
+ kontrol atas <font color="#CCCCCC">server target </font><font color="#E5E5E5">menggunakan </font>
+
+690
+00:31:50,190 --> 00:31:53,070
+ kerentanan file inklusi lokal <font color="#E5E5E5">begitu </font>
+
+691
+00:31:53,070 --> 00:31:55,470
+ dalam <font color="#E5E5E5">kuliah ini </font><font color="#CCCCCC">kita akan melihat bagaimana kita </font><font color="#E5E5E5">bisa mendapatkannya </font>
+
+692
+00:31:55,470 --> 00:31:58,140
+ <font color="#CCCCCC">cangkang </font><font color="#E5E5E5">terbalik </font><font color="#CCCCCC">dengan mengeksploitasi </font><font color="#E5E5E5">lokal </font>
+
+693
+00:31:58,140 --> 00:32:00,030
+ file kerentanan inklusi yang <font color="#E5E5E5">kami </font>
+
+694
+00:32:00,030 --> 00:32:03,510
+ terlihat pada kuliah sebelumnya <font color="#CCCCCC">jadi karena </font>
+
+695
+00:32:03,510 --> 00:32:05,580
+ mereka memungkinkan kita <font color="#E5E5E5">untuk membaca file di </font>
+
+696
+00:32:05,580 --> 00:32:08,820
+ server jadi jika kami <font color="#E5E5E5">berhasil menulis apa pun </font>
+
+697
+00:32:08,820 --> 00:32:11,220
+ di server itu <font color="#E5E5E5">maka kita bisa menulis beberapa </font>
+
+698
+00:32:11,220 --> 00:32:13,830
+ kode berbahaya lalu telusuri dan 
+
+699
+00:32:13,830 --> 00:32:17,070
+ dapatkan <font color="#E5E5E5">kode yang akan dieksekusi </font><font color="#CCCCCC">jadi ini </font>
+
+700
+00:32:17,070 --> 00:32:19,020
+ tepatnya apa yang akan kita coba <font color="#E5E5E5">lakukan di sana </font>
+
+701
+00:32:19,020 --> 00:32:20,970
+ adalah <font color="#CCCCCC">sejumlah</font><font color="#E5E5E5"> metode untuk </font><font color="#CCCCCC">mencapai itu </font>
+
+702
+00:32:20,970 --> 00:32:24,780
+ <font color="#E5E5E5">jadi biasanya itu dilakukan menggunakan file-file log </font>
+
+703
+00:32:24,780 --> 00:32:27,420
+ karena file-file log biasanya mendaftar 
+
+704
+00:32:27,420 --> 00:32:29,040
+ atau tulis hal <font color="#CCCCCC">yang terjadi pada </font>
+
+705
+00:32:29,040 --> 00:32:31,980
+ server <font color="#E5E5E5">sehingga Anda dapat mencoba masuk dengan </font>
+
+706
+00:32:31,980 --> 00:32:33,750
+ nama pengguna <font color="#E5E5E5">tetapi bukannya meletakkan </font>
+
+707
+00:32:33,750 --> 00:32:36,840
+ <font color="#CCCCCC">nama pengguna yang Anda masukkan </font><font color="#E5E5E5">kode </font><font color="#CCCCCC">PHP </font><font color="#E5E5E5">atau Anda bisa </font>
+
+708
+00:32:36,840 --> 00:32:39,000
+ mencoba untuk mengirim <font color="#CCCCCC">email </font><font color="#E5E5E5">dan kemudian </font><font color="#CCCCCC">bukannya </font>
+
+709
+00:32:39,000 --> 00:32:41,610
+ email menempatkan <font color="#E5E5E5">kode PHP dan kemudian mencoba </font><font color="#CCCCCC">untuk </font>
+
+710
+00:32:41,610 --> 00:32:44,640
+ telusuri <font color="#CCCCCC">file-file log ini dan kode PHP </font>
+
+711
+00:32:44,640 --> 00:32:47,220
+ akan <font color="#E5E5E5">dieksekusi </font><font color="#CCCCCC">metode</font><font color="#E5E5E5"> pertama yang </font>
+
+712
+00:32:47,220 --> 00:32:49,200
+ <font color="#E5E5E5">kita </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">lihat</font><font color="#CCCCCC"> pada meskipun itu </font>
+
+713
+00:32:49,200 --> 00:32:51,750
+ akan mengeksploitasi variabel lingkungan 
+
+714
+00:32:51,750 --> 00:32:54,240
+ jadi ini pada dasarnya adalah file itu 
+
+715
+00:32:54,240 --> 00:32:57,870
+ berisi <font color="#CCCCCC">berbagai</font><font color="#E5E5E5"> informasi tentang </font>
+
+716
+00:32:57,870 --> 00:33:00,630
+ <font color="#CCCCCC">lingkungan saat ini jadi mari kita </font>
+
+717
+00:33:00,630 --> 00:33:03,030
+ punya <font color="#E5E5E5">contoh ini dengan cepat </font><font color="#CCCCCC">jadi benar </font>
+
+718
+00:33:03,030 --> 00:33:05,070
+ di sini saya berada di <font color="#E5E5E5">mesin Kali saya, saya tidak </font>
+
+719
+00:33:05,070 --> 00:33:06,750
+ berbicara <font color="#E5E5E5">apa pun saya tidak ada di server apa pun </font>
+
+720
+00:33:06,750 --> 00:33:08,940
+ <font color="#E5E5E5">dan aku hanya akan melihat apa itu </font>
+
+721
+00:33:08,940 --> 00:33:11,160
+ isi file itu sehingga file ini ada 
+
+722
+00:33:11,160 --> 00:33:14,160
+ di semua sistem operasi Linux <font color="#E5E5E5">jadi saya </font>
+
+723
+00:33:14,160 --> 00:33:15,660
+ hanya <font color="#E5E5E5">akan </font><font color="#CCCCCC">membuka </font><font color="#E5E5E5">file itu </font><font color="#CCCCCC">sekarang </font>
+
+724
+00:33:15,660 --> 00:33:18,350
+ <font color="#CCCCCC">menggunakan </font><font color="#E5E5E5">perintah cat </font>
+
+725
+00:33:20,110 --> 00:33:22,630
+ dan seperti yang Anda <font color="#E5E5E5">lihat, Anda akan melihat </font><font color="#CCCCCC">angka </font>
+
+726
+00:33:22,630 --> 00:33:25,539
+ <font color="#CCCCCC">variabel lingkungan yang </font>
+
+727
+00:33:25,539 --> 00:33:28,179
+ terkait <font color="#CCCCCC">dengan lingkungan saat ini </font><font color="#E5E5E5">sehingga </font>
+
+728
+00:33:28,179 --> 00:33:29,950
+ apa yang akan kita <font color="#E5E5E5">lakukan sekarang adalah kita akan melakukannya </font>
+
+729
+00:33:29,950 --> 00:33:32,909
+ <font color="#E5E5E5">coba buka </font><font color="#CCCCCC">file ini di sini di browser saya </font>
+
+730
+00:33:32,909 --> 00:33:36,420
+ <font color="#E5E5E5">bukan </font><font color="#CCCCCC">kata sandi dll </font>
+
+731
+00:33:36,420 --> 00:33:38,550
+ jadi itu akan <font color="#E5E5E5">berada di Praha sendiri dan </font>
+
+732
+00:33:38,550 --> 00:33:40,970
+ <font color="#CCCCCC">Byron </font>
+
+733
+00:33:41,760 --> 00:33:44,520
+ <font color="#E5E5E5">oke akan menekan enter </font>
+
+734
+00:33:44,520 --> 00:33:47,610
+ dan seperti yang Anda lihat <font color="#E5E5E5">lagi kita bisa melihat </font>
+
+735
+00:33:47,610 --> 00:33:49,770
+ berbagai variabel <font color="#CCCCCC">tentang arus </font>
+
+736
+00:33:49,770 --> 00:33:52,679
+ lingkungan <font color="#E5E5E5">yang menarik di </font><font color="#CCCCCC">sini adalah </font>
+
+737
+00:33:52,679 --> 00:33:55,710
+ variabel ini <font color="#CCCCCC">sehingga kita dapat melihat bahwa </font>
+
+738
+00:33:55,710 --> 00:34:00,030
+ agen pengguna <font color="#CCCCCC">sedang dikirim dan sedang </font>
+
+739
+00:34:00,030 --> 00:34:02,580
+ ditampilkan <font color="#CCCCCC">di sini </font><font color="#E5E5E5">sekarang agen pengguna </font>
+
+740
+00:34:02,580 --> 00:34:05,190
+ <font color="#E5E5E5">pada dasarnya adalah browser saat ini digunakan oleh </font>
+
+741
+00:34:05,190 --> 00:34:07,830
+ oleh orang itu oleh pengguna <font color="#CCCCCC">sehingga </font><font color="#E5E5E5">Anda bisa </font>
+
+742
+00:34:07,830 --> 00:34:09,810
+ lihat itu <font color="#E5E5E5">karena saya menggunakan Firefox di </font>
+
+743
+00:34:09,810 --> 00:34:11,879
+ <font color="#CCCCCC">situs web berpikir bahwa saya menggunakan </font>
+
+744
+00:34:11,879 --> 00:34:13,590
+ Firefox yang benar <font color="#E5E5E5">dan itu </font>
+
+745
+00:34:13,590 --> 00:34:16,770
+ karena Firefox <font color="#E5E5E5">setiap kali Anda </font><font color="#CCCCCC">membuka </font>
+
+746
+00:34:16,770 --> 00:34:18,750
+ <font color="#E5E5E5">situs web itu sebenarnya memberitahu situs web itu </font>
+
+747
+00:34:18,750 --> 00:34:20,489
+ apa browser itu <font color="#E5E5E5">sehingga ini terjadi pada </font>
+
+748
+00:34:20,489 --> 00:34:22,469
+ <font color="#CCCCCC">situs web kami </font><font color="#E5E5E5">sehingga kami dapat </font><font color="#CCCCCC">melihat </font><font color="#E5E5E5">bahwa Firefox </font>
+
+749
+00:34:22,469 --> 00:34:24,989
+ <font color="#E5E5E5">memberi tahu </font><font color="#CCCCCC">situs web atau web </font>
+
+750
+00:34:24,989 --> 00:34:27,899
+ browser <font color="#E5E5E5">yang saya Firefox 5 dan itu </font>
+
+751
+00:34:27,899 --> 00:34:31,649
+ berjalan di Linux apa pun jadi ini 
+
+752
+00:34:31,649 --> 00:34:35,369
+ sebenarnya dikirim dari klien <font color="#E5E5E5">sehingga kami </font><font color="#CCCCCC">bisa </font>
+
+753
+00:34:35,369 --> 00:34:37,949
+ sebenarnya <font color="#E5E5E5">mengubah </font><font color="#CCCCCC">nilai ini dan apa </font>
+
+754
+00:34:37,949 --> 00:34:39,719
+ kita akan coba <font color="#CCCCCC">lakukan adalah kita </font><font color="#E5E5E5">akan melakukannya </font>
+
+755
+00:34:39,719 --> 00:34:43,199
+ memodifikasi <font color="#E5E5E5">nilai agen pengguna dan kami </font>
+
+756
+00:34:43,199 --> 00:34:45,090
+ akan menempatkan kode <font color="#E5E5E5">yang akan memberi kita </font>
+
+757
+00:34:45,090 --> 00:34:48,179
+ membalikkan shell <font color="#E5E5E5">sebelum </font><font color="#CCCCCC">kita melakukan itu mari </font>
+
+758
+00:34:48,179 --> 00:34:49,619
+ <font color="#E5E5E5">pastikan bahwa </font><font color="#CCCCCC">kode akan dieksekusi </font>
+
+759
+00:34:49,619 --> 00:34:53,639
+ di <font color="#E5E5E5">server jadi kami akan mengirim hanya a </font>
+
+760
+00:34:53,639 --> 00:34:56,399
+ kode PHP normal <font color="#CCCCCC">yang akan menampilkan PHP </font>
+
+761
+00:34:56,399 --> 00:34:59,160
+ <font color="#E5E5E5">informasi jadi saya akan menyalakan saya </font>
+
+762
+00:34:59,160 --> 00:35:01,650
+ <font color="#E5E5E5">pencegat sekarang </font><font color="#CCCCCC">saya menunjukkan </font><font color="#E5E5E5">Anda cara </font><font color="#CCCCCC">mengatur </font>
+
+763
+00:35:01,650 --> 00:35:03,810
+ <font color="#E5E5E5">sampai </font><font color="#CCCCCC">proxy BRR jadi jika Anda tidak tahu caranya </font>
+
+764
+00:35:03,810 --> 00:35:05,760
+ lakukan <font color="#E5E5E5">itu </font><font color="#CCCCCC">kembali ke </font><font color="#E5E5E5">ceramah itu dan lihat </font>
+
+765
+00:35:05,760 --> 00:35:08,070
+ bagaimana Anda <font color="#E5E5E5">dapat mengatur proxy </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">jadi saya hanya </font>
+
+766
+00:35:08,070 --> 00:35:09,930
+ <font color="#CCCCCC">menyalakan </font><font color="#E5E5E5">Interceptor dan aku akan </font>
+
+767
+00:35:09,930 --> 00:35:12,890
+ telusuri URL yang sama persis 
+
+768
+00:35:12,890 --> 00:35:15,460
+ dan di sini <font color="#CCCCCC">jika kita pergi ke </font><font color="#E5E5E5">tajuk </font>
+
+769
+00:35:15,460 --> 00:35:18,740
+ Anda akan melihat bahwa Firefox <font color="#E5E5E5">mengirim </font>
+
+770
+00:35:18,740 --> 00:35:20,869
+ <font color="#E5E5E5">agen </font><font color="#CCCCCC">pengguna </font><font color="#E5E5E5">di sini </font><font color="#CCCCCC">dan mengirimnya </font>
+
+771
+00:35:20,869 --> 00:35:24,319
+ itu sebagai Mozilla <font color="#CCCCCC">5 dan kemudian Linux apa pun </font>
+
+772
+00:35:24,319 --> 00:35:26,510
+ <font color="#E5E5E5">jadi apa yang akan kita lakukan adalah kita </font><font color="#CCCCCC">akan melakukannya </font>
+
+773
+00:35:26,510 --> 00:35:28,430
+ <font color="#E5E5E5">memodifikasi </font><font color="#CCCCCC">nilai ini dan </font><font color="#E5E5E5">kita akan menempatkannya </font>
+
+774
+00:35:28,430 --> 00:35:31,309
+ Kode PHP dan kode yang akan saya masukkan 
+
+775
+00:35:31,309 --> 00:35:32,900
+ sangat sederhana <font color="#CCCCCC">pada dasarnya hanya akan </font>
+
+776
+00:35:32,900 --> 00:35:35,390
+ menampilkan <font color="#E5E5E5">informasi PHP </font><font color="#CCCCCC">jadi itu a </font>
+
+777
+00:35:35,390 --> 00:35:39,609
+ <font color="#E5E5E5">fungsi yang disebut info PHP </font>
+
+778
+00:35:41,310 --> 00:35:45,860
+ dan kemudian saya <font color="#E5E5E5">akan meneruskan paket ini </font>
+
+779
+00:35:46,760 --> 00:35:50,210
+ dan seperti <font color="#E5E5E5">yang Anda </font><font color="#CCCCCC">lihat kode PHP </font><font color="#E5E5E5">mendapat </font>
+
+780
+00:35:50,210 --> 00:35:53,120
+ dieksekusi <font color="#CCCCCC">di situs web pada </font>
+
+781
+00:35:53,120 --> 00:35:55,310
+ <font color="#E5E5E5">situs web target ini berarti jika kami mengirim </font>
+
+782
+00:35:55,310 --> 00:35:57,620
+ kode berbahaya <font color="#E5E5E5">ke situs web ini akan </font>
+
+783
+00:35:57,620 --> 00:35:59,570
+ sebenarnya <font color="#CCCCCC">bisa </font><font color="#E5E5E5">mendapatkan akses penuh atau </font>
+
+784
+00:35:59,570 --> 00:36:02,690
+ kita bisa mendapatkan <font color="#E5E5E5">kode kita untuk </font><font color="#CCCCCC">dieksekusi sekarang </font>
+
+785
+00:36:02,690 --> 00:36:04,970
+ Anda benar-benar dapat <font color="#E5E5E5">mengirim kode PHP apa pun kepada Anda </font>
+
+786
+00:36:04,970 --> 00:36:08,150
+ ingin <font color="#E5E5E5">Anda dapat mengirim kode ke daftar file Anda </font>
+
+787
+00:36:08,150 --> 00:36:11,150
+ dapat mengirim kode <font color="#E5E5E5">untuk mengunggah file atau Anda </font>
+
+788
+00:36:11,150 --> 00:36:12,830
+ <font color="#E5E5E5">dapat mengirim salah </font><font color="#CCCCCC">satu kode yang </font><font color="#E5E5E5">kami gunakan </font>
+
+789
+00:36:12,830 --> 00:36:15,620
+ sebelumnya <font color="#E5E5E5">untuk </font><font color="#CCCCCC">mendapatkan koneksi balik </font><font color="#E5E5E5">jadi </font>
+
+790
+00:36:15,620 --> 00:36:16,970
+ itulah yang akan saya lakukan, saya <font color="#E5E5E5">akan gunakan </font>
+
+791
+00:36:16,970 --> 00:36:18,530
+ <font color="#E5E5E5">kode </font><font color="#CCCCCC">yang sama persis yang kami gunakan sebelumnya </font>
+
+792
+00:36:18,530 --> 00:36:21,860
+ <font color="#E5E5E5">di kuliah sebelumnya untuk mendapatkan penuh </font>
+
+793
+00:36:21,860 --> 00:36:25,850
+ kontrol <font color="#CCCCCC">atas </font><font color="#E5E5E5">komputer </font><font color="#CCCCCC">target </font><font color="#E5E5E5">jadi saya </font>
+
+794
+00:36:25,850 --> 00:36:27,350
+ sebenarnya <font color="#E5E5E5">hanya akan ketik </font><font color="#CCCCCC">di sini di </font>
+
+795
+00:36:27,350 --> 00:36:30,520
+ terminal dan kemudian <font color="#CCCCCC">aku </font><font color="#E5E5E5">akan menyalinnya </font>
+
+796
+00:36:30,520 --> 00:36:34,920
+ jadi kita akan <font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">pass-through </font>
+
+797
+00:36:35,510 --> 00:36:38,530
+ dan kami <font color="#CCCCCC">menggunakan netcat </font>
+
+798
+00:36:41,630 --> 00:36:43,490
+ dan kemudian <font color="#CCCCCC">ketika saya akan memasukkan IP saya </font>
+
+799
+00:36:43,490 --> 00:36:45,570
+ alamat 
+
+800
+00:36:45,570 --> 00:36:47,730
+ dan saya akan menggunakan port yang 
+
+801
+00:36:47,730 --> 00:36:49,800
+ <font color="#E5E5E5">Aku </font><font color="#CCCCCC">akan melakukan ini dalam serangan ini aku </font>
+
+802
+00:36:49,800 --> 00:36:51,980
+ akan menggunakan <font color="#CCCCCC">delapan delapan delapan delapan </font><font color="#E5E5E5">dan </font>
+
+803
+00:36:51,980 --> 00:36:55,140
+ <font color="#E5E5E5">kemudian kami menempatkan </font><font color="#CCCCCC">titik koma ini jadi itu </font>
+
+804
+00:36:55,140 --> 00:36:57,960
+ sama <font color="#E5E5E5">itu </font><font color="#CCCCCC">hanya </font><font color="#E5E5E5">fungsi </font><font color="#CCCCCC">PHP dan kami gunakan </font>
+
+805
+00:36:57,960 --> 00:37:00,060
+ <font color="#CCCCCC">bahwa dalam kuliah eksekusi kode begitu </font>
+
+806
+00:37:00,060 --> 00:37:01,470
+ Saya benar-benar <font color="#CCCCCC">hanya akan </font><font color="#E5E5E5">menyalin ini </font>
+
+807
+00:37:01,470 --> 00:37:04,290
+ dan saya <font color="#E5E5E5">akan menyuntikkannya sebagai pengguna </font>
+
+808
+00:37:04,290 --> 00:37:06,510
+ agen <font color="#CCCCCC">sekarang sebelum saya melakukan itu saya akan melakukannya </font>
+
+809
+00:37:06,510 --> 00:37:08,700
+ <font color="#E5E5E5">dengarkan di port 8080 </font><font color="#CCCCCC">delapan delapan </font><font color="#E5E5E5">empat </font>
+
+810
+00:37:08,700 --> 00:37:10,380
+ koneksi jadi kita <font color="#E5E5E5">akan menggunakan </font>
+
+811
+00:37:10,380 --> 00:37:12,270
+ <font color="#E5E5E5">kode </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">sama </font><font color="#CCCCCC">yang kita gunakan sebelumnya dengan </font>
+
+812
+00:37:12,270 --> 00:37:14,750
+ <font color="#CCCCCC">netcat </font>
+
+813
+00:37:18,990 --> 00:37:20,790
+ dan sekarang kita mendengarkan <font color="#CCCCCC">untuk </font><font color="#E5E5E5">koneksi </font>
+
+814
+00:37:20,790 --> 00:37:23,490
+ <font color="#E5E5E5">kita punya </font><font color="#CCCCCC">interceptor kita </font>
+
+815
+00:37:23,490 --> 00:37:25,500
+ telusuri <font color="#E5E5E5">situs web saya akan tekan enter </font>
+
+816
+00:37:25,500 --> 00:37:29,810
+ <font color="#CCCCCC">dan aku akan memodifikasi </font><font color="#E5E5E5">agen pengguna </font>
+
+817
+00:37:29,810 --> 00:37:32,220
+ <font color="#E5E5E5">lagi jangan </font><font color="#CCCCCC">lupa untuk mengajukan pertanyaan </font>
+
+818
+00:37:32,220 --> 00:37:33,780
+ tanda di sini <font color="#E5E5E5">karena saya hanya memasukkan kode </font>
+
+819
+00:37:33,780 --> 00:37:36,090
+ di sana jadi kami memiliki pembukaan dan di 
+
+820
+00:37:36,090 --> 00:37:39,720
+ menutup untuk PHP <font color="#E5E5E5">dan kemudian kami menempatkan kode kami </font>
+
+821
+00:37:39,720 --> 00:37:42,090
+ yang merupakan kode <font color="#CCCCCC">pass-through dan C e </font>
+
+822
+00:37:42,090 --> 00:37:46,200
+ <font color="#CCCCCC">telah </font><font color="#E5E5E5">SH IP kami diikuti oleh port itu </font>
+
+823
+00:37:46,200 --> 00:37:48,330
+ <font color="#CCCCCC">sedang </font><font color="#E5E5E5">mendengarkan aku akan menekan enter </font>
+
+824
+00:37:48,330 --> 00:37:50,900
+ <font color="#CCCCCC">dan aku akan maju </font>
+
+825
+00:37:50,900 --> 00:37:53,299
+ dan seperti yang Anda <font color="#E5E5E5">lihat </font><font color="#CCCCCC">kami mendapat koneksi </font>
+
+826
+00:37:53,299 --> 00:37:55,760
+ <font color="#E5E5E5">kembali menggunakan </font><font color="#CCCCCC">inklusi file lokal </font>
+
+827
+00:37:55,760 --> 00:37:58,339
+ kerentanan sekarang <font color="#E5E5E5">saya dapat menelusuri file I </font>
+
+828
+00:37:58,339 --> 00:38:03,170
+ <font color="#CCCCCC">dapat melakukan PWD Saya dapat melakukan LS Saya dapat melakukan ID </font><font color="#E5E5E5">dan saya </font>
+
+829
+00:38:03,170 --> 00:38:04,819
+ dapat melakukan <font color="#CCCCCC">apa pun yang saya inginkan </font>
+
+830
+00:38:04,819 --> 00:38:07,880
+ server <font color="#CCCCCC">sekarang karena saya memiliki cangkang penuh </font>
+
+831
+00:38:07,880 --> 00:38:10,849
+ <font color="#E5E5E5">akses sehingga kami dapat </font><font color="#CCCCCC">mengonversi </font>
+
+832
+00:38:10,849 --> 00:38:13,309
+ kerentanan inklusi file lokal <font color="#E5E5E5">itu </font>
+
+833
+00:38:13,309 --> 00:38:15,740
+ hanya dapat menampilkan file <font color="#E5E5E5">atau hanya bisa </font>
+
+834
+00:38:15,740 --> 00:38:18,049
+ memungkinkan Anda untuk membaca file <font color="#E5E5E5">di server </font><font color="#CCCCCC">kami </font>
+
+835
+00:38:18,049 --> 00:38:20,329
+ mampu <font color="#CCCCCC">mengubah itu dan mengeksploitasinya </font>
+
+836
+00:38:20,329 --> 00:38:23,859
+ <font color="#CCCCCC">untuk mendapatkan akses penuh ke </font><font color="#E5E5E5">server </font><font color="#CCCCCC">target </font>
+
+837
+00:38:23,859 --> 00:38:26,599
+ semua <font color="#CCCCCC">itu mungkin </font><font color="#E5E5E5">karena </font><font color="#CCCCCC">kita </font>
+
+838
+00:38:26,599 --> 00:38:30,559
+ <font color="#CCCCCC">bisa menulis ke </font><font color="#E5E5E5">proc self and </font><font color="#CCCCCC">viren </font>
+
+839
+00:38:30,559 --> 00:38:33,619
+ variabel yang menampilkan agen pengguna kami 
+
+840
+00:38:33,619 --> 00:38:36,140
+ <font color="#E5E5E5">dan dengan mengubah </font><font color="#CCCCCC">agen</font><font color="#E5E5E5"> pengguna </font><font color="#CCCCCC">untuk kami </font>
+
+841
+00:38:36,140 --> 00:38:38,569
+ Kode PHP <font color="#E5E5E5">kami dapat </font><font color="#CCCCCC">menjalankan PHP </font>
+
+842
+00:38:38,569 --> 00:38:40,880
+ <font color="#E5E5E5">kode yang </font><font color="#CCCCCC">kami </font><font color="#E5E5E5">inginkan </font>
+
+843
+00:38:40,880 --> 00:38:43,369
+ dan <font color="#CCCCCC">kuliah ini akan kita </font><font color="#E5E5E5">lihat </font>
+
+844
+00:38:43,369 --> 00:38:46,519
+ <font color="#CCCCCC">metode lain untuk mengeksploitasi file lokal </font>
+
+845
+00:38:46,519 --> 00:38:49,579
+ kerentanan inklusi dan mendapatkan penuh 
+
+846
+00:38:49,579 --> 00:38:52,249
+ shell <font color="#E5E5E5">atau kontrol penuh atas </font><font color="#CCCCCC">target </font>
+
+847
+00:38:52,249 --> 00:38:55,069
+ <font color="#E5E5E5">server jadi di video sebelumnya yang </font><font color="#CCCCCC">kita lihat </font>
+
+848
+00:38:55,069 --> 00:38:57,499
+ bagaimana melakukannya menggunakan <font color="#E5E5E5">variabel lingkungan </font>
+
+849
+00:38:57,499 --> 00:39:00,140
+ <font color="#E5E5E5">atau variabel lingkungan dan dalam hal ini </font>
+
+850
+00:39:00,140 --> 00:39:02,029
+ <font color="#E5E5E5">kuliah kita </font><font color="#CCCCCC">akan melihat </font><font color="#E5E5E5">bagaimana </font><font color="#CCCCCC">melakukannya </font>
+
+851
+00:39:02,029 --> 00:39:05,299
+ berdasarkan <font color="#E5E5E5">log server ini memiliki </font>
+
+852
+00:39:05,299 --> 00:39:08,329
+ banyak <font color="#E5E5E5">file log dan pada dasarnya di </font>
+
+853
+00:39:08,329 --> 00:39:10,160
+ saat <font color="#CCCCCC">kita dapat membaca file apa saja di </font>
+
+854
+00:39:10,160 --> 00:39:11,960
+ server <font color="#CCCCCC">selama kami memiliki izin </font><font color="#E5E5E5">untuk </font>
+
+855
+00:39:11,960 --> 00:39:14,450
+ membacanya <font color="#E5E5E5">jadi jika kita bisa mengatur untuk menulis </font>
+
+856
+00:39:14,450 --> 00:39:17,239
+ <font color="#E5E5E5">apa pun untuk semua </font><font color="#CCCCCC">file ini </font><font color="#E5E5E5">maka kita </font>
+
+857
+00:39:17,239 --> 00:39:19,549
+ dapat cukup banyak mengeksekusi kode dan mendapatkan 
+
+858
+00:39:19,549 --> 00:39:23,059
+ <font color="#CCCCCC">kontrol </font><font color="#E5E5E5">atas target kami, </font><font color="#CCCCCC">jadi apa yang Anda </font>
+
+859
+00:39:23,059 --> 00:39:25,039
+ <font color="#E5E5E5">perlu Anda lakukan adalah </font><font color="#CCCCCC">mencoba dan membaca </font>
+
+860
+00:39:25,039 --> 00:39:27,950
+ salah <font color="#E5E5E5">satu file log </font><font color="#CCCCCC">dan melihat atau </font><font color="#E5E5E5">memikirkan </font>
+
+861
+00:39:27,950 --> 00:39:30,859
+ <font color="#E5E5E5">sebuah cara untuk berinteraksi dengan </font><font color="#CCCCCC">file </font><font color="#E5E5E5">- </font><font color="#CCCCCC">file </font><font color="#E5E5E5">log ini </font>
+
+862
+00:39:30,859 --> 00:39:32,569
+ sehingga <font color="#CCCCCC">Anda dapat menuliskannya </font><font color="#E5E5E5">untuk itu </font>
+
+863
+00:39:32,569 --> 00:39:35,269
+ <font color="#E5E5E5">Misalnya jika file log itu Anda </font>
+
+864
+00:39:35,269 --> 00:39:38,119
+ <font color="#E5E5E5">membaca atau berinteraksi </font><font color="#CCCCCC">dengan </font><font color="#E5E5E5">log surat </font><font color="#CCCCCC">kami </font>
+
+865
+00:39:38,119 --> 00:39:40,430
+ <font color="#E5E5E5">file </font><font color="#CCCCCC">maka mungkin Anda dapat mengirim email </font>
+
+866
+00:39:40,430 --> 00:39:43,130
+ <font color="#E5E5E5">dengan kode dan kemudian akan </font><font color="#CCCCCC">muncul </font><font color="#E5E5E5">di </font>
+
+867
+00:39:43,130 --> 00:39:45,349
+ file log <font color="#CCCCCC">dalam contoh kita akan </font><font color="#E5E5E5">pergi </font>
+
+868
+00:39:45,349 --> 00:39:47,900
+ <font color="#E5E5E5">untuk menggunakan log dan autentikasi log </font><font color="#CCCCCC">VAR </font><font color="#E5E5E5">log </font>
+
+869
+00:39:47,900 --> 00:39:50,509
+ file ini <font color="#E5E5E5">mengandung semua login </font>
+
+870
+00:39:50,509 --> 00:39:53,509
+ mencoba ke server target <font color="#E5E5E5">jadi mari </font>
+
+871
+00:39:53,509 --> 00:39:54,650
+ <font color="#CCCCCC">melakukannya </font><font color="#E5E5E5">dan Anda akan </font><font color="#CCCCCC">memiliki yang lebih baik </font>
+
+872
+00:39:54,650 --> 00:39:57,229
+ pemahaman <font color="#CCCCCC">saat ini saya hanya </font>
+
+873
+00:39:57,229 --> 00:39:59,630
+ memiliki <font color="#E5E5E5">dasar mengeksploitasi dan aku mencoba </font>
+
+874
+00:39:59,630 --> 00:40:02,989
+ <font color="#E5E5E5">untuk menampilkan kata sandi dll jadi ini adalah </font>
+
+875
+00:40:02,989 --> 00:40:05,269
+ file <font color="#CCCCCC">yang kami gunakan dalam eksploitasi dasar kami </font>
+
+876
+00:40:05,269 --> 00:40:08,329
+ Saya hanya akan <font color="#E5E5E5">menghapusnya dan saya </font>
+
+877
+00:40:08,329 --> 00:40:11,680
+ akan <font color="#CCCCCC">mencari var </font>
+
+878
+00:40:11,680 --> 00:40:14,430
+ <font color="#CCCCCC">log </font>
+
+879
+00:40:14,680 --> 00:40:17,940
+ <font color="#E5E5E5">dari </font><font color="#CCCCCC">log itu </font>
+
+880
+00:40:19,160 --> 00:40:21,289
+ sekarang karena Anda dapat <font color="#CCCCCC">melihat file tersebut dapat dibaca </font>
+
+881
+00:40:21,289 --> 00:40:24,829
+ <font color="#E5E5E5">dan kita dapat membaca upaya masuk ke </font>
+
+882
+00:40:24,829 --> 00:40:27,769
+ target server <font color="#E5E5E5">jadi apa yang akan kita </font><font color="#CCCCCC">lakukan </font>
+
+883
+00:40:27,769 --> 00:40:28,940
+ kita <font color="#CCCCCC">akan </font><font color="#E5E5E5">berpikir sekarang file ini </font>
+
+884
+00:40:28,940 --> 00:40:31,460
+ menampilkan semua <font color="#E5E5E5">upaya login jadi mengapa tidak </font>
+
+885
+00:40:31,460 --> 00:40:33,710
+ coba <font color="#E5E5E5">masuk dan lihat apakah usaha </font>
+
+886
+00:40:33,710 --> 00:40:36,049
+ <font color="#CCCCCC">akan </font><font color="#E5E5E5">ditampilkan di sini </font><font color="#CCCCCC">jadi saya </font><font color="#E5E5E5">akan </font>
+
+887
+00:40:36,049 --> 00:40:37,970
+ lakukan di <font color="#E5E5E5">sini saya hanya akan mencoba SSH </font>
+
+888
+00:40:37,970 --> 00:40:40,430
+ ke <font color="#E5E5E5">server jadi saya akan menggunakan SSH </font>
+
+889
+00:40:40,430 --> 00:40:42,859
+ SSH hanya banyak <font color="#E5E5E5">login jarak jauh </font>
+
+890
+00:40:42,859 --> 00:40:45,589
+ <font color="#E5E5E5">layanan yang digunakan oleh server web </font>
+
+891
+00:40:45,589 --> 00:40:47,599
+ cukup banyak setiap web server memiliki <font color="#CCCCCC">itu </font>
+
+892
+00:40:47,599 --> 00:40:50,479
+ terinstal <font color="#CCCCCC">jadi kita akan mencoba untuk SSH ke </font>
+
+893
+00:40:50,479 --> 00:40:52,759
+ <font color="#E5E5E5">jadi kita akan lakukan SSH dan kemudian kita </font>
+
+894
+00:40:52,759 --> 00:40:54,650
+ akan menaruh <font color="#E5E5E5">nama pengguna dan saya hanya </font>
+
+895
+00:40:54,650 --> 00:40:56,420
+ <font color="#E5E5E5">akan menempatkan nama pengguna acak itu </font>
+
+896
+00:40:56,420 --> 00:40:58,670
+ <font color="#E5E5E5">mungkin </font><font color="#CCCCCC">bahkan </font><font color="#E5E5E5">tidak </font><font color="#CCCCCC">ada yang saya </font><font color="#E5E5E5">inginkan </font>
+
+897
+00:40:58,670 --> 00:41:01,519
+ untuk melihat apakah <font color="#E5E5E5">permintaan ini akan </font><font color="#CCCCCC">direkam </font>
+
+898
+00:41:01,519 --> 00:41:04,489
+ dalam <font color="#CCCCCC">file log </font><font color="#E5E5E5">jadi aku hanya SS aku akan </font>
+
+899
+00:41:04,489 --> 00:41:06,470
+ SSH <font color="#E5E5E5">dan saya hanya </font><font color="#CCCCCC">akan memasukkan nama pengguna </font>
+
+900
+00:41:06,470 --> 00:41:09,230
+ sebagai acak 
+
+901
+00:41:09,230 --> 00:41:12,680
+ lalu saya akan <font color="#E5E5E5">melakukan iklan dan kita akan melakukannya </font>
+
+902
+00:41:12,680 --> 00:41:15,470
+ masukkan alamat IP yang <font color="#CCCCCC">10 2014 </font><font color="#E5E5E5">ke </font>
+
+903
+00:41:15,470 --> 00:41:17,240
+ <font color="#E5E5E5">10 </font>
+
+904
+00:41:17,240 --> 00:41:20,570
+ dan saya akan <font color="#E5E5E5">menekan </font><font color="#CCCCCC">enter </font>
+
+905
+00:41:20,570 --> 00:41:22,310
+ sekarang meminta <font color="#E5E5E5">saya untuk </font><font color="#CCCCCC">kata sandi </font>
+
+906
+00:41:22,310 --> 00:41:24,140
+ jelas <font color="#E5E5E5">nama pengguna ini tidak ada </font>
+
+907
+00:41:24,140 --> 00:41:26,120
+ toh <font color="#E5E5E5">jadi saya hanya </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">menempatkan </font><font color="#CCCCCC">acak </font>
+
+908
+00:41:26,120 --> 00:41:28,109
+ sandi <font color="#CCCCCC">juga </font>
+
+909
+00:41:28,109 --> 00:41:31,109
+ dan saya tidak benar-benar <font color="#E5E5E5">mencoba </font><font color="#CCCCCC">meretas menggunakan </font>
+
+910
+00:41:31,109 --> 00:41:33,479
+ <font color="#E5E5E5">SSH Saya benar-benar hanya berusaha </font>
+
+911
+00:41:33,479 --> 00:41:35,849
+ <font color="#CCCCCC">login Saya </font><font color="#E5E5E5">akan </font><font color="#CCCCCC">ctrl C sekarang dan saya ingin </font>
+
+912
+00:41:35,849 --> 00:41:37,769
+ lihat apakah ini <font color="#E5E5E5">akan </font><font color="#CCCCCC">dicatat dalam </font><font color="#E5E5E5">file ini </font>
+
+913
+00:41:37,769 --> 00:41:40,990
+ <font color="#E5E5E5">jadi saya akan mengirim </font><font color="#CCCCCC">permintaan </font><font color="#E5E5E5">lain </font>
+
+914
+00:41:40,990 --> 00:41:43,420
+ dan saya akan mencari <font color="#CCCCCC">nama pengguna saya </font>
+
+915
+00:41:43,420 --> 00:41:45,400
+ <font color="#E5E5E5">nama pengguna disebut acak dan saya akan </font>
+
+916
+00:41:45,400 --> 00:41:48,660
+ lihat <font color="#E5E5E5">apakah itu sudah dicatat </font>
+
+917
+00:41:49,000 --> 00:41:51,430
+ dan Anda bisa lihat di sini ia memberi tahu <font color="#E5E5E5">kami </font>
+
+918
+00:41:51,430 --> 00:41:54,040
+ file log <font color="#E5E5E5">sehingga direkam dalam </font>
+
+919
+00:41:54,040 --> 00:41:56,800
+ server <font color="#E5E5E5">yang seseorang coba </font><font color="#CCCCCC">masuk </font><font color="#E5E5E5">dengan </font>
+
+920
+00:41:56,800 --> 00:41:58,930
+ <font color="#E5E5E5">nama pengguna acak dan itu sebenarnya </font>
+
+921
+00:41:58,930 --> 00:42:00,970
+ alamat IP saya <font color="#CCCCCC">sehingga benar-benar </font><font color="#E5E5E5">dicatat </font>
+
+922
+00:42:00,970 --> 00:42:05,380
+ <font color="#CCCCCC">alamat IP saya juga jadi sekarang kita bisa membaca </font>
+
+923
+00:42:05,380 --> 00:42:07,510
+ <font color="#E5E5E5">file itu dan kami </font><font color="#CCCCCC">juga </font><font color="#E5E5E5">dapat </font><font color="#CCCCCC">menulis </font><font color="#E5E5E5">ke </font>
+
+924
+00:42:07,510 --> 00:42:10,540
+ file dengan masuk dengan <font color="#CCCCCC">yang </font><font color="#E5E5E5">tidak ada </font>
+
+925
+00:42:10,540 --> 00:42:13,690
+ akun <font color="#E5E5E5">jadi apa yang </font><font color="#CCCCCC">akan saya lakukan sekarang adalah saya </font>
+
+926
+00:42:13,690 --> 00:42:15,250
+ <font color="#CCCCCC">sebenarnya akan mencoba masuk </font><font color="#E5E5E5">lagi </font>
+
+927
+00:42:15,250 --> 00:42:17,200
+ <font color="#E5E5E5">dan bukannya </font><font color="#CCCCCC">memasukkan nama pengguna </font>
+
+928
+00:42:17,200 --> 00:42:18,790
+ bukannya <font color="#E5E5E5">menaruhnya sebagai nama pengguna </font>
+
+929
+00:42:18,790 --> 00:42:21,220
+ acak <font color="#E5E5E5">saya sebenarnya akan menempatkan </font><font color="#CCCCCC">PHP </font>
+
+930
+00:42:21,220 --> 00:42:23,530
+ kode <font color="#CCCCCC">yang selalu kami </font><font color="#E5E5E5">gunakan </font><font color="#CCCCCC">untuk memberi saya </font>
+
+931
+00:42:23,530 --> 00:42:25,869
+ reverse <font color="#CCCCCC">shell atau koneksi terbalik </font>
+
+932
+00:42:25,869 --> 00:42:28,240
+ <font color="#E5E5E5">server ini </font><font color="#CCCCCC">sekarang lagi yang bisa Anda gunakan </font>
+
+933
+00:42:28,240 --> 00:42:30,730
+ <font color="#E5E5E5">Kode PHP yang Anda inginkan dalam contoh saya saya </font>
+
+934
+00:42:30,730 --> 00:42:33,369
+ akan menggunakan kode <font color="#E5E5E5">yang akan memberi saya mundur </font>
+
+935
+00:42:33,369 --> 00:42:36,280
+ shell pada <font color="#E5E5E5">komputer target jadi sebelum saya </font>
+
+936
+00:42:36,280 --> 00:42:37,960
+ jalankan <font color="#E5E5E5">kode yang saya akan dengarkan di </font>
+
+937
+00:42:37,960 --> 00:42:39,760
+ <font color="#CCCCCC">port </font><font color="#E5E5E5">dan saya akan melakukannya menggunakan netcat </font>
+
+938
+00:42:39,760 --> 00:42:41,619
+ seperti yang selalu kami lakukan, itu akan <font color="#E5E5E5">terjadi </font>
+
+939
+00:42:41,619 --> 00:42:43,690
+ <font color="#E5E5E5">kucing bersih </font>
+
+940
+00:42:43,690 --> 00:42:46,960
+ <font color="#E5E5E5">LP VV </font>
+
+941
+00:42:46,960 --> 00:42:48,610
+ dan aku akan menempatkan bagianku yang mana 
+
+942
+00:42:48,610 --> 00:42:51,480
+ <font color="#CCCCCC">delapan delapan delapan delapan </font>
+
+943
+00:42:51,980 --> 00:42:56,120
+ dan sekarang kami sedang mendengarkan <font color="#CCCCCC">koneksi </font>
+
+944
+00:42:56,120 --> 00:42:59,060
+ dan saya akan <font color="#E5E5E5">mencoba masuk lagi </font>
+
+945
+00:42:59,060 --> 00:43:01,070
+ target <font color="#E5E5E5">dan dalam hal ini saya sebenarnya </font>
+
+946
+00:43:01,070 --> 00:43:04,820
+ <font color="#CCCCCC">akan menempatkan </font><font color="#E5E5E5">kode </font><font color="#CCCCCC">PHP saya </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">kode </font><font color="#E5E5E5">yang sama itu </font>
+
+947
+00:43:04,820 --> 00:43:08,270
+ <font color="#CCCCCC">kami menggunakan sebelumnya sehingga nama pengguna saya pergi </font>
+
+948
+00:43:08,270 --> 00:43:10,670
+ menjadi aku akan menaruh dua kutipan dan kemudian 
+
+949
+00:43:10,670 --> 00:43:13,460
+ Saya akan menaruh <font color="#E5E5E5">kode PHP saya </font>
+
+950
+00:43:13,460 --> 00:43:17,079
+ jadi kami menggunakan <font color="#CCCCCC">pass-through </font>
+
+951
+00:43:17,560 --> 00:43:19,060
+ lalu kita <font color="#E5E5E5">akan melewati perintah </font>
+
+952
+00:43:19,060 --> 00:43:21,940
+ <font color="#E5E5E5">perintah PHP yang ingin kita </font><font color="#CCCCCC">jalankan dan </font>
+
+953
+00:43:21,940 --> 00:43:24,700
+ <font color="#CCCCCC">perintah itu akan </font><font color="#E5E5E5">menjadi saya akan </font>
+
+954
+00:43:24,700 --> 00:43:27,070
+ <font color="#E5E5E5">gunakan tanda kutip tunggal di sini dan kemudian saya </font>
+
+955
+00:43:27,070 --> 00:43:31,080
+ perintah <font color="#E5E5E5">akan menjadi netcat </font><font color="#CCCCCC">e </font>
+
+956
+00:43:31,480 --> 00:43:34,650
+ <font color="#CCCCCC">Ben </font><font color="#E5E5E5">Sh </font>
+
+957
+00:43:34,850 --> 00:43:39,970
+ Saya memasukkan <font color="#E5E5E5">alamat IP saya yaitu 10 2014 208 </font>
+
+958
+00:43:39,970 --> 00:43:42,050
+ <font color="#E5E5E5">maka aku akan menaruh port itu </font>
+
+959
+00:43:42,050 --> 00:43:47,560
+ mendengarkan yang 8 8 8 8 sekarang 
+
+960
+00:43:47,560 --> 00:43:49,660
+ dengan <font color="#E5E5E5">metode ini </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">hanya akan mendapatkan </font>
+
+961
+00:43:49,660 --> 00:43:51,820
+ satu <font color="#CCCCCC">tembakan </font><font color="#E5E5E5">dengan kode ini karena jika Anda </font>
+
+962
+00:43:51,820 --> 00:43:54,040
+ menempatkan kode yang benar <font color="#CCCCCC">benar </font><font color="#E5E5E5">yang </font>
+
+963
+00:43:54,040 --> 00:43:56,530
+ semuanya akan <font color="#E5E5E5">hancur dan </font>
+
+964
+00:43:56,530 --> 00:43:58,030
+ file <font color="#E5E5E5">tidak akan ditampilkan </font><font color="#CCCCCC">apa pun </font>
+
+965
+00:43:58,030 --> 00:43:59,620
+ <font color="#CCCCCC">lebih karena Anda memiliki kesalahan dalam Anda </font>
+
+966
+00:43:59,620 --> 00:44:02,500
+ kode <font color="#CCCCCC">jadi apa yang saya sarankan adalah aku </font><font color="#E5E5E5">akan </font>
+
+967
+00:44:02,500 --> 00:44:04,360
+ <font color="#E5E5E5">tetap melewati karena itu karena </font>
+
+968
+00:44:04,360 --> 00:44:06,310
+ <font color="#E5E5E5">itu fungsi yang aman dan saya yakin itu </font>
+
+969
+00:44:06,310 --> 00:44:08,680
+ <font color="#E5E5E5">ini </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">dijalankan dengan benar </font><font color="#CCCCCC">saya hanya perlu </font>
+
+970
+00:44:08,680 --> 00:44:10,870
+ Saya lupa menaruh <font color="#E5E5E5">titik koma di sini, jadi saya </font>
+
+971
+00:44:10,870 --> 00:44:11,830
+ <font color="#E5E5E5">akan menempatkan itu di </font><font color="#CCCCCC">sana </font>
+
+972
+00:44:11,830 --> 00:44:13,840
+ <font color="#CCCCCC">jadi saya yakin </font><font color="#E5E5E5">kode ini akan berjalan </font>
+
+973
+00:44:13,840 --> 00:44:16,540
+ benar <font color="#CCCCCC">tetapi saya memiliki banyak minus </font>
+
+974
+00:44:16,540 --> 00:44:19,390
+ <font color="#E5E5E5">di sini saya punya banyak </font><font color="#CCCCCC">ruang dan saya punya </font>
+
+975
+00:44:19,390 --> 00:44:21,730
+ banyak <font color="#E5E5E5">garis miring ke depan yang </font><font color="#CCCCCC">selalu ada </font>
+
+976
+00:44:21,730 --> 00:44:24,040
+ <font color="#CCCCCC">masalah ketika Anda mencoba </font><font color="#E5E5E5">untuk melewatinya </font>
+
+977
+00:44:24,040 --> 00:44:26,980
+ di antara perintah berikutnya <font color="#E5E5E5">yang dapat Anda coba </font>
+
+978
+00:44:26,980 --> 00:44:29,500
+ lewati karakter-karakter ini <font color="#E5E5E5">tetapi apa yang saya </font>
+
+979
+00:44:29,500 --> 00:44:31,900
+ sarankan <font color="#CCCCCC">adalah Anda benar-benar </font><font color="#E5E5E5">mengenkripsi ini </font>
+
+980
+00:44:31,900 --> 00:44:35,110
+ menggunakan basis 64 dan kemudian mendekripsi di 
+
+981
+00:44:35,110 --> 00:44:37,450
+ <font color="#E5E5E5">ujung yang lain jadi saya akan menunjukkan </font><font color="#CCCCCC">cara melakukannya </font>
+
+982
+00:44:37,450 --> 00:44:38,980
+ yang pertama saya akan menyalin ini 
+
+983
+00:44:38,980 --> 00:44:42,370
+ perintah <font color="#E5E5E5">jadi ini adalah </font><font color="#CCCCCC">perintah Dashell </font>
+
+984
+00:44:42,370 --> 00:44:44,530
+ bahwa kita menginginkan fungsi melewati 
+
+985
+00:44:44,530 --> 00:44:47,530
+ untuk menjalankan <font color="#CCCCCC">saya menyalinnya saya akan pergi ke saya </font>
+
+986
+00:44:47,530 --> 00:44:50,130
+ <font color="#E5E5E5">bersendawa ooh </font>
+
+987
+00:44:50,850 --> 00:44:53,730
+ dan saya akan pergi ke <font color="#E5E5E5">decoder saya di sini </font>
+
+988
+00:44:53,730 --> 00:44:55,530
+ tidak pernah melihat decoder jadi ini 
+
+989
+00:44:55,530 --> 00:44:58,200
+ tab <font color="#E5E5E5">memungkinkan Anda untuk menyandikan dan men-decode teks </font>
+
+990
+00:44:58,200 --> 00:45:01,470
+ <font color="#E5E5E5">ke berbagai jenis pengkodean jadi saya </font>
+
+991
+00:45:01,470 --> 00:45:04,650
+ <font color="#CCCCCC">akan </font><font color="#E5E5E5">menempelkan apa yang saya salin dan saya akan </font>
+
+992
+00:45:04,650 --> 00:45:08,099
+ menyandikannya sebagai base64 
+
+993
+00:45:08,099 --> 00:45:12,269
+ jadi ini teks <font color="#E5E5E5">netcat yang telah </font><font color="#CCCCCC">saya IP </font>
+
+994
+00:45:12,269 --> 00:45:15,900
+ port dikonversi ke <font color="#E5E5E5">kode terenkripsi ini </font>
+
+995
+00:45:15,900 --> 00:45:19,099
+ <font color="#E5E5E5">Saya akan menyalin kode ini </font>
+
+996
+00:45:19,099 --> 00:45:22,130
+ dan Aku akan <font color="#CCCCCC">menggantikannya sini </font><font color="#E5E5E5">ke saya </font>
+
+997
+00:45:22,130 --> 00:45:24,619
+ perintah <font color="#CCCCCC">jadi alih </font><font color="#E5E5E5">- </font><font color="#CCCCCC">alih </font><font color="#E5E5E5">menjalankannya seperti </font>
+
+998
+00:45:24,619 --> 00:45:26,809
+ ini <font color="#E5E5E5">bukannya menempatkan teks </font><font color="#CCCCCC">saya </font>
+
+999
+00:45:26,809 --> 00:45:29,599
+ akan menempatkan kode base64 untuk <font color="#E5E5E5">memastikan </font>
+
+1000
+00:45:29,599 --> 00:45:31,880
+ <font color="#CCCCCC">bahwa tidak ada karakter khusus itu </font>
+
+1001
+00:45:31,880 --> 00:45:33,979
+ <font color="#E5E5E5">akan mengganggu perintah dengan </font>
+
+1002
+00:45:33,979 --> 00:45:36,309
+ <font color="#E5E5E5">pesta itu </font>
+
+1003
+00:45:36,310 --> 00:45:40,060
+ jadi saya sudah menyalinnya <font color="#CCCCCC">jika saya menjalankan ini </font>
+
+1004
+00:45:40,060 --> 00:45:42,430
+ cara ini jadi saya harus <font color="#CCCCCC">melewati saya yang </font>
+
+1005
+00:45:42,430 --> 00:45:44,770
+ adalah fungsi PHP <font color="#CCCCCC">dan saya menceritakannya </font>
+
+1006
+00:45:44,770 --> 00:45:47,170
+ <font color="#E5E5E5">jalankan perintah shell ini sekarang jika </font>
+
+1007
+00:45:47,170 --> 00:45:49,270
+ jelas <font color="#CCCCCC">jika Anda menyalin teks ini dan jalankan </font>
+
+1008
+00:45:49,270 --> 00:45:50,770
+ itu <font color="#E5E5E5">tidak akan </font><font color="#CCCCCC">menjalankan apa pun </font>
+
+1009
+00:45:50,770 --> 00:45:53,620
+ karena itu hanya omong kosong <font color="#CCCCCC">jadi saya perlu </font>
+
+1010
+00:45:53,620 --> 00:45:57,130
+ katakan <font color="#CCCCCC">bahwa </font><font color="#E5E5E5">ini adalah kode base64 dan saya </font>
+
+1011
+00:45:57,130 --> 00:46:00,280
+ <font color="#CCCCCC">akan </font><font color="#E5E5E5">melakukannya dengan menggunakan fungsi PHP </font>
+
+1012
+00:46:00,280 --> 00:46:02,980
+ disebut base64 decode jadi saya <font color="#E5E5E5">akan </font>
+
+1013
+00:46:02,980 --> 00:46:05,680
+ katakan <font color="#CCCCCC">itu untuk memecahkan kode dari </font><font color="#E5E5E5">saudari ini </font>
+
+1014
+00:46:05,680 --> 00:46:08,560
+ <font color="#E5E5E5">teks dan kemudian setelah Anda memecahkan kode itu dijalankan </font>
+
+1015
+00:46:08,560 --> 00:46:12,130
+ <font color="#E5E5E5">pass-through </font><font color="#CCCCCC">di atasnya jadi aku hanya pergi </font>
+
+1016
+00:46:12,130 --> 00:46:15,870
+ <font color="#E5E5E5">untuk mengetik di </font><font color="#CCCCCC">sini jadi itu akan menjadi </font>
+
+1017
+00:46:15,910 --> 00:46:19,049
+ sangat 64 
+
+1018
+00:46:19,920 --> 00:46:22,349
+ decode dan itu hanya fungsi lain 
+
+1019
+00:46:22,349 --> 00:46:26,609
+ <font color="#E5E5E5">fungsi PHP dan kemudian aku </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">menempatkan </font>
+
+1020
+00:46:26,609 --> 00:46:29,180
+ kurung 
+
+1021
+00:46:30,700 --> 00:46:32,830
+ jadi saya hanya akan membuat <font color="#E5E5E5">ini sedikit </font>
+
+1022
+00:46:32,830 --> 00:46:35,320
+ <font color="#E5E5E5">lebih besar sehingga kita bisa </font><font color="#CCCCCC">membicarakannya lebih banyak dan </font>
+
+1023
+00:46:35,320 --> 00:46:37,210
+ Aku <font color="#E5E5E5">sebenarnya akan </font><font color="#CCCCCC">menyalinnya dan berlari </font>
+
+1024
+00:46:37,210 --> 00:46:40,360
+ itu <font color="#E5E5E5">lagi supaya </font><font color="#CCCCCC">kita akan membicarakannya </font>
+
+1025
+00:46:40,360 --> 00:46:42,500
+ itu <font color="#E5E5E5">sedikit lebih </font>
+
+1026
+00:46:42,500 --> 00:46:46,130
+ <font color="#E5E5E5">oke jadi pertama kita benar-benar menggunakan </font>
+
+1027
+00:46:46,130 --> 00:46:49,400
+ <font color="#E5E5E5">nama pengguna sebagai kode kami sebagai kode </font>
+
+1028
+00:46:49,400 --> 00:46:52,070
+ <font color="#E5E5E5">bahwa kita ingin </font><font color="#CCCCCC">menyuntikkan cus karena seperti kita </font>
+
+1029
+00:46:52,070 --> 00:46:54,109
+ <font color="#CCCCCC">melihat nama pengguna sedang ditampilkan </font><font color="#E5E5E5">pada </font>
+
+1030
+00:46:54,109 --> 00:46:56,359
+ <font color="#CCCCCC">halaman kunci </font><font color="#E5E5E5">sehingga apa pun yang kita masukkan ke dalam </font>
+
+1031
+00:46:56,359 --> 00:46:59,960
+ <font color="#CCCCCC">username akan dieksekusi sebagai </font><font color="#E5E5E5">kode </font><font color="#CCCCCC">PHP </font><font color="#E5E5E5">jadi </font>
+
+1032
+00:46:59,960 --> 00:47:02,330
+ kami memiliki itu di <font color="#E5E5E5">antara dua kutipan di sini </font>
+
+1033
+00:47:02,330 --> 00:47:06,380
+ <font color="#CCCCCC">antara ini dan </font><font color="#E5E5E5">kutipan </font><font color="#CCCCCC">ini </font><font color="#E5E5E5">sekarang kita miliki </font>
+
+1034
+00:47:06,380 --> 00:47:08,540
+ <font color="#CCCCCC">kode </font><font color="#E5E5E5">PHP kami yang </font><font color="#CCCCCC">selalu </font><font color="#E5E5E5">kami </font><font color="#CCCCCC">gunakan dan kami </font>
+
+1035
+00:47:08,540 --> 00:47:10,640
+ juga selalu <font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">pass-through </font>
+
+1036
+00:47:10,640 --> 00:47:13,790
+ berfungsi untuk menjalankan <font color="#CCCCCC">perintah Unix pada </font>
+
+1037
+00:47:13,790 --> 00:47:16,130
+ target server jadi kami <font color="#CCCCCC">menjaga itu </font>
+
+1038
+00:47:16,130 --> 00:47:19,490
+ sama persis dan kami <font color="#E5E5E5">mengatakan itu </font><font color="#CCCCCC">untuk dijalankan </font>
+
+1039
+00:47:19,490 --> 00:47:22,550
+ teks ini <font color="#E5E5E5">tetapi sebelum Anda menjalankan teks ini saya </font>
+
+1040
+00:47:22,550 --> 00:47:26,960
+ ingin Anda untuk memecahkan kode <font color="#CCCCCC">berdasarkan base64 jadi </font>
+
+1041
+00:47:26,960 --> 00:47:29,030
+ kami telah <font color="#CCCCCC">melewati decode </font>
+
+1042
+00:47:29,030 --> 00:47:31,849
+ kode berikut dan ini <font color="#E5E5E5">adalah kode jadi </font>
+
+1043
+00:47:31,849 --> 00:47:34,520
+ ini adalah perintah perintah <font color="#CCCCCC">netcat </font>
+
+1044
+00:47:34,520 --> 00:47:36,470
+ bahwa kami selalu <font color="#E5E5E5">menggunakan kami decoding </font><font color="#CCCCCC">itu </font>
+
+1045
+00:47:36,470 --> 00:47:39,349
+ berdasarkan base64 dan kemudian kami memberi tahu 
+
+1046
+00:47:39,349 --> 00:47:40,670
+ <font color="#CCCCCC">untuk menjalankannya </font><font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">pass-through </font>
+
+1047
+00:47:40,670 --> 00:47:44,290
+ <font color="#E5E5E5">berfungsi untuk menjalankannya sebagai perintah bash </font>
+
+1048
+00:47:44,290 --> 00:47:48,109
+ jadi aku <font color="#E5E5E5">akan menekan </font><font color="#CCCCCC">enter sekarang dan itu akan </font>
+
+1049
+00:47:48,109 --> 00:47:49,820
+ tanya saya <font color="#E5E5E5">kata sandi karena dia berpikir </font>
+
+1050
+00:47:49,820 --> 00:47:51,500
+ bahwa <font color="#CCCCCC">ini sebenarnya adalah sebuah nama pengguna </font><font color="#E5E5E5">sehingga </font>
+
+1051
+00:47:51,500 --> 00:47:53,119
+ kami menyuntikkan <font color="#E5E5E5">semuanya sebagai </font>
+
+1052
+00:47:53,119 --> 00:47:55,040
+ nama pengguna jadi saya <font color="#E5E5E5">hanya akan meletakkannya </font>
+
+1053
+00:47:55,040 --> 00:47:57,770
+ kata sandi apa pun <font color="#CCCCCC">hit acak </font><font color="#E5E5E5">masukkan sekarang </font>
+
+1054
+00:47:57,770 --> 00:48:01,490
+ ini harus <font color="#E5E5E5">disimpan sekarang </font><font color="#CCCCCC">di log </font><font color="#E5E5E5">jadi </font>
+
+1055
+00:48:01,490 --> 00:48:03,520
+ Kode ini <font color="#CCCCCC">harus telah disuntikkan </font><font color="#E5E5E5">ke </font>
+
+1056
+00:48:03,520 --> 00:48:07,430
+ <font color="#E5E5E5">log auth dot jadi kita akan pergi </font>
+
+1057
+00:48:07,430 --> 00:48:11,510
+ kembali <font color="#CCCCCC">sekarang ke browser kami dan Anda dapat </font><font color="#E5E5E5">melihat </font>
+
+1058
+00:48:11,510 --> 00:48:13,790
+ bahwa saya <font color="#CCCCCC">sudah mendengarkan di </font><font color="#E5E5E5">sini jadi saya </font>
+
+1059
+00:48:13,790 --> 00:48:15,170
+ hanya <font color="#CCCCCC">akan tekan enter di sini di browser </font>
+
+1060
+00:48:15,170 --> 00:48:18,800
+ dan seperti yang Anda <font color="#CCCCCC">lihat kami mendapat koneksi </font>
+
+1061
+00:48:18,800 --> 00:48:22,099
+ <font color="#E5E5E5">kembali dari </font><font color="#CCCCCC">situs web </font><font color="#E5E5E5">target kami </font><font color="#CCCCCC">dan jika kami </font>
+
+1062
+00:48:22,099 --> 00:48:25,130
+ lakukan ID <font color="#E5E5E5">Anda akan melihat lengan itu ke </font><font color="#CCCCCC">dalam </font>
+
+1063
+00:48:25,130 --> 00:48:28,070
+ <font color="#CCCCCC">situs web target </font><font color="#E5E5E5">dengan nama pengguna data www </font>
+
+1064
+00:48:28,070 --> 00:48:32,030
+ <font color="#CCCCCC">atau grup pengguna </font><font color="#E5E5E5">dan saya dapat menjalankan perintah atau </font>
+
+1065
+00:48:32,030 --> 00:48:36,880
+ lakukan apapun yang saya inginkan <font color="#CCCCCC">pada server target </font>
+
+1066
+00:48:37,760 --> 00:48:40,450
+ ini hanya beberapa metode <font color="#E5E5E5">lain </font>
+
+1067
+00:48:40,450 --> 00:48:42,590
+ mengeksploitasi inklusi file lokal 
+
+1068
+00:48:42,590 --> 00:48:45,380
+ kerentanan <font color="#CCCCCC">untuk mendapatkan shell </font><font color="#E5E5E5">pada file </font>
+
+1069
+00:48:45,380 --> 00:48:47,960
+ <font color="#E5E5E5">komputer target sekarang lagi ini </font><font color="#CCCCCC">hanya </font>
+
+1070
+00:48:47,960 --> 00:48:50,780
+ sebuah ide <font color="#CCCCCC">dan Anda dapat mencoba </font><font color="#E5E5E5">ide </font><font color="#CCCCCC">- </font><font color="#E5E5E5">ide </font><font color="#CCCCCC">ini </font>
+
+1071
+00:48:50,780 --> 00:48:53,660
+ berbagai <font color="#CCCCCC">jenis file log sehingga </font><font color="#E5E5E5">Anda bisa </font>
+
+1072
+00:48:53,660 --> 00:48:55,790
+ coba <font color="#E5E5E5">dengan auth dot log yang bisa Anda coba </font>
+
+1073
+00:48:55,790 --> 00:48:57,920
+ <font color="#E5E5E5">dengan </font><font color="#CCCCCC">jenis file log lainnya tetapi </font>
+
+1074
+00:48:57,920 --> 00:48:59,420
+ <font color="#CCCCCC">Anda harus </font><font color="#E5E5E5">berpikir </font><font color="#CCCCCC">tentang hal itu </font><font color="#E5E5E5">Anda perlu </font>
+
+1075
+00:48:59,420 --> 00:49:01,820
+ <font color="#E5E5E5">pikirkan bagaimana Anda bisa memasukkan kode ke dalamnya </font>
+
+1076
+00:49:01,820 --> 00:49:03,620
+ file log itu jadi misalnya seperti yang saya katakan 
+
+1077
+00:49:03,620 --> 00:49:05,960
+ <font color="#CCCCCC">jika itu adalah mail server dan kemudian mencoba </font><font color="#E5E5E5">untuk </font>
+
+1078
+00:49:05,960 --> 00:49:08,240
+ kirimkan <font color="#E5E5E5">email jika itu adalah titik autentikasi </font>
+
+1079
+00:49:08,240 --> 00:49:10,100
+ log seperti yang kita miliki dalam <font color="#E5E5E5">contoh saat ini </font>
+
+1080
+00:49:10,100 --> 00:49:13,250
+ lalu coba <font color="#E5E5E5">masuk menggunakan SSH dan lihat apakah </font>
+
+1081
+00:49:13,250 --> 00:49:15,050
+ Anda dapat menyuntikkan kode dan jika <font color="#E5E5E5">kode itu </font>
+
+1082
+00:49:15,050 --> 00:49:19,510
+ akan <font color="#CCCCCC">dieksekusi </font><font color="#E5E5E5">pada komputer </font><font color="#CCCCCC">target </font>
+
+1083
+00:49:20,960 --> 00:49:24,600
+ inklusi file jarak jauh adalah kasus khusus 
+
+1084
+00:49:24,600 --> 00:49:28,710
+ kerentanan file inklusi kami 
+
+1085
+00:49:28,710 --> 00:49:30,630
+ terlihat di <font color="#E5E5E5">video sebelumnya </font><font color="#CCCCCC">bagaimana kami </font>
+
+1086
+00:49:30,630 --> 00:49:33,510
+ <font color="#E5E5E5">dapat menyertakan file apa pun di server </font>
+
+1087
+00:49:33,510 --> 00:49:36,510
+ <font color="#E5E5E5">dan memiliki akses ke sana </font><font color="#CCCCCC">melalui </font><font color="#E5E5E5">file lokal </font>
+
+1088
+00:49:36,510 --> 00:49:39,150
+ kerentanan inklusi di hari ini 
+
+1089
+00:49:39,150 --> 00:49:42,000
+ <font color="#E5E5E5">video jika server dikonfigurasi untuk </font>
+
+1090
+00:49:42,000 --> 00:49:45,210
+ memungkinkan <font color="#E5E5E5">fungsi</font><font color="#CCCCCC"> tertentu </font><font color="#E5E5E5">yang disebut memungkinkan </font>
+
+1091
+00:49:45,210 --> 00:49:49,080
+ URL dan izinkan URL F <font color="#E5E5E5">terbuka maka kita akan </font>
+
+1092
+00:49:49,080 --> 00:49:51,990
+ <font color="#E5E5E5">dapat menyertakan file apa pun dari mana saja </font>
+
+1093
+00:49:51,990 --> 00:49:55,050
+ komputer ke <font color="#CCCCCC">situs web </font><font color="#E5E5E5">target jadi </font>
+
+1094
+00:49:55,050 --> 00:49:58,260
+ harfiah akan <font color="#E5E5E5">dapat menyuntikkan PHP </font><font color="#CCCCCC">setiap </font>
+
+1095
+00:49:58,260 --> 00:50:01,170
+ file ke komputer target <font color="#E5E5E5">apa ini </font>
+
+1096
+00:50:01,170 --> 00:50:03,870
+ akan mengarah pada <font color="#E5E5E5">dasarnya itu akan kita </font>
+
+1097
+00:50:03,870 --> 00:50:05,610
+ <font color="#E5E5E5">dapat menjalankan muatan yang dapat kita jalankan secara terbalik </font>
+
+1098
+00:50:05,610 --> 00:50:07,920
+ kerang <font color="#E5E5E5">dan kita bisa menjalankan </font><font color="#CCCCCC">sistem bahkan </font>
+
+1099
+00:50:07,920 --> 00:50:11,490
+ perintah dan mendapatkan akses <font color="#E5E5E5">ke </font><font color="#CCCCCC">target </font>
+
+1100
+00:50:11,490 --> 00:50:14,670
+ <font color="#E5E5E5">atau kontrol penuh ke </font><font color="#CCCCCC">server target </font>
+
+1101
+00:50:14,670 --> 00:50:16,620
+ pertama mari kita <font color="#CCCCCC">pergi ke sini dan </font>
+
+1102
+00:50:16,620 --> 00:50:20,210
+ kami akan <font color="#E5E5E5">menggunakan penyertaan file yang sama </font>
+
+1103
+00:50:20,210 --> 00:50:22,200
+ kerentanan yang kami gunakan <font color="#E5E5E5">di </font>
+
+1104
+00:50:22,200 --> 00:50:23,790
+ <font color="#E5E5E5">video sebelumnya jadi ada di halaman </font>
+
+1105
+00:50:23,790 --> 00:50:27,030
+ parameter di <font color="#E5E5E5">sini satu-satunya perbedaan </font>
+
+1106
+00:50:27,030 --> 00:50:29,700
+ apakah Anda perlu <font color="#E5E5E5">mengaktifkan fungsi </font><font color="#CCCCCC">itu </font>
+
+1107
+00:50:29,700 --> 00:50:32,940
+ membuat ini yang mengubah file lokal 
+
+1108
+00:50:32,940 --> 00:50:36,180
+ inklusi ke inklusi file jauh <font color="#CCCCCC">jadi </font>
+
+1109
+00:50:36,180 --> 00:50:38,370
+ maka <font color="#CCCCCC">nama </font><font color="#E5E5E5">lokal memungkinkan Anda untuk </font>
+
+1110
+00:50:38,370 --> 00:50:40,770
+ <font color="#CCCCCC">mengakses </font><font color="#E5E5E5">file </font><font color="#CCCCCC">lokal </font><font color="#E5E5E5">jarak jauh </font><font color="#CCCCCC">akan memungkinkan </font>
+
+1111
+00:50:40,770 --> 00:50:44,450
+ Anda <font color="#E5E5E5">untuk </font><font color="#CCCCCC">mengakses dan menyuntikkan file jauh </font><font color="#E5E5E5">jadi </font>
+
+1112
+00:50:44,450 --> 00:50:46,800
+ untuk memungkinkan <font color="#CCCCCC">saya akan pergi </font><font color="#E5E5E5">ke saya </font>
+
+1113
+00:50:46,800 --> 00:50:48,330
+ <font color="#CCCCCC">Metasploit dapat mesin saya hanya akan pergi </font>
+
+1114
+00:50:48,330 --> 00:50:49,800
+ <font color="#E5E5E5">untuk menunjukkan kepada Anda cara mengaktifkannya </font><font color="#CCCCCC">sehingga Anda bisa </font>
+
+1115
+00:50:49,800 --> 00:50:52,790
+ uji <font color="#E5E5E5">kerentanan ini sendiri </font>
+
+1116
+00:50:52,790 --> 00:50:55,440
+ kami datang <font color="#E5E5E5">ke sini untuk </font><font color="#CCCCCC">Metasploit </font><font color="#E5E5E5">kami </font>
+
+1117
+00:50:55,440 --> 00:50:58,110
+ <font color="#CCCCCC">meja </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">aku </font><font color="#E5E5E5">akan masuk ke PHP </font>
+
+1118
+00:50:58,110 --> 00:51:00,270
+ pengaturan sehingga pengaturan PHP <font color="#E5E5E5">disimpan </font>
+
+1119
+00:51:00,270 --> 00:51:02,910
+ dalam file <font color="#E5E5E5">dan untuk </font><font color="#CCCCCC">mengakses </font><font color="#E5E5E5">yang kita </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">lakukan </font>
+
+1120
+00:51:02,910 --> 00:51:05,640
+ <font color="#CCCCCC">gunakan nano </font><font color="#E5E5E5">yang merupakan </font><font color="#CCCCCC">editor </font><font color="#E5E5E5">teks </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">kemudian </font>
+
+1121
+00:51:05,640 --> 00:51:08,040
+ Aku <font color="#CCCCCC">akan </font><font color="#E5E5E5">meletakkan </font><font color="#CCCCCC">lokasi file </font><font color="#E5E5E5">yang mana </font>
+
+1122
+00:51:08,040 --> 00:51:16,680
+ <font color="#CCCCCC">sebuah et Cie PHP 5tg I dan PHP dot ini ' </font><font color="#E5E5E5">jadi </font>
+
+1123
+00:51:16,680 --> 00:51:18,960
+ itulah <font color="#E5E5E5">lokasi tempat PHP </font>
+
+1124
+00:51:18,960 --> 00:51:21,540
+ konfigurasi disimpan, <font color="#E5E5E5">saya akan pergi </font>
+
+1125
+00:51:21,540 --> 00:51:24,620
+ <font color="#E5E5E5">membukanya </font><font color="#CCCCCC">menggunakan editor file bernama nano </font>
+
+1126
+00:51:24,620 --> 00:51:27,080
+ dan aku <font color="#E5E5E5">akan keluar dari sini </font>
+
+1127
+00:51:27,080 --> 00:51:31,060
+ <font color="#E5E5E5">akan </font><font color="#CCCCCC">membukanya</font><font color="#E5E5E5"> sebagai pseudo sebagai rute </font>
+
+1128
+00:51:31,060 --> 00:51:33,340
+ sebenarnya di <font color="#CCCCCC">Cali kita tidak pernah </font><font color="#E5E5E5">perlu digunakan </font>
+
+1129
+00:51:33,340 --> 00:51:36,940
+ <font color="#E5E5E5">sudo karena kita masuk sebagai root tetapi dengan </font>
+
+1130
+00:51:36,940 --> 00:51:39,370
+ <font color="#E5E5E5">MIT dieksploitasi Anda perlu menggunakan sudo </font>
+
+1131
+00:51:39,370 --> 00:51:41,800
+ ketika Anda ingin <font color="#E5E5E5">melakukan tindakan root sehingga Anda </font>
+
+1132
+00:51:41,800 --> 00:51:43,870
+ katakanlah sudo dan kemudian Anda meletakkan perintah 
+
+1133
+00:51:43,870 --> 00:51:48,750
+ <font color="#CCCCCC">bahwa </font><font color="#E5E5E5">Anda ingin menjalankan oke </font><font color="#CCCCCC">jadi </font><font color="#E5E5E5">ini </font>
+
+1134
+00:51:48,750 --> 00:51:53,950
+ <font color="#E5E5E5">konfigurasi </font><font color="#CCCCCC">untuk PHP itu </font>
+
+1135
+00:51:53,950 --> 00:51:55,630
+ <font color="#E5E5E5">diinstal di server web pada </font>
+
+1136
+00:51:55,630 --> 00:51:57,670
+ target <font color="#E5E5E5">dan kami sedang mencari fungsi </font>
+
+1137
+00:51:57,670 --> 00:52:02,170
+ disebut memungkinkan LF Anda terbuka jadi saya <font color="#E5E5E5">akan </font>
+
+1138
+00:52:02,170 --> 00:52:05,410
+ ketik <font color="#CCCCCC">ctrl + </font><font color="#E5E5E5">W pada saat yang sama dan </font>
+
+1139
+00:52:05,410 --> 00:52:07,210
+ <font color="#E5E5E5">yang </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">memungkinkan saya untuk mencari dan saya </font>
+
+1140
+00:52:07,210 --> 00:52:09,720
+ akan mencari 
+
+1141
+00:52:10,280 --> 00:52:14,700
+ halo <font color="#E5E5E5">URL </font>
+
+1142
+00:52:14,700 --> 00:52:17,100
+ dan kita bisa lihat di <font color="#E5E5E5">sini yang </font><font color="#CCCCCC">saya </font><font color="#E5E5E5">izinkan </font>
+
+1143
+00:52:17,100 --> 00:52:20,910
+ <font color="#E5E5E5">Anda </font><font color="#CCCCCC">mencetak LFO kami </font><font color="#E5E5E5">dan memungkinkan URL </font>
+
+1144
+00:52:20,910 --> 00:52:23,760
+ termasuk aktif juga <font color="#E5E5E5">jadi dua ini </font>
+
+1145
+00:52:23,760 --> 00:52:26,340
+ <font color="#E5E5E5">berfungsi jika diaktifkan maka </font>
+
+1146
+00:52:26,340 --> 00:52:28,440
+ kerentanan inklusi file lokal <font color="#E5E5E5">itu </font>
+
+1147
+00:52:28,440 --> 00:52:30,900
+ kami telah dapat <font color="#E5E5E5">digunakan sebagai file jarak jauh </font>
+
+1148
+00:52:30,900 --> 00:52:32,760
+ penyertaan 
+
+1149
+00:52:32,760 --> 00:52:35,460
+ jadi untuk keluar dari kontrol ini <font color="#CCCCCC">telur </font><font color="#E5E5E5">dan </font>
+
+1150
+00:52:35,460 --> 00:52:36,720
+ itu akan <font color="#E5E5E5">menanyakan Anda apakah Anda ingin menyimpan </font>
+
+1151
+00:52:36,720 --> 00:52:40,140
+ <font color="#E5E5E5">ketik saja Y dan masukkan untuk saya, saya tidak </font>
+
+1152
+00:52:40,140 --> 00:52:41,490
+ mengubah <font color="#E5E5E5">apa pun jadi saya tidak perlu melakukannya </font>
+
+1153
+00:52:41,490 --> 00:52:43,260
+ bahwa <font color="#E5E5E5">begitu Anda </font><font color="#CCCCCC">melakukan itu, Anda perlu </font>
+
+1154
+00:52:43,260 --> 00:52:45,420
+ <font color="#E5E5E5">restart </font><font color="#CCCCCC">server web </font><font color="#E5E5E5">Anda sehingga Anda akan melakukannya </font>
+
+1155
+00:52:45,420 --> 00:52:50,720
+ lakukan <font color="#CCCCCC">TC </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">tambahkan titik d </font>
+
+1156
+00:52:50,720 --> 00:52:57,180
+ <font color="#CCCCCC">Apache untuk memulai ulang </font><font color="#E5E5E5">dan Anda harus </font><font color="#CCCCCC">melakukannya </font>
+
+1157
+00:52:57,180 --> 00:53:01,470
+ ini sebagai <font color="#CCCCCC">sudo sebenarnya dan ini dilakukan </font>
+
+1158
+00:53:01,470 --> 00:53:03,810
+ sekarang <font color="#CCCCCC">jadi semuanya harus </font><font color="#E5E5E5">siap </font>
+
+1159
+00:53:03,810 --> 00:53:05,619
+ kamu 
+
+1160
+00:53:05,619 --> 00:53:07,539
+ sama seperti yang kami lakukan sebelumnya <font color="#E5E5E5">pada akhirnya </font>
+
+1161
+00:53:07,539 --> 00:53:10,839
+ video yang kita pasang <font color="#CCCCCC">lima kali ke belakang lalu kita </font>
+
+1162
+00:53:10,839 --> 00:53:13,599
+ masukkan <font color="#CCCCCC">kata sandi TC untuk mengakses </font><font color="#E5E5E5">kata sandi </font>
+
+1163
+00:53:13,599 --> 00:53:16,119
+ file <font color="#E5E5E5">apa yang akan kita </font><font color="#CCCCCC">lakukan hari ini </font>
+
+1164
+00:53:16,119 --> 00:53:17,890
+ kita <font color="#CCCCCC">akan </font><font color="#E5E5E5">mencoba mengakses file </font>
+
+1165
+00:53:17,890 --> 00:53:20,619
+ <font color="#E5E5E5">terletak </font><font color="#CCCCCC">di server yang berbeda </font><font color="#E5E5E5">jadi jika </font>
+
+1166
+00:53:20,619 --> 00:53:23,019
+ Anda <font color="#CCCCCC">melakukan tes pena ini </font><font color="#E5E5E5">pada yang </font><font color="#CCCCCC">sebenarnya </font>
+
+1167
+00:53:23,019 --> 00:53:25,839
+ server web <font color="#CCCCCC">maka Anda perlu menyimpan </font>
+
+1168
+00:53:25,839 --> 00:53:28,210
+ file yang <font color="#CCCCCC">ingin Anda </font><font color="#E5E5E5">akses perlu </font>
+
+1169
+00:53:28,210 --> 00:53:30,819
+ disimpan <font color="#E5E5E5">di suatu tempat dengan alamat IP yang sebenarnya </font>
+
+1170
+00:53:30,819 --> 00:53:33,490
+ atau dengan nama domain <font color="#CCCCCC">saya melakukan ini </font>
+
+1171
+00:53:33,490 --> 00:53:35,680
+ <font color="#E5E5E5">server lokal saya </font><font color="#CCCCCC">jadi saya akan menyimpan ini </font>
+
+1172
+00:53:35,680 --> 00:53:37,869
+ di server web <font color="#E5E5E5">pada </font><font color="#CCCCCC">callee </font>
+
+1173
+00:53:37,869 --> 00:53:41,099
+ mesin pada 10 2014 203 <font color="#E5E5E5">ini adalah 10 </font>
+
+1174
+00:53:41,099 --> 00:53:44,170
+ 2014 2 <font color="#CCCCCC">O 4 </font><font color="#E5E5E5">dan saya akan menyimpan file saya </font>
+
+1175
+00:53:44,170 --> 00:53:48,910
+ <font color="#E5E5E5">pada 10 2014 2 atau 3 sehingga file itu seperti yang saya katakan </font>
+
+1176
+00:53:48,910 --> 00:53:50,589
+ bisa <font color="#E5E5E5">apa saja itu bisa </font><font color="#CCCCCC">menjadi web shell </font>
+
+1177
+00:53:50,589 --> 00:53:53,499
+ <font color="#E5E5E5">itu bisa menjadi muatan yang baik apa yang saya </font>
+
+1178
+00:53:53,499 --> 00:53:54,970
+ akan <font color="#E5E5E5">lakukan adalah saya akan membuat </font>
+
+1179
+00:53:54,970 --> 00:53:58,900
+ <font color="#E5E5E5">file PHP sangat sederhana jadi ini hanyalah </font>
+
+1180
+00:53:58,900 --> 00:54:01,960
+ PHP <font color="#E5E5E5">awal dan akhir file </font><font color="#CCCCCC">dan apa </font>
+
+1181
+00:54:01,960 --> 00:54:03,400
+ Aku akan <font color="#E5E5E5">dimasukkan ke </font><font color="#CCCCCC">dalam </font><font color="#E5E5E5">file Aku akan digunakan </font>
+
+1182
+00:54:03,400 --> 00:54:06,970
+ sebuah <font color="#CCCCCC">fungsi yang disebut </font><font color="#E5E5E5">pass-through dan di </font>
+
+1183
+00:54:06,970 --> 00:54:08,319
+ <font color="#CCCCCC">fungsi itu pada dasarnya </font><font color="#E5E5E5">apa ini </font>
+
+1184
+00:54:08,319 --> 00:54:11,200
+ fungsi <font color="#CCCCCC">apakah itu menjalankan operasi </font>
+
+1185
+00:54:11,200 --> 00:54:14,259
+ perintah sistem sehingga mengeksekusi Windows 
+
+1186
+00:54:14,259 --> 00:54:16,660
+ Linux atau tergantung <font color="#E5E5E5">pada server web </font>
+
+1187
+00:54:16,660 --> 00:54:19,029
+ itu akan <font color="#CCCCCC">menjalankan </font><font color="#E5E5E5">perintah </font><font color="#CCCCCC">terkait </font>
+
+1188
+00:54:19,029 --> 00:54:21,999
+ untuk itu <font color="#E5E5E5">Anda menaruh perintah di sini </font>
+
+1189
+00:54:21,999 --> 00:54:25,180
+ antara <font color="#E5E5E5">dua tanda kutip dan aku </font>
+
+1190
+00:54:25,180 --> 00:54:26,710
+ <font color="#CCCCCC">akan menggunakan </font><font color="#E5E5E5">perintah yang sama yang kami gunakan </font>
+
+1191
+00:54:26,710 --> 00:54:29,170
+ dengan kerentanan eksekusi kode 
+
+1192
+00:54:29,170 --> 00:54:31,989
+ yang merupakan <font color="#E5E5E5">perintah netcat yang </font>
+
+1193
+00:54:31,989 --> 00:54:34,390
+ memungkinkan kami <font color="#CCCCCC">untuk mendapatkan koneksi terbalik </font>
+
+1194
+00:54:34,390 --> 00:54:38,349
+ koneksi dari <font color="#E5E5E5">target kami jadi saya akan </font>
+
+1195
+00:54:38,349 --> 00:54:40,329
+ sisipkan <font color="#E5E5E5">bahwa </font><font color="#CCCCCC">di sini jadi mari kita </font><font color="#E5E5E5">pertama harus </font>
+
+1196
+00:54:40,329 --> 00:54:42,940
+ <font color="#CCCCCC">lihat </font><font color="#E5E5E5">ini jadi PHP dan akhirnya ini </font>
+
+1197
+00:54:42,940 --> 00:54:45,339
+ <font color="#CCCCCC">hanyalah awal dan akhir dari </font>
+
+1198
+00:54:45,339 --> 00:54:49,150
+ file dari file PHP <font color="#E5E5E5">pass-through adalah </font><font color="#CCCCCC">a </font>
+
+1199
+00:54:49,150 --> 00:54:50,559
+ fungsi <font color="#CCCCCC">yang akan saya </font><font color="#E5E5E5">gunakan yang </font>
+
+1200
+00:54:50,559 --> 00:54:53,289
+ menjalankan <font color="#E5E5E5">perintah apa pun yang dimasukkan </font>
+
+1201
+00:54:53,289 --> 00:54:55,660
+ di antara <font color="#E5E5E5">kutipan dan saya menggunakan </font>
+
+1202
+00:54:55,660 --> 00:54:57,849
+ <font color="#E5E5E5">perintah yang sama yang kami gunakan dalam perintah </font>
+
+1203
+00:54:57,849 --> 00:55:00,099
+ kerentanan eksekusi <font color="#E5E5E5">yang hanya akan </font>
+
+1204
+00:55:00,099 --> 00:55:03,480
+ lakukan koneksi terbalik ke komputer saya 
+
+1205
+00:55:03,480 --> 00:55:06,190
+ <font color="#E5E5E5">jadi ini semua baik sekarang langkah selanjutnya adalah </font>
+
+1206
+00:55:06,190 --> 00:55:09,099
+ langkah <font color="#E5E5E5">paling penting dan itu menyimpan </font>
+
+1207
+00:55:09,099 --> 00:55:11,910
+ file ini jadi seperti yang saya katakan jika target Anda 
+
+1208
+00:55:11,910 --> 00:55:15,609
+ <font color="#E5E5E5">adalah server web jauh maka Anda harus </font>
+
+1209
+00:55:15,609 --> 00:55:17,859
+ menyimpan file ini di tempat dengan 
+
+1210
+00:55:17,859 --> 00:55:19,180
+ IP asli di <font color="#E5E5E5">mana Anda </font>
+
+1211
+00:55:19,180 --> 00:55:21,550
+ dapat mengaksesnya dari server web jarak jauh 
+
+1212
+00:55:21,550 --> 00:55:24,010
+ <font color="#CCCCCC">sekarang saya akan menjadi kapak yang mencoba mengakses </font>
+
+1213
+00:55:24,010 --> 00:55:26,079
+ <font color="#E5E5E5">ini dari mesin </font><font color="#CCCCCC">Metasploit </font><font color="#E5E5E5">saya </font>
+
+1214
+00:55:26,079 --> 00:55:28,690
+ yang dapat <font color="#E5E5E5">mengakses file yang tersimpan </font>
+
+1215
+00:55:28,690 --> 00:55:30,400
+ <font color="#CCCCCC">mesin county karena mereka berdua </font>
+
+1216
+00:55:30,400 --> 00:55:32,619
+ <font color="#E5E5E5">pada </font><font color="#CCCCCC">jaringan</font><font color="#E5E5E5"> yang sama </font><font color="#CCCCCC">dan Aku akan menjadi </font>
+
+1217
+00:55:32,619 --> 00:55:34,180
+ menyebut <font color="#E5E5E5">ini saya akan memulai </font><font color="#CCCCCC">itu </font>
+
+1218
+00:55:34,180 --> 00:55:37,869
+ <font color="#CCCCCC">dalam HTML VAR saya www jadi itu </font><font color="#E5E5E5">dimulai </font>
+
+1219
+00:55:37,869 --> 00:55:39,790
+ yang disimpan pada <font color="#CCCCCC">callee </font><font color="#E5E5E5">tidak pada </font>
+
+1220
+00:55:39,790 --> 00:55:43,109
+ Metasploit <font color="#CCCCCC">bisa </font><font color="#E5E5E5">dan aku akan menyebutnya </font>
+
+1221
+00:55:43,109 --> 00:55:46,540
+ sebaliknya <font color="#E5E5E5">dan saya akan menyimpannya sebagai txt tidak </font>
+
+1222
+00:55:46,540 --> 00:55:50,680
+ PHP dan saya melakukan <font color="#E5E5E5">ini jika saya mulai sebagai </font>
+
+1223
+00:55:50,680 --> 00:55:54,339
+ PHP <font color="#E5E5E5">itu akan dieksekusi </font><font color="#CCCCCC">pada </font>
+
+1224
+00:55:54,339 --> 00:55:56,619
+ <font color="#CCCCCC">Mesin callee sehingga itu akan </font><font color="#E5E5E5">membuat </font>
+
+1225
+00:55:56,619 --> 00:55:58,270
+ koneksi terbalik dari <font color="#CCCCCC">callee </font>
+
+1226
+00:55:58,270 --> 00:55:59,890
+ <font color="#E5E5E5">mesin dan saya </font><font color="#CCCCCC">tidak ingin itu </font><font color="#E5E5E5">saya tidak </font>
+
+1227
+00:55:59,890 --> 00:56:01,359
+ <font color="#E5E5E5">ingin punya </font><font color="#CCCCCC">mesin Cali saya sebenarnya </font>
+
+1228
+00:56:01,359 --> 00:56:03,490
+ sudah <font color="#E5E5E5">memiliki akses ke mesin Cali </font>
+
+1229
+00:56:03,490 --> 00:56:05,680
+ salah satu yang saya ingin hack <font color="#E5E5E5">adalah </font>
+
+1230
+00:56:05,680 --> 00:56:08,170
+ Metasploit mampu mesin <font color="#E5E5E5">dan yang satu ini </font>
+
+1231
+00:56:08,170 --> 00:56:12,309
+ disimpan dari jarak jauh <font color="#E5E5E5">sehingga agar </font><font color="#CCCCCC">bisa </font>
+
+1232
+00:56:12,309 --> 00:56:15,339
+ <font color="#CCCCCC">untuk memasukkan </font><font color="#E5E5E5">kode </font><font color="#CCCCCC">PHP </font><font color="#E5E5E5">dan menjalankannya </font>
+
+1233
+00:56:15,339 --> 00:56:17,710
+ <font color="#E5E5E5">pada </font><font color="#CCCCCC">mesin remote kita akan </font><font color="#E5E5E5">menggunakannya </font>
+
+1234
+00:56:17,710 --> 00:56:20,410
+ <font color="#E5E5E5">sebagai txt dan mendapatkannya dijalankan </font><font color="#CCCCCC">pada </font>
+
+1235
+00:56:20,410 --> 00:56:22,240
+ Metasploit <font color="#CCCCCC">mampu mesin, bukan </font>
+
+1236
+00:56:22,240 --> 00:56:24,400
+ dieksekusi di <font color="#CCCCCC">Cali saya </font>
+
+1237
+00:56:24,400 --> 00:56:27,339
+ jadi saya <font color="#CCCCCC">mengulur - ulurnya sebagai txt </font><font color="#E5E5E5">dan saya </font>
+
+1238
+00:56:27,339 --> 00:56:30,790
+ akan mengatakan <font color="#CCCCCC">menyimpannya dan sekarang mari kita </font><font color="#E5E5E5">lihat </font><font color="#CCCCCC">saja </font>
+
+1239
+00:56:30,790 --> 00:56:34,900
+ di sini jadi jika <font color="#E5E5E5">saya pergi ke host lokal saya dan jika </font>
+
+1240
+00:56:34,900 --> 00:56:40,960
+ Saya katakan membalikkan txt <font color="#E5E5E5">kita akan melihat file kita </font>
+
+1241
+00:56:40,960 --> 00:56:44,170
+ di sini <font color="#CCCCCC">jadi </font><font color="#E5E5E5">lagi ini di lokal saya </font>
+
+1242
+00:56:44,170 --> 00:56:46,960
+ tuan rumah <font color="#E5E5E5">yang bukan MIT dieksploitasi </font>
+
+1243
+00:56:46,960 --> 00:56:51,400
+ mesin itu 10 2014 2 O 3 dan 
+
+1244
+00:56:51,400 --> 00:56:54,510
+ <font color="#CCCCCC">Iblis </font><font color="#E5E5E5">siasat Missis </font><font color="#CCCCCC">ada di </font><font color="#E5E5E5">204 </font>
+
+1245
+00:56:54,510 --> 00:56:57,270
+ jadi bagaimana <font color="#CCCCCC">kita </font><font color="#E5E5E5">akan menjalankan let pertama ini </font>
+
+1246
+00:56:57,270 --> 00:56:59,700
+ saya <font color="#CCCCCC">hanya mendengarkan koneksi seperti kita </font>
+
+1247
+00:56:59,700 --> 00:57:02,150
+ lakukan sebelumnya <font color="#CCCCCC">jadi itu hanya </font><font color="#E5E5E5">akan terjadi </font>
+
+1248
+00:57:02,150 --> 00:57:11,940
+ <font color="#E5E5E5">netcat the </font><font color="#CCCCCC">v LP </font><font color="#E5E5E5">8080 </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">kemudian di </font><font color="#CCCCCC">sini </font>
+
+1249
+00:57:11,940 --> 00:57:14,280
+ dan <font color="#CCCCCC">setup termasuk file yang sama </font>
+
+1250
+00:57:14,280 --> 00:57:16,140
+ server <font color="#CCCCCC">saya akan menyertakan </font><font color="#E5E5E5">file jarak jauh </font>
+
+1251
+00:57:16,140 --> 00:57:19,710
+ dan perintahnya <font color="#E5E5E5">akan menjadi HTTP </font>
+
+1252
+00:57:19,710 --> 00:57:21,660
+ itu hanya <font color="#E5E5E5">akan </font><font color="#CCCCCC">menjadi tautan ke ini </font>
+
+1253
+00:57:21,660 --> 00:57:23,810
+ mengajukan sehingga dapat mengakses <font color="#CCCCCC">file</font><font color="#E5E5E5"> di sini sebagai </font>
+
+1254
+00:57:23,810 --> 00:57:29,450
+ txt <font color="#E5E5E5">Aku </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">menyalinnya dan menempelnya di sini </font>
+
+1255
+00:57:32,150 --> 00:57:34,850
+ dan <font color="#E5E5E5">juga dalam beberapa </font><font color="#CCCCCC">kasus Anda mungkin perlu </font>
+
+1256
+00:57:34,850 --> 00:57:37,100
+ tambahkan <font color="#CCCCCC">tanda tanya </font><font color="#E5E5E5">ke ujung untuk mendapatkan </font>
+
+1257
+00:57:37,100 --> 00:57:40,520
+ <font color="#E5E5E5">file ini dieksekusi sebagai PHP jadi saya </font>
+
+1258
+00:57:40,520 --> 00:57:42,260
+ hanya <font color="#E5E5E5">akan </font><font color="#CCCCCC">membahas ini lagi untuk </font><font color="#E5E5E5">satu </font>
+
+1259
+00:57:42,260 --> 00:57:45,230
+ lebih banyak waktu termasuk <font color="#E5E5E5">file jarak jauh yang </font>
+
+1260
+00:57:45,230 --> 00:57:46,520
+ ada di server jauh 
+
+1261
+00:57:46,520 --> 00:57:48,230
+ pastikan server jauh 
+
+1262
+00:57:48,230 --> 00:57:51,590
+ dapat diakses oleh <font color="#CCCCCC">target Anda dan juga buat </font>
+
+1263
+00:57:51,590 --> 00:57:54,080
+ Pastikan <font color="#E5E5E5">Anda mengaduknya sebagai txt karena jika Anda </font>
+
+1264
+00:57:54,080 --> 00:57:56,720
+ <font color="#E5E5E5">simpanlah sebagai </font><font color="#CCCCCC">PHP file ini sebaliknya </font>
+
+1265
+00:57:56,720 --> 00:57:58,880
+ file <font color="#CCCCCC">akan </font><font color="#E5E5E5">dieksekusi pada remote </font>
+
+1266
+00:57:58,880 --> 00:58:01,340
+ <font color="#E5E5E5">server </font><font color="#CCCCCC">sehingga akan </font><font color="#E5E5E5">dieksekusi pada </font><font color="#CCCCCC">203 </font>
+
+1267
+00:58:01,340 --> 00:58:03,770
+ dan bukannya <font color="#CCCCCC">dieksekusi pada </font><font color="#E5E5E5">204 </font>
+
+1268
+00:58:03,770 --> 00:58:06,950
+ dan saya menyimpannya <font color="#E5E5E5">sebagai txt dengan cara ini </font>
+
+1269
+00:58:06,950 --> 00:58:09,020
+ akan <font color="#E5E5E5">mendapatkan itu akan dieksekusi </font>
+
+1270
+00:58:09,020 --> 00:58:11,540
+ <font color="#CCCCCC">204 dan itu akan memberi saya </font><font color="#E5E5E5">remote </font>
+
+1271
+00:58:11,540 --> 00:58:14,930
+ <font color="#E5E5E5">koneksi ke komputer ini ke </font>
+
+1272
+00:58:14,930 --> 00:58:17,750
+ Metasploit <font color="#CCCCCC">bisa komputer jadi jika </font><font color="#E5E5E5">saya datang </font>
+
+1273
+00:58:17,750 --> 00:58:19,520
+ kembali ke <font color="#E5E5E5">sini karena Anda dapat </font><font color="#CCCCCC">melihat kami memiliki </font>
+
+1274
+00:58:19,520 --> 00:58:23,450
+ sambungan jarak jauh <font color="#CCCCCC">jika kami melakukan Anda sebut a </font>
+
+1275
+00:58:23,450 --> 00:58:26,060
+ Anda akan <font color="#E5E5E5">melihat bahwa ini adalah Metasploit </font>
+
+1276
+00:58:26,060 --> 00:58:28,430
+ <font color="#E5E5E5">mampu mesin bukan </font><font color="#CCCCCC">mesin Cali jadi kami </font>
+
+1277
+00:58:28,430 --> 00:58:29,780
+ pada dasarnya memiliki akses penuh <font color="#E5E5E5">ke </font>
+
+1278
+00:58:29,780 --> 00:58:32,810
+ Metasploit <font color="#CCCCCC">mampu melalui mesin dan a </font>
+
+1279
+00:58:32,810 --> 00:58:35,660
+ kerentanan file jauh inklusi sekarang 
+
+1280
+00:58:35,660 --> 00:58:39,350
+ jika kita melakukan LS <font color="#E5E5E5">kita dapat melakukan PWD </font><font color="#CCCCCC">untuk melihat </font>
+
+1281
+00:58:39,350 --> 00:58:41,270
+ di mana kita <font color="#CCCCCC">berada dan kita benar-benar bisa berlari </font>
+
+1282
+00:58:41,270 --> 00:58:43,100
+ dan dalam <font color="#E5E5E5">perintah selanjutnya yang kita inginkan sekarang </font>
+
+1283
+00:58:43,100 --> 00:58:45,260
+ mesin <font color="#E5E5E5">dan melakukan apa pun yang kita inginkan </font>
+
+1284
+00:58:45,260 --> 00:58:47,000
+ pada dasarnya <font color="#E5E5E5">kami memiliki akses penuh </font><font color="#CCCCCC">untuk itu </font>
+
+1285
+00:58:47,000 --> 00:58:49,240
+ mesin 
+
+1286
+00:58:50,690 --> 00:58:53,269
+ benar jadi sekarang <font color="#CCCCCC">kita berhasil mendapatkan </font>
+
+1287
+00:58:53,269 --> 00:58:55,549
+ <font color="#E5E5E5">shell jarak jauh dari komputer target kami </font>
+
+1288
+00:58:55,549 --> 00:58:57,799
+ <font color="#E5E5E5">mari kita lihat apakah kita bisa melakukan hal yang sama dan menggunakan </font>
+
+1289
+00:58:57,799 --> 00:59:01,759
+ eksploitasi yang sama dengan <font color="#E5E5E5">keamanan menengah </font><font color="#CCCCCC">jadi </font>
+
+1290
+00:59:01,759 --> 00:59:04,430
+ Saya <font color="#CCCCCC">akan </font><font color="#E5E5E5">membatalkan ini </font>
+
+1291
+00:59:04,430 --> 00:59:06,920
+ dan saya akan <font color="#E5E5E5">pergi ke tempat keamanan </font>
+
+1292
+00:59:06,920 --> 00:59:09,279
+ tingkat 
+
+1293
+00:59:09,420 --> 00:59:13,370
+ dan saya akan mengaturnya <font color="#CCCCCC">menjadi medium </font>
+
+1294
+00:59:13,370 --> 00:59:17,700
+ <font color="#CCCCCC">diserahkan </font><font color="#E5E5E5">dan kami akan kembali ke kami </font>
+
+1295
+00:59:17,700 --> 00:59:21,330
+ <font color="#E5E5E5">file kerentanan inklusi Aku akan </font>
+
+1296
+00:59:21,330 --> 00:59:23,340
+ <font color="#E5E5E5">dengarkan di bagian yang sama persis </font><font color="#CCCCCC">seperti kita </font>
+
+1297
+00:59:23,340 --> 00:59:26,820
+ lakukan <font color="#E5E5E5">di video terakhir </font><font color="#CCCCCC">dan saya akan menggunakan </font>
+
+1298
+00:59:26,820 --> 00:59:30,540
+ cara yang persis sama untuk <font color="#E5E5E5">mendapatkan kembali cangkangnya </font>
+
+1299
+00:59:30,540 --> 00:59:32,970
+ jadi kita hanya <font color="#E5E5E5">akan menaruh file txt </font>
+
+1300
+00:59:32,970 --> 00:59:34,950
+ yang berisi <font color="#E5E5E5">kode untuk kebalikannya </font>
+
+1301
+00:59:34,950 --> 00:59:37,520
+ koneksi 
+
+1302
+00:59:38,890 --> 00:59:43,000
+ jadi itu file kami dan kami jalankan <font color="#E5E5E5">dan sebagai </font>
+
+1303
+00:59:43,000 --> 00:59:45,070
+ Anda <font color="#CCCCCC">dapat melihat </font><font color="#E5E5E5">kami tidak mendapatkan apa pun di sini dan kami </font>
+
+1304
+00:59:45,070 --> 00:59:48,070
+ mendapatkan <font color="#CCCCCC">pesan kesalahan </font><font color="#E5E5E5">jadi apa yang terjadi </font>
+
+1305
+00:59:48,070 --> 00:59:51,250
+ di sini adalah <font color="#E5E5E5">bisa jadi yang mengeksploitasi </font>
+
+1306
+00:59:51,250 --> 00:59:53,650
+ ditambal atau mungkin mereka <font color="#E5E5E5">menggunakan semacam </font>
+
+1307
+00:59:53,650 --> 00:59:57,150
+ <font color="#E5E5E5">penyaringan </font>
+
+1308
+00:59:57,450 --> 01:00:00,839
+ <font color="#E5E5E5">Anda dapat mencoba dan bermain-main dengan </font>
+
+1309
+01:00:00,839 --> 01:00:02,550
+ <font color="#E5E5E5">kode sekarang jelas mereka tidak bisa benar-benar </font>
+
+1310
+01:00:02,550 --> 01:00:04,470
+ filter berdasarkan nama <font color="#CCCCCC">Anda karena Anda </font>
+
+1311
+01:00:04,470 --> 01:00:06,570
+ <font color="#CCCCCC">tahu Anda dapat memiliki </font><font color="#E5E5E5">nama apa pun di sini </font>
+
+1312
+01:00:06,570 --> 01:00:08,250
+ tidak bisa benar-benar memfilter titik karena 
+
+1313
+01:00:08,250 --> 01:00:10,800
+ <font color="#E5E5E5">sekali lagi Anda dapat memiliki titik dan nama file </font>
+
+1314
+01:00:10,800 --> 01:00:12,869
+ seperti file yang <font color="#E5E5E5">aslinya </font>
+
+1315
+01:00:12,869 --> 01:00:18,690
+ adalah file asli disebut include 
+
+1316
+01:00:18,690 --> 01:00:20,490
+ <font color="#CCCCCC">mereka PHP jadi sekali lagi mereka tidak bisa benar-benar </font>
+
+1317
+01:00:20,490 --> 01:00:24,240
+ <font color="#E5E5E5">memiliki filter pada titik-titik sehingga hal-hal </font>
+
+1318
+01:00:24,240 --> 01:00:26,099
+ yang <font color="#CCCCCC">seharusnya menaikkan </font><font color="#E5E5E5">bendera untuk </font><font color="#CCCCCC">Anda adalah </font>
+
+1319
+01:00:26,099 --> 01:00:28,170
+ <font color="#E5E5E5">garis miring ke depan yang sangat tinggi </font>
+
+1320
+01:00:28,170 --> 01:00:30,599
+ tidak mungkin <font color="#E5E5E5">karena miring lagi ke depan </font>
+
+1321
+01:00:30,599 --> 01:00:33,329
+ banyak <font color="#CCCCCC">digunakan </font><font color="#E5E5E5">dan HTTP karena </font>
+
+1322
+01:00:33,329 --> 01:00:36,060
+ <font color="#CCCCCC">biasanya Anda tidak akan </font><font color="#E5E5E5">memiliki HTTP </font><font color="#CCCCCC">di komputer Anda </font>
+
+1323
+01:00:36,060 --> 01:00:39,599
+ <font color="#CCCCCC">url </font><font color="#E5E5E5">setelah HTTP pertama jadi apa </font><font color="#CCCCCC">saya </font>
+
+1324
+01:00:39,599 --> 01:00:41,579
+ <font color="#CCCCCC">akan digunakan adalah aku hanya </font><font color="#E5E5E5">akan mencoba dan menempatkan </font>
+
+1325
+01:00:41,579 --> 01:00:43,349
+ bukannya <font color="#E5E5E5">T yang biasa saya akan masukkan </font>
+
+1326
+01:00:43,349 --> 01:00:45,260
+ <font color="#E5E5E5">modal T </font>
+
+1327
+01:00:45,260 --> 01:00:48,310
+ jadi bukannya <font color="#CCCCCC">membenci maltese malti yang </font><font color="#E5E5E5">saya miliki </font>
+
+1328
+01:00:48,310 --> 01:00:51,980
+ HTTP <font color="#E5E5E5">tetapi dua T di ada </font>
+
+1329
+01:00:51,980 --> 01:00:55,820
+ <font color="#CCCCCC">modal </font><font color="#E5E5E5">dan jika saya menekan </font><font color="#CCCCCC">enter sekarang Anda akan </font>
+
+1330
+01:00:55,820 --> 01:00:58,010
+ melihat <font color="#E5E5E5">bahwa saya mendapatkan koneksi saya di </font><font color="#CCCCCC">sini </font>
+
+1331
+01:00:58,010 --> 01:01:00,320
+ dan lagi <font color="#CCCCCC">saya memiliki </font><font color="#E5E5E5">akses </font><font color="#CCCCCC">penuh </font><font color="#E5E5E5">ke </font>
+
+1332
+01:01:00,320 --> 01:01:04,960
+ server tempat saya dapat melakukan apa pun yang saya <font color="#CCCCCC">inginkan </font>
+
+1333
+01:01:05,410 --> 01:01:08,470
+ sekarang <font color="#CCCCCC">jelas ini terjadi karena </font>
+
+1334
+01:01:08,470 --> 01:01:10,660
+ <font color="#E5E5E5">cara mereka </font><font color="#CCCCCC">mengamankan ini </font>
+
+1335
+01:01:10,660 --> 01:01:12,040
+ tidak benar <font color="#E5E5E5">dan </font><font color="#CCCCCC">kita tidak akan pernah berbicara </font><font color="#E5E5E5">tentang </font>
+
+1336
+01:01:12,040 --> 01:01:15,250
+ <font color="#E5E5E5">keamanan di dalam kuliah masa depan jadi saya </font>
+
+1337
+01:01:15,250 --> 01:01:16,450
+ <font color="#E5E5E5">hanya ingin menunjukkan kode sekarang </font>
+
+1338
+01:01:16,450 --> 01:01:18,610
+ meskipun <font color="#E5E5E5">hanya sekilas aku biasanya tidak </font>
+
+1339
+01:01:18,610 --> 01:01:21,040
+ tunjukkan kode <font color="#E5E5E5">dan </font><font color="#CCCCCC">seperti yang Anda </font><font color="#E5E5E5">lihat di sini </font>
+
+1340
+01:01:21,040 --> 01:01:23,860
+ mereka sebenarnya <font color="#CCCCCC">mencari </font><font color="#E5E5E5">HTTP dan </font>
+
+1341
+01:01:23,860 --> 01:01:25,930
+ HTTPS dan mereka menggantinya dengan 
+
+1342
+01:01:25,930 --> 01:01:28,090
+ <font color="#E5E5E5">tidak ada jadi itulah mengapa ketika kita </font><font color="#CCCCCC">menggunakan </font>
+
+1343
+01:01:28,090 --> 01:01:30,460
+ modal <font color="#E5E5E5">T kami mampu melewati ini </font>
+
+1344
+01:01:30,460 --> 01:01:33,220
+ filter <font color="#E5E5E5">jadi </font><font color="#CCCCCC">selalu menggunakan filter tidak pernah </font>
+
+1345
+01:01:33,220 --> 01:01:35,470
+ ide bagus <font color="#E5E5E5">karena filter selalu bisa </font>
+
+1346
+01:01:35,470 --> 01:01:38,520
+ menjadi <font color="#CCCCCC">Piper </font><font color="#E5E5E5">dilewati </font>
+
+1347
+01:01:38,589 --> 01:01:41,329
+ jenis ketiga <font color="#E5E5E5">dari </font><font color="#CCCCCC">kerentanan yang kita </font>
+
+1348
+01:01:41,329 --> 01:01:43,460
+ lihat adalah <font color="#CCCCCC">file inklusi dan </font><font color="#E5E5E5">kami </font>
+
+1349
+01:01:43,460 --> 01:01:45,410
+ melihat <font color="#E5E5E5">dua jenis file lokal </font>
+
+1350
+01:01:45,410 --> 01:01:47,420
+ inklusi yang memungkinkan kami untuk <font color="#CCCCCC">memasukkan </font>
+
+1351
+01:01:47,420 --> 01:01:49,339
+ <font color="#E5E5E5">file apa saja di sistem dan kemudian dibaca </font>
+
+1352
+01:01:49,339 --> 01:01:52,270
+ file <font color="#E5E5E5">yang akan menyebabkan pengungkapan file </font>
+
+1353
+01:01:52,270 --> 01:01:54,440
+ kerentanan dan kemudian Anda akan <font color="#CCCCCC">bisa </font>
+
+1354
+01:01:54,440 --> 01:01:56,660
+ baca file apa saja di <font color="#E5E5E5">server dan kemudian kita </font>
+
+1355
+01:01:56,660 --> 01:01:58,070
+ melihat <font color="#E5E5E5">inklusi file jarak jauh </font>
+
+1356
+01:01:58,070 --> 01:02:00,470
+ yang sangat <font color="#CCCCCC">berbahaya yang memungkinkan kita </font>
+
+1357
+01:02:00,470 --> 01:02:04,040
+ <font color="#CCCCCC">untuk memasukkan file </font><font color="#E5E5E5">apa pun dari server web apa pun </font>
+
+1358
+01:02:04,040 --> 01:02:06,320
+ jadi <font color="#E5E5E5">kami dapat menyertakan shell PHP </font>
+
+1359
+01:02:06,320 --> 01:02:08,839
+ <font color="#E5E5E5">dan kemudian </font><font color="#CCCCCC">mendapatkan koneksi </font><font color="#E5E5E5">dari target </font>
+
+1360
+01:02:08,839 --> 01:02:12,349
+ komputer <font color="#E5E5E5">untuk mencegah </font><font color="#CCCCCC">ini pertama-tama </font>
+
+1361
+01:02:12,349 --> 01:02:14,329
+ pastikan Anda mencegah file jarak jauh 
+
+1362
+01:02:14,329 --> 01:02:16,250
+ inklusi <font color="#CCCCCC">jadi kalau- </font><font color="#E5E5E5">kalau ada yang terjadi </font>
+
+1363
+01:02:16,250 --> 01:02:19,040
+ <font color="#E5E5E5">orang yang salah tidak dapat menyertakan file dari </font>
+
+1364
+01:02:19,040 --> 01:02:21,140
+ di luar server <font color="#E5E5E5">Anda dan Anda dapat melakukannya </font>
+
+1365
+01:02:21,140 --> 01:02:23,270
+ <font color="#E5E5E5">cara yang sama </font><font color="#CCCCCC">kami mengaktifkannya </font><font color="#E5E5E5">menggunakan PHP </font>
+
+1366
+01:02:23,270 --> 01:02:26,510
+ <font color="#E5E5E5">pada e dengan menonaktifkan memungkinkan LF Anda terbuka </font>
+
+1367
+01:02:26,510 --> 01:02:29,750
+ dan izinkan URL disertakan dan jika kita pergi di sini 
+
+1368
+01:02:29,750 --> 01:02:31,369
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">MIT </font><font color="#E5E5E5">kami </font><font color="#CCCCCC">dieksploitasi, saya hanya akan menunjukkan </font>
+
+1369
+01:02:31,369 --> 01:02:36,010
+ Anda <font color="#CCCCCC">sangat cepat jadi jika kita melakukan sudo </font><font color="#E5E5E5">nano </font>
+
+1370
+01:02:36,010 --> 01:02:39,950
+ <font color="#CCCCCC">yang merupakan editor teks ATC PHP CGI PHP </font>
+
+1371
+01:02:39,950 --> 01:02:41,540
+ <font color="#CCCCCC">bahwa saya membutuhkan file yang sama yang kami gunakan </font>
+
+1372
+01:02:41,540 --> 01:02:44,750
+ <font color="#E5E5E5">ini adalah </font><font color="#CCCCCC">file untuk </font><font color="#E5E5E5">pengaturan PHP jika </font>
+
+1373
+01:02:44,750 --> 01:02:48,890
+ Anda membuka <font color="#CCCCCC">file itu </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">sekarang saya akan melakukannya </font>
+
+1374
+01:02:48,890 --> 01:02:57,760
+ <font color="#E5E5E5">lakukan </font><font color="#CCCCCC">ctrl </font><font color="#E5E5E5">W dan cari allow URL </font>
+
+1375
+01:03:01,869 --> 01:03:03,700
+ dan Anda ingin <font color="#E5E5E5">memastikan</font><font color="#CCCCCC"> bahwa memungkinkan </font>
+
+1376
+01:03:03,700 --> 01:03:08,829
+ <font color="#E5E5E5">URL </font><font color="#CCCCCC">F terbuka diatur ke OFF dan memungkinkan Anda </font>
+
+1377
+01:03:08,829 --> 01:03:12,869
+ <font color="#CCCCCC">Termasuk saya diatur untuk off juga </font>
+
+1378
+01:03:13,079 --> 01:03:16,599
+ kontrol XY dan masuk dan <font color="#E5E5E5">itu akan menghemat </font>
+
+1379
+01:03:16,599 --> 01:03:19,140
+ untuk Anda 
+
+1380
+01:03:20,220 --> 01:03:22,810
+ cara lain <font color="#E5E5E5">untuk mencegah eksploitasi ini </font>
+
+1381
+01:03:22,810 --> 01:03:25,630
+ <font color="#CCCCCC">adalah dengan menggunakan </font><font color="#E5E5E5">inklusi file statis jadi </font>
+
+1382
+01:03:25,630 --> 01:03:27,670
+ daripada menggunakan penyertaan file dinamis 
+
+1383
+01:03:27,670 --> 01:03:30,520
+ yang kami lihat di Anda dapat kode keras 
+
+1384
+01:03:30,520 --> 01:03:32,530
+ <font color="#CCCCCC">file yang </font><font color="#E5E5E5">ingin </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">sertakan dalam </font>
+
+1385
+01:03:32,530 --> 01:03:35,050
+ kode dan <font color="#E5E5E5">tidak mendapatkannya menggunakan get atau posting </font>
+
+1386
+01:03:35,050 --> 01:03:37,090
+ misalnya <font color="#CCCCCC">apa yang terjadi di </font>
+
+1387
+01:03:37,090 --> 01:03:38,710
+ contoh yang kita lihat di rawan 
+
+1388
+01:03:38,710 --> 01:03:40,960
+ contohnya <font color="#E5E5E5">adalah kita memiliki halaman yang disebut </font><font color="#CCCCCC">halaman </font>
+
+1389
+01:03:40,960 --> 01:03:46,030
+ <font color="#E5E5E5">atau indeks dot PHP </font><font color="#CCCCCC">dan kemudian titik indeks ini </font>
+
+1390
+01:03:46,030 --> 01:03:48,190
+ PHP mengambil parameter yang <font color="#CCCCCC">disebut halaman dan </font>
+
+1391
+01:03:48,190 --> 01:03:49,870
+ maka <font color="#CCCCCC">butuh halaman lain misalnya </font>
+
+1392
+01:03:49,870 --> 01:03:53,410
+ <font color="#CCCCCC">Berita dot PHP </font><font color="#E5E5E5">dan itu termasuk </font><font color="#CCCCCC">Berita </font><font color="#E5E5E5">ini </font>
+
+1393
+01:03:53,410 --> 01:03:56,200
+ PHP dalam kode <font color="#E5E5E5">jadi apa tampilan kode </font>
+
+1394
+01:03:56,200 --> 01:03:59,080
+ seperti di <font color="#E5E5E5">kode PHP </font><font color="#CCCCCC">yang akan Anda lihat </font>
+
+1395
+01:03:59,080 --> 01:04:02,370
+ <font color="#CCCCCC">sesuatu seperti termasuk </font>
+
+1396
+01:04:08,800 --> 01:04:12,619
+ jadi apa ini akan dilakukan <font color="#CCCCCC">pada dasarnya dan itu </font>
+
+1397
+01:04:12,619 --> 01:04:15,560
+ Sepertinya <font color="#E5E5E5">ini saya percaya apa yang ini lakukan </font>
+
+1398
+01:04:15,560 --> 01:04:19,609
+ <font color="#E5E5E5">itu termasuk apa pun yang terjadi setelah itu </font>
+
+1399
+01:04:19,609 --> 01:04:23,390
+ parameter halaman sehingga kode akan 
+
+1400
+01:04:23,390 --> 01:04:26,119
+ secara dinamis mengambil <font color="#E5E5E5">apa pun yang masuk </font>
+
+1401
+01:04:26,119 --> 01:04:28,579
+ <font color="#E5E5E5">setelah parameter halaman dan menyertakannya </font>
+
+1402
+01:04:28,579 --> 01:04:30,410
+ di <font color="#CCCCCC">halaman</font><font color="#E5E5E5"> saat ini sehingga ini akan berada di </font>
+
+1403
+01:04:30,410 --> 01:04:34,970
+ <font color="#E5E5E5">indeks dot </font><font color="#CCCCCC">halaman </font><font color="#E5E5E5">PHP-baik saja ini sangat </font>
+
+1404
+01:04:34,970 --> 01:04:37,250
+ buruk <font color="#CCCCCC">karena meskipun </font><font color="#E5E5E5">belum </font>
+
+1405
+01:04:37,250 --> 01:04:39,200
+ terkadang <font color="#E5E5E5">orang menggunakan pos dan pos </font>
+
+1406
+01:04:39,200 --> 01:04:41,420
+ Anda tidak akan melihat ini <font color="#E5E5E5">sehingga akan </font><font color="#CCCCCC">diposkan </font>
+
+1407
+01:04:41,420 --> 01:04:43,910
+ tetapi Anda dapat menggunakan proxy seperti sendawa 
+
+1408
+01:04:43,910 --> 01:04:46,400
+ proxy dan ini akan terlihat <font color="#CCCCCC">seperti itu dan </font>
+
+1409
+01:04:46,400 --> 01:04:49,910
+ <font color="#E5E5E5">maka </font><font color="#CCCCCC">Anda dapat </font><font color="#E5E5E5">memodifikasi dan mendapatkannya </font><font color="#CCCCCC">untuk </font>
+
+1410
+01:04:49,910 --> 01:04:51,890
+ <font color="#E5E5E5">termasuk apa pun yang Anda inginkan dan kemudian itu </font>
+
+1411
+01:04:51,890 --> 01:04:54,740
+ ditampilkan di <font color="#E5E5E5">halaman apa sebenarnya kita </font>
+
+1412
+01:04:54,740 --> 01:04:57,200
+ ingin lakukan adalah kami menginginkan <font color="#E5E5E5">para pengguna </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">tidak </font>
+
+1413
+01:04:57,200 --> 01:04:59,510
+ mampu <font color="#E5E5E5">memanipulasi dengan apa yang akan terjadi </font>
+
+1414
+01:04:59,510 --> 01:05:01,339
+ dimasukkan <font color="#CCCCCC">jadi jika Anda ingin </font><font color="#E5E5E5">memasukkan </font>
+
+1415
+01:05:01,339 --> 01:05:05,690
+ halaman yang disebut <font color="#CCCCCC">berita dot PHP hanya termasuk </font>
+
+1416
+01:05:05,690 --> 01:05:07,609
+ di dalam ini tanpa <font color="#E5E5E5">memberi pengguna </font>
+
+1417
+01:05:07,609 --> 01:05:09,710
+ <font color="#CCCCCC">kemampuan untuk mengubahnya Aku tahu </font><font color="#E5E5E5">kamu </font>
+
+1418
+01:05:09,710 --> 01:05:12,980
+ akan <font color="#CCCCCC">memprogram </font><font color="#E5E5E5">kode Anda untuk memilikinya </font>
+
+1419
+01:05:12,980 --> 01:05:16,339
+ <font color="#E5E5E5">terlihat seperti </font><font color="#CCCCCC">ini tetapi pengguna yang </font><font color="#E5E5E5">kami kenal </font>
+
+1420
+01:05:16,339 --> 01:05:18,230
+ kami melihat bagaimana pengguna <font color="#CCCCCC">dapat </font><font color="#E5E5E5">bermain dengan ini dan </font>
+
+1421
+01:05:18,230 --> 01:05:20,869
+ <font color="#E5E5E5">dapatkan saja untuk memasukkan apa pun yang mereka miliki </font>
+
+1422
+01:05:20,869 --> 01:05:23,150
+ ingin jadi cara terbaik untuk melakukannya adalah hanya <font color="#E5E5E5">untuk </font>
+
+1423
+01:05:23,150 --> 01:05:25,849
+ <font color="#E5E5E5">mendapatkannya </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">menyertakan halaman dot PHP </font><font color="#CCCCCC">sehingga Anda </font>
+
+1424
+01:05:25,849 --> 01:05:28,040
+ Kode tidak menggunakan variabel <font color="#E5E5E5">itu </font>
+
+1425
+01:05:28,040 --> 01:05:30,530
+ itu <font color="#E5E5E5">keras-kode itu mungkin membuat kode Anda </font>
+
+1426
+01:05:30,530 --> 01:05:35,020
+ log lebih lama tetapi jauh lebih <font color="#E5E5E5">aman </font>
+
+1427
+01:05:36,260 --> 01:05:38,930
+ dan ini persis <font color="#E5E5E5">apa </font>
+
+1428
+01:05:38,930 --> 01:05:42,620
+ <font color="#CCCCCC">opsi keamanan tinggi tidak jadi mari kita pergi </font>
+
+1429
+01:05:42,620 --> 01:05:44,330
+ kembali <font color="#CCCCCC">ke file inklusi dulu dan </font>
+
+1430
+01:05:44,330 --> 01:05:47,360
+ kami di rendah dan jika saya <font color="#CCCCCC">memandang </font>
+
+1431
+01:05:47,360 --> 01:05:49,850
+ sumber sekarang Anda akan melihat itu <font color="#E5E5E5">pada dasarnya </font>
+
+1432
+01:05:49,850 --> 01:05:52,400
+ <font color="#CCCCCC">file adalah apa yang Anda berikan untuk file itu </font>
+
+1433
+01:05:52,400 --> 01:05:55,160
+ apa yang <font color="#E5E5E5">kita lewati di sini dan sesudahnya </font>
+
+1434
+01:05:55,160 --> 01:05:57,560
+ parameter halaman <font color="#E5E5E5">dan Anda </font><font color="#CCCCCC">dapat melihatnya </font>
+
+1435
+01:05:57,560 --> 01:06:00,080
+ ini mencoba menampilkan <font color="#CCCCCC">apa pun yang kita miliki </font>
+
+1436
+01:06:00,080 --> 01:06:03,080
+ <font color="#E5E5E5">kirimkan begitu ketika kami mengirimkan </font><font color="#CCCCCC">kata sandi TC </font>
+
+1437
+01:06:03,080 --> 01:06:07,010
+ itu menunjukkan kepada kita <font color="#E5E5E5">password </font><font color="#CCCCCC">e TC </font><font color="#E5E5E5">sekarang saya </font>
+
+1438
+01:06:07,010 --> 01:06:09,110
+ sebenarnya <font color="#E5E5E5">akan membuat ini tetap terbuka </font><font color="#CCCCCC">dan aku </font>
+
+1439
+01:06:09,110 --> 01:06:11,570
+ akan pergi ke tingkat keamanan <font color="#E5E5E5">ke </font>
+
+1440
+01:06:11,570 --> 01:06:15,550
+ keamanan <font color="#E5E5E5">dan saya </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">mengaturnya </font><font color="#CCCCCC">ke </font><font color="#E5E5E5">tinggi </font>
+
+1441
+01:06:16,260 --> 01:06:19,950
+ <font color="#E5E5E5">sekarang medianya sama dengan </font>
+
+1442
+01:06:19,950 --> 01:06:22,320
+ <font color="#CCCCCC">tahu </font><font color="#E5E5E5">sehingga Anda benar-benar dapat menggunakan yang </font><font color="#CCCCCC">sama </font>
+
+1443
+01:06:22,320 --> 01:06:24,960
+ Anda dapat <font color="#E5E5E5">memanfaatkannya dengan cara yang sama seperti kita </font>
+
+1444
+01:06:24,960 --> 01:06:27,510
+ mengeksploitasi yang rendah jadi kita akan <font color="#CCCCCC">pergi ke </font>
+
+1445
+01:06:27,510 --> 01:06:29,640
+ langsung tinggi dan kita akan pergi 
+
+1446
+01:06:29,640 --> 01:06:31,670
+ <font color="#E5E5E5">lihat sumbernya </font>
+
+1447
+01:06:31,670 --> 01:06:33,560
+ dan saya <font color="#E5E5E5">hanya akan </font><font color="#CCCCCC">meminimalkan ini </font>
+
+1448
+01:06:33,560 --> 01:06:35,090
+ karena mereka memiliki dua sumber <font color="#E5E5E5">sekarang juga </font>
+
+1449
+01:06:35,090 --> 01:06:37,790
+ kita dapat membandingkan <font color="#E5E5E5">mereka </font>
+
+1450
+01:06:37,790 --> 01:06:40,610
+ jadi seperti yang Anda <font color="#CCCCCC">lihat di sini </font><font color="#E5E5E5">dan rendah dan </font>
+
+1451
+01:06:40,610 --> 01:06:42,770
+ <font color="#E5E5E5">tingkat </font><font color="#CCCCCC">keamanan menengah </font><font color="#E5E5E5">Anda dapat melihat itu </font>
+
+1452
+01:06:42,770 --> 01:06:44,990
+ apa pun yang <font color="#CCCCCC">kami lewati </font><font color="#E5E5E5">file oleh a </font>
+
+1453
+01:06:44,990 --> 01:06:47,210
+ <font color="#E5E5E5">variabel itu akan </font><font color="#CCCCCC">ditampilkan kepada kami </font>
+
+1454
+01:06:47,210 --> 01:06:49,670
+ sedangkan di sini pada <font color="#E5E5E5">keamanan yang tinggi </font>
+
+1455
+01:06:49,670 --> 01:06:52,640
+ tingkat <font color="#E5E5E5">Anda dapat </font><font color="#CCCCCC">melihat bahwa itu hard-kode </font>
+
+1456
+01:06:52,640 --> 01:06:55,550
+ bahwa itu hanya diizinkan untuk <font color="#CCCCCC">menunjukkan kepada kami </font>
+
+1457
+01:06:55,550 --> 01:06:59,030
+ termasuk file dot PHP <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">dapat Anda dapat </font>
+
+1458
+01:06:59,030 --> 01:07:01,040
+ <font color="#E5E5E5">ubah pernyataan if ini jika </font><font color="#CCCCCC">Anda memiliki </font>
+
+1459
+01:07:01,040 --> 01:07:02,720
+ <font color="#E5E5E5">jumlah </font><font color="#CCCCCC">file </font><font color="#E5E5E5">yang ingin Anda </font><font color="#CCCCCC">sertakan </font>
+
+1460
+01:07:02,720 --> 01:07:05,060
+ <font color="#CCCCCC">maka Anda dapat </font><font color="#E5E5E5">mengizinkannya di sini atau Anda </font>
+
+1461
+01:07:05,060 --> 01:07:07,100
+ <font color="#CCCCCC">dapat memiliki mereka dalam daftar </font><font color="#E5E5E5">tetapi pada dasarnya </font>
+
+1462
+01:07:07,100 --> 01:07:09,830
+ konsepnya adalah Anda <font color="#CCCCCC">hanya mengizinkan file </font>
+
+1463
+01:07:09,830 --> 01:07:12,290
+ <font color="#E5E5E5">bahwa </font><font color="#CCCCCC">pengguna diizinkan untuk </font><font color="#E5E5E5">melihat Anda </font>
+
+1464
+01:07:12,290 --> 01:07:14,060
+ <font color="#E5E5E5">hanya dapat memiliki mereka </font><font color="#CCCCCC">dalam daftar di sini Anda </font>
+
+1465
+01:07:14,060 --> 01:07:16,340
+ dapat menggunakan atau pernyataan <font color="#CCCCCC">atau Anda bisa saja </font>
+
+1466
+01:07:16,340 --> 01:07:18,560
+ <font color="#E5E5E5">memiliki </font><font color="#CCCCCC">daftar dan mengatakan jika </font><font color="#E5E5E5">file tersebut ada di dalamnya </font>
+
+1467
+01:07:18,560 --> 01:07:21,650
+ <font color="#E5E5E5">daftar ini kemudian menampilkan sebaliknya </font>
+
+1468
+01:07:21,650 --> 01:07:25,060
+ kesalahan mengatakan <font color="#E5E5E5">file tidak ditemukan begitu </font>
+
+1469
+01:07:25,060 --> 01:07:28,220
+ hindari hal ini <font color="#E5E5E5">dengan metode hard-coded </font>
+
+1470
+01:07:28,220 --> 01:07:30,170
+ <font color="#E5E5E5">ya itu tidak terlihat </font><font color="#CCCCCC">secantik ini </font>
+
+1471
+01:07:30,170 --> 01:07:34,090
+ tetapi jauh lebih <font color="#E5E5E5">aman </font>
+
+1472
+01:07:39,550 --> 00:00:00,000
+ kamu 
+

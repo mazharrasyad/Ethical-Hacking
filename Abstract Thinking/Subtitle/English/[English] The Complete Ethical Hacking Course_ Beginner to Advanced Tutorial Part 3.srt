@@ -1,0 +1,5888 @@
+1
+00:00:00,979 --> 00:00:04,580
+now let's talk about<font color="#E5E5E5"> how you can secure</font>
+
+2
+00:00:04,580 --> 00:00:06,640
+your<font color="#E5E5E5"> website from file upload</font>
+
+3
+00:00:06,640 --> 00:00:09,150
+vulnerabilities
+
+4
+00:00:09,150 --> 00:00:11,780
+the main thing to<font color="#CCCCCC"> keep in mind is that</font>
+
+5
+00:00:11,780 --> 00:00:15,420
+never allow people to<font color="#E5E5E5"> upload executables</font>
+
+6
+00:00:15,420 --> 00:00:17,580
+<font color="#E5E5E5">there shouldn't be a need for</font><font color="#CCCCCC"> you to</font>
+
+7
+00:00:17,580 --> 00:00:19,890
+<font color="#CCCCCC">allow</font><font color="#E5E5E5"> people to upload executables</font>
+
+8
+00:00:19,890 --> 00:00:22,939
+really so stuff<font color="#CCCCCC"> like PHP bash scripts</font>
+
+9
+00:00:22,939 --> 00:00:26,430
+executables like<font color="#CCCCCC"> exe comm</font><font color="#E5E5E5"> all these</font>
+
+10
+00:00:26,430 --> 00:00:28,470
+files you<font color="#CCCCCC"> should never allow people to</font>
+
+11
+00:00:28,470 --> 00:00:30,510
+upload<font color="#E5E5E5"> them because there is a high</font>
+
+12
+00:00:30,510 --> 00:00:32,610
+possibility<font color="#E5E5E5"> that these files could harm</font>
+
+13
+00:00:32,610 --> 00:00:34,420
+your<font color="#E5E5E5"> server</font>
+
+14
+00:00:34,420 --> 00:00:37,570
+the second thing is you need<font color="#CCCCCC"> to check</font>
+
+15
+00:00:37,570 --> 00:00:41,350
+that<font color="#E5E5E5"> the file type is what the what you</font>
+
+16
+00:00:41,350 --> 00:00:44,140
+want is<font color="#E5E5E5"> what you're expecting and check</font>
+
+17
+00:00:44,140 --> 00:00:47,530
+the extension at<font color="#E5E5E5"> the same time so when</font>
+
+18
+00:00:47,530 --> 00:00:49,660
+we<font color="#CCCCCC"> seen when we were checking with our</font>
+
+19
+00:00:49,660 --> 00:00:52,660
+<font color="#E5E5E5">tests and the previous videos at the low</font>
+
+20
+00:00:52,660 --> 00:00:54,520
+security<font color="#E5E5E5"> level obviously</font><font color="#CCCCCC"> there was no</font>
+
+21
+00:00:54,520 --> 00:00:56,950
+checks at the<font color="#E5E5E5"> medium security level</font>
+
+22
+00:00:56,950 --> 00:00:59,590
+there was<font color="#CCCCCC"> checking</font><font color="#E5E5E5"> for</font><font color="#CCCCCC"> only the file</font>
+
+23
+00:00:59,590 --> 00:01:02,590
+type<font color="#E5E5E5"> and at the high security level they</font>
+
+24
+00:01:02,590 --> 00:01:07,600
+were checking<font color="#E5E5E5"> for the extension</font><font color="#CCCCCC"> only</font><font color="#E5E5E5"> so</font>
+
+25
+00:01:07,600 --> 00:01:09,400
+what you want to<font color="#E5E5E5"> do really is never</font>
+
+26
+00:01:09,400 --> 00:01:12,790
+allow executables make sure the uploaded
+
+27
+00:01:12,790 --> 00:01:14,890
+file is what you're expecting so if
+
+28
+00:01:14,890 --> 00:01:16,720
+you're uploading an image<font color="#E5E5E5"> make sure that</font>
+
+29
+00:01:16,720 --> 00:01:19,240
+the file<font color="#CCCCCC"> type is an image and the and</font>
+
+30
+00:01:19,240 --> 00:01:22,330
+the extension is an image extension so
+
+31
+00:01:22,330 --> 00:01:25,780
+it's a<font color="#E5E5E5"> JPEG or a PNG or any other image</font>
+
+32
+00:01:25,780 --> 00:01:28,360
+type<font color="#E5E5E5"> only</font><font color="#CCCCCC"> and once you do these two</font>
+
+33
+00:01:28,360 --> 00:01:31,570
+checks<font color="#E5E5E5"> so that</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> that make sure that</font>
+
+34
+00:01:31,570 --> 00:01:34,450
+<font color="#CCCCCC">you</font><font color="#E5E5E5"> recreate the uploaded file so you</font>
+
+35
+00:01:34,450 --> 00:01:36,610
+check that<font color="#E5E5E5"> the file is an image and you</font>
+
+36
+00:01:36,610 --> 00:01:38,440
+check that<font color="#CCCCCC"> the extension is an image</font>
+
+37
+00:01:38,440 --> 00:01:41,860
+extension then analyze<font color="#CCCCCC"> the file</font><font color="#E5E5E5"> using</font>
+
+38
+00:01:41,860 --> 00:01:44,290
+some sort of a<font color="#E5E5E5"> library so depending on</font>
+
+39
+00:01:44,290 --> 00:01:46,090
+<font color="#E5E5E5">the programming language you're using on</font>
+
+40
+00:01:46,090 --> 00:01:49,030
+<font color="#CCCCCC">your server</font><font color="#E5E5E5"> make sure that you</font><font color="#CCCCCC"> analyze</font>
+
+41
+00:01:49,030 --> 00:01:51,130
+you pass this<font color="#E5E5E5"> file to a library and</font>
+
+42
+00:01:51,130 --> 00:01:53,710
+analyze its content and you recreate the
+
+43
+00:01:53,710 --> 00:01:56,229
+file to suit your website<font color="#CCCCCC"> now this is</font>
+
+44
+00:01:56,229 --> 00:01:58,390
+<font color="#CCCCCC">actually a good step anyway</font><font color="#E5E5E5"> because</font>
+
+45
+00:01:58,390 --> 00:02:00,310
+<font color="#E5E5E5">since you're displaying this on your</font>
+
+46
+00:02:00,310 --> 00:02:02,080
+<font color="#CCCCCC">website</font><font color="#E5E5E5"> you want to make sure that the</font>
+
+47
+00:02:02,080 --> 00:02:04,439
+images<font color="#E5E5E5"> aren't too big and that they are</font>
+
+48
+00:02:04,439 --> 00:02:08,560
+optimized<font color="#E5E5E5"> for web applications so it's a</font>
+
+49
+00:02:08,560 --> 00:02:10,000
+good<font color="#E5E5E5"> thing</font><font color="#CCCCCC"> for your website to</font><font color="#E5E5E5"> run</font>
+
+50
+00:02:10,000 --> 00:02:12,070
+faster<font color="#E5E5E5"> and it's also a good thing to</font>
+
+51
+00:02:12,070 --> 00:02:14,290
+make<font color="#CCCCCC"> sure that this image is actually an</font>
+
+52
+00:02:14,290 --> 00:02:16,660
+image<font color="#E5E5E5"> and it's not</font><font color="#CCCCCC"> harm a harmful file</font>
+
+53
+00:02:16,660 --> 00:02:18,820
+so<font color="#E5E5E5"> let's just have a look on the source</font>
+
+54
+00:02:18,820 --> 00:02:20,620
+code<font color="#CCCCCC"> now I know I always</font><font color="#E5E5E5"> say we're doing</font>
+
+55
+00:02:20,620 --> 00:02:22,600
+black box testing<font color="#E5E5E5"> but we're</font><font color="#CCCCCC"> talking</font>
+
+56
+00:02:22,600 --> 00:02:24,190
+<font color="#E5E5E5">about the security now so you actually</font>
+
+57
+00:02:24,190 --> 00:02:25,780
+<font color="#E5E5E5">have to see the source code to</font><font color="#CCCCCC"> see how</font>
+
+58
+00:02:25,780 --> 00:02:28,989
+<font color="#CCCCCC">you can secure</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> so I'm</font><font color="#E5E5E5"> just going</font><font color="#CCCCCC"> to</font>
+
+59
+00:02:28,989 --> 00:02:31,450
+set the security level to medium<font color="#E5E5E5"> because</font>
+
+60
+00:02:31,450 --> 00:02:32,829
+the load<font color="#CCCCCC"> just</font><font color="#E5E5E5"> doesn't really check</font>
+
+61
+00:02:32,829 --> 00:02:34,660
+anything<font color="#E5E5E5"> so we're just gonna go</font><font color="#CCCCCC"> with the</font>
+
+62
+00:02:34,660 --> 00:02:38,410
+<font color="#E5E5E5">medium</font><font color="#CCCCCC"> for now</font><font color="#E5E5E5"> and we're gonna go</font><font color="#CCCCCC"> on the</font>
+
+63
+00:02:38,410 --> 00:02:40,890
+<font color="#E5E5E5">upload</font>
+
+64
+00:02:41,610 --> 00:02:44,820
+and I'm going to<font color="#E5E5E5"> view the source so as</font>
+
+65
+00:02:44,820 --> 00:02:47,070
+you can<font color="#E5E5E5"> see now in the medium it's only</font>
+
+66
+00:02:47,070 --> 00:02:50,280
+<font color="#E5E5E5">checking if the uploaded file type is an</font>
+
+67
+00:02:50,280 --> 00:02:53,100
+image<font color="#E5E5E5"> now I</font><font color="#CCCCCC"> don't want</font><font color="#E5E5E5"> to get into too</font>
+
+68
+00:02:53,100 --> 00:02:55,170
+<font color="#CCCCCC">much details about coding because</font><font color="#E5E5E5"> this</font>
+
+69
+00:02:55,170 --> 00:02:57,990
+isn't a coding course<font color="#E5E5E5"> we're only talking</font>
+
+70
+00:02:57,990 --> 00:03:00,840
+about<font color="#E5E5E5"> how you secure yourself and about</font>
+
+71
+00:03:00,840 --> 00:03:02,820
+<font color="#E5E5E5">penetration testing so I have to cover</font>
+
+72
+00:03:02,820 --> 00:03:04,800
+the<font color="#CCCCCC"> security part so we're going</font><font color="#E5E5E5"> to talk</font>
+
+73
+00:03:04,800 --> 00:03:07,500
+<font color="#CCCCCC">about</font><font color="#E5E5E5"> the concepts but not the actual</font>
+
+74
+00:03:07,500 --> 00:03:09,120
+code<font color="#CCCCCC"> that you need</font><font color="#E5E5E5"> to use</font><font color="#CCCCCC"> because you</font>
+
+75
+00:03:09,120 --> 00:03:10,530
+could be<font color="#E5E5E5"> using a different programming</font>
+
+76
+00:03:10,530 --> 00:03:12,810
+language<font color="#E5E5E5"> so in here they're using</font><font color="#CCCCCC"> PHP</font>
+
+77
+00:03:12,810 --> 00:03:14,940
+and what they're<font color="#CCCCCC"> doing is they have just</font>
+
+78
+00:03:14,940 --> 00:03:16,800
+<font color="#E5E5E5">a simple if</font><font color="#CCCCCC"> statement</font><font color="#E5E5E5"> and they're</font>
+
+79
+00:03:16,800 --> 00:03:19,080
+checking<font color="#E5E5E5"> if the if the image if the</font>
+
+80
+00:03:19,080 --> 00:03:22,110
+<font color="#E5E5E5">uploaded file type is an image so we</font>
+
+81
+00:03:22,110 --> 00:03:24,300
+<font color="#E5E5E5">seen how we can</font><font color="#CCCCCC"> bypass this easily by</font>
+
+82
+00:03:24,300 --> 00:03:26,490
+uploading<font color="#E5E5E5"> an image and then changing the</font>
+
+83
+00:03:26,490 --> 00:03:29,580
+extension<font color="#E5E5E5"> to by</font><font color="#CCCCCC"> renaming</font><font color="#E5E5E5"> our shelf to</font>
+
+84
+00:03:29,580 --> 00:03:32,400
+<font color="#E5E5E5">the jpg which will upload it which will</font>
+
+85
+00:03:32,400 --> 00:03:34,650
+be accepted as an image<font color="#E5E5E5"> and then we'll</font>
+
+86
+00:03:34,650 --> 00:03:37,430
+just rename it as it's been uploaded<font color="#CCCCCC"> to</font>
+
+87
+00:03:37,430 --> 00:03:42,990
+PHP<font color="#E5E5E5"> file now if we set this to high</font>
+
+88
+00:03:42,990 --> 00:03:45,890
+security level
+
+89
+00:03:48,500 --> 00:03:51,710
+and you go<font color="#E5E5E5"> back</font><font color="#CCCCCC"> to the upload</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> have a</font>
+
+90
+00:03:51,710 --> 00:03:54,740
+look at the source<font color="#E5E5E5"> code</font><font color="#CCCCCC"> you can see</font><font color="#E5E5E5"> that</font>
+
+91
+00:03:54,740 --> 00:03:56,930
+what they're<font color="#E5E5E5"> doing here they're checking</font>
+
+92
+00:03:56,930 --> 00:04:02,090
+that the extension is a jpg<font color="#E5E5E5"> or a jpg and</font>
+
+93
+00:04:02,090 --> 00:04:04,700
+then you can<font color="#E5E5E5"> upload the picture so</font>
+
+94
+00:04:04,700 --> 00:04:06,320
+they're not checking<font color="#E5E5E5"> for the file type</font>
+
+95
+00:04:06,320 --> 00:04:08,600
+this time<font color="#E5E5E5"> so as I said</font><font color="#CCCCCC"> you need</font><font color="#E5E5E5"> to check</font>
+
+96
+00:04:08,600 --> 00:04:12,380
+for both now<font color="#E5E5E5"> in the new versions of dvwa</font>
+
+97
+00:04:12,380 --> 00:04:14,600
+<font color="#CCCCCC">it actually has an extra security</font>
+
+98
+00:04:14,600 --> 00:04:15,620
+<font color="#E5E5E5">setting called</font>
+
+99
+00:04:15,620 --> 00:04:18,048
+<font color="#E5E5E5">impossible and what that is it basically</font>
+
+100
+00:04:18,048 --> 00:04:20,450
+<font color="#CCCCCC">just shows you</font><font color="#E5E5E5"> the right</font><font color="#CCCCCC"> implementation</font>
+
+101
+00:04:20,450 --> 00:04:23,330
+of each one of these pages<font color="#CCCCCC"> so it's</font><font color="#E5E5E5"> it</font>
+
+102
+00:04:23,330 --> 00:04:24,860
+<font color="#E5E5E5">actually</font><font color="#CCCCCC"> can't be hacked it's the right</font>
+
+103
+00:04:24,860 --> 00:04:25,640
+way<font color="#E5E5E5"> to do it</font>
+
+104
+00:04:25,640 --> 00:04:29,090
+the dvwa version that comes<font color="#E5E5E5"> in with</font>
+
+105
+00:04:29,090 --> 00:04:30,500
+<font color="#CCCCCC">Metasploit Apple</font><font color="#E5E5E5"> doesn't have that</font>
+
+106
+00:04:30,500 --> 00:04:32,390
+<font color="#E5E5E5">security setting but we don't really</font>
+
+107
+00:04:32,390 --> 00:04:34,070
+need<font color="#CCCCCC"> to use it anyway we just</font><font color="#E5E5E5"> need to</font>
+
+108
+00:04:34,070 --> 00:04:36,200
+see<font color="#E5E5E5"> the code so I have it here</font><font color="#CCCCCC"> on github</font>
+
+109
+00:04:36,200 --> 00:04:39,560
+<font color="#E5E5E5">and the way the right way</font><font color="#CCCCCC"> to implement</font>
+
+110
+00:04:39,560 --> 00:04:41,810
+<font color="#E5E5E5">this is if we look at this is the same</font>
+
+111
+00:04:41,810 --> 00:04:43,880
+if statement<font color="#E5E5E5"> and basically what they're</font>
+
+112
+00:04:43,880 --> 00:04:46,340
+<font color="#E5E5E5">checking is they check the extension is</font>
+
+113
+00:04:46,340 --> 00:04:50,540
+is an image extension such a JPEG or jpg
+
+114
+00:04:50,540 --> 00:04:54,440
+<font color="#E5E5E5">or PNG</font><font color="#CCCCCC"> so that's all</font><font color="#E5E5E5"> good so it has to</font>
+
+115
+00:04:54,440 --> 00:04:58,070
+be one<font color="#E5E5E5"> of these things and it has to be</font>
+
+116
+00:04:58,070 --> 00:05:01,370
+of an image type so it has to be of type
+
+117
+00:05:01,370 --> 00:05:05,510
+image JPEG or image PNG<font color="#CCCCCC"> and it</font><font color="#E5E5E5"> doesn't</font>
+
+118
+00:05:05,510 --> 00:05:07,160
+stop<font color="#CCCCCC"> at</font><font color="#E5E5E5"> that actually checks the sizes</font>
+
+119
+00:05:07,160 --> 00:05:08,060
+but that's<font color="#E5E5E5"> okay</font>
+
+120
+00:05:08,060 --> 00:05:10,880
+what it also does which I was speaking
+
+121
+00:05:10,880 --> 00:05:12,979
+<font color="#E5E5E5">about which is recreating the image</font>
+
+122
+00:05:12,979 --> 00:05:13,640
+itself
+
+123
+00:05:13,640 --> 00:05:15,880
+so what they're<font color="#CCCCCC"> doing is they're</font>
+
+124
+00:05:15,880 --> 00:05:18,680
+stripping the metadata of<font color="#CCCCCC"> the image</font><font color="#E5E5E5"> and</font>
+
+125
+00:05:18,680 --> 00:05:21,350
+they're<font color="#E5E5E5"> using a library actually they're</font>
+
+126
+00:05:21,350 --> 00:05:23,510
+not<font color="#CCCCCC"> using that library but</font><font color="#E5E5E5"> you should be</font>
+
+127
+00:05:23,510 --> 00:05:26,060
+using<font color="#CCCCCC"> that library which is called PHP a</font>
+
+128
+00:05:26,060 --> 00:05:28,370
+magic or whatever<font color="#E5E5E5"> there is that they're</font>
+
+129
+00:05:28,370 --> 00:05:30,500
+similar libraries for Python and Ruby
+
+130
+00:05:30,500 --> 00:05:33,680
+and<font color="#CCCCCC"> all</font><font color="#E5E5E5"> of that</font><font color="#CCCCCC"> -</font><font color="#E5E5E5"> basically what they do</font>
+
+131
+00:05:33,680 --> 00:05:36,890
+<font color="#E5E5E5">is they recreate</font><font color="#CCCCCC"> another image from the</font>
+
+132
+00:05:36,890 --> 00:05:39,640
+<font color="#E5E5E5">uploaded</font><font color="#CCCCCC"> image</font>
+
+133
+00:05:40,480 --> 00:05:43,330
+once they do that they actually<font color="#E5E5E5"> delete</font>
+
+134
+00:05:43,330 --> 00:05:46,870
+and destroy<font color="#CCCCCC"> the</font><font color="#E5E5E5"> old image and use the</font>
+
+135
+00:05:46,870 --> 00:05:49,300
+new image<font color="#CCCCCC"> with a new</font><font color="#E5E5E5"> name</font><font color="#CCCCCC"> so they create</font>
+
+136
+00:05:49,300 --> 00:05:51,760
+a new<font color="#E5E5E5"> image from the old image they</font>
+
+137
+00:05:51,760 --> 00:05:53,740
+rename it and then<font color="#E5E5E5"> you they use that</font>
+
+138
+00:05:53,740 --> 00:05:56,290
+image<font color="#E5E5E5"> so these are three things you</font><font color="#CCCCCC"> need</font>
+
+139
+00:05:56,290 --> 00:05:58,360
+<font color="#E5E5E5">to check for the extension check for the</font>
+
+140
+00:05:58,360 --> 00:06:01,690
+file type recreate the image<font color="#E5E5E5"> itself that</font>
+
+141
+00:06:01,690 --> 00:06:04,420
+way<font color="#E5E5E5"> even if a person tries to upload a</font>
+
+142
+00:06:04,420 --> 00:06:08,470
+bad file<font color="#E5E5E5"> or a malicious file then you'll</font>
+
+143
+00:06:08,470 --> 00:06:11,320
+<font color="#E5E5E5">be able to protect your web application</font>
+
+144
+00:06:11,320 --> 00:06:14,800
+and your server from that file<font color="#E5E5E5"> so even</font>
+
+145
+00:06:14,800 --> 00:06:16,720
+if they<font color="#CCCCCC"> managed to upload the file then</font>
+
+146
+00:06:16,720 --> 00:06:18,760
+<font color="#CCCCCC">the file</font><font color="#E5E5E5"> would</font><font color="#CCCCCC"> be destroyed</font><font color="#E5E5E5"> because of</font>
+
+147
+00:06:18,760 --> 00:06:22,380
+<font color="#CCCCCC">the recreation process</font>
+
+148
+00:06:22,520 --> 00:06:26,280
+code execution vulnerabilities these
+
+149
+00:06:26,280 --> 00:06:28,170
+type of vulnerabilities allow<font color="#E5E5E5"> us to</font>
+
+150
+00:06:28,170 --> 00:06:30,990
+execute operating system code on the
+
+151
+00:06:30,990 --> 00:06:33,120
+target server<font color="#E5E5E5"> so if the target server</font>
+
+152
+00:06:33,120 --> 00:06:34,860
+uses<font color="#E5E5E5"> Windows will be able to execute</font>
+
+153
+00:06:34,860 --> 00:06:37,200
+<font color="#CCCCCC">Windows commands</font><font color="#E5E5E5"> if it uses</font><font color="#CCCCCC"> Linux then</font>
+
+154
+00:06:37,200 --> 00:06:38,730
+<font color="#E5E5E5">we'll be able</font><font color="#CCCCCC"> to use to use the next</font>
+
+155
+00:06:38,730 --> 00:06:42,000
+command<font color="#E5E5E5"> clearly this is a really</font>
+
+156
+00:06:42,000 --> 00:06:44,430
+critical problem<font color="#E5E5E5"> that would allow us</font><font color="#CCCCCC"> to</font>
+
+157
+00:06:44,430 --> 00:06:46,440
+do anything we want<font color="#CCCCCC"> with the target</font>
+
+158
+00:06:46,440 --> 00:06:50,550
+<font color="#E5E5E5">really we can upload a PHP shell using W</font>
+
+159
+00:06:50,550 --> 00:06:53,250
+get command<font color="#E5E5E5"> or upload a payload a virus</font>
+
+160
+00:06:53,250 --> 00:06:56,280
+anything we want<font color="#E5E5E5"> using the</font><font color="#CCCCCC"> W K W</font><font color="#E5E5E5"> get</font>
+
+161
+00:06:56,280 --> 00:06:58,560
+Linux command you just need to make<font color="#CCCCCC"> sure</font>
+
+162
+00:06:58,560 --> 00:07:00,600
+<font color="#E5E5E5">that you're uploading it to</font><font color="#CCCCCC"> a file or to</font>
+
+163
+00:07:00,600 --> 00:07:02,370
+a directory which<font color="#CCCCCC"> you're allowed to</font>
+
+164
+00:07:02,370 --> 00:07:05,640
+<font color="#E5E5E5">write stuff to another</font><font color="#CCCCCC"> way of</font><font color="#E5E5E5"> exploiting</font>
+
+165
+00:07:05,640 --> 00:07:08,880
+this vulnerability<font color="#E5E5E5"> is to just run OS</font>
+
+166
+00:07:08,880 --> 00:07:11,070
+<font color="#E5E5E5">commands and get a reverse shell based</font>
+
+167
+00:07:11,070 --> 00:07:13,200
+<font color="#E5E5E5">on</font><font color="#CCCCCC"> these commands</font><font color="#E5E5E5"> so because we can run</font>
+
+168
+00:07:13,200 --> 00:07:15,630
+operating system commands we<font color="#CCCCCC"> can use the</font>
+
+169
+00:07:15,630 --> 00:07:17,490
+<font color="#E5E5E5">programming languages supported by that</font>
+
+170
+00:07:17,490 --> 00:07:20,550
+operating<font color="#E5E5E5"> system to try and get a</font>
+
+171
+00:07:20,550 --> 00:07:24,570
+reverse connection or on<font color="#CCCCCC"> our computer so</font>
+
+172
+00:07:24,570 --> 00:07:27,600
+first of all let's<font color="#CCCCCC"> just assume that</font>
+
+173
+00:07:27,600 --> 00:07:30,930
+<font color="#CCCCCC">we're browsing here and we managed we're</font>
+
+174
+00:07:30,930 --> 00:07:34,890
+going<font color="#E5E5E5"> around and then we got to a tab in</font>
+
+175
+00:07:34,890 --> 00:07:37,590
+the<font color="#CCCCCC"> website where it allows you</font><font color="#E5E5E5"> to for</font>
+
+176
+00:07:37,590 --> 00:07:39,780
+example<font color="#CCCCCC"> do a ping now</font><font color="#E5E5E5"> what you</font><font color="#CCCCCC"> should do</font>
+
+177
+00:07:39,780 --> 00:07:42,690
+is you should<font color="#E5E5E5"> always try to experiment</font>
+
+178
+00:07:42,690 --> 00:07:45,450
+<font color="#E5E5E5">with any input box you see try to see</font>
+
+179
+00:07:45,450 --> 00:07:48,120
+what<font color="#E5E5E5"> that input box does and what can</font>
+
+180
+00:07:48,120 --> 00:07:50,730
+<font color="#E5E5E5">you inject into it what can you do to</font>
+
+181
+00:07:50,730 --> 00:07:53,280
+get stuff running<font color="#E5E5E5"> so for example this</font>
+
+182
+00:07:53,280 --> 00:07:54,780
+input box is<font color="#E5E5E5"> telling you it's</font><font color="#CCCCCC"> going to</font>
+
+183
+00:07:54,780 --> 00:07:57,210
+do a ping and if you<font color="#E5E5E5"> put an IV for</font>
+
+184
+00:07:57,210 --> 00:08:00,330
+<font color="#E5E5E5">example I'm gonna put 10 2014 203 which</font>
+
+185
+00:08:00,330 --> 00:08:03,720
+is my own IP just to see it to use it as
+
+186
+00:08:03,720 --> 00:08:05,460
+a<font color="#CCCCCC"> normal person</font><font color="#E5E5E5"> and I'm gonna</font><font color="#CCCCCC"> do a</font>
+
+187
+00:08:05,460 --> 00:08:07,830
+submit and it's gonna go ahead<font color="#CCCCCC"> and ping</font>
+
+188
+00:08:07,830 --> 00:08:10,080
+it for me and give me<font color="#E5E5E5"> the pink results</font>
+
+189
+00:08:10,080 --> 00:08:12,500
+<font color="#E5E5E5">so what looks</font><font color="#CCCCCC"> like here it's actually</font>
+
+190
+00:08:12,500 --> 00:08:16,500
+<font color="#E5E5E5">executing the ping</font><font color="#CCCCCC"> command and Linux</font>
+
+191
+00:08:16,500 --> 00:08:19,140
+<font color="#CCCCCC">systems</font><font color="#E5E5E5"> now let's see if we can exploit</font>
+
+192
+00:08:19,140 --> 00:08:21,660
+that<font color="#CCCCCC"> if it's actually executing the ping</font>
+
+193
+00:08:21,660 --> 00:08:23,790
+<font color="#CCCCCC">command so what it's doing is it's going</font>
+
+194
+00:08:23,790 --> 00:08:29,940
+<font color="#E5E5E5">and it's doing so we're sending 10 2014</font>
+
+195
+00:08:29,940 --> 00:08:32,760
+2<font color="#CCCCCC"> o3</font><font color="#E5E5E5"> as the pink and then it's going to</font>
+
+196
+00:08:32,760 --> 00:08:35,159
+<font color="#E5E5E5">the to the web server and</font><font color="#CCCCCC"> the web server</font>
+
+197
+00:08:35,159 --> 00:08:35,950
+<font color="#E5E5E5">is do</font>
+
+198
+00:08:35,950 --> 00:08:41,480
+<font color="#CCCCCC">thing 10 2014 2 or 3</font>
+
+199
+00:08:41,480 --> 00:08:44,030
+so let's see if<font color="#E5E5E5"> we can exploit this how</font>
+
+200
+00:08:44,030 --> 00:08:46,460
+would<font color="#E5E5E5"> we exploit it</font><font color="#CCCCCC"> if it's taken what</font>
+
+201
+00:08:46,460 --> 00:08:48,950
+we're<font color="#E5E5E5"> importing right here and then it's</font>
+
+202
+00:08:48,950 --> 00:08:54,650
+<font color="#CCCCCC">doing</font><font color="#E5E5E5"> pink that now in Linux and UNIX</font>
+
+203
+00:08:54,650 --> 00:08:58,070
+based commands you can<font color="#CCCCCC"> use the this sign</font>
+
+204
+00:08:58,070 --> 00:09:01,970
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> execute multiple</font><font color="#CCCCCC"> commands</font><font color="#E5E5E5"> on one line</font>
+
+205
+00:09:01,970 --> 00:09:05,240
+<font color="#CCCCCC">so if you do this</font><font color="#E5E5E5"> if for</font><font color="#CCCCCC"> example in your</font>
+
+206
+00:09:05,240 --> 00:09:07,340
+own terminal<font color="#CCCCCC"> so I'm</font><font color="#E5E5E5"> just going to go to</font>
+
+207
+00:09:07,340 --> 00:09:09,200
+<font color="#E5E5E5">my</font><font color="#CCCCCC"> terminal here and I'm just</font><font color="#E5E5E5"> going to</font>
+
+208
+00:09:09,200 --> 00:09:11,960
+do LS which is the list command and then
+
+209
+00:09:11,960 --> 00:09:14,930
+PWD is what lists<font color="#E5E5E5"> what shows your</font>
+
+210
+00:09:14,930 --> 00:09:17,350
+<font color="#CCCCCC">working directory so if I do an LS</font>
+
+211
+00:09:17,350 --> 00:09:21,320
+followed<font color="#E5E5E5"> by this sign and then do PWD it</font>
+
+212
+00:09:21,320 --> 00:09:23,720
+will execute both commands<font color="#CCCCCC"> so it will do</font>
+
+213
+00:09:23,720 --> 00:09:25,850
+this<font color="#E5E5E5"> and then it will</font><font color="#CCCCCC"> show where the</font>
+
+214
+00:09:25,850 --> 00:09:28,970
+working<font color="#E5E5E5"> directory</font><font color="#CCCCCC"> is so we can do the</font>
+
+215
+00:09:28,970 --> 00:09:30,920
+same thing with this and see if<font color="#E5E5E5"> it works</font>
+
+216
+00:09:30,920 --> 00:09:33,890
+for<font color="#CCCCCC"> us so we're gonna put an</font><font color="#E5E5E5"> IV a</font><font color="#CCCCCC"> write</font>
+
+217
+00:09:33,890 --> 00:09:36,560
+IP and then<font color="#E5E5E5"> I'm</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> gonna do PWD and</font>
+
+218
+00:09:36,560 --> 00:09:39,310
+see if it<font color="#E5E5E5"> will execute the PWD for me</font><font color="#CCCCCC"> if</font>
+
+219
+00:09:39,310 --> 00:09:42,350
+it does then this is a code execution
+
+220
+00:09:42,350 --> 00:09:44,900
+vulnerability and I can execute<font color="#E5E5E5"> anything</font>
+
+221
+00:09:44,900 --> 00:09:47,330
+I want<font color="#E5E5E5"> on the server so let's see what's</font>
+
+222
+00:09:47,330 --> 00:09:49,580
+<font color="#CCCCCC">going to</font><font color="#E5E5E5"> happen I pasted this and I'm</font>
+
+223
+00:09:49,580 --> 00:09:53,450
+<font color="#E5E5E5">gonna hit submit now as we can see we</font>
+
+224
+00:09:53,450 --> 00:09:56,210
+<font color="#CCCCCC">got big results</font><font color="#E5E5E5"> but at the end we got</font>
+
+225
+00:09:56,210 --> 00:09:58,070
+our current working directory<font color="#CCCCCC"> so it's</font>
+
+226
+00:09:58,070 --> 00:10:03,470
+very www<font color="#E5E5E5"> DV w</font><font color="#CCCCCC"> ie</font><font color="#E5E5E5"> vulnerability is an</font>
+
+227
+00:10:03,470 --> 00:10:07,430
+<font color="#E5E5E5">exit so it executed the PWD that</font><font color="#CCCCCC"> I</font>
+
+228
+00:10:07,430 --> 00:10:09,980
+inserted<font color="#E5E5E5"> and that means I can insert any</font>
+
+229
+00:10:09,980 --> 00:10:12,050
+commands<font color="#CCCCCC"> I want in there and they'll</font><font color="#E5E5E5"> be</font>
+
+230
+00:10:12,050 --> 00:10:16,910
+<font color="#CCCCCC">executed so I've inserted</font><font color="#E5E5E5"> a resources</font>
+
+231
+00:10:16,910 --> 00:10:20,330
+<font color="#E5E5E5">file that will that you can use to get</font>
+
+232
+00:10:20,330 --> 00:10:22,280
+reverse connection from the target
+
+233
+00:10:22,280 --> 00:10:24,860
+computer<font color="#E5E5E5"> now there's a</font><font color="#CCCCCC"> number of</font><font color="#E5E5E5"> ways a</font>
+
+234
+00:10:24,860 --> 00:10:26,570
+number of commands that<font color="#E5E5E5"> would give you a</font>
+
+235
+00:10:26,570 --> 00:10:28,670
+reverse connection all these commands
+
+236
+00:10:28,670 --> 00:10:30,440
+depend on the programming<font color="#E5E5E5"> language so</font>
+
+237
+00:10:30,440 --> 00:10:33,080
+for example we have commands<font color="#CCCCCC"> at PHP we</font>
+
+238
+00:10:33,080 --> 00:10:35,030
+have commands Ruby you have Perl
+
+239
+00:10:35,030 --> 00:10:37,850
+commands<font color="#E5E5E5"> and we have the</font><font color="#CCCCCC"> 1 for bash bash</font>
+
+240
+00:10:37,850 --> 00:10:42,320
+is the linux shell command language<font color="#E5E5E5"> so</font>
+
+241
+00:10:42,320 --> 00:10:45,260
+all<font color="#E5E5E5"> UNIX operating systems will be able</font>
+
+242
+00:10:45,260 --> 00:10:48,440
+to execute bash<font color="#E5E5E5"> commands so that's a</font>
+
+243
+00:10:48,440 --> 00:10:52,660
+very<font color="#E5E5E5"> very good</font><font color="#CCCCCC"> way of</font><font color="#E5E5E5"> doing it so</font><font color="#CCCCCC"> most</font>
+
+244
+00:10:52,660 --> 00:10:55,430
+<font color="#CCCCCC">UNIX system</font><font color="#E5E5E5"> this command should work</font>
+
+245
+00:10:55,430 --> 00:10:58,250
+on most<font color="#E5E5E5"> UNIX based systems so this would</font>
+
+246
+00:10:58,250 --> 00:10:59,980
+be a really<font color="#E5E5E5"> good way</font><font color="#CCCCCC"> of doing it again</font>
+
+247
+00:10:59,980 --> 00:11:02,870
+<font color="#CCCCCC">most</font><font color="#E5E5E5"> of them would have Python so Python</font>
+
+248
+00:11:02,870 --> 00:11:05,360
+<font color="#CCCCCC">would</font><font color="#E5E5E5"> be a good way netcat most of them</font>
+
+249
+00:11:05,360 --> 00:11:07,460
+do have<font color="#E5E5E5"> net cat as well</font><font color="#CCCCCC"> so net cat is a</font>
+
+250
+00:11:07,460 --> 00:11:09,590
+good way of doing<font color="#CCCCCC"> that</font><font color="#E5E5E5"> and we're</font>
+
+251
+00:11:09,590 --> 00:11:11,060
+actually going<font color="#CCCCCC"> to use net cat in this</font>
+
+252
+00:11:11,060 --> 00:11:14,030
+video<font color="#E5E5E5"> so what I'm going to do is first</font>
+
+253
+00:11:14,030 --> 00:11:15,800
+I'm gonna listen<font color="#CCCCCC"> for connections just</font>
+
+254
+00:11:15,800 --> 00:11:17,420
+like we used<font color="#E5E5E5"> to do with</font><font color="#CCCCCC"> Metasploit when</font>
+
+255
+00:11:17,420 --> 00:11:19,730
+we used<font color="#E5E5E5"> to do multi handler you can</font>
+
+256
+00:11:19,730 --> 00:11:21,410
+actually<font color="#E5E5E5"> use a multi handler for this</font>
+
+257
+00:11:21,410 --> 00:11:23,660
+<font color="#E5E5E5">and listen for connections</font><font color="#CCCCCC"> but</font><font color="#E5E5E5"> I'm just</font>
+
+258
+00:11:23,660 --> 00:11:25,430
+gonna<font color="#E5E5E5"> keep it simpler</font><font color="#CCCCCC"> and show you a new</font>
+
+259
+00:11:25,430 --> 00:11:28,220
+way<font color="#E5E5E5"> and I'm gonna use that</font><font color="#CCCCCC"> cat so net</font>
+
+260
+00:11:28,220 --> 00:11:30,430
+cat
+
+261
+00:11:32,910 --> 00:11:34,920
+netiquette is just a tool that allows
+
+262
+00:11:34,920 --> 00:11:37,350
+<font color="#CCCCCC">you</font><font color="#E5E5E5"> to listen and connect computers</font>
+
+263
+00:11:37,350 --> 00:11:39,899
+together<font color="#E5E5E5"> so I'm</font><font color="#CCCCCC"> gonna listen on port</font>
+
+264
+00:11:39,899 --> 00:11:42,839
+8080 so<font color="#E5E5E5"> netcat is the program</font><font color="#CCCCCC"> Vivi is</font>
+
+265
+00:11:42,839 --> 00:11:44,940
+just to see verbose output so we<font color="#E5E5E5"> can see</font>
+
+266
+00:11:44,940 --> 00:11:46,889
+a lot<font color="#CCCCCC"> of output anything goes wrong we</font>
+
+267
+00:11:46,889 --> 00:11:48,990
+can<font color="#E5E5E5"> see it and we're telling it</font><font color="#CCCCCC"> to</font>
+
+268
+00:11:48,990 --> 00:11:52,250
+listen<font color="#E5E5E5"> using the</font><font color="#CCCCCC"> l</font><font color="#E5E5E5"> option on port 8080</font>
+
+269
+00:11:52,250 --> 00:11:55,560
+<font color="#CCCCCC">so I'm gonna</font><font color="#E5E5E5"> hit enter and that's saying</font>
+
+270
+00:11:55,560 --> 00:11:57,569
+it's just listening on port 8080 that's
+
+271
+00:11:57,569 --> 00:12:00,240
+all it's going to do the<font color="#E5E5E5"> next command</font>
+
+272
+00:12:00,240 --> 00:12:02,639
+we're going to do is we're<font color="#CCCCCC"> going to</font><font color="#E5E5E5"> try</font>
+
+273
+00:12:02,639 --> 00:12:05,190
+to connect<font color="#E5E5E5"> from</font><font color="#CCCCCC"> the web server back to</font>
+
+274
+00:12:05,190 --> 00:12:08,069
+<font color="#CCCCCC">my computer</font><font color="#E5E5E5"> using netcat as well so</font>
+
+275
+00:12:08,069 --> 00:12:09,899
+we're assuming the web server has netcat
+
+276
+00:12:09,899 --> 00:12:12,720
+<font color="#E5E5E5">we'll</font><font color="#CCCCCC"> go</font><font color="#E5E5E5"> try it and see</font><font color="#CCCCCC"> if that works</font><font color="#E5E5E5"> so</font>
+
+277
+00:12:12,720 --> 00:12:14,459
+the command is<font color="#CCCCCC"> very simple</font><font color="#E5E5E5"> it's netcat</font>
+
+278
+00:12:14,459 --> 00:12:17,069
+and we're telling it to use brain bash
+
+279
+00:12:17,069 --> 00:12:21,360
+and we're giving it the<font color="#E5E5E5"> IP of my device</font>
+
+280
+00:12:21,360 --> 00:12:26,870
+<font color="#E5E5E5">my attacker device which is 10 2014</font>
+
+281
+00:12:27,550 --> 00:12:31,420
+and then the port which is<font color="#E5E5E5"> 80 80 which</font>
+
+282
+00:12:31,420 --> 00:12:34,959
+is<font color="#E5E5E5"> we're listening on right here so I'm</font>
+
+283
+00:12:34,959 --> 00:12:38,200
+gonna copy<font color="#CCCCCC"> that and I'm</font><font color="#E5E5E5"> just gonna</font>
+
+284
+00:12:38,200 --> 00:12:39,910
+execute it the<font color="#E5E5E5"> same way we used to</font>
+
+285
+00:12:39,910 --> 00:12:44,280
+execute<font color="#E5E5E5"> the PW the PWD command</font>
+
+286
+00:12:44,280 --> 00:12:49,640
+so the last thing we<font color="#CCCCCC"> did was 10:20</font>
+
+287
+00:12:50,320 --> 00:12:54,160
+<font color="#CCCCCC">14 203</font>
+
+288
+00:12:54,420 --> 00:12:57,089
+and then we did PWD<font color="#E5E5E5"> so what I'm gonna do</font>
+
+289
+00:12:57,089 --> 00:12:59,399
+now I'm<font color="#E5E5E5"> gonna remove</font><font color="#CCCCCC"> the PWD</font><font color="#E5E5E5"> and paste</font>
+
+290
+00:12:59,399 --> 00:13:02,160
+the code that<font color="#CCCCCC"> we just created</font><font color="#E5E5E5"> which will</font>
+
+291
+00:13:02,160 --> 00:13:05,100
+try<font color="#CCCCCC"> to connect</font><font color="#E5E5E5"> from</font><font color="#CCCCCC"> the web server back</font>
+
+292
+00:13:05,100 --> 00:13:06,839
+<font color="#E5E5E5">to the</font><font color="#CCCCCC"> callee machine</font><font color="#E5E5E5"> to the attacker</font>
+
+293
+00:13:06,839 --> 00:13:10,800
+machine<font color="#E5E5E5"> and I'm gonna come here</font><font color="#CCCCCC"> and as</font>
+
+294
+00:13:10,800 --> 00:13:12,360
+you can see<font color="#E5E5E5"> we got a</font><font color="#CCCCCC"> connection back</font>
+
+295
+00:13:12,360 --> 00:13:17,310
+from<font color="#CCCCCC"> two to us from 10 2014 204</font>
+
+296
+00:13:17,310 --> 00:13:20,459
+so that's the<font color="#E5E5E5"> target computer</font><font color="#CCCCCC"> and if we</font>
+
+297
+00:13:20,459 --> 00:13:23,160
+do a PWD you'll see that we<font color="#E5E5E5"> have a</font>
+
+298
+00:13:23,160 --> 00:13:26,810
+<font color="#CCCCCC">reversal if we do an LS if we do an ID</font>
+
+299
+00:13:26,810 --> 00:13:30,300
+you'll see<font color="#E5E5E5"> that</font><font color="#CCCCCC"> word every W data and if</font>
+
+300
+00:13:30,300 --> 00:13:33,410
+we do a you name a just to confirm that
+
+301
+00:13:33,410 --> 00:13:36,389
+<font color="#CCCCCC">I'm in the meet exploitable</font><font color="#E5E5E5"> and you can</font>
+
+302
+00:13:36,389 --> 00:13:38,519
+see<font color="#E5E5E5"> the</font><font color="#CCCCCC"> momentum is exploitable</font><font color="#E5E5E5"> and I'm</font>
+
+303
+00:13:38,519 --> 00:13:41,040
+<font color="#E5E5E5">able</font><font color="#CCCCCC"> to run any command</font><font color="#E5E5E5"> that I want on</font>
+
+304
+00:13:41,040 --> 00:13:43,110
+the target computer<font color="#E5E5E5"> so basically I have</font>
+
+305
+00:13:43,110 --> 00:13:47,180
+full<font color="#E5E5E5"> access to</font><font color="#CCCCCC"> the target</font><font color="#E5E5E5"> computer</font>
+
+306
+00:13:49,629 --> 00:13:52,910
+<font color="#E5E5E5">okay now that we managed to execute</font>
+
+307
+00:13:52,910 --> 00:13:55,699
+commands<font color="#E5E5E5"> on</font><font color="#CCCCCC"> the server using the</font><font color="#E5E5E5"> low</font>
+
+308
+00:13:55,699 --> 00:13:58,100
+<font color="#E5E5E5">security settings let's see if we can</font>
+
+309
+00:13:58,100 --> 00:14:00,709
+set<font color="#CCCCCC"> it up to medium and if we can do the</font>
+
+310
+00:14:00,709 --> 00:14:03,800
+same<font color="#CCCCCC"> after increasing</font><font color="#E5E5E5"> the security so we</font>
+
+311
+00:14:03,800 --> 00:14:05,990
+<font color="#E5E5E5">covered the basic case and now I'm going</font>
+
+312
+00:14:05,990 --> 00:14:08,449
+<font color="#E5E5E5">to go to security and I'm gonna send set</font>
+
+313
+00:14:08,449 --> 00:14:11,360
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> security level to medium</font><font color="#E5E5E5"> I'm gonna</font>
+
+314
+00:14:11,360 --> 00:14:14,269
+<font color="#E5E5E5">submit this then we're gonna go back</font><font color="#CCCCCC"> to</font>
+
+315
+00:14:14,269 --> 00:14:17,029
+<font color="#CCCCCC">our command execution</font><font color="#E5E5E5"> and I'm gonna</font>
+
+316
+00:14:17,029 --> 00:14:18,920
+input my IP now I<font color="#CCCCCC"> just want to know that</font>
+
+317
+00:14:18,920 --> 00:14:20,809
+<font color="#E5E5E5">my IP is different now</font>
+
+318
+00:14:20,809 --> 00:14:23,449
+if you notice that the IP of the server
+
+319
+00:14:23,449 --> 00:14:27,709
+right now<font color="#E5E5E5"> is 209 and my machine</font><font color="#CCCCCC"> IP is 2i</font>
+
+320
+00:14:27,709 --> 00:14:30,879
+<font color="#CCCCCC">if I do with</font><font color="#E5E5E5"> conflict</font>
+
+321
+00:14:31,160 --> 00:14:34,100
+you can see that<font color="#E5E5E5"> the IP</font><font color="#CCCCCC"> of my caddy</font>
+
+322
+00:14:34,100 --> 00:14:37,040
+machine is 208<font color="#CCCCCC"> so again I'm gonna try</font><font color="#E5E5E5"> to</font>
+
+323
+00:14:37,040 --> 00:14:38,720
+<font color="#E5E5E5">think the</font><font color="#CCCCCC"> Cali machine let's just first</font>
+
+324
+00:14:38,720 --> 00:14:41,870
+<font color="#E5E5E5">see if we can think something so we're</font>
+
+325
+00:14:41,870 --> 00:14:43,519
+assuming that<font color="#E5E5E5"> we</font><font color="#CCCCCC"> don't know this website</font>
+
+326
+00:14:43,519 --> 00:14:45,829
+and again<font color="#E5E5E5"> this is going from a black box</font>
+
+327
+00:14:45,829 --> 00:14:48,019
+<font color="#E5E5E5">point of view so we're not going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> look</font>
+
+328
+00:14:48,019 --> 00:14:50,839
+at the source code<font color="#CCCCCC"> so we're just gonna</font>
+
+329
+00:14:50,839 --> 00:14:53,149
+run<font color="#E5E5E5"> and this website is telling us is</font>
+
+330
+00:14:53,149 --> 00:14:55,069
+gonna pink<font color="#E5E5E5"> stuff for us so I'm just</font>
+
+331
+00:14:55,069 --> 00:14:57,889
+gonna<font color="#E5E5E5"> put the IP of</font><font color="#CCCCCC"> the Kali</font><font color="#E5E5E5"> and see if</font>
+
+332
+00:14:57,889 --> 00:14:59,899
+the<font color="#CCCCCC"> pink works</font><font color="#E5E5E5"> so we're just going to</font>
+
+333
+00:14:59,899 --> 00:15:02,500
+put<font color="#CCCCCC"> 10</font>
+
+334
+00:15:04,310 --> 00:15:06,290
+and as you can<font color="#E5E5E5"> see</font><font color="#CCCCCC"> now the pink command</font>
+
+335
+00:15:06,290 --> 00:15:09,740
+is working<font color="#CCCCCC"> now let's see</font><font color="#E5E5E5"> and try to do</font>
+
+336
+00:15:09,740 --> 00:15:12,830
+what<font color="#CCCCCC"> we</font><font color="#E5E5E5"> did</font><font color="#CCCCCC"> before</font><font color="#E5E5E5"> so we used to do we</font>
+
+337
+00:15:12,830 --> 00:15:15,590
+put the IP<font color="#E5E5E5"> and then we use the</font><font color="#CCCCCC"> semicolon</font>
+
+338
+00:15:15,590 --> 00:15:18,560
+<font color="#CCCCCC">to say that run this command</font><font color="#E5E5E5"> and this</font>
+
+339
+00:15:18,560 --> 00:15:22,100
+command<font color="#E5E5E5"> and in the low security</font><font color="#CCCCCC"> settings</font>
+
+340
+00:15:22,100 --> 00:15:24,800
+<font color="#E5E5E5">this used to work</font><font color="#CCCCCC"> for</font><font color="#E5E5E5"> us</font><font color="#CCCCCC"> so we're gonna</font>
+
+341
+00:15:24,800 --> 00:15:27,350
+<font color="#E5E5E5">submit this and at the bottom it should</font>
+
+342
+00:15:27,350 --> 00:15:28,820
+show us our<font color="#E5E5E5"> current working directory</font>
+
+343
+00:15:28,820 --> 00:15:32,240
+because<font color="#E5E5E5"> we have the PWD here so I'm</font>
+
+344
+00:15:32,240 --> 00:15:34,380
+submitting<font color="#E5E5E5"> this</font>
+
+345
+00:15:34,380 --> 00:15:36,990
+and as you can see<font color="#E5E5E5"> nothing got executed</font>
+
+346
+00:15:36,990 --> 00:15:39,120
+<font color="#E5E5E5">so not</font><font color="#CCCCCC"> even</font><font color="#E5E5E5"> the ping command</font><font color="#CCCCCC"> got</font>
+
+347
+00:15:39,120 --> 00:15:42,360
+executed<font color="#CCCCCC"> so again looking from a</font>
+
+348
+00:15:42,360 --> 00:15:44,580
+<font color="#CCCCCC">blackbox point of view</font><font color="#E5E5E5"> we're gonna think</font>
+
+349
+00:15:44,580 --> 00:15:46,410
+oh maybe they're<font color="#E5E5E5"> using some sort of</font>
+
+350
+00:15:46,410 --> 00:15:48,570
+filtering<font color="#E5E5E5"> on the semicolon so they're</font>
+
+351
+00:15:48,570 --> 00:15:50,160
+<font color="#E5E5E5">checking if the command contains a</font>
+
+352
+00:15:50,160 --> 00:15:53,940
+semicolon<font color="#CCCCCC"> then they're gonna ignore that</font>
+
+353
+00:15:53,940 --> 00:15:56,820
+<font color="#CCCCCC">command and</font><font color="#E5E5E5"> not run it so we're just</font>
+
+354
+00:15:56,820 --> 00:15:58,290
+<font color="#E5E5E5">going</font><font color="#CCCCCC"> to try</font><font color="#E5E5E5"> to use</font><font color="#CCCCCC"> another trick</font>
+
+355
+00:15:58,290 --> 00:16:00,990
+<font color="#E5E5E5">something</font><font color="#CCCCCC"> similar to the semicolon</font><font color="#E5E5E5"> so</font>
+
+356
+00:16:00,990 --> 00:16:02,940
+what we used to<font color="#E5E5E5"> do before</font><font color="#CCCCCC"> we had an</font>
+
+357
+00:16:02,940 --> 00:16:05,940
+example<font color="#CCCCCC"> of doing</font><font color="#E5E5E5"> LS so that's</font><font color="#CCCCCC"> the NIST</font>
+
+358
+00:16:05,940 --> 00:16:09,660
+command<font color="#E5E5E5"> and or and the PWD is what shows</font>
+
+359
+00:16:09,660 --> 00:16:12,030
+the working directory<font color="#CCCCCC"> and we can combine</font>
+
+360
+00:16:12,030 --> 00:16:15,990
+<font color="#E5E5E5">these</font><font color="#CCCCCC"> two by doing LS semicolon and</font><font color="#E5E5E5"> then</font>
+
+361
+00:16:15,990 --> 00:16:19,170
+<font color="#E5E5E5">we do the PWD</font>
+
+362
+00:16:19,170 --> 00:16:21,480
+and that will do both<font color="#E5E5E5"> it will do the</font>
+
+363
+00:16:21,480 --> 00:16:24,750
+Allies and<font color="#CCCCCC"> the PWD so that way you used</font>
+
+364
+00:16:24,750 --> 00:16:26,430
+to<font color="#E5E5E5"> work</font><font color="#CCCCCC"> for</font><font color="#E5E5E5"> us doesn't work anymore</font>
+
+365
+00:16:26,430 --> 00:16:28,680
+<font color="#E5E5E5">because they're probably filtering based</font>
+
+366
+00:16:28,680 --> 00:16:31,950
+on this specific character<font color="#E5E5E5"> so what we're</font>
+
+367
+00:16:31,950 --> 00:16:34,110
+<font color="#E5E5E5">gonna do is we're gonna use something</font>
+
+368
+00:16:34,110 --> 00:16:37,019
+else<font color="#E5E5E5"> available</font><font color="#CCCCCC"> for us in the UNIX</font>
+
+369
+00:16:37,019 --> 00:16:40,290
+<font color="#E5E5E5">commands which is the pipe so piping is</font>
+
+370
+00:16:40,290 --> 00:16:41,910
+really useful<font color="#E5E5E5"> when it comes to UNIX</font>
+
+371
+00:16:41,910 --> 00:16:43,889
+you'll use it a lot<font color="#CCCCCC"> what it basically</font>
+
+372
+00:16:43,889 --> 00:16:47,839
+does<font color="#E5E5E5"> it means run the first command and</font>
+
+373
+00:16:47,839 --> 00:16:50,730
+once you run<font color="#E5E5E5"> that command send the</font>
+
+374
+00:16:50,730 --> 00:16:53,010
+<font color="#CCCCCC">output or pipe the output</font><font color="#E5E5E5"> to this</font>
+
+375
+00:16:53,010 --> 00:16:55,910
+command<font color="#E5E5E5"> and run the second command on</font><font color="#CCCCCC"> it</font>
+
+376
+00:16:55,910 --> 00:16:58,889
+so essentially it will<font color="#E5E5E5"> run two commands</font>
+
+377
+00:16:58,889 --> 00:17:00,899
+<font color="#E5E5E5">in our case now you can use pipe for a</font>
+
+378
+00:17:00,899 --> 00:17:03,240
+lot of<font color="#E5E5E5"> things and it's used in two regex</font>
+
+379
+00:17:03,240 --> 00:17:05,819
+<font color="#CCCCCC">and things like</font><font color="#E5E5E5"> that for</font><font color="#CCCCCC"> us all we want</font>
+
+380
+00:17:05,819 --> 00:17:07,679
+<font color="#E5E5E5">to do is we're interested</font><font color="#CCCCCC"> into getting</font>
+
+381
+00:17:07,679 --> 00:17:10,799
+<font color="#CCCCCC">the second command to run so let's have</font>
+
+382
+00:17:10,799 --> 00:17:14,240
+an<font color="#CCCCCC"> example of</font><font color="#E5E5E5"> this so we're</font><font color="#CCCCCC"> gonna do LS</font>
+
+383
+00:17:14,240 --> 00:17:16,679
+which is going<font color="#E5E5E5"> to be similar to our ping</font>
+
+384
+00:17:16,679 --> 00:17:19,980
+<font color="#CCCCCC">and then we're</font><font color="#E5E5E5"> gonna put the pipe</font>
+
+385
+00:17:19,980 --> 00:17:22,280
+character<font color="#E5E5E5"> which</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> vertical bar</font><font color="#E5E5E5"> and</font>
+
+386
+00:17:22,280 --> 00:17:24,630
+then we're<font color="#CCCCCC"> gonna put the second command</font>
+
+387
+00:17:24,630 --> 00:17:27,780
+that the LS output should<font color="#E5E5E5"> be passed to</font>
+
+388
+00:17:27,780 --> 00:17:30,929
+now PWD that<font color="#E5E5E5"> doesn't expect any input</font><font color="#CCCCCC"> to</font>
+
+389
+00:17:30,929 --> 00:17:33,570
+be passed to it so at the moment<font color="#E5E5E5"> when we</font>
+
+390
+00:17:33,570 --> 00:17:36,570
+<font color="#E5E5E5">run this it'll basically run both but it</font>
+
+391
+00:17:36,570 --> 00:17:38,549
+won't show you<font color="#E5E5E5"> the result of running LS</font>
+
+392
+00:17:38,549 --> 00:17:41,220
+it will feed it to the PWD<font color="#E5E5E5"> and show you</font>
+
+393
+00:17:41,220 --> 00:17:44,610
+the result of PWD<font color="#E5E5E5"> so when I hit enter</font>
+
+394
+00:17:44,610 --> 00:17:49,860
+you'll<font color="#E5E5E5"> see that PWD got executed so in</font>
+
+395
+00:17:49,860 --> 00:17:51,900
+our example what's<font color="#CCCCCC"> happen is we</font><font color="#E5E5E5"> have a</font>
+
+396
+00:17:51,900 --> 00:17:55,440
+ping then we're<font color="#E5E5E5"> inputting our IP so</font>
+
+397
+00:17:55,440 --> 00:17:58,280
+we're<font color="#E5E5E5"> going to put our IP</font>
+
+398
+00:17:59,320 --> 00:18:01,090
+and then we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> use the bar</font>
+
+399
+00:18:01,090 --> 00:18:03,760
+character<font color="#CCCCCC"> and we're going</font><font color="#E5E5E5"> to put the</font>
+
+400
+00:18:03,760 --> 00:18:05,290
+second command<font color="#CCCCCC"> that we want</font><font color="#E5E5E5"> to run which</font>
+
+401
+00:18:05,290 --> 00:18:06,640
+will be the command<font color="#CCCCCC"> that</font><font color="#E5E5E5"> will give us</font>
+
+402
+00:18:06,640 --> 00:18:08,980
+<font color="#E5E5E5">shell on the server</font><font color="#CCCCCC"> but for for the</font>
+
+403
+00:18:08,980 --> 00:18:10,870
+testing we're just going<font color="#CCCCCC"> to do a PWD and</font>
+
+404
+00:18:10,870 --> 00:18:13,180
+again as you<font color="#CCCCCC"> can see we don't see the</font>
+
+405
+00:18:13,180 --> 00:18:15,040
+results<font color="#CCCCCC"> of the pink</font><font color="#E5E5E5"> we only see the</font>
+
+406
+00:18:15,040 --> 00:18:17,770
+result of the PWD<font color="#CCCCCC"> because again for the</font>
+
+407
+00:18:17,770 --> 00:18:20,290
+<font color="#CCCCCC">third</font><font color="#E5E5E5"> time this command it will run this</font>
+
+408
+00:18:20,290 --> 00:18:23,690
+and feed the<font color="#CCCCCC"> output to PWD</font>
+
+409
+00:18:23,690 --> 00:18:26,540
+so let's try this<font color="#E5E5E5"> in here so we're gonna</font>
+
+410
+00:18:26,540 --> 00:18:29,300
+do we're<font color="#E5E5E5"> gonna put our IP again like we</font>
+
+411
+00:18:29,300 --> 00:18:32,930
+<font color="#E5E5E5">did before and we</font><font color="#CCCCCC"> used</font><font color="#E5E5E5"> to put PWD like</font>
+
+412
+00:18:32,930 --> 00:18:35,780
+that but I'm just<font color="#CCCCCC"> gonna put my</font><font color="#E5E5E5"> bar</font>
+
+413
+00:18:35,780 --> 00:18:37,930
+character
+
+414
+00:18:37,930 --> 00:18:41,010
+and<font color="#CCCCCC"> enter</font>
+
+415
+00:18:41,570 --> 00:18:43,910
+and as you can<font color="#E5E5E5"> see the second command</font>
+
+416
+00:18:43,910 --> 00:18:46,430
+got<font color="#E5E5E5"> executed and we got our current</font>
+
+417
+00:18:46,430 --> 00:18:49,780
+working directory<font color="#E5E5E5"> now we can modify this</font>
+
+418
+00:18:49,780 --> 00:18:54,110
+to get a shell on our computer so again
+
+419
+00:18:54,110 --> 00:18:57,350
+we're<font color="#CCCCCC"> gonna use the bar and we're gonna</font>
+
+420
+00:18:57,350 --> 00:19:00,020
+get it to<font color="#CCCCCC"> you</font><font color="#E5E5E5"> we're</font><font color="#CCCCCC"> gonna use the exact</font>
+
+421
+00:19:00,020 --> 00:19:01,610
+same<font color="#E5E5E5"> method that</font><font color="#CCCCCC"> we use</font><font color="#E5E5E5"> last time so</font>
+
+422
+00:19:01,610 --> 00:19:05,990
+we're going to<font color="#E5E5E5"> do</font><font color="#CCCCCC"> an C minus E and</font><font color="#E5E5E5"> put</font>
+
+423
+00:19:05,990 --> 00:19:06,480
+my IP
+
+424
+00:19:06,480 --> 00:19:08,370
+[Music]
+
+425
+00:19:08,370 --> 00:19:11,550
+and then I'm going<font color="#CCCCCC"> to put the port which</font>
+
+426
+00:19:11,550 --> 00:19:15,059
+is 8080<font color="#E5E5E5"> now before I execute this I'm</font>
+
+427
+00:19:15,059 --> 00:19:17,850
+going<font color="#CCCCCC"> to listen on port 8080 for</font>
+
+428
+00:19:17,850 --> 00:19:19,650
+connection here and we're going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> use</font>
+
+429
+00:19:19,650 --> 00:19:21,120
+the same command like before<font color="#CCCCCC"> using</font>
+
+430
+00:19:21,120 --> 00:19:28,690
+netcat<font color="#E5E5E5"> so and</font><font color="#CCCCCC"> see V V</font><font color="#E5E5E5"> LP 88</font>
+
+431
+00:19:28,690 --> 00:19:31,540
+this is listening<font color="#E5E5E5"> and we're gonna</font>
+
+432
+00:19:31,540 --> 00:19:34,360
+connect back from here to the<font color="#CCCCCC"> Cali hit</font>
+
+433
+00:19:34,360 --> 00:19:36,340
+<font color="#CCCCCC">submit and sure enough we get</font><font color="#E5E5E5"> a</font>
+
+434
+00:19:36,340 --> 00:19:38,800
+<font color="#E5E5E5">connection here that allow us</font><font color="#CCCCCC"> to run any</font>
+
+435
+00:19:38,800 --> 00:19:40,780
+command we want<font color="#E5E5E5"> on</font><font color="#CCCCCC"> the server so we</font><font color="#E5E5E5"> can</font>
+
+436
+00:19:40,780 --> 00:19:44,680
+do PWD now<font color="#E5E5E5"> we can list the files we can</font>
+
+437
+00:19:44,680 --> 00:19:48,300
+<font color="#E5E5E5">get our ID or do anything we want on</font><font color="#CCCCCC"> the</font>
+
+438
+00:19:48,300 --> 00:19:50,590
+current server so we<font color="#E5E5E5"> basically managed</font>
+
+439
+00:19:50,590 --> 00:19:54,450
+to gain access to<font color="#E5E5E5"> that website</font>
+
+440
+00:19:55,440 --> 00:19:57,690
+let's talk about how we can prevent
+
+441
+00:19:57,690 --> 00:20:00,510
+these vulnerabilities now<font color="#CCCCCC"> and these</font>
+
+442
+00:20:00,510 --> 00:20:03,060
+exploits we were able<font color="#CCCCCC"> to run any code we</font>
+
+443
+00:20:03,060 --> 00:20:05,970
+wanted on<font color="#E5E5E5"> the target computer again this</font>
+
+444
+00:20:05,970 --> 00:20:07,860
+<font color="#CCCCCC">functionality should</font><font color="#E5E5E5"> be avoided you</font>
+
+445
+00:20:07,860 --> 00:20:10,290
+should avoid<font color="#E5E5E5"> allowing users to run any</font>
+
+446
+00:20:10,290 --> 00:20:13,770
+sort<font color="#E5E5E5"> of code on your server try to avoid</font>
+
+447
+00:20:13,770 --> 00:20:15,510
+all these functions such<font color="#CCCCCC"> as</font><font color="#E5E5E5"> the eval</font>
+
+448
+00:20:15,510 --> 00:20:17,340
+<font color="#CCCCCC">pass-through</font><font color="#E5E5E5"> and all these functions</font>
+
+449
+00:20:17,340 --> 00:20:20,280
+<font color="#CCCCCC">that allow</font><font color="#E5E5E5"> a user to run operating</font>
+
+450
+00:20:20,280 --> 00:20:22,650
+<font color="#E5E5E5">system code on the server if you</font>
+
+451
+00:20:22,650 --> 00:20:24,750
+absolutely<font color="#E5E5E5"> had</font><font color="#CCCCCC"> to use something like it</font>
+
+452
+00:20:24,750 --> 00:20:27,260
+then make sure you analyze the input
+
+453
+00:20:27,260 --> 00:20:30,570
+<font color="#E5E5E5">before you execute for example in the</font>
+
+454
+00:20:30,570 --> 00:20:33,270
+example<font color="#CCCCCC"> we seen where the code was doing</font>
+
+455
+00:20:33,270 --> 00:20:35,490
+<font color="#CCCCCC">a ping and it will think anything we put</font>
+
+456
+00:20:35,490 --> 00:20:38,400
+<font color="#E5E5E5">in the textbox so I'm put</font><font color="#CCCCCC"> in here</font><font color="#E5E5E5"> slash</font>
+
+457
+00:20:38,400 --> 00:20:40,160
+there<font color="#E5E5E5"> our text box</font><font color="#CCCCCC"> just to show that</font>
+
+458
+00:20:40,160 --> 00:20:42,570
+<font color="#E5E5E5">this is</font><font color="#CCCCCC"> the input</font><font color="#E5E5E5"> that we put in the</font>
+
+459
+00:20:42,570 --> 00:20:44,400
+<font color="#CCCCCC">text</font><font color="#E5E5E5"> box this is what the program</font>
+
+460
+00:20:44,400 --> 00:20:45,840
+<font color="#E5E5E5">actually looks like if it looks</font>
+
+461
+00:20:45,840 --> 00:20:47,640
+complicated<font color="#CCCCCC"> forget</font><font color="#E5E5E5"> about it we're just</font>
+
+462
+00:20:47,640 --> 00:20:49,680
+<font color="#E5E5E5">talking about the concept here so we're</font>
+
+463
+00:20:49,680 --> 00:20:52,310
+going<font color="#E5E5E5"> to be talking</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> this year</font>
+
+464
+00:20:52,310 --> 00:20:55,310
+so say for example you<font color="#CCCCCC"> put what we did</font>
+
+465
+00:20:55,310 --> 00:20:58,800
+is<font color="#CCCCCC"> we put a</font><font color="#E5E5E5"> normal IP</font>
+
+466
+00:20:58,800 --> 00:21:01,800
+and then we put the semicolon<font color="#E5E5E5"> and then</font>
+
+467
+00:21:01,800 --> 00:21:04,140
+we put a command<font color="#E5E5E5"> that we wanted to do so</font>
+
+468
+00:21:04,140 --> 00:21:07,200
+we did for<font color="#CCCCCC"> example</font><font color="#E5E5E5"> LS</font><font color="#CCCCCC"> la the problem</font>
+
+469
+00:21:07,200 --> 00:21:09,870
+with<font color="#E5E5E5"> this is the web application used to</font>
+
+470
+00:21:09,870 --> 00:21:12,990
+take this the way it is copy it<font color="#CCCCCC"> and run</font>
+
+471
+00:21:12,990 --> 00:21:15,810
+it<font color="#CCCCCC"> in here which will when you when you</font>
+
+472
+00:21:15,810 --> 00:21:19,140
+execute<font color="#E5E5E5"> this command it</font><font color="#CCCCCC"> will do the pink</font>
+
+473
+00:21:19,140 --> 00:21:22,020
+first<font color="#E5E5E5"> and then it will do the LS la</font>
+
+474
+00:21:22,020 --> 00:21:24,510
+which is the command that<font color="#E5E5E5"> we wanted what</font>
+
+475
+00:21:24,510 --> 00:21:26,790
+you<font color="#E5E5E5"> need to do is for</font><font color="#CCCCCC"> example if you had</font>
+
+476
+00:21:26,790 --> 00:21:28,650
+to do it what I advise is you just<font color="#E5E5E5"> don't</font>
+
+477
+00:21:28,650 --> 00:21:30,990
+use these<font color="#E5E5E5"> functions</font><font color="#CCCCCC"> if you had to use a</font>
+
+478
+00:21:30,990 --> 00:21:33,840
+function<font color="#E5E5E5"> a</font><font color="#CCCCCC"> function like this then what</font>
+
+479
+00:21:33,840 --> 00:21:36,660
+you<font color="#CCCCCC"> should</font><font color="#E5E5E5"> do is</font><font color="#CCCCCC"> check that the input is</font>
+
+480
+00:21:36,660 --> 00:21:38,340
+what you're expecting for example you're
+
+481
+00:21:38,340 --> 00:21:40,620
+expecting an IP<font color="#CCCCCC"> address and nothing</font><font color="#E5E5E5"> else</font>
+
+482
+00:21:40,620 --> 00:21:43,530
+<font color="#E5E5E5">so you can</font><font color="#CCCCCC"> use reg X to make sure now</font>
+
+483
+00:21:43,530 --> 00:21:45,030
+I'm not going<font color="#E5E5E5"> to talk</font><font color="#CCCCCC"> about reg X or</font>
+
+484
+00:21:45,030 --> 00:21:47,760
+<font color="#E5E5E5">what logics is reg X is</font><font color="#CCCCCC"> basically a rule</font>
+
+485
+00:21:47,760 --> 00:21:49,710
+that will<font color="#CCCCCC"> make</font><font color="#E5E5E5"> sure that the input looks</font>
+
+486
+00:21:49,710 --> 00:21:51,630
+on the<font color="#E5E5E5"> following format so it takes a</font>
+
+487
+00:21:51,630 --> 00:21:54,870
+digit digit digit digit digit digit dot
+
+488
+00:21:54,870 --> 00:21:58,050
+digit digit<font color="#E5E5E5"> which if I put anything else</font>
+
+489
+00:21:58,050 --> 00:22:00,030
+then the web application should refuse
+
+490
+00:22:00,030 --> 00:22:05,760
+it<font color="#E5E5E5"> and this is exactly what</font><font color="#CCCCCC"> the high</font>
+
+491
+00:22:05,760 --> 00:22:08,490
+security<font color="#CCCCCC"> level does for the code</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> now</font>
+
+492
+00:22:08,490 --> 00:22:10,440
+we're talking<font color="#CCCCCC"> about</font><font color="#E5E5E5"> black box testing</font>
+
+493
+00:22:10,440 --> 00:22:11,730
+and<font color="#CCCCCC"> everything</font><font color="#E5E5E5"> but I want to show you</font>
+
+494
+00:22:11,730 --> 00:22:14,850
+what<font color="#E5E5E5"> a secure code should look</font><font color="#CCCCCC"> like</font><font color="#E5E5E5"> so</font>
+
+495
+00:22:14,850 --> 00:22:17,640
+if we go to<font color="#E5E5E5"> the security settings</font><font color="#CCCCCC"> and</font>
+
+496
+00:22:17,640 --> 00:22:19,830
+<font color="#E5E5E5">I'm</font><font color="#CCCCCC"> gonna set this to high this</font><font color="#E5E5E5"> is</font>
+
+497
+00:22:19,830 --> 00:22:22,320
+actually called<font color="#E5E5E5"> impossible and the new</font>
+
+498
+00:22:22,320 --> 00:22:25,140
+versions of dvwa
+
+499
+00:22:25,140 --> 00:22:26,910
+but we're using the<font color="#E5E5E5"> one that comes with</font>
+
+500
+00:22:26,910 --> 00:22:28,740
+<font color="#CCCCCC">meet exploitable and it's just called hi</font>
+
+501
+00:22:28,740 --> 00:22:30,270
+<font color="#E5E5E5">so the reason why they</font><font color="#CCCCCC"> call it</font>
+
+502
+00:22:30,270 --> 00:22:33,420
+<font color="#CCCCCC">impossible because it's</font><font color="#E5E5E5"> very secure so</font>
+
+503
+00:22:33,420 --> 00:22:35,580
+if we go<font color="#E5E5E5"> to the command execution again</font>
+
+504
+00:22:35,580 --> 00:22:37,140
+and I'm<font color="#CCCCCC"> just</font><font color="#E5E5E5"> gonna have you the source</font>
+
+505
+00:22:37,140 --> 00:22:39,210
+to show you what they're doing<font color="#E5E5E5"> so</font>
+
+506
+00:22:39,210 --> 00:22:41,310
+they're implementing a way<font color="#E5E5E5"> very</font><font color="#CCCCCC"> similar</font>
+
+507
+00:22:41,310 --> 00:22:43,950
+to<font color="#CCCCCC"> using reg</font><font color="#E5E5E5"> X I</font><font color="#CCCCCC"> think user reg X could</font>
+
+508
+00:22:43,950 --> 00:22:47,640
+<font color="#CCCCCC">be a bit nicer for</font><font color="#E5E5E5"> in terms of like the</font>
+
+509
+00:22:47,640 --> 00:22:49,440
+look<font color="#E5E5E5"> of the code but they're using the</font>
+
+510
+00:22:49,440 --> 00:22:52,470
+same concept so basically what they have
+
+511
+00:22:52,470 --> 00:22:56,370
+is they<font color="#CCCCCC"> have the target right here so</font>
+
+512
+00:22:56,370 --> 00:22:59,610
+this<font color="#E5E5E5"> is what you</font><font color="#CCCCCC"> input this is what we</font>
+
+513
+00:22:59,610 --> 00:23:01,860
+<font color="#CCCCCC">put in</font><font color="#E5E5E5"> here so whatever you type in here</font>
+
+514
+00:23:01,860 --> 00:23:04,980
+<font color="#E5E5E5">is gonna come up as this variable</font><font color="#CCCCCC"> right</font>
+
+515
+00:23:04,980 --> 00:23:08,760
+<font color="#CCCCCC">here these</font><font color="#E5E5E5"> last dollar target so the</font>
+
+516
+00:23:08,760 --> 00:23:10,620
+first thing<font color="#CCCCCC"> that</font><font color="#E5E5E5"> they're doing is</font><font color="#CCCCCC"> there</font>
+
+517
+00:23:10,620 --> 00:23:13,290
+<font color="#CCCCCC">are</font><font color="#E5E5E5"> stripping the slashes from it</font>
+
+518
+00:23:13,290 --> 00:23:16,270
+after they do that<font color="#E5E5E5"> they're dividing the</font>
+
+519
+00:23:16,270 --> 00:23:18,100
+IP using<font color="#E5E5E5"> this function</font><font color="#CCCCCC"> so what this</font>
+
+520
+00:23:18,100 --> 00:23:21,310
+function<font color="#CCCCCC"> does it divides the IP based on</font>
+
+521
+00:23:21,310 --> 00:23:23,980
+the dot<font color="#E5E5E5"> so we have number number dot</font>
+
+522
+00:23:23,980 --> 00:23:25,810
+number number dot number number dot
+
+523
+00:23:25,810 --> 00:23:28,540
+number number so they're dividing this
+
+524
+00:23:28,540 --> 00:23:31,660
+dot into an array<font color="#E5E5E5"> so for example if you</font>
+
+525
+00:23:31,660 --> 00:23:34,860
+have an IP<font color="#CCCCCC"> let's say</font>
+
+526
+00:23:36,400 --> 00:23:41,130
+so when we<font color="#CCCCCC"> on put our IP which is 10</font>
+
+527
+00:23:41,130 --> 00:23:44,850
+2014 208
+
+528
+00:23:44,850 --> 00:23:48,300
+what this function does what the explode
+
+529
+00:23:48,300 --> 00:23:50,460
+<font color="#CCCCCC">function does right here</font><font color="#E5E5E5"> it'll</font><font color="#CCCCCC"> divide</font>
+
+530
+00:23:50,460 --> 00:23:53,940
+this into<font color="#E5E5E5"> four and</font><font color="#CCCCCC"> two an array of</font><font color="#E5E5E5"> four</font>
+
+531
+00:23:53,940 --> 00:23:55,920
+<font color="#CCCCCC">elements so the array is</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to be</font>
+
+532
+00:23:55,920 --> 00:24:02,870
+<font color="#CCCCCC">something like this</font><font color="#E5E5E5"> it will</font><font color="#CCCCCC"> be 10 2014</font>
+
+533
+00:24:02,870 --> 00:24:05,419
+<font color="#CCCCCC">to white</font>
+
+534
+00:24:05,419 --> 00:24:08,839
+<font color="#E5E5E5">okay</font><font color="#CCCCCC"> and each one of these elements can</font>
+
+535
+00:24:08,839 --> 00:24:11,509
+<font color="#CCCCCC">be accessed based on its number right</font>
+
+536
+00:24:11,509 --> 00:24:14,959
+here so what they do is they check if
+
+537
+00:24:14,959 --> 00:24:17,989
+each one<font color="#E5E5E5"> of these elements is a number</font>
+
+538
+00:24:17,989 --> 00:24:20,509
+so it checks<font color="#CCCCCC"> if</font><font color="#E5E5E5"> it's numeric for the</font>
+
+539
+00:24:20,509 --> 00:24:23,809
+update for<font color="#E5E5E5"> the zero for the one 42 and</font>
+
+540
+00:24:23,809 --> 00:24:26,839
+43 and that checks<font color="#CCCCCC"> for this element this</font>
+
+541
+00:24:26,839 --> 00:24:29,659
+element this element<font color="#E5E5E5"> and this element so</font>
+
+542
+00:24:29,659 --> 00:24:31,279
+they're making<font color="#CCCCCC"> sure</font><font color="#E5E5E5"> that we have a</font>
+
+543
+00:24:31,279 --> 00:24:34,070
+number number number number<font color="#E5E5E5"> so when we</font>
+
+544
+00:24:34,070 --> 00:24:35,950
+try<font color="#CCCCCC"> to inject our code right here</font>
+
+545
+00:24:35,950 --> 00:24:38,599
+<font color="#CCCCCC">regardless of what characters we use</font><font color="#E5E5E5"> our</font>
+
+546
+00:24:38,599 --> 00:24:40,909
+<font color="#E5E5E5">words what tricks we use as long as</font>
+
+547
+00:24:40,909 --> 00:24:42,799
+<font color="#CCCCCC">we're going</font><font color="#E5E5E5"> to input characters in here</font>
+
+548
+00:24:42,799 --> 00:24:45,829
+<font color="#E5E5E5">for example PWD the characters are</font><font color="#CCCCCC"> gonna</font>
+
+549
+00:24:45,829 --> 00:24:48,529
+<font color="#CCCCCC">go into</font><font color="#E5E5E5"> here as well into the last</font>
+
+550
+00:24:48,529 --> 00:24:51,379
+element<font color="#E5E5E5"> and when this last element gets</font>
+
+551
+00:24:51,379 --> 00:24:54,589
+checked in<font color="#E5E5E5"> using this function using</font><font color="#CCCCCC"> the</font>
+
+552
+00:24:54,589 --> 00:24:58,339
+is numeric<font color="#CCCCCC"> sum function it will give an</font>
+
+553
+00:24:58,339 --> 00:25:00,799
+<font color="#E5E5E5">error because obviously this is</font><font color="#CCCCCC"> not</font>
+
+554
+00:25:00,799 --> 00:25:04,759
+<font color="#E5E5E5">number</font><font color="#CCCCCC"> 208</font><font color="#E5E5E5"> semicolon PWD is not a number</font>
+
+555
+00:25:04,759 --> 00:25:08,119
+<font color="#CCCCCC">and that'll give us an error saying that</font>
+
+556
+00:25:08,119 --> 00:25:11,209
+we have<font color="#E5E5E5"> entered an invalid IP so the</font>
+
+557
+00:25:11,209 --> 00:25:13,519
+<font color="#E5E5E5">best way to do this again is to make</font>
+
+558
+00:25:13,519 --> 00:25:16,039
+sure<font color="#E5E5E5"> what the user inputted is what</font>
+
+559
+00:25:16,039 --> 00:25:17,809
+you're expecting in this case<font color="#CCCCCC"> we're</font>
+
+560
+00:25:17,809 --> 00:25:20,509
+expecting a number number number number
+
+561
+00:25:20,509 --> 00:25:22,249
+dot number number number dot number
+
+562
+00:25:22,249 --> 00:25:24,499
+number number dot number number number
+
+563
+00:25:24,499 --> 00:25:26,839
+so dividing this into<font color="#E5E5E5"> four elements and</font>
+
+564
+00:25:26,839 --> 00:25:28,729
+<font color="#E5E5E5">make sure each one of these elements is</font>
+
+565
+00:25:28,729 --> 00:25:32,089
+a number<font color="#E5E5E5"> will help us to protect this</font>
+
+566
+00:25:32,089 --> 00:25:34,789
+<font color="#CCCCCC">input and validate the input that it is</font>
+
+567
+00:25:34,789 --> 00:25:37,669
+correct<font color="#CCCCCC"> and it won't be odd hackers</font><font color="#E5E5E5"> want</font>
+
+568
+00:25:37,669 --> 00:25:39,649
+<font color="#E5E5E5">to be able to use it to</font><font color="#CCCCCC"> hack into our</font>
+
+569
+00:25:39,649 --> 00:25:42,070
+<font color="#E5E5E5">server</font>
+
+570
+00:25:42,580 --> 00:25:45,520
+local file inclusion vulnerabilities
+
+571
+00:25:45,520 --> 00:25:48,590
+these exploits<font color="#E5E5E5"> or vulnerabilities allow</font>
+
+572
+00:25:48,590 --> 00:25:52,190
+you to read any file<font color="#E5E5E5"> that is within the</font>
+
+573
+00:25:52,190 --> 00:25:56,090
+same server<font color="#E5E5E5"> so even if the file exists</font>
+
+574
+00:25:56,090 --> 00:26:00,260
+outside the<font color="#E5E5E5"> VAR www you'll be</font><font color="#CCCCCC"> able to</font>
+
+575
+00:26:00,260 --> 00:26:03,170
+read it and read info with it now why
+
+576
+00:26:03,170 --> 00:26:05,810
+this<font color="#E5E5E5"> vulnerability is critical because</font>
+
+577
+00:26:05,810 --> 00:26:09,470
+you<font color="#CCCCCC"> can read any files so if the users</font>
+
+578
+00:26:09,470 --> 00:26:11,720
+are storing some sort of important files
+
+579
+00:26:11,720 --> 00:26:15,440
+or password files then you'll be able<font color="#CCCCCC"> to</font>
+
+580
+00:26:15,440 --> 00:26:17,120
+read them and<font color="#E5E5E5"> then from there you can</font>
+
+581
+00:26:17,120 --> 00:26:20,720
+<font color="#E5E5E5">further exploit your target also if</font>
+
+582
+00:26:20,720 --> 00:26:22,370
+there is a<font color="#CCCCCC"> number of websites</font><font color="#E5E5E5"> on the</font>
+
+583
+00:26:22,370 --> 00:26:24,950
+same server<font color="#E5E5E5"> and you managed to find this</font>
+
+584
+00:26:24,950 --> 00:26:26,540
+on a website<font color="#E5E5E5"> that you're not targeting</font>
+
+585
+00:26:26,540 --> 00:26:29,000
+<font color="#E5E5E5">then you might be able to</font><font color="#CCCCCC"> access files</font>
+
+586
+00:26:29,000 --> 00:26:31,490
+related<font color="#CCCCCC"> to you</font><font color="#E5E5E5"> to the website that</font>
+
+587
+00:26:31,490 --> 00:26:33,350
+<font color="#CCCCCC">you're</font><font color="#E5E5E5"> targeting and then further</font>
+
+588
+00:26:33,350 --> 00:26:37,400
+exploit your website from there<font color="#E5E5E5"> so let's</font>
+
+589
+00:26:37,400 --> 00:26:39,350
+have a look on<font color="#E5E5E5"> this and we'll also the</font>
+
+590
+00:26:39,350 --> 00:26:41,030
+way we're going<font color="#E5E5E5"> to be exploiting this</font>
+
+591
+00:26:41,030 --> 00:26:44,030
+<font color="#E5E5E5">vulnerability is through the URL so</font>
+
+592
+00:26:44,030 --> 00:26:47,330
+usually in our code execution example we
+
+593
+00:26:47,330 --> 00:26:50,350
+were writing<font color="#E5E5E5"> the code in</font><font color="#CCCCCC"> here now</font>
+
+594
+00:26:50,350 --> 00:26:54,200
+sometimes you<font color="#E5E5E5"> might find the code burned</font>
+
+595
+00:26:54,200 --> 00:26:56,540
+<font color="#CCCCCC">a vulnerability</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> URL so it will</font>
+
+596
+00:26:56,540 --> 00:26:58,910
+be something like CMD and then you put
+
+597
+00:26:58,910 --> 00:27:00,800
+the command<font color="#CCCCCC"> or</font><font color="#E5E5E5"> for</font><font color="#CCCCCC"> example in this</font><font color="#E5E5E5"> case</font>
+
+598
+00:27:00,800 --> 00:27:03,710
+it would<font color="#CCCCCC"> be IP equals to the IP for</font>
+
+599
+00:27:03,710 --> 00:27:09,410
+example 10 2014 2 O 3<font color="#CCCCCC"> and then you do</font>
+
+600
+00:27:09,410 --> 00:27:11,150
+you put the sign and<font color="#E5E5E5"> then you put your</font>
+
+601
+00:27:11,150 --> 00:27:14,480
+<font color="#E5E5E5">PWD after it for example</font><font color="#CCCCCC"> so because our</font>
+
+602
+00:27:14,480 --> 00:27:18,320
+example<font color="#E5E5E5"> was just in the text box same is</font>
+
+603
+00:27:18,320 --> 00:27:20,570
+<font color="#E5E5E5">gonna happen here</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> our file inclusion</font>
+
+604
+00:27:20,570 --> 00:27:23,330
+vulnerability so we can see that when
+
+605
+00:27:23,330 --> 00:27:27,200
+you're<font color="#E5E5E5"> in here</font><font color="#CCCCCC"> in</font><font color="#E5E5E5"> this URL it's saying</font>
+
+606
+00:27:27,200 --> 00:27:31,670
+that<font color="#E5E5E5"> this file is</font><font color="#CCCCCC"> gonna take a page and</font>
+
+607
+00:27:31,670 --> 00:27:34,220
+it's loading something<font color="#E5E5E5"> called include</font>
+
+608
+00:27:34,220 --> 00:27:36,680
+<font color="#E5E5E5">PHP so it looks</font><font color="#CCCCCC"> like it's actually</font>
+
+609
+00:27:36,680 --> 00:27:39,020
+loading another<font color="#E5E5E5"> page like this current</font>
+
+610
+00:27:39,020 --> 00:27:41,330
+page is loading another page called
+
+611
+00:27:41,330 --> 00:27:44,120
+<font color="#E5E5E5">include dot PHP</font><font color="#CCCCCC"> so again you'd be</font>
+
+612
+00:27:44,120 --> 00:27:46,190
+browsing<font color="#CCCCCC"> the web server and</font><font color="#E5E5E5"> trying to</font>
+
+613
+00:27:46,190 --> 00:27:47,930
+get a feel of it<font color="#CCCCCC"> and you see something</font>
+
+614
+00:27:47,930 --> 00:27:51,080
+<font color="#CCCCCC">like</font><font color="#E5E5E5"> this or you see something called IP</font>
+
+615
+00:27:51,080 --> 00:27:53,030
+equals the IP and<font color="#E5E5E5"> then you know the</font>
+
+616
+00:27:53,030 --> 00:27:55,490
+<font color="#E5E5E5">the pink for example for the previous</font>
+
+617
+00:27:55,490 --> 00:27:57,800
+video<font color="#CCCCCC"> so</font><font color="#E5E5E5"> for this that we know that our</font>
+
+618
+00:27:57,800 --> 00:28:00,470
+<font color="#CCCCCC">targets trying to open a</font><font color="#E5E5E5"> file and the</font>
+
+619
+00:28:00,470 --> 00:28:05,210
+file is<font color="#CCCCCC"> called include dot</font><font color="#E5E5E5"> PHP let's see</font>
+
+620
+00:28:05,210 --> 00:28:07,130
+if there<font color="#CCCCCC"> is actually a file called</font>
+
+621
+00:28:07,130 --> 00:28:10,010
+include dot PHP<font color="#E5E5E5"> so I'm just going</font><font color="#CCCCCC"> to</font>
+
+622
+00:28:10,010 --> 00:28:15,080
+remove<font color="#E5E5E5"> everything here and try to access</font>
+
+623
+00:28:15,080 --> 00:28:18,590
+include dot PHP directly and as we can
+
+624
+00:28:18,590 --> 00:28:20,630
+<font color="#E5E5E5">see we</font><font color="#CCCCCC"> actually do have</font><font color="#E5E5E5"> a file</font><font color="#CCCCCC"> called</font>
+
+625
+00:28:20,630 --> 00:28:23,780
+include dot PHP<font color="#E5E5E5"> it's not running</font>
+
+626
+00:28:23,780 --> 00:28:26,630
+<font color="#CCCCCC">properly but it exists and it's in the</font>
+
+627
+00:28:26,630 --> 00:28:31,820
+same working directory so let's try and
+
+628
+00:28:31,820 --> 00:28:35,420
+see if<font color="#E5E5E5"> we can read a file that is stored</font>
+
+629
+00:28:35,420 --> 00:28:38,150
+<font color="#E5E5E5">in the computer and we're going to</font><font color="#CCCCCC"> use a</font>
+
+630
+00:28:38,150 --> 00:28:41,600
+file called<font color="#CCCCCC"> ITC password</font><font color="#E5E5E5"> so that's the</font>
+
+631
+00:28:41,600 --> 00:28:43,400
+file which contains<font color="#E5E5E5"> all the users and</font>
+
+632
+00:28:43,400 --> 00:28:47,260
+<font color="#CCCCCC">their path is on the current</font><font color="#E5E5E5"> web server</font>
+
+633
+00:28:47,260 --> 00:28:51,940
+<font color="#E5E5E5">so let's have a look on this</font>
+
+634
+00:28:51,940 --> 00:28:58,060
+so<font color="#CCCCCC"> etc' this file</font><font color="#E5E5E5"> contains all the users</font>
+
+635
+00:28:58,060 --> 00:29:00,160
+for the current<font color="#E5E5E5"> operating system so if I</font>
+
+636
+00:29:00,160 --> 00:29:02,560
+just<font color="#E5E5E5"> go on</font><font color="#CCCCCC"> my caddy</font><font color="#E5E5E5"> right here and if I</font>
+
+637
+00:29:02,560 --> 00:29:08,370
+run it here<font color="#E5E5E5"> if I just do cut if</font><font color="#CCCCCC"> you see</font>
+
+638
+00:29:08,370 --> 00:29:11,650
+<font color="#E5E5E5">password you'll see all the</font><font color="#CCCCCC"> users that</font><font color="#E5E5E5"> I</font>
+
+639
+00:29:11,650 --> 00:29:16,090
+have on the current computer<font color="#E5E5E5"> and their</font>
+
+640
+00:29:16,090 --> 00:29:18,670
+default path<font color="#CCCCCC"> on the current operating</font>
+
+641
+00:29:18,670 --> 00:29:20,950
+<font color="#E5E5E5">system so we're going to try to read</font>
+
+642
+00:29:20,950 --> 00:29:24,970
+this file<font color="#E5E5E5"> and to do that let's go back</font>
+
+643
+00:29:24,970 --> 00:29:28,060
+<font color="#CCCCCC">and see our current location so our</font>
+
+644
+00:29:28,060 --> 00:29:31,060
+current<font color="#CCCCCC"> location is in</font><font color="#E5E5E5"> the FIA file and</font>
+
+645
+00:29:31,060 --> 00:29:34,350
+the FI directory so<font color="#E5E5E5"> we need to go back</font>
+
+646
+00:29:34,350 --> 00:29:39,370
+one two three four five times and then
+
+647
+00:29:39,370 --> 00:29:41,950
+<font color="#CCCCCC">go to e.t.c</font><font color="#E5E5E5"> password so going back would</font>
+
+648
+00:29:41,950 --> 00:29:46,810
+be<font color="#E5E5E5"> done using the dot dot and let's try</font>
+
+649
+00:29:46,810 --> 00:29:49,560
+and do that<font color="#E5E5E5"> so at the moment</font><font color="#CCCCCC"> were</font>
+
+650
+00:29:49,560 --> 00:29:53,320
+accessing this current file and just<font color="#CCCCCC"> to</font>
+
+651
+00:29:53,320 --> 00:29:55,000
+make<font color="#E5E5E5"> it easier for you actually let's</font>
+
+652
+00:29:55,000 --> 00:29:58,320
+<font color="#E5E5E5">just put the full path right here</font>
+
+653
+00:29:59,850 --> 00:30:02,850
+so<font color="#E5E5E5"> in the page it's trying to</font><font color="#CCCCCC"> access</font>
+
+654
+00:30:02,850 --> 00:30:05,190
+this page<font color="#E5E5E5"> so what we need we actually</font>
+
+655
+00:30:05,190 --> 00:30:08,730
+want a place called<font color="#CCCCCC"> ATC password so we</font>
+
+656
+00:30:08,730 --> 00:30:11,130
+<font color="#E5E5E5">need to go back five times for these</font>
+
+657
+00:30:11,130 --> 00:30:12,990
+directories so this one is going<font color="#CCCCCC"> to be</font>
+
+658
+00:30:12,990 --> 00:30:15,270
+let's start them<font color="#CCCCCC"> from here</font>
+
+659
+00:30:15,270 --> 00:30:25,430
+so we're going back back back back<font color="#CCCCCC"> and</font>
+
+660
+00:30:25,430 --> 00:30:29,900
+<font color="#CCCCCC">back and then we're going</font><font color="#E5E5E5"> to go to</font><font color="#CCCCCC"> e.t.c</font>
+
+661
+00:30:29,900 --> 00:30:34,350
+password<font color="#E5E5E5"> and as you can</font><font color="#CCCCCC"> see now we have</font>
+
+662
+00:30:34,350 --> 00:30:38,370
+<font color="#E5E5E5">the output of the</font><font color="#CCCCCC"> e.t.c password file</font><font color="#E5E5E5"> we</font>
+
+663
+00:30:38,370 --> 00:30:39,030
+can<font color="#E5E5E5"> copy that</font>
+
+664
+00:30:39,030 --> 00:30:42,090
+<font color="#CCCCCC">and start here and then</font><font color="#E5E5E5"> you'll</font><font color="#CCCCCC"> be able</font>
+
+665
+00:30:42,090 --> 00:30:44,550
+to read it<font color="#E5E5E5"> and</font><font color="#CCCCCC"> just get more information</font>
+
+666
+00:30:44,550 --> 00:30:46,680
+<font color="#E5E5E5">about the websites</font><font color="#CCCCCC"> that you're targeting</font>
+
+667
+00:30:46,680 --> 00:30:50,640
+<font color="#E5E5E5">right now again you can use this to try</font>
+
+668
+00:30:50,640 --> 00:30:53,190
+to access<font color="#E5E5E5"> different files sensitive</font>
+
+669
+00:30:53,190 --> 00:30:55,830
+files or files of other websites<font color="#CCCCCC"> on the</font>
+
+670
+00:30:55,830 --> 00:30:58,340
+same server
+
+671
+00:30:59,970 --> 00:31:01,679
+now let's go to the security settings
+
+672
+00:31:01,679 --> 00:31:05,429
+<font color="#CCCCCC">and I'm gonna</font><font color="#E5E5E5"> set this to medium because</font>
+
+673
+00:31:05,429 --> 00:31:06,990
+I<font color="#CCCCCC"> just want to show you that the medium</font>
+
+674
+00:31:06,990 --> 00:31:09,509
+setting<font color="#E5E5E5"> is in this is actually it can be</font>
+
+675
+00:31:09,509 --> 00:31:12,389
+<font color="#CCCCCC">exploited exactly the same</font><font color="#E5E5E5"> way as the</font>
+
+676
+00:31:12,389 --> 00:31:15,360
+<font color="#CCCCCC">low-level</font><font color="#E5E5E5"> so the security</font><font color="#CCCCCC"> set to medium</font>
+
+677
+00:31:15,360 --> 00:31:18,649
+<font color="#E5E5E5">I'm gonna go back</font><font color="#CCCCCC"> to file inclusion and</font>
+
+678
+00:31:18,649 --> 00:31:21,000
+we're gonna use the exploit the exact
+
+679
+00:31:21,000 --> 00:31:23,820
+same way that<font color="#E5E5E5"> we did</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> before</font>
+
+680
+00:31:23,820 --> 00:31:26,220
+and as you can<font color="#E5E5E5"> see we managed to get the</font>
+
+681
+00:31:26,220 --> 00:31:30,650
+contents of<font color="#CCCCCC"> etc' password</font>
+
+682
+00:31:30,650 --> 00:31:33,680
+so local file inclusion is really<font color="#CCCCCC"> good</font>
+
+683
+00:31:33,680 --> 00:31:35,960
+because<font color="#E5E5E5"> it allow</font><font color="#CCCCCC"> us to read files in the</font>
+
+684
+00:31:35,960 --> 00:31:38,360
+server and we might be<font color="#CCCCCC"> able to read</font>
+
+685
+00:31:38,360 --> 00:31:40,309
+files with passwords or sensitive
+
+686
+00:31:40,309 --> 00:31:42,000
+<font color="#E5E5E5">information</font>
+
+687
+00:31:42,000 --> 00:31:45,210
+what will be really<font color="#E5E5E5"> great is if we can</font>
+
+688
+00:31:45,210 --> 00:31:47,430
+<font color="#CCCCCC">actually gain full access or full</font>
+
+689
+00:31:47,430 --> 00:31:50,190
+control over<font color="#CCCCCC"> the target server</font><font color="#E5E5E5"> using</font>
+
+690
+00:31:50,190 --> 00:31:53,070
+local file inclusion vulnerabilities<font color="#E5E5E5"> so</font>
+
+691
+00:31:53,070 --> 00:31:55,470
+in this<font color="#E5E5E5"> lecture</font><font color="#CCCCCC"> we'll see how we</font><font color="#E5E5E5"> can get</font>
+
+692
+00:31:55,470 --> 00:31:58,140
+<font color="#E5E5E5">a reverse</font><font color="#CCCCCC"> shell by exploiting</font><font color="#E5E5E5"> the local</font>
+
+693
+00:31:58,140 --> 00:32:00,030
+file inclusion vulnerability that<font color="#E5E5E5"> we</font>
+
+694
+00:32:00,030 --> 00:32:03,510
+seen in the previous lecture<font color="#CCCCCC"> so because</font>
+
+695
+00:32:03,510 --> 00:32:05,580
+they allow us<font color="#E5E5E5"> to read files on the</font>
+
+696
+00:32:05,580 --> 00:32:08,820
+server so if we<font color="#E5E5E5"> manage to write anything</font>
+
+697
+00:32:08,820 --> 00:32:11,220
+on that server<font color="#E5E5E5"> then we can write some</font>
+
+698
+00:32:11,220 --> 00:32:13,830
+malicious code and then browse it and
+
+699
+00:32:13,830 --> 00:32:17,070
+get<font color="#E5E5E5"> that code to be executed</font><font color="#CCCCCC"> so this is</font>
+
+700
+00:32:17,070 --> 00:32:19,020
+exactly what we're gonna try<font color="#E5E5E5"> to do there</font>
+
+701
+00:32:19,020 --> 00:32:20,970
+is<font color="#CCCCCC"> a</font><font color="#E5E5E5"> number of methods to</font><font color="#CCCCCC"> achieve that</font>
+
+702
+00:32:20,970 --> 00:32:24,780
+<font color="#E5E5E5">so usually it's done using the log files</font>
+
+703
+00:32:24,780 --> 00:32:27,420
+because the log files usually register
+
+704
+00:32:27,420 --> 00:32:29,040
+or write stuff<font color="#CCCCCC"> that happens on the</font>
+
+705
+00:32:29,040 --> 00:32:31,980
+server<font color="#E5E5E5"> so you can try to log in with a</font>
+
+706
+00:32:31,980 --> 00:32:33,750
+username<font color="#E5E5E5"> but instead of putting a</font>
+
+707
+00:32:33,750 --> 00:32:36,840
+<font color="#CCCCCC">username you put a PHP</font><font color="#E5E5E5"> code or you can</font>
+
+708
+00:32:36,840 --> 00:32:39,000
+try to send an<font color="#CCCCCC"> email</font><font color="#E5E5E5"> and then instead</font><font color="#CCCCCC"> of</font>
+
+709
+00:32:39,000 --> 00:32:41,610
+the email put<font color="#E5E5E5"> a PHP code and then try</font><font color="#CCCCCC"> to</font>
+
+710
+00:32:41,610 --> 00:32:44,640
+browse these log<font color="#CCCCCC"> files and the PHP code</font>
+
+711
+00:32:44,640 --> 00:32:47,220
+will be<font color="#E5E5E5"> executed</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> first method that</font>
+
+712
+00:32:47,220 --> 00:32:49,200
+<font color="#E5E5E5">we're</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> have</font><font color="#CCCCCC"> a look on though it's</font>
+
+713
+00:32:49,200 --> 00:32:51,750
+gonna exploit the environment variable
+
+714
+00:32:51,750 --> 00:32:54,240
+so this is basically a file that
+
+715
+00:32:54,240 --> 00:32:57,870
+contains<font color="#CCCCCC"> an</font><font color="#E5E5E5"> array of information about</font>
+
+716
+00:32:57,870 --> 00:33:00,630
+the current<font color="#CCCCCC"> environment so let's just</font>
+
+717
+00:33:00,630 --> 00:33:03,030
+have<font color="#E5E5E5"> an example of this quickly</font><font color="#CCCCCC"> so right</font>
+
+718
+00:33:03,030 --> 00:33:05,070
+here I am on my<font color="#E5E5E5"> Kali machine I'm not</font>
+
+719
+00:33:05,070 --> 00:33:06,750
+talking<font color="#E5E5E5"> anything I'm not on any server</font>
+
+720
+00:33:06,750 --> 00:33:08,940
+<font color="#E5E5E5">and I'm just gonna see what's the</font>
+
+721
+00:33:08,940 --> 00:33:11,160
+content of that file so this file exists
+
+722
+00:33:11,160 --> 00:33:14,160
+in all Linux operating systems<font color="#E5E5E5"> so I'm</font>
+
+723
+00:33:14,160 --> 00:33:15,660
+just<font color="#E5E5E5"> going to</font><font color="#CCCCCC"> open</font><font color="#E5E5E5"> that file right</font><font color="#CCCCCC"> now</font>
+
+724
+00:33:15,660 --> 00:33:18,350
+using<font color="#CCCCCC"> the</font><font color="#E5E5E5"> cat command</font>
+
+725
+00:33:20,110 --> 00:33:22,630
+and as you can<font color="#E5E5E5"> see you'll see</font><font color="#CCCCCC"> a number</font>
+
+726
+00:33:22,630 --> 00:33:25,539
+<font color="#CCCCCC">of environment variables that are</font>
+
+727
+00:33:25,539 --> 00:33:28,179
+related<font color="#CCCCCC"> to the current environment</font><font color="#E5E5E5"> so</font>
+
+728
+00:33:28,179 --> 00:33:29,950
+what we're<font color="#E5E5E5"> gonna do now is we're gonna</font>
+
+729
+00:33:29,950 --> 00:33:32,909
+<font color="#E5E5E5">try to open</font><font color="#CCCCCC"> this file here in my browser</font>
+
+730
+00:33:32,909 --> 00:33:36,420
+<font color="#E5E5E5">instead of the</font><font color="#CCCCCC"> e.t.c password</font>
+
+731
+00:33:36,420 --> 00:33:38,550
+so it's going<font color="#E5E5E5"> to be in Prague self and</font>
+
+732
+00:33:38,550 --> 00:33:40,970
+<font color="#CCCCCC">Byron</font>
+
+733
+00:33:41,760 --> 00:33:44,520
+<font color="#E5E5E5">okay gonna hit enter</font>
+
+734
+00:33:44,520 --> 00:33:47,610
+and as you can see<font color="#E5E5E5"> again we can see an</font>
+
+735
+00:33:47,610 --> 00:33:49,770
+array of variables<font color="#CCCCCC"> about the current</font>
+
+736
+00:33:49,770 --> 00:33:52,679
+environment<font color="#E5E5E5"> what's interesting</font><font color="#CCCCCC"> here is</font>
+
+737
+00:33:52,679 --> 00:33:55,710
+this variable<font color="#CCCCCC"> so we can see that the</font>
+
+738
+00:33:55,710 --> 00:34:00,030
+user agent<font color="#CCCCCC"> is being sent and it's being</font>
+
+739
+00:34:00,030 --> 00:34:02,580
+displayed<font color="#CCCCCC"> right here</font><font color="#E5E5E5"> now the user agent</font>
+
+740
+00:34:02,580 --> 00:34:05,190
+<font color="#E5E5E5">basically is the current browser used by</font>
+
+741
+00:34:05,190 --> 00:34:07,830
+the by the person by the user<font color="#CCCCCC"> so</font><font color="#E5E5E5"> you can</font>
+
+742
+00:34:07,830 --> 00:34:09,810
+see that<font color="#E5E5E5"> because I'm using Firefox at</font>
+
+743
+00:34:09,810 --> 00:34:11,879
+the<font color="#CCCCCC"> web site thinks that I'm using</font>
+
+744
+00:34:11,879 --> 00:34:13,590
+Firefox which is correct<font color="#E5E5E5"> and that's</font>
+
+745
+00:34:13,590 --> 00:34:16,770
+because Firefox<font color="#E5E5E5"> every time you</font><font color="#CCCCCC"> open a</font>
+
+746
+00:34:16,770 --> 00:34:18,750
+<font color="#E5E5E5">web site it actually tells that website</font>
+
+747
+00:34:18,750 --> 00:34:20,489
+what browser it is<font color="#E5E5E5"> so this happens on</font>
+
+748
+00:34:20,489 --> 00:34:22,469
+our<font color="#CCCCCC"> website</font><font color="#E5E5E5"> so we can</font><font color="#CCCCCC"> see</font><font color="#E5E5E5"> that Firefox</font>
+
+749
+00:34:22,469 --> 00:34:24,989
+<font color="#E5E5E5">is telling the</font><font color="#CCCCCC"> website or the web</font>
+
+750
+00:34:24,989 --> 00:34:27,899
+browser<font color="#E5E5E5"> that I'm Firefox 5 and it's</font>
+
+751
+00:34:27,899 --> 00:34:31,649
+running on Linux whatever so this is
+
+752
+00:34:31,649 --> 00:34:35,369
+actually sent from the client<font color="#E5E5E5"> so we</font><font color="#CCCCCC"> can</font>
+
+753
+00:34:35,369 --> 00:34:37,949
+actually<font color="#E5E5E5"> modify</font><font color="#CCCCCC"> this value and what</font>
+
+754
+00:34:37,949 --> 00:34:39,719
+we're gonna try<font color="#CCCCCC"> to do is we're</font><font color="#E5E5E5"> gonna</font>
+
+755
+00:34:39,719 --> 00:34:43,199
+modify<font color="#E5E5E5"> the user agent value and we're</font>
+
+756
+00:34:43,199 --> 00:34:45,090
+gonna place code<font color="#E5E5E5"> that will give us</font>
+
+757
+00:34:45,090 --> 00:34:48,179
+reverse shell<font color="#E5E5E5"> before</font><font color="#CCCCCC"> we do that let's</font>
+
+758
+00:34:48,179 --> 00:34:49,619
+make<font color="#E5E5E5"> sure that</font><font color="#CCCCCC"> the code will be executed</font>
+
+759
+00:34:49,619 --> 00:34:53,639
+on<font color="#E5E5E5"> the server so we're gonna send just a</font>
+
+760
+00:34:53,639 --> 00:34:56,399
+normal PHP code<font color="#CCCCCC"> that will display PHP</font>
+
+761
+00:34:56,399 --> 00:34:59,160
+<font color="#E5E5E5">information so I'm going to turn on my</font>
+
+762
+00:34:59,160 --> 00:35:01,650
+<font color="#E5E5E5">interceptor now</font><font color="#CCCCCC"> I showed</font><font color="#E5E5E5"> you how to</font><font color="#CCCCCC"> set</font>
+
+763
+00:35:01,650 --> 00:35:03,810
+<font color="#E5E5E5">up</font><font color="#CCCCCC"> BRR proxy so if you don't know how to</font>
+
+764
+00:35:03,810 --> 00:35:05,760
+do<font color="#E5E5E5"> that</font><font color="#CCCCCC"> go back to that</font><font color="#E5E5E5"> lecture and see</font>
+
+765
+00:35:05,760 --> 00:35:08,070
+how you<font color="#E5E5E5"> can set up</font><font color="#CCCCCC"> your</font><font color="#E5E5E5"> proxy so I just</font>
+
+766
+00:35:08,070 --> 00:35:09,930
+turned<font color="#E5E5E5"> on</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> Interceptor and I'm gonna</font>
+
+767
+00:35:09,930 --> 00:35:12,890
+browse the exact same URL
+
+768
+00:35:12,890 --> 00:35:15,460
+and right here<font color="#CCCCCC"> if we go on the</font><font color="#E5E5E5"> headers</font>
+
+769
+00:35:15,460 --> 00:35:18,740
+you'll see that Firefox<font color="#E5E5E5"> is sending the</font>
+
+770
+00:35:18,740 --> 00:35:20,869
+<font color="#CCCCCC">user</font><font color="#E5E5E5"> agent right here</font><font color="#CCCCCC"> and it sent them</font>
+
+771
+00:35:20,869 --> 00:35:24,319
+it as Mozilla<font color="#CCCCCC"> 5 and then Linux whatever</font>
+
+772
+00:35:24,319 --> 00:35:26,510
+<font color="#E5E5E5">so what we're going to do is we're</font><font color="#CCCCCC"> gonna</font>
+
+773
+00:35:26,510 --> 00:35:28,430
+<font color="#E5E5E5">modify</font><font color="#CCCCCC"> this value and</font><font color="#E5E5E5"> we're gonna put</font>
+
+774
+00:35:28,430 --> 00:35:31,309
+PHP code and the code I'm gonna put is
+
+775
+00:35:31,309 --> 00:35:32,900
+very simple it will<font color="#CCCCCC"> basically just</font>
+
+776
+00:35:32,900 --> 00:35:35,390
+display<font color="#E5E5E5"> the PHP information</font><font color="#CCCCCC"> so it's a</font>
+
+777
+00:35:35,390 --> 00:35:39,609
+<font color="#E5E5E5">function called PHP info</font>
+
+778
+00:35:41,310 --> 00:35:45,860
+and then I'm<font color="#E5E5E5"> gonna forward this packet</font>
+
+779
+00:35:46,760 --> 00:35:50,210
+and as you<font color="#E5E5E5"> can</font><font color="#CCCCCC"> see the PHP code</font><font color="#E5E5E5"> got</font>
+
+780
+00:35:50,210 --> 00:35:53,120
+executed<font color="#CCCCCC"> on the on the website on the</font>
+
+781
+00:35:53,120 --> 00:35:55,310
+<font color="#E5E5E5">target website this means if we send</font>
+
+782
+00:35:55,310 --> 00:35:57,620
+malicious code<font color="#E5E5E5"> to this website will</font>
+
+783
+00:35:57,620 --> 00:35:59,570
+actually<font color="#CCCCCC"> be able to</font><font color="#E5E5E5"> gain full access or</font>
+
+784
+00:35:59,570 --> 00:36:02,690
+we can get<font color="#E5E5E5"> our code to</font><font color="#CCCCCC"> be executed now</font>
+
+785
+00:36:02,690 --> 00:36:04,970
+you can literally<font color="#E5E5E5"> send any PHP code you</font>
+
+786
+00:36:04,970 --> 00:36:08,150
+want<font color="#E5E5E5"> you can send code to list files you</font>
+
+787
+00:36:08,150 --> 00:36:11,150
+can send code<font color="#E5E5E5"> to upload the file or you</font>
+
+788
+00:36:11,150 --> 00:36:12,830
+<font color="#E5E5E5">can send one</font><font color="#CCCCCC"> of the codes that</font><font color="#E5E5E5"> we used</font>
+
+789
+00:36:12,830 --> 00:36:15,620
+before<font color="#E5E5E5"> to</font><font color="#CCCCCC"> gain a reverse connection</font><font color="#E5E5E5"> so</font>
+
+790
+00:36:15,620 --> 00:36:16,970
+that's what I'm gonna do I'm<font color="#E5E5E5"> gonna use</font>
+
+791
+00:36:16,970 --> 00:36:18,530
+the exact<font color="#CCCCCC"> same</font><font color="#E5E5E5"> code</font><font color="#CCCCCC"> that we used before</font>
+
+792
+00:36:18,530 --> 00:36:21,860
+<font color="#E5E5E5">in the previous lectures to gain full</font>
+
+793
+00:36:21,860 --> 00:36:25,850
+control<font color="#CCCCCC"> over the target</font><font color="#E5E5E5"> computer so I'm</font>
+
+794
+00:36:25,850 --> 00:36:27,350
+actually<font color="#E5E5E5"> just gonna type it</font><font color="#CCCCCC"> down here in</font>
+
+795
+00:36:27,350 --> 00:36:30,520
+terminal and then<font color="#CCCCCC"> I'm</font><font color="#E5E5E5"> gonna copy it</font>
+
+796
+00:36:30,520 --> 00:36:34,920
+so we're going<font color="#E5E5E5"> to be using</font><font color="#CCCCCC"> pass-through</font>
+
+797
+00:36:35,510 --> 00:36:38,530
+and we're<font color="#CCCCCC"> using netcat</font>
+
+798
+00:36:41,630 --> 00:36:43,490
+and then<font color="#CCCCCC"> when I'm gonna put my IP</font>
+
+799
+00:36:43,490 --> 00:36:45,570
+address
+
+800
+00:36:45,570 --> 00:36:47,730
+and I'm going to use the port which is
+
+801
+00:36:47,730 --> 00:36:49,800
+<font color="#E5E5E5">I'm</font><font color="#CCCCCC"> going to in this in this attack I'm</font>
+
+802
+00:36:49,800 --> 00:36:51,980
+going to use<font color="#CCCCCC"> eight eight eight eight</font><font color="#E5E5E5"> and</font>
+
+803
+00:36:51,980 --> 00:36:55,140
+<font color="#E5E5E5">then we put</font><font color="#CCCCCC"> this semicolon so it's the</font>
+
+804
+00:36:55,140 --> 00:36:57,960
+same<font color="#E5E5E5"> it's</font><font color="#CCCCCC"> just a PHP</font><font color="#E5E5E5"> function</font><font color="#CCCCCC"> and we use</font>
+
+805
+00:36:57,960 --> 00:37:00,060
+<font color="#CCCCCC">that in the code execution lecture so</font>
+
+806
+00:37:00,060 --> 00:37:01,470
+I'm literally<font color="#CCCCCC"> just going</font><font color="#E5E5E5"> to copy this</font>
+
+807
+00:37:01,470 --> 00:37:04,290
+and I'm<font color="#E5E5E5"> going to inject it as the user</font>
+
+808
+00:37:04,290 --> 00:37:06,510
+agent<font color="#CCCCCC"> now before I do that I'm going to</font>
+
+809
+00:37:06,510 --> 00:37:08,700
+<font color="#E5E5E5">listen on port 8080</font><font color="#CCCCCC"> eight eight</font><font color="#E5E5E5"> four</font>
+
+810
+00:37:08,700 --> 00:37:10,380
+connections so we're<font color="#E5E5E5"> going to use the</font>
+
+811
+00:37:10,380 --> 00:37:12,270
+<font color="#E5E5E5">same code</font><font color="#CCCCCC"> that we used before again with</font>
+
+812
+00:37:12,270 --> 00:37:14,750
+<font color="#CCCCCC">netcat</font>
+
+813
+00:37:18,990 --> 00:37:20,790
+and now we're listening<font color="#CCCCCC"> for</font><font color="#E5E5E5"> connections</font>
+
+814
+00:37:20,790 --> 00:37:23,490
+<font color="#E5E5E5">we have</font><font color="#CCCCCC"> our interceptor on I'm gonna</font>
+
+815
+00:37:23,490 --> 00:37:25,500
+browse the<font color="#E5E5E5"> website I'm gonna hit enter</font>
+
+816
+00:37:25,500 --> 00:37:29,810
+<font color="#CCCCCC">and I'm gonna modify the</font><font color="#E5E5E5"> user agent</font>
+
+817
+00:37:29,810 --> 00:37:32,220
+<font color="#E5E5E5">again don't</font><font color="#CCCCCC"> forget to put the question</font>
+
+818
+00:37:32,220 --> 00:37:33,780
+marks here<font color="#E5E5E5"> because I only put the code</font>
+
+819
+00:37:33,780 --> 00:37:36,090
+there so we have the opening and in the
+
+820
+00:37:36,090 --> 00:37:39,720
+closing for PHP<font color="#E5E5E5"> and then we put our code</font>
+
+821
+00:37:39,720 --> 00:37:42,090
+which is the<font color="#CCCCCC"> pass-through code and C e</font>
+
+822
+00:37:42,090 --> 00:37:46,200
+<font color="#CCCCCC">been</font><font color="#E5E5E5"> SH our IP followed by the port that</font>
+
+823
+00:37:46,200 --> 00:37:48,330
+<font color="#CCCCCC">were</font><font color="#E5E5E5"> listening on I'm gonna hit enter</font>
+
+824
+00:37:48,330 --> 00:37:50,900
+<font color="#CCCCCC">and I'm gonna forward</font>
+
+825
+00:37:50,900 --> 00:37:53,299
+and as you can<font color="#E5E5E5"> see</font><font color="#CCCCCC"> we got a connection</font>
+
+826
+00:37:53,299 --> 00:37:55,760
+<font color="#E5E5E5">back using</font><font color="#CCCCCC"> the local file inclusion</font>
+
+827
+00:37:55,760 --> 00:37:58,339
+vulnerability now<font color="#E5E5E5"> I can browse files I</font>
+
+828
+00:37:58,339 --> 00:38:03,170
+<font color="#CCCCCC">can do PWD I can do LS I can do ID</font><font color="#E5E5E5"> and I</font>
+
+829
+00:38:03,170 --> 00:38:04,819
+can pretty much do<font color="#CCCCCC"> anything I want on</font>
+
+830
+00:38:04,819 --> 00:38:07,880
+the server<font color="#CCCCCC"> now that I have full shell</font>
+
+831
+00:38:07,880 --> 00:38:10,849
+<font color="#E5E5E5">access so we were able</font><font color="#CCCCCC"> to convert a</font>
+
+832
+00:38:10,849 --> 00:38:13,309
+local file inclusion vulnerability<font color="#E5E5E5"> that</font>
+
+833
+00:38:13,309 --> 00:38:15,740
+can only show you files<font color="#E5E5E5"> or can only</font>
+
+834
+00:38:15,740 --> 00:38:18,049
+allow you to read files<font color="#E5E5E5"> on the server</font><font color="#CCCCCC"> we</font>
+
+835
+00:38:18,049 --> 00:38:20,329
+were able<font color="#CCCCCC"> to convert that and exploit it</font>
+
+836
+00:38:20,329 --> 00:38:23,859
+<font color="#CCCCCC">to get full access to the target</font><font color="#E5E5E5"> server</font>
+
+837
+00:38:23,859 --> 00:38:26,599
+all is<font color="#CCCCCC"> that possible</font><font color="#E5E5E5"> because</font><font color="#CCCCCC"> we were</font>
+
+838
+00:38:26,599 --> 00:38:30,559
+<font color="#CCCCCC">able to write to the</font><font color="#E5E5E5"> proc self and</font><font color="#CCCCCC"> viren</font>
+
+839
+00:38:30,559 --> 00:38:33,619
+variable which displays our user agent
+
+840
+00:38:33,619 --> 00:38:36,140
+<font color="#E5E5E5">and by changing</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> user agent</font><font color="#CCCCCC"> to our</font>
+
+841
+00:38:36,140 --> 00:38:38,569
+PHP code<font color="#E5E5E5"> we were able</font><font color="#CCCCCC"> to run any PHP</font>
+
+842
+00:38:38,569 --> 00:38:40,880
+<font color="#E5E5E5">code that</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> want</font>
+
+843
+00:38:40,880 --> 00:38:43,369
+and this<font color="#CCCCCC"> lecture we're going</font><font color="#E5E5E5"> to see</font>
+
+844
+00:38:43,369 --> 00:38:46,519
+<font color="#CCCCCC">another method of exploiting local file</font>
+
+845
+00:38:46,519 --> 00:38:49,579
+inclusion vulnerabilities and gain full
+
+846
+00:38:49,579 --> 00:38:52,249
+shell<font color="#E5E5E5"> or full control over the</font><font color="#CCCCCC"> target</font>
+
+847
+00:38:52,249 --> 00:38:55,069
+<font color="#E5E5E5">server so in the previous video</font><font color="#CCCCCC"> we seen</font>
+
+848
+00:38:55,069 --> 00:38:57,499
+how to do it using<font color="#E5E5E5"> the environ variable</font>
+
+849
+00:38:57,499 --> 00:39:00,140
+<font color="#E5E5E5">or environment variables and in this</font>
+
+850
+00:39:00,140 --> 00:39:02,029
+<font color="#E5E5E5">lecture we're</font><font color="#CCCCCC"> going to see how</font><font color="#E5E5E5"> to do</font><font color="#CCCCCC"> it</font>
+
+851
+00:39:02,029 --> 00:39:05,299
+based on<font color="#E5E5E5"> the logs these servers have a</font>
+
+852
+00:39:05,299 --> 00:39:08,329
+lot of<font color="#E5E5E5"> log files and basically at the</font>
+
+853
+00:39:08,329 --> 00:39:10,160
+moment<font color="#CCCCCC"> we can read any file on the</font>
+
+854
+00:39:10,160 --> 00:39:11,960
+server<font color="#CCCCCC"> as long as we have permissions</font><font color="#E5E5E5"> to</font>
+
+855
+00:39:11,960 --> 00:39:14,450
+read<font color="#E5E5E5"> it so if we can manage to write</font>
+
+856
+00:39:14,450 --> 00:39:17,239
+<font color="#E5E5E5">anything to any of</font><font color="#CCCCCC"> these files</font><font color="#E5E5E5"> then we</font>
+
+857
+00:39:17,239 --> 00:39:19,549
+can pretty much execute code and gain
+
+858
+00:39:19,549 --> 00:39:23,059
+<font color="#CCCCCC">control</font><font color="#E5E5E5"> over our target</font><font color="#CCCCCC"> e so what you</font>
+
+859
+00:39:23,059 --> 00:39:25,039
+<font color="#E5E5E5">need to do is you need</font><font color="#CCCCCC"> to try and read</font>
+
+860
+00:39:25,039 --> 00:39:27,950
+any<font color="#E5E5E5"> of the log files</font><font color="#CCCCCC"> and see or think</font><font color="#E5E5E5"> of</font>
+
+861
+00:39:27,950 --> 00:39:30,859
+<font color="#E5E5E5">a way to interact with these log</font><font color="#CCCCCC"> files</font>
+
+862
+00:39:30,859 --> 00:39:32,569
+so that<font color="#CCCCCC"> you can write</font><font color="#E5E5E5"> stuff on it for</font>
+
+863
+00:39:32,569 --> 00:39:35,269
+<font color="#E5E5E5">example if the log files that you're</font>
+
+864
+00:39:35,269 --> 00:39:38,119
+<font color="#E5E5E5">reading or interacting</font><font color="#CCCCCC"> with our</font><font color="#E5E5E5"> mail log</font>
+
+865
+00:39:38,119 --> 00:39:40,430
+<font color="#E5E5E5">files</font><font color="#CCCCCC"> then maybe you can send an email</font>
+
+866
+00:39:40,430 --> 00:39:43,130
+<font color="#E5E5E5">with a code and then it will</font><font color="#CCCCCC"> show up</font><font color="#E5E5E5"> in</font>
+
+867
+00:39:43,130 --> 00:39:45,349
+the log file<font color="#CCCCCC"> in our example we're</font><font color="#E5E5E5"> going</font>
+
+868
+00:39:45,349 --> 00:39:47,900
+<font color="#E5E5E5">to be using</font><font color="#CCCCCC"> the VAR</font><font color="#E5E5E5"> log auth dot log and</font>
+
+869
+00:39:47,900 --> 00:39:50,509
+this file<font color="#E5E5E5"> contains all the login</font>
+
+870
+00:39:50,509 --> 00:39:53,509
+attempts to the target server<font color="#E5E5E5"> so let's</font>
+
+871
+00:39:53,509 --> 00:39:54,650
+do<font color="#CCCCCC"> it</font><font color="#E5E5E5"> and you'll</font><font color="#CCCCCC"> have a better</font>
+
+872
+00:39:54,650 --> 00:39:57,229
+understanding<font color="#CCCCCC"> at the moment now I just</font>
+
+873
+00:39:57,229 --> 00:39:59,630
+have<font color="#E5E5E5"> the basic is exploit and I'm trying</font>
+
+874
+00:39:59,630 --> 00:40:02,989
+<font color="#E5E5E5">to show etc' password so this is the</font>
+
+875
+00:40:02,989 --> 00:40:05,269
+file<font color="#CCCCCC"> that we used in our basic exploit</font>
+
+876
+00:40:05,269 --> 00:40:08,329
+I'm just going<font color="#E5E5E5"> to remove that and I'm</font>
+
+877
+00:40:08,329 --> 00:40:11,680
+going<font color="#CCCCCC"> to look for var</font>
+
+878
+00:40:11,680 --> 00:40:14,430
+<font color="#CCCCCC">log</font>
+
+879
+00:40:14,680 --> 00:40:17,940
+<font color="#E5E5E5">off</font><font color="#CCCCCC"> that log</font>
+
+880
+00:40:19,160 --> 00:40:21,289
+now as you can<font color="#CCCCCC"> see the file is readable</font>
+
+881
+00:40:21,289 --> 00:40:24,829
+<font color="#E5E5E5">and we can read login attempts to the</font>
+
+882
+00:40:24,829 --> 00:40:27,769
+target server<font color="#E5E5E5"> so what we're going</font><font color="#CCCCCC"> to do</font>
+
+883
+00:40:27,769 --> 00:40:28,940
+we're going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> think now this file</font>
+
+884
+00:40:28,940 --> 00:40:31,460
+displays all<font color="#E5E5E5"> login attempts so why not</font>
+
+885
+00:40:31,460 --> 00:40:33,710
+try<font color="#E5E5E5"> to log in and see if the attempt</font>
+
+886
+00:40:33,710 --> 00:40:36,049
+will<font color="#CCCCCC"> be</font><font color="#E5E5E5"> displayed here</font><font color="#CCCCCC"> so I'm</font><font color="#E5E5E5"> going to</font>
+
+887
+00:40:36,049 --> 00:40:37,970
+do<font color="#E5E5E5"> here I'm just going to try to SSH</font>
+
+888
+00:40:37,970 --> 00:40:40,430
+into<font color="#E5E5E5"> the server so I'm going to use SSH</font>
+
+889
+00:40:40,430 --> 00:40:42,859
+SSH is just a lot<font color="#E5E5E5"> of remote login</font>
+
+890
+00:40:42,859 --> 00:40:45,589
+<font color="#E5E5E5">service that is used by web servers</font>
+
+891
+00:40:45,589 --> 00:40:47,599
+pretty much every web server has<font color="#CCCCCC"> it</font>
+
+892
+00:40:47,599 --> 00:40:50,479
+installed<font color="#CCCCCC"> so we're gonna try to SSH into</font>
+
+893
+00:40:50,479 --> 00:40:52,759
+<font color="#E5E5E5">it so we're gonna do SSH and then we're</font>
+
+894
+00:40:52,759 --> 00:40:54,650
+gonna put the<font color="#E5E5E5"> username and I'm just</font>
+
+895
+00:40:54,650 --> 00:40:56,420
+<font color="#E5E5E5">gonna put a random username that</font>
+
+896
+00:40:56,420 --> 00:40:58,670
+<font color="#E5E5E5">probably doesn't</font><font color="#CCCCCC"> even exist I</font><font color="#E5E5E5"> just want</font>
+
+897
+00:40:58,670 --> 00:41:01,519
+to see if<font color="#E5E5E5"> this request will</font><font color="#CCCCCC"> be recorded</font>
+
+898
+00:41:01,519 --> 00:41:04,489
+in<font color="#CCCCCC"> the log file</font><font color="#E5E5E5"> so I'm just SS I'm gonna</font>
+
+899
+00:41:04,489 --> 00:41:06,470
+SSH<font color="#E5E5E5"> and I'm just</font><font color="#CCCCCC"> going to put a username</font>
+
+900
+00:41:06,470 --> 00:41:09,230
+as random
+
+901
+00:41:09,230 --> 00:41:12,680
+and then I'm gonna<font color="#E5E5E5"> do ad and we're gonna</font>
+
+902
+00:41:12,680 --> 00:41:15,470
+put the IP address which is<font color="#CCCCCC"> 10 2014</font><font color="#E5E5E5"> to</font>
+
+903
+00:41:15,470 --> 00:41:17,240
+<font color="#E5E5E5">10</font>
+
+904
+00:41:17,240 --> 00:41:20,570
+and I'm going to<font color="#E5E5E5"> hit</font><font color="#CCCCCC"> enter</font>
+
+905
+00:41:20,570 --> 00:41:22,310
+now it's asking<font color="#E5E5E5"> me for</font><font color="#CCCCCC"> a password</font>
+
+906
+00:41:22,310 --> 00:41:24,140
+obviously this<font color="#E5E5E5"> username doesn't exist</font>
+
+907
+00:41:24,140 --> 00:41:26,120
+anyway<font color="#E5E5E5"> so I'm just</font><font color="#CCCCCC"> going</font><font color="#E5E5E5"> to put a</font><font color="#CCCCCC"> random</font>
+
+908
+00:41:26,120 --> 00:41:28,109
+password<font color="#E5E5E5"> as</font><font color="#CCCCCC"> well</font>
+
+909
+00:41:28,109 --> 00:41:31,109
+and I'm not really<font color="#E5E5E5"> trying to</font><font color="#CCCCCC"> hack use an</font>
+
+910
+00:41:31,109 --> 00:41:33,479
+<font color="#E5E5E5">SSH I'm literally just attempting to</font>
+
+911
+00:41:33,479 --> 00:41:35,849
+<font color="#CCCCCC">login I'm</font><font color="#E5E5E5"> gonna</font><font color="#CCCCCC"> ctrl C now and I want to</font>
+
+912
+00:41:35,849 --> 00:41:37,769
+see if this<font color="#E5E5E5"> will</font><font color="#CCCCCC"> be logged in</font><font color="#E5E5E5"> this file</font>
+
+913
+00:41:37,769 --> 00:41:40,990
+<font color="#E5E5E5">so I'm gonna send another</font><font color="#CCCCCC"> request</font>
+
+914
+00:41:40,990 --> 00:41:43,420
+and I'm gonna look for my<font color="#CCCCCC"> username so</font>
+
+915
+00:41:43,420 --> 00:41:45,400
+the<font color="#E5E5E5"> username was called random and I'll</font>
+
+916
+00:41:45,400 --> 00:41:48,660
+see<font color="#E5E5E5"> if that was logged</font>
+
+917
+00:41:49,000 --> 00:41:51,430
+and you can see here it's telling<font color="#E5E5E5"> us in</font>
+
+918
+00:41:51,430 --> 00:41:54,040
+the log file<font color="#E5E5E5"> so it was recorded in the</font>
+
+919
+00:41:54,040 --> 00:41:56,800
+server<font color="#E5E5E5"> that someone tried to</font><font color="#CCCCCC"> login</font><font color="#E5E5E5"> with</font>
+
+920
+00:41:56,800 --> 00:41:58,930
+<font color="#E5E5E5">the username random and it actually has</font>
+
+921
+00:41:58,930 --> 00:42:00,970
+my IP address<font color="#CCCCCC"> so it's actually</font><font color="#E5E5E5"> recorded</font>
+
+922
+00:42:00,970 --> 00:42:05,380
+my IP<font color="#CCCCCC"> address as well so now we can read</font>
+
+923
+00:42:05,380 --> 00:42:07,510
+that<font color="#E5E5E5"> file and we can</font><font color="#CCCCCC"> also write to</font><font color="#E5E5E5"> the</font>
+
+924
+00:42:07,510 --> 00:42:10,540
+file by logging in with<font color="#CCCCCC"> a</font><font color="#E5E5E5"> non-existing</font>
+
+925
+00:42:10,540 --> 00:42:13,690
+account<font color="#E5E5E5"> so what</font><font color="#CCCCCC"> I'm gonna do now is I'm</font>
+
+926
+00:42:13,690 --> 00:42:15,250
+<font color="#CCCCCC">actually gonna try to log in</font><font color="#E5E5E5"> again</font>
+
+927
+00:42:15,250 --> 00:42:17,200
+<font color="#E5E5E5">and instead of</font><font color="#CCCCCC"> put in a user name</font>
+
+928
+00:42:17,200 --> 00:42:18,790
+instead<font color="#E5E5E5"> of putting it the user name as</font>
+
+929
+00:42:18,790 --> 00:42:21,220
+random<font color="#E5E5E5"> I'm actually gonna put</font><font color="#CCCCCC"> the PHP</font>
+
+930
+00:42:21,220 --> 00:42:23,530
+code<font color="#CCCCCC"> that we always</font><font color="#E5E5E5"> used</font><font color="#CCCCCC"> to give me a</font>
+
+931
+00:42:23,530 --> 00:42:25,869
+reverse<font color="#CCCCCC"> shell or reverse connection on</font>
+
+932
+00:42:25,869 --> 00:42:28,240
+<font color="#E5E5E5">this server</font><font color="#CCCCCC"> now again you can use any</font>
+
+933
+00:42:28,240 --> 00:42:30,730
+<font color="#E5E5E5">PHP code you want in my example I'm</font>
+
+934
+00:42:30,730 --> 00:42:33,369
+gonna use code<font color="#E5E5E5"> that will give me reverse</font>
+
+935
+00:42:33,369 --> 00:42:36,280
+shell on the target<font color="#E5E5E5"> computer so before I</font>
+
+936
+00:42:36,280 --> 00:42:37,960
+run the<font color="#E5E5E5"> code I'm gonna listen on the</font>
+
+937
+00:42:37,960 --> 00:42:39,760
+<font color="#CCCCCC">port</font><font color="#E5E5E5"> and I'm gonna do that using netcat</font>
+
+938
+00:42:39,760 --> 00:42:41,619
+like we always did so it's going<font color="#E5E5E5"> to be</font>
+
+939
+00:42:41,619 --> 00:42:43,690
+<font color="#E5E5E5">net cat</font>
+
+940
+00:42:43,690 --> 00:42:46,960
+<font color="#E5E5E5">VV LP</font>
+
+941
+00:42:46,960 --> 00:42:48,610
+and I'm gonna put my my part which is
+
+942
+00:42:48,610 --> 00:42:51,480
+<font color="#CCCCCC">eight eight eight eight</font>
+
+943
+00:42:51,980 --> 00:42:56,120
+and now we're listening<font color="#CCCCCC"> for connections</font>
+
+944
+00:42:56,120 --> 00:42:59,060
+and I'm going<font color="#E5E5E5"> to try to log in again to</font>
+
+945
+00:42:59,060 --> 00:43:01,070
+the target<font color="#E5E5E5"> and in this case I'm actually</font>
+
+946
+00:43:01,070 --> 00:43:04,820
+<font color="#CCCCCC">gonna put my PHP</font><font color="#E5E5E5"> code so same</font><font color="#CCCCCC"> code</font><font color="#E5E5E5"> that</font>
+
+947
+00:43:04,820 --> 00:43:08,270
+<font color="#CCCCCC">we used before so my username is going</font>
+
+948
+00:43:08,270 --> 00:43:10,670
+to be I'm gonna put two quotes and then
+
+949
+00:43:10,670 --> 00:43:13,460
+I'm gonna put my PHP<font color="#E5E5E5"> code</font>
+
+950
+00:43:13,460 --> 00:43:17,079
+so we're using<font color="#CCCCCC"> pass-through</font>
+
+951
+00:43:17,560 --> 00:43:19,060
+and then we're<font color="#E5E5E5"> gonna pass the command</font>
+
+952
+00:43:19,060 --> 00:43:21,940
+<font color="#E5E5E5">the PHP command that we want</font><font color="#CCCCCC"> to run and</font>
+
+953
+00:43:21,940 --> 00:43:24,700
+<font color="#CCCCCC">that command is going</font><font color="#E5E5E5"> to be I'm going to</font>
+
+954
+00:43:24,700 --> 00:43:27,070
+<font color="#E5E5E5">use single quotes here and then my</font>
+
+955
+00:43:27,070 --> 00:43:31,080
+command is<font color="#E5E5E5"> going to be netcat</font><font color="#CCCCCC"> e</font>
+
+956
+00:43:31,480 --> 00:43:34,650
+<font color="#CCCCCC">Ben</font><font color="#E5E5E5"> Sh</font>
+
+957
+00:43:34,850 --> 00:43:39,970
+I put my IP<font color="#E5E5E5"> address which is 10 2014 208</font>
+
+958
+00:43:39,970 --> 00:43:42,050
+<font color="#E5E5E5">then I'm gonna put the port that I'm</font>
+
+959
+00:43:42,050 --> 00:43:47,560
+listening on which is 8 8 8 8 now
+
+960
+00:43:47,560 --> 00:43:49,660
+with this<font color="#E5E5E5"> method</font><font color="#CCCCCC"> you're</font><font color="#E5E5E5"> only gonna get</font>
+
+961
+00:43:49,660 --> 00:43:51,820
+one<font color="#CCCCCC"> shot</font><font color="#E5E5E5"> with this code because if you</font>
+
+962
+00:43:51,820 --> 00:43:54,040
+put the code correct<font color="#CCCCCC"> incorrectly</font><font color="#E5E5E5"> the</font>
+
+963
+00:43:54,040 --> 00:43:56,530
+whole thing is going<font color="#E5E5E5"> to break and the</font>
+
+964
+00:43:56,530 --> 00:43:58,030
+file<font color="#E5E5E5"> is not going to be displayed</font><font color="#CCCCCC"> any</font>
+
+965
+00:43:58,030 --> 00:43:59,620
+<font color="#CCCCCC">more because you have an error in your</font>
+
+966
+00:43:59,620 --> 00:44:02,500
+code<font color="#CCCCCC"> so what I suggest is I'm going</font><font color="#E5E5E5"> to</font>
+
+967
+00:44:02,500 --> 00:44:04,360
+<font color="#E5E5E5">keep the pass through as it is because</font>
+
+968
+00:44:04,360 --> 00:44:06,310
+<font color="#E5E5E5">that's a safe function and I'm sure that</font>
+
+969
+00:44:06,310 --> 00:44:08,680
+this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> run correctly</font><font color="#CCCCCC"> I just need</font>
+
+970
+00:44:08,680 --> 00:44:10,870
+I forgot to put<font color="#E5E5E5"> a semicolon here so I'm</font>
+
+971
+00:44:10,870 --> 00:44:11,830
+<font color="#E5E5E5">gonna put that</font><font color="#CCCCCC"> there</font>
+
+972
+00:44:11,830 --> 00:44:13,840
+<font color="#CCCCCC">so I'm sure that</font><font color="#E5E5E5"> this code is gonna run</font>
+
+973
+00:44:13,840 --> 00:44:16,540
+correctly<font color="#CCCCCC"> but I have a lot of minuses in</font>
+
+974
+00:44:16,540 --> 00:44:19,390
+<font color="#E5E5E5">here I have a lot</font><font color="#CCCCCC"> of spaces and I have a</font>
+
+975
+00:44:19,390 --> 00:44:21,730
+lot of<font color="#E5E5E5"> forward slashes which</font><font color="#CCCCCC"> always have</font>
+
+976
+00:44:21,730 --> 00:44:24,040
+<font color="#CCCCCC">problems when you're trying</font><font color="#E5E5E5"> to pass them</font>
+
+977
+00:44:24,040 --> 00:44:26,980
+between the next commands<font color="#E5E5E5"> you can try to</font>
+
+978
+00:44:26,980 --> 00:44:29,500
+skip through these characters<font color="#E5E5E5"> but what I</font>
+
+979
+00:44:29,500 --> 00:44:31,900
+suggest<font color="#CCCCCC"> is you actually</font><font color="#E5E5E5"> encrypt this</font>
+
+980
+00:44:31,900 --> 00:44:35,110
+using base 64 and then decrypt it at the
+
+981
+00:44:35,110 --> 00:44:37,450
+other<font color="#E5E5E5"> end so I'll show you</font><font color="#CCCCCC"> how to do</font>
+
+982
+00:44:37,450 --> 00:44:38,980
+that first off I'm gonna copy this
+
+983
+00:44:38,980 --> 00:44:42,370
+command<font color="#E5E5E5"> so this is the</font><font color="#CCCCCC"> Dashell command</font>
+
+984
+00:44:42,370 --> 00:44:44,530
+that we want the pass through function
+
+985
+00:44:44,530 --> 00:44:47,530
+to run<font color="#CCCCCC"> i'm copied it i'm gonna go to my</font>
+
+986
+00:44:47,530 --> 00:44:50,130
+<font color="#E5E5E5">burps ooh</font>
+
+987
+00:44:50,850 --> 00:44:53,730
+and I'm gonna go to<font color="#E5E5E5"> my decoder here we</font>
+
+988
+00:44:53,730 --> 00:44:55,530
+never had a look on the decoder so this
+
+989
+00:44:55,530 --> 00:44:58,200
+tab<font color="#E5E5E5"> allows you to encode and decode text</font>
+
+990
+00:44:58,200 --> 00:45:01,470
+<font color="#E5E5E5">to different types of encoding so I'm</font>
+
+991
+00:45:01,470 --> 00:45:04,650
+<font color="#CCCCCC">gonna</font><font color="#E5E5E5"> paste what I copied and I'm gonna</font>
+
+992
+00:45:04,650 --> 00:45:08,099
+encode it as base64
+
+993
+00:45:08,099 --> 00:45:12,269
+so this text<font color="#E5E5E5"> the netcat been</font><font color="#CCCCCC"> sh my IP</font>
+
+994
+00:45:12,269 --> 00:45:15,900
+port is converted to<font color="#E5E5E5"> this encrypted code</font>
+
+995
+00:45:15,900 --> 00:45:19,099
+<font color="#E5E5E5">I'm going to copy this code</font>
+
+996
+00:45:19,099 --> 00:45:22,130
+and I'm gonna substitute<font color="#CCCCCC"> it here</font><font color="#E5E5E5"> into my</font>
+
+997
+00:45:22,130 --> 00:45:24,619
+command<font color="#CCCCCC"> so instead</font><font color="#E5E5E5"> of running it like</font>
+
+998
+00:45:24,619 --> 00:45:26,809
+this<font color="#E5E5E5"> instead of putting the text</font><font color="#CCCCCC"> I'm</font>
+
+999
+00:45:26,809 --> 00:45:29,599
+gonna put the base64 code to make<font color="#E5E5E5"> sure</font>
+
+1000
+00:45:29,599 --> 00:45:31,880
+<font color="#CCCCCC">that there is no special characters that</font>
+
+1001
+00:45:31,880 --> 00:45:33,979
+<font color="#E5E5E5">would interfere with the command with</font>
+
+1002
+00:45:33,979 --> 00:45:36,309
+the<font color="#E5E5E5"> bash</font>
+
+1003
+00:45:36,310 --> 00:45:40,060
+so I have that copied<font color="#CCCCCC"> now if I run this</font>
+
+1004
+00:45:40,060 --> 00:45:42,430
+this way so I have my<font color="#CCCCCC"> pass-through which</font>
+
+1005
+00:45:42,430 --> 00:45:44,770
+is a PHP function<font color="#CCCCCC"> and I'm telling it to</font>
+
+1006
+00:45:44,770 --> 00:45:47,170
+<font color="#E5E5E5">execute this shell command now if</font>
+
+1007
+00:45:47,170 --> 00:45:49,270
+obviously<font color="#CCCCCC"> if you copy this text and run</font>
+
+1008
+00:45:49,270 --> 00:45:50,770
+it it's<font color="#E5E5E5"> not going</font><font color="#CCCCCC"> to run anything</font>
+
+1009
+00:45:50,770 --> 00:45:53,620
+because it's just gibberish<font color="#CCCCCC"> so I need to</font>
+
+1010
+00:45:53,620 --> 00:45:57,130
+tell<font color="#CCCCCC"> it that</font><font color="#E5E5E5"> this is base64 code and I'm</font>
+
+1011
+00:45:57,130 --> 00:46:00,280
+<font color="#CCCCCC">gonna</font><font color="#E5E5E5"> do that using the PHP function</font>
+
+1012
+00:46:00,280 --> 00:46:02,980
+called base64 decode so I'm going<font color="#E5E5E5"> to</font>
+
+1013
+00:46:02,980 --> 00:46:05,680
+tell<font color="#CCCCCC"> it to decode this</font><font color="#E5E5E5"> sister this piece</font>
+
+1014
+00:46:05,680 --> 00:46:08,560
+of<font color="#E5E5E5"> text and then once you decode it run</font>
+
+1015
+00:46:08,560 --> 00:46:12,130
+the<font color="#E5E5E5"> pass-through</font><font color="#CCCCCC"> on it so I'm just going</font>
+
+1016
+00:46:12,130 --> 00:46:15,870
+<font color="#E5E5E5">to type it in</font><font color="#CCCCCC"> here so it's going to be</font>
+
+1017
+00:46:15,910 --> 00:46:19,049
+very 64
+
+1018
+00:46:19,920 --> 00:46:22,349
+decode and that's just another function
+
+1019
+00:46:22,349 --> 00:46:26,609
+a PHP<font color="#E5E5E5"> function and then I'm going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> put</font>
+
+1020
+00:46:26,609 --> 00:46:29,180
+the brackets
+
+1021
+00:46:30,700 --> 00:46:32,830
+so I'm just gonna make<font color="#E5E5E5"> this a little bit</font>
+
+1022
+00:46:32,830 --> 00:46:35,320
+<font color="#E5E5E5">bigger so we can</font><font color="#CCCCCC"> talk about it more and</font>
+
+1023
+00:46:35,320 --> 00:46:37,210
+I'm<font color="#E5E5E5"> just actually gonna</font><font color="#CCCCCC"> copy it and run</font>
+
+1024
+00:46:37,210 --> 00:46:40,360
+it<font color="#E5E5E5"> again just so</font><font color="#CCCCCC"> that we will talk about</font>
+
+1025
+00:46:40,360 --> 00:46:42,500
+it a little<font color="#E5E5E5"> bit more</font>
+
+1026
+00:46:42,500 --> 00:46:46,130
+<font color="#E5E5E5">okay so first off we're actually using</font>
+
+1027
+00:46:46,130 --> 00:46:49,400
+<font color="#E5E5E5">the username as our code as the code</font>
+
+1028
+00:46:49,400 --> 00:46:52,070
+<font color="#E5E5E5">that we want</font><font color="#CCCCCC"> to inject cus because as we</font>
+
+1029
+00:46:52,070 --> 00:46:54,109
+<font color="#CCCCCC">seen the username is being displayed</font><font color="#E5E5E5"> on</font>
+
+1030
+00:46:54,109 --> 00:46:56,359
+<font color="#CCCCCC">the lock page</font><font color="#E5E5E5"> so anything we put in the</font>
+
+1031
+00:46:56,359 --> 00:46:59,960
+<font color="#CCCCCC">username will be executed as PHP</font><font color="#E5E5E5"> code so</font>
+
+1032
+00:46:59,960 --> 00:47:02,330
+we have that<font color="#E5E5E5"> between two quotes here</font>
+
+1033
+00:47:02,330 --> 00:47:06,380
+<font color="#CCCCCC">between this and this</font><font color="#E5E5E5"> quote now we have</font>
+
+1034
+00:47:06,380 --> 00:47:08,540
+our<font color="#E5E5E5"> PHP</font><font color="#CCCCCC"> code that</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> always used and we</font>
+
+1035
+00:47:08,540 --> 00:47:10,640
+also always<font color="#E5E5E5"> used the</font><font color="#CCCCCC"> pass-through</font>
+
+1036
+00:47:10,640 --> 00:47:13,790
+function to run<font color="#CCCCCC"> Unix commands on the</font>
+
+1037
+00:47:13,790 --> 00:47:16,130
+target server so we're<font color="#CCCCCC"> keeping that the</font>
+
+1038
+00:47:16,130 --> 00:47:19,490
+exact same and we're<font color="#E5E5E5"> telling it</font><font color="#CCCCCC"> to run</font>
+
+1039
+00:47:19,490 --> 00:47:22,550
+this text<font color="#E5E5E5"> but before you run this text I</font>
+
+1040
+00:47:22,550 --> 00:47:26,960
+want you to decode<font color="#CCCCCC"> it based on base64 so</font>
+
+1041
+00:47:26,960 --> 00:47:29,030
+we have<font color="#CCCCCC"> passed through decode the</font>
+
+1042
+00:47:29,030 --> 00:47:31,849
+following code and this<font color="#E5E5E5"> is the code so</font>
+
+1043
+00:47:31,849 --> 00:47:34,520
+this is the command<font color="#CCCCCC"> the netcat command</font>
+
+1044
+00:47:34,520 --> 00:47:36,470
+that we always<font color="#E5E5E5"> use we're decoding</font><font color="#CCCCCC"> it</font>
+
+1045
+00:47:36,470 --> 00:47:39,349
+based on base64 and then we're telling
+
+1046
+00:47:39,349 --> 00:47:40,670
+it<font color="#CCCCCC"> to run it using</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> pass-through</font>
+
+1047
+00:47:40,670 --> 00:47:44,290
+<font color="#E5E5E5">function to execute it as a bash command</font>
+
+1048
+00:47:44,290 --> 00:47:48,109
+so I'm<font color="#E5E5E5"> gonna hit</font><font color="#CCCCCC"> enter now and that'll</font>
+
+1049
+00:47:48,109 --> 00:47:49,820
+ask me<font color="#E5E5E5"> for a password because it thinks</font>
+
+1050
+00:47:49,820 --> 00:47:51,500
+that<font color="#CCCCCC"> this is actually a username</font><font color="#E5E5E5"> so</font>
+
+1051
+00:47:51,500 --> 00:47:53,119
+we're injecting<font color="#E5E5E5"> the whole thing as a</font>
+
+1052
+00:47:53,119 --> 00:47:55,040
+username so I'm<font color="#E5E5E5"> just gonna put any</font>
+
+1053
+00:47:55,040 --> 00:47:57,770
+password anything random<font color="#CCCCCC"> hit</font><font color="#E5E5E5"> enter now</font>
+
+1054
+00:47:57,770 --> 00:48:01,490
+this should<font color="#E5E5E5"> be stored now</font><font color="#CCCCCC"> in the logs</font><font color="#E5E5E5"> so</font>
+
+1055
+00:48:01,490 --> 00:48:03,520
+this code<font color="#CCCCCC"> should have been injected</font><font color="#E5E5E5"> into</font>
+
+1056
+00:48:03,520 --> 00:48:07,430
+<font color="#E5E5E5">the auth dot log so we're going to go</font>
+
+1057
+00:48:07,430 --> 00:48:11,510
+back<font color="#CCCCCC"> now to our browser and you can</font><font color="#E5E5E5"> see</font>
+
+1058
+00:48:11,510 --> 00:48:13,790
+that I'm<font color="#CCCCCC"> already listening</font><font color="#E5E5E5"> here so I'm</font>
+
+1059
+00:48:13,790 --> 00:48:15,170
+just<font color="#CCCCCC"> gonna hit enter here on the browser</font>
+
+1060
+00:48:15,170 --> 00:48:18,800
+and as you can<font color="#CCCCCC"> see we got a connection</font>
+
+1061
+00:48:18,800 --> 00:48:22,099
+<font color="#E5E5E5">back from our target</font><font color="#CCCCCC"> website and if we</font>
+
+1062
+00:48:22,099 --> 00:48:25,130
+do ID<font color="#E5E5E5"> you'll see that arm into</font><font color="#CCCCCC"> the</font>
+
+1063
+00:48:25,130 --> 00:48:28,070
+<font color="#CCCCCC">target website</font><font color="#E5E5E5"> with www data user name</font>
+
+1064
+00:48:28,070 --> 00:48:32,030
+<font color="#CCCCCC">or user group</font><font color="#E5E5E5"> and I can run commands or</font>
+
+1065
+00:48:32,030 --> 00:48:36,880
+do whatever I want<font color="#CCCCCC"> on the target server</font>
+
+1066
+00:48:37,760 --> 00:48:40,450
+this is just some another method<font color="#E5E5E5"> of</font>
+
+1067
+00:48:40,450 --> 00:48:42,590
+exploiting local file inclusion
+
+1068
+00:48:42,590 --> 00:48:45,380
+vulnerabilities<font color="#CCCCCC"> to get a shell</font><font color="#E5E5E5"> on the</font>
+
+1069
+00:48:45,380 --> 00:48:47,960
+target<font color="#E5E5E5"> computer now again this</font><font color="#CCCCCC"> is just</font>
+
+1070
+00:48:47,960 --> 00:48:50,780
+an idea<font color="#CCCCCC"> and you can try these</font><font color="#E5E5E5"> ideas with</font>
+
+1071
+00:48:50,780 --> 00:48:53,660
+different<font color="#CCCCCC"> types of log files so</font><font color="#E5E5E5"> you can</font>
+
+1072
+00:48:53,660 --> 00:48:55,790
+try it<font color="#E5E5E5"> with the auth dot log you can try</font>
+
+1073
+00:48:55,790 --> 00:48:57,920
+it<font color="#E5E5E5"> with any</font><font color="#CCCCCC"> other type of log files but</font>
+
+1074
+00:48:57,920 --> 00:48:59,420
+<font color="#CCCCCC">you need to</font><font color="#E5E5E5"> think</font><font color="#CCCCCC"> about it</font><font color="#E5E5E5"> you need to</font>
+
+1075
+00:48:59,420 --> 00:49:01,820
+<font color="#E5E5E5">think how you could inject code into</font>
+
+1076
+00:49:01,820 --> 00:49:03,620
+that log file so for example as I said
+
+1077
+00:49:03,620 --> 00:49:05,960
+<font color="#CCCCCC">if it's a mail servers and then try</font><font color="#E5E5E5"> to</font>
+
+1078
+00:49:05,960 --> 00:49:08,240
+send<font color="#E5E5E5"> it an email if it's the auth dot</font>
+
+1079
+00:49:08,240 --> 00:49:10,100
+log like we have in<font color="#E5E5E5"> this current example</font>
+
+1080
+00:49:10,100 --> 00:49:13,250
+then try to<font color="#E5E5E5"> log in using SSH and see if</font>
+
+1081
+00:49:13,250 --> 00:49:15,050
+you can inject code and if<font color="#E5E5E5"> that code</font>
+
+1082
+00:49:15,050 --> 00:49:19,510
+will be<font color="#CCCCCC"> executed</font><font color="#E5E5E5"> on the</font><font color="#CCCCCC"> target</font><font color="#E5E5E5"> computer</font>
+
+1083
+00:49:20,960 --> 00:49:24,600
+remote file inclusion is a special case
+
+1084
+00:49:24,600 --> 00:49:28,710
+of file inclusion vulnerabilities we
+
+1085
+00:49:28,710 --> 00:49:30,630
+seen in<font color="#E5E5E5"> the previous video</font><font color="#CCCCCC"> how we were</font>
+
+1086
+00:49:30,630 --> 00:49:33,510
+<font color="#E5E5E5">able to include any file in the server</font>
+
+1087
+00:49:33,510 --> 00:49:36,510
+<font color="#E5E5E5">and have access to it</font><font color="#CCCCCC"> through</font><font color="#E5E5E5"> local file</font>
+
+1088
+00:49:36,510 --> 00:49:39,150
+inclusion vulnerabilities in today's
+
+1089
+00:49:39,150 --> 00:49:42,000
+<font color="#E5E5E5">video if the server is configured to</font>
+
+1090
+00:49:42,000 --> 00:49:45,210
+allow<font color="#E5E5E5"> a</font><font color="#CCCCCC"> certain function</font><font color="#E5E5E5"> called allow</font>
+
+1091
+00:49:45,210 --> 00:49:49,080
+URL and allow URL F<font color="#E5E5E5"> open then we will be</font>
+
+1092
+00:49:49,080 --> 00:49:51,990
+<font color="#E5E5E5">able to include any file from any</font>
+
+1093
+00:49:51,990 --> 00:49:55,050
+computer into<font color="#E5E5E5"> the target</font><font color="#CCCCCC"> web site</font><font color="#E5E5E5"> so</font>
+
+1094
+00:49:55,050 --> 00:49:58,260
+will literally be able<font color="#E5E5E5"> to inject</font><font color="#CCCCCC"> any</font><font color="#E5E5E5"> PHP</font>
+
+1095
+00:49:58,260 --> 00:50:01,170
+file into the target computer<font color="#E5E5E5"> what this</font>
+
+1096
+00:50:01,170 --> 00:50:03,870
+would lead to<font color="#E5E5E5"> is basically it will we</font>
+
+1097
+00:50:03,870 --> 00:50:05,610
+<font color="#E5E5E5">can run payloads we can run reverse</font>
+
+1098
+00:50:05,610 --> 00:50:07,920
+shells<font color="#E5E5E5"> and we can run</font><font color="#CCCCCC"> even system</font>
+
+1099
+00:50:07,920 --> 00:50:11,490
+commands and get access<font color="#E5E5E5"> to the</font><font color="#CCCCCC"> targets</font>
+
+1100
+00:50:11,490 --> 00:50:14,670
+<font color="#E5E5E5">or full control to</font><font color="#CCCCCC"> the target server so</font>
+
+1101
+00:50:14,670 --> 00:50:16,620
+first of all let's<font color="#CCCCCC"> just go here and</font>
+
+1102
+00:50:16,620 --> 00:50:20,210
+we'll<font color="#E5E5E5"> be using the same file inclusion</font>
+
+1103
+00:50:20,210 --> 00:50:22,200
+vulnerability that we were using<font color="#E5E5E5"> in the</font>
+
+1104
+00:50:22,200 --> 00:50:23,790
+<font color="#E5E5E5">previous video so it's in the page</font>
+
+1105
+00:50:23,790 --> 00:50:27,030
+parameter right<font color="#E5E5E5"> here the only difference</font>
+
+1106
+00:50:27,030 --> 00:50:29,700
+is you need<font color="#E5E5E5"> to enable the function</font><font color="#CCCCCC"> that</font>
+
+1107
+00:50:29,700 --> 00:50:32,940
+makes this that converts the local file
+
+1108
+00:50:32,940 --> 00:50:36,180
+inclusion to a remote file inclusion<font color="#CCCCCC"> so</font>
+
+1109
+00:50:36,180 --> 00:50:38,370
+hence the<font color="#CCCCCC"> name</font><font color="#E5E5E5"> local allows you to</font>
+
+1110
+00:50:38,370 --> 00:50:40,770
+<font color="#CCCCCC">access local</font><font color="#E5E5E5"> files remote</font><font color="#CCCCCC"> would allow</font>
+
+1111
+00:50:40,770 --> 00:50:44,450
+you<font color="#E5E5E5"> to</font><font color="#CCCCCC"> access and inject remote files</font><font color="#E5E5E5"> so</font>
+
+1112
+00:50:44,450 --> 00:50:46,800
+to enable<font color="#CCCCCC"> that I'm gonna go</font><font color="#E5E5E5"> to my</font>
+
+1113
+00:50:46,800 --> 00:50:48,330
+<font color="#CCCCCC">Metasploit able machine I'm just going</font>
+
+1114
+00:50:48,330 --> 00:50:49,800
+<font color="#E5E5E5">to show you how to enable it</font><font color="#CCCCCC"> so you can</font>
+
+1115
+00:50:49,800 --> 00:50:52,790
+test<font color="#E5E5E5"> this vulnerability yourself so</font>
+
+1116
+00:50:52,790 --> 00:50:55,440
+we're coming<font color="#E5E5E5"> here to our</font><font color="#CCCCCC"> Metasploit</font>
+
+1117
+00:50:55,440 --> 00:50:58,110
+<font color="#CCCCCC">table</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> i'm</font><font color="#E5E5E5"> gonna go into the PHP</font>
+
+1118
+00:50:58,110 --> 00:51:00,270
+settings so the PHP settings are<font color="#E5E5E5"> stored</font>
+
+1119
+00:51:00,270 --> 00:51:02,910
+in a file<font color="#E5E5E5"> and to</font><font color="#CCCCCC"> access</font><font color="#E5E5E5"> that we're</font><font color="#CCCCCC"> gonna</font>
+
+1120
+00:51:02,910 --> 00:51:05,640
+<font color="#CCCCCC">use nano</font><font color="#E5E5E5"> which is a text</font><font color="#CCCCCC"> editor and</font><font color="#E5E5E5"> then</font>
+
+1121
+00:51:05,640 --> 00:51:08,040
+I'm<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> put the</font><font color="#CCCCCC"> file location</font><font color="#E5E5E5"> which is</font>
+
+1122
+00:51:08,040 --> 00:51:16,680
+<font color="#CCCCCC">an et Cie PHP 5tg I and PHP dot ini'</font><font color="#E5E5E5"> so</font>
+
+1123
+00:51:16,680 --> 00:51:18,960
+that's the<font color="#E5E5E5"> location where the PHP</font>
+
+1124
+00:51:18,960 --> 00:51:21,540
+configuration is stored<font color="#E5E5E5"> I'm going to</font>
+
+1125
+00:51:21,540 --> 00:51:24,620
+open<font color="#E5E5E5"> it</font><font color="#CCCCCC"> using a file editor called nano</font>
+
+1126
+00:51:24,620 --> 00:51:27,080
+and I'm just<font color="#E5E5E5"> going to exit this I'm</font>
+
+1127
+00:51:27,080 --> 00:51:31,060
+going<font color="#E5E5E5"> to</font><font color="#CCCCCC"> open</font><font color="#E5E5E5"> it as pseudo as the route</font>
+
+1128
+00:51:31,060 --> 00:51:33,340
+actually in<font color="#CCCCCC"> Cali we never</font><font color="#E5E5E5"> needed to use</font>
+
+1129
+00:51:33,340 --> 00:51:36,940
+<font color="#E5E5E5">sudo because we log in as root but with</font>
+
+1130
+00:51:36,940 --> 00:51:39,370
+<font color="#E5E5E5">MIT exploitable you need to use sudo</font>
+
+1131
+00:51:39,370 --> 00:51:41,800
+when you want to<font color="#E5E5E5"> do root actions so you</font>
+
+1132
+00:51:41,800 --> 00:51:43,870
+say sudo and then you put the command
+
+1133
+00:51:43,870 --> 00:51:48,750
+<font color="#CCCCCC">that</font><font color="#E5E5E5"> you want to run okay</font><font color="#CCCCCC"> so these</font><font color="#E5E5E5"> are</font>
+
+1134
+00:51:48,750 --> 00:51:53,950
+<font color="#E5E5E5">the configurations</font><font color="#CCCCCC"> for the PHP that's</font>
+
+1135
+00:51:53,950 --> 00:51:55,630
+<font color="#E5E5E5">installed on the web server on the</font>
+
+1136
+00:51:55,630 --> 00:51:57,670
+target<font color="#E5E5E5"> and we're looking for a function</font>
+
+1137
+00:51:57,670 --> 00:52:02,170
+called allow your LF open so I'm<font color="#E5E5E5"> gonna</font>
+
+1138
+00:52:02,170 --> 00:52:05,410
+type in<font color="#CCCCCC"> ctrl +</font><font color="#E5E5E5"> W at the same time and</font>
+
+1139
+00:52:05,410 --> 00:52:07,210
+<font color="#E5E5E5">that</font><font color="#CCCCCC"> will</font><font color="#E5E5E5"> allow me to search and I'm</font>
+
+1140
+00:52:07,210 --> 00:52:09,720
+gonna search for
+
+1141
+00:52:10,280 --> 00:52:14,700
+hello<font color="#E5E5E5"> URL</font>
+
+1142
+00:52:14,700 --> 00:52:17,100
+and we can see<font color="#E5E5E5"> here that</font><font color="#CCCCCC"> I have</font><font color="#E5E5E5"> allow</font>
+
+1143
+00:52:17,100 --> 00:52:20,910
+<font color="#E5E5E5">you</font><font color="#CCCCCC"> our LFO print is on</font><font color="#E5E5E5"> and allow URL</font>
+
+1144
+00:52:20,910 --> 00:52:23,760
+include is on as well<font color="#E5E5E5"> so these two</font>
+
+1145
+00:52:23,760 --> 00:52:26,340
+<font color="#E5E5E5">functions if they're enabled then the</font>
+
+1146
+00:52:26,340 --> 00:52:28,440
+local file inclusion vulnerability<font color="#E5E5E5"> that</font>
+
+1147
+00:52:28,440 --> 00:52:30,900
+we have can be<font color="#E5E5E5"> used as a remote file</font>
+
+1148
+00:52:30,900 --> 00:52:32,760
+inclusion
+
+1149
+00:52:32,760 --> 00:52:35,460
+so to exit this control<font color="#CCCCCC"> an egg's</font><font color="#E5E5E5"> and</font>
+
+1150
+00:52:35,460 --> 00:52:36,720
+it's gonna<font color="#E5E5E5"> ask you if you want to save</font>
+
+1151
+00:52:36,720 --> 00:52:40,140
+<font color="#E5E5E5">just type in Y and enter for me I didn't</font>
+
+1152
+00:52:40,140 --> 00:52:41,490
+change<font color="#E5E5E5"> anything so I didn't need to do</font>
+
+1153
+00:52:41,490 --> 00:52:43,260
+that<font color="#E5E5E5"> once you</font><font color="#CCCCCC"> do that you need to</font>
+
+1154
+00:52:43,260 --> 00:52:45,420
+<font color="#E5E5E5">restart your</font><font color="#CCCCCC"> web server</font><font color="#E5E5E5"> so you're gonna</font>
+
+1155
+00:52:45,420 --> 00:52:50,720
+do<font color="#CCCCCC"> e TC</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> add dot d</font>
+
+1156
+00:52:50,720 --> 00:52:57,180
+<font color="#CCCCCC">Apache to restart</font><font color="#E5E5E5"> and you'll need</font><font color="#CCCCCC"> to do</font>
+
+1157
+00:52:57,180 --> 00:53:01,470
+this as<font color="#CCCCCC"> sudo actually and this is done</font>
+
+1158
+00:53:01,470 --> 00:53:03,810
+now<font color="#CCCCCC"> so everything should be</font><font color="#E5E5E5"> ready for</font>
+
+1159
+00:53:03,810 --> 00:53:05,619
+you
+
+1160
+00:53:05,619 --> 00:53:07,539
+just like we did before<font color="#E5E5E5"> in the last</font>
+
+1161
+00:53:07,539 --> 00:53:10,839
+video we put<font color="#CCCCCC"> five times back and then we</font>
+
+1162
+00:53:10,839 --> 00:53:13,599
+put<font color="#CCCCCC"> a TC password to access the</font><font color="#E5E5E5"> password</font>
+
+1163
+00:53:13,599 --> 00:53:16,119
+file<font color="#E5E5E5"> what we're going</font><font color="#CCCCCC"> to do today is</font>
+
+1164
+00:53:16,119 --> 00:53:17,890
+we're<font color="#CCCCCC"> going to</font><font color="#E5E5E5"> try to access a file</font>
+
+1165
+00:53:17,890 --> 00:53:20,619
+<font color="#E5E5E5">located</font><font color="#CCCCCC"> on a different server</font><font color="#E5E5E5"> so if</font>
+
+1166
+00:53:20,619 --> 00:53:23,019
+you're<font color="#CCCCCC"> doing this pen test</font><font color="#E5E5E5"> on an</font><font color="#CCCCCC"> actual</font>
+
+1167
+00:53:23,019 --> 00:53:25,839
+web server<font color="#CCCCCC"> then you need to store the</font>
+
+1168
+00:53:25,839 --> 00:53:28,210
+file that you<font color="#CCCCCC"> want</font><font color="#E5E5E5"> to access needs to be</font>
+
+1169
+00:53:28,210 --> 00:53:30,819
+stored<font color="#E5E5E5"> on a place with a real IP address</font>
+
+1170
+00:53:30,819 --> 00:53:33,490
+or with a domain name<font color="#CCCCCC"> I'm doing this on</font>
+
+1171
+00:53:33,490 --> 00:53:35,680
+my<font color="#E5E5E5"> local server</font><font color="#CCCCCC"> so I'm gonna store this</font>
+
+1172
+00:53:35,680 --> 00:53:37,869
+on the on the web server<font color="#E5E5E5"> on the</font><font color="#CCCCCC"> callee</font>
+
+1173
+00:53:37,869 --> 00:53:41,099
+machine on the 10 2014 203<font color="#E5E5E5"> this is 10</font>
+
+1174
+00:53:41,099 --> 00:53:44,170
+2014 2<font color="#CCCCCC"> O 4</font><font color="#E5E5E5"> and I'm gonna store my file</font>
+
+1175
+00:53:44,170 --> 00:53:48,910
+<font color="#E5E5E5">on 10 2014 2 or 3 so that file as I said</font>
+
+1176
+00:53:48,910 --> 00:53:50,589
+can be<font color="#E5E5E5"> anything it could</font><font color="#CCCCCC"> be a web shell</font>
+
+1177
+00:53:50,589 --> 00:53:53,499
+<font color="#E5E5E5">it could be a payload well what I'm</font>
+
+1178
+00:53:53,499 --> 00:53:54,970
+going<font color="#E5E5E5"> to do is I'm going to create a</font>
+
+1179
+00:53:54,970 --> 00:53:58,900
+very simple<font color="#E5E5E5"> PHP file so this is just the</font>
+
+1180
+00:53:58,900 --> 00:54:01,960
+PHP<font color="#E5E5E5"> start and end of</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> file</font><font color="#CCCCCC"> and what</font>
+
+1181
+00:54:01,960 --> 00:54:03,400
+I'm gonna<font color="#E5E5E5"> put</font><font color="#CCCCCC"> in the</font><font color="#E5E5E5"> file I'm gonna use</font>
+
+1182
+00:54:03,400 --> 00:54:06,970
+a<font color="#CCCCCC"> a function called</font><font color="#E5E5E5"> pass-through and in</font>
+
+1183
+00:54:06,970 --> 00:54:08,319
+that<font color="#CCCCCC"> function basically</font><font color="#E5E5E5"> what this</font>
+
+1184
+00:54:08,319 --> 00:54:11,200
+function<font color="#CCCCCC"> does it executes operating</font>
+
+1185
+00:54:11,200 --> 00:54:14,259
+system commands so it executes Windows
+
+1186
+00:54:14,259 --> 00:54:16,660
+Linux or depending<font color="#E5E5E5"> on the web server</font>
+
+1187
+00:54:16,660 --> 00:54:19,029
+it's going<font color="#CCCCCC"> to execute</font><font color="#E5E5E5"> commands</font><font color="#CCCCCC"> related</font>
+
+1188
+00:54:19,029 --> 00:54:21,999
+to that<font color="#E5E5E5"> so you put the command here</font>
+
+1189
+00:54:21,999 --> 00:54:25,180
+between<font color="#E5E5E5"> the two quotation marks and I'm</font>
+
+1190
+00:54:25,180 --> 00:54:26,710
+<font color="#CCCCCC">going to use the</font><font color="#E5E5E5"> same command we used</font>
+
+1191
+00:54:26,710 --> 00:54:29,170
+with the code execution vulnerability
+
+1192
+00:54:29,170 --> 00:54:31,989
+which was the<font color="#E5E5E5"> netcat command which</font>
+
+1193
+00:54:31,989 --> 00:54:34,390
+allowed us<font color="#CCCCCC"> to get a connection a reverse</font>
+
+1194
+00:54:34,390 --> 00:54:38,349
+connection from our<font color="#E5E5E5"> target so I'm gonna</font>
+
+1195
+00:54:38,349 --> 00:54:40,329
+paste<font color="#E5E5E5"> that</font><font color="#CCCCCC"> here so let's just</font><font color="#E5E5E5"> first have</font>
+
+1196
+00:54:40,329 --> 00:54:42,940
+<font color="#CCCCCC">a look at</font><font color="#E5E5E5"> this so PHP and the end these</font>
+
+1197
+00:54:42,940 --> 00:54:45,339
+<font color="#CCCCCC">are just the start and the end of the</font>
+
+1198
+00:54:45,339 --> 00:54:49,150
+file of the PHP<font color="#E5E5E5"> file pass-through is</font><font color="#CCCCCC"> a</font>
+
+1199
+00:54:49,150 --> 00:54:50,559
+function<font color="#CCCCCC"> that I'm going to</font><font color="#E5E5E5"> use which</font>
+
+1200
+00:54:50,559 --> 00:54:53,289
+executes<font color="#E5E5E5"> any command that's inserted</font>
+
+1201
+00:54:53,289 --> 00:54:55,660
+between the<font color="#E5E5E5"> quotations and I'm using the</font>
+
+1202
+00:54:55,660 --> 00:54:57,849
+<font color="#E5E5E5">same command that we used in the command</font>
+
+1203
+00:54:57,849 --> 00:55:00,099
+execution vulnerability<font color="#E5E5E5"> which will just</font>
+
+1204
+00:55:00,099 --> 00:55:03,480
+do a reverse connection to my computer
+
+1205
+00:55:03,480 --> 00:55:06,190
+<font color="#E5E5E5">so this is all good now the next step is</font>
+
+1206
+00:55:06,190 --> 00:55:09,099
+the<font color="#E5E5E5"> most important step and it's storing</font>
+
+1207
+00:55:09,099 --> 00:55:11,910
+this file so as I said if your target
+
+1208
+00:55:11,910 --> 00:55:15,609
+<font color="#E5E5E5">was a remote web server then you should</font>
+
+1209
+00:55:15,609 --> 00:55:17,859
+be storing this file in a place with a
+
+1210
+00:55:17,859 --> 00:55:19,180
+real IP<font color="#E5E5E5"> where you</font>
+
+1211
+00:55:19,180 --> 00:55:21,550
+can access it from the remote web server
+
+1212
+00:55:21,550 --> 00:55:24,010
+<font color="#CCCCCC">now I'm gonna be axe trying to access</font>
+
+1213
+00:55:24,010 --> 00:55:26,079
+<font color="#E5E5E5">this from my</font><font color="#CCCCCC"> Metasploit</font><font color="#E5E5E5"> able machine</font>
+
+1214
+00:55:26,079 --> 00:55:28,690
+which is able<font color="#E5E5E5"> to access files stored on</font>
+
+1215
+00:55:28,690 --> 00:55:30,400
+the<font color="#CCCCCC"> county machine because they're both</font>
+
+1216
+00:55:30,400 --> 00:55:32,619
+<font color="#E5E5E5">on</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> same network</font><font color="#CCCCCC"> and I'm gonna be</font>
+
+1217
+00:55:32,619 --> 00:55:34,180
+calling<font color="#E5E5E5"> this I'm going to be starting</font><font color="#CCCCCC"> it</font>
+
+1218
+00:55:34,180 --> 00:55:37,869
+<font color="#CCCCCC">in my VAR www HTML so it's</font><font color="#E5E5E5"> starting is</font>
+
+1219
+00:55:37,869 --> 00:55:39,790
+being stored on<font color="#E5E5E5"> the</font><font color="#CCCCCC"> callee</font><font color="#E5E5E5"> not on the</font>
+
+1220
+00:55:39,790 --> 00:55:43,109
+Metasploit<font color="#CCCCCC"> able</font><font color="#E5E5E5"> and I'm gonna call it</font>
+
+1221
+00:55:43,109 --> 00:55:46,540
+reverse<font color="#E5E5E5"> and I'm gonna save it as txt not</font>
+
+1222
+00:55:46,540 --> 00:55:50,680
+PHP and I'm doing<font color="#E5E5E5"> this if I started as a</font>
+
+1223
+00:55:50,680 --> 00:55:54,339
+PHP<font color="#E5E5E5"> it's going to be executed on</font><font color="#CCCCCC"> the</font>
+
+1224
+00:55:54,339 --> 00:55:56,619
+<font color="#CCCCCC">callee machine so it's gonna create</font><font color="#E5E5E5"> a</font>
+
+1225
+00:55:56,619 --> 00:55:58,270
+reverse connection from the<font color="#CCCCCC"> callee</font>
+
+1226
+00:55:58,270 --> 00:55:59,890
+<font color="#E5E5E5">machine and I</font><font color="#CCCCCC"> don't want that</font><font color="#E5E5E5"> I don't</font>
+
+1227
+00:55:59,890 --> 00:56:01,359
+<font color="#E5E5E5">want to have</font><font color="#CCCCCC"> to Cali machine I actually</font>
+
+1228
+00:56:01,359 --> 00:56:03,490
+already<font color="#E5E5E5"> have access to the Cali machine</font>
+
+1229
+00:56:03,490 --> 00:56:05,680
+the one that I wanna hack is<font color="#E5E5E5"> the</font>
+
+1230
+00:56:05,680 --> 00:56:08,170
+Metasploit able machine<font color="#E5E5E5"> and that one is</font>
+
+1231
+00:56:08,170 --> 00:56:12,309
+stored remotely<font color="#E5E5E5"> so in order to be</font><font color="#CCCCCC"> able</font>
+
+1232
+00:56:12,309 --> 00:56:15,339
+<font color="#CCCCCC">to include the a PHP</font><font color="#E5E5E5"> code and execute it</font>
+
+1233
+00:56:15,339 --> 00:56:17,710
+<font color="#E5E5E5">on</font><font color="#CCCCCC"> the remote machine we're gonna</font><font color="#E5E5E5"> use it</font>
+
+1234
+00:56:17,710 --> 00:56:20,410
+<font color="#E5E5E5">as txt and get it executed on</font><font color="#CCCCCC"> the</font>
+
+1235
+00:56:20,410 --> 00:56:22,240
+Metasploit<font color="#CCCCCC"> able machine instead of</font>
+
+1236
+00:56:22,240 --> 00:56:24,400
+executed on my<font color="#CCCCCC"> Cali</font>
+
+1237
+00:56:24,400 --> 00:56:27,339
+so I'm<font color="#CCCCCC"> stalling it as a txt</font><font color="#E5E5E5"> and I'm</font>
+
+1238
+00:56:27,339 --> 00:56:30,790
+gonna say<font color="#CCCCCC"> save it and now let's just</font><font color="#E5E5E5"> see</font>
+
+1239
+00:56:30,790 --> 00:56:34,900
+here so if<font color="#E5E5E5"> I go to my local host and if</font>
+
+1240
+00:56:34,900 --> 00:56:40,960
+I say reverse the txt<font color="#E5E5E5"> we'll see our file</font>
+
+1241
+00:56:40,960 --> 00:56:44,170
+right here<font color="#CCCCCC"> so</font><font color="#E5E5E5"> again this is on my local</font>
+
+1242
+00:56:44,170 --> 00:56:46,960
+host<font color="#E5E5E5"> which is not the MIT exploitable</font>
+
+1243
+00:56:46,960 --> 00:56:51,400
+machine it's 10 2014 2 O 3 and the
+
+1244
+00:56:51,400 --> 00:56:54,510
+<font color="#E5E5E5">Missis ploy</font><font color="#CCCCCC"> devil is on</font><font color="#E5E5E5"> 204</font>
+
+1245
+00:56:54,510 --> 00:56:57,270
+so how are<font color="#CCCCCC"> we</font><font color="#E5E5E5"> gonna run this first let</font>
+
+1246
+00:56:57,270 --> 00:56:59,700
+me<font color="#CCCCCC"> just listen for connections like we</font>
+
+1247
+00:56:59,700 --> 00:57:02,150
+did before<font color="#CCCCCC"> so it's just</font><font color="#E5E5E5"> going to be</font>
+
+1248
+00:57:02,150 --> 00:57:11,940
+<font color="#E5E5E5">netcat the</font><font color="#CCCCCC"> v LP</font><font color="#E5E5E5"> 8080</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> then right</font><font color="#CCCCCC"> here</font>
+
+1249
+00:57:11,940 --> 00:57:14,280
+and<font color="#CCCCCC"> setup including a file on the same</font>
+
+1250
+00:57:14,280 --> 00:57:16,140
+server<font color="#CCCCCC"> I'm gonna include</font><font color="#E5E5E5"> a remote file</font>
+
+1251
+00:57:16,140 --> 00:57:19,710
+and the command is<font color="#E5E5E5"> going to be HTTP so</font>
+
+1252
+00:57:19,710 --> 00:57:21,660
+it's just<font color="#E5E5E5"> going to</font><font color="#CCCCCC"> be the link to this</font>
+
+1253
+00:57:21,660 --> 00:57:23,810
+file so it can access<font color="#CCCCCC"> the</font><font color="#E5E5E5"> file here as</font>
+
+1254
+00:57:23,810 --> 00:57:29,450
+txt<font color="#E5E5E5"> I'm</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> copy it and paste it here</font>
+
+1255
+00:57:32,150 --> 00:57:34,850
+and<font color="#E5E5E5"> also in some</font><font color="#CCCCCC"> cases you might need to</font>
+
+1256
+00:57:34,850 --> 00:57:37,100
+add a<font color="#CCCCCC"> question mark</font><font color="#E5E5E5"> to the end to get</font>
+
+1257
+00:57:37,100 --> 00:57:40,520
+<font color="#E5E5E5">this file to be executed as PHP so I'm</font>
+
+1258
+00:57:40,520 --> 00:57:42,260
+just<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to go over this again for</font><font color="#E5E5E5"> one</font>
+
+1259
+00:57:42,260 --> 00:57:45,230
+more time including<font color="#E5E5E5"> a remote file which</font>
+
+1260
+00:57:45,230 --> 00:57:46,520
+is on a remote server
+
+1261
+00:57:46,520 --> 00:57:48,230
+make sure the remote server is
+
+1262
+00:57:48,230 --> 00:57:51,590
+accessible by<font color="#CCCCCC"> your target and also make</font>
+
+1263
+00:57:51,590 --> 00:57:54,080
+sure<font color="#E5E5E5"> you stir it as txt because if you</font>
+
+1264
+00:57:54,080 --> 00:57:56,720
+<font color="#E5E5E5">keep it as</font><font color="#CCCCCC"> PHP this file the reverse</font>
+
+1265
+00:57:56,720 --> 00:57:58,880
+file<font color="#CCCCCC"> would be</font><font color="#E5E5E5"> executed on the remote</font>
+
+1266
+00:57:58,880 --> 00:58:01,340
+<font color="#E5E5E5">server</font><font color="#CCCCCC"> so it will be</font><font color="#E5E5E5"> executed on the</font><font color="#CCCCCC"> 203</font>
+
+1267
+00:58:01,340 --> 00:58:03,770
+and instead<font color="#CCCCCC"> of being executed on</font><font color="#E5E5E5"> the 204</font>
+
+1268
+00:58:03,770 --> 00:58:06,950
+and I'm keeping<font color="#E5E5E5"> it as txt this way it</font>
+
+1269
+00:58:06,950 --> 00:58:09,020
+will be<font color="#E5E5E5"> get it's gonna be executed on</font>
+
+1270
+00:58:09,020 --> 00:58:11,540
+<font color="#CCCCCC">the 204 and it's gonna give me</font><font color="#E5E5E5"> a remote</font>
+
+1271
+00:58:11,540 --> 00:58:14,930
+<font color="#E5E5E5">connection to this computer to the</font>
+
+1272
+00:58:14,930 --> 00:58:17,750
+Metasploit<font color="#CCCCCC"> able computer so if</font><font color="#E5E5E5"> I come</font>
+
+1273
+00:58:17,750 --> 00:58:19,520
+back<font color="#E5E5E5"> here as you can</font><font color="#CCCCCC"> see we have a</font>
+
+1274
+00:58:19,520 --> 00:58:23,450
+remote connection<font color="#CCCCCC"> if we do a you name a</font>
+
+1275
+00:58:23,450 --> 00:58:26,060
+you'll<font color="#E5E5E5"> see that this is the Metasploit</font>
+
+1276
+00:58:26,060 --> 00:58:28,430
+<font color="#E5E5E5">able machine not the</font><font color="#CCCCCC"> Cali machine so we</font>
+
+1277
+00:58:28,430 --> 00:58:29,780
+basically have full access to<font color="#E5E5E5"> the</font>
+
+1278
+00:58:29,780 --> 00:58:32,810
+Metasploit<font color="#CCCCCC"> able machine through and a</font>
+
+1279
+00:58:32,810 --> 00:58:35,660
+remote file inclusion vulnerability now
+
+1280
+00:58:35,660 --> 00:58:39,350
+if we do an LS<font color="#E5E5E5"> we can do a PWD</font><font color="#CCCCCC"> to see</font>
+
+1281
+00:58:39,350 --> 00:58:41,270
+where we<font color="#CCCCCC"> are and we can literally run</font>
+
+1282
+00:58:41,270 --> 00:58:43,100
+and in the<font color="#E5E5E5"> next command we want now on</font>
+
+1283
+00:58:43,100 --> 00:58:45,260
+the machine<font color="#E5E5E5"> and do anything we want</font>
+
+1284
+00:58:45,260 --> 00:58:47,000
+basically<font color="#E5E5E5"> we have full access</font><font color="#CCCCCC"> to that</font>
+
+1285
+00:58:47,000 --> 00:58:49,240
+machine
+
+1286
+00:58:50,690 --> 00:58:53,269
+right so now<font color="#CCCCCC"> that we managed to get a</font>
+
+1287
+00:58:53,269 --> 00:58:55,549
+<font color="#E5E5E5">remote shell from our target computer</font>
+
+1288
+00:58:55,549 --> 00:58:57,799
+<font color="#E5E5E5">let's see if we can do the same and use</font>
+
+1289
+00:58:57,799 --> 00:59:01,759
+the same exploit with<font color="#E5E5E5"> medium security</font><font color="#CCCCCC"> so</font>
+
+1290
+00:59:01,759 --> 00:59:04,430
+I'm<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> cancel this</font>
+
+1291
+00:59:04,430 --> 00:59:06,920
+and I'm going to<font color="#E5E5E5"> go to the security</font>
+
+1292
+00:59:06,920 --> 00:59:09,279
+level
+
+1293
+00:59:09,420 --> 00:59:13,370
+and I'm gonna set that<font color="#CCCCCC"> to medium</font>
+
+1294
+00:59:13,370 --> 00:59:17,700
+<font color="#CCCCCC">submitted</font><font color="#E5E5E5"> and we're gonna go back to our</font>
+
+1295
+00:59:17,700 --> 00:59:21,330
+<font color="#E5E5E5">file inclusion vulnerability I'm gonna</font>
+
+1296
+00:59:21,330 --> 00:59:23,340
+<font color="#E5E5E5">listen on the same part exactly</font><font color="#CCCCCC"> like we</font>
+
+1297
+00:59:23,340 --> 00:59:26,820
+did<font color="#E5E5E5"> in the last video</font><font color="#CCCCCC"> and I'm gonna use</font>
+
+1298
+00:59:26,820 --> 00:59:30,540
+the exact same way to<font color="#E5E5E5"> get back the shell</font>
+
+1299
+00:59:30,540 --> 00:59:32,970
+so we're just<font color="#E5E5E5"> gonna put the txt file</font>
+
+1300
+00:59:32,970 --> 00:59:34,950
+that contains the<font color="#E5E5E5"> code for the reverse</font>
+
+1301
+00:59:34,950 --> 00:59:37,520
+connection
+
+1302
+00:59:38,890 --> 00:59:43,000
+so that's our file and we run it<font color="#E5E5E5"> and as</font>
+
+1303
+00:59:43,000 --> 00:59:45,070
+you<font color="#CCCCCC"> can see</font><font color="#E5E5E5"> we get nothing here and we</font>
+
+1304
+00:59:45,070 --> 00:59:48,070
+get an error<font color="#CCCCCC"> message</font><font color="#E5E5E5"> so what's happened</font>
+
+1305
+00:59:48,070 --> 00:59:51,250
+here is<font color="#E5E5E5"> it could be that the exploit is</font>
+
+1306
+00:59:51,250 --> 00:59:53,650
+patched or maybe they're<font color="#E5E5E5"> using some sort</font>
+
+1307
+00:59:53,650 --> 00:59:57,150
+<font color="#E5E5E5">of filtering</font>
+
+1308
+00:59:57,450 --> 01:00:00,839
+<font color="#E5E5E5">you can try and play around with the</font>
+
+1309
+01:00:00,839 --> 01:00:02,550
+<font color="#E5E5E5">code now obviously they can't really</font>
+
+1310
+01:00:02,550 --> 01:00:04,470
+filter based on your name because<font color="#CCCCCC"> you</font>
+
+1311
+01:00:04,470 --> 01:00:06,570
+<font color="#CCCCCC">know you can have</font><font color="#E5E5E5"> any name in here they</font>
+
+1312
+01:00:06,570 --> 01:00:08,250
+can't really filter on dots because
+
+1313
+01:00:08,250 --> 01:00:10,800
+<font color="#E5E5E5">again you can have dots and file names</font>
+
+1314
+01:00:10,800 --> 01:00:12,869
+like the file that they had<font color="#E5E5E5"> originally</font>
+
+1315
+01:00:12,869 --> 01:00:18,690
+is the original file is called include
+
+1316
+01:00:18,690 --> 01:00:20,490
+<font color="#CCCCCC">those PHP so again they can't really</font>
+
+1317
+01:00:20,490 --> 01:00:24,240
+<font color="#E5E5E5">have filter on the dots so the things</font>
+
+1318
+01:00:24,240 --> 01:00:26,099
+that<font color="#CCCCCC"> would should raise</font><font color="#E5E5E5"> flags for</font><font color="#CCCCCC"> you is</font>
+
+1319
+01:00:26,099 --> 01:00:28,170
+the<font color="#E5E5E5"> forward slash which is highly</font>
+
+1320
+01:00:28,170 --> 01:00:30,599
+unlikely<font color="#E5E5E5"> because again forward slashes</font>
+
+1321
+01:00:30,599 --> 01:00:33,329
+are<font color="#CCCCCC"> used a lot</font><font color="#E5E5E5"> and the HTTP because</font>
+
+1322
+01:00:33,329 --> 01:00:36,060
+<font color="#CCCCCC">usually you wouldn't</font><font color="#E5E5E5"> have HTTP</font><font color="#CCCCCC"> in your</font>
+
+1323
+01:00:36,060 --> 01:00:39,599
+<font color="#CCCCCC">url</font><font color="#E5E5E5"> after the first HTTP so what</font><font color="#CCCCCC"> I'm</font>
+
+1324
+01:00:39,599 --> 01:00:41,579
+<font color="#CCCCCC">gonna use is I'm just</font><font color="#E5E5E5"> gonna try and put</font>
+
+1325
+01:00:41,579 --> 01:00:43,349
+instead of normal<font color="#E5E5E5"> T's I'm gonna put</font>
+
+1326
+01:00:43,349 --> 01:00:45,260
+<font color="#E5E5E5">capital T's</font>
+
+1327
+01:00:45,260 --> 01:00:48,310
+so instead of<font color="#CCCCCC"> hates maltese malti</font><font color="#E5E5E5"> I have</font>
+
+1328
+01:00:48,310 --> 01:00:51,980
+HTTP<font color="#E5E5E5"> but the two T's in</font><font color="#CCCCCC"> there</font><font color="#E5E5E5"> are</font>
+
+1329
+01:00:51,980 --> 01:00:55,820
+<font color="#CCCCCC">capital</font><font color="#E5E5E5"> and if I hit</font><font color="#CCCCCC"> enter now you'll</font>
+
+1330
+01:00:55,820 --> 01:00:58,010
+see<font color="#E5E5E5"> that I got my connection right</font><font color="#CCCCCC"> here</font>
+
+1331
+01:00:58,010 --> 01:01:00,320
+and again<font color="#CCCCCC"> I have full</font><font color="#E5E5E5"> access to the</font>
+
+1332
+01:01:00,320 --> 01:01:04,960
+server where I can do whatever I<font color="#CCCCCC"> want</font>
+
+1333
+01:01:05,410 --> 01:01:08,470
+now<font color="#CCCCCC"> obviously this is happening because</font>
+
+1334
+01:01:08,470 --> 01:01:10,660
+<font color="#E5E5E5">the way that they're</font><font color="#CCCCCC"> securing this is</font>
+
+1335
+01:01:10,660 --> 01:01:12,040
+not right<font color="#E5E5E5"> and</font><font color="#CCCCCC"> we'll never talk</font><font color="#E5E5E5"> about</font>
+
+1336
+01:01:12,040 --> 01:01:15,250
+<font color="#E5E5E5">security in an in a future lecture so I</font>
+
+1337
+01:01:15,250 --> 01:01:16,450
+<font color="#E5E5E5">just want to show you the code now</font>
+
+1338
+01:01:16,450 --> 01:01:18,610
+though<font color="#E5E5E5"> just a quick look I usually don't</font>
+
+1339
+01:01:18,610 --> 01:01:21,040
+show the code<font color="#E5E5E5"> and</font><font color="#CCCCCC"> as you can</font><font color="#E5E5E5"> see here</font>
+
+1340
+01:01:21,040 --> 01:01:23,860
+they're actually<font color="#CCCCCC"> looking</font><font color="#E5E5E5"> for HTTP and</font>
+
+1341
+01:01:23,860 --> 01:01:25,930
+HTTPS and they're replacing that with
+
+1342
+01:01:25,930 --> 01:01:28,090
+<font color="#E5E5E5">nothing so that's why when we</font><font color="#CCCCCC"> use</font>
+
+1343
+01:01:28,090 --> 01:01:30,460
+capital<font color="#E5E5E5"> T's we were able to bypass this</font>
+
+1344
+01:01:30,460 --> 01:01:33,220
+filter<font color="#E5E5E5"> so</font><font color="#CCCCCC"> always using filters is never</font>
+
+1345
+01:01:33,220 --> 01:01:35,470
+a good idea<font color="#E5E5E5"> because filters can always</font>
+
+1346
+01:01:35,470 --> 01:01:38,520
+be<font color="#CCCCCC"> Piper</font><font color="#E5E5E5"> bypassed</font>
+
+1347
+01:01:38,589 --> 01:01:41,329
+the third type<font color="#E5E5E5"> of</font><font color="#CCCCCC"> vulnerability that we</font>
+
+1348
+01:01:41,329 --> 01:01:43,460
+looked at was<font color="#CCCCCC"> the file inclusion and</font><font color="#E5E5E5"> we</font>
+
+1349
+01:01:43,460 --> 01:01:45,410
+looked at<font color="#E5E5E5"> two types the local file</font>
+
+1350
+01:01:45,410 --> 01:01:47,420
+inclusion which allowed us to<font color="#CCCCCC"> include</font>
+
+1351
+01:01:47,420 --> 01:01:49,339
+<font color="#E5E5E5">any file on the system and then read</font>
+
+1352
+01:01:49,339 --> 01:01:52,270
+files<font color="#E5E5E5"> which will cause a file disclosure</font>
+
+1353
+01:01:52,270 --> 01:01:54,440
+vulnerability and then you'd be<font color="#CCCCCC"> able to</font>
+
+1354
+01:01:54,440 --> 01:01:56,660
+read any file on<font color="#E5E5E5"> the server and then we</font>
+
+1355
+01:01:56,660 --> 01:01:58,070
+looked<font color="#E5E5E5"> at the remote file inclusion</font>
+
+1356
+01:01:58,070 --> 01:02:00,470
+which is very<font color="#CCCCCC"> dangerous which allowed us</font>
+
+1357
+01:02:00,470 --> 01:02:04,040
+<font color="#CCCCCC">to include any file</font><font color="#E5E5E5"> from any web server</font>
+
+1358
+01:02:04,040 --> 01:02:06,320
+so<font color="#E5E5E5"> we were able to include PHP shells</font>
+
+1359
+01:02:06,320 --> 01:02:08,839
+<font color="#E5E5E5">and then</font><font color="#CCCCCC"> get connection</font><font color="#E5E5E5"> from the target</font>
+
+1360
+01:02:08,839 --> 01:02:12,349
+computer<font color="#E5E5E5"> to prevent</font><font color="#CCCCCC"> this first of all</font>
+
+1361
+01:02:12,349 --> 01:02:14,329
+make sure you prevent the remote file
+
+1362
+01:02:14,329 --> 01:02:16,250
+inclusion<font color="#CCCCCC"> so just in</font><font color="#E5E5E5"> case anything goes</font>
+
+1363
+01:02:16,250 --> 01:02:19,040
+wrong<font color="#E5E5E5"> people can't include files from</font>
+
+1364
+01:02:19,040 --> 01:02:21,140
+outside your server<font color="#E5E5E5"> and you can do that</font>
+
+1365
+01:02:21,140 --> 01:02:23,270
+<font color="#E5E5E5">the same way</font><font color="#CCCCCC"> we enabled it</font><font color="#E5E5E5"> using the PHP</font>
+
+1366
+01:02:23,270 --> 01:02:26,510
+<font color="#E5E5E5">on e by disabling the allow your LF open</font>
+
+1367
+01:02:26,510 --> 01:02:29,750
+and allow URL include and if we go here
+
+1368
+01:02:29,750 --> 01:02:31,369
+<font color="#E5E5E5">to our</font><font color="#CCCCCC"> MIT exploitable I'll just show</font>
+
+1369
+01:02:31,369 --> 01:02:36,010
+you<font color="#CCCCCC"> very quick so if we do sudo</font><font color="#E5E5E5"> nano</font>
+
+1370
+01:02:36,010 --> 01:02:39,950
+<font color="#CCCCCC">which is the text editor ATC PHP CGI PHP</font>
+
+1371
+01:02:39,950 --> 01:02:41,540
+<font color="#CCCCCC">that I need the same file that we used</font>
+
+1372
+01:02:41,540 --> 01:02:44,750
+<font color="#E5E5E5">this is the</font><font color="#CCCCCC"> file for the</font><font color="#E5E5E5"> PHP settings if</font>
+
+1373
+01:02:44,750 --> 01:02:48,890
+you open<font color="#CCCCCC"> that file</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> now I'm going to</font>
+
+1374
+01:02:48,890 --> 01:02:57,760
+<font color="#E5E5E5">do</font><font color="#CCCCCC"> ctrl</font><font color="#E5E5E5"> W and look for allow URL</font>
+
+1375
+01:03:01,869 --> 01:03:03,700
+and you want to<font color="#E5E5E5"> make</font><font color="#CCCCCC"> sure that the allow</font>
+
+1376
+01:03:03,700 --> 01:03:08,829
+<font color="#E5E5E5">URL</font><font color="#CCCCCC"> F open is set to OFF and allow your</font>
+
+1377
+01:03:08,829 --> 01:03:12,869
+<font color="#CCCCCC">l included is set to off as well</font>
+
+1378
+01:03:13,079 --> 01:03:16,599
+control X Y and enter and<font color="#E5E5E5"> that'll save</font>
+
+1379
+01:03:16,599 --> 01:03:19,140
+it for you
+
+1380
+01:03:20,220 --> 01:03:22,810
+the other way<font color="#E5E5E5"> to prevent these exploits</font>
+
+1381
+01:03:22,810 --> 01:03:25,630
+<font color="#CCCCCC">is to use</font><font color="#E5E5E5"> static file inclusion so</font>
+
+1382
+01:03:25,630 --> 01:03:27,670
+instead of using dynamic file inclusion
+
+1383
+01:03:27,670 --> 01:03:30,520
+which we see in you can hard code the
+
+1384
+01:03:30,520 --> 01:03:32,530
+<font color="#CCCCCC">files that you</font><font color="#E5E5E5"> want to include in the</font>
+
+1385
+01:03:32,530 --> 01:03:35,050
+code and<font color="#E5E5E5"> not get them using get or post</font>
+
+1386
+01:03:35,050 --> 01:03:37,090
+for example<font color="#CCCCCC"> what's happening in the</font>
+
+1387
+01:03:37,090 --> 01:03:38,710
+examples we see in the vulnerable
+
+1388
+01:03:38,710 --> 01:03:40,960
+examples<font color="#E5E5E5"> is we have a page called</font><font color="#CCCCCC"> page</font>
+
+1389
+01:03:40,960 --> 01:03:46,030
+<font color="#E5E5E5">or index dot PHP</font><font color="#CCCCCC"> and then this index dot</font>
+
+1390
+01:03:46,030 --> 01:03:48,190
+PHP takes a parameter<font color="#CCCCCC"> called page and</font>
+
+1391
+01:03:48,190 --> 01:03:49,870
+then it<font color="#CCCCCC"> takes another page for example</font>
+
+1392
+01:03:49,870 --> 01:03:53,410
+<font color="#CCCCCC">News dot PHP</font><font color="#E5E5E5"> and it includes this</font><font color="#CCCCCC"> News</font>
+
+1393
+01:03:53,410 --> 01:03:56,200
+PHP in the code<font color="#E5E5E5"> so what's the code look</font>
+
+1394
+01:03:56,200 --> 01:03:59,080
+like in the PHP<font color="#E5E5E5"> code</font><font color="#CCCCCC"> you'll see</font>
+
+1395
+01:03:59,080 --> 01:04:02,370
+<font color="#CCCCCC">something like include</font>
+
+1396
+01:04:08,800 --> 01:04:12,619
+so what this will do<font color="#CCCCCC"> basically and that</font>
+
+1397
+01:04:12,619 --> 01:04:15,560
+looks<font color="#E5E5E5"> like this I believe what this do</font>
+
+1398
+01:04:15,560 --> 01:04:19,609
+<font color="#E5E5E5">it includes whatever comes after the</font>
+
+1399
+01:04:19,609 --> 01:04:23,390
+page parameter so the code will
+
+1400
+01:04:23,390 --> 01:04:26,119
+dynamically takes<font color="#E5E5E5"> whatever that comes in</font>
+
+1401
+01:04:26,119 --> 01:04:28,579
+<font color="#E5E5E5">after the page parameter and includes it</font>
+
+1402
+01:04:28,579 --> 01:04:30,410
+in<font color="#CCCCCC"> the</font><font color="#E5E5E5"> current page so this will be in</font>
+
+1403
+01:04:30,410 --> 01:04:34,970
+the<font color="#E5E5E5"> index dot PHP</font><font color="#CCCCCC"> page</font><font color="#E5E5E5"> okay this is very</font>
+
+1404
+01:04:34,970 --> 01:04:37,250
+bad<font color="#CCCCCC"> because even if it's not</font><font color="#E5E5E5"> yet</font>
+
+1405
+01:04:37,250 --> 01:04:39,200
+sometimes<font color="#E5E5E5"> people use post and in post</font>
+
+1406
+01:04:39,200 --> 01:04:41,420
+you won't see this<font color="#E5E5E5"> so it will be</font><font color="#CCCCCC"> posted</font>
+
+1407
+01:04:41,420 --> 01:04:43,910
+but you can use a proxy such as burp
+
+1408
+01:04:43,910 --> 01:04:46,400
+proxy and this would look<font color="#CCCCCC"> like that and</font>
+
+1409
+01:04:46,400 --> 01:04:49,910
+<font color="#E5E5E5">then</font><font color="#CCCCCC"> you can modify</font><font color="#E5E5E5"> it and get it</font><font color="#CCCCCC"> to</font>
+
+1410
+01:04:49,910 --> 01:04:51,890
+<font color="#E5E5E5">include anything you want and then it's</font>
+
+1411
+01:04:51,890 --> 01:04:54,740
+displayed on the<font color="#E5E5E5"> page what we really</font>
+
+1412
+01:04:54,740 --> 01:04:57,200
+want to do is we want<font color="#E5E5E5"> the user not</font><font color="#CCCCCC"> to be</font>
+
+1413
+01:04:57,200 --> 01:04:59,510
+able<font color="#E5E5E5"> to manipulate with what's going to</font>
+
+1414
+01:04:59,510 --> 01:05:01,339
+be included<font color="#CCCCCC"> so if you wanted</font><font color="#E5E5E5"> to include</font>
+
+1415
+01:05:01,339 --> 01:05:05,690
+a page called<font color="#CCCCCC"> news dot PHP just include</font>
+
+1416
+01:05:05,690 --> 01:05:07,609
+it inside this without<font color="#E5E5E5"> giving the user</font>
+
+1417
+01:05:07,609 --> 01:05:09,710
+the<font color="#CCCCCC"> ability to change it I know</font><font color="#E5E5E5"> you're</font>
+
+1418
+01:05:09,710 --> 01:05:12,980
+gonna<font color="#CCCCCC"> program</font><font color="#E5E5E5"> your code to just have it</font>
+
+1419
+01:05:12,980 --> 01:05:16,339
+<font color="#E5E5E5">looking like</font><font color="#CCCCCC"> this but the users</font><font color="#E5E5E5"> we know</font>
+
+1420
+01:05:16,339 --> 01:05:18,230
+we see how users<font color="#CCCCCC"> can</font><font color="#E5E5E5"> play with this and</font>
+
+1421
+01:05:18,230 --> 01:05:20,869
+just<font color="#E5E5E5"> get it to include anything they</font>
+
+1422
+01:05:20,869 --> 01:05:23,150
+want so the best way to do it is just<font color="#E5E5E5"> to</font>
+
+1423
+01:05:23,150 --> 01:05:25,849
+get<font color="#E5E5E5"> it</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> include page dot PHP</font><font color="#CCCCCC"> so your</font>
+
+1424
+01:05:25,849 --> 01:05:28,040
+code is not using any variables<font color="#E5E5E5"> it's</font>
+
+1425
+01:05:28,040 --> 01:05:30,530
+it's<font color="#E5E5E5"> hard-coded it might make your code</font>
+
+1426
+01:05:30,530 --> 01:05:35,020
+log longer but it's much more<font color="#E5E5E5"> secure</font>
+
+1427
+01:05:36,260 --> 01:05:38,930
+and this is exactly<font color="#E5E5E5"> what the</font>
+
+1428
+01:05:38,930 --> 01:05:42,620
+<font color="#CCCCCC">high-security option does so let's go</font>
+
+1429
+01:05:42,620 --> 01:05:44,330
+back<font color="#CCCCCC"> to the file inclusion first and</font>
+
+1430
+01:05:44,330 --> 01:05:47,360
+we're at the low and if I viewed<font color="#CCCCCC"> the</font>
+
+1431
+01:05:47,360 --> 01:05:49,850
+source now you'll see that<font color="#E5E5E5"> basically</font>
+
+1432
+01:05:49,850 --> 01:05:52,400
+<font color="#CCCCCC">file is what you pass to it so file is</font>
+
+1433
+01:05:52,400 --> 01:05:55,160
+what<font color="#E5E5E5"> we pass to it in here and the after</font>
+
+1434
+01:05:55,160 --> 01:05:57,560
+the page parameter<font color="#E5E5E5"> and you</font><font color="#CCCCCC"> can see that</font>
+
+1435
+01:05:57,560 --> 01:06:00,080
+it tries to display<font color="#CCCCCC"> anything that we</font>
+
+1436
+01:06:00,080 --> 01:06:03,080
+<font color="#E5E5E5">send it so when we send it</font><font color="#CCCCCC"> a TC password</font>
+
+1437
+01:06:03,080 --> 01:06:07,010
+it shows us the<font color="#CCCCCC"> e TC</font><font color="#E5E5E5"> password now I'm</font>
+
+1438
+01:06:07,010 --> 01:06:09,110
+actually<font color="#E5E5E5"> going to keep this open</font><font color="#CCCCCC"> and I'm</font>
+
+1439
+01:06:09,110 --> 01:06:11,570
+gonna go to the security level<font color="#E5E5E5"> to the</font>
+
+1440
+01:06:11,570 --> 01:06:15,550
+security<font color="#E5E5E5"> and I'm</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> set</font><font color="#CCCCCC"> it to</font><font color="#E5E5E5"> high</font>
+
+1441
+01:06:16,260 --> 01:06:19,950
+<font color="#E5E5E5">now the medium is the is similar to the</font>
+
+1442
+01:06:19,950 --> 01:06:22,320
+<font color="#CCCCCC">know</font><font color="#E5E5E5"> so you can actually use the</font><font color="#CCCCCC"> same</font>
+
+1443
+01:06:22,320 --> 01:06:24,960
+you can<font color="#E5E5E5"> exploit it the same way that we</font>
+
+1444
+01:06:24,960 --> 01:06:27,510
+exploited the low so we're<font color="#CCCCCC"> going to the</font>
+
+1445
+01:06:27,510 --> 01:06:29,640
+high straightaway and we're going to
+
+1446
+01:06:29,640 --> 01:06:31,670
+<font color="#E5E5E5">view the source</font>
+
+1447
+01:06:31,670 --> 01:06:33,560
+and I'm<font color="#E5E5E5"> just going</font><font color="#CCCCCC"> to minimize this</font>
+
+1448
+01:06:33,560 --> 01:06:35,090
+because they have the two sources<font color="#E5E5E5"> now so</font>
+
+1449
+01:06:35,090 --> 01:06:37,790
+we can compare<font color="#E5E5E5"> them</font>
+
+1450
+01:06:37,790 --> 01:06:40,610
+so as you can<font color="#CCCCCC"> see here</font><font color="#E5E5E5"> and the low and</font>
+
+1451
+01:06:40,610 --> 01:06:42,770
+<font color="#CCCCCC">medium security</font><font color="#E5E5E5"> level you can see that</font>
+
+1452
+01:06:42,770 --> 01:06:44,990
+anything<font color="#CCCCCC"> we passed</font><font color="#E5E5E5"> the file by a</font>
+
+1453
+01:06:44,990 --> 01:06:47,210
+<font color="#E5E5E5">variable it will</font><font color="#CCCCCC"> be displayed to us</font>
+
+1454
+01:06:47,210 --> 01:06:49,670
+whereas in here at the high<font color="#E5E5E5"> security</font>
+
+1455
+01:06:49,670 --> 01:06:52,640
+level<font color="#E5E5E5"> you can</font><font color="#CCCCCC"> see that it is hard-coded</font>
+
+1456
+01:06:52,640 --> 01:06:55,550
+that it is only allowed to<font color="#CCCCCC"> show us the</font>
+
+1457
+01:06:55,550 --> 01:06:59,030
+include dot PHP file<font color="#E5E5E5"> so</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> can you can</font>
+
+1458
+01:06:59,030 --> 01:07:01,040
+<font color="#E5E5E5">modify this if statement if</font><font color="#CCCCCC"> you had a</font>
+
+1459
+01:07:01,040 --> 01:07:02,720
+<font color="#E5E5E5">number</font><font color="#CCCCCC"> of files</font><font color="#E5E5E5"> that you wish to</font><font color="#CCCCCC"> include</font>
+
+1460
+01:07:02,720 --> 01:07:05,060
+<font color="#CCCCCC">then you can</font><font color="#E5E5E5"> allow them in here or you</font>
+
+1461
+01:07:05,060 --> 01:07:07,100
+<font color="#CCCCCC">can have them in a list</font><font color="#E5E5E5"> but basically</font>
+
+1462
+01:07:07,100 --> 01:07:09,830
+the concept is you<font color="#CCCCCC"> only allow the files</font>
+
+1463
+01:07:09,830 --> 01:07:12,290
+<font color="#E5E5E5">that the</font><font color="#CCCCCC"> user is allowed to</font><font color="#E5E5E5"> see so you</font>
+
+1464
+01:07:12,290 --> 01:07:14,060
+can<font color="#E5E5E5"> just have them</font><font color="#CCCCCC"> in a list here you</font>
+
+1465
+01:07:14,060 --> 01:07:16,340
+can use an or statement<font color="#CCCCCC"> or you can just</font>
+
+1466
+01:07:16,340 --> 01:07:18,560
+<font color="#E5E5E5">have</font><font color="#CCCCCC"> a list and say if the</font><font color="#E5E5E5"> file is in</font>
+
+1467
+01:07:18,560 --> 01:07:21,650
+<font color="#E5E5E5">this list then display it otherwise give</font>
+
+1468
+01:07:21,650 --> 01:07:25,060
+an error saying<font color="#E5E5E5"> the file is not found so</font>
+
+1469
+01:07:25,060 --> 01:07:28,220
+avoid this<font color="#E5E5E5"> go with the hard-coded method</font>
+
+1470
+01:07:28,220 --> 01:07:30,170
+<font color="#E5E5E5">yes it doesn't look as</font><font color="#CCCCCC"> pretty as this</font>
+
+1471
+01:07:30,170 --> 01:07:34,090
+but it's much more<font color="#E5E5E5"> secure</font>
+
+1472
+01:07:39,550 --> 00:00:00,000
+you
+

@@ -1,0 +1,1012 @@
+1
+00:00:00,060 --> 00:00:02,580
+ Halo semuanya di <font color="#CCCCCC">video ini kita akan </font><font color="#E5E5E5">mulai </font>
+
+2
+00:00:02,580 --> 00:00:04,500
+ dengan <font color="#E5E5E5">topik pertama peretasan Windows </font>
+
+3
+00:00:04,500 --> 00:00:06,930
+ <font color="#E5E5E5">itu adalah </font><font color="#CCCCCC">kebijakan penyimpanan kata sandi </font><font color="#E5E5E5">Windows </font>
+
+4
+00:00:06,930 --> 00:00:08,970
+ <font color="#E5E5E5">jadi sebelum masuk ke </font><font color="#CCCCCC">windows hacking </font>
+
+5
+00:00:08,970 --> 00:00:11,460
+ kita harus tahu <font color="#E5E5E5">bagaimana </font><font color="#CCCCCC">windows store pernah ada </font>
+
+6
+00:00:11,460 --> 00:00:13,230
+ <font color="#E5E5E5">kata sandi jadi sistem operasi Windows </font>
+
+7
+00:00:13,230 --> 00:00:14,730
+ menyimpan kata sandi kami dalam bentuk 
+
+8
+00:00:14,730 --> 00:00:17,100
+ hash dan kata sandi ini ada 
+
+9
+00:00:17,100 --> 00:00:20,189
+ <font color="#E5E5E5">di dalam </font><font color="#CCCCCC">file </font><font color="#E5E5E5">Sam </font><font color="#CCCCCC">sehingga file Sam berdiri </font>
+
+10
+00:00:20,189 --> 00:00:22,800
+ untuk manajer akun sistem <font color="#E5E5E5">dan ini </font>
+
+11
+00:00:22,800 --> 00:00:24,980
+ file <font color="#E5E5E5">bertanggung jawab untuk mengandung </font><font color="#CCCCCC">kami </font>
+
+12
+00:00:24,980 --> 00:00:27,750
+ kata sandi <font color="#E5E5E5">jadi direktori tempat ini </font>
+
+13
+00:00:27,750 --> 00:00:30,449
+ file file <font color="#CCCCCC">Sam hadir di </font><font color="#E5E5E5">sini Anda bisa </font>
+
+14
+00:00:30,449 --> 00:00:33,809
+ <font color="#E5E5E5">lihat itu adalah C disk lokal C </font><font color="#CCCCCC">Windows kemudian </font>
+
+15
+00:00:33,809 --> 00:00:37,469
+ <font color="#E5E5E5">sistem 32 konfigurasi </font><font color="#CCCCCC">dan </font><font color="#E5E5E5">Sam sehingga kami dapat menemukan </font>
+
+16
+00:00:37,469 --> 00:00:40,739
+ file ini file <font color="#E5E5E5">Sam di direktori ini </font><font color="#CCCCCC">sekarang </font>
+
+17
+00:00:40,739 --> 00:00:43,020
+ mari kita bicara <font color="#CCCCCC">tentang beberapa fitur atau pengaruh </font>
+
+18
+00:00:43,020 --> 00:00:46,079
+ tentang file Sam sehingga sistem file Sam 
+
+19
+00:00:46,079 --> 00:00:47,730
+ <font color="#E5E5E5">manajer akun adalah salah satu yang paling penting </font>
+
+20
+00:00:47,730 --> 00:00:49,469
+ file aman di sistem operasi Windows 
+
+21
+00:00:49,469 --> 00:00:51,750
+ jadi mengapa file <font color="#E5E5E5">ini lebih aman sekarang mari kita </font>
+
+22
+00:00:51,750 --> 00:00:52,800
+ <font color="#E5E5E5">membicarakannya </font>
+
+23
+00:00:52,800 --> 00:00:55,649
+ <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">San </font><font color="#E5E5E5">file tidak dapat dapat dibuka tidak </font>
+
+24
+00:00:55,649 --> 00:00:58,350
+ diedit <font color="#CCCCCC">dan tidak dapat </font><font color="#E5E5E5">disalin jika </font>
+
+25
+00:00:58,350 --> 00:00:59,430
+ Sistem operasi Windows sedang berjalan 
+
+26
+00:00:59,430 --> 00:01:01,620
+ <font color="#CCCCCC">yang artinya jika kita menggunakan Windows </font>
+
+27
+00:01:01,620 --> 00:01:04,080
+ <font color="#CCCCCC">sistem operasi maka kita tidak bisa menyalin ini </font>
+
+28
+00:01:04,080 --> 00:01:06,330
+ file <font color="#E5E5E5">kita tidak bisa membuka file ini dan </font><font color="#CCCCCC">kita </font>
+
+29
+00:01:06,330 --> 00:01:08,549
+ bahkan tidak dapat <font color="#E5E5E5">mengedit file ini jadi ini adalah file </font>
+
+30
+00:01:08,549 --> 00:01:10,590
+ <font color="#CCCCCC">Fitur keamanan pertama dari </font><font color="#E5E5E5">file </font><font color="#CCCCCC">ini </font>
+
+31
+00:01:10,590 --> 00:01:12,930
+ <font color="#E5E5E5">fitur berikutnya adalah karena kita tahu itu </font>
+
+32
+00:01:12,930 --> 00:01:15,119
+ <font color="#E5E5E5">file Sam ini berisi kata sandi </font>
+
+33
+00:01:15,119 --> 00:01:17,460
+ bentuk hash <font color="#E5E5E5">jadi apa yang bisa kita lakukan </font>
+
+34
+00:01:17,460 --> 00:01:19,530
+ <font color="#CCCCCC">dapat </font><font color="#E5E5E5">lebih dari crypt file ini untuk </font>
+
+35
+00:01:19,530 --> 00:01:21,810
+ buat lebih aman <font color="#E5E5E5">sehingga Anda bisa lihat di sini </font>
+
+36
+00:01:21,810 --> 00:01:24,060
+ <font color="#E5E5E5">bahwa itu dapat lebih disimpan oleh </font><font color="#CCCCCC">Windows </font>
+
+37
+00:01:24,060 --> 00:01:26,700
+ menggunakan fitur khusus jadi ini adalah 
+
+38
+00:01:26,700 --> 00:01:29,549
+ dua <font color="#CCCCCC">fitur keamanan </font><font color="#E5E5E5">file San tetapi di </font>
+
+39
+00:01:29,549 --> 00:01:32,100
+ pesan untuk <font color="#E5E5E5">menemukan </font><font color="#CCCCCC">kata sandi dari </font><font color="#E5E5E5">Sam </font>
+
+40
+00:01:32,100 --> 00:01:34,590
+ file atau <font color="#E5E5E5">untuk melihat apa </font><font color="#CCCCCC">itu </font>
+
+41
+00:01:34,590 --> 00:01:36,509
+ konten yang ada di dalam Sam 
+
+42
+00:01:36,509 --> 00:01:38,850
+ file kita perlu satu <font color="#CCCCCC">file lagi itu </font>
+
+43
+00:01:38,850 --> 00:01:40,770
+ disebut <font color="#E5E5E5">sistem sehingga file sistem </font>
+
+44
+00:01:40,770 --> 00:01:43,680
+ sebenarnya <font color="#E5E5E5">mengandung kunci yang digunakan dalam </font>
+
+45
+00:01:43,680 --> 00:01:46,799
+ memesan untuk <font color="#E5E5E5">melihat konten dari Sam </font><font color="#CCCCCC">file </font><font color="#E5E5E5">sehingga </font>
+
+46
+00:01:46,799 --> 00:01:49,320
+ sebagai peretas <font color="#E5E5E5">kita memerlukan dua file yang pertama </font>
+
+47
+00:01:49,320 --> 00:01:51,450
+ <font color="#E5E5E5">satu file Sam, lalu yang kedua </font>
+
+48
+00:01:51,450 --> 00:01:53,820
+ <font color="#E5E5E5">file sistem </font><font color="#CCCCCC">untuk menemukan kata sandi </font>
+
+49
+00:01:53,820 --> 00:01:56,430
+ dari <font color="#CCCCCC">pertarungan Sam jadi ini semua hal </font>
+
+50
+00:01:56,430 --> 00:01:59,670
+ Jadikan <font color="#E5E5E5">Sam sebagai </font><font color="#CCCCCC">pengelola akun yang </font><font color="#E5E5E5">baik </font><font color="#CCCCCC">jadi sekarang </font>
+
+51
+00:01:59,670 --> 00:02:01,469
+ mari kita lihat bagaimana kita bisa menyalin file Sam 
+
+52
+00:02:01,469 --> 00:02:03,840
+ dan dapat memecahkan atau menemukan <font color="#CCCCCC">kata sandi </font>
+
+53
+00:02:03,840 --> 00:02:07,350
+ <font color="#E5E5E5">File Sam di sistem kami sekarang </font><font color="#CCCCCC">mari kita salin </font>
+
+54
+00:02:07,350 --> 00:02:09,750
+ <font color="#E5E5E5">Sam dan file sistem untuk menemukan </font>
+
+55
+00:02:09,750 --> 00:02:12,840
+ kata sandi pengguna tertentu, <font color="#CCCCCC">jadi saya </font>
+
+56
+00:02:12,840 --> 00:02:13,560
+ <font color="#E5E5E5">menggunakan Windows </font>
+
+57
+00:02:13,560 --> 00:02:15,450
+ <font color="#CCCCCC">sistem operasi cim di </font><font color="#E5E5E5">kotak </font><font color="#CCCCCC">virtual saya </font>
+
+58
+00:02:15,450 --> 00:02:17,730
+ jadi <font color="#E5E5E5">kamu bisa lihat di sini jadi alasannya </font>
+
+59
+00:02:17,730 --> 00:02:19,680
+ itu <font color="#CCCCCC">yang saya gunakan salmon </font><font color="#E5E5E5">jendela </font><font color="#CCCCCC">ini </font>
+
+60
+00:02:19,680 --> 00:02:22,080
+ <font color="#E5E5E5">sistem boarding karena di Windows 8 </font><font color="#CCCCCC">dan </font>
+
+61
+00:02:22,080 --> 00:02:24,599
+ Windows <font color="#E5E5E5">10 seperti toko Microsoft </font>
+
+62
+00:02:24,599 --> 00:02:27,239
+ kata sandi <font color="#E5E5E5">di jendela benar-benar berubah </font>
+
+63
+00:02:27,239 --> 00:02:29,520
+ <font color="#CCCCCC">karena </font><font color="#E5E5E5">asosiasi</font><font color="#CCCCCC"> Microsoft </font>
+
+64
+00:02:29,520 --> 00:02:31,290
+ akun <font color="#CCCCCC">jadi itu sebabnya saya memilih ini </font>
+
+65
+00:02:31,290 --> 00:02:32,940
+ <font color="#CCCCCC">Sistem operasi Windows 7 </font><font color="#E5E5E5">seperti yang pertama saya </font>
+
+66
+00:02:32,940 --> 00:02:36,480
+ menargetkan <font color="#E5E5E5">baik saya katakan </font><font color="#CCCCCC">sebelumnya </font><font color="#E5E5E5">bahwa </font>
+
+67
+00:02:36,480 --> 00:02:38,069
+ File Sam berisi kata sandi <font color="#E5E5E5">dan </font>
+
+68
+00:02:38,069 --> 00:02:39,989
+ ada satu <font color="#CCCCCC">file lagi yang disebut sistem </font>
+
+69
+00:02:39,989 --> 00:02:42,930
+ yang berisi kunci untuk membuka <font color="#E5E5E5">Sam itu </font>
+
+70
+00:02:42,930 --> 00:02:45,510
+ file dan satu hal lagi yang saya <font color="#CCCCCC">katakan itu </font>
+
+71
+00:02:45,510 --> 00:02:47,040
+ <font color="#E5E5E5">kita tidak bisa menyalin </font><font color="#CCCCCC">file SAM </font>
+
+72
+00:02:47,040 --> 00:02:49,709
+ <font color="#E5E5E5">kita tidak bisa mengeditnya dan kita tidak bisa </font><font color="#CCCCCC">memodifikasi </font>
+
+73
+00:02:49,709 --> 00:02:51,959
+ <font color="#E5E5E5">file yang sama ketika sistem sedang </font><font color="#CCCCCC">berjalan </font><font color="#E5E5E5">tetapi </font>
+
+74
+00:02:51,959 --> 00:02:54,480
+ adakah cara <font color="#E5E5E5">agar kita bisa ekspor </font>
+
+75
+00:02:54,480 --> 00:03:00,090
+ file yang sama <font color="#CCCCCC">ya ada yang jadi apa kita </font>
+
+76
+00:03:00,090 --> 00:03:02,580
+ harus lakukan adalah di bar yang <font color="#E5E5E5">baru saja dijalankan </font>
+
+77
+00:03:02,580 --> 00:03:06,390
+ di sini <font color="#CCCCCC">regedit dan klik ya </font><font color="#E5E5E5">begitu </font>
+
+78
+00:03:06,390 --> 00:03:08,700
+ ini <font color="#E5E5E5">akan membuka registry editor untuk kami </font>
+
+79
+00:03:08,700 --> 00:03:10,380
+ jadi di sini Anda dapat melihat bahwa registri 
+
+80
+00:03:10,380 --> 00:03:12,510
+ <font color="#CCCCCC">editor jadi kita harus pergi ke sini untuk </font>
+
+81
+00:03:12,510 --> 00:03:15,090
+ <font color="#CCCCCC">H mesin lokal kunci </font><font color="#E5E5E5">dan di sini Anda bisa melihat </font>
+
+82
+00:03:15,090 --> 00:03:17,459
+ ada dua <font color="#CCCCCC">folder atau file-file </font><font color="#E5E5E5">Sam </font>
+
+83
+00:03:17,459 --> 00:03:20,250
+ dan sistem <font color="#E5E5E5">jadi apa yang bisa kita lakukan adalah kita bisa </font>
+
+84
+00:03:20,250 --> 00:03:23,280
+ ekspor <font color="#E5E5E5">mereka berdua klik sehingga tepat </font>
+
+85
+00:03:23,280 --> 00:03:25,500
+ <font color="#CCCCCC">di sini </font><font color="#E5E5E5">klik pada ekspor Anda harus </font>
+
+86
+00:03:25,500 --> 00:03:28,230
+ berikan lokasi <font color="#E5E5E5">jadi tepat di sini Sam </font>
+
+87
+00:03:28,230 --> 00:03:30,540
+ <font color="#E5E5E5">dan di sini kita harus melakukan sedikit </font>
+
+88
+00:03:30,540 --> 00:03:32,519
+ <font color="#E5E5E5">modifikasi kita harus mengubah tipenya </font>
+
+89
+00:03:32,519 --> 00:03:35,579
+ <font color="#E5E5E5">untuk file registry hi klik simpan </font><font color="#CCCCCC">dan </font>
+
+90
+00:03:35,579 --> 00:03:37,560
+ <font color="#CCCCCC">Anda akan lihat di sini bahwa di desktop saya </font>
+
+91
+00:03:37,560 --> 00:03:40,200
+ assign file diekspor 
+
+92
+00:03:40,200 --> 00:03:43,250
+ <font color="#E5E5E5">file sistem ekspor ilmu serupa </font>
+
+93
+00:03:43,250 --> 00:03:45,840
+ <font color="#E5E5E5">klik pada ekspor jadi kami harus memberikan yang benar </font>
+
+94
+00:03:45,840 --> 00:03:49,440
+ sistem nama yang sama dan kita <font color="#E5E5E5">harus </font>
+
+95
+00:03:49,440 --> 00:03:51,090
+ ubah jenis file juga <font color="#CCCCCC">ke </font>
+
+96
+00:03:51,090 --> 00:03:53,130
+ file registry hi klik <font color="#E5E5E5">simpan sehingga Anda </font>
+
+97
+00:03:53,130 --> 00:03:54,690
+ bisa lihat di sini bahwa <font color="#E5E5E5">file </font><font color="#CCCCCC">sistem </font><font color="#E5E5E5">dan </font>
+
+98
+00:03:54,690 --> 00:03:59,010
+ <font color="#E5E5E5">file Sam hadir </font><font color="#CCCCCC">sekarang apa yang kita miliki </font>
+
+99
+00:03:59,010 --> 00:04:00,930
+ <font color="#CCCCCC">lakukan adalah </font><font color="#E5E5E5">untuk membuka file-file ini </font>
+
+100
+00:04:00,930 --> 00:04:03,150
+ <font color="#E5E5E5">dan untuk memecahkan dan menemukan </font>
+
+101
+00:04:03,150 --> 00:04:05,250
+ kata sandi di <font color="#E5E5E5">dalamnya kita harus </font>
+
+102
+00:04:05,250 --> 00:04:09,450
+ <font color="#E5E5E5">unduh </font><font color="#CCCCCC">satu alat </font><font color="#E5E5E5">yang </font><font color="#CCCCCC">disebut sebagai kan </font>
+
+103
+00:04:09,450 --> 00:04:11,489
+ dan <font color="#CCCCCC">Abel sehingga Anda dapat mengunduh alat ini </font>
+
+104
+00:04:11,489 --> 00:04:14,910
+ <font color="#E5E5E5">dari sini dari </font><font color="#CCCCCC">oksida IT dan Kain jadi </font>
+
+105
+00:04:14,910 --> 00:04:17,190
+ alat ini <font color="#CCCCCC">adalah alat yang sangat kuat secara berurutan </font>
+
+106
+00:04:17,190 --> 00:04:19,950
+ <font color="#E5E5E5">untuk melakukan cracking dan kami juga bisa melakukan beberapa </font>
+
+107
+00:04:19,950 --> 00:04:22,890
+ serangan nirkabel <font color="#E5E5E5">dengan menggunakan alat ini </font>
+
+108
+00:04:22,890 --> 00:04:24,690
+ klik saja di <font color="#E5E5E5">sini unduh Cain dan </font>
+
+109
+00:04:24,690 --> 00:04:26,849
+ Abel <font color="#E5E5E5">untuk </font><font color="#CCCCCC">Windows dan saya sudah punya </font>
+
+110
+00:04:26,849 --> 00:04:27,530
+ <font color="#E5E5E5">mengunduh ini </font>
+
+111
+00:04:27,530 --> 00:04:29,150
+ <font color="#CCCCCC">ke </font><font color="#E5E5E5">sistem operasi Windows saya sehingga Anda </font>
+
+112
+00:04:29,150 --> 00:04:31,400
+ bisa <font color="#E5E5E5">melihatnya di sini sekarang mari instal ini </font>
+
+113
+00:04:31,400 --> 00:04:33,460
+ alat 
+
+114
+00:04:47,169 --> 00:04:49,850
+ jadi alat ini <font color="#E5E5E5">juga membutuhkan tambahan </font>
+
+115
+00:04:49,850 --> 00:04:52,490
+ ada <font color="#E5E5E5">driver </font><font color="#CCCCCC">WinPcap </font><font color="#E5E5E5">jadi Anda juga </font>
+
+116
+00:04:52,490 --> 00:04:54,080
+ harus <font color="#E5E5E5">mengunduhnya </font><font color="#CCCCCC">dan menginstal ini </font>
+
+117
+00:04:54,080 --> 00:04:57,410
+ perangkat lunak <font color="#CCCCCC">angin </font><font color="#E5E5E5">pcap klik pada selesai </font>
+
+118
+00:04:57,410 --> 00:05:00,130
+ <font color="#E5E5E5">dan di sini Anda dapat melihat itu di desktop saya </font>
+
+119
+00:05:00,130 --> 00:05:02,900
+ <font color="#E5E5E5">ikon alat </font><font color="#CCCCCC">hadir </font><font color="#E5E5E5">jadi biarkan aku saja </font>
+
+120
+00:05:02,900 --> 00:05:04,850
+ membukanya <font color="#E5E5E5">dan itu membutuhkan </font><font color="#CCCCCC">sebuah </font>
+
+121
+00:05:04,850 --> 00:05:07,280
+ hak akses administratif <font color="#E5E5E5">dan kapan setiap </font>
+
+122
+00:05:07,280 --> 00:05:09,290
+ saat <font color="#CCCCCC">Anda memulai alat ini ini </font><font color="#E5E5E5">akan memberi </font>
+
+123
+00:05:09,290 --> 00:05:11,690
+ Anda <font color="#E5E5E5">memperingatkan ini bahwa Windows Firewall </font>
+
+124
+00:05:11,690 --> 00:05:14,210
+ <font color="#CCCCCC">diaktifkan sehingga </font><font color="#E5E5E5">Anda memiliki kita hanya perlu </font>
+
+125
+00:05:14,210 --> 00:05:17,510
+ <font color="#CCCCCC">abaikan klik ini pada ok dan di </font><font color="#E5E5E5">sini Anda bisa </font>
+
+126
+00:05:17,510 --> 00:05:20,660
+ melihat menu utama <font color="#E5E5E5">dari </font><font color="#CCCCCC">alat ini </font><font color="#E5E5E5">ada </font>
+
+127
+00:05:20,660 --> 00:05:22,970
+ <font color="#E5E5E5">banyak bagian seperti </font><font color="#CCCCCC">jaringan </font><font color="#E5E5E5">decoder </font>
+
+128
+00:05:22,970 --> 00:05:25,700
+ sniffers cracker kita bahkan bisa melacak 
+
+129
+00:05:25,700 --> 00:05:28,190
+ rute pelacakan tertentu kemudian nirkabel dan 
+
+130
+00:05:28,190 --> 00:05:31,010
+ <font color="#E5E5E5">Kure begitu tetapi untuk sementara waktu </font><font color="#CCCCCC">kita </font>
+
+131
+00:05:31,010 --> 00:05:33,919
+ <font color="#E5E5E5">tertarik di </font><font color="#CCCCCC">sini </font><font color="#E5E5E5">di cracker dan seperti saya </font>
+
+132
+00:05:33,919 --> 00:05:36,350
+ mengatakan kepada <font color="#CCCCCC">Anda sebelumnya bahwa </font><font color="#E5E5E5">dalam file Sam kami </font>
+
+133
+00:05:36,350 --> 00:05:38,300
+ <font color="#CCCCCC">Kata sandi Windows disimpan dalam formulir </font>
+
+134
+00:05:38,300 --> 00:05:41,479
+ dari LM dan ntlm hash <font color="#E5E5E5">jadi begitu kita </font>
+
+135
+00:05:41,479 --> 00:05:44,450
+ <font color="#E5E5E5">di sini di dalam menu cracker kita </font><font color="#CCCCCC">harus </font>
+
+136
+00:05:44,450 --> 00:05:46,789
+ <font color="#E5E5E5">pilih ini LM dan ntlm hash </font><font color="#CCCCCC">jadi </font>
+
+137
+00:05:46,789 --> 00:05:51,590
+ <font color="#CCCCCC">begitu kita </font><font color="#E5E5E5">klik di sini </font><font color="#CCCCCC">dan kemudian kita punya </font>
+
+138
+00:05:51,590 --> 00:05:53,990
+ klik di <font color="#E5E5E5">sini ikon plus ini di </font>
+
+139
+00:05:53,990 --> 00:05:56,030
+ <font color="#CCCCCC">untuk menambahkan database Sam </font><font color="#E5E5E5">bersama </font><font color="#CCCCCC">dengan </font>
+
+140
+00:05:56,030 --> 00:05:58,880
+ <font color="#E5E5E5">file sistem jadi klik di </font><font color="#CCCCCC">sini jadi </font>
+
+141
+00:05:58,880 --> 00:06:02,660
+ <font color="#E5E5E5">opsi pertama adalah impor tetapi kami menginginkannya </font>
+
+142
+00:06:02,660 --> 00:06:04,729
+ untuk <font color="#E5E5E5">mengimpor </font><font color="#CCCCCC">dari database Sam </font><font color="#E5E5E5">karena kita </font>
+
+143
+00:06:04,729 --> 00:06:06,229
+ sudah memiliki <font color="#E5E5E5">file Sam jadi </font><font color="#CCCCCC">klik selesai </font>
+
+144
+00:06:06,229 --> 00:06:08,660
+ disini <font color="#E5E5E5">mengimpor hash dari </font><font color="#CCCCCC">database </font><font color="#E5E5E5">Sam </font>
+
+145
+00:06:08,660 --> 00:06:10,550
+ dan di sini kita harus memberikan <font color="#E5E5E5">file Sam </font>
+
+146
+00:06:10,550 --> 00:06:15,590
+ lokasi jadi di desktop saya <font color="#CCCCCC">jadi biarkan </font><font color="#E5E5E5">aku </font>
+
+147
+00:06:15,590 --> 00:06:17,900
+ berikan lokasi <font color="#CCCCCC">dan kemudian di sini Anda bisa </font>
+
+148
+00:06:17,900 --> 00:06:21,260
+ <font color="#CCCCCC">melihat kunci booting jadi </font><font color="#E5E5E5">file sistem </font><font color="#CCCCCC">sehingga </font>
+
+149
+00:06:21,260 --> 00:06:22,910
+ kita harus memberikan lokasi <font color="#CCCCCC">suatu sistem </font>
+
+150
+00:06:22,910 --> 00:06:28,610
+ file juga dan di sini Anda dapat <font color="#E5E5E5">melihat bahwa </font>
+
+151
+00:06:28,610 --> 00:06:31,460
+ kunci datang <font color="#E5E5E5">jadi biarkan saya menyalin klik tombol ini </font>
+
+152
+00:06:31,460 --> 00:06:33,530
+ saat <font color="#E5E5E5">keluar dan mari sisipkan kunci ini di sini </font>
+
+153
+00:06:33,530 --> 00:06:36,410
+ dan klik <font color="#E5E5E5">berikutnya jadi di sini Anda dapat melihat </font>
+
+154
+00:06:36,410 --> 00:06:39,560
+ <font color="#E5E5E5">file Sam kami dibuka di dalam ini </font>
+
+155
+00:06:39,560 --> 00:06:41,950
+ alat Anda <font color="#E5E5E5">bisa lihat di sini nama pengguna dan </font>
+
+156
+00:06:41,950 --> 00:06:45,590
+ bersama dengan <font color="#E5E5E5">elemen </font><font color="#CCCCCC">n T hash </font><font color="#E5E5E5">dan di sini </font>
+
+157
+00:06:45,590 --> 00:06:47,780
+ Anda dapat <font color="#E5E5E5">melihat bahwa saat ini ada </font><font color="#CCCCCC">3 </font>
+
+158
+00:06:47,780 --> 00:06:49,970
+ pengguna di <font color="#E5E5E5">sistem operasi </font><font color="#CCCCCC">Windows </font><font color="#E5E5E5">7 saya </font>
+
+159
+00:06:49,970 --> 00:06:53,389
+ <font color="#E5E5E5">tamu administrator dan root jadi sekarang </font>
+
+160
+00:06:53,389 --> 00:06:55,130
+ mari kita verifikasi jadi di sini Anda dapat <font color="#E5E5E5">melihat </font>
+
+161
+00:06:55,130 --> 00:06:57,289
+ bahwa <font color="#CCCCCC">saat ini kami </font><font color="#E5E5E5">masuk sebagai </font>
+
+162
+00:06:57,289 --> 00:07:00,050
+ root jadi apa yang akan kita lakukan pertama <font color="#E5E5E5">-tama kita </font>
+
+163
+00:07:00,050 --> 00:07:01,009
+ <font color="#E5E5E5">akan menemukan kata sandinya </font>
+
+164
+00:07:01,009 --> 00:07:03,710
+ <font color="#E5E5E5">pengguna ini yang </font><font color="#CCCCCC">rute dan di sini Anda bisa </font>
+
+165
+00:07:03,710 --> 00:07:06,289
+ lihat bahwa jika saya memilih <font color="#E5E5E5">rute yang </font><font color="#CCCCCC">satu </font><font color="#E5E5E5">ini dan </font>
+
+166
+00:07:06,289 --> 00:07:08,809
+ di kolom <font color="#E5E5E5">lemon </font><font color="#CCCCCC">dan T hash </font>
+
+167
+00:07:08,809 --> 00:07:10,729
+ Anda bisa lihat di sini ada dua hash 
+
+168
+00:07:10,729 --> 00:07:13,789
+ <font color="#E5E5E5">terkait dengan pengguna ini yang berarti </font>
+
+169
+00:07:13,789 --> 00:07:18,740
+ pengguna ini dilindungi kata sandi <font color="#CCCCCC">sekarang di </font>
+
+170
+00:07:18,740 --> 00:07:21,020
+ untuk mencari <font color="#CCCCCC">kata sandi atau </font><font color="#E5E5E5">untuk </font>
+
+171
+00:07:21,020 --> 00:07:23,529
+ <font color="#E5E5E5">memecahkan </font><font color="#CCCCCC">kata sandi </font><font color="#E5E5E5">pengguna tertentu </font>
+
+172
+00:07:23,529 --> 00:07:26,059
+ <font color="#CCCCCC">ada kata sandi yang berbeda </font>
+
+173
+00:07:26,059 --> 00:07:28,669
+ <font color="#E5E5E5">serangan jadi yang pertama adalah kamus </font>
+
+174
+00:07:28,669 --> 00:07:30,740
+ serangan <font color="#E5E5E5">kemudian yang kedua adalah kasar </font>
+
+175
+00:07:30,740 --> 00:07:33,080
+ memaksa dan seterusnya begitu dalam serangan kamus 
+
+176
+00:07:33,080 --> 00:07:34,759
+ <font color="#CCCCCC">apa yang terjadi adalah ada satu kamus </font>
+
+177
+00:07:34,759 --> 00:07:37,729
+ <font color="#E5E5E5">file yang berisi banyak kata jadi kami </font>
+
+178
+00:07:37,729 --> 00:07:40,009
+ akan memilih <font color="#CCCCCC">satu kata </font><font color="#E5E5E5">dan kemudian kami akan membuatnya </font>
+
+179
+00:07:40,009 --> 00:07:42,319
+ elemen <font color="#CCCCCC">e hash dari kata itu dan kemudian kita </font>
+
+180
+00:07:42,319 --> 00:07:44,809
+ <font color="#CCCCCC">akan cocok dengan nilai </font><font color="#E5E5E5">elemen </font><font color="#CCCCCC">e hash </font>
+
+181
+00:07:44,809 --> 00:07:47,029
+ bersama <font color="#E5E5E5">dengan nilai ini </font><font color="#CCCCCC">dan jika </font><font color="#E5E5E5">nilainya </font>
+
+182
+00:07:47,029 --> 00:07:49,279
+ cocok <font color="#CCCCCC">maka kita berhasil dapat </font>
+
+183
+00:07:49,279 --> 00:07:52,009
+ temukan kata sandi, <font color="#E5E5E5">lalu jenis lainnya </font>
+
+184
+00:07:52,009 --> 00:07:53,870
+ Serangan yang bisa kita lakukan adalah brute force 
+
+185
+00:07:53,870 --> 00:07:54,349
+ menyerang 
+
+186
+00:07:54,349 --> 00:07:56,149
+ jadi dalam <font color="#E5E5E5">serangan brute force kita sebenarnya </font>
+
+187
+00:07:56,149 --> 00:07:57,830
+ buat <font color="#E5E5E5">kombinasi </font><font color="#CCCCCC">huruf yang berbeda </font>
+
+188
+00:07:57,830 --> 00:08:00,979
+ <font color="#CCCCCC">dan </font><font color="#E5E5E5">digit </font><font color="#CCCCCC">dalam </font><font color="#E5E5E5">rangka menciptakan NTLM </font>
+
+189
+00:08:00,979 --> 00:08:02,990
+ hash <font color="#E5E5E5">dan kemudian </font><font color="#CCCCCC">kami akan mencocokkan nilai dan </font>
+
+190
+00:08:02,990 --> 00:08:04,759
+ kemudian <font color="#E5E5E5">jenis serangan lain juga </font>
+
+191
+00:08:04,759 --> 00:08:06,740
+ disebut sebagai serangan <font color="#E5E5E5">pelangi tetapi </font>
+
+192
+00:08:06,740 --> 00:08:09,129
+ di sini di <font color="#E5E5E5">video ini kita akan melakukan </font>
+
+193
+00:08:09,129 --> 00:08:11,930
+ <font color="#CCCCCC">serangan kamus dan kemudian kami akan mencoba </font>
+
+194
+00:08:11,930 --> 00:08:13,639
+ <font color="#CCCCCC">bahwa apakah kita dapat menemukan </font><font color="#E5E5E5">password </font><font color="#CCCCCC">dari </font>
+
+195
+00:08:13,639 --> 00:08:15,740
+ pengguna ini atau tidak <font color="#E5E5E5">tetapi dalam kamus </font>
+
+196
+00:08:15,740 --> 00:08:18,800
+ Serangan ada <font color="#CCCCCC">satu batasan yang </font><font color="#E5E5E5">kita </font>
+
+197
+00:08:18,800 --> 00:08:21,199
+ hanya <font color="#E5E5E5">dapat menemukan kata sandi a </font>
+
+198
+00:08:21,199 --> 00:08:23,449
+ pengguna tertentu <font color="#E5E5E5">jika kata sandi itu </font>
+
+199
+00:08:23,449 --> 00:08:25,219
+ pengguna <font color="#E5E5E5">akan hadir di kamus itu </font>
+
+200
+00:08:25,219 --> 00:08:28,849
+ <font color="#E5E5E5">file jadi ada banyak </font><font color="#CCCCCC">situs web </font><font color="#E5E5E5">online </font>
+
+201
+00:08:28,849 --> 00:08:30,589
+ dari tempat Anda dapat <font color="#E5E5E5">mengunduh yang panjang </font>
+
+202
+00:08:30,589 --> 00:08:32,240
+ file kamus yang berisi jutaan 
+
+203
+00:08:32,240 --> 00:08:36,260
+ kata sandi <font color="#E5E5E5">tetapi dalam alat ini dapat diaktifkan </font>
+
+204
+00:08:36,260 --> 00:08:39,260
+ jadi ketika kita mengunduh <font color="#E5E5E5">alat ini dan jika kita </font>
+
+205
+00:08:39,260 --> 00:08:41,539
+ <font color="#CCCCCC">hanya pergi di sini di </font><font color="#E5E5E5">dalam direktori jadi </font>
+
+206
+00:08:41,539 --> 00:08:43,099
+ mari kita pergi di sini untuk <font color="#CCCCCC">Program </font><font color="#E5E5E5">Files dan </font>
+
+207
+00:08:43,099 --> 00:08:46,040
+ <font color="#E5E5E5">di sini adalah folder dan jika saya </font><font color="#CCCCCC">membukanya </font>
+
+208
+00:08:46,040 --> 00:08:48,889
+ <font color="#CCCCCC">ini juga berisi </font><font color="#E5E5E5">satu direktori yang </font><font color="#CCCCCC">disebut </font>
+
+209
+00:08:48,889 --> 00:08:52,250
+ sebagai daftar kata <font color="#E5E5E5">yang berisi banyak </font>
+
+210
+00:08:52,250 --> 00:08:54,319
+ kata sandi yang bisa kita gunakan <font color="#E5E5E5">untuk </font>
+
+211
+00:08:54,319 --> 00:08:56,959
+ <font color="#E5E5E5">temukan kata sandi dari pengguna tertentu tetapi </font>
+
+212
+00:08:56,959 --> 00:08:59,449
+ Saya sudah memiliki <font color="#E5E5E5">satu file daftar kata jadi saya </font>
+
+213
+00:08:59,449 --> 00:09:01,490
+ Saya menggunakan <font color="#CCCCCC">file itu untuk mencari </font>
+
+214
+00:09:01,490 --> 00:09:03,829
+ kata sandi <font color="#E5E5E5">jadi apa yang harus kita lakukan adalah adil </font>
+
+215
+00:09:03,829 --> 00:09:06,199
+ klik kanan di <font color="#E5E5E5">sini di sini Anda dapat melihat </font>
+
+216
+00:09:06,199 --> 00:09:07,399
+ bahwa <font color="#E5E5E5">ada perbedaan berbeda </font>
+
+217
+00:09:07,399 --> 00:09:09,170
+ serangan <font color="#E5E5E5">dictionary attack </font><font color="#CCCCCC">brute-force </font>
+
+218
+00:09:09,170 --> 00:09:11,779
+ serangan serangan cryptanalysis jadi sekarang mari 
+
+219
+00:09:11,779 --> 00:09:14,420
+ pergi di sini <font color="#E5E5E5">prediksi serangan daerah dan kemudian </font>
+
+220
+00:09:14,420 --> 00:09:15,140
+ kita harus <font color="#E5E5E5">menjual </font>
+
+221
+00:09:15,140 --> 00:09:19,640
+ <font color="#CCCCCC">ntlm hash klik di sini </font><font color="#E5E5E5">dan di sini </font><font color="#CCCCCC">kita </font>
+
+222
+00:09:19,640 --> 00:09:20,839
+ harus memberikan lokasi <font color="#E5E5E5">a </font>
+
+223
+00:09:20,839 --> 00:09:22,579
+ <font color="#E5E5E5">file kamus jadi </font><font color="#CCCCCC">klik kanan dan </font>
+
+224
+00:09:22,579 --> 00:09:25,519
+ <font color="#E5E5E5">klik </font><font color="#CCCCCC">pada add to </font><font color="#E5E5E5">list dan kamus saya </font>
+
+225
+00:09:25,519 --> 00:09:28,790
+ file ada <font color="#CCCCCC">dalam dokumen saya, </font><font color="#E5E5E5">jadi saya </font>
+
+226
+00:09:28,790 --> 00:09:30,200
+ telah memilih <font color="#E5E5E5">file ini dan klik </font>
+
+227
+00:09:30,200 --> 00:09:32,899
+ buka <font color="#E5E5E5">jadi di sini Anda dapat melihat bahwa a </font>
+
+228
+00:09:32,899 --> 00:09:35,420
+ <font color="#CCCCCC">file kamus </font><font color="#E5E5E5">ditambahkan sekarang apa yang kita </font>
+
+229
+00:09:35,420 --> 00:09:37,040
+ <font color="#CCCCCC">harus lakukan adalah kita hanya perlu klik </font><font color="#E5E5E5">pada </font>
+
+230
+00:09:37,040 --> 00:09:40,459
+ <font color="#CCCCCC">mulai dan di sini Anda dapat melihat itu </font>
+
+231
+00:09:40,459 --> 00:09:42,620
+ mulai mencari kata sandi dan di sini Anda 
+
+232
+00:09:42,620 --> 00:09:44,450
+ dapat melihat kata sandi per <font color="#CCCCCC">detik </font><font color="#E5E5E5">dan </font>
+
+233
+00:09:44,450 --> 00:09:47,029
+ posisi kamus jadi <font color="#CCCCCC">37% kamus </font>
+
+234
+00:09:47,029 --> 00:09:50,230
+ file selesai <font color="#E5E5E5">kata sandi </font>
+
+235
+00:09:51,759 --> 00:09:54,160
+ jadi di sini Anda dapat <font color="#CCCCCC">melihat bahwa itu adalah ntlm </font>
+
+236
+00:09:54,160 --> 00:09:57,429
+ hash dari kata sandi <font color="#E5E5E5">akun ini dan </font>
+
+237
+00:09:57,429 --> 00:10:01,600
+ nilainya adalah <font color="#E5E5E5">2 yang artinya ini adalah </font>
+
+238
+00:10:01,600 --> 00:10:05,589
+ <font color="#E5E5E5">password yang sebenarnya yang saya telah menetap </font><font color="#CCCCCC">untuk </font>
+
+239
+00:10:05,589 --> 00:10:08,259
+ akun ini <font color="#E5E5E5">dan di sini Anda dapat melihat itu </font>
+
+240
+00:10:08,259 --> 00:10:12,519
+ Serangan berhenti hash <font color="#CCCCCC">retak </font><font color="#E5E5E5">dan di sini </font>
+
+241
+00:10:12,519 --> 00:10:14,529
+ Anda dapat <font color="#E5E5E5">melihat bahwa itu adalah kata sandi sekarang </font>
+
+242
+00:10:14,529 --> 00:10:21,249
+ klik <font color="#CCCCCC">keluar </font><font color="#E5E5E5">sekarang mari kita verifikasi dan </font>
+
+243
+00:10:21,249 --> 00:10:25,149
+ Saya <font color="#E5E5E5">hanya menulis di sini </font><font color="#CCCCCC">twr </font><font color="#E5E5E5">tekan enter dan </font>
+
+244
+00:10:25,149 --> 00:10:27,069
+ di sini Anda akan <font color="#E5E5E5">melihat </font><font color="#CCCCCC">bahwa kita </font>
+
+245
+00:10:27,069 --> 00:10:29,709
+ <font color="#E5E5E5">berhasil menemukan kata sandi </font>
+
+246
+00:10:29,709 --> 00:10:33,220
+ menggunakan serangan kamus <font color="#E5E5E5">begitu juga Anda </font>
+
+247
+00:10:33,220 --> 00:10:35,619
+ <font color="#CCCCCC">bisa juga </font><font color="#E5E5E5">menggunakan serangan yang berbeda seperti </font>
+
+248
+00:10:35,619 --> 00:10:37,569
+ <font color="#CCCCCC">crypt analysis rainbow table attacks </font><font color="#E5E5E5">dan </font>
+
+249
+00:10:37,569 --> 00:10:40,869
+ <font color="#E5E5E5">serangan brute </font><font color="#CCCCCC">force juga jadi dalam video ini </font>
+
+250
+00:10:40,869 --> 00:10:43,209
+ kami <font color="#E5E5E5">telah </font><font color="#CCCCCC">mendiskusikan </font><font color="#E5E5E5">bagaimana kami dapat menyalin </font>
+
+251
+00:10:43,209 --> 00:10:45,699
+ Sam dan file sistem <font color="#E5E5E5">dan bagaimana kita dapat menemukannya </font>
+
+252
+00:10:45,699 --> 00:10:48,939
+ kata sandi <font color="#E5E5E5">dengan menggunakan serangan kamus </font>
+
+253
+00:10:48,939 --> 00:00:00,000
+ terima kasih <font color="#E5E5E5">telah </font><font color="#CCCCCC">menonton video ini </font>
+

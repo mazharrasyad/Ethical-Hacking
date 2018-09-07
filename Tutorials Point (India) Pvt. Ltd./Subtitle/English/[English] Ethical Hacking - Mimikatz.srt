@@ -1,0 +1,472 @@
+1
+00:00:00,060 --> 00:00:02,340
+hello everyone in<font color="#CCCCCC"> this video we will</font>
+
+2
+00:00:02,340 --> 00:00:04,380
+talk<font color="#CCCCCC"> about an interesting</font><font color="#E5E5E5"> tool which we</font>
+
+3
+00:00:04,380 --> 00:00:06,299
+<font color="#E5E5E5">can use in order to</font><font color="#CCCCCC"> see Windows password</font>
+
+4
+00:00:06,299 --> 00:00:09,059
+<font color="#CCCCCC">in a plain text so that tool is called</font>
+
+5
+00:00:09,059 --> 00:00:12,090
+as mimikatz<font color="#E5E5E5"> so mimikatz is an open</font>
+
+6
+00:00:12,090 --> 00:00:14,309
+<font color="#E5E5E5">source tool which we can use in order</font><font color="#CCCCCC"> to</font>
+
+7
+00:00:14,309 --> 00:00:16,440
+find<font color="#CCCCCC"> Windows</font><font color="#E5E5E5"> password</font><font color="#CCCCCC"> in a plain</font><font color="#E5E5E5"> text so</font>
+
+8
+00:00:16,440 --> 00:00:18,480
+<font color="#CCCCCC">you can</font><font color="#E5E5E5"> download</font><font color="#CCCCCC"> mini</font><font color="#E5E5E5"> cats from here</font>
+
+9
+00:00:18,480 --> 00:00:20,640
+from this github<font color="#E5E5E5"> link so the main</font>
+
+10
+00:00:20,640 --> 00:00:22,350
+feature of<font color="#E5E5E5"> this tool is that we don't</font>
+
+11
+00:00:22,350 --> 00:00:24,359
+need any same file<font color="#E5E5E5"> we don't need any</font>
+
+12
+00:00:24,359 --> 00:00:26,519
+system file<font color="#E5E5E5"> all we</font><font color="#CCCCCC"> just need is this</font>
+
+13
+00:00:26,519 --> 00:00:28,439
+tool in order<font color="#E5E5E5"> to view</font><font color="#CCCCCC"> Windows password</font>
+
+14
+00:00:28,439 --> 00:00:31,380
+<font color="#CCCCCC">so you</font><font color="#E5E5E5"> can think of that it's very</font><font color="#CCCCCC"> good</font>
+
+15
+00:00:31,380 --> 00:00:33,719
+<font color="#E5E5E5">tool because we don't need to crack any</font>
+
+16
+00:00:33,719 --> 00:00:35,640
+password<font color="#E5E5E5"> all we have</font><font color="#CCCCCC"> to do is we just</font>
+
+17
+00:00:35,640 --> 00:00:37,620
+<font color="#CCCCCC">have</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> download this tool</font><font color="#E5E5E5"> and we have</font>
+
+18
+00:00:37,620 --> 00:00:39,149
+to use this tool over<font color="#CCCCCC"> a particular</font>
+
+19
+00:00:39,149 --> 00:00:41,219
+system<font color="#E5E5E5"> now let's see how we can</font><font color="#CCCCCC"> use many</font>
+
+20
+00:00:41,219 --> 00:00:44,100
+<font color="#E5E5E5">cats in</font><font color="#CCCCCC"> our system</font><font color="#E5E5E5"> now let's try</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> find</font>
+
+21
+00:00:44,100 --> 00:00:47,010
+<font color="#CCCCCC">windows</font><font color="#E5E5E5"> password in a plain text</font><font color="#CCCCCC"> without</font>
+
+22
+00:00:47,010 --> 00:00:48,930
+<font color="#E5E5E5">using any kind of password cracking</font>
+
+23
+00:00:48,930 --> 00:00:51,870
+techniques<font color="#E5E5E5"> well in order</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> find windows</font>
+
+24
+00:00:51,870 --> 00:00:54,180
+<font color="#E5E5E5">password in a plain text we have to</font>
+
+25
+00:00:54,180 --> 00:00:56,520
+download<font color="#E5E5E5"> the</font><font color="#CCCCCC"> small utility called as</font>
+
+26
+00:00:56,520 --> 00:00:59,399
+mimikatz<font color="#E5E5E5"> so this is a very small utility</font>
+
+27
+00:00:59,399 --> 00:01:01,920
+<font color="#E5E5E5">purely written in c language and with</font>
+
+28
+00:01:01,920 --> 00:01:04,409
+the help of this we<font color="#CCCCCC"> can find</font><font color="#E5E5E5"> a</font><font color="#CCCCCC"> Windows</font>
+
+29
+00:01:04,409 --> 00:01:07,229
+<font color="#CCCCCC">password in a plain</font><font color="#E5E5E5"> text</font><font color="#CCCCCC"> so here you can</font>
+
+30
+00:01:07,229 --> 00:01:10,080
+see a link of<font color="#E5E5E5"> its binaries and a link of</font>
+
+31
+00:01:10,080 --> 00:01:12,540
+its source code<font color="#CCCCCC"> also so let me open the</font>
+
+32
+00:01:12,540 --> 00:01:14,450
+link of it binaries<font color="#CCCCCC"> in the next step</font><font color="#E5E5E5"> and</font>
+
+33
+00:01:14,450 --> 00:01:17,100
+here is official<font color="#E5E5E5"> block of this tool blog</font>
+
+34
+00:01:17,100 --> 00:01:19,770
+dot<font color="#CCCCCC"> genteel tv.com slash</font><font color="#E5E5E5"> mimikatz</font><font color="#CCCCCC"> and</font>
+
+35
+00:01:19,770 --> 00:01:23,009
+here you can see the<font color="#CCCCCC"> github page of this</font>
+
+36
+00:01:23,009 --> 00:01:25,140
+<font color="#E5E5E5">mini</font><font color="#CCCCCC"> katz</font><font color="#E5E5E5"> and it's available in</font>
+
+37
+00:01:25,140 --> 00:01:26,790
+<font color="#E5E5E5">different</font><font color="#CCCCCC"> versions along</font><font color="#E5E5E5"> with the source</font>
+
+38
+00:01:26,790 --> 00:01:28,619
+code<font color="#CCCCCC"> but i</font><font color="#E5E5E5"> recommend you to download</font>
+
+39
+00:01:28,619 --> 00:01:30,750
+this file movie<font color="#E5E5E5"> catstrong because it's a</font>
+
+40
+00:01:30,750 --> 00:01:33,689
+<font color="#E5E5E5">stable one and</font><font color="#CCCCCC"> i have already</font><font color="#E5E5E5"> downloaded</font>
+
+41
+00:01:33,689 --> 00:01:35,850
+<font color="#E5E5E5">and stored this file in my</font><font color="#CCCCCC"> Windows 7</font>
+
+42
+00:01:35,850 --> 00:01:38,310
+<font color="#CCCCCC">operating system</font><font color="#E5E5E5"> so you can see here an</font>
+
+43
+00:01:38,310 --> 00:01:40,770
+archive of this file<font color="#CCCCCC"> so let</font><font color="#E5E5E5"> me extract</font>
+
+44
+00:01:40,770 --> 00:01:45,479
+<font color="#E5E5E5">all the files and here you can see that</font>
+
+45
+00:01:45,479 --> 00:01:47,549
+a directory named as<font color="#CCCCCC"> mimikatz trunk is</font>
+
+46
+00:01:47,549 --> 00:01:49,950
+created now let me open<font color="#E5E5E5"> this up so</font>
+
+47
+00:01:49,950 --> 00:01:51,659
+depending upon<font color="#E5E5E5"> your system architecture</font>
+
+48
+00:01:51,659 --> 00:01:53,399
+that whether your system<font color="#E5E5E5"> is 32-bit or</font>
+
+49
+00:01:53,399 --> 00:01:56,990
+64-bit<font color="#CCCCCC"> you can download one</font><font color="#E5E5E5"> of them and</font>
+
+50
+00:01:56,990 --> 00:02:00,509
+let<font color="#E5E5E5"> me open this one windows 32 because</font>
+
+51
+00:02:00,509 --> 00:02:02,219
+<font color="#E5E5E5">my system is windows 32-bit operating</font>
+
+52
+00:02:02,219 --> 00:02:04,170
+<font color="#CCCCCC">system</font><font color="#E5E5E5"> and here you can see the</font>
+
+53
+00:02:04,170 --> 00:02:06,810
+maquettes application well in<font color="#E5E5E5"> order to</font>
+
+54
+00:02:06,810 --> 00:02:08,520
+<font color="#E5E5E5">run this application</font><font color="#CCCCCC"> we have to run</font><font color="#E5E5E5"> it</font>
+
+55
+00:02:08,520 --> 00:02:10,830
+as an administrator<font color="#E5E5E5"> so click over here</font>
+
+56
+00:02:10,830 --> 00:02:13,280
+<font color="#CCCCCC">and</font>
+
+57
+00:02:13,290 --> 00:02:15,540
+it looks similar to the command prompt
+
+58
+00:02:15,540 --> 00:02:17,700
+<font color="#E5E5E5">you</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> see here a same command prompt</font>
+
+59
+00:02:17,700 --> 00:02:19,829
+<font color="#E5E5E5">then the first of all we have to do is</font>
+
+60
+00:02:19,829 --> 00:02:22,290
+we just<font color="#CCCCCC"> have to give a privilege to</font>
+
+61
+00:02:22,290 --> 00:02:23,010
+mimikatz
+
+62
+00:02:23,010 --> 00:02:26,189
+so just right here<font color="#E5E5E5"> privilege then</font><font color="#CCCCCC"> to</font>
+
+63
+00:02:26,189 --> 00:02:29,519
+<font color="#E5E5E5">Collins</font><font color="#CCCCCC"> then debug</font><font color="#E5E5E5"> and here you can see</font>
+
+64
+00:02:29,519 --> 00:02:31,739
+<font color="#E5E5E5">that in the</font><font color="#CCCCCC"> response</font><font color="#E5E5E5"> card we got 20</font>
+
+65
+00:02:31,739 --> 00:02:34,650
+which means<font color="#E5E5E5"> successful then in order to</font>
+
+66
+00:02:34,650 --> 00:02:36,690
+<font color="#E5E5E5">find</font><font color="#CCCCCC"> hostname</font><font color="#E5E5E5"> of a particular operating</font>
+
+67
+00:02:36,690 --> 00:02:38,909
+<font color="#CCCCCC">system where we are</font><font color="#E5E5E5"> using this mini</font><font color="#CCCCCC"> cats</font>
+
+68
+00:02:38,909 --> 00:02:40,650
+<font color="#E5E5E5">just</font><font color="#CCCCCC"> write down here</font><font color="#E5E5E5"> hostname and hit</font>
+
+69
+00:02:40,650 --> 00:02:43,650
+enter<font color="#E5E5E5"> here you</font><font color="#CCCCCC"> will</font><font color="#E5E5E5"> see</font><font color="#CCCCCC"> that the host</font>
+
+70
+00:02:43,650 --> 00:02:45,989
+<font color="#E5E5E5">name is root and we can just verify it</font>
+
+71
+00:02:45,989 --> 00:02:48,930
+from here and then in order<font color="#E5E5E5"> to find a</font>
+
+72
+00:02:48,930 --> 00:02:50,879
+Windows password just<font color="#CCCCCC"> write down here as</font>
+
+73
+00:02:50,879 --> 00:02:56,359
+<font color="#CCCCCC">seek a URL si to Collins</font><font color="#E5E5E5"> then</font><font color="#CCCCCC"> log on</font>
+
+74
+00:02:56,359 --> 00:03:01,739
+passwords hit enter<font color="#E5E5E5"> and here you will</font>
+
+75
+00:03:01,739 --> 00:03:08,430
+<font color="#E5E5E5">see a long output so let's read this so</font>
+
+76
+00:03:08,430 --> 00:03:10,079
+here you can see that the username is
+
+77
+00:03:10,079 --> 00:03:12,569
+<font color="#CCCCCC">root and the domain name is root PC and</font>
+
+78
+00:03:12,569 --> 00:03:15,030
+it will also<font color="#E5E5E5"> give</font><font color="#CCCCCC"> us</font><font color="#E5E5E5"> the logon server</font>
+
+79
+00:03:15,030 --> 00:03:18,000
+along with<font color="#E5E5E5"> the login time and if I</font>
+
+80
+00:03:18,000 --> 00:03:19,379
+scroll<font color="#CCCCCC"> down here you will see</font><font color="#E5E5E5"> that it</font>
+
+81
+00:03:19,379 --> 00:03:24,060
+<font color="#CCCCCC">also showing</font><font color="#E5E5E5"> the s ID and here you can</font>
+
+82
+00:03:24,060 --> 00:03:26,069
+see the username is root and here you
+
+83
+00:03:26,069 --> 00:03:29,040
+can see the element ntlm hashes<font color="#E5E5E5"> along</font>
+
+84
+00:03:29,040 --> 00:03:32,299
+with the<font color="#E5E5E5"> sha-1 hash of my password and</font>
+
+85
+00:03:32,299 --> 00:03:35,370
+just below it<font color="#CCCCCC"> you can find a</font><font color="#E5E5E5"> username</font>
+
+86
+00:03:35,370 --> 00:03:37,859
+<font color="#E5E5E5">root along with it password that is</font><font color="#CCCCCC"> true</font>
+
+87
+00:03:37,859 --> 00:03:40,139
+so here you can see that it's very very
+
+88
+00:03:40,139 --> 00:03:43,680
+simple<font color="#E5E5E5"> tool which can</font><font color="#CCCCCC"> be used in order</font>
+
+89
+00:03:43,680 --> 00:03:45,120
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> find</font><font color="#CCCCCC"> windows password in</font><font color="#E5E5E5"> the</font>
+
+90
+00:03:45,120 --> 00:03:47,099
+<font color="#CCCCCC">plaintext so here you can</font><font color="#E5E5E5"> see that the</font>
+
+91
+00:03:47,099 --> 00:03:48,930
+password it's displaying to assess<font color="#E5E5E5"> to</font>
+
+92
+00:03:48,930 --> 00:03:53,010
+<font color="#CCCCCC">and if I scroll down you will see</font><font color="#E5E5E5"> a bit</font>
+
+93
+00:03:53,010 --> 00:03:58,500
+more<font color="#E5E5E5"> detail so</font><font color="#CCCCCC"> this is how you can</font><font color="#E5E5E5"> use</font>
+
+94
+00:03:58,500 --> 00:04:00,150
+this tool in order<font color="#E5E5E5"> to find</font><font color="#CCCCCC"> windows</font>
+
+95
+00:04:00,150 --> 00:04:02,549
+<font color="#CCCCCC">password in</font><font color="#E5E5E5"> a</font><font color="#CCCCCC"> plaintext so the thing is</font>
+
+96
+00:04:02,549 --> 00:04:04,530
+<font color="#CCCCCC">that this tool uses a little memory</font>
+
+97
+00:04:04,530 --> 00:04:07,139
+<font color="#E5E5E5">trick in order</font><font color="#CCCCCC"> to find passwords</font><font color="#E5E5E5"> but if</font>
+
+98
+00:04:07,139 --> 00:04:08,970
+you use this tool in<font color="#CCCCCC"> Windows 8 and</font>
+
+99
+00:04:08,970 --> 00:04:11,430
+<font color="#CCCCCC">Windows 10</font><font color="#E5E5E5"> our Windows operating system</font>
+
+100
+00:04:11,430 --> 00:04:14,519
+treat this<font color="#E5E5E5"> tool as a malware so be sure</font>
+
+101
+00:04:14,519 --> 00:04:17,039
+that<font color="#E5E5E5"> you have to turn off your anti</font>
+
+102
+00:04:17,039 --> 00:04:20,639
+viruses<font color="#E5E5E5"> before running this tool so what</font>
+
+103
+00:04:20,639 --> 00:04:22,830
+else you can do is you can<font color="#CCCCCC"> just put this</font>
+
+104
+00:04:22,830 --> 00:04:25,440
+tool in<font color="#CCCCCC"> your USB</font><font color="#E5E5E5"> Drive then you can</font>
+
+105
+00:04:25,440 --> 00:04:27,270
+<font color="#CCCCCC">create one batch file</font>
+
+106
+00:04:27,270 --> 00:04:30,270
+and if you plug in<font color="#CCCCCC"> that</font><font color="#E5E5E5"> USB</font><font color="#CCCCCC"> Drive in any</font>
+
+107
+00:04:30,270 --> 00:04:32,370
+operating<font color="#CCCCCC"> system then it will start</font>
+
+108
+00:04:32,370 --> 00:04:34,590
+running that batch file and it will
+
+109
+00:04:34,590 --> 00:04:36,150
+<font color="#E5E5E5">store the output of this tool in a</font>
+
+110
+00:04:36,150 --> 00:04:38,789
+notepad<font color="#E5E5E5"> file and then you can</font><font color="#CCCCCC"> just plug</font>
+
+111
+00:04:38,789 --> 00:04:41,250
+it off that<font color="#CCCCCC"> USB Drive and in that USB</font>
+
+112
+00:04:41,250 --> 00:04:43,470
+<font color="#E5E5E5">Drive</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> will get the password of the</font>
+
+113
+00:04:43,470 --> 00:04:44,849
+operating system in which you will
+
+114
+00:04:44,849 --> 00:04:47,699
+inject that<font color="#E5E5E5"> right so in this</font><font color="#CCCCCC"> video we</font>
+
+115
+00:04:47,699 --> 00:04:49,680
+<font color="#E5E5E5">have covered that</font><font color="#CCCCCC"> how we</font><font color="#E5E5E5"> can find</font>
+
+116
+00:04:49,680 --> 00:04:51,449
+<font color="#CCCCCC">Windows password in a plain text by</font>
+
+117
+00:04:51,449 --> 00:04:53,280
+<font color="#CCCCCC">using mini</font><font color="#E5E5E5"> cats so thanks for watching</font>
+
+118
+00:04:53,280 --> 00:00:00,000
+<font color="#CCCCCC">this video</font>
+

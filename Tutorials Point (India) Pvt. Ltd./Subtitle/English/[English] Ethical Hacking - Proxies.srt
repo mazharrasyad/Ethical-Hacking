@@ -1,0 +1,1464 @@
+1
+00:00:00,089 --> 00:00:02,220
+hello everyone<font color="#CCCCCC"> in this video we'll talk</font>
+
+2
+00:00:02,220 --> 00:00:04,080
+<font color="#CCCCCC">about one of</font><font color="#E5E5E5"> the most important concept</font>
+
+3
+00:00:04,080 --> 00:00:06,600
+of cyber<font color="#E5E5E5"> security as well</font><font color="#CCCCCC"> as networking</font>
+
+4
+00:00:06,600 --> 00:00:10,019
+<font color="#E5E5E5">called as proxies</font><font color="#CCCCCC"> so now what is a</font><font color="#E5E5E5"> proxy</font>
+
+5
+00:00:10,019 --> 00:00:12,870
+so a proxy is nothing but just a
+
+6
+00:00:12,870 --> 00:00:15,780
+middleman between<font color="#E5E5E5"> us and a remote server</font>
+
+7
+00:00:15,780 --> 00:00:18,090
+<font color="#CCCCCC">so you can see here</font><font color="#E5E5E5"> that</font><font color="#CCCCCC"> here is our</font>
+
+8
+00:00:18,090 --> 00:00:21,180
+computer and here is our proxy<font color="#E5E5E5"> and here</font>
+
+9
+00:00:21,180 --> 00:00:23,369
+is our remote web server so<font color="#E5E5E5"> you can see</font>
+
+10
+00:00:23,369 --> 00:00:25,350
+here<font color="#E5E5E5"> that a proxy is a middleman which</font>
+
+11
+00:00:25,350 --> 00:00:27,150
+is sitting between us and a remote
+
+12
+00:00:27,150 --> 00:00:30,090
+server<font color="#E5E5E5"> so by using proxy what happen is</font>
+
+13
+00:00:30,090 --> 00:00:32,369
+if we<font color="#E5E5E5"> made any</font><font color="#CCCCCC"> request</font><font color="#E5E5E5"> for that web</font>
+
+14
+00:00:32,369 --> 00:00:34,770
+server so<font color="#E5E5E5"> that requests have to be</font>
+
+15
+00:00:34,770 --> 00:00:37,500
+passed from this proxy server so now
+
+16
+00:00:37,500 --> 00:00:39,750
+let's read here so a proxy the server
+
+17
+00:00:39,750 --> 00:00:42,000
+which act as a middleman<font color="#E5E5E5"> between a</font>
+
+18
+00:00:42,000 --> 00:00:44,610
+client and a server so proxy server
+
+19
+00:00:44,610 --> 00:00:47,100
+protects and hides computer from<font color="#E5E5E5"> the</font>
+
+20
+00:00:47,100 --> 00:00:49,379
+outside<font color="#CCCCCC"> network so you can see here</font><font color="#E5E5E5"> that</font>
+
+21
+00:00:49,379 --> 00:00:51,930
+here is our<font color="#E5E5E5"> IP address so if we made any</font>
+
+22
+00:00:51,930 --> 00:00:54,750
+<font color="#CCCCCC">requests</font><font color="#E5E5E5"> to google.com</font><font color="#CCCCCC"> then that request</font>
+
+23
+00:00:54,750 --> 00:00:57,600
+has<font color="#CCCCCC"> to be</font><font color="#E5E5E5"> passed from proxy</font><font color="#CCCCCC"> and once</font><font color="#E5E5E5"> a</font>
+
+24
+00:00:57,600 --> 00:01:00,480
+proxy server receives our<font color="#E5E5E5"> request then</font>
+
+25
+00:01:00,480 --> 00:01:03,680
+the proxy<font color="#CCCCCC"> server will hides over IP and</font>
+
+26
+00:01:03,680 --> 00:01:07,619
+send that<font color="#E5E5E5"> request with its IP so by</font>
+
+27
+00:01:07,619 --> 00:01:09,330
+using proxy server we<font color="#CCCCCC"> can hide several</font>
+
+28
+00:01:09,330 --> 00:01:11,850
+IP address and one<font color="#E5E5E5"> of the main benefit</font>
+
+29
+00:01:11,850 --> 00:01:13,650
+of<font color="#E5E5E5"> the proxy server</font><font color="#CCCCCC"> is that you might</font>
+
+30
+00:01:13,650 --> 00:01:16,229
+have<font color="#E5E5E5"> seen in colleges that some of</font><font color="#CCCCCC"> web</font>
+
+31
+00:01:16,229 --> 00:01:17,700
+<font color="#CCCCCC">sites are blocked</font><font color="#E5E5E5"> by network</font>
+
+32
+00:01:17,700 --> 00:01:19,830
+administrator so we can bypass<font color="#E5E5E5"> that</font>
+
+33
+00:01:19,830 --> 00:01:22,740
+filters by using proxy<font color="#E5E5E5"> now let's see</font>
+
+34
+00:01:22,740 --> 00:01:24,600
+<font color="#CCCCCC">that how many</font><font color="#E5E5E5"> types of proxy we can use</font>
+
+35
+00:01:24,600 --> 00:01:26,759
+in our system<font color="#CCCCCC"> so first of all</font><font color="#E5E5E5"> we'll talk</font>
+
+36
+00:01:26,759 --> 00:01:28,979
+about tab based proxies<font color="#E5E5E5"> so tab based</font>
+
+37
+00:01:28,979 --> 00:01:30,930
+proxies will only work in a<font color="#CCCCCC"> particular</font>
+
+38
+00:01:30,930 --> 00:01:33,210
+tab so there<font color="#E5E5E5"> are some websites</font><font color="#CCCCCC"> which</font>
+
+39
+00:01:33,210 --> 00:01:35,220
+provides tab based proxies functionality
+
+40
+00:01:35,220 --> 00:01:36,720
+<font color="#E5E5E5">feature so here is the link of</font><font color="#CCCCCC"> that</font>
+
+41
+00:01:36,720 --> 00:01:37,470
+<font color="#CCCCCC">website</font>
+
+42
+00:01:37,470 --> 00:01:40,079
+<font color="#E5E5E5">Zankou comm hide - dot-com so there are</font>
+
+43
+00:01:40,079 --> 00:01:41,790
+many<font color="#E5E5E5"> websites which provide the same</font>
+
+44
+00:01:41,790 --> 00:01:43,829
+functionality<font color="#CCCCCC"> but the thing</font><font color="#E5E5E5"> to be notice</font>
+
+45
+00:01:43,829 --> 00:01:46,799
+is that in tab based proxies<font color="#E5E5E5"> the proxy</font>
+
+46
+00:01:46,799 --> 00:01:48,899
+<font color="#E5E5E5">will so only a single tab will get</font>
+
+47
+00:01:48,899 --> 00:01:51,899
+<font color="#E5E5E5">affected by that proxy but what if if we</font>
+
+48
+00:01:51,899 --> 00:01:54,960
+want a proxy in entire browser<font color="#E5E5E5"> so there</font>
+
+49
+00:01:54,960 --> 00:01:56,969
+are some proxies which<font color="#CCCCCC"> we can use</font><font color="#E5E5E5"> in</font>
+
+50
+00:01:56,969 --> 00:01:59,369
+<font color="#E5E5E5">order to</font><font color="#CCCCCC"> infect our entire browser so</font>
+
+51
+00:01:59,369 --> 00:02:01,680
+that proxies are called as browser<font color="#E5E5E5"> based</font>
+
+52
+00:02:01,680 --> 00:02:03,780
+proxies<font color="#CCCCCC"> so how we can use browser</font><font color="#E5E5E5"> based</font>
+
+53
+00:02:03,780 --> 00:02:05,850
+proxies so what<font color="#E5E5E5"> happen is there are some</font>
+
+54
+00:02:05,850 --> 00:02:08,190
+websites<font color="#E5E5E5"> in Internet which provides a</font>
+
+55
+00:02:08,190 --> 00:02:10,139
+list of free proxy servers around<font color="#E5E5E5"> the</font>
+
+56
+00:02:10,139 --> 00:02:12,540
+<font color="#E5E5E5">world so here is some website free prop</font>
+
+57
+00:02:12,540 --> 00:02:13,660
+stylist<font color="#E5E5E5"> com</font>
+
+58
+00:02:13,660 --> 00:02:16,660
+<font color="#E5E5E5">hide</font><font color="#CCCCCC"> - calm</font><font color="#E5E5E5"> so we can copy the IP</font>
+
+59
+00:02:16,660 --> 00:02:19,570
+address from<font color="#CCCCCC"> that</font><font color="#E5E5E5"> websites and then we</font>
+
+60
+00:02:19,570 --> 00:02:21,550
+can change our browser proxy settings
+
+61
+00:02:21,550 --> 00:02:23,170
+and then we can add that address in
+
+62
+00:02:23,170 --> 00:02:25,060
+order<font color="#E5E5E5"> to affect our entire browser and</font>
+
+63
+00:02:25,060 --> 00:02:27,730
+by using<font color="#E5E5E5"> browser based proxy it doesn't</font>
+
+64
+00:02:27,730 --> 00:02:30,130
+matter<font color="#CCCCCC"> that how</font><font color="#E5E5E5"> many tabs you open so</font>
+
+65
+00:02:30,130 --> 00:02:32,410
+every tab you will<font color="#CCCCCC"> open will get</font>
+
+66
+00:02:32,410 --> 00:02:35,020
+affected<font color="#E5E5E5"> by that proxy</font><font color="#CCCCCC"> so that's why</font>
+
+67
+00:02:35,020 --> 00:02:37,300
+<font color="#E5E5E5">browser-based proxies are best now let</font>
+
+68
+00:02:37,300 --> 00:02:39,520
+us<font color="#E5E5E5"> talk about anonymous proxy so</font>
+
+69
+00:02:39,520 --> 00:02:41,650
+nonnamous proxy is called a store proxy
+
+70
+00:02:41,650 --> 00:02:43,840
+so<font color="#E5E5E5"> tor proxy is an example of an</font>
+
+71
+00:02:43,840 --> 00:02:45,940
+<font color="#CCCCCC">animal's proxy</font><font color="#E5E5E5"> and tor is an open source</font>
+
+72
+00:02:45,940 --> 00:02:48,940
+<font color="#E5E5E5">software which is designed to hop into</font>
+
+73
+00:02:48,940 --> 00:02:50,800
+different proxy addresses and then<font color="#E5E5E5"> our</font>
+
+74
+00:02:50,800 --> 00:02:53,380
+request will went to that server so tor
+
+75
+00:02:53,380 --> 00:02:55,390
+proxy is one of the most secure proxy
+
+76
+00:02:55,390 --> 00:02:58,210
+which is is being used nowadays<font color="#CCCCCC"> so what</font>
+
+77
+00:02:58,210 --> 00:03:00,250
+happen is if<font color="#CCCCCC"> we made</font><font color="#E5E5E5"> any request by</font>
+
+78
+00:03:00,250 --> 00:03:03,400
+using tor proxy<font color="#E5E5E5"> then that request will</font>
+
+79
+00:03:03,400 --> 00:03:05,830
+hop into<font color="#E5E5E5"> different servers and then it</font>
+
+80
+00:03:05,830 --> 00:03:08,500
+will went to<font color="#CCCCCC"> a</font><font color="#E5E5E5"> remote IP address or a</font>
+
+81
+00:03:08,500 --> 00:03:10,810
+remote server so<font color="#E5E5E5"> the Tor proxy comes</font>
+
+82
+00:03:10,810 --> 00:03:12,790
+with<font color="#E5E5E5"> the tor browser and you can use tor</font>
+
+83
+00:03:12,790 --> 00:03:14,560
+proxy and download it<font color="#E5E5E5"> from</font><font color="#CCCCCC"> here</font>
+
+84
+00:03:14,560 --> 00:03:16,900
+tor project.org<font color="#CCCCCC"> and tor proxy is</font>
+
+85
+00:03:16,900 --> 00:03:18,790
+available for<font color="#CCCCCC"> different operating system</font>
+
+86
+00:03:18,790 --> 00:03:22,030
+Microsoft Linux OS and even smartphone
+
+87
+00:03:22,030 --> 00:03:25,120
+also<font color="#E5E5E5"> so what if if you want an entire</font>
+
+88
+00:03:25,120 --> 00:03:27,520
+system<font color="#E5E5E5"> entire operating system that will</font>
+
+89
+00:03:27,520 --> 00:03:29,860
+be affected by<font color="#CCCCCC"> that</font><font color="#E5E5E5"> proxy so there is</font>
+
+90
+00:03:29,860 --> 00:03:31,720
+one operating system<font color="#E5E5E5"> called as</font><font color="#CCCCCC"> Unix</font>
+
+91
+00:03:31,720 --> 00:03:34,030
+so we can use<font color="#CCCCCC"> monique's operating system</font>
+
+92
+00:03:34,030 --> 00:03:36,370
+in order<font color="#E5E5E5"> to use proxy for entire</font>
+
+93
+00:03:36,370 --> 00:03:38,470
+operating system<font color="#CCCCCC"> so what happen is even</font>
+
+94
+00:03:38,470 --> 00:03:41,170
+<font color="#E5E5E5">if you pick a particular website then</font>
+
+95
+00:03:41,170 --> 00:03:42,940
+our ping<font color="#CCCCCC"> request will also be affected</font>
+
+96
+00:03:42,940 --> 00:03:46,780
+<font color="#CCCCCC">by tor proxy</font><font color="#E5E5E5"> by using</font><font color="#CCCCCC"> a unix</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> 1x</font>
+
+97
+00:03:46,780 --> 00:03:48,400
+<font color="#E5E5E5">operating system comes to the unix</font>
+
+98
+00:03:48,400 --> 00:03:50,830
+gateway so what happen is if we<font color="#E5E5E5"> made any</font>
+
+99
+00:03:50,830 --> 00:03:52,959
+<font color="#CCCCCC">request</font><font color="#E5E5E5"> from UNIX operating system then</font>
+
+100
+00:03:52,959 --> 00:03:55,540
+that<font color="#E5E5E5"> request will go to the UNIX gateway</font>
+
+101
+00:03:55,540 --> 00:03:58,450
+and in UNIX gateway there is a<font color="#E5E5E5"> tor proxy</font>
+
+102
+00:03:58,450 --> 00:04:01,360
+<font color="#E5E5E5">which is waiting for our request</font><font color="#CCCCCC"> so this</font>
+
+103
+00:04:01,360 --> 00:04:03,280
+is how<font color="#CCCCCC"> onyx works</font><font color="#E5E5E5"> and we can also use</font>
+
+104
+00:04:03,280 --> 00:04:05,440
+phonics<font color="#CCCCCC"> in order</font><font color="#E5E5E5"> to do some internet</font>
+
+105
+00:04:05,440 --> 00:04:08,170
+fraud scamming because<font color="#E5E5E5"> UNIX hides our</font>
+
+106
+00:04:08,170 --> 00:04:10,810
+real<font color="#E5E5E5"> IP address now</font><font color="#CCCCCC"> let's talk about</font>
+
+107
+00:04:10,810 --> 00:04:13,150
+three<font color="#CCCCCC"> different</font><font color="#E5E5E5"> types of proxies so here</font>
+
+108
+00:04:13,150 --> 00:04:14,739
+you<font color="#E5E5E5"> can see that there are</font><font color="#CCCCCC"> three proxy</font>
+
+109
+00:04:14,739 --> 00:04:16,988
+anonymous<font color="#E5E5E5"> light transparent so these are</font>
+
+110
+00:04:16,988 --> 00:04:18,970
+the proxies categories which we can use
+
+111
+00:04:18,970 --> 00:04:21,488
+so the first one is anonymous<font color="#CCCCCC"> so as I</font>
+
+112
+00:04:21,488 --> 00:04:23,530
+told you earlier<font color="#CCCCCC"> that anonymous proxy is</font>
+
+113
+00:04:23,530 --> 00:04:25,360
+one of the most secure proxy we can use
+
+114
+00:04:25,360 --> 00:04:27,520
+and then the another<font color="#E5E5E5"> proxy type is</font><font color="#CCCCCC"> a lie</font>
+
+115
+00:04:27,520 --> 00:04:29,830
+so<font color="#CCCCCC"> life proxies are also</font><font color="#E5E5E5"> secure and they</font>
+
+116
+00:04:29,830 --> 00:04:32,020
+also<font color="#E5E5E5"> hide our IP</font><font color="#CCCCCC"> address</font><font color="#E5E5E5"> so whereas</font><font color="#CCCCCC"> the</font>
+
+117
+00:04:32,020 --> 00:04:34,479
+transparent<font color="#CCCCCC"> blocks proxies</font><font color="#E5E5E5"> change over</font>
+
+118
+00:04:34,479 --> 00:04:37,410
+IP address but they are not secure<font color="#E5E5E5"> so</font>
+
+119
+00:04:37,410 --> 00:04:39,400
+<font color="#E5E5E5">transparent proxies are not</font><font color="#CCCCCC"> secure</font>
+
+120
+00:04:39,400 --> 00:04:41,380
+<font color="#E5E5E5">that's why the speed of transparent</font>
+
+121
+00:04:41,380 --> 00:04:43,840
+proxy is very high whereas the speed of
+
+122
+00:04:43,840 --> 00:04:45,729
+anonymous proxies and<font color="#E5E5E5"> the light proxies</font>
+
+123
+00:04:45,729 --> 00:04:48,520
+are very slow<font color="#E5E5E5"> so these are the types of</font>
+
+124
+00:04:48,520 --> 00:04:50,440
+proxies<font color="#CCCCCC"> which we can use now let's see</font>
+
+125
+00:04:50,440 --> 00:04:52,690
+how we can<font color="#CCCCCC"> use proxies in our operating</font>
+
+126
+00:04:52,690 --> 00:04:55,599
+system<font color="#E5E5E5"> now let's use tab based browser</font>
+
+127
+00:04:55,599 --> 00:04:58,539
+<font color="#CCCCCC">waste and system based proxy so let me</font>
+
+128
+00:04:58,539 --> 00:05:01,330
+open<font color="#E5E5E5"> my Mozilla Firefox</font><font color="#CCCCCC"> well I</font><font color="#E5E5E5"> told you</font>
+
+129
+00:05:01,330 --> 00:05:04,120
+<font color="#CCCCCC">earlier that</font><font color="#E5E5E5"> in tab based proxy the</font>
+
+130
+00:05:04,120 --> 00:05:06,610
+proxy will only work in a particular<font color="#CCCCCC"> tab</font>
+
+131
+00:05:06,610 --> 00:05:08,889
+and here you can see that I have opened
+
+132
+00:05:08,889 --> 00:05:11,740
+this tab<font color="#E5E5E5"> and here is this website Zankou</font>
+
+133
+00:05:11,740 --> 00:05:14,139
+<font color="#CCCCCC">comm</font><font color="#E5E5E5"> so this website provide us the</font>
+
+134
+00:05:14,139 --> 00:05:16,300
+feature of<font color="#E5E5E5"> tab based proxy so once you</font>
+
+135
+00:05:16,300 --> 00:05:18,639
+<font color="#CCCCCC">open this</font><font color="#E5E5E5"> website you will see an input</font>
+
+136
+00:05:18,639 --> 00:05:21,009
+box here<font color="#CCCCCC"> so just</font><font color="#E5E5E5"> for example</font><font color="#CCCCCC"> if I write</font>
+
+137
+00:05:21,009 --> 00:05:25,120
+<font color="#E5E5E5">here google.com and hit enter so</font><font color="#CCCCCC"> here</font>
+
+138
+00:05:25,120 --> 00:05:26,710
+you<font color="#E5E5E5"> will see that the Google</font><font color="#CCCCCC"> of</font>
+
+139
+00:05:26,710 --> 00:05:29,169
+<font color="#E5E5E5">Netherland is open which means there</font><font color="#CCCCCC"> is</font>
+
+140
+00:05:29,169 --> 00:05:31,990
+a proxy<font color="#E5E5E5"> which is set it up only</font><font color="#CCCCCC"> in this</font>
+
+141
+00:05:31,990 --> 00:05:34,599
+<font color="#E5E5E5">tab and in order to confirm we can check</font>
+
+142
+00:05:34,599 --> 00:05:36,759
+our<font color="#E5E5E5"> IP address by going</font><font color="#CCCCCC"> here to what is</font>
+
+143
+00:05:36,759 --> 00:05:42,370
+my IP address<font color="#CCCCCC"> comm</font><font color="#E5E5E5"> and here you can see</font>
+
+144
+00:05:42,370 --> 00:05:44,469
+the<font color="#E5E5E5"> IP address along with the ISP detail</font>
+
+145
+00:05:44,469 --> 00:05:48,099
+services<font color="#E5E5E5"> and country so this proxy will</font>
+
+146
+00:05:48,099 --> 00:05:50,080
+work only in this tab in order<font color="#CCCCCC"> to</font>
+
+147
+00:05:50,080 --> 00:05:51,880
+confirm let me open<font color="#E5E5E5"> another tab</font><font color="#CCCCCC"> and</font>
+
+148
+00:05:51,880 --> 00:05:53,889
+let's<font color="#E5E5E5"> just write here what is my IP</font>
+
+149
+00:05:53,889 --> 00:06:00,190
+address<font color="#CCCCCC"> comm and you</font><font color="#E5E5E5"> will see here that</font>
+
+150
+00:06:00,190 --> 00:06:06,460
+<font color="#CCCCCC">our</font><font color="#E5E5E5"> original IP addresses of India so</font>
+
+151
+00:06:06,460 --> 00:06:08,860
+similar to<font color="#E5E5E5"> this website</font><font color="#CCCCCC"> center.com</font><font color="#E5E5E5"> so</font>
+
+152
+00:06:08,860 --> 00:06:11,560
+there is one<font color="#E5E5E5"> more website called as hide</font>
+
+153
+00:06:11,560 --> 00:06:14,710
+proxy dot<font color="#CCCCCC"> m-mean so this is a website</font>
+
+154
+00:06:14,710 --> 00:06:22,740
+<font color="#E5E5E5">length so its height dot</font><font color="#CCCCCC"> a mean slash</font>
+
+155
+00:06:22,740 --> 00:06:26,110
+<font color="#E5E5E5">slash proxy so this also provide</font><font color="#CCCCCC"> us the</font>
+
+156
+00:06:26,110 --> 00:06:28,750
+feature<font color="#E5E5E5"> of tab based proxy so we can</font>
+
+157
+00:06:28,750 --> 00:06:30,310
+write<font color="#E5E5E5"> down here web address which we</font>
+
+158
+00:06:30,310 --> 00:06:31,810
+want<font color="#E5E5E5"> to open so let me write here</font>
+
+159
+00:06:31,810 --> 00:06:34,389
+google.com<font color="#E5E5E5"> and this website</font><font color="#CCCCCC"> also provide</font>
+
+160
+00:06:34,389 --> 00:06:35,949
+<font color="#CCCCCC">us the feature of</font><font color="#E5E5E5"> selecting the proxy</font>
+
+161
+00:06:35,949 --> 00:06:37,810
+location whether you want to use<font color="#CCCCCC"> a proxy</font>
+
+162
+00:06:37,810 --> 00:06:41,169
+<font color="#E5E5E5">server</font><font color="#CCCCCC"> of USA Germany or Netherland</font>
+
+163
+00:06:41,169 --> 00:06:43,120
+click over<font color="#E5E5E5"> here to Germany and you can</font>
+
+164
+00:06:43,120 --> 00:06:44,669
+click<font color="#CCCCCC"> over here nan visit anonymously</font>
+
+165
+00:06:44,669 --> 00:06:48,909
+<font color="#E5E5E5">and you will see here</font><font color="#CCCCCC"> that the</font><font color="#E5E5E5"> Google of</font>
+
+166
+00:06:48,909 --> 00:06:53,099
+Germany is open knowledge<font color="#CCCCCC"> just verify</font>
+
+167
+00:06:57,539 --> 00:07:02,710
+and here you can see the ISP<font color="#E5E5E5"> our IP</font>
+
+168
+00:07:02,710 --> 00:07:05,889
+<font color="#E5E5E5">address along with the country</font><font color="#CCCCCC"> name so</font>
+
+169
+00:07:05,889 --> 00:07:08,529
+you<font color="#E5E5E5"> can use these two websites in order</font>
+
+170
+00:07:08,529 --> 00:07:11,529
+to use tab based proxies<font color="#E5E5E5"> but what if if</font>
+
+171
+00:07:11,529 --> 00:07:13,930
+we want to<font color="#E5E5E5"> use</font><font color="#CCCCCC"> browser-based proxy so</font>
+
+172
+00:07:13,930 --> 00:07:16,960
+that if<font color="#E5E5E5"> you open different tabs and</font><font color="#CCCCCC"> that</font>
+
+173
+00:07:16,960 --> 00:07:19,360
+will also<font color="#E5E5E5"> get affected by that proxies</font>
+
+174
+00:07:19,360 --> 00:07:21,909
+<font color="#E5E5E5">so before</font><font color="#CCCCCC"> starting with</font><font color="#E5E5E5"> that</font>
+
+175
+00:07:21,909 --> 00:07:23,919
+<font color="#CCCCCC">browser-based</font><font color="#E5E5E5"> proxy the first thing we</font>
+
+176
+00:07:23,919 --> 00:07:25,419
+have<font color="#CCCCCC"> to know</font><font color="#E5E5E5"> is that browser-based</font>
+
+177
+00:07:25,419 --> 00:07:28,659
+proxies works after configuring the
+
+178
+00:07:28,659 --> 00:07:30,580
+browser network settings so which means
+
+179
+00:07:30,580 --> 00:07:32,680
+first of<font color="#E5E5E5"> all what we have to do is we</font>
+
+180
+00:07:32,680 --> 00:07:34,449
+have<font color="#E5E5E5"> to find out a proxy which is</font>
+
+181
+00:07:34,449 --> 00:07:36,999
+available<font color="#CCCCCC"> and listening</font><font color="#E5E5E5"> and then we can</font>
+
+182
+00:07:36,999 --> 00:07:40,089
+use that<font color="#CCCCCC"> proxy or that IP address in our</font>
+
+183
+00:07:40,089 --> 00:07:42,520
+<font color="#E5E5E5">browser network settings so here you can</font>
+
+184
+00:07:42,520 --> 00:07:44,560
+<font color="#E5E5E5">see that here is one website called as</font>
+
+185
+00:07:44,560 --> 00:07:47,289
+free proxy lists dotnet<font color="#E5E5E5"> and it provide</font>
+
+186
+00:07:47,289 --> 00:07:49,449
+us the free proxy lists so you<font color="#E5E5E5"> can see</font>
+
+187
+00:07:49,449 --> 00:07:51,550
+here all the IP<font color="#E5E5E5"> addresses</font><font color="#CCCCCC"> so these IP</font>
+
+188
+00:07:51,550 --> 00:07:53,469
+addresses<font color="#CCCCCC"> are of the proxy server along</font>
+
+189
+00:07:53,469 --> 00:07:55,089
+with<font color="#E5E5E5"> the port here you can see the</font>
+
+190
+00:07:55,089 --> 00:07:57,279
+protocol<font color="#E5E5E5"> anonymity along with the</font>
+
+191
+00:07:57,279 --> 00:07:59,949
+<font color="#E5E5E5">country and uptime and response and</font>
+
+192
+00:07:59,949 --> 00:08:02,800
+transfer rate<font color="#E5E5E5"> so depending upon your</font>
+
+193
+00:08:02,800 --> 00:08:06,370
+need<font color="#E5E5E5"> you can</font><font color="#CCCCCC"> select one of them so just</font>
+
+194
+00:08:06,370 --> 00:08:09,520
+<font color="#E5E5E5">for</font><font color="#CCCCCC"> example if I want</font><font color="#E5E5E5"> to use this proxy</font>
+
+195
+00:08:09,520 --> 00:08:12,009
+so I can<font color="#E5E5E5"> copy this IP</font><font color="#CCCCCC"> address then what</font>
+
+196
+00:08:12,009 --> 00:08:15,129
+I have to do is I have<font color="#E5E5E5"> to go to here to</font>
+
+197
+00:08:15,129 --> 00:08:17,589
+my browser settings so I'm using Mozilla
+
+198
+00:08:17,589 --> 00:08:19,569
+Firefox so let's just go here to<font color="#E5E5E5"> options</font>
+
+199
+00:08:19,569 --> 00:08:22,330
+<font color="#E5E5E5">then advanced then we have to go here to</font>
+
+200
+00:08:22,330 --> 00:08:23,979
+<font color="#E5E5E5">the network and here you can see</font>
+
+201
+00:08:23,979 --> 00:08:26,050
+configure how Firefox connect to the
+
+202
+00:08:26,050 --> 00:08:28,509
+<font color="#CCCCCC">Internet now click on settings</font><font color="#E5E5E5"> then here</font>
+
+203
+00:08:28,509 --> 00:08:30,879
+by default<font color="#CCCCCC"> our browser works with this</font>
+
+204
+00:08:30,879 --> 00:08:33,458
+use system proxy settings<font color="#E5E5E5"> and here we</font>
+
+205
+00:08:33,458 --> 00:08:35,529
+want<font color="#E5E5E5"> to manually configure the proxy</font>
+
+206
+00:08:35,529 --> 00:08:37,958
+<font color="#E5E5E5">settings so let's paste IP address here</font>
+
+207
+00:08:37,958 --> 00:08:42,399
+which we want<font color="#E5E5E5"> to use as a proxy and here</font>
+
+208
+00:08:42,399 --> 00:08:44,319
+we have to write<font color="#CCCCCC"> down</font><font color="#E5E5E5"> the port so</font><font color="#CCCCCC"> let's</font>
+
+209
+00:08:44,319 --> 00:08:46,540
+go<font color="#CCCCCC"> back here</font><font color="#E5E5E5"> and you</font><font color="#CCCCCC"> can see that the</font>
+
+210
+00:08:46,540 --> 00:08:47,079
+<font color="#CCCCCC">pour test</font>
+
+211
+00:08:47,079 --> 00:08:50,260
+<font color="#CCCCCC">8:08 one so let me just write down here</font>
+
+212
+00:08:50,260 --> 00:08:53,640
+<font color="#CCCCCC">the port number that</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> eight oh</font>
+
+213
+00:08:53,640 --> 00:08:56,550
+<font color="#E5E5E5">8:1</font><font color="#CCCCCC"> and if you want to use this proxy</font>
+
+214
+00:08:56,550 --> 00:08:58,740
+for a<font color="#E5E5E5"> CD PS protocol also</font><font color="#CCCCCC"> an FTP</font>
+
+215
+00:08:58,740 --> 00:09:01,500
+protocol also<font color="#E5E5E5"> then</font><font color="#CCCCCC"> you can just</font><font color="#E5E5E5"> check</font>
+
+216
+00:09:01,500 --> 00:09:05,490
+this checkbox and click on<font color="#CCCCCC"> OK</font><font color="#E5E5E5"> now if I</font>
+
+217
+00:09:05,490 --> 00:09:16,230
+in next step I open google.com and in
+
+218
+00:09:16,230 --> 00:09:18,060
+the next<font color="#CCCCCC"> tab let me open what is my</font><font color="#E5E5E5"> IP</font>
+
+219
+00:09:18,060 --> 00:09:24,630
+address<font color="#CCCCCC"> comm so you can see here</font><font color="#E5E5E5"> now our</font>
+
+220
+00:09:24,630 --> 00:09:27,060
+IP<font color="#CCCCCC"> address is</font><font color="#E5E5E5"> of Russia here you can see</font>
+
+221
+00:09:27,060 --> 00:09:29,070
+the country along<font color="#CCCCCC"> with IP address</font><font color="#E5E5E5"> which</font>
+
+222
+00:09:29,070 --> 00:09:32,790
+means now our entire browser is affected
+
+223
+00:09:32,790 --> 00:09:35,220
+by this proxy so this is how browser
+
+224
+00:09:35,220 --> 00:09:37,050
+based proxies work so there are a lot<font color="#CCCCCC"> of</font>
+
+225
+00:09:37,050 --> 00:09:39,300
+websites<font color="#E5E5E5"> from where you can get the free</font>
+
+226
+00:09:39,300 --> 00:09:41,490
+proxy<font color="#E5E5E5"> lists so another example of the</font>
+
+227
+00:09:41,490 --> 00:09:43,800
+web<font color="#E5E5E5"> this website is us proxy dot</font><font color="#CCCCCC"> org</font><font color="#E5E5E5"> and</font>
+
+228
+00:09:43,800 --> 00:09:46,500
+here you<font color="#E5E5E5"> can also get the free proxy</font>
+
+229
+00:09:46,500 --> 00:09:49,350
+lists so this is how<font color="#E5E5E5"> browser based</font>
+
+230
+00:09:49,350 --> 00:09:53,130
+proxies work<font color="#E5E5E5"> but but if if you want to</font>
+
+231
+00:09:53,130 --> 00:09:56,490
+use a proxy<font color="#E5E5E5"> for your entire system means</font>
+
+232
+00:09:56,490 --> 00:09:59,940
+if your system is making<font color="#CCCCCC"> any</font><font color="#E5E5E5"> requests to</font>
+
+233
+00:09:59,940 --> 00:10:02,220
+the<font color="#CCCCCC"> internet and</font><font color="#E5E5E5"> you want that that</font>
+
+234
+00:10:02,220 --> 00:10:04,260
+request will pass through<font color="#E5E5E5"> a proxy then</font>
+
+235
+00:10:04,260 --> 00:10:07,050
+<font color="#CCCCCC">what we can</font><font color="#E5E5E5"> do is there any solution yes</font>
+
+236
+00:10:07,050 --> 00:10:09,480
+there are some operating<font color="#E5E5E5"> systems or</font>
+
+237
+00:10:09,480 --> 00:10:12,090
+there are some system proxies tool which
+
+238
+00:10:12,090 --> 00:10:14,100
+we<font color="#E5E5E5"> can use in order</font><font color="#CCCCCC"> to set our system</font>
+
+239
+00:10:14,100 --> 00:10:16,800
+behind<font color="#CCCCCC"> the proxy server so there is one</font>
+
+240
+00:10:16,800 --> 00:10:19,560
+most<font color="#E5E5E5"> commonly used system based proxy</font>
+
+241
+00:10:19,560 --> 00:10:21,210
+operating system<font color="#E5E5E5"> that is called as Unix</font>
+
+242
+00:10:21,210 --> 00:10:24,450
+<font color="#E5E5E5">so you can download the UNIX from here</font>
+
+243
+00:10:24,450 --> 00:10:26,370
+<font color="#E5E5E5">from their official</font><font color="#CCCCCC"> website</font><font color="#E5E5E5"> runing</font><font color="#CCCCCC"> stark</font>
+
+244
+00:10:26,370 --> 00:10:29,010
+<font color="#E5E5E5">and the UNIX operating system is</font>
+
+245
+00:10:29,010 --> 00:10:32,220
+actually<font color="#E5E5E5"> based on tar tar proxy so if</font>
+
+246
+00:10:32,220 --> 00:10:35,040
+you don't know what is<font color="#CCCCCC"> todd proxy</font><font color="#E5E5E5"> so the</font>
+
+247
+00:10:35,040 --> 00:10:37,440
+official website of tar proxy is in the
+
+248
+00:10:37,440 --> 00:10:40,170
+star<font color="#CCCCCC"> project.org</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> tor proxy is</font>
+
+249
+00:10:40,170 --> 00:10:42,390
+actually one of the best anonymous proxy
+
+250
+00:10:42,390 --> 00:10:44,370
+which we can use in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to open any</font>
+
+251
+00:10:44,370 --> 00:10:46,710
+web application<font color="#CCCCCC"> or any website</font><font color="#E5E5E5"> so tor</font>
+
+252
+00:10:46,710 --> 00:10:48,420
+proxy comes with<font color="#E5E5E5"> the tor</font><font color="#CCCCCC"> browser which</font>
+
+253
+00:10:48,420 --> 00:10:50,730
+means once<font color="#E5E5E5"> the tar proxy is set it up</font>
+
+254
+00:10:50,730 --> 00:10:53,130
+then we can access that<font color="#CCCCCC"> a particular</font>
+
+255
+00:10:53,130 --> 00:10:55,860
+website by<font color="#CCCCCC"> using tor proxy</font><font color="#E5E5E5"> and by using</font>
+
+256
+00:10:55,860 --> 00:10:58,140
+this<font color="#E5E5E5"> tor browser so you</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> download the</font>
+
+257
+00:10:58,140 --> 00:11:00,060
+tor browser<font color="#E5E5E5"> from here</font><font color="#CCCCCC"> if you don't want</font>
+
+258
+00:11:00,060 --> 00:11:01,890
+to use system proxy and you only want<font color="#CCCCCC"> to</font>
+
+259
+00:11:01,890 --> 00:11:04,170
+use<font color="#E5E5E5"> tor browser then you can download</font>
+
+260
+00:11:04,170 --> 00:11:06,030
+<font color="#E5E5E5">the store browser from here and it's an</font>
+
+261
+00:11:06,030 --> 00:11:07,710
+open<font color="#CCCCCC"> source</font>
+
+262
+00:11:07,710 --> 00:11:09,810
+so this morning's operating system is
+
+263
+00:11:09,810 --> 00:11:12,690
+actually<font color="#E5E5E5"> comes with a UNIX gateway and</font>
+
+264
+00:11:12,690 --> 00:11:15,810
+any<font color="#CCCCCC"> request which we will made by UNIX</font>
+
+265
+00:11:15,810 --> 00:11:17,520
+operating system<font color="#E5E5E5"> will pass through the</font>
+
+266
+00:11:17,520 --> 00:11:20,870
+<font color="#E5E5E5">UNIX gateway and then it will went to</font>
+
+267
+00:11:20,870 --> 00:11:24,360
+different<font color="#E5E5E5"> tower proxy nodes so let me</font>
+
+268
+00:11:24,360 --> 00:11:25,680
+show<font color="#E5E5E5"> you here to their official</font><font color="#CCCCCC"> website</font>
+
+269
+00:11:25,680 --> 00:11:28,200
+<font color="#CCCCCC">so here you can see the architecture of</font>
+
+270
+00:11:28,200 --> 00:11:30,480
+UNIX workstation so here you can see
+
+271
+00:11:30,480 --> 00:11:32,700
+<font color="#E5E5E5">that in the green boxes these are the</font>
+
+272
+00:11:32,700 --> 00:11:35,100
+applications which we will<font color="#CCCCCC"> use</font><font color="#E5E5E5"> in the</font>
+
+273
+00:11:35,100 --> 00:11:36,690
+UNIX workstation so you can use any
+
+274
+00:11:36,690 --> 00:11:39,570
+application so similarly see we can say
+
+275
+00:11:39,570 --> 00:11:42,420
+that it's a Firefox browser<font color="#CCCCCC"> so any</font>
+
+276
+00:11:42,420 --> 00:11:45,210
+<font color="#CCCCCC">request</font><font color="#E5E5E5"> which we will made through UNIX</font>
+
+277
+00:11:45,210 --> 00:11:47,190
+workstation will pass through the UNIX
+
+278
+00:11:47,190 --> 00:11:50,220
+gateway and then it will went to the
+
+279
+00:11:50,220 --> 00:11:51,960
+<font color="#E5E5E5">different nodes and here you can see our</font>
+
+280
+00:11:51,960 --> 00:11:54,210
+<font color="#E5E5E5">first node so the first node is</font><font color="#CCCCCC"> actually</font>
+
+281
+00:11:54,210 --> 00:11:56,190
+<font color="#E5E5E5">or you can say that it's a proxy</font><font color="#CCCCCC"> then it</font>
+
+282
+00:11:56,190 --> 00:11:58,350
+will go<font color="#E5E5E5"> to the second proxy server then</font>
+
+283
+00:11:58,350 --> 00:12:00,000
+<font color="#E5E5E5">the third proxy server and the third</font>
+
+284
+00:12:00,000 --> 00:12:02,100
+node is<font color="#E5E5E5"> also called as exit node from</font>
+
+285
+00:12:02,100 --> 00:12:05,790
+<font color="#E5E5E5">where our request will exit and here</font>
+
+286
+00:12:05,790 --> 00:12:08,960
+<font color="#E5E5E5">finally our website will went to a</font>
+
+287
+00:12:08,960 --> 00:12:12,240
+<font color="#E5E5E5">website which we want to open so this is</font>
+
+288
+00:12:12,240 --> 00:12:14,580
+how wanax workstation works and you<font color="#E5E5E5"> can</font>
+
+289
+00:12:14,580 --> 00:12:17,040
+download<font color="#E5E5E5"> UNIX workstation for Windows</font>
+
+290
+00:12:17,040 --> 00:12:19,710
+Linux and OS depending upon your
+
+291
+00:12:19,710 --> 00:12:21,360
+operating system<font color="#CCCCCC"> so I have already</font>
+
+292
+00:12:21,360 --> 00:12:23,730
+<font color="#CCCCCC">downloaded UNIX operating system</font><font color="#E5E5E5"> and I</font>
+
+293
+00:12:23,730 --> 00:12:25,710
+have also installed<font color="#E5E5E5"> UNIX operating</font>
+
+294
+00:12:25,710 --> 00:12:27,810
+system<font color="#CCCCCC"> so once you install the</font><font color="#E5E5E5"> UNIX</font>
+
+295
+00:12:27,810 --> 00:12:30,450
+<font color="#E5E5E5">operating system you will notice that in</font>
+
+296
+00:12:30,450 --> 00:12:35,310
+VirtualBox<font color="#E5E5E5"> there will be two virtual</font>
+
+297
+00:12:35,310 --> 00:12:37,110
+machines<font color="#CCCCCC"> which will be</font><font color="#E5E5E5"> created by this</font>
+
+298
+00:12:37,110 --> 00:12:41,600
+<font color="#E5E5E5">one X so if I</font><font color="#CCCCCC"> open my VirtualBox</font><font color="#E5E5E5"> and</font>
+
+299
+00:12:41,600 --> 00:12:44,070
+<font color="#E5E5E5">here you can see the two virtual</font>
+
+300
+00:12:44,070 --> 00:12:46,470
+machines<font color="#E5E5E5"> named as Linux workstation and</font>
+
+301
+00:12:46,470 --> 00:12:50,310
+<font color="#CCCCCC">Muniz</font><font color="#E5E5E5"> gateways created by</font><font color="#CCCCCC"> Phonics</font><font color="#E5E5E5"> so let</font>
+
+302
+00:12:50,310 --> 00:12:53,070
+<font color="#E5E5E5">me just close this VirtualBox and here</font>
+
+303
+00:12:53,070 --> 00:12:55,740
+you can see that on<font color="#E5E5E5"> my desktop there is</font>
+
+304
+00:12:55,740 --> 00:12:57,900
+one icon of called as Linux for Windows
+
+305
+00:12:57,900 --> 00:12:59,550
+so I have installed<font color="#CCCCCC"> this fonox operating</font>
+
+306
+00:12:59,550 --> 00:13:01,380
+system so let me open this application
+
+307
+00:13:01,380 --> 00:13:04,650
+<font color="#CCCCCC">and here are two options</font><font color="#E5E5E5"> start</font><font color="#CCCCCC"> onyx</font><font color="#E5E5E5"> and</font>
+
+308
+00:13:04,650 --> 00:13:06,720
+advanced so let me click over<font color="#E5E5E5"> here start</font>
+
+309
+00:13:06,720 --> 00:13:09,030
+<font color="#CCCCCC">Unix</font><font color="#E5E5E5"> so as soon as I click over</font><font color="#CCCCCC"> here to</font>
+
+310
+00:13:09,030 --> 00:13:11,970
+<font color="#CCCCCC">start onyx the two virtual machines</font>
+
+311
+00:13:11,970 --> 00:13:15,300
+<font color="#E5E5E5">which is UNIX workstation and UNIX</font>
+
+312
+00:13:15,300 --> 00:13:17,850
+<font color="#E5E5E5">gateway is open and here you can see</font>
+
+313
+00:13:17,850 --> 00:13:19,560
+that<font color="#E5E5E5"> it's a UNIX workstation so let me</font>
+
+314
+00:13:19,560 --> 00:13:20,499
+start<font color="#E5E5E5"> this</font>
+
+315
+00:13:20,499 --> 00:13:23,889
+UNIX workstation and right after<font color="#E5E5E5"> it</font>
+
+316
+00:13:23,889 --> 00:13:26,559
+<font color="#CCCCCC">bonus</font><font color="#E5E5E5"> gate was also running here you can</font>
+
+317
+00:13:26,559 --> 00:13:32,849
+see so let's wait
+
+318
+00:14:29,370 --> 00:14:31,740
+and here you<font color="#E5E5E5"> can see that our UNIX</font>
+
+319
+00:14:31,740 --> 00:14:34,110
+workstation<font color="#E5E5E5"> is up and running</font><font color="#CCCCCC"> here you</font>
+
+320
+00:14:34,110 --> 00:14:36,870
+can see<font color="#E5E5E5"> its desktop</font><font color="#CCCCCC"> and now let's see</font>
+
+321
+00:14:36,870 --> 00:14:40,470
+how<font color="#CCCCCC"> onyx gateway looks like and here you</font>
+
+322
+00:14:40,470 --> 00:14:43,080
+can<font color="#E5E5E5"> see the varnish gateway so you can</font>
+
+323
+00:14:43,080 --> 00:14:44,580
+change all the network settings from
+
+324
+00:14:44,580 --> 00:14:47,250
+<font color="#E5E5E5">uniess gateway and the effect of that</font>
+
+325
+00:14:47,250 --> 00:14:51,140
+settings can<font color="#CCCCCC"> be seen at UNIX workstation</font>
+
+326
+00:14:51,140 --> 00:14:53,910
+so now let me<font color="#CCCCCC"> go</font><font color="#E5E5E5"> to the UNIX workstation</font>
+
+327
+00:14:53,910 --> 00:14:56,370
+<font color="#E5E5E5">and let me show you how onyx works so</font>
+
+328
+00:14:56,370 --> 00:14:58,020
+here you<font color="#E5E5E5"> can see the UNIX workstation</font>
+
+329
+00:14:58,020 --> 00:15:04,710
+and let me go here let<font color="#E5E5E5"> me go to Internet</font>
+
+330
+00:15:04,710 --> 00:15:08,700
+<font color="#CCCCCC">and let me click over here</font><font color="#E5E5E5"> tar so it's</font>
+
+331
+00:15:08,700 --> 00:15:10,350
+same tor browser is currently<font color="#E5E5E5"> not</font>
+
+332
+00:15:10,350 --> 00:15:12,779
+installed<font color="#E5E5E5"> but no worries we</font><font color="#CCCCCC"> can open</font>
+
+333
+00:15:12,779 --> 00:15:15,830
+<font color="#CCCCCC">Firefox</font><font color="#E5E5E5"> also</font>
+
+334
+00:15:22,460 --> 00:15:24,950
+now here you<font color="#E5E5E5"> can</font><font color="#CCCCCC"> see that</font><font color="#E5E5E5"> as soon</font><font color="#CCCCCC"> as we</font>
+
+335
+00:15:24,950 --> 00:15:27,950
+start<font color="#CCCCCC"> UNIX workstation this</font><font color="#E5E5E5"> Finnish</font>
+
+336
+00:15:27,950 --> 00:15:31,760
+workstation will entirely covered by<font color="#CCCCCC"> tor</font>
+
+337
+00:15:31,760 --> 00:15:35,870
+proxy<font color="#E5E5E5"> and if I open</font><font color="#CCCCCC"> and and if I</font><font color="#E5E5E5"> open my</font>
+
+338
+00:15:35,870 --> 00:15:37,910
+Mozilla Firefox and open what's my IP
+
+339
+00:15:37,910 --> 00:15:40,339
+address<font color="#CCCCCC"> com here you will</font><font color="#E5E5E5"> see that there</font>
+
+340
+00:15:40,339 --> 00:15:43,130
+is no need<font color="#E5E5E5"> of setting up the proxy</font>
+
+341
+00:15:43,130 --> 00:15:45,080
+<font color="#E5E5E5">settings or there is no need to</font><font color="#CCCCCC"> use</font>
+
+342
+00:15:45,080 --> 00:15:47,660
+<font color="#E5E5E5">proxy because this one is workstation is</font>
+
+343
+00:15:47,660 --> 00:15:49,970
+a<font color="#E5E5E5"> proxy in itself</font><font color="#CCCCCC"> and here you can see</font>
+
+344
+00:15:49,970 --> 00:15:52,279
+<font color="#E5E5E5">that our IP address you can see the ISP</font>
+
+345
+00:15:52,279 --> 00:15:55,279
+<font color="#E5E5E5">University of Waterloo and here you can</font>
+
+346
+00:15:55,279 --> 00:15:57,440
+<font color="#E5E5E5">see that it's at our exit node which</font>
+
+347
+00:15:57,440 --> 00:15:59,690
+means it's a large<font color="#E5E5E5"> store server from</font>
+
+348
+00:15:59,690 --> 00:16:03,200
+<font color="#E5E5E5">wherever request is going out and even</font>
+
+349
+00:16:03,200 --> 00:16:06,020
+<font color="#E5E5E5">if you ping a particular website then</font>
+
+350
+00:16:06,020 --> 00:16:09,170
+your ping request will also be covered
+
+351
+00:16:09,170 --> 00:16:16,550
+by the<font color="#CCCCCC"> tor proxy servers so let</font><font color="#E5E5E5"> me open</font>
+
+352
+00:16:16,550 --> 00:16:22,570
+this<font color="#E5E5E5"> console and let me pin google.com</font>
+
+353
+00:16:28,290 --> 00:16:30,330
+and here you can see that it will<font color="#CCCCCC"> take a</font>
+
+354
+00:16:30,330 --> 00:16:33,900
+<font color="#E5E5E5">little bit time why because our</font><font color="#CCCCCC"> request</font>
+
+355
+00:16:33,900 --> 00:16:36,030
+<font color="#E5E5E5">will first of all pass through</font><font color="#CCCCCC"> different</font>
+
+356
+00:16:36,030 --> 00:16:41,070
+<font color="#CCCCCC">tower</font><font color="#E5E5E5"> nodes and then it will reach at</font>
+
+357
+00:16:41,070 --> 00:16:43,980
+google.com<font color="#E5E5E5"> so this is how we can</font><font color="#CCCCCC"> use</font>
+
+358
+00:16:43,980 --> 00:16:47,910
+UNIX<font color="#CCCCCC"> Delta the system proxy</font><font color="#E5E5E5"> and then tab</font>
+
+359
+00:16:47,910 --> 00:16:50,250
+based proxies and browser based proxies
+
+360
+00:16:50,250 --> 00:16:52,740
+<font color="#E5E5E5">you know in</font><font color="#CCCCCC"> order to hide our IP</font><font color="#E5E5E5"> address</font>
+
+361
+00:16:52,740 --> 00:16:56,250
+and to be<font color="#E5E5E5"> anonymous</font><font color="#CCCCCC"> so in</font><font color="#E5E5E5"> this video we</font>
+
+362
+00:16:56,250 --> 00:16:58,320
+have<font color="#E5E5E5"> covered that what is proxy and how</font>
+
+363
+00:16:58,320 --> 00:17:00,540
+we can use different proxies<font color="#E5E5E5"> in order to</font>
+
+364
+00:17:00,540 --> 00:17:02,880
+hide our IP address<font color="#CCCCCC"> and to surf internet</font>
+
+365
+00:17:02,880 --> 00:17:05,160
+anonymously<font color="#E5E5E5"> so thanks for watching</font><font color="#CCCCCC"> this</font>
+
+366
+00:17:05,160 --> 00:00:00,000
+video
+

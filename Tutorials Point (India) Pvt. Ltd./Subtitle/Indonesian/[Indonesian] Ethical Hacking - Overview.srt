@@ -1,0 +1,284 @@
+1
+00:00:00,089 --> 00:00:02,310
+ Halo semua orang di <font color="#E5E5E5">video ini </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">saya berikan </font>
+
+2
+00:00:02,310 --> 00:00:05,069
+ Anda dan pengenalan singkat tentang etika 
+
+3
+00:00:05,069 --> 00:00:07,230
+ peretasan <font color="#E5E5E5">jadi sebelum berbicara tentang etika </font>
+
+4
+00:00:07,230 --> 00:00:09,599
+ peretasan dulu mari kita bahas <font color="#CCCCCC">apa itu </font>
+
+5
+00:00:09,599 --> 00:00:12,330
+ peretasan jadi peretasan sebenarnya adalah tindakan 
+
+6
+00:00:12,330 --> 00:00:14,940
+ menemukan <font color="#E5E5E5">kemungkinan </font><font color="#CCCCCC">titik </font><font color="#E5E5E5">masuk </font><font color="#CCCCCC">atau untuk </font>
+
+7
+00:00:14,940 --> 00:00:17,220
+ menemukan <font color="#E5E5E5">kelemahan kerentanan dalam </font>
+
+8
+00:00:17,220 --> 00:00:19,529
+ sistem tertentu <font color="#E5E5E5">atau perangkat jaringan atau </font>
+
+9
+00:00:19,529 --> 00:00:21,420
+ <font color="#CCCCCC">perangkat </font><font color="#E5E5E5">jaringan </font><font color="#CCCCCC">atau jaringan </font><font color="#E5E5E5">sehingga </font>
+
+10
+00:00:21,420 --> 00:00:23,699
+ <font color="#E5E5E5">seorang hacker bisa masuk ke sistem itu </font>
+
+11
+00:00:23,699 --> 00:00:25,740
+ <font color="#CCCCCC">melalui kerentanan baru itu </font><font color="#E5E5E5">atau </font>
+
+12
+00:00:25,740 --> 00:00:28,080
+ titik masuk <font color="#E5E5E5">jadi peretasan biasanya dilakukan </font>
+
+13
+00:00:28,080 --> 00:00:30,570
+ <font color="#CCCCCC">untuk mendapatkan dan akses yang tidak sah </font>
+
+14
+00:00:30,570 --> 00:00:32,790
+ <font color="#CCCCCC">dari </font><font color="#E5E5E5">sistem komputer tertentu </font>
+
+15
+00:00:32,790 --> 00:00:34,500
+ niat di balik peretasan akan 
+
+16
+00:00:34,500 --> 00:00:36,329
+ berbeda seperti yang diinginkan beberapa peretas 
+
+17
+00:00:36,329 --> 00:00:38,190
+ hack sistem tertentu <font color="#E5E5E5">untuk </font>
+
+18
+00:00:38,190 --> 00:00:40,290
+ mencuri beberapa informasi sensitif <font color="#CCCCCC">sehingga </font>
+
+19
+00:00:40,290 --> 00:00:43,590
+ sedangkan peretas lain <font color="#E5E5E5">biasanya menginginkannya </font>
+
+20
+00:00:43,590 --> 00:00:45,780
+ untuk <font color="#E5E5E5">meretas sistem untuk menghancurkan atau </font>
+
+21
+00:00:45,780 --> 00:00:48,300
+ membahayakan <font color="#CCCCCC">organisasi tertentu </font><font color="#E5E5E5">jadi sekarang </font>
+
+22
+00:00:48,300 --> 00:00:50,010
+ kita tahu bahwa <font color="#E5E5E5">apa yang meretas sekarang </font><font color="#CCCCCC">mari kita </font>
+
+23
+00:00:50,010 --> 00:00:52,440
+ diskusikan <font color="#CCCCCC">peretasan </font><font color="#E5E5E5">etika yang sangat etis </font>
+
+24
+00:00:52,440 --> 00:00:54,180
+ meretas <font color="#E5E5E5">istilah peretasan etis adalah </font>
+
+25
+00:00:54,180 --> 00:00:56,730
+ benar-benar digunakan <font color="#CCCCCC">untuk </font><font color="#E5E5E5">melakukan hacking untuk </font>
+
+26
+00:00:56,730 --> 00:00:58,980
+ <font color="#E5E5E5">cara hukum atau untuk tujuan yang baik </font><font color="#CCCCCC">sehingga </font>
+
+27
+00:00:58,980 --> 00:01:00,600
+ <font color="#CCCCCC">orang yang melakukan peretasan etis </font>
+
+28
+00:01:00,600 --> 00:01:03,090
+ disebut sebagai peretas etis <font color="#E5E5E5">sehingga pekerjaan </font>
+
+29
+00:01:03,090 --> 00:01:05,010
+ tanggung jawab <font color="#E5E5E5">atau fungsi </font>
+
+30
+00:01:05,010 --> 00:01:07,380
+ peretas etis adalah melakukan penetrasi 
+
+31
+00:01:07,380 --> 00:01:09,479
+ pengujian menemukan <font color="#CCCCCC">kerentanan di mereka </font>
+
+32
+00:01:09,479 --> 00:01:11,790
+ organisasi perusahaan sendiri <font color="#CCCCCC">untuk </font>
+
+33
+00:01:11,790 --> 00:01:14,340
+ melindungi data perusahaan <font color="#CCCCCC">mereka </font><font color="#E5E5E5">sehingga </font><font color="#CCCCCC">mereka </font>
+
+34
+00:01:14,340 --> 00:01:16,680
+ <font color="#E5E5E5">tanggung jawab pekerjaan adalah sebagai berikut </font>
+
+35
+00:01:16,680 --> 00:01:18,390
+ sebenarnya <font color="#CCCCCC">tujuan utama mereka adalah </font>
+
+36
+00:01:18,390 --> 00:01:20,430
+ melindungi <font color="#E5E5E5">sistem organisasi mereka </font>
+
+37
+00:01:20,430 --> 00:01:22,170
+ <font color="#CCCCCC">melindungi </font><font color="#E5E5E5">data mereka </font><font color="#CCCCCC">untuk menghilangkannya </font>
+
+38
+00:01:22,170 --> 00:01:24,299
+ potensi ancaman <font color="#E5E5E5">peretas etik tidak </font>
+
+39
+00:01:24,299 --> 00:01:27,119
+ <font color="#E5E5E5">melakukan peretasan </font><font color="#CCCCCC">agar bisa </font>
+
+40
+00:01:27,119 --> 00:01:29,909
+ merugikan bagi suatu organisasi tertentu <font color="#E5E5E5">sehingga </font>
+
+41
+00:01:29,909 --> 00:01:31,380
+ sekarang kita tahu bahwa peretasan adalah dua 
+
+42
+00:01:31,380 --> 00:01:31,799
+ <font color="#CCCCCC">jenis </font>
+
+43
+00:01:31,799 --> 00:01:33,750
+ jadi sekarang <font color="#CCCCCC">mari kita bahas tentang </font><font color="#E5E5E5">itu apa </font>
+
+44
+00:01:33,750 --> 00:01:36,900
+ <font color="#E5E5E5">jenis-jenis peretas jadi ada tiga </font>
+
+45
+00:01:36,900 --> 00:01:38,189
+ <font color="#E5E5E5">jenis peretas yang paling banyak </font>
+
+46
+00:01:38,189 --> 00:01:40,740
+ populer disebut sebagai hacker topi hitam 
+
+47
+00:01:40,740 --> 00:01:43,380
+ peretas topi putih <font color="#E5E5E5">dan peretas topi abu-abu </font>
+
+48
+00:01:43,380 --> 00:01:45,299
+ <font color="#CCCCCC">jadi seperti namanya </font><font color="#E5E5E5">topi hitam </font>
+
+49
+00:01:45,299 --> 00:01:47,579
+ peretas sangat black hat hackers sangat 
+
+50
+00:01:47,579 --> 00:01:49,350
+ peretas berbahaya <font color="#CCCCCC">karena tidak </font>
+
+51
+00:01:49,350 --> 00:01:51,600
+ terkait <font color="#E5E5E5">dengan </font><font color="#CCCCCC">jenis perusahaan </font><font color="#E5E5E5">apa pun </font><font color="#CCCCCC">mereka </font>
+
+52
+00:01:51,600 --> 00:01:53,189
+ <font color="#E5E5E5">sebenarnya melakukan peretasan agar merugikan </font>
+
+53
+00:01:53,189 --> 00:01:56,460
+ <font color="#CCCCCC">orang atau </font><font color="#E5E5E5">organisasi dan juga Anda </font>
+
+54
+00:01:56,460 --> 00:01:58,110
+ peretasan untuk mencuri beberapa sensitif 
+
+55
+00:01:58,110 --> 00:02:00,750
+ informasi <font color="#CCCCCC">sedangkan </font><font color="#E5E5E5">topi </font><font color="#CCCCCC">putih </font>
+
+56
+00:02:00,750 --> 00:02:01,979
+ <font color="#E5E5E5">peretas dikaitkan dengan </font>
+
+57
+00:02:01,979 --> 00:02:03,780
+ <font color="#CCCCCC">organisasi tertentu dan mereka selalu </font>
+
+58
+00:02:03,780 --> 00:02:05,640
+ <font color="#E5E5E5">melakukan peretasan untuk melindungi mereka </font>
+
+59
+00:02:05,640 --> 00:02:08,280
+ data perusahaan dari peretas lain 
+
+60
+00:02:08,280 --> 00:02:10,560
+ <font color="#E5E5E5">sedangkan </font><font color="#CCCCCC">hacker topi abu </font><font color="#E5E5E5">- </font><font color="#CCCCCC">abu </font>
+
+61
+00:02:10,560 --> 00:02:13,680
+ sebenarnya kombinasi dari <font color="#E5E5E5">penyerang hitam </font>
+
+62
+00:02:13,680 --> 00:02:15,870
+ Whitehead terjadi <font color="#E5E5E5">jadi kadang-kadang berwarna abu-abu </font>
+
+63
+00:02:15,870 --> 00:02:17,160
+ penyerang berhubungan <font color="#E5E5E5">dengan </font>
+
+64
+00:02:17,160 --> 00:02:19,080
+ <font color="#CCCCCC">perusahaan tertentu </font><font color="#E5E5E5">dan mereka melakukan peretasan </font>
+
+65
+00:02:19,080 --> 00:02:21,810
+ untuk <font color="#CCCCCC">cara yang baik tetapi dari sisi </font><font color="#E5E5E5">mereka </font>
+
+66
+00:02:21,810 --> 00:02:24,990
+ juga melakukan peretasan untuk tujuan ilegal apa pun 
+
+67
+00:02:24,990 --> 00:02:27,390
+ <font color="#CCCCCC">jadi itu sebabnya mereka </font><font color="#E5E5E5">disebut </font><font color="#CCCCCC">abu </font><font color="#E5E5E5">- </font><font color="#CCCCCC">abu </font>
+
+68
+00:02:27,390 --> 00:02:29,040
+ <font color="#E5E5E5">penyerang jadi dalam video ini yang kita miliki </font>
+
+69
+00:02:29,040 --> 00:02:30,900
+ ditutupi <font color="#E5E5E5">bahwa apa yang meretas apa itu </font>
+
+70
+00:02:30,900 --> 00:02:33,240
+ etika hacking dan jenis hacker <font color="#E5E5E5">sehingga </font>
+
+71
+00:02:33,240 --> 00:00:00,000
+ terima kasih <font color="#E5E5E5">telah menonton </font><font color="#CCCCCC">video ini </font>
+

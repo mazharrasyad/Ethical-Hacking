@@ -1,0 +1,284 @@
+1
+00:00:00,089 --> 00:00:02,310
+hello everyone in<font color="#E5E5E5"> this video I</font><font color="#CCCCCC"> will</font><font color="#E5E5E5"> give</font>
+
+2
+00:00:02,310 --> 00:00:05,069
+you and short introduction of ethical
+
+3
+00:00:05,069 --> 00:00:07,230
+hacking<font color="#E5E5E5"> so before talking about ethical</font>
+
+4
+00:00:07,230 --> 00:00:09,599
+hacking first let's discuss<font color="#CCCCCC"> that what is</font>
+
+5
+00:00:09,599 --> 00:00:12,330
+hacking so hacking is actually an act of
+
+6
+00:00:12,330 --> 00:00:14,940
+finding<font color="#E5E5E5"> a possible entry</font><font color="#CCCCCC"> points or for</font>
+
+7
+00:00:14,940 --> 00:00:17,220
+finding a vulnerabilities<font color="#E5E5E5"> flaws in a</font>
+
+8
+00:00:17,220 --> 00:00:19,529
+particular system<font color="#E5E5E5"> or a network device or</font>
+
+9
+00:00:19,529 --> 00:00:21,420
+a<font color="#E5E5E5"> networking</font><font color="#CCCCCC"> device or a network</font><font color="#E5E5E5"> so that</font>
+
+10
+00:00:21,420 --> 00:00:23,699
+<font color="#E5E5E5">a hacker can get into that system</font>
+
+11
+00:00:23,699 --> 00:00:25,740
+<font color="#CCCCCC">through that new vulnerabilities</font><font color="#E5E5E5"> or</font>
+
+12
+00:00:25,740 --> 00:00:28,080
+entry points<font color="#E5E5E5"> so hacking is usually done</font>
+
+13
+00:00:28,080 --> 00:00:30,570
+in<font color="#CCCCCC"> order to gain and unauthorized access</font>
+
+14
+00:00:30,570 --> 00:00:32,790
+<font color="#CCCCCC">of a</font><font color="#E5E5E5"> particular computer system so</font>
+
+15
+00:00:32,790 --> 00:00:34,500
+intentions behind hacking would be
+
+16
+00:00:34,500 --> 00:00:36,329
+different like some hackers wants to
+
+17
+00:00:36,329 --> 00:00:38,190
+hack a particular system<font color="#CCCCCC"> in</font><font color="#E5E5E5"> order to</font>
+
+18
+00:00:38,190 --> 00:00:40,290
+steal some sensitive information<font color="#CCCCCC"> so</font>
+
+19
+00:00:40,290 --> 00:00:43,590
+whereas another hackers may<font color="#E5E5E5"> usually want</font>
+
+20
+00:00:43,590 --> 00:00:45,780
+to<font color="#E5E5E5"> hack a system in order to destroy or</font>
+
+21
+00:00:45,780 --> 00:00:48,300
+a harm<font color="#CCCCCC"> a particular organization</font><font color="#E5E5E5"> so now</font>
+
+22
+00:00:48,300 --> 00:00:50,010
+we know that<font color="#E5E5E5"> what is hacking now</font><font color="#CCCCCC"> let's</font>
+
+23
+00:00:50,010 --> 00:00:52,440
+discuss<font color="#CCCCCC"> about ethical hacking</font><font color="#E5E5E5"> so ethical</font>
+
+24
+00:00:52,440 --> 00:00:54,180
+hacking<font color="#E5E5E5"> the term ethical hacking is</font>
+
+25
+00:00:54,180 --> 00:00:56,730
+actually used in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to do hacking for</font>
+
+26
+00:00:56,730 --> 00:00:58,980
+<font color="#E5E5E5">a legal way or for a good purpose</font><font color="#CCCCCC"> so the</font>
+
+27
+00:00:58,980 --> 00:01:00,600
+<font color="#CCCCCC">person's who performs ethical hacking</font>
+
+28
+00:01:00,600 --> 00:01:03,090
+are called as ethical hackers<font color="#E5E5E5"> so the job</font>
+
+29
+00:01:03,090 --> 00:01:05,010
+responsibilities<font color="#E5E5E5"> or the functions of</font>
+
+30
+00:01:05,010 --> 00:01:07,380
+ethical hacker is to perform penetration
+
+31
+00:01:07,380 --> 00:01:09,479
+testing finding<font color="#CCCCCC"> vulnerabilities in their</font>
+
+32
+00:01:09,479 --> 00:01:11,790
+own company's organization<font color="#CCCCCC"> in order to</font>
+
+33
+00:01:11,790 --> 00:01:14,340
+protect their company's data<font color="#E5E5E5"> so</font><font color="#CCCCCC"> their</font>
+
+34
+00:01:14,340 --> 00:01:16,680
+<font color="#E5E5E5">job responsibilities are as follows so</font>
+
+35
+00:01:16,680 --> 00:01:18,390
+they actually<font color="#CCCCCC"> their main goal is to</font>
+
+36
+00:01:18,390 --> 00:01:20,430
+protect<font color="#E5E5E5"> systems of their organization to</font>
+
+37
+00:01:20,430 --> 00:01:22,170
+<font color="#CCCCCC">protect</font><font color="#E5E5E5"> their data</font><font color="#CCCCCC"> to eliminate any</font>
+
+38
+00:01:22,170 --> 00:01:24,299
+potential threat<font color="#E5E5E5"> the ethical hackers not</font>
+
+39
+00:01:24,299 --> 00:01:27,119
+<font color="#E5E5E5">perform hacking in order to in</font><font color="#CCCCCC"> order to</font>
+
+40
+00:01:27,119 --> 00:01:29,909
+do harm for a particular organization<font color="#E5E5E5"> so</font>
+
+41
+00:01:29,909 --> 00:01:31,380
+now we know that the hacking is of two
+
+42
+00:01:31,380 --> 00:01:31,799
+<font color="#CCCCCC">types</font>
+
+43
+00:01:31,799 --> 00:01:33,750
+so now<font color="#CCCCCC"> let's discuss about</font><font color="#E5E5E5"> that what are</font>
+
+44
+00:01:33,750 --> 00:01:36,900
+<font color="#E5E5E5">the types of hackers so there are three</font>
+
+45
+00:01:36,900 --> 00:01:38,189
+<font color="#E5E5E5">types of hackers which are most</font>
+
+46
+00:01:38,189 --> 00:01:40,740
+popularly called as black hat hackers
+
+47
+00:01:40,740 --> 00:01:43,380
+white hat hackers<font color="#E5E5E5"> and grey hat hackers</font>
+
+48
+00:01:43,380 --> 00:01:45,299
+<font color="#CCCCCC">so as the name suggests</font><font color="#E5E5E5"> black hat</font>
+
+49
+00:01:45,299 --> 00:01:47,579
+hackers so black hat hackers are very
+
+50
+00:01:47,579 --> 00:01:49,350
+dangerous hackers<font color="#CCCCCC"> because they are not</font>
+
+51
+00:01:49,350 --> 00:01:51,600
+associated<font color="#E5E5E5"> with any</font><font color="#CCCCCC"> kind of company they</font>
+
+52
+00:01:51,600 --> 00:01:53,189
+<font color="#E5E5E5">actually do hacking in order to harm</font>
+
+53
+00:01:53,189 --> 00:01:56,460
+<font color="#CCCCCC">peoples or</font><font color="#E5E5E5"> organization and also you do</font>
+
+54
+00:01:56,460 --> 00:01:58,110
+hacking in order to steal some sensitive
+
+55
+00:01:58,110 --> 00:02:00,750
+information<font color="#CCCCCC"> whereas the white</font><font color="#E5E5E5"> hat</font>
+
+56
+00:02:00,750 --> 00:02:01,979
+<font color="#E5E5E5">hackers are associated with the</font>
+
+57
+00:02:01,979 --> 00:02:03,780
+<font color="#CCCCCC">particular organization and they always</font>
+
+58
+00:02:03,780 --> 00:02:05,640
+<font color="#E5E5E5">do hacking in order to protect their</font>
+
+59
+00:02:05,640 --> 00:02:08,280
+company's data from another hackers
+
+60
+00:02:08,280 --> 00:02:10,560
+<font color="#E5E5E5">whereas the</font><font color="#CCCCCC"> grey hat hackers are</font>
+
+61
+00:02:10,560 --> 00:02:13,680
+actually combination of black<font color="#E5E5E5"> attackers</font>
+
+62
+00:02:13,680 --> 00:02:15,870
+Whitehead occurs<font color="#E5E5E5"> so sometimes gray</font>
+
+63
+00:02:15,870 --> 00:02:17,160
+attackers are associated with<font color="#E5E5E5"> the</font>
+
+64
+00:02:17,160 --> 00:02:19,080
+<font color="#CCCCCC">particular company</font><font color="#E5E5E5"> and they do hacking</font>
+
+65
+00:02:19,080 --> 00:02:21,810
+for<font color="#CCCCCC"> a good way but side-by-side</font><font color="#E5E5E5"> they</font>
+
+66
+00:02:21,810 --> 00:02:24,990
+also do hacking for any illegal purposes
+
+67
+00:02:24,990 --> 00:02:27,390
+<font color="#CCCCCC">so that's why they are</font><font color="#E5E5E5"> called as</font><font color="#CCCCCC"> gray</font>
+
+68
+00:02:27,390 --> 00:02:29,040
+<font color="#E5E5E5">attackers so in this video we have</font>
+
+69
+00:02:29,040 --> 00:02:30,900
+covered<font color="#E5E5E5"> that what is hacking what is</font>
+
+70
+00:02:30,900 --> 00:02:33,240
+ethical hacking and types of hackers<font color="#E5E5E5"> so</font>
+
+71
+00:02:33,240 --> 00:00:00,000
+thanks<font color="#E5E5E5"> for watching</font><font color="#CCCCCC"> this video</font>
+

@@ -1,0 +1,1096 @@
+1
+00:00:00,060 --> 00:00:02,220
+hello everyone in<font color="#CCCCCC"> this video we'll talk</font>
+
+2
+00:00:02,220 --> 00:00:04,319
+about<font color="#E5E5E5"> very important concept</font><font color="#CCCCCC"> called as</font>
+
+3
+00:00:04,319 --> 00:00:07,859
+<font color="#E5E5E5">IDs and IPS system so idea stands for</font>
+
+4
+00:00:07,859 --> 00:00:10,110
+<font color="#E5E5E5">intrusion detection system whereas</font><font color="#CCCCCC"> IP</font>
+
+5
+00:00:10,110 --> 00:00:12,269
+<font color="#E5E5E5">stands for intrusion prevention system</font>
+
+6
+00:00:12,269 --> 00:00:15,179
+so these both systems works together<font color="#E5E5E5"> in</font>
+
+7
+00:00:15,179 --> 00:00:17,730
+order<font color="#E5E5E5"> to detect intruder activity on our</font>
+
+8
+00:00:17,730 --> 00:00:19,770
+network<font color="#E5E5E5"> and once they found intruder</font>
+
+9
+00:00:19,770 --> 00:00:21,539
+activity<font color="#E5E5E5"> then they take appropriate</font>
+
+10
+00:00:21,539 --> 00:00:24,390
+steps<font color="#E5E5E5"> in order to stop that activity so</font>
+
+11
+00:00:24,390 --> 00:00:26,580
+<font color="#E5E5E5">here you can see that here is our local</font>
+
+12
+00:00:26,580 --> 00:00:28,710
+area network<font color="#E5E5E5"> here is our idea system</font>
+
+13
+00:00:28,710 --> 00:00:31,170
+here is our firewall router and<font color="#CCCCCC"> internet</font>
+
+14
+00:00:31,170 --> 00:00:33,180
+<font color="#E5E5E5">so any</font><font color="#CCCCCC"> request for internet which is</font>
+
+15
+00:00:33,180 --> 00:00:35,370
+going<font color="#CCCCCC"> into our</font><font color="#E5E5E5"> local area network will</font>
+
+16
+00:00:35,370 --> 00:00:37,829
+<font color="#E5E5E5">have to pass from</font><font color="#CCCCCC"> IDs and any requests</font>
+
+17
+00:00:37,829 --> 00:00:40,050
+which will go<font color="#CCCCCC"> out</font><font color="#E5E5E5"> from our local area</font>
+
+18
+00:00:40,050 --> 00:00:43,079
+network have to be pass from<font color="#E5E5E5"> IDs so</font><font color="#CCCCCC"> into</font>
+
+19
+00:00:43,079 --> 00:00:44,640
+gene detection system and<font color="#CCCCCC"> intrusion</font>
+
+20
+00:00:44,640 --> 00:00:46,680
+<font color="#CCCCCC">prevention system are can either be a</font>
+
+21
+00:00:46,680 --> 00:00:48,930
+hardware or a combination<font color="#E5E5E5"> of both</font><font color="#CCCCCC"> or</font>
+
+22
+00:00:48,930 --> 00:00:50,280
+combination<font color="#CCCCCC"> of hardware</font><font color="#E5E5E5"> and software</font>
+
+23
+00:00:50,280 --> 00:00:52,890
+<font color="#E5E5E5">which we can deploy</font><font color="#CCCCCC"> on our network and</font>
+
+24
+00:00:52,890 --> 00:00:54,930
+the web application in order<font color="#CCCCCC"> to detect</font>
+
+25
+00:00:54,930 --> 00:00:57,420
+intruder activity so depending<font color="#E5E5E5"> upon</font>
+
+26
+00:00:57,420 --> 00:00:59,730
+their capabilities that how complex they
+
+27
+00:00:59,730 --> 00:01:01,710
+are<font color="#E5E5E5"> they use different techniques in</font>
+
+28
+00:01:01,710 --> 00:01:04,049
+order<font color="#E5E5E5"> to scan intruder activities on</font><font color="#CCCCCC"> our</font>
+
+29
+00:01:04,049 --> 00:01:05,729
+network<font color="#CCCCCC"> so some of their techniques</font>
+
+30
+00:01:05,729 --> 00:01:08,010
+<font color="#E5E5E5">which they use are signatures so they</font>
+
+31
+00:01:08,010 --> 00:01:10,320
+match the<font color="#E5E5E5"> signature of malicious packets</font>
+
+32
+00:01:10,320 --> 00:01:12,810
+<font color="#E5E5E5">with the original one and some of them</font>
+
+33
+00:01:12,810 --> 00:01:14,880
+may use anomaly based<font color="#E5E5E5"> techniques in</font>
+
+34
+00:01:14,880 --> 00:01:16,770
+order<font color="#CCCCCC"> to detect intruder activity and</font>
+
+35
+00:01:16,770 --> 00:01:18,600
+intrusion<font color="#CCCCCC"> detection systems are</font>
+
+36
+00:01:18,600 --> 00:01:20,939
+<font color="#E5E5E5">different</font><font color="#CCCCCC"> types depending upon on which</font>
+
+37
+00:01:20,939 --> 00:01:22,950
+<font color="#CCCCCC">platform we want to</font><font color="#E5E5E5"> deploy so some of</font>
+
+38
+00:01:22,950 --> 00:01:25,710
+<font color="#E5E5E5">the examples are n IDs</font><font color="#CCCCCC"> so an</font><font color="#E5E5E5"> ID a stands</font>
+
+39
+00:01:25,710 --> 00:01:27,570
+<font color="#E5E5E5">for network intrusion detection systems</font>
+
+40
+00:01:27,570 --> 00:01:29,549
+which<font color="#E5E5E5"> are deployed on a network in order</font>
+
+41
+00:01:29,549 --> 00:01:31,710
+<font color="#E5E5E5">to scan intruder activity or hackers</font>
+
+42
+00:01:31,710 --> 00:01:34,799
+activity on a<font color="#E5E5E5"> network whereas HID stands</font>
+
+43
+00:01:34,799 --> 00:01:36,840
+for host intrusion detection system
+
+44
+00:01:36,840 --> 00:01:38,670
+<font color="#E5E5E5">which are deployed on a particular host</font>
+
+45
+00:01:38,670 --> 00:01:41,220
+<font color="#CCCCCC">in</font><font color="#E5E5E5"> order to scan intruder activity on</font>
+
+46
+00:01:41,220 --> 00:01:43,649
+<font color="#CCCCCC">that host</font><font color="#E5E5E5"> whereas some of intrusion</font>
+
+47
+00:01:43,649 --> 00:01:45,450
+detection systems are also deployed<font color="#E5E5E5"> on</font>
+
+48
+00:01:45,450 --> 00:01:48,119
+web application in<font color="#E5E5E5"> order to scan or</font>
+
+49
+00:01:48,119 --> 00:01:51,390
+detect hackers activity on<font color="#CCCCCC"> that web</font>
+
+50
+00:01:51,390 --> 00:01:53,579
+<font color="#CCCCCC">application</font><font color="#E5E5E5"> so there is one open source</font>
+
+51
+00:01:53,579 --> 00:01:55,590
+<font color="#CCCCCC">an IDs network</font><font color="#E5E5E5"> into injection system</font>
+
+52
+00:01:55,590 --> 00:01:58,770
+called as snot<font color="#E5E5E5"> so we will use not in</font>
+
+53
+00:01:58,770 --> 00:02:01,110
+this<font color="#E5E5E5"> video to see that how we can</font><font color="#CCCCCC"> deploy</font>
+
+54
+00:02:01,110 --> 00:02:03,750
+<font color="#E5E5E5">an IDs on our network and</font><font color="#CCCCCC"> we can detect</font>
+
+55
+00:02:03,750 --> 00:02:06,119
+intruder activities so<font color="#CCCCCC"> you</font><font color="#E5E5E5"> can see here</font>
+
+56
+00:02:06,119 --> 00:02:08,098
+<font color="#CCCCCC">that snot is an open source</font><font color="#E5E5E5"> network</font><font color="#CCCCCC"> into</font>
+
+57
+00:02:08,098 --> 00:02:09,750
+<font color="#CCCCCC">an induction system</font><font color="#E5E5E5"> and it's available</font>
+
+58
+00:02:09,750 --> 00:02:11,970
+<font color="#E5E5E5">for Linux and Windows and you can</font>
+
+59
+00:02:11,970 --> 00:02:13,200
+<font color="#E5E5E5">download snot</font>
+
+60
+00:02:13,200 --> 00:02:15,030
+here from<font color="#E5E5E5"> the official</font><font color="#CCCCCC"> website that is</font>
+
+61
+00:02:15,030 --> 00:02:16,920
+<font color="#E5E5E5">not</font><font color="#CCCCCC"> dot</font><font color="#E5E5E5"> all right now let's see how we</font>
+
+62
+00:02:16,920 --> 00:02:20,069
+can<font color="#CCCCCC"> deploy</font><font color="#E5E5E5"> it's not now let's deploy and</font>
+
+63
+00:02:20,069 --> 00:02:22,830
+<font color="#E5E5E5">configure snot on our network well we</font>
+
+64
+00:02:22,830 --> 00:02:24,840
+can download snot from here<font color="#E5E5E5"> from their</font>
+
+65
+00:02:24,840 --> 00:02:25,739
+official<font color="#CCCCCC"> website</font>
+
+66
+00:02:25,739 --> 00:02:28,349
+snot dot dot and here you can see that
+
+67
+00:02:28,349 --> 00:02:32,040
+<font color="#E5E5E5">right</font><font color="#CCCCCC"> now I am on snot Ark</font><font color="#E5E5E5"> so let me go</font>
+
+68
+00:02:32,040 --> 00:02:35,280
+here<font color="#CCCCCC"> to down notes so you can deploy</font>
+
+69
+00:02:35,280 --> 00:02:37,500
+snot on any<font color="#E5E5E5"> operating system</font><font color="#CCCCCC"> like you</font>
+
+70
+00:02:37,500 --> 00:02:39,360
+want to deploy snot on your<font color="#CCCCCC"> windows you</font>
+
+71
+00:02:39,360 --> 00:02:40,680
+can<font color="#E5E5E5"> even deploy it's not on</font><font color="#CCCCCC"> cent</font>
+
+72
+00:02:40,680 --> 00:02:43,110
+<font color="#E5E5E5">operating system on your server and here</font>
+
+73
+00:02:43,110 --> 00:02:45,060
+you can see the binaries of snot
+
+74
+00:02:45,060 --> 00:02:47,310
+so these minor<font color="#CCCCCC"> E's are available for</font>
+
+75
+00:02:47,310 --> 00:02:49,080
+different<font color="#E5E5E5"> operating systems like the RPM</font>
+
+76
+00:02:49,080 --> 00:02:51,989
+<font color="#CCCCCC">package for Red Hat</font><font color="#E5E5E5"> 7 and then send to</font>
+
+77
+00:02:51,989 --> 00:02:54,690
+<font color="#E5E5E5">us but what the time being I'll deploy</font>
+
+78
+00:02:54,690 --> 00:02:57,000
+<font color="#E5E5E5">the snot on Windows operating system so</font>
+
+79
+00:02:57,000 --> 00:02:59,400
+let<font color="#E5E5E5"> me just click over</font><font color="#CCCCCC"> here so snot here</font>
+
+80
+00:02:59,400 --> 00:03:01,079
+you can see the binaries of<font color="#CCCCCC"> a</font><font color="#E5E5E5"> Windows</font>
+
+81
+00:03:01,079 --> 00:03:03,720
+installer dot exe<font color="#E5E5E5"> so let me click over</font>
+
+82
+00:03:03,720 --> 00:03:07,769
+<font color="#E5E5E5">here and download the snot dot exe so</font>
+
+83
+00:03:07,769 --> 00:03:11,430
+let me click<font color="#E5E5E5"> on save file so I'm using</font>
+
+84
+00:03:11,430 --> 00:03:14,250
+Windows<font color="#CCCCCC"> 7 as my virtual machine in order</font>
+
+85
+00:03:14,250 --> 00:03:17,340
+to<font color="#E5E5E5"> deploy snot so I have</font><font color="#CCCCCC"> already</font>
+
+86
+00:03:17,340 --> 00:03:19,470
+<font color="#E5E5E5">downloaded snot dot exe so you can see</font>
+
+87
+00:03:19,470 --> 00:03:22,049
+here the snot<font color="#CCCCCC"> Installer</font><font color="#E5E5E5"> so let me</font>
+
+88
+00:03:22,049 --> 00:03:25,049
+install snot on my<font color="#E5E5E5"> Windows 7</font><font color="#CCCCCC"> operating</font>
+
+89
+00:03:25,049 --> 00:03:31,560
+system so here you can see<font color="#E5E5E5"> that the snot</font>
+
+90
+00:03:31,560 --> 00:03:33,450
+installation<font color="#E5E5E5"> setup is completed click on</font>
+
+91
+00:03:33,450 --> 00:03:35,819
+close and the additional thing we have
+
+92
+00:03:35,819 --> 00:03:38,160
+to do is we have also<font color="#E5E5E5"> have to install</font>
+
+93
+00:03:38,160 --> 00:03:40,620
+wind<font color="#CCCCCC"> pcap so which you</font><font color="#E5E5E5"> can download it</font>
+
+94
+00:03:40,620 --> 00:03:43,170
+from<font color="#CCCCCC"> here from wind pcap</font><font color="#E5E5E5"> dark and</font><font color="#CCCCCC"> i have</font>
+
+95
+00:03:43,170 --> 00:03:44,940
+already<font color="#E5E5E5"> downloaded wind</font><font color="#CCCCCC"> pcap installer</font>
+
+96
+00:03:44,940 --> 00:03:46,980
+here you can see here so let<font color="#E5E5E5"> me install</font>
+
+97
+00:03:46,980 --> 00:03:53,910
+wind pcap also so<font color="#E5E5E5"> in peak app is</font>
+
+98
+00:03:53,910 --> 00:03:56,670
+actually<font color="#CCCCCC"> a contains</font><font color="#E5E5E5"> network drivers</font>
+
+99
+00:03:56,670 --> 00:03:58,980
+which<font color="#E5E5E5"> snot will use in order to</font><font color="#CCCCCC"> capture</font>
+
+100
+00:03:58,980 --> 00:04:01,980
+and sniff<font color="#E5E5E5"> network packets so here you</font>
+
+101
+00:04:01,980 --> 00:04:03,959
+<font color="#CCCCCC">can see that I have installed</font><font color="#E5E5E5"> snot and</font>
+
+102
+00:04:03,959 --> 00:04:04,560
+winpcap
+
+103
+00:04:04,560 --> 00:04:07,530
+so let me go to<font color="#CCCCCC"> local drive see where</font>
+
+104
+00:04:07,530 --> 00:04:10,440
+snot is installed<font color="#E5E5E5"> and here you will see</font>
+
+105
+00:04:10,440 --> 00:04:12,299
+<font color="#CCCCCC">that a directory or a folder named as</font>
+
+106
+00:04:12,299 --> 00:04:15,150
+not is created<font color="#E5E5E5"> so if I open this up you</font>
+
+107
+00:04:15,150 --> 00:04:19,200
+will<font color="#CCCCCC"> see</font><font color="#E5E5E5"> the snot directories well I</font>
+
+108
+00:04:19,200 --> 00:04:21,149
+<font color="#E5E5E5">told you earlier</font><font color="#CCCCCC"> that snot works on</font>
+
+109
+00:04:21,149 --> 00:04:23,340
+different<font color="#E5E5E5"> rules that we can set our</font><font color="#CCCCCC"> own</font>
+
+110
+00:04:23,340 --> 00:04:26,130
+rule<font color="#E5E5E5"> and we can also use predefined</font>
+
+111
+00:04:26,130 --> 00:04:26,850
+rules<font color="#E5E5E5"> in</font>
+
+112
+00:04:26,850 --> 00:04:30,090
+<font color="#CCCCCC">- let the snot to sniff the packet</font><font color="#E5E5E5"> so</font>
+
+113
+00:04:30,090 --> 00:04:31,680
+the next<font color="#E5E5E5"> thing we have to do is we have</font>
+
+114
+00:04:31,680 --> 00:04:34,620
+<font color="#E5E5E5">to download the snot rules so in order</font>
+
+115
+00:04:34,620 --> 00:04:36,210
+<font color="#E5E5E5">to download the snot rules the</font><font color="#CCCCCC"> first</font>
+
+116
+00:04:36,210 --> 00:04:37,410
+thing you<font color="#E5E5E5"> have</font><font color="#CCCCCC"> to do is you have to</font>
+
+117
+00:04:37,410 --> 00:04:41,490
+<font color="#CCCCCC">create an account and then once you</font>
+
+118
+00:04:41,490 --> 00:04:43,860
+create an<font color="#E5E5E5"> account</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> snot website you</font>
+
+119
+00:04:43,860 --> 00:04:48,500
+have<font color="#E5E5E5"> to</font><font color="#CCCCCC"> login so let me just login</font>
+
+120
+00:04:55,559 --> 00:04:58,289
+so once you are<font color="#E5E5E5"> logged in the next thing</font>
+
+121
+00:04:58,289 --> 00:04:59,489
+you have<font color="#CCCCCC"> to do is you have to download</font>
+
+122
+00:04:59,489 --> 00:05:01,589
+the<font color="#E5E5E5"> snot rule so go here to downloads</font>
+
+123
+00:05:01,589 --> 00:05:03,149
+<font color="#E5E5E5">and here you will see one option of</font>
+
+124
+00:05:03,149 --> 00:05:05,069
+rules<font color="#E5E5E5"> so let me click over here</font>
+
+125
+00:05:05,069 --> 00:05:09,719
+<font color="#E5E5E5">and here you will see a snot rules so we</font>
+
+126
+00:05:09,719 --> 00:05:11,579
+have to<font color="#CCCCCC"> download this one</font><font color="#E5E5E5"> snort rule</font>
+
+127
+00:05:11,579 --> 00:05:14,699
+snapshot<font color="#CCCCCC"> and</font><font color="#E5E5E5"> it's the latest one</font><font color="#CCCCCC"> 298</font><font color="#E5E5E5"> 3</font>
+
+128
+00:05:14,699 --> 00:05:17,459
+into 9<font color="#E5E5E5"> 0 tar and it's a tar file</font><font color="#CCCCCC"> so let</font>
+
+129
+00:05:17,459 --> 00:05:18,629
+<font color="#E5E5E5">me download this one two nine eight</font>
+
+130
+00:05:18,629 --> 00:05:20,999
+<font color="#CCCCCC">three tar.gz and I have already</font>
+
+131
+00:05:20,999 --> 00:05:22,679
+<font color="#E5E5E5">downloaded snot rules and which are</font>
+
+132
+00:05:22,679 --> 00:05:24,869
+present on my<font color="#E5E5E5"> virtual</font><font color="#CCCCCC"> machine so you can</font>
+
+133
+00:05:24,869 --> 00:05:27,869
+<font color="#CCCCCC">see here a tar file</font><font color="#E5E5E5"> of snort rules so</font>
+
+134
+00:05:27,869 --> 00:05:30,859
+let me extract it
+
+135
+00:05:38,900 --> 00:05:41,000
+so if you are<font color="#E5E5E5"> deploying snot on</font><font color="#CCCCCC"> your</font>
+
+136
+00:05:41,000 --> 00:05:43,040
+server<font color="#E5E5E5"> then you can follow the same</font>
+
+137
+00:05:43,040 --> 00:05:52,160
+steps as<font color="#E5E5E5"> I'm doing</font><font color="#CCCCCC"> here in</font><font color="#E5E5E5"> my windows so</font>
+
+138
+00:05:52,160 --> 00:05:54,229
+once we got the snot rules<font color="#E5E5E5"> let me open</font>
+
+139
+00:05:54,229 --> 00:05:56,810
+this up and show<font color="#E5E5E5"> you so it contains</font>
+
+140
+00:05:56,810 --> 00:05:58,699
+different<font color="#E5E5E5"> directories</font><font color="#CCCCCC"> the next thing we</font>
+
+141
+00:05:58,699 --> 00:06:00,650
+have to<font color="#CCCCCC"> do is we have to</font><font color="#E5E5E5"> copy these all</font>
+
+142
+00:06:00,650 --> 00:06:03,020
+directories or a folder and we have to
+
+143
+00:06:03,020 --> 00:06:06,800
+paste them inside the snot directory
+
+144
+00:06:06,800 --> 00:06:09,080
+that<font color="#CCCCCC"> is inside local drive sea</font><font color="#E5E5E5"> so here</font>
+
+145
+00:06:09,080 --> 00:06:12,110
+you<font color="#E5E5E5"> can see it's not so let me paste all</font>
+
+146
+00:06:12,110 --> 00:06:21,500
+these folders<font color="#E5E5E5"> and files here</font><font color="#CCCCCC"> and then it</font>
+
+147
+00:06:21,500 --> 00:06:23,360
+asks<font color="#CCCCCC"> us that whether we want to replace</font>
+
+148
+00:06:23,360 --> 00:06:24,590
+<font color="#E5E5E5">some existing one</font>
+
+149
+00:06:24,590 --> 00:06:28,850
+so yes<font color="#E5E5E5"> click</font><font color="#CCCCCC"> over here click on yes so</font>
+
+150
+00:06:28,850 --> 00:06:32,450
+yes copy and<font color="#CCCCCC"> replace everything so here</font>
+
+151
+00:06:32,450 --> 00:06:34,460
+you<font color="#CCCCCC"> can see</font><font color="#E5E5E5"> that our snot is ready to</font>
+
+152
+00:06:34,460 --> 00:06:36,740
+work<font color="#CCCCCC"> the next</font><font color="#E5E5E5"> thing we have</font><font color="#CCCCCC"> to do is we</font>
+
+153
+00:06:36,740 --> 00:06:38,720
+have<font color="#CCCCCC"> to</font><font color="#E5E5E5"> create two files inside</font><font color="#CCCCCC"> the</font>
+
+154
+00:06:38,720 --> 00:06:41,300
+<font color="#CCCCCC">snort directory so let me open</font><font color="#E5E5E5"> notepad</font>
+
+155
+00:06:41,300 --> 00:06:44,330
+<font color="#E5E5E5">so</font><font color="#CCCCCC"> you can use any text</font><font color="#E5E5E5"> editor so we</font>
+
+156
+00:06:44,330 --> 00:06:45,919
+have to<font color="#CCCCCC"> create a two files named as</font>
+
+157
+00:06:45,919 --> 00:06:48,410
+whitelist dot rules and blacklist<font color="#E5E5E5"> rot</font>
+
+158
+00:06:48,410 --> 00:06:51,229
+rules<font color="#E5E5E5"> so snot will configure and the</font>
+
+159
+00:06:51,229 --> 00:06:53,539
+slot will work depending upon our rules
+
+160
+00:06:53,539 --> 00:06:56,630
+which we will provide so I am creating a
+
+161
+00:06:56,630 --> 00:06:59,360
+file named as whitelist dot rules<font color="#E5E5E5"> so we</font>
+
+162
+00:06:59,360 --> 00:07:01,220
+have to save this file<font color="#E5E5E5"> inside snot</font>
+
+163
+00:07:01,220 --> 00:07:04,310
+directory<font color="#E5E5E5"> so click on snot</font><font color="#CCCCCC"> and here is</font>
+
+164
+00:07:04,310 --> 00:07:06,800
+one directory<font color="#E5E5E5"> called as rules so I am</font>
+
+165
+00:07:06,800 --> 00:07:09,110
+<font color="#E5E5E5">just leaving this file empty and I'm</font>
+
+166
+00:07:09,110 --> 00:07:13,870
+renaming it as whitelist dot rules and
+
+167
+00:07:13,870 --> 00:07:16,099
+then we have to create another<font color="#CCCCCC"> file</font>
+
+168
+00:07:16,099 --> 00:07:18,410
+called as blacklist dot rules and we
+
+169
+00:07:18,410 --> 00:07:20,539
+have to save<font color="#CCCCCC"> it</font><font color="#E5E5E5"> inside that same</font>
+
+170
+00:07:20,539 --> 00:07:23,060
+directory<font color="#E5E5E5"> snot rules so</font><font color="#CCCCCC"> that file name</font>
+
+171
+00:07:23,060 --> 00:07:29,330
+is blacklist<font color="#E5E5E5"> dot rules now here you can</font>
+
+172
+00:07:29,330 --> 00:07:30,950
+<font color="#E5E5E5">see that the two files blacklist</font><font color="#CCCCCC"> are</font>
+
+173
+00:07:30,950 --> 00:07:33,380
+rules and whitelist dot rules are
+
+174
+00:07:33,380 --> 00:07:36,200
+created<font color="#CCCCCC"> and I told you earlier that</font><font color="#E5E5E5"> in</font>
+
+175
+00:07:36,200 --> 00:07:37,820
+this short video I'll<font color="#CCCCCC"> just give you a</font>
+
+176
+00:07:37,820 --> 00:07:40,340
+small<font color="#E5E5E5"> overview of snot but in the next</font>
+
+177
+00:07:40,340 --> 00:07:43,130
+video series of snot<font color="#E5E5E5"> I'll show you that</font>
+
+178
+00:07:43,130 --> 00:07:45,800
+<font color="#E5E5E5">how we can set our own custom rules by</font>
+
+179
+00:07:45,800 --> 00:07:47,780
+adding them in these two files<font color="#E5E5E5"> blacklist</font>
+
+180
+00:07:47,780 --> 00:07:49,460
+<font color="#E5E5E5">our rules and whitelist</font><font color="#CCCCCC"> our tools</font>
+
+181
+00:07:49,460 --> 00:07:51,380
+now everything is ready<font color="#E5E5E5"> let me give a</font>
+
+182
+00:07:51,380 --> 00:07:52,430
+small<font color="#E5E5E5"> recap that what</font>
+
+183
+00:07:52,430 --> 00:07:54,440
+have dead<font color="#E5E5E5"> so we have</font><font color="#CCCCCC"> downloaded snot and</font>
+
+184
+00:07:54,440 --> 00:07:56,090
+<font color="#E5E5E5">we have installed the snot</font>
+
+185
+00:07:56,090 --> 00:07:59,420
+with this<font color="#E5E5E5"> wind pcap utility then we have</font>
+
+186
+00:07:59,420 --> 00:08:01,250
+downloaded<font color="#E5E5E5"> snort rules and then we have</font>
+
+187
+00:08:01,250 --> 00:08:03,530
+extracted<font color="#CCCCCC"> the snot rules</font><font color="#E5E5E5"> and we have</font>
+
+188
+00:08:03,530 --> 00:08:05,650
+copied these all files inside the<font color="#E5E5E5"> snot</font>
+
+189
+00:08:05,650 --> 00:08:08,060
+directory<font color="#E5E5E5"> so then we have created two</font>
+
+190
+00:08:08,060 --> 00:08:09,970
+files<font color="#CCCCCC"> that is whitelist</font><font color="#E5E5E5"> or tools and</font>
+
+191
+00:08:09,970 --> 00:08:14,720
+blacklist<font color="#CCCCCC"> our rules</font><font color="#E5E5E5"> now in order</font><font color="#CCCCCC"> to run</font>
+
+192
+00:08:14,720 --> 00:08:16,790
+<font color="#CCCCCC">snort we have to</font><font color="#E5E5E5"> open command prompt and</font>
+
+193
+00:08:16,790 --> 00:08:19,430
+<font color="#E5E5E5">we</font><font color="#CCCCCC"> have to go to</font><font color="#E5E5E5"> local</font><font color="#CCCCCC"> Drive see where</font>
+
+194
+00:08:19,430 --> 00:08:25,750
+snot is installed<font color="#CCCCCC"> so let</font><font color="#E5E5E5"> me go there and</font>
+
+195
+00:08:25,750 --> 00:08:27,980
+here you will<font color="#E5E5E5"> see one directory called</font>
+
+196
+00:08:27,980 --> 00:08:30,980
+as not so<font color="#E5E5E5"> let's go there and then we</font>
+
+197
+00:08:30,980 --> 00:08:33,110
+have to go bin directory which<font color="#CCCCCC"> is</font>
+
+198
+00:08:33,110 --> 00:08:38,419
+present inside snot so here you can see
+
+199
+00:08:38,419 --> 00:08:40,549
+that right now<font color="#CCCCCC"> we are inside</font><font color="#E5E5E5"> snot bin</font>
+
+200
+00:08:40,549 --> 00:08:42,980
+<font color="#E5E5E5">and inside the bin directory there is</font>
+
+201
+00:08:42,980 --> 00:08:46,010
+one file called as<font color="#E5E5E5"> na dot exe so this is</font>
+
+202
+00:08:46,010 --> 00:08:48,050
+the file or the<font color="#E5E5E5"> main executable file of</font>
+
+203
+00:08:48,050 --> 00:08:50,780
+snot which we will use<font color="#E5E5E5"> so the first</font>
+
+204
+00:08:50,780 --> 00:08:53,060
+thing we have to<font color="#E5E5E5"> do is we have to check</font>
+
+205
+00:08:53,060 --> 00:08:55,070
+that<font color="#E5E5E5"> what are the network adapters or</font>
+
+206
+00:08:55,070 --> 00:08:56,540
+network interfaces which are<font color="#E5E5E5"> available</font>
+
+207
+00:08:56,540 --> 00:08:59,720
+<font color="#E5E5E5">in this operating system so we</font><font color="#CCCCCC"> can do so</font>
+
+208
+00:08:59,720 --> 00:09:02,150
+by<font color="#CCCCCC"> writing snort exe and then we have to</font>
+
+209
+00:09:02,150 --> 00:09:05,330
+<font color="#E5E5E5">specify one parameter that is</font><font color="#CCCCCC"> - capital</font>
+
+210
+00:09:05,330 --> 00:09:08,930
+<font color="#E5E5E5">W hit enter and here you will see that</font>
+
+211
+00:09:08,930 --> 00:09:10,670
+it has listed out that there is<font color="#CCCCCC"> one</font>
+
+212
+00:09:10,670 --> 00:09:13,040
+interface or a one network<font color="#E5E5E5"> adapter which</font>
+
+213
+00:09:13,040 --> 00:09:15,230
+<font color="#CCCCCC">is present inside this</font><font color="#E5E5E5"> Windows</font><font color="#CCCCCC"> seven so</font>
+
+214
+00:09:15,230 --> 00:09:16,970
+<font color="#E5E5E5">you can see its index value that it's</font><font color="#CCCCCC"> 1</font>
+
+215
+00:09:16,970 --> 00:09:19,010
+here you<font color="#CCCCCC"> can see the physical address or</font>
+
+216
+00:09:19,010 --> 00:09:20,630
+a MAC address of<font color="#CCCCCC"> that network adapter</font>
+
+217
+00:09:20,630 --> 00:09:22,970
+<font color="#E5E5E5">here you can see the IP address</font><font color="#CCCCCC"> that is</font>
+
+218
+00:09:22,970 --> 00:09:25,310
+ipv6 and then here<font color="#E5E5E5"> you can</font><font color="#CCCCCC"> see the</font>
+
+219
+00:09:25,310 --> 00:09:28,280
+description<font color="#E5E5E5"> and it's in desktop adapter</font>
+
+220
+00:09:28,280 --> 00:09:30,680
+you can<font color="#CCCCCC"> see here so what this adapter</font>
+
+221
+00:09:30,680 --> 00:09:33,050
+means so just for example<font color="#E5E5E5"> in your</font>
+
+222
+00:09:33,050 --> 00:09:34,850
+<font color="#E5E5E5">operating system there are</font><font color="#CCCCCC"> two network</font>
+
+223
+00:09:34,850 --> 00:09:36,320
+adapters means you are also using
+
+224
+00:09:36,320 --> 00:09:40,460
+Ethernet connection and you are<font color="#CCCCCC"> also</font>
+
+225
+00:09:40,460 --> 00:09:42,830
+using wireless adapter<font color="#E5E5E5"> so all the</font><font color="#CCCCCC"> depth</font>
+
+226
+00:09:42,830 --> 00:09:44,300
+<font color="#CCCCCC">s</font><font color="#E5E5E5"> which are present in</font><font color="#CCCCCC"> your system</font><font color="#E5E5E5"> will</font>
+
+227
+00:09:44,300 --> 00:09:46,520
+just<font color="#E5E5E5"> get listed over</font><font color="#CCCCCC"> here</font><font color="#E5E5E5"> so snot will</font>
+
+228
+00:09:46,520 --> 00:09:49,370
+actually work on<font color="#E5E5E5"> a particular adapter</font>
+
+229
+00:09:49,370 --> 00:09:51,260
+<font color="#CCCCCC">whether you want to configure snot</font><font color="#E5E5E5"> on</font>
+
+230
+00:09:51,260 --> 00:09:53,030
+physical adapter whether you want to
+
+231
+00:09:53,030 --> 00:09:55,220
+configure snot on wireless<font color="#E5E5E5"> adapter so</font>
+
+232
+00:09:55,220 --> 00:09:57,800
+you can by<font color="#E5E5E5"> checking the adapter from</font>
+
+233
+00:09:57,800 --> 00:09:59,810
+here then the next thing<font color="#E5E5E5"> we have</font><font color="#CCCCCC"> to do</font>
+
+234
+00:09:59,810 --> 00:10:02,240
+is in order<font color="#CCCCCC"> to snuff snot we just have</font>
+
+235
+00:10:02,240 --> 00:10:06,230
+to write snot or exe then<font color="#CCCCCC"> here</font>
+
+236
+00:10:06,230 --> 00:10:09,050
+<font color="#CCCCCC">by one parameter that is - V</font><font color="#E5E5E5"> and - V's</font>
+
+237
+00:10:09,050 --> 00:10:11,510
+for verbose mode<font color="#E5E5E5"> then here we</font><font color="#CCCCCC"> have to</font>
+
+238
+00:10:11,510 --> 00:10:13,970
+specify the network adapter<font color="#E5E5E5"> on which we</font>
+
+239
+00:10:13,970 --> 00:10:16,730
+<font color="#E5E5E5">want to configure</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> snot so we can do</font>
+
+240
+00:10:16,730 --> 00:10:19,340
+so by<font color="#E5E5E5"> specifying this parameter</font><font color="#CCCCCC"> -</font><font color="#E5E5E5"> I and</font>
+
+241
+00:10:19,340 --> 00:10:21,230
+here we have to<font color="#E5E5E5"> write down the index</font>
+
+242
+00:10:21,230 --> 00:10:23,450
+<font color="#CCCCCC">number of that</font><font color="#E5E5E5"> network adapter so right</font>
+
+243
+00:10:23,450 --> 00:10:25,100
+now there is only<font color="#E5E5E5"> one network adapter</font>
+
+244
+00:10:25,100 --> 00:10:26,720
+which is<font color="#CCCCCC"> listed over here so I am</font><font color="#E5E5E5"> just</font>
+
+245
+00:10:26,720 --> 00:10:28,940
+<font color="#CCCCCC">writing here - I and the index number is</font>
+
+246
+00:10:28,940 --> 00:10:32,000
+<font color="#CCCCCC">1 so hit enter so here you</font><font color="#E5E5E5"> can see that</font>
+
+247
+00:10:32,000 --> 00:10:34,990
+<font color="#E5E5E5">our snot is started and it just started</font>
+
+248
+00:10:34,990 --> 00:10:37,880
+<font color="#E5E5E5">sniffing</font><font color="#CCCCCC"> that packets now in order</font><font color="#E5E5E5"> to</font>
+
+249
+00:10:37,880 --> 00:10:39,710
+verify<font color="#E5E5E5"> what we can do let me open</font>
+
+250
+00:10:39,710 --> 00:10:42,650
+command prompt again<font color="#E5E5E5"> now what</font><font color="#CCCCCC"> I am going</font>
+
+251
+00:10:42,650 --> 00:10:44,870
+<font color="#CCCCCC">to do here</font><font color="#E5E5E5"> is I'll ping the Google comm</font>
+
+252
+00:10:44,870 --> 00:10:47,270
+and you will see that any<font color="#CCCCCC"> internet</font>
+
+253
+00:10:47,270 --> 00:10:48,970
+packet which will come inside<font color="#CCCCCC"> our</font>
+
+254
+00:10:48,970 --> 00:10:52,160
+network<font color="#E5E5E5"> will just get monitored by snot</font>
+
+255
+00:10:52,160 --> 00:10:54,230
+so if I just<font color="#E5E5E5"> write here</font><font color="#CCCCCC"> ping google.com</font>
+
+256
+00:10:54,230 --> 00:10:57,110
+<font color="#E5E5E5">and you will see that the echo reply of</font>
+
+257
+00:10:57,110 --> 00:10:59,750
+google.com will be monitored by snot<font color="#E5E5E5"> so</font>
+
+258
+00:10:59,750 --> 00:11:02,660
+if I just<font color="#E5E5E5"> hit</font><font color="#CCCCCC"> enter</font><font color="#E5E5E5"> and here you will</font>
+
+259
+00:11:02,660 --> 00:11:05,390
+<font color="#E5E5E5">see the</font><font color="#CCCCCC"> Eco</font><font color="#E5E5E5"> reply packets</font><font color="#CCCCCC"> echo then you</font>
+
+260
+00:11:05,390 --> 00:11:07,010
+can reply which means any packets which
+
+261
+00:11:07,010 --> 00:11:09,110
+are<font color="#E5E5E5"> going in and going out from our</font>
+
+262
+00:11:09,110 --> 00:11:12,830
+network<font color="#E5E5E5"> will</font><font color="#CCCCCC"> be monitored by snot</font><font color="#E5E5E5"> so</font>
+
+263
+00:11:12,830 --> 00:11:14,900
+this is how snot works<font color="#E5E5E5"> and in the</font>
+
+264
+00:11:14,900 --> 00:11:16,610
+<font color="#E5E5E5">advanced video series of snot I will</font>
+
+265
+00:11:16,610 --> 00:11:18,050
+show you that how we<font color="#E5E5E5"> can set our own</font>
+
+266
+00:11:18,050 --> 00:11:19,580
+custom rules<font color="#E5E5E5"> in order to block a</font>
+
+267
+00:11:19,580 --> 00:11:22,040
+particular<font color="#CCCCCC"> traffic or a particular port</font>
+
+268
+00:11:22,040 --> 00:11:25,070
+<font color="#E5E5E5">but this was a small overview of snot</font>
+
+269
+00:11:25,070 --> 00:11:29,780
+<font color="#E5E5E5">that</font><font color="#CCCCCC"> how we can deploy snot so in this</font>
+
+270
+00:11:29,780 --> 00:11:31,550
+video<font color="#E5E5E5"> we have discussed that what is not</font>
+
+271
+00:11:31,550 --> 00:11:33,080
+and<font color="#E5E5E5"> what are the different type of idea</font>
+
+272
+00:11:33,080 --> 00:11:35,390
+systems<font color="#E5E5E5"> and then we have seen that how</font>
+
+273
+00:11:35,390 --> 00:11:37,790
+we can<font color="#CCCCCC"> deploy is not on Windows 7 so</font>
+
+274
+00:11:37,790 --> 00:00:00,000
+thanks<font color="#E5E5E5"> for</font><font color="#CCCCCC"> watching this video</font>
+

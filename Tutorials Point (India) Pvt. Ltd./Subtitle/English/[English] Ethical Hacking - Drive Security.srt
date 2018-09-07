@@ -1,0 +1,428 @@
+1
+00:00:00,089 --> 00:00:02,460
+hello everyone<font color="#E5E5E5"> in</font><font color="#CCCCCC"> this video we'll talk</font>
+
+2
+00:00:02,460 --> 00:00:04,589
+about<font color="#E5E5E5"> that how we</font><font color="#CCCCCC"> can secure</font><font color="#E5E5E5"> our</font><font color="#CCCCCC"> Windows</font>
+
+3
+00:00:04,589 --> 00:00:06,779
+data and how<font color="#E5E5E5"> we can secure</font><font color="#CCCCCC"> our Windows</font>
+
+4
+00:00:06,779 --> 00:00:09,240
+<font color="#E5E5E5">hard drive</font><font color="#CCCCCC"> so there is one utility</font><font color="#E5E5E5"> in</font>
+
+5
+00:00:09,240 --> 00:00:12,269
+Windows called<font color="#E5E5E5"> as BitLocker</font><font color="#CCCCCC"> so we can</font>
+
+6
+00:00:12,269 --> 00:00:14,280
+use this<font color="#CCCCCC"> utility in order to encrypt</font>
+
+7
+00:00:14,280 --> 00:00:17,279
+entire hard<font color="#CCCCCC"> drive or</font><font color="#E5E5E5"> even we can encrypt</font>
+
+8
+00:00:17,279 --> 00:00:19,560
+<font color="#E5E5E5">only our data and we can also add</font>
+
+9
+00:00:19,560 --> 00:00:22,830
+password in order<font color="#E5E5E5"> to protect it so now</font>
+
+10
+00:00:22,830 --> 00:00:24,630
+let's see how we can use<font color="#E5E5E5"> BitLocker</font><font color="#CCCCCC"> in</font>
+
+11
+00:00:24,630 --> 00:00:27,330
+our system<font color="#E5E5E5"> now let's try to encrypt our</font>
+
+12
+00:00:27,330 --> 00:00:29,699
+data<font color="#E5E5E5"> and secure</font><font color="#CCCCCC"> our drive by using</font>
+
+13
+00:00:29,699 --> 00:00:33,540
+BitLocker<font color="#E5E5E5"> so let me open my computer</font><font color="#CCCCCC"> and</font>
+
+14
+00:00:33,540 --> 00:00:35,880
+here you can see that right<font color="#CCCCCC"> now</font><font color="#E5E5E5"> in my</font>
+
+15
+00:00:35,880 --> 00:00:37,530
+<font color="#E5E5E5">system there are</font><font color="#CCCCCC"> three</font><font color="#E5E5E5"> drives local disk</font>
+
+16
+00:00:37,530 --> 00:00:41,460
+C then D<font color="#CCCCCC"> and E</font><font color="#E5E5E5"> so first of all we have</font>
+
+17
+00:00:41,460 --> 00:00:43,350
+to select a<font color="#CCCCCC"> drive which we want to</font>
+
+18
+00:00:43,350 --> 00:00:45,660
+encrypt<font color="#E5E5E5"> and log by BitLocker</font><font color="#CCCCCC"> so just try</font>
+
+19
+00:00:45,660 --> 00:00:47,520
+<font color="#E5E5E5">to click over here and here you will see</font>
+
+20
+00:00:47,520 --> 00:00:50,340
+one option turn on BitLocker<font color="#CCCCCC"> so if this</font>
+
+21
+00:00:50,340 --> 00:00:52,379
+<font color="#CCCCCC">option</font><font color="#E5E5E5"> is not</font><font color="#CCCCCC"> available in your computer</font>
+
+22
+00:00:52,379 --> 00:00:54,780
+which<font color="#CCCCCC"> means your</font><font color="#E5E5E5"> computer is</font><font color="#CCCCCC"> not</font>
+
+23
+00:00:54,780 --> 00:00:57,180
+supporting BitLocker<font color="#E5E5E5"> so let me click</font>
+
+24
+00:00:57,180 --> 00:01:00,660
+<font color="#E5E5E5">over</font><font color="#CCCCCC"> here so when for the first time you</font>
+
+25
+00:01:00,660 --> 00:01:02,910
+<font color="#E5E5E5">will open the bit</font><font color="#CCCCCC"> Locker it will</font><font color="#E5E5E5"> ask you</font>
+
+26
+00:01:02,910 --> 00:01:04,700
+whether<font color="#E5E5E5"> you want to protect your drive</font>
+
+27
+00:01:04,700 --> 00:01:07,470
+by using password or you want to protect
+
+28
+00:01:07,470 --> 00:01:09,210
+your drive by<font color="#E5E5E5"> using smart card so I</font>
+
+29
+00:01:09,210 --> 00:01:11,100
+recommend you<font color="#E5E5E5"> to protect your drive by</font>
+
+30
+00:01:11,100 --> 00:01:12,750
+using<font color="#E5E5E5"> password so here you have to add a</font>
+
+31
+00:01:12,750 --> 00:01:17,720
+<font color="#E5E5E5">password so let me add a password here</font>
+
+32
+00:01:20,509 --> 00:01:25,110
+click on next<font color="#E5E5E5"> and</font><font color="#CCCCCC"> then it asks you for</font>
+
+33
+00:01:25,110 --> 00:01:27,420
+<font color="#E5E5E5">saving a recovery key so what happen is</font>
+
+34
+00:01:27,420 --> 00:01:29,280
+when for the first<font color="#CCCCCC"> time you are setting</font>
+
+35
+00:01:29,280 --> 00:01:31,770
+the BitLocker<font color="#E5E5E5"> you add a password then a</font>
+
+36
+00:01:31,770 --> 00:01:34,140
+BitLocker will give you a<font color="#E5E5E5"> one key and</font>
+
+37
+00:01:34,140 --> 00:01:35,880
+with the help of that key you can
+
+38
+00:01:35,880 --> 00:01:38,040
+recover your<font color="#E5E5E5"> data just</font><font color="#CCCCCC"> for example you</font>
+
+39
+00:01:38,040 --> 00:01:40,200
+forgot your password<font color="#E5E5E5"> and you are not</font>
+
+40
+00:01:40,200 --> 00:01:43,770
+<font color="#E5E5E5">able</font><font color="#CCCCCC"> to retrieve your data so what you</font>
+
+41
+00:01:43,770 --> 00:01:46,020
+can do is you<font color="#E5E5E5"> can retrieve your</font><font color="#CCCCCC"> data by</font>
+
+42
+00:01:46,020 --> 00:01:47,850
+using<font color="#E5E5E5"> the recovery key which the</font>
+
+43
+00:01:47,850 --> 00:01:49,799
+BitLocker will give you so that's why
+
+44
+00:01:49,799 --> 00:01:51,659
+now BitLocker is saying that where we
+
+45
+00:01:51,659 --> 00:01:53,460
+want to<font color="#E5E5E5"> save the recovery key so there</font>
+
+46
+00:01:53,460 --> 00:01:55,049
+<font color="#CCCCCC">are different option</font><font color="#E5E5E5"> we can even print</font>
+
+47
+00:01:55,049 --> 00:01:56,790
+the recovery key we can<font color="#E5E5E5"> save it to</font><font color="#CCCCCC"> a</font>
+
+48
+00:01:56,790 --> 00:01:59,700
+file and we can<font color="#E5E5E5"> save this recovery</font><font color="#CCCCCC"> key</font>
+
+49
+00:01:59,700 --> 00:02:01,890
+to a particular USB<font color="#E5E5E5"> Drive also and we</font>
+
+50
+00:02:01,890 --> 00:02:03,869
+<font color="#E5E5E5">can even save this recovery key to</font><font color="#CCCCCC"> our</font>
+
+51
+00:02:03,869 --> 00:02:06,509
+Microsoft account<font color="#E5E5E5"> so for</font><font color="#CCCCCC"> the time</font><font color="#E5E5E5"> being</font>
+
+52
+00:02:06,509 --> 00:02:08,369
+I<font color="#CCCCCC"> am saving</font><font color="#E5E5E5"> that recovery key to a file</font>
+
+53
+00:02:08,369 --> 00:02:10,440
+<font color="#E5E5E5">so</font><font color="#CCCCCC"> that I can show you</font><font color="#E5E5E5"> that how recovery</font>
+
+54
+00:02:10,440 --> 00:02:13,290
+key looks like let me click here<font color="#E5E5E5"> so</font><font color="#CCCCCC"> I'm</font>
+
+55
+00:02:13,290 --> 00:02:13,720
+say
+
+56
+00:02:13,720 --> 00:02:15,610
+<font color="#E5E5E5">during this recovery key on my desktop</font>
+
+57
+00:02:15,610 --> 00:02:17,590
+<font color="#CCCCCC">you can see here BitLocker recovery key</font>
+
+58
+00:02:17,590 --> 00:02:21,900
+click on save<font color="#E5E5E5"> and it's a text file and</font>
+
+59
+00:02:21,900 --> 00:02:25,690
+now click on next<font color="#CCCCCC"> now the BitLocker</font>
+
+60
+00:02:25,690 --> 00:02:27,910
+encryption is actually of two types<font color="#CCCCCC"> the</font>
+
+61
+00:02:27,910 --> 00:02:30,100
+<font color="#CCCCCC">first thing is whether you want</font><font color="#E5E5E5"> to</font>
+
+62
+00:02:30,100 --> 00:02:33,190
+encrypt<font color="#E5E5E5"> entire data in a drive or you</font>
+
+63
+00:02:33,190 --> 00:02:36,010
+want to encrypt<font color="#E5E5E5"> entire Drive so just for</font>
+
+64
+00:02:36,010 --> 00:02:38,080
+example<font color="#E5E5E5"> if</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> are disk drive is</font><font color="#CCCCCC"> of 50</font>
+
+65
+00:02:38,080 --> 00:02:40,330
+gigs<font color="#E5E5E5"> and your data inside that drive</font><font color="#CCCCCC"> has</font>
+
+66
+00:02:40,330 --> 00:02:43,240
+20<font color="#CCCCCC"> gates so the first option</font><font color="#E5E5E5"> says that</font>
+
+67
+00:02:43,240 --> 00:02:45,340
+you want to encrypt<font color="#E5E5E5"> only 20 gigs data</font>
+
+68
+00:02:45,340 --> 00:02:47,470
+then you<font color="#E5E5E5"> can select one here so it's a</font>
+
+69
+00:02:47,470 --> 00:02:49,840
+faster and if you want to encrypt<font color="#E5E5E5"> entire</font>
+
+70
+00:02:49,840 --> 00:02:52,600
+<font color="#E5E5E5">Drive that is 500 gigs then it's a</font>
+
+71
+00:02:52,600 --> 00:02:55,270
+slower<font color="#E5E5E5"> process you can see here so I'm</font>
+
+72
+00:02:55,270 --> 00:02:56,830
+selecting<font color="#E5E5E5"> the first one because I want</font>
+
+73
+00:02:56,830 --> 00:02:59,140
+to<font color="#E5E5E5"> encrypt my data not entire Drive so</font>
+
+74
+00:02:59,140 --> 00:03:01,840
+click<font color="#E5E5E5"> on next and now start encrypting</font>
+
+75
+00:03:01,840 --> 00:03:04,120
+<font color="#E5E5E5">and it will take some time depending</font>
+
+76
+00:03:04,120 --> 00:03:07,900
+<font color="#E5E5E5">upon your data and here you can see that</font>
+
+77
+00:03:07,900 --> 00:03:10,870
+the drive<font color="#CCCCCC"> encryption has been started so</font>
+
+78
+00:03:10,870 --> 00:03:15,459
+here you<font color="#E5E5E5"> can see the process so</font><font color="#CCCCCC"> I'm</font>
+
+79
+00:03:15,459 --> 00:03:17,200
+pausing this video<font color="#E5E5E5"> and I will resume</font>
+
+80
+00:03:17,200 --> 00:03:19,540
+this video once my encryption completes
+
+81
+00:03:19,540 --> 00:03:23,380
+and here you can see that<font color="#E5E5E5"> the encryption</font>
+
+82
+00:03:23,380 --> 00:03:26,700
+<font color="#CCCCCC">of that Drive is completed</font><font color="#E5E5E5"> let me just</font>
+
+83
+00:03:26,700 --> 00:03:31,450
+shut down<font color="#E5E5E5"> and restart my system and then</font>
+
+84
+00:03:31,450 --> 00:03:35,140
+I will resume this video so here you can
+
+85
+00:03:35,140 --> 00:03:38,320
+see that<font color="#E5E5E5"> our this</font><font color="#CCCCCC"> drive</font><font color="#E5E5E5"> local disk D is</font>
+
+86
+00:03:38,320 --> 00:03:40,900
+<font color="#E5E5E5">encrypted and is locked by BitLocker so</font>
+
+87
+00:03:40,900 --> 00:03:43,120
+you can see a<font color="#E5E5E5"> logged sign here and if I</font>
+
+88
+00:03:43,120 --> 00:03:45,430
+<font color="#CCCCCC">just double</font><font color="#E5E5E5"> click on it then it asks us</font>
+
+89
+00:03:45,430 --> 00:03:46,930
+for<font color="#E5E5E5"> the</font><font color="#CCCCCC"> password so here you can see</font>
+
+90
+00:03:46,930 --> 00:03:48,910
+that<font color="#E5E5E5"> it's asking us for the password so</font>
+
+91
+00:03:48,910 --> 00:03:51,780
+let<font color="#E5E5E5"> me just write down here password and</font>
+
+92
+00:03:51,780 --> 00:03:55,840
+click on unlock<font color="#E5E5E5"> and</font><font color="#CCCCCC"> then you can see</font>
+
+93
+00:03:55,840 --> 00:03:57,430
+<font color="#E5E5E5">that we are able to retrieve our data</font>
+
+94
+00:03:57,430 --> 00:03:59,860
+back<font color="#E5E5E5"> and here you can see that now this</font>
+
+95
+00:03:59,860 --> 00:04:02,860
+lock is unlocked<font color="#CCCCCC"> so this is how</font>
+
+96
+00:04:02,860 --> 00:04:04,959
+BitLocker works<font color="#CCCCCC"> and let me also show you</font>
+
+97
+00:04:04,959 --> 00:04:07,209
+that<font color="#CCCCCC"> how recovery key looks like</font><font color="#E5E5E5"> so if</font>
+
+98
+00:04:07,209 --> 00:04:09,100
+<font color="#E5E5E5">you remember then we have saved this</font>
+
+99
+00:04:09,100 --> 00:04:10,840
+recovery<font color="#E5E5E5"> key on my desktop and you</font><font color="#CCCCCC"> can</font>
+
+100
+00:04:10,840 --> 00:04:13,630
+see that<font color="#E5E5E5"> it's a text file and if I</font><font color="#CCCCCC"> open</font>
+
+101
+00:04:13,630 --> 00:04:16,358
+this<font color="#E5E5E5"> recovery key so this is how the</font>
+
+102
+00:04:16,358 --> 00:04:18,640
+recovery key looks like<font color="#E5E5E5"> around a random</font>
+
+103
+00:04:18,640 --> 00:04:24,550
+value so you can enable BitLocker in
+
+104
+00:04:24,550 --> 00:04:26,229
+order to protect your<font color="#E5E5E5"> data</font><font color="#CCCCCC"> and in this</font>
+
+105
+00:04:26,229 --> 00:04:27,580
+<font color="#E5E5E5">video we have covered</font>
+
+106
+00:04:27,580 --> 00:04:29,889
+that what is BitLocker<font color="#E5E5E5"> and how BitLocker</font>
+
+107
+00:04:29,889 --> 00:00:00,000
+works<font color="#CCCCCC"> so thanks</font><font color="#E5E5E5"> for watching</font><font color="#CCCCCC"> this video</font>
+

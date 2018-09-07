@@ -1,0 +1,472 @@
+1
+00:00:00,060 --> 00:00:02,340
+ Halo semua orang di <font color="#CCCCCC">video ini </font>
+
+2
+00:00:02,340 --> 00:00:04,380
+ berbicara <font color="#CCCCCC">tentang </font><font color="#E5E5E5">alat yang </font><font color="#CCCCCC">menarik </font><font color="#E5E5E5">yang kita </font>
+
+3
+00:00:04,380 --> 00:00:06,299
+ <font color="#E5E5E5">dapat digunakan untuk </font><font color="#CCCCCC">melihat kata sandi Windows </font>
+
+4
+00:00:06,299 --> 00:00:09,059
+ <font color="#CCCCCC">dalam teks biasa sehingga alat itu disebut </font>
+
+5
+00:00:09,059 --> 00:00:12,090
+ sebagai mimikatz <font color="#E5E5E5">jadi mimikatz terbuka </font>
+
+6
+00:00:12,090 --> 00:00:14,309
+ <font color="#E5E5E5">alat sumber yang dapat kita gunakan </font><font color="#CCCCCC">untuk </font>
+
+7
+00:00:14,309 --> 00:00:16,440
+ temukan <font color="#E5E5E5">kata sandi </font><font color="#CCCCCC">Windows dalam </font><font color="#E5E5E5">teks </font><font color="#CCCCCC">biasa </font>
+
+8
+00:00:16,440 --> 00:00:18,480
+ <font color="#CCCCCC">Anda dapat </font><font color="#E5E5E5">mengunduh kucing </font><font color="#CCCCCC">mini </font><font color="#E5E5E5">dari sini </font>
+
+9
+00:00:18,480 --> 00:00:20,640
+ dari <font color="#E5E5E5">tautan github ini jadi utama </font>
+
+10
+00:00:20,640 --> 00:00:22,350
+ fitur <font color="#E5E5E5">alat ini adalah bahwa kita tidak melakukannya </font>
+
+11
+00:00:22,350 --> 00:00:24,359
+ membutuhkan file yang sama yang <font color="#E5E5E5">tidak kami perlukan </font>
+
+12
+00:00:24,359 --> 00:00:26,519
+ file sistem yang <font color="#E5E5E5">kita </font><font color="#CCCCCC">butuhkan hanyalah ini </font>
+
+13
+00:00:26,519 --> 00:00:28,439
+ alat <font color="#E5E5E5">untuk melihat </font><font color="#CCCCCC">kata sandi Windows </font>
+
+14
+00:00:28,439 --> 00:00:31,380
+ <font color="#CCCCCC">jadi kamu </font><font color="#E5E5E5">bisa memikirkan itu sangat </font><font color="#CCCCCC">bagus </font>
+
+15
+00:00:31,380 --> 00:00:33,719
+ <font color="#E5E5E5">alat karena kita tidak perlu memecahkan apapun </font>
+
+16
+00:00:33,719 --> 00:00:35,640
+ kata sandi yang <font color="#E5E5E5">harus kita </font><font color="#CCCCCC">lakukan hanyalah kita </font>
+
+17
+00:00:35,640 --> 00:00:37,620
+ <font color="#CCCCCC">harus </font><font color="#E5E5E5">men-download</font><font color="#CCCCCC"> alat ini </font><font color="#E5E5E5">dan kami memiliki </font>
+
+18
+00:00:37,620 --> 00:00:39,149
+ untuk menggunakan alat ini <font color="#CCCCCC">secara khusus </font>
+
+19
+00:00:39,149 --> 00:00:41,219
+ sistem <font color="#E5E5E5">sekarang mari kita lihat bagaimana kita bisa </font><font color="#CCCCCC">menggunakan banyak </font>
+
+20
+00:00:41,219 --> 00:00:44,100
+ <font color="#E5E5E5">kucing dalam </font><font color="#CCCCCC">sistem kami </font><font color="#E5E5E5">sekarang mari kita mencoba </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">menemukan </font>
+
+21
+00:00:44,100 --> 00:00:47,010
+ <font color="#CCCCCC">windows </font><font color="#E5E5E5">password dalam teks biasa </font><font color="#CCCCCC">tanpa </font>
+
+22
+00:00:47,010 --> 00:00:48,930
+ <font color="#E5E5E5">menggunakan segala jenis kata sandi retak </font>
+
+23
+00:00:48,930 --> 00:00:51,870
+ teknik dengan <font color="#E5E5E5">baik </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">menemukan jendela </font>
+
+24
+00:00:51,870 --> 00:00:54,180
+ <font color="#E5E5E5">kata sandi dalam teks biasa kita harus </font>
+
+25
+00:00:54,180 --> 00:00:56,520
+ <font color="#E5E5E5">men-download </font><font color="#CCCCCC">utilitas kecil yang disebut sebagai </font>
+
+26
+00:00:56,520 --> 00:00:59,399
+ mimikatz <font color="#E5E5E5">jadi ini adalah utilitas yang sangat kecil </font>
+
+27
+00:00:59,399 --> 00:01:01,920
+ <font color="#E5E5E5">murni ditulis dalam bahasa c dan dengan </font>
+
+28
+00:01:01,920 --> 00:01:04,409
+ bantuan ini kita <font color="#CCCCCC">dapat menemukan Windows </font>
+
+29
+00:01:04,409 --> 00:01:07,229
+ <font color="#CCCCCC">kata sandi dalam </font><font color="#E5E5E5">teks </font><font color="#CCCCCC">biasa jadi di sini Anda bisa </font>
+
+30
+00:01:07,229 --> 00:01:10,080
+ lihat tautan <font color="#E5E5E5">binari dan tautannya </font>
+
+31
+00:01:10,080 --> 00:01:12,540
+ kode sumbernya <font color="#CCCCCC">juga jadi biarkan aku membuka </font>
+
+32
+00:01:12,540 --> 00:01:14,450
+ link dari itu binari <font color="#CCCCCC">di langkah selanjutnya </font><font color="#E5E5E5">dan </font>
+
+33
+00:01:14,450 --> 00:01:17,100
+ di sini adalah <font color="#E5E5E5">blok resmi dari blog alat ini </font>
+
+34
+00:01:17,100 --> 00:01:19,770
+ dot <font color="#E5E5E5">genteel </font><font color="#CCCCCC">tv.com slash </font><font color="#E5E5E5">mimikatz </font><font color="#CCCCCC">dan </font>
+
+35
+00:01:19,770 --> 00:01:23,009
+ di sini Anda dapat melihat <font color="#CCCCCC">halaman github ini </font>
+
+36
+00:01:23,009 --> 00:01:25,140
+ <font color="#E5E5E5">mini </font><font color="#CCCCCC">katz </font><font color="#E5E5E5">dan itu tersedia di </font>
+
+37
+00:01:25,140 --> 00:01:26,790
+ <font color="#CCCCCC">versi yang </font><font color="#E5E5E5">berbeda </font><font color="#CCCCCC">bersama </font><font color="#E5E5E5">dengan sumbernya </font>
+
+38
+00:01:26,790 --> 00:01:28,619
+ kode <font color="#CCCCCC">tetapi saya </font><font color="#E5E5E5">menyarankan Anda untuk mengunduh </font>
+
+39
+00:01:28,619 --> 00:01:30,750
+ file film ini <font color="#E5E5E5">catstrong karena itu </font>
+
+40
+00:01:30,750 --> 00:01:33,689
+ <font color="#E5E5E5">stabil dan </font><font color="#CCCCCC">saya sudah </font><font color="#E5E5E5">mengunduh </font>
+
+41
+00:01:33,689 --> 00:01:35,850
+ <font color="#E5E5E5">dan menyimpan file ini di </font><font color="#CCCCCC">Windows 7 </font><font color="#E5E5E5">saya </font>
+
+42
+00:01:35,850 --> 00:01:38,310
+ <font color="#CCCCCC">sistem operasi </font><font color="#E5E5E5">sehingga Anda bisa lihat di sini </font>
+
+43
+00:01:38,310 --> 00:01:40,770
+ arsip file ini <font color="#CCCCCC">jadi biar </font><font color="#E5E5E5">saya ekstrak </font>
+
+44
+00:01:40,770 --> 00:01:45,479
+ <font color="#E5E5E5">semua file dan di sini Anda dapat melihat itu </font>
+
+45
+00:01:45,479 --> 00:01:47,549
+ sebuah direktori bernama <font color="#CCCCCC">batang mimikatz </font>
+
+46
+00:01:47,549 --> 00:01:49,950
+ buat sekarang biarkan saya membuka <font color="#E5E5E5">ini begitu </font>
+
+47
+00:01:49,950 --> 00:01:51,659
+ tergantung pada <font color="#E5E5E5">arsitektur sistem Anda </font>
+
+48
+00:01:51,659 --> 00:01:53,399
+ apakah sistem Anda <font color="#E5E5E5">32-bit atau </font>
+
+49
+00:01:53,399 --> 00:01:56,990
+ 64-bit <font color="#CCCCCC">Anda dapat mengunduh salah </font><font color="#E5E5E5">satunya dan </font>
+
+50
+00:01:56,990 --> 00:02:00,509
+ biarkan <font color="#E5E5E5">saya membuka jendela yang satu ini karena 32 </font>
+
+51
+00:02:00,509 --> 00:02:02,219
+ <font color="#E5E5E5">sistem saya adalah operasi windows 32-bit </font>
+
+52
+00:02:02,219 --> 00:02:04,170
+ <font color="#CCCCCC">sistem </font><font color="#E5E5E5">dan di sini Anda dapat melihat </font>
+
+53
+00:02:04,170 --> 00:02:06,810
+ aplikasi maquettes dengan baik <font color="#E5E5E5">untuk </font>
+
+54
+00:02:06,810 --> 00:02:08,520
+ <font color="#E5E5E5">menjalankan aplikasi ini </font><font color="#CCCCCC">kita harus </font><font color="#E5E5E5">menjalankannya </font>
+
+55
+00:02:08,520 --> 00:02:10,830
+ sebagai administrator <font color="#E5E5E5">jadi klik di sini </font>
+
+56
+00:02:10,830 --> 00:02:13,280
+ <font color="#CCCCCC">dan </font>
+
+57
+00:02:13,290 --> 00:02:15,540
+ tampilannya mirip dengan command prompt 
+
+58
+00:02:15,540 --> 00:02:17,700
+ <font color="#E5E5E5">Anda </font><font color="#CCCCCC">dapat </font><font color="#E5E5E5">melihat di sini perintah yang sama </font>
+
+59
+00:02:17,700 --> 00:02:19,829
+ <font color="#E5E5E5">maka yang pertama-tama harus kita lakukan adalah </font>
+
+60
+00:02:19,829 --> 00:02:22,290
+ kita hanya <font color="#CCCCCC">harus memberikan hak istimewa kepada </font>
+
+61
+00:02:22,290 --> 00:02:23,010
+ mimikatz 
+
+62
+00:02:23,010 --> 00:02:26,189
+ jadi hanya di sini <font color="#E5E5E5">keistimewaan kemudian </font><font color="#CCCCCC">ke </font>
+
+63
+00:02:26,189 --> 00:02:29,519
+ <font color="#E5E5E5">Collins </font><font color="#CCCCCC">lalu debug </font><font color="#E5E5E5">dan di sini Anda bisa melihat </font>
+
+64
+00:02:29,519 --> 00:02:31,739
+ <font color="#E5E5E5">bahwa dalam kartu </font><font color="#CCCCCC">respon </font><font color="#E5E5E5">kami mendapat 20 </font>
+
+65
+00:02:31,739 --> 00:02:34,650
+ yang berarti <font color="#E5E5E5">sukses kemudian dalam rangka </font>
+
+66
+00:02:34,650 --> 00:02:36,690
+ <font color="#E5E5E5">temukan </font><font color="#CCCCCC">nama host </font><font color="#E5E5E5">dari operasi tertentu </font>
+
+67
+00:02:36,690 --> 00:02:38,909
+ <font color="#CCCCCC">sistem di mana kita </font><font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">kucing </font><font color="#E5E5E5">mini ini </font>
+
+68
+00:02:38,909 --> 00:02:40,650
+ <font color="#E5E5E5">cukup </font><font color="#CCCCCC">tuliskan di sini </font><font color="#E5E5E5">nama host dan tekan </font>
+
+69
+00:02:40,650 --> 00:02:43,650
+ masukkan di <font color="#E5E5E5">sini Anda </font><font color="#CCCCCC">akan </font><font color="#E5E5E5">melihat </font><font color="#CCCCCC">bahwa tuan rumah </font>
+
+70
+00:02:43,650 --> 00:02:45,989
+ <font color="#E5E5E5">nama adalah root dan kita bisa memverifikasinya </font>
+
+71
+00:02:45,989 --> 00:02:48,930
+ dari sini dan kemudian <font color="#E5E5E5">untuk mencari </font>
+
+72
+00:02:48,930 --> 00:02:50,879
+ Kata sandi Windows cukup <font color="#CCCCCC">tulis di sini sebagai </font>
+
+73
+00:02:50,879 --> 00:02:56,359
+ <font color="#CCCCCC">cari URL si ke Collins </font><font color="#E5E5E5">lalu </font><font color="#CCCCCC">masuk </font>
+
+74
+00:02:56,359 --> 00:03:01,739
+ kata sandi tekan enter <font color="#E5E5E5">dan di sini Anda akan </font>
+
+75
+00:03:01,739 --> 00:03:08,430
+ <font color="#E5E5E5">lihat output panjang jadi mari kita baca ini jadi </font>
+
+76
+00:03:08,430 --> 00:03:10,079
+ di sini Anda dapat melihat bahwa nama pengguna adalah 
+
+77
+00:03:10,079 --> 00:03:12,569
+ <font color="#CCCCCC">root dan nama domain adalah root PC dan </font>
+
+78
+00:03:12,569 --> 00:03:15,030
+ itu juga akan <font color="#E5E5E5">memberi </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">server logon </font>
+
+79
+00:03:15,030 --> 00:03:18,000
+ bersama dengan <font color="#E5E5E5">waktu masuk dan jika saya </font>
+
+80
+00:03:18,000 --> 00:03:19,379
+ gulir <font color="#CCCCCC">ke bawah di sini Anda akan melihat </font><font color="#E5E5E5">itu </font>
+
+81
+00:03:19,379 --> 00:03:24,060
+ <font color="#CCCCCC">juga menunjukkan </font><font color="#E5E5E5">ID dan di sini Anda bisa </font>
+
+82
+00:03:24,060 --> 00:03:26,069
+ lihat nama pengguna adalah root dan di sini Anda 
+
+83
+00:03:26,069 --> 00:03:29,040
+ dapat melihat elemen ntlm hash <font color="#E5E5E5">bersama </font>
+
+84
+00:03:29,040 --> 00:03:32,299
+ dengan <font color="#E5E5E5">hash sha-1 dari kata sandi saya dan </font>
+
+85
+00:03:32,299 --> 00:03:35,370
+ tepat di bawahnya <font color="#CCCCCC">Anda dapat menemukan </font><font color="#E5E5E5">nama pengguna </font>
+
+86
+00:03:35,370 --> 00:03:37,859
+ <font color="#E5E5E5">root bersama dengan itu kata sandi yang </font><font color="#CCCCCC">benar </font>
+
+87
+00:03:37,859 --> 00:03:40,139
+ jadi di sini Anda dapat melihat bahwa itu sangat sangat 
+
+88
+00:03:40,139 --> 00:03:43,680
+ <font color="#E5E5E5">alat sederhana yang dapat </font><font color="#CCCCCC">digunakan secara berurutan </font>
+
+89
+00:03:43,680 --> 00:03:45,120
+ <font color="#CCCCCC">untuk </font><font color="#E5E5E5">menemukan </font><font color="#CCCCCC">password windows </font><font color="#E5E5E5">di </font>
+
+90
+00:03:45,120 --> 00:03:47,099
+ <font color="#CCCCCC">plaintext jadi di sini Anda dapat </font><font color="#E5E5E5">melihat bahwa </font>
+
+91
+00:03:47,099 --> 00:03:48,930
+ sandi itu menampilkan untuk menilai <font color="#E5E5E5">ke </font>
+
+92
+00:03:48,930 --> 00:03:53,010
+ <font color="#CCCCCC">dan jika saya gulir ke bawah Anda akan melihat </font><font color="#E5E5E5">sedikit </font>
+
+93
+00:03:53,010 --> 00:03:58,500
+ lebih <font color="#E5E5E5">detail jadi </font><font color="#CCCCCC">ini adalah bagaimana Anda dapat </font><font color="#E5E5E5">menggunakan </font>
+
+94
+00:03:58,500 --> 00:04:00,150
+ alat ini <font color="#E5E5E5">untuk menemukan </font><font color="#CCCCCC">jendela </font>
+
+95
+00:04:00,150 --> 00:04:02,549
+ <font color="#CCCCCC">password plaintext </font><font color="#E5E5E5">sehingga</font><font color="#CCCCCC"> hal ini </font>
+
+96
+00:04:02,549 --> 00:04:04,530
+ <font color="#CCCCCC">bahwa alat ini menggunakan sedikit memori </font>
+
+97
+00:04:04,530 --> 00:04:07,139
+ <font color="#E5E5E5">trik </font><font color="#CCCCCC">untuk menemukan kata sandi </font><font color="#E5E5E5">tetapi jika </font>
+
+98
+00:04:07,139 --> 00:04:08,970
+ Anda menggunakan alat ini di <font color="#CCCCCC">Windows 8 dan </font>
+
+99
+00:04:08,970 --> 00:04:11,430
+ <font color="#CCCCCC">Windows 10 </font><font color="#E5E5E5">sistem operasi Windows kami </font>
+
+100
+00:04:11,430 --> 00:04:14,519
+ perlakukan <font color="#E5E5E5">alat ini sebagai malware jadi pastikan </font>
+
+101
+00:04:14,519 --> 00:04:17,039
+ <font color="#E5E5E5">Anda harus mematikan anti Anda </font>
+
+102
+00:04:17,039 --> 00:04:20,639
+ virus <font color="#E5E5E5">sebelum menjalankan alat ini jadi apa </font>
+
+103
+00:04:20,639 --> 00:04:22,830
+ lain yang bisa Anda lakukan adalah Anda bisa <font color="#CCCCCC">meletakkan ini </font>
+
+104
+00:04:22,830 --> 00:04:25,440
+ alat di <font color="#E5E5E5">Drive </font><font color="#CCCCCC">USB </font><font color="#E5E5E5">Anda, maka Anda bisa </font>
+
+105
+00:04:25,440 --> 00:04:27,270
+ <font color="#CCCCCC">buat satu file batch </font>
+
+106
+00:04:27,270 --> 00:04:30,270
+ dan jika Anda pasang di <font color="#CCCCCC">bahwa </font><font color="#E5E5E5">USB </font><font color="#CCCCCC">Drive dalam setiap </font>
+
+107
+00:04:30,270 --> 00:04:32,370
+ <font color="#CCCCCC">sistem operasi maka akan mulai </font>
+
+108
+00:04:32,370 --> 00:04:34,590
+ menjalankan file batch dan itu akan 
+
+109
+00:04:34,590 --> 00:04:36,150
+ <font color="#E5E5E5">menyimpan output dari alat ini dalam </font>
+
+110
+00:04:36,150 --> 00:04:38,789
+ <font color="#E5E5E5">file notepad dan kemudian Anda bisa </font><font color="#CCCCCC">pasang </font>
+
+111
+00:04:38,789 --> 00:04:41,250
+ dari <font color="#CCCCCC">USB Drive dan di USB itu </font>
+
+112
+00:04:41,250 --> 00:04:43,470
+ <font color="#E5E5E5">Drive </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">akan mendapatkan kata sandi dari </font>
+
+113
+00:04:43,470 --> 00:04:44,849
+ sistem operasi di mana Anda akan melakukannya 
+
+114
+00:04:44,849 --> 00:04:47,699
+ suntik yang <font color="#E5E5E5">tepat jadi di </font><font color="#CCCCCC">video </font><font color="#E5E5E5">ini </font><font color="#CCCCCC">kita </font>
+
+115
+00:04:47,699 --> 00:04:49,680
+ <font color="#E5E5E5">telah membahas </font><font color="#CCCCCC">bagaimana kita </font><font color="#E5E5E5">dapat menemukannya </font>
+
+116
+00:04:49,680 --> 00:04:51,449
+ <font color="#CCCCCC">Kata sandi Windows dalam teks biasa dengan </font>
+
+117
+00:04:51,449 --> 00:04:53,280
+ <font color="#CCCCCC">menggunakan </font><font color="#E5E5E5">kucing </font><font color="#CCCCCC">mini </font><font color="#E5E5E5">jadi terima kasih sudah menonton </font>
+
+118
+00:04:53,280 --> 00:00:00,000
+ <font color="#CCCCCC">video ini </font>
+

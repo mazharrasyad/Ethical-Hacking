@@ -1,0 +1,6020 @@
+1
+00:00:00,570 --> 00:00:03,120
+all the<font color="#E5E5E5"> JavaScript injections that we've</font>
+
+2
+00:00:03,120 --> 00:00:05,520
+done so far<font color="#CCCCCC"> we used to inject</font><font color="#E5E5E5"> them like</font>
+
+3
+00:00:05,520 --> 00:00:06,990
+this<font color="#CCCCCC"> that we used to actually</font><font color="#E5E5E5"> inject</font>
+
+4
+00:00:06,990 --> 00:00:09,629
+them in the HTML<font color="#CCCCCC"> code and we used to</font>
+
+5
+00:00:09,629 --> 00:00:11,879
+<font color="#CCCCCC">have to put</font><font color="#E5E5E5"> the script</font><font color="#CCCCCC"> alert</font><font color="#E5E5E5"> exercise</font>
+
+6
+00:00:11,879 --> 00:00:15,389
+script<font color="#CCCCCC"> or put anything in here depending</font>
+
+7
+00:00:15,389 --> 00:00:17,220
+<font color="#E5E5E5">on the cheat sheet that I shared with</font>
+
+8
+00:00:17,220 --> 00:00:19,000
+<font color="#CCCCCC">you</font>
+
+9
+00:00:19,000 --> 00:00:21,189
+now I've said earlier<font color="#E5E5E5"> with SQL</font>
+
+10
+00:00:21,189 --> 00:00:23,380
+injections<font color="#E5E5E5"> the payload or the exploit</font>
+
+11
+00:00:23,380 --> 00:00:26,140
+can vary from website to website<font color="#CCCCCC"> depend</font>
+
+12
+00:00:26,140 --> 00:00:27,939
+<font color="#E5E5E5">on on the way the website is programmed</font>
+
+13
+00:00:27,939 --> 00:00:30,730
+or the page is programmed<font color="#E5E5E5"> and XSS</font><font color="#CCCCCC"> is the</font>
+
+14
+00:00:30,730 --> 00:00:33,190
+same<font color="#E5E5E5"> so you always you need to approach</font>
+
+15
+00:00:33,190 --> 00:00:35,140
+the websites<font color="#E5E5E5"> and think about it in a</font>
+
+16
+00:00:35,140 --> 00:00:37,480
+general<font color="#CCCCCC"> idea and</font><font color="#E5E5E5"> try to exploit it</font>
+
+17
+00:00:37,480 --> 00:00:39,670
+<font color="#E5E5E5">depending on the page itself</font><font color="#CCCCCC"> and don't</font>
+
+18
+00:00:39,670 --> 00:00:42,159
+always just copy and paste the exploits
+
+19
+00:00:42,159 --> 00:00:45,129
+<font color="#E5E5E5">or the payloads and to do that I'm</font><font color="#CCCCCC"> just</font>
+
+20
+00:00:45,129 --> 00:00:46,739
+<font color="#E5E5E5">going to show you another example today</font>
+
+21
+00:00:46,739 --> 00:00:49,239
+<font color="#E5E5E5">and we're gonna do it</font><font color="#CCCCCC"> in</font><font color="#E5E5E5"> Matilda and</font>
+
+22
+00:00:49,239 --> 00:00:53,170
+we're gonna go to the injection<font color="#CCCCCC"> and I'm</font>
+
+23
+00:00:53,170 --> 00:00:55,750
+going to<font color="#CCCCCC"> go to the JavaScript injection</font>
+
+24
+00:00:55,750 --> 00:00:57,760
+<font color="#E5E5E5">and to the password</font><font color="#CCCCCC"> generator</font>
+
+25
+00:00:57,760 --> 00:01:00,790
+<font color="#E5E5E5">now what this page does basically you</font>
+
+26
+00:01:00,790 --> 00:01:03,040
+click<font color="#E5E5E5"> on the generate and it just</font>
+
+27
+00:01:03,040 --> 00:01:04,959
+generates<font color="#E5E5E5"> a random</font><font color="#CCCCCC"> password</font><font color="#E5E5E5"> so there are</font>
+
+28
+00:01:04,959 --> 00:01:06,939
+a<font color="#E5E5E5"> lot of websites on the internet that</font>
+
+29
+00:01:06,939 --> 00:01:09,250
+just do that for you
+
+30
+00:01:09,250 --> 00:01:11,710
+looking at<font color="#E5E5E5"> this at the website itself us</font>
+
+31
+00:01:11,710 --> 00:01:14,400
+that this password<font color="#E5E5E5"> is for anonymous and</font>
+
+32
+00:01:14,400 --> 00:01:17,620
+looking at the URL<font color="#E5E5E5"> we can see that it's</font>
+
+33
+00:01:17,620 --> 00:01:19,540
+given a<font color="#E5E5E5"> username and the</font><font color="#CCCCCC"> username is</font>
+
+34
+00:01:19,540 --> 00:01:21,400
+<font color="#E5E5E5">given in the URL in the username</font>
+
+35
+00:01:21,400 --> 00:01:25,870
+parameter and it's given as anonymous<font color="#E5E5E5"> so</font>
+
+36
+00:01:25,870 --> 00:01:27,820
+we can just change<font color="#E5E5E5"> that name to any name</font>
+
+37
+00:01:27,820 --> 00:01:29,500
+we want<font color="#E5E5E5"> so for example if we change that</font>
+
+38
+00:01:29,500 --> 00:01:31,890
+to<font color="#CCCCCC"> Zaid</font>
+
+39
+00:01:32,930 --> 00:01:34,910
+it's telling<font color="#CCCCCC"> us</font><font color="#E5E5E5"> that</font><font color="#CCCCCC"> this password is</font>
+
+40
+00:01:34,910 --> 00:01:37,790
+being<font color="#E5E5E5"> generated for</font><font color="#CCCCCC"> Zaid and if we</font>
+
+41
+00:01:37,790 --> 00:01:40,430
+generate it's going to be generated now
+
+42
+00:01:40,430 --> 00:01:42,290
+note that<font color="#CCCCCC"> whatever you write in here is</font>
+
+43
+00:01:42,290 --> 00:01:44,150
+being<font color="#E5E5E5"> displayed here</font><font color="#CCCCCC"> and this should</font>
+
+44
+00:01:44,150 --> 00:01:46,460
+<font color="#E5E5E5">instantly tell you that maybe this could</font>
+
+45
+00:01:46,460 --> 00:01:49,030
+be<font color="#E5E5E5"> vulnerable to an XSS vulnerability</font>
+
+46
+00:01:49,030 --> 00:01:51,740
+because whatever<font color="#E5E5E5"> you're typing is being</font>
+
+47
+00:01:51,740 --> 00:01:54,620
+displayed so let's try and use<font color="#E5E5E5"> the</font><font color="#CCCCCC"> same</font>
+
+48
+00:01:54,620 --> 00:01:57,500
+exploit<font color="#CCCCCC"> that we</font><font color="#E5E5E5"> always use and try to</font>
+
+49
+00:01:57,500 --> 00:02:01,900
+get it injected<font color="#E5E5E5"> in the code and the page</font>
+
+50
+00:02:05,880 --> 00:02:08,520
+now as you can<font color="#E5E5E5"> see the exploit didn't</font>
+
+51
+00:02:08,520 --> 00:02:10,410
+run<font color="#E5E5E5"> so we didn't</font><font color="#CCCCCC"> actually get</font><font color="#E5E5E5"> a pop-up</font>
+
+52
+00:02:10,410 --> 00:02:13,050
+box telling<font color="#E5E5E5"> us that there is an XSS in</font>
+
+53
+00:02:13,050 --> 00:02:15,930
+the page but something went wrong as you
+
+54
+00:02:15,930 --> 00:02:17,130
+can see now some<font color="#CCCCCC"> of the code is being</font>
+
+55
+00:02:17,130 --> 00:02:18,330
+<font color="#CCCCCC">thrown at the page</font>
+
+56
+00:02:18,330 --> 00:02:20,370
+this shouldn't be shown in here<font color="#CCCCCC"> you</font><font color="#E5E5E5"> seen</font>
+
+57
+00:02:20,370 --> 00:02:21,930
+in the basic case when you just put a
+
+58
+00:02:21,930 --> 00:02:23,970
+<font color="#CCCCCC">normal name you don't</font><font color="#E5E5E5"> actually see this</font>
+
+59
+00:02:23,970 --> 00:02:25,890
+code so that<font color="#E5E5E5"> means something is</font>
+
+60
+00:02:25,890 --> 00:02:27,420
+happening<font color="#CCCCCC"> something is going wrong in</font>
+
+61
+00:02:27,420 --> 00:02:29,790
+this page<font color="#E5E5E5"> so let's try to inspect the</font>
+
+62
+00:02:29,790 --> 00:02:31,880
+element
+
+63
+00:02:32,780 --> 00:02:36,670
+and I'm<font color="#E5E5E5"> just going to make this bigger</font>
+
+64
+00:02:38,300 --> 00:02:40,670
+now what I want to<font color="#E5E5E5"> focus on is the part</font>
+
+65
+00:02:40,670 --> 00:02:42,770
+of the code that's being<font color="#E5E5E5"> thrown in here</font>
+
+66
+00:02:42,770 --> 00:02:43,970
+<font color="#E5E5E5">on the screen so I'm going to</font>
+
+67
+00:02:43,970 --> 00:02:46,340
+<font color="#E5E5E5">right-click it</font><font color="#CCCCCC"> and again inspect the</font>
+
+68
+00:02:46,340 --> 00:02:48,470
+element just so that we get navigated
+
+69
+00:02:48,470 --> 00:02:50,300
+automatically to where that<font color="#E5E5E5"> is in the</font>
+
+70
+00:02:50,300 --> 00:02:54,760
+<font color="#E5E5E5">code</font><font color="#CCCCCC"> and I'm going to go down</font>
+
+71
+00:02:57,319 --> 00:02:59,420
+and you can see that<font color="#E5E5E5"> this part of the</font>
+
+72
+00:02:59,420 --> 00:03:01,969
+code is<font color="#CCCCCC"> being broken we</font><font color="#E5E5E5"> usually add the</font>
+
+73
+00:03:01,969 --> 00:03:04,219
+<font color="#E5E5E5">script tags ourselves when we when we</font>
+
+74
+00:03:04,219 --> 00:03:06,109
+<font color="#E5E5E5">try to inject like you like you see in</font>
+
+75
+00:03:06,109 --> 00:03:08,450
+here<font color="#E5E5E5"> but what's happening in this page</font>
+
+76
+00:03:08,450 --> 00:03:11,510
+it's automatically trying to put what we
+
+77
+00:03:11,510 --> 00:03:14,060
+input our user input inside to script
+
+78
+00:03:14,060 --> 00:03:16,730
+tags this one and this one<font color="#CCCCCC"> so first</font><font color="#E5E5E5"> of</font>
+
+79
+00:03:16,730 --> 00:03:20,470
+all we know that<font color="#E5E5E5"> we don't need these</font>
+
+80
+00:03:21,750 --> 00:03:25,240
+because they're already<font color="#E5E5E5"> there</font>
+
+81
+00:03:25,240 --> 00:03:27,040
+also note that<font color="#E5E5E5"> our code</font><font color="#CCCCCC"> is being</font>
+
+82
+00:03:27,040 --> 00:03:29,110
+injected here so this is<font color="#E5E5E5"> my code script</font>
+
+83
+00:03:29,110 --> 00:03:31,600
+<font color="#E5E5E5">alert XSS this is what I entered for</font><font color="#CCCCCC"> the</font>
+
+84
+00:03:31,600 --> 00:03:33,970
+<font color="#CCCCCC">username and you</font><font color="#E5E5E5"> can see that this is</font>
+
+85
+00:03:33,970 --> 00:03:37,950
+being placed inside a<font color="#E5E5E5"> single quotation</font>
+
+86
+00:03:37,950 --> 00:03:41,500
+so in<font color="#E5E5E5"> order to exit this quotation mark</font>
+
+87
+00:03:41,500 --> 00:03:45,310
+<font color="#CCCCCC">I'm gonna add one in my exploit</font><font color="#E5E5E5"> okay so</font>
+
+88
+00:03:45,310 --> 00:03:47,590
+that's<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> close this for me and then</font>
+
+89
+00:03:47,590 --> 00:03:49,810
+I remove<font color="#E5E5E5"> the script so it's going to</font>
+
+90
+00:03:49,810 --> 00:03:52,060
+<font color="#E5E5E5">become alert XSS which looks really good</font>
+
+91
+00:03:52,060 --> 00:03:54,130
+<font color="#E5E5E5">and then we have the end of the script</font>
+
+92
+00:03:54,130 --> 00:03:56,020
+here
+
+93
+00:03:56,020 --> 00:03:57,880
+so let's<font color="#CCCCCC"> have a</font><font color="#E5E5E5"> look again</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> the code</font>
+
+94
+00:03:57,880 --> 00:03:59,380
+so<font color="#CCCCCC"> you have the</font><font color="#E5E5E5"> first line</font><font color="#CCCCCC"> it's same</font>
+
+95
+00:03:59,380 --> 00:04:01,600
+document<font color="#E5E5E5"> that get don't get element by</font>
+
+96
+00:04:01,600 --> 00:04:03,760
+ID<font color="#CCCCCC"> now I actually don't know how to</font>
+
+97
+00:04:03,760 --> 00:04:05,650
+<font color="#E5E5E5">program in JavaScript so</font><font color="#CCCCCC"> you don't need</font>
+
+98
+00:04:05,650 --> 00:04:08,020
+<font color="#E5E5E5">to be a JavaScript programmer but you</font>
+
+99
+00:04:08,020 --> 00:04:10,120
+just<font color="#E5E5E5"> need to have like a general</font><font color="#CCCCCC"> idea on</font>
+
+100
+00:04:10,120 --> 00:04:12,460
+<font color="#E5E5E5">how this is going to</font><font color="#CCCCCC"> work</font><font color="#E5E5E5"> so we</font><font color="#CCCCCC"> can see</font>
+
+101
+00:04:12,460 --> 00:04:13,900
+that<font color="#E5E5E5"> this is the first line of the code</font>
+
+102
+00:04:13,900 --> 00:04:17,980
+<font color="#E5E5E5">and it's saying this inner HTML is equal</font>
+
+103
+00:04:17,980 --> 00:04:20,050
+to this<font color="#CCCCCC"> password is and whatever we</font>
+
+104
+00:04:20,050 --> 00:04:22,270
+input between<font color="#CCCCCC"> the two quotes</font><font color="#E5E5E5"> so what we</font>
+
+105
+00:04:22,270 --> 00:04:24,880
+did<font color="#E5E5E5"> we close this and then</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> next line</font>
+
+106
+00:04:24,880 --> 00:04:27,970
+<font color="#E5E5E5">is going to become our alert XSS so in</font>
+
+107
+00:04:27,970 --> 00:04:30,010
+<font color="#CCCCCC">JavaScript to</font><font color="#E5E5E5"> end one line</font><font color="#CCCCCC"> you actually</font>
+
+108
+00:04:30,010 --> 00:04:32,950
+have to add a semicolon<font color="#CCCCCC"> so we're going</font>
+
+109
+00:04:32,950 --> 00:04:36,190
+to close<font color="#E5E5E5"> and add the semicolon</font><font color="#CCCCCC"> in here</font>
+
+110
+00:04:36,190 --> 00:04:38,880
+and our exploit
+
+111
+00:04:39,009 --> 00:04:40,900
+and what this<font color="#E5E5E5"> will does it will close</font>
+
+112
+00:04:40,900 --> 00:04:43,389
+the quote here and it will execute this
+
+113
+00:04:43,389 --> 00:04:45,279
+as another line as the next line and
+
+114
+00:04:45,279 --> 00:04:47,559
+I'll add the semicolon<font color="#CCCCCC"> here at the end</font>
+
+115
+00:04:47,559 --> 00:04:51,399
+<font color="#CCCCCC">just in case and I'm</font><font color="#E5E5E5"> gonna copy this I'm</font>
+
+116
+00:04:51,399 --> 00:04:53,229
+gonna<font color="#E5E5E5"> inject it and I'll show you what</font>
+
+117
+00:04:53,229 --> 00:04:54,999
+the<font color="#E5E5E5"> code looks</font><font color="#CCCCCC"> like after we injected it</font>
+
+118
+00:04:54,999 --> 00:04:57,999
+will become<font color="#E5E5E5"> even clearer so I'm going to</font>
+
+119
+00:04:57,999 --> 00:05:00,719
+inject<font color="#E5E5E5"> it here</font>
+
+120
+00:05:01,589 --> 00:05:03,779
+now as you can<font color="#CCCCCC"> see there is nothing</font><font color="#E5E5E5"> but</font>
+
+121
+00:05:03,779 --> 00:05:06,629
+if we click<font color="#CCCCCC"> on the generate now looks</font>
+
+122
+00:05:06,629 --> 00:05:08,249
+like<font color="#E5E5E5"> there</font><font color="#CCCCCC"> is something</font><font color="#E5E5E5"> still wrong so</font>
+
+123
+00:05:08,249 --> 00:05:09,629
+we still didn't<font color="#E5E5E5"> really inject it</font>
+
+124
+00:05:09,629 --> 00:05:11,399
+properly<font color="#CCCCCC"> let's have a look</font><font color="#E5E5E5"> on the code</font>
+
+125
+00:05:11,399 --> 00:05:13,619
+again<font color="#CCCCCC"> so again</font><font color="#E5E5E5"> right click inspect</font>
+
+126
+00:05:13,619 --> 00:05:15,720
+element
+
+127
+00:05:15,720 --> 00:05:18,690
+and we're going<font color="#E5E5E5"> to go down</font><font color="#CCCCCC"> to where the</font>
+
+128
+00:05:18,690 --> 00:05:22,880
+code for the user<font color="#CCCCCC"> right here</font>
+
+129
+00:05:22,969 --> 00:05:24,919
+and this is what<font color="#CCCCCC"> our code looks like now</font>
+
+130
+00:05:24,919 --> 00:05:28,729
+so it's saying try document again get
+
+131
+00:05:28,729 --> 00:05:31,849
+element by ID<font color="#E5E5E5"> and this is telling this</font>
+
+132
+00:05:31,849 --> 00:05:34,279
+<font color="#E5E5E5">is equal</font><font color="#CCCCCC"> to this</font><font color="#E5E5E5"> password is</font><font color="#CCCCCC"> four</font><font color="#E5E5E5"> we</font>
+
+133
+00:05:34,279 --> 00:05:36,259
+<font color="#E5E5E5">close that</font><font color="#CCCCCC"> so that's</font><font color="#E5E5E5"> really good</font><font color="#CCCCCC"> we</font>
+
+134
+00:05:36,259 --> 00:05:38,599
+<font color="#E5E5E5">added a semicolon perfect and then we</font>
+
+135
+00:05:38,599 --> 00:05:41,419
+said<font color="#E5E5E5"> alert XSS very good semicolon</font>
+
+136
+00:05:41,419 --> 00:05:44,419
+perfect<font color="#E5E5E5"> but then we have this single</font>
+
+137
+00:05:44,419 --> 00:05:47,239
+<font color="#CCCCCC">quote and this semicolon and these are</font>
+
+138
+00:05:47,239 --> 00:05:49,969
+<font color="#CCCCCC">coming from</font><font color="#E5E5E5"> the original code so these</font>
+
+139
+00:05:49,969 --> 00:05:51,909
+are used<font color="#E5E5E5"> to close this statement</font>
+
+140
+00:05:51,909 --> 00:05:54,019
+<font color="#E5E5E5">originally so they're</font><font color="#CCCCCC"> actually being</font>
+
+141
+00:05:54,019 --> 00:05:56,599
+hard-coded or inserted by the<font color="#E5E5E5"> code in</font>
+
+142
+00:05:56,599 --> 00:05:59,569
+the web<font color="#E5E5E5"> page</font><font color="#CCCCCC"> so all we have</font><font color="#E5E5E5"> to do is do</font>
+
+143
+00:05:59,569 --> 00:06:01,429
+<font color="#CCCCCC">like what we used to</font><font color="#E5E5E5"> do with</font><font color="#CCCCCC"> the SQL</font>
+
+144
+00:06:01,429 --> 00:06:03,979
+injections<font color="#E5E5E5"> and just add a comment</font><font color="#CCCCCC"> here</font>
+
+145
+00:06:03,979 --> 00:06:06,079
+to<font color="#E5E5E5"> comment everything</font><font color="#CCCCCC"> that comes</font><font color="#E5E5E5"> after</font>
+
+146
+00:06:06,079 --> 00:06:07,929
+this so that it<font color="#CCCCCC"> doesn't break our code</font>
+
+147
+00:06:07,929 --> 00:06:11,829
+so again<font color="#E5E5E5"> I'm</font><font color="#CCCCCC"> going to copy this</font>
+
+148
+00:06:12,509 --> 00:06:15,800
+paste it in<font color="#CCCCCC"> here</font>
+
+149
+00:06:17,150 --> 00:06:19,910
+and as you can<font color="#E5E5E5"> see now our code runs and</font>
+
+150
+00:06:19,910 --> 00:06:22,370
+we<font color="#E5E5E5"> managed to</font><font color="#CCCCCC"> run javascript code</font><font color="#E5E5E5"> on the</font>
+
+151
+00:06:22,370 --> 00:06:24,530
+target website<font color="#E5E5E5"> now you can share this</font>
+
+152
+00:06:24,530 --> 00:06:26,930
+link<font color="#CCCCCC"> with any JavaScript code you want</font>
+
+153
+00:06:26,930 --> 00:06:29,630
+and that will<font color="#E5E5E5"> be executed on the</font><font color="#CCCCCC"> target</font>
+
+154
+00:06:29,630 --> 00:06:31,820
+<font color="#CCCCCC">person on the person</font><font color="#E5E5E5"> that runs this link</font>
+
+155
+00:06:31,820 --> 00:06:33,710
+so<font color="#CCCCCC"> you can</font><font color="#E5E5E5"> go ahead and look up any</font>
+
+156
+00:06:33,710 --> 00:06:36,140
+types of codes for JavaScript<font color="#E5E5E5"> or you can</font>
+
+157
+00:06:36,140 --> 00:06:38,390
+use beef<font color="#E5E5E5"> like I'm going to show you in</font>
+
+158
+00:06:38,390 --> 00:06:40,389
+the<font color="#E5E5E5"> next lectures</font>
+
+159
+00:06:40,389 --> 00:06:42,969
+so the take-home message from<font color="#E5E5E5"> this</font>
+
+160
+00:06:42,969 --> 00:06:44,860
+lecture<font color="#CCCCCC"> is the way you exploit</font>
+
+161
+00:06:44,860 --> 00:06:46,930
+<font color="#E5E5E5">vulnerability is not only job not only</font>
+
+162
+00:06:46,930 --> 00:06:49,539
+XSS or SQL<font color="#E5E5E5"> injections any vulnerability</font>
+
+163
+00:06:49,539 --> 00:06:51,490
+is going to vary from website to website
+
+164
+00:06:51,490 --> 00:06:53,830
+<font color="#E5E5E5">so you have to always think</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> it</font>
+
+165
+00:06:53,830 --> 00:06:55,780
+<font color="#E5E5E5">maybe you look at the source code look</font>
+
+166
+00:06:55,780 --> 00:06:57,639
+at how the<font color="#E5E5E5"> data is being transmitted</font>
+
+167
+00:06:57,639 --> 00:06:59,740
+<font color="#CCCCCC">between the websites</font><font color="#E5E5E5"> and try to adapt</font>
+
+168
+00:06:59,740 --> 00:07:04,590
+your exploit to that specific<font color="#CCCCCC"> webpage</font>
+
+169
+00:07:05,380 --> 00:07:08,270
+<font color="#E5E5E5">okay now let's have a look on a start</font>
+
+170
+00:07:08,270 --> 00:07:11,300
+exercise example<font color="#E5E5E5"> now start exercise is</font>
+
+171
+00:07:11,300 --> 00:07:13,430
+very similar<font color="#E5E5E5"> to</font><font color="#CCCCCC"> a reflected one</font><font color="#E5E5E5"> it</font>
+
+172
+00:07:13,430 --> 00:07:16,340
+allows you to<font color="#E5E5E5"> inject JavaScript code</font>
+
+173
+00:07:16,340 --> 00:07:18,979
+into<font color="#CCCCCC"> the browser the code is executed on</font>
+
+174
+00:07:18,979 --> 00:07:20,990
+<font color="#CCCCCC">the people</font><font color="#E5E5E5"> that visit</font><font color="#CCCCCC"> the page</font><font color="#E5E5E5"> the only</font>
+
+175
+00:07:20,990 --> 00:07:23,120
+<font color="#E5E5E5">difference is with this with the</font>
+
+176
+00:07:23,120 --> 00:07:25,430
+reflected you have to send<font color="#E5E5E5"> the URL</font><font color="#CCCCCC"> to</font>
+
+177
+00:07:25,430 --> 00:07:27,229
+<font color="#E5E5E5">your target so the target had to</font>
+
+178
+00:07:27,229 --> 00:07:29,720
+<font color="#E5E5E5">actually click on a URL for the exploit</font>
+
+179
+00:07:29,720 --> 00:07:33,550
+<font color="#E5E5E5">to run or for the code to run and the</font>
+
+180
+00:07:33,550 --> 00:07:36,979
+<font color="#E5E5E5">start XSS the code will actually be</font>
+
+181
+00:07:36,979 --> 00:07:39,259
+stored into<font color="#CCCCCC"> the database or into the</font>
+
+182
+00:07:39,259 --> 00:07:42,470
+page so every time any person runs that
+
+183
+00:07:42,470 --> 00:07:44,750
+page they will see<font color="#E5E5E5"> your code and your</font>
+
+184
+00:07:44,750 --> 00:07:46,789
+code will be executed<font color="#CCCCCC"> so you won't need</font>
+
+185
+00:07:46,789 --> 00:07:49,009
+to<font color="#CCCCCC"> interact with any users or send them</font>
+
+186
+00:07:49,009 --> 00:07:51,919
+anything<font color="#E5E5E5"> therefore</font><font color="#CCCCCC"> this could be much</font>
+
+187
+00:07:51,919 --> 00:07:55,789
+more dangerous<font color="#CCCCCC"> than reflected XSS so</font>
+
+188
+00:07:55,789 --> 00:07:57,470
+let's have a look on<font color="#E5E5E5"> this now I'm I</font>
+
+189
+00:07:57,470 --> 00:08:00,650
+clicked on<font color="#E5E5E5"> the XSS stored here on the</font>
+
+190
+00:08:00,650 --> 00:08:02,750
+left<font color="#E5E5E5"> and you have this page and this</font>
+
+191
+00:08:02,750 --> 00:08:06,590
+page<font color="#E5E5E5"> just allows you to add a message to</font>
+
+192
+00:08:06,590 --> 00:08:08,509
+the system so I'm<font color="#E5E5E5"> going to put my</font><font color="#CCCCCC"> name</font>
+
+193
+00:08:08,509 --> 00:08:11,720
+as<font color="#CCCCCC"> ade we're just going to do a</font><font color="#E5E5E5"> normal</font>
+
+194
+00:08:11,720 --> 00:08:14,389
+test first<font color="#CCCCCC"> and we're gonna put a</font><font color="#E5E5E5"> message</font>
+
+195
+00:08:14,389 --> 00:08:19,009
+body<font color="#CCCCCC"> for example and then I'm gonna sign</font>
+
+196
+00:08:19,009 --> 00:08:21,050
+the guestbook<font color="#CCCCCC"> and you can see that Zaid</font>
+
+197
+00:08:21,050 --> 00:08:24,770
+added a message called message body<font color="#E5E5E5"> so</font>
+
+198
+00:08:24,770 --> 00:08:29,240
+if you<font color="#E5E5E5"> would go to here</font><font color="#CCCCCC"> into</font><font color="#E5E5E5"> another</font>
+
+199
+00:08:29,240 --> 00:08:31,070
+machine<font color="#E5E5E5"> so this is a different machine</font>
+
+200
+00:08:31,070 --> 00:08:33,620
+into a different place<font color="#E5E5E5"> and if we go into</font>
+
+201
+00:08:33,620 --> 00:08:35,929
+<font color="#E5E5E5">XSS</font><font color="#CCCCCC"> store</font><font color="#E5E5E5"> we can</font><font color="#CCCCCC"> see that there is</font><font color="#E5E5E5"> two</font>
+
+202
+00:08:35,929 --> 00:08:37,700
+<font color="#CCCCCC">entries so the entries are being loaded</font>
+
+203
+00:08:37,700 --> 00:08:40,429
+<font color="#E5E5E5">from</font><font color="#CCCCCC"> the database and that they contain</font>
+
+204
+00:08:40,429 --> 00:08:43,309
+the entries<font color="#CCCCCC"> in</font><font color="#E5E5E5"> that database so</font><font color="#CCCCCC"> if we</font>
+
+205
+00:08:43,309 --> 00:08:46,040
+<font color="#CCCCCC">managed to inject code in here</font><font color="#E5E5E5"> then any</font>
+
+206
+00:08:46,040 --> 00:08:48,500
+person who runs this page the code will
+
+207
+00:08:48,500 --> 00:08:50,660
+run<font color="#E5E5E5"> on it without even having to send</font>
+
+208
+00:08:50,660 --> 00:08:53,060
+<font color="#E5E5E5">that</font><font color="#CCCCCC"> person anything</font><font color="#E5E5E5"> so let's try to</font>
+
+209
+00:08:53,060 --> 00:08:55,790
+<font color="#E5E5E5">inject stuff here</font><font color="#CCCCCC"> so let's put my name</font>
+
+210
+00:08:55,790 --> 00:08:59,450
+as a and I'm gonna<font color="#E5E5E5"> try to put my code in</font>
+
+211
+00:08:59,450 --> 00:09:00,890
+here<font color="#CCCCCC"> so I'm going to try to</font><font color="#E5E5E5"> inject into</font>
+
+212
+00:09:00,890 --> 00:09:03,350
+the<font color="#E5E5E5"> message</font><font color="#CCCCCC"> I'm</font><font color="#E5E5E5"> gonna put it as script</font>
+
+213
+00:09:03,350 --> 00:09:06,050
+<font color="#E5E5E5">I'm</font><font color="#CCCCCC"> gonna use the exact same test code</font>
+
+214
+00:09:06,050 --> 00:09:07,790
+that we used in the<font color="#E5E5E5"> previous video</font><font color="#CCCCCC"> just</font>
+
+215
+00:09:07,790 --> 00:09:10,490
+<font color="#CCCCCC">a message saying XSS again very basic</font>
+
+216
+00:09:10,490 --> 00:09:14,360
+code<font color="#E5E5E5"> but it serves</font><font color="#CCCCCC"> for the purposes of</font>
+
+217
+00:09:14,360 --> 00:09:19,089
+this<font color="#CCCCCC"> video</font><font color="#E5E5E5"> and we're going</font><font color="#CCCCCC"> to say alert</font>
+
+218
+00:09:19,990 --> 00:09:23,650
+<font color="#CCCCCC">xs/s</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> i'm gonna try</font><font color="#E5E5E5"> to sign the</font>
+
+219
+00:09:23,650 --> 00:09:26,050
+guestbook<font color="#CCCCCC"> and as you can</font><font color="#E5E5E5"> see</font><font color="#CCCCCC"> now</font><font color="#E5E5E5"> I got</font>
+
+220
+00:09:26,050 --> 00:09:29,200
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> XSS here but the real magic happens</font>
+
+221
+00:09:29,200 --> 00:09:31,630
+<font color="#CCCCCC">when a</font><font color="#E5E5E5"> normal person</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> let's just go</font>
+
+222
+00:09:31,630 --> 00:09:33,970
+home first<font color="#CCCCCC"> and let's assume</font><font color="#E5E5E5"> this is</font><font color="#CCCCCC"> just</font>
+
+223
+00:09:33,970 --> 00:09:36,070
+<font color="#CCCCCC">a normal website and people just are</font>
+
+224
+00:09:36,070 --> 00:09:38,170
+<font color="#CCCCCC">coming and browsing it and once they're</font>
+
+225
+00:09:38,170 --> 00:09:40,240
+gonna go to<font color="#E5E5E5"> the guestbook</font><font color="#CCCCCC"> javascript</font>
+
+226
+00:09:40,240 --> 00:09:42,520
+code will be executed<font color="#CCCCCC"> on their system</font>
+
+227
+00:09:42,520 --> 00:09:44,710
+<font color="#E5E5E5">from that website</font><font color="#CCCCCC"> so the code is</font><font color="#E5E5E5"> coming</font>
+
+228
+00:09:44,710 --> 00:09:46,720
+<font color="#E5E5E5">from</font><font color="#CCCCCC"> that website and it's going</font><font color="#E5E5E5"> to be</font>
+
+229
+00:09:46,720 --> 00:09:49,420
+executed<font color="#E5E5E5"> on every person that visits</font>
+
+230
+00:09:49,420 --> 00:09:53,920
+this page again<font color="#E5E5E5"> we're just</font><font color="#CCCCCC"> showing a</font>
+
+231
+00:09:53,920 --> 00:09:56,260
+proof of concept here<font color="#CCCCCC"> in future videos</font>
+
+232
+00:09:56,260 --> 00:09:58,840
+<font color="#E5E5E5">will</font><font color="#CCCCCC"> show how to further exploit this</font>
+
+233
+00:09:58,840 --> 00:10:01,860
+kind of<font color="#E5E5E5"> vulnerability</font>
+
+234
+00:10:02,840 --> 00:10:05,600
+<font color="#E5E5E5">okay now let's go ahead and have a look</font>
+
+235
+00:10:05,600 --> 00:10:08,150
+<font color="#E5E5E5">on the medium security level and see if</font>
+
+236
+00:10:08,150 --> 00:10:10,880
+we can exploit this third cross-site
+
+237
+00:10:10,880 --> 00:10:13,490
+scripting vulnerability<font color="#E5E5E5"> now before you</font>
+
+238
+00:10:13,490 --> 00:10:15,560
+do<font color="#CCCCCC"> anything because</font><font color="#E5E5E5"> this page will</font>
+
+239
+00:10:15,560 --> 00:10:17,420
+automatically contain code that will run
+
+240
+00:10:17,420 --> 00:10:19,940
+<font color="#CCCCCC">every time the page works</font><font color="#E5E5E5"> you can go to</font>
+
+241
+00:10:19,940 --> 00:10:22,880
+set up and reset database<font color="#E5E5E5"> this will</font>
+
+242
+00:10:22,880 --> 00:10:25,100
+<font color="#CCCCCC">basically reset reset everything and</font>
+
+243
+00:10:25,100 --> 00:10:28,279
+when you go<font color="#E5E5E5"> back to</font><font color="#CCCCCC"> this third XSS</font>
+
+244
+00:10:28,279 --> 00:10:30,260
+<font color="#E5E5E5">nothing is going to</font><font color="#CCCCCC"> work because all the</font>
+
+245
+00:10:30,260 --> 00:10:33,170
+records will<font color="#CCCCCC"> be deleted now I'm also</font>
+
+246
+00:10:33,170 --> 00:10:35,210
+going<font color="#CCCCCC"> to go to the security and</font><font color="#E5E5E5"> I'm</font>
+
+247
+00:10:35,210 --> 00:10:38,600
+<font color="#E5E5E5">gonna set the security</font><font color="#CCCCCC"> to medium submit</font>
+
+248
+00:10:38,600 --> 00:10:43,100
+<font color="#E5E5E5">it and go back to our store now in the</font>
+
+249
+00:10:43,100 --> 00:10:46,040
+medium<font color="#CCCCCC"> security level the message</font><font color="#E5E5E5"> text</font>
+
+250
+00:10:46,040 --> 00:10:48,290
+box is not injectable and we'll talk
+
+251
+00:10:48,290 --> 00:10:49,820
+about<font color="#E5E5E5"> that in the next video</font>
+
+252
+00:10:49,820 --> 00:10:52,130
+for now I'm Olga<font color="#E5E5E5"> I'm going to try to</font>
+
+253
+00:10:52,130 --> 00:10:55,910
+inject<font color="#E5E5E5"> in the name so first of all we're</font>
+
+254
+00:10:55,910 --> 00:10:58,490
+<font color="#E5E5E5">gonna try our code that we always use so</font>
+
+255
+00:10:58,490 --> 00:11:00,470
+it's just<font color="#E5E5E5"> not the normal code with</font>
+
+256
+00:11:00,470 --> 00:11:03,970
+<font color="#E5E5E5">capitalizing some of the letters</font>
+
+257
+00:11:04,060 --> 00:11:05,620
+and you can see that we can't<font color="#CCCCCC"> really</font>
+
+258
+00:11:05,620 --> 00:11:07,180
+write much in the name<font color="#E5E5E5"> because it's</font>
+
+259
+00:11:07,180 --> 00:11:09,730
+limited to<font color="#CCCCCC"> ten</font><font color="#E5E5E5"> characters this can be</font>
+
+260
+00:11:09,730 --> 00:11:12,790
+easily bypassed<font color="#CCCCCC"> by right click inspect</font>
+
+261
+00:11:12,790 --> 00:11:16,030
+element to see the code<font color="#CCCCCC"> and then we're</font>
+
+262
+00:11:16,030 --> 00:11:19,410
+<font color="#CCCCCC">gonna change the max length here to</font><font color="#E5E5E5"> 100</font>
+
+263
+00:11:19,410 --> 00:11:22,410
+then<font color="#E5E5E5"> we can put</font><font color="#CCCCCC"> 100 characters</font><font color="#E5E5E5"> in here</font>
+
+264
+00:11:22,410 --> 00:11:24,640
+so again I'm just<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> paste my code</font>
+
+265
+00:11:24,640 --> 00:11:28,450
+<font color="#E5E5E5">and I'm gonna put anything</font><font color="#CCCCCC"> here sign the</font>
+
+266
+00:11:28,450 --> 00:11:30,100
+guestbook
+
+267
+00:11:30,100 --> 00:11:32,800
+now as you can<font color="#CCCCCC"> see we managed to bypass</font>
+
+268
+00:11:32,800 --> 00:11:37,000
+it<font color="#CCCCCC"> just like that</font><font color="#E5E5E5"> what I also want to</font>
+
+269
+00:11:37,000 --> 00:11:39,970
+show<font color="#E5E5E5"> you is</font><font color="#CCCCCC"> how to run one of these</font>
+
+270
+00:11:39,970 --> 00:11:42,820
+discovery payloads<font color="#CCCCCC"> without using a quote</font>
+
+271
+00:11:42,820 --> 00:11:46,000
+<font color="#E5E5E5">so some websites would use filtering on</font>
+
+272
+00:11:46,000 --> 00:11:48,130
+single quotes or even<font color="#E5E5E5"> double quotes and</font>
+
+273
+00:11:48,130 --> 00:11:50,590
+they'd be removing them<font color="#E5E5E5"> so what you</font>
+
+274
+00:11:50,590 --> 00:11:54,210
+could do is you can<font color="#E5E5E5"> try to</font><font color="#CCCCCC"> use this</font>
+
+275
+00:11:54,210 --> 00:11:57,640
+function shrank from<font color="#E5E5E5"> chart code and</font>
+
+276
+00:11:57,640 --> 00:11:59,740
+instead<font color="#CCCCCC"> of</font><font color="#E5E5E5"> putting a string in here</font>
+
+277
+00:11:59,740 --> 00:12:01,810
+<font color="#CCCCCC">exactly the same</font><font color="#E5E5E5"> way that we did with</font>
+
+278
+00:12:01,810 --> 00:12:05,380
+SQL when we used hex<font color="#E5E5E5"> in this case we're</font>
+
+279
+00:12:05,380 --> 00:12:07,990
+<font color="#CCCCCC">gonna</font><font color="#E5E5E5"> convert the</font><font color="#CCCCCC"> string or the text to</font>
+
+280
+00:12:07,990 --> 00:12:11,470
+char code so you<font color="#CCCCCC"> can</font><font color="#E5E5E5"> do that from</font><font color="#CCCCCC"> Google</font>
+
+281
+00:12:11,470 --> 00:12:16,200
+if you just<font color="#CCCCCC"> Google char code calculator</font>
+
+282
+00:12:18,980 --> 00:12:20,810
+and I'm gonna put this link in<font color="#E5E5E5"> the</font>
+
+283
+00:12:20,810 --> 00:12:22,190
+description we're gonna use the<font color="#CCCCCC"> first</font>
+
+284
+00:12:22,190 --> 00:12:25,340
+one<font color="#E5E5E5"> and I'm just</font><font color="#CCCCCC"> gonna put I'm gonna</font>
+
+285
+00:12:25,340 --> 00:12:26,000
+call this one
+
+286
+00:12:26,000 --> 00:12:29,270
+XS<font color="#CCCCCC"> 2 so we don't get a mixed up</font><font color="#E5E5E5"> with the</font>
+
+287
+00:12:29,270 --> 00:12:29,930
+first<font color="#E5E5E5"> one</font>
+
+288
+00:12:29,930 --> 00:12:32,840
+<font color="#CCCCCC">and I'm</font><font color="#E5E5E5"> gonna get its code so this is</font>
+
+289
+00:12:32,840 --> 00:12:35,470
+its code
+
+290
+00:12:35,829 --> 00:12:39,160
+we're gonna copy<font color="#E5E5E5"> that</font><font color="#CCCCCC"> and we're gonna</font>
+
+291
+00:12:39,160 --> 00:12:42,970
+substitute<font color="#E5E5E5"> it in here</font><font color="#CCCCCC"> and then we're</font>
+
+292
+00:12:42,970 --> 00:12:44,350
+gonna run this so this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> be</font>
+
+293
+00:12:44,350 --> 00:12:46,869
+normal<font color="#CCCCCC"> and I'm also just I</font><font color="#E5E5E5"> made one of</font>
+
+294
+00:12:46,869 --> 00:12:48,879
+the<font color="#E5E5E5"> peas small in here and I made one of</font>
+
+295
+00:12:48,879 --> 00:12:51,040
+the<font color="#CCCCCC"> she's small just</font><font color="#E5E5E5"> so that we can</font>
+
+296
+00:12:51,040 --> 00:12:52,779
+bypass<font color="#E5E5E5"> any filters if they're checking</font>
+
+297
+00:12:52,779 --> 00:12:54,610
+for<font color="#CCCCCC"> a script and</font><font color="#E5E5E5"> then we're using</font>
+
+298
+00:12:54,610 --> 00:12:56,679
+instead<font color="#E5E5E5"> of putting the text in here</font>
+
+299
+00:12:56,679 --> 00:12:58,360
+between these two<font color="#E5E5E5"> brackets we're</font>
+
+300
+00:12:58,360 --> 00:13:01,299
+actually saying string.fromcharcode<font color="#CCCCCC"> so</font>
+
+301
+00:13:01,299 --> 00:13:03,939
+basically decode this char code and then
+
+302
+00:13:03,939 --> 00:13:07,660
+run it as a string so let's<font color="#CCCCCC"> go ahead</font><font color="#E5E5E5"> and</font>
+
+303
+00:13:07,660 --> 00:13:09,429
+run this<font color="#CCCCCC"> and</font><font color="#E5E5E5"> see if it works now we're</font>
+
+304
+00:13:09,429 --> 00:13:11,170
+gonna add it again<font color="#E5E5E5"> we're gonna have to</font>
+
+305
+00:13:11,170 --> 00:13:15,209
+change the name<font color="#E5E5E5"> to 100 in here</font>
+
+306
+00:13:16,060 --> 00:13:18,490
+and then I'm gonna<font color="#E5E5E5"> inject it put</font>
+
+307
+00:13:18,490 --> 00:13:21,250
+anything in here<font color="#CCCCCC"> sign it</font><font color="#E5E5E5"> this is the</font>
+
+308
+00:13:21,250 --> 00:13:24,970
+first<font color="#CCCCCC"> XSS the first entry and as you can</font>
+
+309
+00:13:24,970 --> 00:13:27,160
+<font color="#CCCCCC">see our second entry is being executed</font>
+
+310
+00:13:27,160 --> 00:13:29,890
+<font color="#E5E5E5">and we managed</font><font color="#CCCCCC"> to execute</font><font color="#E5E5E5"> this second</font>
+
+311
+00:13:29,890 --> 00:13:32,110
+entry<font color="#CCCCCC"> without putting any quotes in the</font>
+
+312
+00:13:32,110 --> 00:13:34,470
+payload
+
+313
+00:13:37,420 --> 00:13:40,579
+so far we've seen<font color="#E5E5E5"> how</font><font color="#CCCCCC"> to discover XSS</font>
+
+314
+00:13:40,579 --> 00:13:43,029
+vulnerabilities<font color="#E5E5E5"> we had a look on</font>
+
+315
+00:13:43,029 --> 00:13:46,370
+reflected stored and<font color="#E5E5E5"> Dom based and we</font>
+
+316
+00:13:46,370 --> 00:13:48,319
+also seen a few ways on how<font color="#E5E5E5"> to bypass</font>
+
+317
+00:13:48,319 --> 00:13:51,949
+<font color="#E5E5E5">security and how to edit our payload so</font>
+
+318
+00:13:51,949 --> 00:13:54,829
+that it works<font color="#E5E5E5"> on</font><font color="#CCCCCC"> different situations</font><font color="#E5E5E5"> we</font>
+
+319
+00:13:54,829 --> 00:13:56,209
+still haven't<font color="#E5E5E5"> seen any good way of</font>
+
+320
+00:13:56,209 --> 00:13:58,250
+<font color="#E5E5E5">exploiting these vulnerabilities though</font>
+
+321
+00:13:58,250 --> 00:14:01,129
+<font color="#E5E5E5">all we did was</font><font color="#CCCCCC"> run a code saying</font><font color="#E5E5E5"> alert</font>
+
+322
+00:14:01,129 --> 00:14:04,790
+XSS or<font color="#E5E5E5"> alert any message</font><font color="#CCCCCC"> that we want so</font>
+
+323
+00:14:04,790 --> 00:14:06,439
+in this<font color="#E5E5E5"> lecture and</font><font color="#CCCCCC"> the next</font><font color="#E5E5E5"> few</font>
+
+324
+00:14:06,439 --> 00:14:07,879
+lectures we're actually going to<font color="#E5E5E5"> see how</font>
+
+325
+00:14:07,879 --> 00:14:10,819
+we can exploit<font color="#E5E5E5"> machines that visit these</font>
+
+326
+00:14:10,819 --> 00:14:13,279
+vulnerable web pages<font color="#E5E5E5"> and we're</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> do</font>
+
+327
+00:14:13,279 --> 00:14:15,199
+<font color="#E5E5E5">that using a framework called</font><font color="#CCCCCC"> leaf</font>
+
+328
+00:14:15,199 --> 00:14:18,680
+framework what<font color="#E5E5E5"> p f-- does it allows</font><font color="#CCCCCC"> us</font>
+
+329
+00:14:18,680 --> 00:14:20,569
+<font color="#E5E5E5">to run a large number of commands to</font>
+
+330
+00:14:20,569 --> 00:14:23,569
+<font color="#CCCCCC">hook browsers and to hook a browser to B</font>
+
+331
+00:14:23,569 --> 00:14:26,389
+if a<font color="#CCCCCC"> javascript code</font><font color="#E5E5E5"> has to be</font><font color="#CCCCCC"> executed</font>
+
+332
+00:14:26,389 --> 00:14:29,509
+on<font color="#E5E5E5"> that browser and because</font><font color="#CCCCCC"> beef</font><font color="#E5E5E5"> uses</font>
+
+333
+00:14:29,509 --> 00:14:32,120
+<font color="#CCCCCC">JavaScript</font><font color="#E5E5E5"> it's very easy for</font><font color="#CCCCCC"> us to</font>
+
+334
+00:14:32,120 --> 00:14:35,540
+inject<font color="#CCCCCC"> that code into</font><font color="#E5E5E5"> XSS vulnerable web</font>
+
+335
+00:14:35,540 --> 00:14:37,899
+<font color="#E5E5E5">pages and that code will be executed</font>
+
+336
+00:14:37,899 --> 00:14:40,930
+<font color="#CCCCCC">every time a person runs that page so</font>
+
+337
+00:14:40,930 --> 00:14:43,279
+<font color="#CCCCCC">all</font><font color="#E5E5E5"> this is going to become</font><font color="#CCCCCC"> more clear</font>
+
+338
+00:14:43,279 --> 00:14:46,670
+<font color="#CCCCCC">let us just run beef and get it set up</font>
+
+339
+00:14:46,670 --> 00:14:48,439
+<font color="#E5E5E5">and get someone hooked to it in this</font>
+
+340
+00:14:48,439 --> 00:14:50,420
+video<font color="#E5E5E5"> and in</font><font color="#CCCCCC"> the next videos</font><font color="#E5E5E5"> we'll be</font>
+
+341
+00:14:50,420 --> 00:14:52,459
+<font color="#CCCCCC">running</font><font color="#E5E5E5"> our commands and you'll see it</font>
+
+342
+00:14:52,459 --> 00:14:54,110
+will<font color="#E5E5E5"> become much</font><font color="#CCCCCC"> more clear on how to</font>
+
+343
+00:14:54,110 --> 00:14:56,930
+use beef so I'm gonna go to my Kali
+
+344
+00:14:56,930 --> 00:14:59,300
+Linux and<font color="#CCCCCC"> the first thing I'm gonna do</font>
+
+345
+00:14:59,300 --> 00:15:02,200
+<font color="#CCCCCC">is just run beef here from its icon</font>
+
+346
+00:15:02,200 --> 00:15:04,180
+give it some<font color="#CCCCCC"> time and it</font><font color="#E5E5E5"> will start it</font>
+
+347
+00:15:04,180 --> 00:15:05,920
+will automatically start<font color="#CCCCCC"> the</font><font color="#E5E5E5"> browser for</font>
+
+348
+00:15:05,920 --> 00:15:08,040
+you
+
+349
+00:15:09,120 --> 00:15:13,990
+so now to<font color="#E5E5E5"> login the</font><font color="#CCCCCC"> username is</font><font color="#E5E5E5"> beef</font>
+
+350
+00:15:13,990 --> 00:15:17,130
+<font color="#E5E5E5">password disbelief as</font><font color="#CCCCCC"> well</font>
+
+351
+00:15:17,870 --> 00:15:20,630
+so this is the main<font color="#CCCCCC"> screen of beef</font><font color="#E5E5E5"> you</font>
+
+352
+00:15:20,630 --> 00:15:22,340
+can<font color="#CCCCCC"> see here on the left you have online</font>
+
+353
+00:15:22,340 --> 00:15:25,580
+browsers<font color="#E5E5E5"> and this will basically list</font>
+
+354
+00:15:25,580 --> 00:15:27,650
+<font color="#CCCCCC">all the browsers that are</font><font color="#E5E5E5"> hooked to be</font>
+
+355
+00:15:27,650 --> 00:15:29,660
+at the<font color="#E5E5E5"> moment you can see</font><font color="#CCCCCC"> that we have</font>
+
+356
+00:15:29,660 --> 00:15:32,060
+nothing<font color="#E5E5E5"> hooked to it</font><font color="#CCCCCC"> and on the right</font>
+
+357
+00:15:32,060 --> 00:15:33,830
+<font color="#E5E5E5">once you</font><font color="#CCCCCC"> click on</font><font color="#E5E5E5"> a hooked browser</font>
+
+358
+00:15:33,830 --> 00:15:35,930
+<font color="#CCCCCC">you'll be able</font><font color="#E5E5E5"> to run your commands in</font>
+
+359
+00:15:35,930 --> 00:15:38,690
+here again in this<font color="#E5E5E5"> lecture and future</font>
+
+360
+00:15:38,690 --> 00:15:40,340
+lectures<font color="#CCCCCC"> we'll</font><font color="#E5E5E5"> be running some commands</font>
+
+361
+00:15:40,340 --> 00:15:42,260
+so<font color="#E5E5E5"> it will become more clear</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> you</font><font color="#CCCCCC"> so</font>
+
+362
+00:15:42,260 --> 00:15:44,780
+<font color="#CCCCCC">right now let's</font><font color="#E5E5E5"> go ahead and try to go</font>
+
+363
+00:15:44,780 --> 00:15:47,630
+and get some people<font color="#E5E5E5"> hooked to beef now</font>
+
+364
+00:15:47,630 --> 00:15:49,520
+there's a<font color="#CCCCCC"> number of methods that you</font><font color="#E5E5E5"> can</font>
+
+365
+00:15:49,520 --> 00:15:51,650
+do to hook<font color="#CCCCCC"> people</font><font color="#E5E5E5"> to be if what we're</font>
+
+366
+00:15:51,650 --> 00:15:53,480
+interested<font color="#E5E5E5"> in is how to hook them</font>
+
+367
+00:15:53,480 --> 00:15:57,080
+through XSS vulnerabilities<font color="#E5E5E5"> so the main</font>
+
+368
+00:15:57,080 --> 00:15:58,580
+thing that we're<font color="#E5E5E5"> going to be using</font><font color="#CCCCCC"> is</font>
+
+369
+00:15:58,580 --> 00:16:00,770
+<font color="#E5E5E5">the code given to us by beef itself so</font>
+
+370
+00:16:00,770 --> 00:16:02,600
+it's actually<font color="#E5E5E5"> telling us what code</font><font color="#CCCCCC"> to</font>
+
+371
+00:16:02,600 --> 00:16:04,640
+use and as you<font color="#E5E5E5"> can</font><font color="#CCCCCC"> see now this is</font><font color="#E5E5E5"> a</font>
+
+372
+00:16:04,640 --> 00:16:06,770
+<font color="#CCCCCC">JavaScript code</font><font color="#E5E5E5"> similar to the alert</font>
+
+373
+00:16:06,770 --> 00:16:09,650
+code that we were using so the first
+
+374
+00:16:09,650 --> 00:16:12,600
+thing I'm<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to do is copy</font><font color="#E5E5E5"> this</font>
+
+375
+00:16:12,600 --> 00:16:14,970
+and we're gonna paste<font color="#E5E5E5"> that in a leaf pad</font>
+
+376
+00:16:14,970 --> 00:16:16,440
+just<font color="#CCCCCC"> so that I</font><font color="#E5E5E5"> can show you how to</font>
+
+377
+00:16:16,440 --> 00:16:19,009
+modify<font color="#CCCCCC"> it</font>
+
+378
+00:16:20,870 --> 00:16:23,480
+so all you have<font color="#CCCCCC"> to do is just inject</font>
+
+379
+00:16:23,480 --> 00:16:26,000
+this code into<font color="#CCCCCC"> the vulnerable pages one</font>
+
+380
+00:16:26,000 --> 00:16:27,590
+thing that you have to<font color="#CCCCCC"> modify is that</font>
+
+381
+00:16:27,590 --> 00:16:30,080
+you have to add<font color="#CCCCCC"> your IP in here so to</font>
+
+382
+00:16:30,080 --> 00:16:32,000
+<font color="#E5E5E5">get your own IP</font><font color="#CCCCCC"> all you have to do is</font>
+
+383
+00:16:32,000 --> 00:16:34,790
+run if config so I'm just going<font color="#E5E5E5"> to get a</font>
+
+384
+00:16:34,790 --> 00:16:38,550
+<font color="#E5E5E5">terminal</font><font color="#CCCCCC"> and I'm going to run if config</font>
+
+385
+00:16:38,550 --> 00:16:41,610
+and as you can<font color="#E5E5E5"> see now my IP is this so</font>
+
+386
+00:16:41,610 --> 00:16:45,560
+it's 10 2014 208
+
+387
+00:16:46,540 --> 00:16:49,180
+and that's it now the code is ready to
+
+388
+00:16:49,180 --> 00:16:53,070
+be executed<font color="#E5E5E5"> so I'm gonna close this and</font>
+
+389
+00:16:53,070 --> 00:16:56,050
+let's<font color="#E5E5E5"> go to one of</font><font color="#CCCCCC"> our vulnerable web</font>
+
+390
+00:16:56,050 --> 00:16:59,500
+pages<font color="#E5E5E5"> that we were using before so we</font>
+
+391
+00:16:59,500 --> 00:17:03,000
+used<font color="#E5E5E5"> to go and</font><font color="#CCCCCC"> let's go to DB WI</font>
+
+392
+00:17:03,000 --> 00:17:05,159
+so first let's<font color="#CCCCCC"> just go</font><font color="#E5E5E5"> and set the</font>
+
+393
+00:17:05,159 --> 00:17:08,490
+<font color="#CCCCCC">security to low</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> seen how to</font><font color="#E5E5E5"> bypass</font>
+
+394
+00:17:08,490 --> 00:17:10,140
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> security so I don't want to</font><font color="#E5E5E5"> make</font>
+
+395
+00:17:10,140 --> 00:17:11,640
+this video too complicated
+
+396
+00:17:11,640 --> 00:17:16,020
+and let's have<font color="#E5E5E5"> a look on an example on a</font>
+
+397
+00:17:16,020 --> 00:17:19,530
+reflected one so if we go on a reflected
+
+398
+00:17:19,530 --> 00:17:22,079
+XSS and remember when we<font color="#CCCCCC"> used to put the</font>
+
+399
+00:17:22,079 --> 00:17:24,270
+name<font color="#CCCCCC"> here and the name gets displayed so</font>
+
+400
+00:17:24,270 --> 00:17:26,280
+we used to<font color="#E5E5E5"> just put our script instead</font>
+
+401
+00:17:26,280 --> 00:17:28,470
+<font color="#CCCCCC">of the name and that gets executed</font><font color="#E5E5E5"> as</font>
+
+402
+00:17:28,470 --> 00:17:31,140
+<font color="#CCCCCC">well</font><font color="#E5E5E5"> so instead</font><font color="#CCCCCC"> of doing</font><font color="#E5E5E5"> an alert we're</font>
+
+403
+00:17:31,140 --> 00:17:34,049
+actually<font color="#CCCCCC"> gonna run</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> like this so this</font>
+
+404
+00:17:34,049 --> 00:17:36,860
+was<font color="#E5E5E5"> our code</font>
+
+405
+00:17:37,060 --> 00:17:39,490
+and we used to do<font color="#E5E5E5"> this to get our code</font>
+
+406
+00:17:39,490 --> 00:17:41,740
+to<font color="#CCCCCC"> be executed so let's just have an</font>
+
+407
+00:17:41,740 --> 00:17:44,820
+example<font color="#E5E5E5"> on it as well</font>
+
+408
+00:17:50,140 --> 00:17:54,370
+and as you can<font color="#E5E5E5"> see you get access s so</font>
+
+409
+00:17:54,370 --> 00:17:55,990
+we're using exactly the<font color="#CCCCCC"> same code or</font>
+
+410
+00:17:55,990 --> 00:17:58,270
+exactly<font color="#E5E5E5"> the same concept except were</font>
+
+411
+00:17:58,270 --> 00:17:59,890
+changing the payload instead of saying
+
+412
+00:17:59,890 --> 00:18:01,720
+in alert<font color="#E5E5E5"> we're actually going to put</font>
+
+413
+00:18:01,720 --> 00:18:03,640
+<font color="#CCCCCC">this code we're</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to ask</font><font color="#E5E5E5"> for this</font>
+
+414
+00:18:03,640 --> 00:18:07,510
+<font color="#E5E5E5">code to be executed so we're just going</font>
+
+415
+00:18:07,510 --> 00:18:11,160
+to<font color="#E5E5E5"> modify</font><font color="#CCCCCC"> that and put it in</font><font color="#E5E5E5"> here</font>
+
+416
+00:18:12,790 --> 00:18:14,800
+so this URL is ready<font color="#E5E5E5"> now and you can</font>
+
+417
+00:18:14,800 --> 00:18:17,110
+send it<font color="#CCCCCC"> to any person and once they</font>
+
+418
+00:18:17,110 --> 00:18:20,170
+execute this URL<font color="#E5E5E5"> they will be hooked to</font>
+
+419
+00:18:20,170 --> 00:18:22,240
+beef and then you'll<font color="#E5E5E5"> be able to run all</font>
+
+420
+00:18:22,240 --> 00:18:24,310
+the commands<font color="#CCCCCC"> that beef allow you to run</font>
+
+421
+00:18:24,310 --> 00:18:26,980
+<font color="#E5E5E5">now you can go ahead and change this URL</font>
+
+422
+00:18:26,980 --> 00:18:29,560
+using<font color="#E5E5E5"> a URL shortening service</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> to</font>
+
+423
+00:18:29,560 --> 00:18:31,630
+make it<font color="#CCCCCC"> look less suspicious so let's</font>
+
+424
+00:18:31,630 --> 00:18:32,950
+just have an example<font color="#CCCCCC"> I'm actually going</font>
+
+425
+00:18:32,950 --> 00:18:34,810
+to<font color="#E5E5E5"> execute this code and mice</font><font color="#CCCCCC"> in the</font>
+
+426
+00:18:34,810 --> 00:18:36,250
+same browser which I<font color="#E5E5E5"> shouldn't I should</font>
+
+427
+00:18:36,250 --> 00:18:37,300
+probably<font color="#E5E5E5"> do it on a</font><font color="#CCCCCC"> different machine</font>
+
+428
+00:18:37,300 --> 00:18:40,180
+<font color="#E5E5E5">but we'll do it</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> here just to</font><font color="#CCCCCC"> show</font>
+
+429
+00:18:40,180 --> 00:18:43,270
+<font color="#E5E5E5">you the proof of concept so we</font><font color="#CCCCCC"> run this</font>
+
+430
+00:18:43,270 --> 00:18:47,550
+here<font color="#E5E5E5"> and if</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> go to beef now</font>
+
+431
+00:18:47,970 --> 00:18:50,460
+now I've<font color="#E5E5E5"> actually mistyped with my IP</font>
+
+432
+00:18:50,460 --> 00:18:55,669
+here it's it's<font color="#E5E5E5"> 10 2014 not</font><font color="#CCCCCC"> 10 14</font><font color="#E5E5E5"> twenty</font>
+
+433
+00:18:55,970 --> 00:19:01,110
+so this is my IP<font color="#E5E5E5"> I'm just gonna fix that</font>
+
+434
+00:19:01,110 --> 00:19:04,220
+<font color="#E5E5E5">paste it here</font>
+
+435
+00:19:06,520 --> 00:19:09,850
+and if we go<font color="#CCCCCC"> to beef</font><font color="#E5E5E5"> you'll see that we</font>
+
+436
+00:19:09,850 --> 00:19:12,490
+have<font color="#CCCCCC"> an online browser</font><font color="#E5E5E5"> and a person is</font>
+
+437
+00:19:12,490 --> 00:19:14,320
+hooked now we can click on this<font color="#E5E5E5"> and run</font>
+
+438
+00:19:14,320 --> 00:19:15,910
+the commands<font color="#E5E5E5"> but I'm going to leave</font><font color="#CCCCCC"> that</font>
+
+439
+00:19:15,910 --> 00:19:18,840
+<font color="#CCCCCC">for</font><font color="#E5E5E5"> a different</font><font color="#CCCCCC"> lecture</font>
+
+440
+00:19:20,150 --> 00:19:22,760
+now I want to show you an example<font color="#E5E5E5"> of</font>
+
+441
+00:19:22,760 --> 00:19:24,590
+this third because in my<font color="#CCCCCC"> opinion this</font>
+
+442
+00:19:24,590 --> 00:19:26,960
+third is much more dangerous<font color="#E5E5E5"> in this</font>
+
+443
+00:19:26,960 --> 00:19:29,480
+<font color="#E5E5E5">case the</font><font color="#CCCCCC"> reason being is you don't have</font>
+
+444
+00:19:29,480 --> 00:19:31,970
+to send<font color="#E5E5E5"> anything the code will</font><font color="#CCCCCC"> actually</font>
+
+445
+00:19:31,970 --> 00:19:34,070
+be executed<font color="#CCCCCC"> in this third page now these</font>
+
+446
+00:19:34,070 --> 00:19:36,190
+are just<font color="#CCCCCC"> old codes that I have injected</font>
+
+447
+00:19:36,190 --> 00:19:39,290
+the code will be<font color="#E5E5E5"> executed will be stored</font>
+
+448
+00:19:39,290 --> 00:19:41,330
+<font color="#E5E5E5">in this page so</font><font color="#CCCCCC"> that every person that</font>
+
+449
+00:19:41,330 --> 00:19:43,670
+just visits<font color="#E5E5E5"> this page you don't have to</font>
+
+450
+00:19:43,670 --> 00:19:45,290
+actually<font color="#E5E5E5"> send anything to any person</font>
+
+451
+00:19:45,290 --> 00:19:48,410
+<font color="#E5E5E5">whenever someone visits this page the</font>
+
+452
+00:19:48,410 --> 00:19:50,900
+code will be executed<font color="#CCCCCC"> another thing is</font>
+
+453
+00:19:50,900 --> 00:19:53,540
+that you<font color="#CCCCCC"> won't</font><font color="#E5E5E5"> have this suspicious code</font>
+
+454
+00:19:53,540 --> 00:19:56,930
+in the URL<font color="#CCCCCC"> so again you can</font><font color="#E5E5E5"> you can just</font>
+
+455
+00:19:56,930 --> 00:19:58,700
+<font color="#E5E5E5">go ahead and</font><font color="#CCCCCC"> send</font><font color="#E5E5E5"> this URL if you really</font>
+
+456
+00:19:58,700 --> 00:20:01,820
+<font color="#CCCCCC">wanted to</font><font color="#E5E5E5"> someone</font><font color="#CCCCCC"> to visit</font><font color="#E5E5E5"> it but your L</font>
+
+457
+00:20:01,820 --> 00:20:03,830
+is<font color="#CCCCCC"> just</font><font color="#E5E5E5"> gonna look as a normal URL and</font>
+
+458
+00:20:03,830 --> 00:20:05,480
+keep in<font color="#CCCCCC"> mind</font><font color="#E5E5E5"> if you find this</font>
+
+459
+00:20:05,480 --> 00:20:08,900
+vulnerability<font color="#E5E5E5"> in a famous website or in</font>
+
+460
+00:20:08,900 --> 00:20:11,030
+a trusted website<font color="#CCCCCC"> then</font><font color="#E5E5E5"> people will</font><font color="#CCCCCC"> visit</font>
+
+461
+00:20:11,030 --> 00:20:13,220
+it without even<font color="#CCCCCC"> thinking twice about</font><font color="#E5E5E5"> it</font>
+
+462
+00:20:13,220 --> 00:20:14,780
+so they'll<font color="#CCCCCC"> just</font><font color="#E5E5E5"> click on it no problem</font>
+
+463
+00:20:14,780 --> 00:20:16,220
+at all
+
+464
+00:20:16,220 --> 00:20:18,259
+so we're gonna inject it again the same
+
+465
+00:20:18,259 --> 00:20:20,389
+<font color="#CCCCCC">way</font><font color="#E5E5E5"> that we were injecting in our video</font>
+
+466
+00:20:20,389 --> 00:20:22,460
+<font color="#E5E5E5">about the</font><font color="#CCCCCC"> stored so I'm just</font><font color="#E5E5E5"> going to</font>
+
+467
+00:20:22,460 --> 00:20:24,730
+set the<font color="#E5E5E5"> name to beef</font>
+
+468
+00:20:24,730 --> 00:20:27,520
+and then we're gonna put our code in
+
+469
+00:20:27,520 --> 00:20:29,350
+here<font color="#E5E5E5"> so we're gonna put our exploit in</font>
+
+470
+00:20:29,350 --> 00:20:31,180
+here<font color="#CCCCCC"> I'm just gonna copy</font><font color="#E5E5E5"> it again from</font>
+
+471
+00:20:31,180 --> 00:20:33,450
+here
+
+472
+00:20:33,600 --> 00:20:35,730
+<font color="#E5E5E5">this field actually doesn't let you</font>
+
+473
+00:20:35,730 --> 00:20:38,280
+write more<font color="#E5E5E5"> than 10 characters</font><font color="#CCCCCC"> I think</font><font color="#E5E5E5"> in</font>
+
+474
+00:20:38,280 --> 00:20:40,200
+it or 100 so we're just<font color="#E5E5E5"> going to</font>
+
+475
+00:20:40,200 --> 00:20:43,940
+<font color="#CCCCCC">right-click and inspect element</font><font color="#E5E5E5"> and</font>
+
+476
+00:20:43,940 --> 00:20:48,850
+<font color="#CCCCCC">we're going to set the max length to 500</font>
+
+477
+00:20:48,850 --> 00:20:51,669
+like so<font color="#E5E5E5"> and that allow</font><font color="#CCCCCC"> us to write more</font>
+
+478
+00:20:51,669 --> 00:20:55,090
+characters<font color="#E5E5E5"> so just go</font><font color="#CCCCCC"> back and paste it</font>
+
+479
+00:20:55,090 --> 00:20:56,720
+in<font color="#CCCCCC"> here</font>
+
+480
+00:20:56,720 --> 00:20:59,000
+and we're<font color="#E5E5E5"> ready to go I'm gonna sign the</font>
+
+481
+00:20:59,000 --> 00:21:01,270
+guestbook
+
+482
+00:21:03,840 --> 00:21:06,420
+<font color="#E5E5E5">okay and that should be running so now</font>
+
+483
+00:21:06,420 --> 00:21:08,310
+you can<font color="#CCCCCC"> just</font><font color="#E5E5E5"> go ahead and send this URL</font>
+
+484
+00:21:08,310 --> 00:21:10,260
+<font color="#E5E5E5">instead of this suspicious one that we</font>
+
+485
+00:21:10,260 --> 00:21:12,390
+were seen in<font color="#E5E5E5"> the reflected case so you</font>
+
+486
+00:21:12,390 --> 00:21:14,220
+can literally<font color="#CCCCCC"> just send this URL</font><font color="#E5E5E5"> to</font>
+
+487
+00:21:14,220 --> 00:21:16,230
+anybody<font color="#CCCCCC"> that</font><font color="#E5E5E5"> you want your code to run</font>
+
+488
+00:21:16,230 --> 00:21:18,360
+on their computer<font color="#E5E5E5"> and once they click it</font>
+
+489
+00:21:18,360 --> 00:21:21,000
+<font color="#E5E5E5">you'll get them hooked to beef or you</font>
+
+490
+00:21:21,000 --> 00:21:22,680
+can just wait<font color="#E5E5E5"> for people to visit that</font>
+
+491
+00:21:22,680 --> 00:21:25,620
+<font color="#E5E5E5">URL normally as if they're browsing that</font>
+
+492
+00:21:25,620 --> 00:21:27,660
+<font color="#CCCCCC">website</font><font color="#E5E5E5"> or whatever once they click on</font>
+
+493
+00:21:27,660 --> 00:21:28,290
+<font color="#CCCCCC">that URL</font>
+
+494
+00:21:28,290 --> 00:21:31,650
+they'll be hooked<font color="#E5E5E5"> to</font><font color="#CCCCCC"> your beef and again</font>
+
+495
+00:21:31,650 --> 00:21:33,600
+like I said<font color="#CCCCCC"> before if the website</font><font color="#E5E5E5"> is</font>
+
+496
+00:21:33,600 --> 00:21:35,310
+<font color="#E5E5E5">famous if the website</font><font color="#CCCCCC"> has a lot of</font>
+
+497
+00:21:35,310 --> 00:21:37,460
+<font color="#E5E5E5">visitors they will be clicking on that</font>
+
+498
+00:21:37,460 --> 00:21:40,500
+<font color="#E5E5E5">another plus is the web admin probably</font>
+
+499
+00:21:40,500 --> 00:21:42,420
+going to be visiting his<font color="#CCCCCC"> websites web</font>
+
+500
+00:21:42,420 --> 00:21:45,030
+pages<font color="#E5E5E5"> every now and then so again you'll</font>
+
+501
+00:21:45,030 --> 00:21:46,680
+get you'll<font color="#E5E5E5"> get him hooked</font><font color="#CCCCCC"> and you'll be</font>
+
+502
+00:21:46,680 --> 00:21:49,200
+able<font color="#E5E5E5"> to hack him and then maybe gain</font>
+
+503
+00:21:49,200 --> 00:21:51,120
+full access to<font color="#E5E5E5"> the server or to the</font><font color="#CCCCCC"> web</font>
+
+504
+00:21:51,120 --> 00:21:54,540
+<font color="#CCCCCC">site through</font><font color="#E5E5E5"> this XSS so I'm</font><font color="#CCCCCC"> going to go</font>
+
+505
+00:21:54,540 --> 00:21:56,909
+to<font color="#E5E5E5"> my Windows machine</font>
+
+506
+00:21:56,909 --> 00:22:00,710
+and I'm gonna run my<font color="#E5E5E5"> browser</font>
+
+507
+00:22:05,370 --> 00:22:07,430
+you
+
+508
+00:22:08,400 --> 00:22:12,420
+and I'm gonna go to the<font color="#E5E5E5"> DV WI and I'm</font>
+
+509
+00:22:12,420 --> 00:22:16,850
+just gonna pretend I'm a normal user so
+
+510
+00:22:16,960 --> 00:22:23,370
+and we're gonna go to<font color="#E5E5E5"> dvwa login</font>
+
+511
+00:22:23,650 --> 00:22:26,500
+so I'm just<font color="#E5E5E5"> gonna go</font><font color="#CCCCCC"> on the security and</font>
+
+512
+00:22:26,500 --> 00:22:28,570
+I'm gonna set<font color="#CCCCCC"> it to</font><font color="#E5E5E5"> low because on high</font>
+
+513
+00:22:28,570 --> 00:22:31,500
+and<font color="#CCCCCC"> nothing's</font><font color="#E5E5E5"> gonna work</font>
+
+514
+00:22:31,500 --> 00:22:34,140
+and note<font color="#E5E5E5"> this now I'm gonna just click</font>
+
+515
+00:22:34,140 --> 00:22:36,480
+on the<font color="#CCCCCC"> xs/s third so I'm just pretending</font>
+
+516
+00:22:36,480 --> 00:22:38,910
+<font color="#CCCCCC">to be a normal person browsing through a</font>
+
+517
+00:22:38,910 --> 00:22:41,190
+web<font color="#CCCCCC"> page</font><font color="#E5E5E5"> web pages and I'm gonna just</font>
+
+518
+00:22:41,190 --> 00:22:43,680
+come across<font color="#E5E5E5"> a web page that</font><font color="#CCCCCC"> is</font>
+
+519
+00:22:43,680 --> 00:22:46,230
+vulnerable<font color="#CCCCCC"> to I</font><font color="#E5E5E5"> start XSS I could be the</font>
+
+520
+00:22:46,230 --> 00:22:48,270
+web admin as well just<font color="#CCCCCC"> clicking</font><font color="#E5E5E5"> on my</font>
+
+521
+00:22:48,270 --> 00:22:50,370
+own page and<font color="#E5E5E5"> we can</font><font color="#CCCCCC"> see these are just</font>
+
+522
+00:22:50,370 --> 00:22:54,240
+<font color="#E5E5E5">the old exploits the old XSS is and now</font>
+
+523
+00:22:54,240 --> 00:22:56,790
+this browser should<font color="#E5E5E5"> be hooked</font><font color="#CCCCCC"> without</font>
+
+524
+00:22:56,790 --> 00:22:58,050
+<font color="#E5E5E5">even clicking on anything suspicious</font>
+
+525
+00:22:58,050 --> 00:23:00,330
+<font color="#E5E5E5">again you can see</font><font color="#CCCCCC"> this is normal they</font>
+
+526
+00:23:00,330 --> 00:23:01,830
+didn't really<font color="#E5E5E5"> receive anything or</font>
+
+527
+00:23:01,830 --> 00:23:03,450
+anybody asking them to<font color="#E5E5E5"> click on anything</font>
+
+528
+00:23:03,450 --> 00:23:08,040
+but if we go<font color="#E5E5E5"> to our beef here you'll see</font>
+
+529
+00:23:08,040 --> 00:23:09,660
+that<font color="#E5E5E5"> we</font><font color="#CCCCCC"> have a Windows machine so this</font>
+
+530
+00:23:09,660 --> 00:23:11,760
+<font color="#E5E5E5">is my Linux machine here and you can see</font>
+
+531
+00:23:11,760 --> 00:23:13,350
+that we have a Windows machine here now
+
+532
+00:23:13,350 --> 00:23:15,570
+the windows<font color="#E5E5E5"> icon we can see</font><font color="#CCCCCC"> the IP</font>
+
+533
+00:23:15,570 --> 00:23:18,029
+<font color="#E5E5E5">address of the Windows machine</font>
+
+534
+00:23:18,029 --> 00:23:20,519
+and this<font color="#CCCCCC"> machine is hooked now so if we</font>
+
+535
+00:23:20,519 --> 00:23:23,039
+click<font color="#CCCCCC"> on</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> it's online</font><font color="#E5E5E5"> and we can run</font>
+
+536
+00:23:23,039 --> 00:23:25,889
+all<font color="#E5E5E5"> the commands</font><font color="#CCCCCC"> that leaf allows</font><font color="#E5E5E5"> us to</font>
+
+537
+00:23:25,889 --> 00:23:27,820
+do
+
+538
+00:23:27,820 --> 00:23:30,129
+so and here on the right<font color="#CCCCCC"> we'll be</font>
+
+539
+00:23:30,129 --> 00:23:32,080
+<font color="#E5E5E5">spending most of our time now in the</font>
+
+540
+00:23:32,080 --> 00:23:34,539
+<font color="#E5E5E5">next lectures</font><font color="#CCCCCC"> to run commands</font><font color="#E5E5E5"> on the</font>
+
+541
+00:23:34,539 --> 00:23:38,220
+<font color="#E5E5E5">target computer so once you click on an</font>
+
+542
+00:23:38,220 --> 00:23:41,619
+IP address<font color="#E5E5E5"> from the left here you'll</font><font color="#CCCCCC"> be</font>
+
+543
+00:23:41,619 --> 00:23:43,869
+using<font color="#E5E5E5"> or interacting</font><font color="#CCCCCC"> with that</font><font color="#E5E5E5"> hooked</font>
+
+544
+00:23:43,869 --> 00:23:47,470
+browser from here from<font color="#E5E5E5"> the right so you</font>
+
+545
+00:23:47,470 --> 00:23:49,570
+<font color="#CCCCCC">can get various information</font><font color="#E5E5E5"> here about</font>
+
+546
+00:23:49,570 --> 00:23:51,820
+that<font color="#E5E5E5"> web browser</font><font color="#CCCCCC"> or about that person</font>
+
+547
+00:23:51,820 --> 00:23:53,499
+<font color="#E5E5E5">you can see the version the browser</font>
+
+548
+00:23:53,499 --> 00:23:56,039
+version<font color="#E5E5E5"> it detected it as a</font><font color="#CCCCCC"> Mozilla and</font>
+
+549
+00:23:56,039 --> 00:23:59,490
+it's<font color="#CCCCCC"> using Apple WebKit</font>
+
+550
+00:23:59,490 --> 00:24:02,640
+it's used in<font color="#CCCCCC"> English</font><font color="#E5E5E5"> es</font><font color="#CCCCCC"> USD language</font>
+
+551
+00:24:02,640 --> 00:24:05,610
+<font color="#E5E5E5">it's</font><font color="#CCCCCC"> win32 architecture this is</font>
+
+552
+00:24:05,610 --> 00:24:07,409
+important when<font color="#CCCCCC"> you come to create</font><font color="#E5E5E5"> back</font>
+
+553
+00:24:07,409 --> 00:24:09,210
+doors for that computer<font color="#E5E5E5"> if you wanted to</font>
+
+554
+00:24:09,210 --> 00:24:11,880
+gain full access to<font color="#E5E5E5"> it</font><font color="#CCCCCC"> you can</font><font color="#E5E5E5"> also see</font>
+
+555
+00:24:11,880 --> 00:24:13,710
+the plugins<font color="#E5E5E5"> installed on</font><font color="#CCCCCC"> that browser</font>
+
+556
+00:24:13,710 --> 00:24:16,559
+again<font color="#E5E5E5"> useful to try maybe spoof them and</font>
+
+557
+00:24:16,559 --> 00:24:18,659
+ask the person to upload that<font color="#CCCCCC"> plug-in</font>
+
+558
+00:24:18,659 --> 00:24:21,000
+and we'll see that<font color="#E5E5E5"> Analects lecture or</font>
+
+559
+00:24:21,000 --> 00:24:23,880
+<font color="#CCCCCC">you can see and try to</font><font color="#E5E5E5"> hike him through</font>
+
+560
+00:24:23,880 --> 00:24:26,880
+a vulnerability<font color="#E5E5E5"> within these plugins</font>
+
+561
+00:24:26,880 --> 00:24:29,640
+you can also see the<font color="#CCCCCC"> comedy components</font>
+
+562
+00:24:29,640 --> 00:24:31,560
+that's enabled on that browser so<font color="#CCCCCC"> you</font>
+
+563
+00:24:31,560 --> 00:24:33,860
+<font color="#E5E5E5">can see it uses flash it doesn't use</font>
+
+564
+00:24:33,860 --> 00:24:37,110
+<font color="#E5E5E5">vbscript</font><font color="#CCCCCC"> again these things</font><font color="#E5E5E5"> can come in</font>
+
+565
+00:24:37,110 --> 00:24:39,150
+<font color="#CCCCCC">handy when you're trying to</font><font color="#E5E5E5"> gain full</font>
+
+566
+00:24:39,150 --> 00:24:42,150
+<font color="#E5E5E5">access to that computer scrolling</font><font color="#CCCCCC"> down</font>
+
+567
+00:24:42,150 --> 00:24:43,740
+you'll see more<font color="#E5E5E5"> information</font><font color="#CCCCCC"> about that</font>
+
+568
+00:24:43,740 --> 00:24:46,230
+<font color="#CCCCCC">website</font><font color="#E5E5E5"> or about that person you can see</font>
+
+569
+00:24:46,230 --> 00:24:48,360
+the page that we<font color="#CCCCCC"> managed to</font><font color="#E5E5E5"> get them</font>
+
+570
+00:24:48,360 --> 00:24:50,820
+<font color="#E5E5E5">hooked through and it's this page so</font>
+
+571
+00:24:50,820 --> 00:24:54,660
+it's the dvwa page you can see where
+
+572
+00:24:54,660 --> 00:24:56,250
+they came<font color="#E5E5E5"> from</font><font color="#CCCCCC"> and they came</font><font color="#E5E5E5"> from the</font>
+
+573
+00:24:56,250 --> 00:24:58,830
+security dot<font color="#CCCCCC"> php' again</font>
+
+574
+00:24:58,830 --> 00:25:01,320
+you can see the IP where the page is
+
+575
+00:25:01,320 --> 00:25:05,010
+<font color="#E5E5E5">hosted and the cookies again here you</font>
+
+576
+00:25:05,010 --> 00:25:06,840
+<font color="#E5E5E5">get more information you</font><font color="#CCCCCC"> have</font><font color="#E5E5E5"> the IP of</font>
+
+577
+00:25:06,840 --> 00:25:09,570
+<font color="#E5E5E5">the target person we have the operating</font>
+
+578
+00:25:09,570 --> 00:25:12,090
+system<font color="#E5E5E5"> so it's used in Windows again the</font>
+
+579
+00:25:12,090 --> 00:25:14,519
+architecture now you can see that the
+
+580
+00:25:14,519 --> 00:25:15,870
+architecture here<font color="#E5E5E5"> is different than</font>
+
+581
+00:25:15,870 --> 00:25:17,669
+what's<font color="#CCCCCC"> saying</font><font color="#E5E5E5"> on the top on the</font><font color="#CCCCCC"> top sign</font>
+
+582
+00:25:17,669 --> 00:25:20,279
+and<font color="#E5E5E5"> windows 32 and in here it's in it's</font>
+
+583
+00:25:20,279 --> 00:25:23,309
+64 now on the top is<font color="#CCCCCC"> actually the</font>
+
+584
+00:25:23,309 --> 00:25:25,440
+architecture of the browser so<font color="#CCCCCC"> the</font>
+
+585
+00:25:25,440 --> 00:25:28,950
+browser is a<font color="#E5E5E5"> Windows 32 bits but the</font>
+
+586
+00:25:28,950 --> 00:25:31,590
+actual<font color="#E5E5E5"> CPU on the computer is detected</font>
+
+587
+00:25:31,590 --> 00:25:34,049
+here which is 64 bits again<font color="#CCCCCC"> this comes</font>
+
+588
+00:25:34,049 --> 00:25:35,639
+in handy<font color="#CCCCCC"> when you create in</font><font color="#E5E5E5"> backdoors</font>
+
+589
+00:25:35,639 --> 00:25:38,370
+for that<font color="#E5E5E5"> computer</font>
+
+590
+00:25:38,370 --> 00:25:40,620
+<font color="#E5E5E5">going on the going on</font><font color="#CCCCCC"> the logs you'll</font>
+
+591
+00:25:40,620 --> 00:25:42,600
+just see the logs or<font color="#E5E5E5"> the events that</font>
+
+592
+00:25:42,600 --> 00:25:44,520
+happened<font color="#E5E5E5"> so far</font><font color="#CCCCCC"> so you can see that the</font>
+
+593
+00:25:44,520 --> 00:25:46,970
+browser window was focused<font color="#E5E5E5"> it lost focus</font>
+
+594
+00:25:46,970 --> 00:25:49,320
+<font color="#E5E5E5">you can</font><font color="#CCCCCC"> see here when they just joined</font>
+
+595
+00:25:49,320 --> 00:25:53,250
+<font color="#E5E5E5">and</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> just got hooked the commands</font>
+
+596
+00:25:53,250 --> 00:25:55,410
+<font color="#CCCCCC">we'll</font><font color="#E5E5E5"> be spending a lot</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> the time here</font>
+
+597
+00:25:55,410 --> 00:25:57,120
+these are all<font color="#CCCCCC"> the</font><font color="#E5E5E5"> commands that you can</font>
+
+598
+00:25:57,120 --> 00:25:59,430
+<font color="#CCCCCC">run on the target computer</font><font color="#E5E5E5"> and we'll be</font>
+
+599
+00:25:59,430 --> 00:26:01,410
+having a more in-depth look on them in
+
+600
+00:26:01,410 --> 00:26:04,280
+the next lectures
+
+601
+00:26:05,090 --> 00:26:07,129
+the<font color="#CCCCCC"> writer will allow you to see and</font>
+
+602
+00:26:07,129 --> 00:26:11,749
+create HTTP requests the<font color="#CCCCCC"> XSS race will</font>
+
+603
+00:26:11,749 --> 00:26:13,370
+allow you to<font color="#CCCCCC"> discover</font><font color="#E5E5E5"> XSS</font>
+
+604
+00:26:13,370 --> 00:26:16,500
+vulnerabilities in the current page
+
+605
+00:26:16,500 --> 00:26:19,170
+the<font color="#E5E5E5"> eye pack is just</font><font color="#CCCCCC"> a beefed terminal</font>
+
+606
+00:26:19,170 --> 00:26:21,980
+that<font color="#CCCCCC"> you can use beef commands and</font>
+
+607
+00:26:21,980 --> 00:26:25,530
+interact with beef through it the
+
+608
+00:26:25,530 --> 00:26:27,810
+network<font color="#CCCCCC"> will give you an overview of</font><font color="#E5E5E5"> the</font>
+
+609
+00:26:27,810 --> 00:26:30,480
+current network so you<font color="#E5E5E5"> can see that we</font>
+
+610
+00:26:30,480 --> 00:26:33,090
+have<font color="#E5E5E5"> our hooked browser here it is used</font>
+
+611
+00:26:33,090 --> 00:26:35,370
+on this machine<font color="#E5E5E5"> right here the Windows</font>
+
+612
+00:26:35,370 --> 00:26:38,160
+machine<font color="#CCCCCC"> and it's hooked</font><font color="#E5E5E5"> to us there is</font><font color="#CCCCCC"> a</font>
+
+613
+00:26:38,160 --> 00:26:40,500
+<font color="#E5E5E5">firewall and it's hooked</font><font color="#CCCCCC"> to us</font><font color="#E5E5E5"> to here</font>
+
+614
+00:26:40,500 --> 00:26:42,180
+that's us now if you had<font color="#E5E5E5"> multiple</font>
+
+615
+00:26:42,180 --> 00:26:43,980
+devices then you'll be able<font color="#E5E5E5"> to see them</font>
+
+616
+00:26:43,980 --> 00:26:46,440
+in<font color="#E5E5E5"> here so that</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> will help you imagine</font>
+
+617
+00:26:46,440 --> 00:26:48,720
+<font color="#E5E5E5">or have a visualization</font><font color="#CCCCCC"> of what's</font>
+
+618
+00:26:48,720 --> 00:26:52,530
+<font color="#E5E5E5">happening the web RTC basically allows</font>
+
+619
+00:26:52,530 --> 00:26:54,600
+you to<font color="#E5E5E5"> create a network of all the</font>
+
+620
+00:26:54,600 --> 00:26:56,880
+browsers that<font color="#E5E5E5"> you gained access to and</font>
+
+621
+00:26:56,880 --> 00:26:59,400
+try to<font color="#E5E5E5"> hide</font><font color="#CCCCCC"> yourself by using this</font>
+
+622
+00:26:59,400 --> 00:27:02,390
+peer-to-peer network
+
+623
+00:27:02,400 --> 00:27:04,740
+now this is just<font color="#CCCCCC"> a basic</font><font color="#E5E5E5"> overview of</font>
+
+624
+00:27:04,740 --> 00:27:07,559
+beef and the next lectures<font color="#CCCCCC"> we'll see how</font>
+
+625
+00:27:07,559 --> 00:27:09,900
+<font color="#E5E5E5">to interact</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> with the hooked</font>
+
+626
+00:27:09,900 --> 00:27:12,330
+browsers how to run<font color="#E5E5E5"> commands and even</font>
+
+627
+00:27:12,330 --> 00:27:14,040
+gain full access to the connected
+
+628
+00:27:14,040 --> 00:27:16,620
+computers once<font color="#E5E5E5"> you're done you</font><font color="#CCCCCC"> can just</font>
+
+629
+00:27:16,620 --> 00:27:18,660
+<font color="#E5E5E5">log out</font><font color="#CCCCCC"> of beef by clicking on the</font>
+
+630
+00:27:18,660 --> 00:27:23,780
+<font color="#E5E5E5">logout button and that's it you're out</font>
+
+631
+00:27:24,620 --> 00:27:27,270
+so now that we<font color="#CCCCCC"> have our</font><font color="#E5E5E5"> browser or</font>
+
+632
+00:27:27,270 --> 00:27:29,670
+<font color="#E5E5E5">Target hooked we can go on the commands</font>
+
+633
+00:27:29,670 --> 00:27:32,610
+and start<font color="#E5E5E5"> executing commands on that</font>
+
+634
+00:27:32,610 --> 00:27:35,520
+<font color="#E5E5E5">target you can use the search to filter</font>
+
+635
+00:27:35,520 --> 00:27:37,350
+<font color="#E5E5E5">you're looking for a certain command if</font>
+
+636
+00:27:37,350 --> 00:27:39,240
+you know what you're<font color="#E5E5E5"> looking for or you</font>
+
+637
+00:27:39,240 --> 00:27:41,430
+can<font color="#CCCCCC"> use the categories</font><font color="#E5E5E5"> and look for</font>
+
+638
+00:27:41,430 --> 00:27:43,620
+<font color="#CCCCCC">commands suitable to what</font><font color="#E5E5E5"> you want to do</font>
+
+639
+00:27:43,620 --> 00:27:45,960
+on the target computer<font color="#E5E5E5"> some of these</font>
+
+640
+00:27:45,960 --> 00:27:47,400
+commands are<font color="#CCCCCC"> information</font><font color="#E5E5E5"> gathering</font>
+
+641
+00:27:47,400 --> 00:27:48,960
+commands<font color="#E5E5E5"> some of them are social</font>
+
+642
+00:27:48,960 --> 00:27:51,090
+engineering<font color="#CCCCCC"> some of them will even give</font>
+
+643
+00:27:51,090 --> 00:27:52,860
+you<font color="#E5E5E5"> full control</font><font color="#CCCCCC"> over</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> target</font>
+
+644
+00:27:52,860 --> 00:27:55,260
+computer<font color="#CCCCCC"> there</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> a lot</font><font color="#E5E5E5"> of commands so I</font>
+
+645
+00:27:55,260 --> 00:27:57,210
+won't be able<font color="#CCCCCC"> to go over all of</font><font color="#E5E5E5"> them but</font>
+
+646
+00:27:57,210 --> 00:27:59,130
+<font color="#CCCCCC">I'll be showing</font><font color="#E5E5E5"> you</font><font color="#CCCCCC"> some of the most</font>
+
+647
+00:27:59,130 --> 00:28:01,170
+important commands and examples of
+
+648
+00:28:01,170 --> 00:28:03,740
+simple ones as well<font color="#E5E5E5"> so you know how to</font>
+
+649
+00:28:03,740 --> 00:28:07,260
+experiment and run the<font color="#E5E5E5"> other commands so</font>
+
+650
+00:28:07,260 --> 00:28:09,120
+we're starting if you go to the browser
+
+651
+00:28:09,120 --> 00:28:11,190
+you'll see commands related<font color="#E5E5E5"> to stuff</font>
+
+652
+00:28:11,190 --> 00:28:13,260
+that you can do inside<font color="#CCCCCC"> the</font><font color="#E5E5E5"> browser so</font>
+
+653
+00:28:13,260 --> 00:28:14,550
+you<font color="#CCCCCC"> can see things</font><font color="#E5E5E5"> that will allow</font><font color="#CCCCCC"> you</font>
+
+654
+00:28:14,550 --> 00:28:16,770
+to for example<font color="#CCCCCC"> get a</font><font color="#E5E5E5"> screen shot and</font>
+
+655
+00:28:16,770 --> 00:28:19,350
+you'll be able to try and<font color="#E5E5E5"> gain and turn</font>
+
+656
+00:28:19,350 --> 00:28:21,390
+on the<font color="#CCCCCC"> webcam and see if it works</font>
+
+657
+00:28:21,390 --> 00:28:24,900
+and basically<font color="#E5E5E5"> open the webcam on the</font>
+
+658
+00:28:24,900 --> 00:28:28,350
+target you can gather<font color="#E5E5E5"> information and if</font>
+
+659
+00:28:28,350 --> 00:28:31,350
+you<font color="#E5E5E5"> go here on</font><font color="#CCCCCC"> the exploits you'll see a</font>
+
+660
+00:28:31,350 --> 00:28:33,510
+number<font color="#CCCCCC"> of exploits that you can run</font>
+
+661
+00:28:33,510 --> 00:28:35,850
+again depending<font color="#E5E5E5"> on what's running on</font><font color="#CCCCCC"> the</font>
+
+662
+00:28:35,850 --> 00:28:38,270
+<font color="#E5E5E5">chrome target computer you can run them</font>
+
+663
+00:28:38,270 --> 00:28:40,830
+all you have<font color="#CCCCCC"> to do is just</font><font color="#E5E5E5"> click on the</font>
+
+664
+00:28:40,830 --> 00:28:42,870
+module that you<font color="#CCCCCC"> want to</font><font color="#E5E5E5"> run and click on</font>
+
+665
+00:28:42,870 --> 00:28:46,050
+execute<font color="#E5E5E5"> sometimes some modules need to</font>
+
+666
+00:28:46,050 --> 00:28:48,120
+send some options<font color="#CCCCCC"> to be set up</font><font color="#E5E5E5"> and we'll</font>
+
+667
+00:28:48,120 --> 00:28:50,640
+have examples of<font color="#E5E5E5"> that as well and the</font>
+
+668
+00:28:50,640 --> 00:28:52,170
+social engineering<font color="#E5E5E5"> again there is some</font>
+
+669
+00:28:52,170 --> 00:28:54,000
+<font color="#CCCCCC">really</font><font color="#E5E5E5"> cool stuff</font><font color="#CCCCCC"> that you can do and</font>
+
+670
+00:28:54,000 --> 00:28:57,150
+<font color="#E5E5E5">you can show fake updates fake</font>
+
+671
+00:28:57,150 --> 00:29:00,780
+notification bars and stuff like that<font color="#E5E5E5"> so</font>
+
+672
+00:29:00,780 --> 00:29:02,700
+<font color="#E5E5E5">let's have an example of</font><font color="#CCCCCC"> a very simple</font>
+
+673
+00:29:02,700 --> 00:29:04,650
+command<font color="#E5E5E5"> so again we're going to do</font><font color="#CCCCCC"> just</font>
+
+674
+00:29:04,650 --> 00:29:08,610
+an alert to show an alert box so I'm
+
+675
+00:29:08,610 --> 00:29:12,270
+<font color="#E5E5E5">just using the search to filter and you</font>
+
+676
+00:29:12,270 --> 00:29:13,860
+can see here this<font color="#E5E5E5"> will just create an</font>
+
+677
+00:29:13,860 --> 00:29:16,050
+alert dialog and it's<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> say beef</font>
+
+678
+00:29:16,050 --> 00:29:18,360
+alert dialog<font color="#E5E5E5"> you can modify</font><font color="#CCCCCC"> this and</font>
+
+679
+00:29:18,360 --> 00:29:19,590
+type in<font color="#E5E5E5"> anything you want for example</font>
+
+680
+00:29:19,590 --> 00:29:23,580
+<font color="#E5E5E5">I'm</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> type in test and then when you</font>
+
+681
+00:29:23,580 --> 00:29:27,840
+hit execute go on<font color="#E5E5E5"> to target</font><font color="#CCCCCC"> and you'll</font>
+
+682
+00:29:27,840 --> 00:29:29,880
+see that the target got a message saying
+
+683
+00:29:29,880 --> 00:29:32,790
+<font color="#E5E5E5">test so this has been injected</font><font color="#CCCCCC"> into the</font>
+
+684
+00:29:32,790 --> 00:29:35,220
+target browser
+
+685
+00:29:35,220 --> 00:29:37,530
+another cool thing<font color="#E5E5E5"> that you can</font><font color="#CCCCCC"> do is</font>
+
+686
+00:29:37,530 --> 00:29:40,340
+the raw JavaScript
+
+687
+00:29:41,220 --> 00:29:44,280
+and this will allow<font color="#CCCCCC"> you to execute</font><font color="#E5E5E5"> any</font>
+
+688
+00:29:44,280 --> 00:29:46,289
+JavaScript you want so again you can
+
+689
+00:29:46,289 --> 00:29:48,270
+<font color="#CCCCCC">look for Google for a useful JavaScript</font>
+
+690
+00:29:48,270 --> 00:29:50,250
+code for example<font color="#CCCCCC"> a keylogger or whatever</font>
+
+691
+00:29:50,250 --> 00:29:52,620
+you want to<font color="#E5E5E5"> do or you can write your</font><font color="#CCCCCC"> own</font>
+
+692
+00:29:52,620 --> 00:29:54,450
+if you know JavaScript<font color="#CCCCCC"> and basically</font>
+
+693
+00:29:54,450 --> 00:29:56,520
+<font color="#E5E5E5">whatever</font><font color="#CCCCCC"> you write</font><font color="#E5E5E5"> here will be executed</font>
+
+694
+00:29:56,520 --> 00:29:58,860
+<font color="#CCCCCC">on the target again we're only</font><font color="#E5E5E5"> saying</font>
+
+695
+00:29:58,860 --> 00:30:01,350
+<font color="#E5E5E5">and alert and this is gonna say beef raw</font>
+
+696
+00:30:01,350 --> 00:30:07,409
+JavaScript<font color="#CCCCCC"> I'm gonna execute and here we</font>
+
+697
+00:30:07,409 --> 00:30:09,240
+go<font color="#E5E5E5"> again we got a dialog saying beef</font>
+
+698
+00:30:09,240 --> 00:30:12,380
+<font color="#E5E5E5">draw JavaScript</font>
+
+699
+00:30:12,799 --> 00:30:15,270
+let's see if we can get a<font color="#E5E5E5"> screenshot of</font>
+
+700
+00:30:15,270 --> 00:30:17,549
+<font color="#E5E5E5">the target computer</font><font color="#CCCCCC"> and we're</font><font color="#E5E5E5"> gonna use</font>
+
+701
+00:30:17,549 --> 00:30:21,059
+a<font color="#E5E5E5"> plugin</font><font color="#CCCCCC"> called spy spy</font><font color="#E5E5E5"> there</font><font color="#CCCCCC"> I I think</font>
+
+702
+00:30:21,059 --> 00:30:25,980
+<font color="#E5E5E5">yes spider</font><font color="#CCCCCC"> eye so again click on it hit</font>
+
+703
+00:30:25,980 --> 00:30:29,970
+execute<font color="#E5E5E5"> give it a second then we're</font>
+
+704
+00:30:29,970 --> 00:30:33,510
+<font color="#CCCCCC">gonna</font><font color="#E5E5E5"> click on the command here</font><font color="#CCCCCC"> looks</font>
+
+705
+00:30:33,510 --> 00:30:34,559
+like this<font color="#E5E5E5"> time didn't work properly</font>
+
+706
+00:30:34,559 --> 00:30:37,909
+<font color="#E5E5E5">let's just do it again</font>
+
+707
+00:30:43,720 --> 00:30:45,780
+you
+
+708
+00:30:46,269 --> 00:30:48,909
+and here we go as you<font color="#CCCCCC"> can see we got a</font>
+
+709
+00:30:48,909 --> 00:30:50,979
+screenshot of what the<font color="#E5E5E5"> target person is</font>
+
+710
+00:30:50,979 --> 00:30:54,789
+<font color="#E5E5E5">looking at another really good</font><font color="#CCCCCC"> plugin is</font>
+
+711
+00:30:54,789 --> 00:30:59,780
+a<font color="#CCCCCC"> plugin it's redirect plugin</font>
+
+712
+00:30:59,780 --> 00:31:02,080
+and<font color="#CCCCCC"> it'll basically allow you to</font>
+
+713
+00:31:02,080 --> 00:31:05,060
+<font color="#E5E5E5">redirect the browser to any</font><font color="#CCCCCC"> web page you</font>
+
+714
+00:31:05,060 --> 00:31:06,860
+want<font color="#CCCCCC"> this could be</font><font color="#E5E5E5"> very</font><font color="#CCCCCC"> useful because</font>
+
+715
+00:31:06,860 --> 00:31:08,750
+<font color="#E5E5E5">you</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> use it to redirect the target</font>
+
+716
+00:31:08,750 --> 00:31:10,490
+<font color="#E5E5E5">person and tell them that they're gonna</font>
+
+717
+00:31:10,490 --> 00:31:12,110
+they need to<font color="#E5E5E5"> download an</font><font color="#CCCCCC"> update and</font>
+
+718
+00:31:12,110 --> 00:31:13,700
+instead<font color="#CCCCCC"> of</font><font color="#E5E5E5"> giving them an</font><font color="#CCCCCC"> update give</font>
+
+719
+00:31:13,700 --> 00:31:16,070
+<font color="#E5E5E5">them a backdoor</font><font color="#CCCCCC"> you can redirect</font><font color="#E5E5E5"> them to</font>
+
+720
+00:31:16,070 --> 00:31:17,900
+a fake login page for<font color="#CCCCCC"> example for</font>
+
+721
+00:31:17,900 --> 00:31:19,760
+<font color="#CCCCCC">Facebook</font><font color="#E5E5E5"> you can really do</font><font color="#CCCCCC"> anything you</font>
+
+722
+00:31:19,760 --> 00:31:22,100
+want with<font color="#E5E5E5"> this so you can set the</font>
+
+723
+00:31:22,100 --> 00:31:23,750
+website that you<font color="#CCCCCC"> want the target to</font><font color="#E5E5E5"> be</font>
+
+724
+00:31:23,750 --> 00:31:25,550
+redirected to and we're<font color="#E5E5E5"> going to</font>
+
+725
+00:31:25,550 --> 00:31:27,410
+<font color="#E5E5E5">redirect them to beef project in this</font>
+
+726
+00:31:27,410 --> 00:31:33,080
+example and once you hit execute as you
+
+727
+00:31:33,080 --> 00:31:34,850
+can see here they redirected to beef
+
+728
+00:31:34,850 --> 00:31:38,300
+project these are some<font color="#CCCCCC"> of</font><font color="#E5E5E5"> the basic</font>
+
+729
+00:31:38,300 --> 00:31:41,270
+modules that<font color="#E5E5E5"> are that you</font><font color="#CCCCCC"> can use again</font>
+
+730
+00:31:41,270 --> 00:31:43,010
+you can experiment with<font color="#E5E5E5"> these go over</font>
+
+731
+00:31:43,010 --> 00:31:45,800
+them and see what would be<font color="#E5E5E5"> useful in</font>
+
+732
+00:31:45,800 --> 00:31:49,030
+<font color="#CCCCCC">your particular situation</font>
+
+733
+00:31:49,240 --> 00:31:52,130
+<font color="#CCCCCC">okay now let's have a look</font><font color="#E5E5E5"> on</font><font color="#CCCCCC"> a</font><font color="#E5E5E5"> social</font>
+
+734
+00:31:52,130 --> 00:31:54,560
+engineering plugin<font color="#CCCCCC"> that will allow us to</font>
+
+735
+00:31:54,560 --> 00:31:57,160
+steal usernames and passwords<font color="#E5E5E5"> for</font>
+
+736
+00:31:57,160 --> 00:32:00,140
+accounts so basically the<font color="#CCCCCC"> way this works</font>
+
+737
+00:32:00,140 --> 00:32:02,630
+is it<font color="#E5E5E5"> will dim the</font><font color="#CCCCCC"> screen and</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> will</font>
+
+738
+00:32:02,630 --> 00:32:04,790
+<font color="#E5E5E5">turtle the person that you go</font><font color="#CCCCCC"> logged out</font>
+
+739
+00:32:04,790 --> 00:32:07,400
+<font color="#CCCCCC">of your session so please</font><font color="#E5E5E5"> log in to your</font>
+
+740
+00:32:07,400 --> 00:32:09,260
+<font color="#E5E5E5">account again so you can get</font>
+
+741
+00:32:09,260 --> 00:32:11,390
+authenticated<font color="#CCCCCC"> so this will</font><font color="#E5E5E5"> allow</font><font color="#CCCCCC"> us to</font>
+
+742
+00:32:11,390 --> 00:32:15,650
+bypass<font color="#E5E5E5"> HTTPS HSTs all all the security</font>
+
+743
+00:32:15,650 --> 00:32:17,900
+that's used by<font color="#CCCCCC"> the target account page</font>
+
+744
+00:32:17,900 --> 00:32:19,400
+for<font color="#CCCCCC"> example if you're</font><font color="#E5E5E5"> trying to get</font>
+
+745
+00:32:19,400 --> 00:32:22,010
+<font color="#CCCCCC">username and password</font><font color="#E5E5E5"> for Facebook then</font>
+
+746
+00:32:22,010 --> 00:32:23,810
+you'll be able<font color="#E5E5E5"> to bypass all</font><font color="#CCCCCC"> the</font>
+
+747
+00:32:23,810 --> 00:32:26,060
+security that<font color="#E5E5E5"> Facebook uses</font><font color="#CCCCCC"> because</font>
+
+748
+00:32:26,060 --> 00:32:27,470
+<font color="#E5E5E5">you're what you're doing is you're</font>
+
+749
+00:32:27,470 --> 00:32:29,810
+<font color="#CCCCCC">actually just</font><font color="#E5E5E5"> showing a fake Facebook</font>
+
+750
+00:32:29,810 --> 00:32:32,240
+page<font color="#E5E5E5"> so the user will never actually get</font>
+
+751
+00:32:32,240 --> 00:32:35,510
+in contact with<font color="#E5E5E5"> Facebook</font><font color="#CCCCCC"> so let's just</font>
+
+752
+00:32:35,510 --> 00:32:39,050
+click on this<font color="#E5E5E5"> and you'll</font><font color="#CCCCCC"> see that you</font>
+
+753
+00:32:39,050 --> 00:32:41,060
+can<font color="#CCCCCC"> click</font><font color="#E5E5E5"> from here you can click what</font>
+
+754
+00:32:41,060 --> 00:32:42,920
+account that you want<font color="#E5E5E5"> to hijack</font>
+
+755
+00:32:42,920 --> 00:32:45,890
+<font color="#E5E5E5">so let's say we're going with Facebook</font>
+
+756
+00:32:45,890 --> 00:32:49,130
+and you<font color="#E5E5E5"> can select what the back light</font>
+
+757
+00:32:49,130 --> 00:32:50,510
+will be so we're<font color="#CCCCCC"> just leaving that</font><font color="#E5E5E5"> as</font>
+
+758
+00:32:50,510 --> 00:32:54,950
+<font color="#CCCCCC">gray and we're gonna</font><font color="#E5E5E5"> execute this and we</font>
+
+759
+00:32:54,950 --> 00:32:57,080
+go when<font color="#E5E5E5"> we go to our target</font><font color="#CCCCCC"> you'll see</font>
+
+760
+00:32:57,080 --> 00:32:59,030
+that they're being told that they got
+
+761
+00:32:59,030 --> 00:33:00,740
+locked out<font color="#E5E5E5"> of their session so please</font>
+
+762
+00:33:00,740 --> 00:33:02,960
+<font color="#CCCCCC">login with your</font><font color="#E5E5E5"> username</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> password</font><font color="#CCCCCC"> so</font>
+
+763
+00:33:02,960 --> 00:33:06,060
+<font color="#CCCCCC">I'm gonna put my username as 8</font>
+
+764
+00:33:06,060 --> 00:33:08,220
+<font color="#E5E5E5">then I'm</font><font color="#CCCCCC"> gonna put my password as one</font>
+
+765
+00:33:08,220 --> 00:33:11,060
+<font color="#CCCCCC">two three four five six</font>
+
+766
+00:33:11,060 --> 00:33:17,290
+and<font color="#CCCCCC"> enter and if we go back here</font>
+
+767
+00:33:17,539 --> 00:33:20,479
+<font color="#E5E5E5">you'll see that we got our username was</font>
+
+768
+00:33:20,479 --> 00:33:25,100
+<font color="#CCCCCC">8 and the password was 1 2 3 4 5</font><font color="#E5E5E5"> 6 so</font>
+
+769
+00:33:25,100 --> 00:33:26,749
+you<font color="#CCCCCC"> can</font><font color="#E5E5E5"> use this to hijack a number of</font>
+
+770
+00:33:26,749 --> 00:33:29,029
+accounts<font color="#E5E5E5"> for</font><font color="#CCCCCC"> example and let's just</font><font color="#E5E5E5"> have</font>
+
+771
+00:33:29,029 --> 00:33:31,659
+another<font color="#CCCCCC"> example</font><font color="#E5E5E5"> if we go with YouTube</font>
+
+772
+00:33:31,659 --> 00:33:34,850
+<font color="#CCCCCC">again you give it an execute</font><font color="#E5E5E5"> come back</font>
+
+773
+00:33:34,850 --> 00:33:38,059
+<font color="#E5E5E5">you see the</font><font color="#CCCCCC"> YouTube logo and you can try</font>
+
+774
+00:33:38,059 --> 00:33:42,169
+<font color="#E5E5E5">to</font><font color="#CCCCCC"> login put a username password sign in</font>
+
+775
+00:33:42,169 --> 00:33:46,549
+and<font color="#E5E5E5"> that'll</font><font color="#CCCCCC"> be captured so again this is</font>
+
+776
+00:33:46,549 --> 00:33:48,739
+a really good way of gaining<font color="#E5E5E5"> access to</font>
+
+777
+00:33:48,739 --> 00:33:51,769
+accounts<font color="#CCCCCC"> because even if the user is</font><font color="#E5E5E5"> not</font>
+
+778
+00:33:51,769 --> 00:33:53,720
+planning<font color="#CCCCCC"> on</font><font color="#E5E5E5"> logging into the account</font>
+
+779
+00:33:53,720 --> 00:33:55,580
+that<font color="#E5E5E5"> you're trying to steal then you'll</font>
+
+780
+00:33:55,580 --> 00:33:57,080
+kind<font color="#E5E5E5"> of force them</font><font color="#CCCCCC"> to enter their</font>
+
+781
+00:33:57,080 --> 00:33:59,720
+<font color="#E5E5E5">username and password to</font><font color="#CCCCCC"> get to be</font>
+
+782
+00:33:59,720 --> 00:34:01,309
+logged back in into their account<font color="#E5E5E5"> and</font>
+
+783
+00:34:01,309 --> 00:34:03,080
+<font color="#E5E5E5">then you'll be able to capture the</font>
+
+784
+00:34:03,080 --> 00:34:05,830
+username and<font color="#E5E5E5"> the</font><font color="#CCCCCC"> password</font>
+
+785
+00:34:06,169 --> 00:34:08,179
+in this<font color="#E5E5E5"> lecture we're going to learn how</font>
+
+786
+00:34:08,179 --> 00:34:11,299
+to<font color="#CCCCCC"> generate an undetectable backdoor AB</font>
+
+787
+00:34:11,299 --> 00:34:14,210
+<font color="#E5E5E5">actor is just a file that's one executed</font>
+
+788
+00:34:14,210 --> 00:34:16,460
+on the<font color="#E5E5E5"> target computer</font><font color="#CCCCCC"> it'll give us</font>
+
+789
+00:34:16,460 --> 00:34:19,010
+full access to<font color="#CCCCCC"> that computer so</font><font color="#E5E5E5"> it'll</font>
+
+790
+00:34:19,010 --> 00:34:21,079
+basically<font color="#E5E5E5"> allow us to hack it and do</font>
+
+791
+00:34:21,079 --> 00:34:23,109
+<font color="#E5E5E5">anything</font><font color="#CCCCCC"> that we</font><font color="#E5E5E5"> want on</font><font color="#CCCCCC"> that computer</font>
+
+792
+00:34:23,109 --> 00:34:25,760
+<font color="#E5E5E5">there is</font><font color="#CCCCCC"> a number of ways to</font><font color="#E5E5E5"> generate</font>
+
+793
+00:34:25,760 --> 00:34:28,489
+backdoors<font color="#CCCCCC"> and</font><font color="#E5E5E5"> what we're interested in</font>
+
+794
+00:34:28,489 --> 00:34:30,770
+is to generate a backdoor<font color="#E5E5E5"> that is not</font>
+
+795
+00:34:30,770 --> 00:34:33,918
+detectable by antivirus<font color="#E5E5E5"> programs now</font>
+
+796
+00:34:33,918 --> 00:34:35,929
+this is not<font color="#CCCCCC"> very hard</font><font color="#E5E5E5"> to achieve</font><font color="#CCCCCC"> as</font>
+
+797
+00:34:35,929 --> 00:34:38,750
+you'll see<font color="#E5E5E5"> and we're</font><font color="#CCCCCC"> gonna do this using</font>
+
+798
+00:34:38,750 --> 00:34:42,230
+a tool called<font color="#CCCCCC"> veil framework</font><font color="#E5E5E5"> now I</font>
+
+799
+00:34:42,230 --> 00:34:45,079
+<font color="#E5E5E5">already</font><font color="#CCCCCC"> have</font><font color="#E5E5E5"> wills project page open in</font>
+
+800
+00:34:45,079 --> 00:34:47,510
+<font color="#E5E5E5">here I'm going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> include its link in</font>
+
+801
+00:34:47,510 --> 00:34:49,790
+the<font color="#CCCCCC"> resources of</font><font color="#E5E5E5"> this lecture on the top</font>
+
+802
+00:34:49,790 --> 00:34:52,760
+left<font color="#CCCCCC"> now if you're not</font><font color="#E5E5E5"> familiar</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> git</font>
+
+803
+00:34:52,760 --> 00:34:55,639
+<font color="#E5E5E5">this is a version</font><font color="#CCCCCC"> control system that</font>
+
+804
+00:34:55,639 --> 00:34:58,339
+allows programmers<font color="#CCCCCC"> to host</font><font color="#E5E5E5"> share and</font>
+
+805
+00:34:58,339 --> 00:35:01,880
+update their programs so to download
+
+806
+00:35:01,880 --> 00:35:04,460
+<font color="#CCCCCC">something from</font><font color="#E5E5E5"> github all you have to do</font>
+
+807
+00:35:04,460 --> 00:35:06,500
+is click on the<font color="#CCCCCC"> green button in here</font>
+
+808
+00:35:06,500 --> 00:35:11,200
+copy this link and then go<font color="#CCCCCC"> to terminal</font>
+
+809
+00:35:11,200 --> 00:35:13,730
+navigate to<font color="#CCCCCC"> the</font><font color="#E5E5E5"> location where you want</font>
+
+810
+00:35:13,730 --> 00:35:16,339
+<font color="#E5E5E5">to download this project and in this</font>
+
+811
+00:35:16,339 --> 00:35:21,619
+example<font color="#CCCCCC"> I</font><font color="#E5E5E5"> want to go to opt this is the</font>
+
+812
+00:35:21,619 --> 00:35:23,599
+directory where you should be installing
+
+813
+00:35:23,599 --> 00:35:27,470
+optional software<font color="#CCCCCC"> and if I do LS</font><font color="#E5E5E5"> you</font>
+
+814
+00:35:27,470 --> 00:35:29,599
+will see I only<font color="#E5E5E5"> have one directory in</font>
+
+815
+00:35:29,599 --> 00:35:34,460
+here called teeth so to download<font color="#CCCCCC"> will in</font>
+
+816
+00:35:34,460 --> 00:35:36,980
+here<font color="#CCCCCC"> all you have</font><font color="#E5E5E5"> to do is first of all</font>
+
+817
+00:35:36,980 --> 00:35:39,730
+write the git<font color="#CCCCCC"> command which is</font><font color="#E5E5E5"> good</font><font color="#CCCCCC"> and</font>
+
+818
+00:35:39,730 --> 00:35:43,069
+what we want<font color="#E5E5E5"> to do is we want to clone a</font>
+
+819
+00:35:43,069 --> 00:35:45,890
+repository<font color="#CCCCCC"> and the link for this</font>
+
+820
+00:35:45,890 --> 00:35:48,500
+<font color="#E5E5E5">repository</font><font color="#CCCCCC"> is the link that</font><font color="#E5E5E5"> we copied in</font>
+
+821
+00:35:48,500 --> 00:35:51,079
+here from the green button so I'm just
+
+822
+00:35:51,079 --> 00:35:53,230
+gonna paste<font color="#E5E5E5"> it</font><font color="#CCCCCC"> here</font>
+
+823
+00:35:53,230 --> 00:35:56,020
+so a very very<font color="#E5E5E5"> simple command we're</font>
+
+824
+00:35:56,020 --> 00:35:58,780
+using<font color="#E5E5E5"> it</font><font color="#CCCCCC"> to download</font><font color="#E5E5E5"> a repository from</font>
+
+825
+00:35:58,780 --> 00:36:01,030
+<font color="#CCCCCC">get</font><font color="#E5E5E5"> we're saying that I want to clone</font>
+
+826
+00:36:01,030 --> 00:36:03,280
+this repository<font color="#CCCCCC"> and the link of the</font>
+
+827
+00:36:03,280 --> 00:36:05,560
+repository<font color="#CCCCCC"> that I want to clone is</font><font color="#E5E5E5"> this</font>
+
+828
+00:36:05,560 --> 00:36:08,980
+one so if I hit<font color="#E5E5E5"> enter now you'll see</font>
+
+829
+00:36:08,980 --> 00:36:10,570
+it's going to<font color="#E5E5E5"> download it for me</font>
+
+830
+00:36:10,570 --> 00:36:13,900
+and once it's done<font color="#CCCCCC"> if we do LS</font><font color="#E5E5E5"> you'll</font>
+
+831
+00:36:13,900 --> 00:36:15,760
+see we<font color="#E5E5E5"> have a new directory called</font><font color="#CCCCCC"> Ville</font>
+
+832
+00:36:15,760 --> 00:36:18,940
+and we can navigate to<font color="#E5E5E5"> this directory by</font>
+
+833
+00:36:18,940 --> 00:36:21,430
+doing<font color="#CCCCCC"> CD evil</font>
+
+834
+00:36:21,430 --> 00:36:24,880
+and in here<font color="#CCCCCC"> if</font><font color="#E5E5E5"> I list you'll see</font><font color="#CCCCCC"> we have</font>
+
+835
+00:36:24,880 --> 00:36:27,940
+a<font color="#CCCCCC"> number of files</font><font color="#E5E5E5"> but the main file for</font>
+
+836
+00:36:27,940 --> 00:36:32,230
+the program is this one<font color="#E5E5E5"> well dot py but</font>
+
+837
+00:36:32,230 --> 00:36:34,930
+we can't run this file<font color="#CCCCCC"> right now</font><font color="#E5E5E5"> because</font>
+
+838
+00:36:34,930 --> 00:36:37,800
+<font color="#CCCCCC">we still didn't install</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> tool now</font>
+
+839
+00:36:37,800 --> 00:36:40,240
+<font color="#E5E5E5">available eyes on a large number of</font>
+
+840
+00:36:40,240 --> 00:36:44,050
+<font color="#E5E5E5">libraries and</font><font color="#CCCCCC"> third-party programs so</font>
+
+841
+00:36:44,050 --> 00:36:45,579
+you're gonna have to install all<font color="#CCCCCC"> of</font>
+
+842
+00:36:45,579 --> 00:36:49,599
+these first<font color="#E5E5E5"> before you can</font><font color="#CCCCCC"> use</font><font color="#E5E5E5"> it now</font>
+
+843
+00:36:49,599 --> 00:36:51,280
+<font color="#CCCCCC">luckily you</font><font color="#E5E5E5"> don't have to do this</font>
+
+844
+00:36:51,280 --> 00:36:53,650
+manually<font color="#E5E5E5"> because</font><font color="#CCCCCC"> we'll comes with an</font>
+
+845
+00:36:53,650 --> 00:36:57,099
+installation<font color="#E5E5E5"> script now this script is</font>
+
+846
+00:36:57,099 --> 00:36:59,559
+placed in the config directory so we
+
+847
+00:36:59,559 --> 00:37:01,660
+<font color="#CCCCCC">have to navigate</font><font color="#E5E5E5"> in this directory first</font>
+
+848
+00:37:01,660 --> 00:37:05,220
+so we'll do CD config
+
+849
+00:37:05,220 --> 00:37:08,700
+and if we list here<font color="#E5E5E5"> you'll see we</font><font color="#CCCCCC"> have a</font>
+
+850
+00:37:08,700 --> 00:37:13,500
+<font color="#E5E5E5">file</font><font color="#CCCCCC"> called</font><font color="#E5E5E5"> set up dot</font><font color="#CCCCCC"> sh</font><font color="#E5E5E5"> now as the</font>
+
+851
+00:37:13,500 --> 00:37:16,080
+name suggests<font color="#E5E5E5"> if you're on this file</font><font color="#CCCCCC"> it</font>
+
+852
+00:37:16,080 --> 00:37:18,510
+will install all the needed libraries
+
+853
+00:37:18,510 --> 00:37:21,000
+and third-party applications that<font color="#CCCCCC"> we'll</font>
+
+854
+00:37:21,000 --> 00:37:25,950
+uses so to run an SH or a bash file from
+
+855
+00:37:25,950 --> 00:37:28,380
+the terminal<font color="#CCCCCC"> all you have</font><font color="#E5E5E5"> to do is type</font>
+
+856
+00:37:28,380 --> 00:37:31,500
+dot forward<font color="#E5E5E5"> slash followed by the file</font>
+
+857
+00:37:31,500 --> 00:37:34,080
+name and in our case<font color="#E5E5E5"> it's called</font><font color="#CCCCCC"> setup</font>
+
+858
+00:37:34,080 --> 00:37:35,690
+<font color="#CCCCCC">dot</font><font color="#E5E5E5"> Sh</font>
+
+859
+00:37:35,690 --> 00:37:39,030
+now you can<font color="#E5E5E5"> run the setup as is like</font>
+
+860
+00:37:39,030 --> 00:37:42,510
+this but I want to add two arguments to
+
+861
+00:37:42,510 --> 00:37:45,359
+<font color="#E5E5E5">this the first argument that I want to</font>
+
+862
+00:37:45,359 --> 00:37:49,950
+add is<font color="#E5E5E5"> the - - silent this argument will</font>
+
+863
+00:37:49,950 --> 00:37:52,440
+run the<font color="#CCCCCC"> Installer</font><font color="#E5E5E5"> as an unattended</font>
+
+864
+00:37:52,440 --> 00:37:55,020
+<font color="#CCCCCC">installer</font><font color="#E5E5E5"> so basically it will install</font>
+
+865
+00:37:55,020 --> 00:37:57,900
+everything<font color="#E5E5E5"> with its default settings and</font>
+
+866
+00:37:57,900 --> 00:38:01,540
+it won't ask us to configure<font color="#E5E5E5"> anything</font>
+
+867
+00:38:01,540 --> 00:38:03,970
+the next<font color="#CCCCCC"> argument that I want to add is</font>
+
+868
+00:38:03,970 --> 00:38:08,410
+<font color="#E5E5E5">the - - force so that in case you're</font>
+
+869
+00:38:08,410 --> 00:38:10,330
+running this a second<font color="#E5E5E5"> time if you</font>
+
+870
+00:38:10,330 --> 00:38:11,800
+<font color="#E5E5E5">already installed well and something</font>
+
+871
+00:38:11,800 --> 00:38:13,450
+<font color="#CCCCCC">went wrong and you're installing it</font>
+
+872
+00:38:13,450 --> 00:38:14,050
+<font color="#E5E5E5">again</font>
+
+873
+00:38:14,050 --> 00:38:17,350
+the first argument<font color="#E5E5E5"> will overwrite any</font>
+
+874
+00:38:17,350 --> 00:38:20,980
+existing installations<font color="#E5E5E5"> now I didn't just</font>
+
+875
+00:38:20,980 --> 00:38:23,470
+figure<font color="#CCCCCC"> out these arguments myself</font><font color="#E5E5E5"> if you</font>
+
+876
+00:38:23,470 --> 00:38:25,570
+actually<font color="#E5E5E5"> read the description here on</font>
+
+877
+00:38:25,570 --> 00:38:27,880
+the project page<font color="#E5E5E5"> you'll learn exactly</font>
+
+878
+00:38:27,880 --> 00:38:30,430
+<font color="#E5E5E5">how to install</font><font color="#CCCCCC"> it and what each of these</font>
+
+879
+00:38:30,430 --> 00:38:33,880
+<font color="#CCCCCC">arguments do</font><font color="#E5E5E5"> so I'm</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> hit</font><font color="#CCCCCC"> enter now</font>
+
+880
+00:38:33,880 --> 00:38:36,670
+<font color="#E5E5E5">and as</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> can</font><font color="#CCCCCC"> see now it's going</font><font color="#E5E5E5"> to</font>
+
+881
+00:38:36,670 --> 00:38:39,190
+automatically gather information<font color="#E5E5E5"> about</font>
+
+882
+00:38:39,190 --> 00:38:41,470
+my current<font color="#E5E5E5"> operating system it's going</font>
+
+883
+00:38:41,470 --> 00:38:43,930
+to<font color="#E5E5E5"> install the needed libraries and the</font>
+
+884
+00:38:43,930 --> 00:38:46,780
+needed applications<font color="#E5E5E5"> this might take some</font>
+
+885
+00:38:46,780 --> 00:38:48,730
+<font color="#CCCCCC">time because</font><font color="#E5E5E5"> it's going to download a</font>
+
+886
+00:38:48,730 --> 00:38:51,609
+lot of<font color="#E5E5E5"> packages so please be patient</font><font color="#CCCCCC"> and</font>
+
+887
+00:38:51,609 --> 00:38:54,670
+give<font color="#CCCCCC"> it its time now I'm going to pause</font>
+
+888
+00:38:54,670 --> 00:38:56,350
+the video<font color="#CCCCCC"> because this is gonna take</font>
+
+889
+00:38:56,350 --> 00:38:58,660
+<font color="#E5E5E5">some time and I'll continue recording</font>
+
+890
+00:38:58,660 --> 00:39:03,040
+once it's done so right now as you<font color="#E5E5E5"> can</font>
+
+891
+00:39:03,040 --> 00:39:04,720
+<font color="#CCCCCC">see the installation is finished and</font>
+
+892
+00:39:04,720 --> 00:39:06,730
+it's telling me<font color="#CCCCCC"> that everything</font><font color="#E5E5E5"> is done</font>
+
+893
+00:39:06,730 --> 00:39:09,820
+<font color="#E5E5E5">so I</font><font color="#CCCCCC"> can run the tool now</font><font color="#E5E5E5"> but what I'm</font>
+
+894
+00:39:09,820 --> 00:39:11,830
+actually<font color="#E5E5E5"> gonna do is I'm gonna first</font>
+
+895
+00:39:11,830 --> 00:39:14,950
+<font color="#E5E5E5">close this terminal window and open a</font>
+
+896
+00:39:14,950 --> 00:39:17,590
+new<font color="#CCCCCC"> window</font><font color="#E5E5E5"> just to show you how you</font>
+
+897
+00:39:17,590 --> 00:39:19,960
+would<font color="#CCCCCC"> start it by</font><font color="#E5E5E5"> default because</font>
+
+898
+00:39:19,960 --> 00:39:22,000
+<font color="#CCCCCC">usually</font><font color="#E5E5E5"> when you open terminal you'll</font>
+
+899
+00:39:22,000 --> 00:39:24,730
+actually<font color="#E5E5E5"> be in the root directory so if</font>
+
+900
+00:39:24,730 --> 00:39:27,790
+I do PWD right now<font color="#E5E5E5"> you'll see I am</font><font color="#CCCCCC"> in</font>
+
+901
+00:39:27,790 --> 00:39:31,780
+root so<font color="#CCCCCC"> in order</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> run ville we have to</font>
+
+902
+00:39:31,780 --> 00:39:34,480
+first navigate to<font color="#E5E5E5"> the location where you</font>
+
+903
+00:39:34,480 --> 00:39:37,270
+<font color="#CCCCCC">downloaded it and we downloaded</font><font color="#E5E5E5"> it to</font>
+
+904
+00:39:37,270 --> 00:39:40,350
+the opt directory so we're gonna do CD
+
+905
+00:39:40,350 --> 00:39:43,830
+opt well
+
+906
+00:39:43,830 --> 00:39:47,320
+now if we do<font color="#CCCCCC"> LS</font><font color="#E5E5E5"> you'll see we have</font><font color="#CCCCCC"> the</font>
+
+907
+00:39:47,320 --> 00:39:49,210
+file<font color="#E5E5E5"> that I told you that's the file for</font>
+
+908
+00:39:49,210 --> 00:39:51,190
+<font color="#E5E5E5">the program</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> we have the config</font>
+
+909
+00:39:51,190 --> 00:39:53,170
+directory where<font color="#CCCCCC"> we were and</font><font color="#E5E5E5"> where we run</font>
+
+910
+00:39:53,170 --> 00:39:55,750
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> installer</font><font color="#E5E5E5"> now we've already</font>
+
+911
+00:39:55,750 --> 00:39:57,610
+installed everything<font color="#E5E5E5"> so we don't need to</font>
+
+912
+00:39:57,610 --> 00:40:00,190
+run the<font color="#CCCCCC"> installer</font><font color="#E5E5E5"> and to run Ville</font><font color="#CCCCCC"> all</font>
+
+913
+00:40:00,190 --> 00:40:02,680
+we have<font color="#E5E5E5"> to do is type dot forward slash</font>
+
+914
+00:40:02,680 --> 00:40:05,770
+followed<font color="#E5E5E5"> by the program name which is</font>
+
+915
+00:40:05,770 --> 00:40:10,120
+<font color="#E5E5E5">well dot py I'm going to hit enter and</font>
+
+916
+00:40:10,120 --> 00:40:12,730
+as you<font color="#E5E5E5"> can</font><font color="#CCCCCC"> see the program is working</font>
+
+917
+00:40:12,730 --> 00:40:16,570
+<font color="#E5E5E5">with no issues at all now in the next</font>
+
+918
+00:40:16,570 --> 00:40:18,130
+lectures<font color="#CCCCCC"> I'm going to show you how</font><font color="#E5E5E5"> to</font>
+
+919
+00:40:18,130 --> 00:40:20,130
+use this program<font color="#CCCCCC"> to generate</font>
+
+920
+00:40:20,130 --> 00:40:22,990
+<font color="#E5E5E5">undetectable backdoors that can be used</font>
+
+921
+00:40:22,990 --> 00:40:27,760
+to<font color="#E5E5E5"> hack Windows computers</font><font color="#CCCCCC"> ok now that</font><font color="#E5E5E5"> we</font>
+
+922
+00:40:27,760 --> 00:40:30,430
+<font color="#CCCCCC">have well loaded</font><font color="#E5E5E5"> you can see it show us</font>
+
+923
+00:40:30,430 --> 00:40:33,070
+the main commands that you can<font color="#CCCCCC"> use</font><font color="#E5E5E5"> with</font>
+
+924
+00:40:33,070 --> 00:40:36,130
+well so the<font color="#E5E5E5"> first command is you can do</font>
+
+925
+00:40:36,130 --> 00:40:39,160
+exit to exit<font color="#E5E5E5"> you</font><font color="#CCCCCC"> can do info to</font><font color="#E5E5E5"> get</font>
+
+926
+00:40:39,160 --> 00:40:41,950
+information about<font color="#CCCCCC"> a specific tool you</font>
+
+927
+00:40:41,950 --> 00:40:44,350
+can<font color="#E5E5E5"> do</font><font color="#CCCCCC"> lists</font><font color="#E5E5E5"> to list the available tools</font>
+
+928
+00:40:44,350 --> 00:40:46,990
+<font color="#E5E5E5">you can do update to update</font><font color="#CCCCCC"> valve and</font>
+
+929
+00:40:46,990 --> 00:40:49,750
+this<font color="#E5E5E5"> is very very important because you</font>
+
+930
+00:40:49,750 --> 00:40:51,880
+always<font color="#E5E5E5"> want</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> be up-to-date</font><font color="#CCCCCC"> when</font><font color="#E5E5E5"> it</font>
+
+931
+00:40:51,880 --> 00:40:54,280
+comes to<font color="#CCCCCC"> bypassing antivirus programs</font>
+
+932
+00:40:54,280 --> 00:40:59,109
+<font color="#E5E5E5">and then you can do use to use a tool</font>
+
+933
+00:40:59,109 --> 00:41:02,319
+now let's start using<font color="#CCCCCC"> relevation</font><font color="#E5E5E5"> and as</font>
+
+934
+00:41:02,319 --> 00:41:04,779
+we do it it's going<font color="#E5E5E5"> to</font><font color="#CCCCCC"> become so easy</font>
+
+935
+00:41:04,779 --> 00:41:07,769
+<font color="#E5E5E5">and you'll be able to understand it more</font>
+
+936
+00:41:07,769 --> 00:41:12,219
+<font color="#E5E5E5">now</font><font color="#CCCCCC"> ville</font><font color="#E5E5E5"> has two main tools and if we</font>
+
+937
+00:41:12,219 --> 00:41:15,160
+do a list you'll be able<font color="#E5E5E5"> to see them so</font>
+
+938
+00:41:15,160 --> 00:41:17,499
+we have the first<font color="#CCCCCC"> one which is</font><font color="#E5E5E5"> the one</font>
+
+939
+00:41:17,499 --> 00:41:19,269
+that we're interested<font color="#E5E5E5"> in which</font><font color="#CCCCCC"> is called</font>
+
+940
+00:41:19,269 --> 00:41:21,690
+<font color="#E5E5E5">evasion and that's the one that</font>
+
+941
+00:41:21,690 --> 00:41:24,459
+<font color="#E5E5E5">generates undetectable backdoors for us</font>
+
+942
+00:41:24,459 --> 00:41:27,190
+and then there is the second<font color="#E5E5E5"> one which</font>
+
+943
+00:41:27,190 --> 00:41:29,829
+<font color="#CCCCCC">is called ordinance</font><font color="#E5E5E5"> and this tool</font>
+
+944
+00:41:29,829 --> 00:41:32,529
+generates the payloads<font color="#CCCCCC"> that's used by</font>
+
+945
+00:41:32,529 --> 00:41:34,779
+evasion so you can<font color="#E5E5E5"> look at this as a</font>
+
+946
+00:41:34,779 --> 00:41:38,170
+helper or<font color="#CCCCCC"> a secondary tool now what I</font>
+
+947
+00:41:38,170 --> 00:41:40,959
+mean<font color="#CCCCCC"> by a payload is a payload is the</font>
+
+948
+00:41:40,959 --> 00:41:43,779
+part of the code of the<font color="#E5E5E5"> back door that</font>
+
+949
+00:41:43,779 --> 00:41:45,640
+does the stuff that we want<font color="#E5E5E5"> that does</font>
+
+950
+00:41:45,640 --> 00:41:48,279
+the<font color="#E5E5E5"> evil stuff if you want to say so</font>
+
+951
+00:41:48,279 --> 00:41:49,719
+it's the part of<font color="#E5E5E5"> the code that gives us</font>
+
+952
+00:41:49,719 --> 00:41:51,819
+a reverse connection it's the part<font color="#E5E5E5"> of</font>
+
+953
+00:41:51,819 --> 00:41:53,589
+<font color="#E5E5E5">the code</font><font color="#CCCCCC"> that download and execute</font>
+
+954
+00:41:53,589 --> 00:41:55,539
+<font color="#E5E5E5">something on the target computer it's</font>
+
+955
+00:41:55,539 --> 00:41:58,479
+the<font color="#CCCCCC"> part of the</font><font color="#E5E5E5"> code</font><font color="#CCCCCC"> that allow us to</font>
+
+956
+00:41:58,479 --> 00:42:02,440
+<font color="#CCCCCC">achieve what we want</font><font color="#E5E5E5"> by executing that</font>
+
+957
+00:42:02,440 --> 00:42:05,079
+file and this<font color="#E5E5E5"> is going to become</font><font color="#CCCCCC"> more</font>
+
+958
+00:42:05,079 --> 00:42:07,959
+clear as<font color="#CCCCCC"> we start using</font><font color="#E5E5E5"> Ville now for</font>
+
+959
+00:42:07,959 --> 00:42:10,779
+now we're<font color="#E5E5E5"> interested in to using evasion</font>
+
+960
+00:42:10,779 --> 00:42:13,790
+<font color="#CCCCCC">so we're going to do use</font>
+
+961
+00:42:13,790 --> 00:42:16,610
+one because that's the<font color="#E5E5E5"> first tool that's</font>
+
+962
+00:42:16,610 --> 00:42:18,270
+number one
+
+963
+00:42:18,270 --> 00:42:21,119
+and as you can<font color="#E5E5E5"> see we have will evasion</font>
+
+964
+00:42:21,119 --> 00:42:23,550
+loaded now<font color="#CCCCCC"> and as I said</font><font color="#E5E5E5"> before this</font>
+
+965
+00:42:23,550 --> 00:42:25,980
+used to be a standalone tool<font color="#E5E5E5"> that you</font>
+
+966
+00:42:25,980 --> 00:42:28,230
+just<font color="#CCCCCC"> downloaded on its own but now they</font>
+
+967
+00:42:28,230 --> 00:42:31,110
+have<font color="#CCCCCC"> it all combined together</font><font color="#E5E5E5"> now as you</font>
+
+968
+00:42:31,110 --> 00:42:33,090
+<font color="#E5E5E5">can</font><font color="#CCCCCC"> see the</font><font color="#E5E5E5"> first thing</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> we get when</font>
+
+969
+00:42:33,090 --> 00:42:35,160
+we load<font color="#CCCCCC"> will evasion is the commands</font>
+
+970
+00:42:35,160 --> 00:42:38,340
+<font color="#CCCCCC">that you can run</font><font color="#E5E5E5"> on this tool so the</font>
+
+971
+00:42:38,340 --> 00:42:40,230
+first thing that<font color="#E5E5E5"> we want to do is we</font>
+
+972
+00:42:40,230 --> 00:42:42,060
+want to<font color="#E5E5E5"> list to see all</font><font color="#CCCCCC"> the available</font>
+
+973
+00:42:42,060 --> 00:42:43,790
+payloads
+
+974
+00:42:43,790 --> 00:42:46,220
+and as you can<font color="#E5E5E5"> see</font><font color="#CCCCCC"> we have</font><font color="#E5E5E5"> 41 different</font>
+
+975
+00:42:46,220 --> 00:42:49,010
+<font color="#E5E5E5">payloads</font><font color="#CCCCCC"> and all of these payloads</font>
+
+976
+00:42:49,010 --> 00:42:52,340
+<font color="#E5E5E5">follow a certain naming</font><font color="#CCCCCC"> pattern and you</font>
+
+977
+00:42:52,340 --> 00:42:54,680
+can<font color="#E5E5E5"> see for</font><font color="#CCCCCC"> example</font><font color="#E5E5E5"> let's take this</font>
+
+978
+00:42:54,680 --> 00:42:56,390
+<font color="#E5E5E5">example right</font><font color="#CCCCCC"> here because that's the</font>
+
+979
+00:42:56,390 --> 00:42:58,160
+payload that<font color="#E5E5E5"> I'm going to be using you</font>
+
+980
+00:42:58,160 --> 00:43:00,500
+can see the payload is divided<font color="#CCCCCC"> into</font>
+
+981
+00:43:00,500 --> 00:43:02,400
+<font color="#CCCCCC">three parts</font>
+
+982
+00:43:02,400 --> 00:43:05,040
+the first<font color="#E5E5E5"> parts right here refers to the</font>
+
+983
+00:43:05,040 --> 00:43:07,410
+programming language that's<font color="#E5E5E5"> the payload</font>
+
+984
+00:43:07,410 --> 00:43:10,080
+is going to be wrapped in so we have the
+
+985
+00:43:10,080 --> 00:43:12,480
+evil code and then the evil code is
+
+986
+00:43:12,480 --> 00:43:14,310
+going<font color="#E5E5E5"> to be wrapped into a certain</font>
+
+987
+00:43:14,310 --> 00:43:15,960
+<font color="#E5E5E5">programming language that the target</font>
+
+988
+00:43:15,960 --> 00:43:18,990
+computer<font color="#E5E5E5"> understands and right here you</font>
+
+989
+00:43:18,990 --> 00:43:21,030
+<font color="#E5E5E5">can see that this payload uses go</font>
+
+990
+00:43:21,030 --> 00:43:23,160
+programming language we can see this<font color="#E5E5E5"> one</font>
+
+991
+00:43:23,160 --> 00:43:26,610
+uses<font color="#CCCCCC"> C we can see these</font><font color="#E5E5E5"> ones UCS we have</font>
+
+992
+00:43:26,610 --> 00:43:28,560
+Python<font color="#E5E5E5"> we have</font><font color="#CCCCCC"> powershell and we have</font>
+
+993
+00:43:28,560 --> 00:43:31,610
+Ruby<font color="#E5E5E5"> if we scroll down</font>
+
+994
+00:43:31,740 --> 00:43:34,530
+the second part of the payload is really
+
+995
+00:43:34,530 --> 00:43:38,099
+important<font color="#E5E5E5"> this is the type of</font><font color="#CCCCCC"> the</font>
+
+996
+00:43:38,099 --> 00:43:40,290
+payload<font color="#CCCCCC"> the type of the code</font><font color="#E5E5E5"> that's</font>
+
+997
+00:43:40,290 --> 00:43:42,569
+<font color="#E5E5E5">going to be executed</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> the target</font>
+
+998
+00:43:42,569 --> 00:43:44,520
+<font color="#E5E5E5">computer</font>
+
+999
+00:43:44,520 --> 00:43:47,190
+in this example were using meterpreter
+
+1000
+00:43:47,190 --> 00:43:49,619
+<font color="#CCCCCC">which is a payload designed by</font>
+
+1001
+00:43:49,619 --> 00:43:52,290
+<font color="#CCCCCC">Metasploit Metasploit is a huge</font>
+
+1002
+00:43:52,290 --> 00:43:54,060
+<font color="#CCCCCC">framework for hacking and</font><font color="#E5E5E5"> it allows you</font>
+
+1003
+00:43:54,060 --> 00:43:56,400
+<font color="#CCCCCC">to do a lot of things but in this</font>
+
+1004
+00:43:56,400 --> 00:43:58,350
+lecture<font color="#CCCCCC"> were focusing</font><font color="#E5E5E5"> on creating</font><font color="#CCCCCC"> a</font>
+
+1005
+00:43:58,350 --> 00:44:00,840
+payload called meterpreter<font color="#CCCCCC"> and what's</font>
+
+1006
+00:44:00,840 --> 00:44:03,450
+really<font color="#CCCCCC"> cool about meterpreter is it runs</font>
+
+1007
+00:44:03,450 --> 00:44:05,760
+empty<font color="#E5E5E5"> memory and it allow us to migrate</font>
+
+1008
+00:44:05,760 --> 00:44:08,490
+between system processes<font color="#E5E5E5"> so we can have</font>
+
+1009
+00:44:08,490 --> 00:44:11,700
+the payload<font color="#E5E5E5"> or the</font><font color="#CCCCCC"> backdoor running from</font>
+
+1010
+00:44:11,700 --> 00:44:14,220
+a normal process like<font color="#CCCCCC"> explorer for</font>
+
+1011
+00:44:14,220 --> 00:44:16,830
+<font color="#E5E5E5">example and this payload will allow us</font>
+
+1012
+00:44:16,830 --> 00:44:18,780
+to<font color="#E5E5E5"> gain full control</font><font color="#CCCCCC"> over</font><font color="#E5E5E5"> the target</font>
+
+1013
+00:44:18,780 --> 00:44:20,610
+<font color="#E5E5E5">computer</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> we'll be able to</font><font color="#CCCCCC"> navigate</font>
+
+1014
+00:44:20,610 --> 00:44:22,770
+<font color="#E5E5E5">through the</font><font color="#CCCCCC"> filesystem download upload</font>
+
+1015
+00:44:22,770 --> 00:44:25,470
+files<font color="#CCCCCC"> turn on the mic turn on the webcam</font>
+
+1016
+00:44:25,470 --> 00:44:27,720
+even use<font color="#CCCCCC"> that computer to hack other</font>
+
+1017
+00:44:27,720 --> 00:44:30,420
+computers install a key logger<font color="#CCCCCC"> you can</font>
+
+1018
+00:44:30,420 --> 00:44:32,130
+<font color="#E5E5E5">literally do anything</font><font color="#CCCCCC"> you can think</font><font color="#E5E5E5"> of</font>
+
+1019
+00:44:32,130 --> 00:44:34,290
+and all<font color="#E5E5E5"> of this will be running from the</font>
+
+1020
+00:44:34,290 --> 00:44:36,600
+memory<font color="#E5E5E5"> from a normal process on the</font>
+
+1021
+00:44:36,600 --> 00:44:38,760
+system so it's very<font color="#CCCCCC"> hard to</font><font color="#E5E5E5"> detect and</font>
+
+1022
+00:44:38,760 --> 00:44:40,700
+it doesn't leave a lot<font color="#CCCCCC"> of footprints</font>
+
+1023
+00:44:40,700 --> 00:44:42,780
+that's why it's a really really<font color="#CCCCCC"> cool</font>
+
+1024
+00:44:42,780 --> 00:44:46,600
+<font color="#E5E5E5">payload and we'll be using it a lot</font>
+
+1025
+00:44:46,600 --> 00:44:49,030
+the third part of the name is the method
+
+1026
+00:44:49,030 --> 00:44:50,890
+<font color="#E5E5E5">that's going</font><font color="#CCCCCC"> to be used to</font><font color="#E5E5E5"> establish the</font>
+
+1027
+00:44:50,890 --> 00:44:53,800
+<font color="#E5E5E5">connection so in here you can</font><font color="#CCCCCC"> see</font><font color="#E5E5E5"> that</font>
+
+1028
+00:44:53,800 --> 00:44:57,520
+this is called<font color="#CCCCCC"> Reb HTTPS so</font><font color="#E5E5E5"> Rev</font>
+
+1029
+00:44:57,520 --> 00:45:01,390
+stands<font color="#E5E5E5"> for reverse and HTTP is the</font>
+
+1030
+00:45:01,390 --> 00:45:03,160
+protocol<font color="#E5E5E5"> that's going to be used to</font>
+
+1031
+00:45:03,160 --> 00:45:05,320
+<font color="#CCCCCC">establish the connection so</font><font color="#E5E5E5"> we can see</font>
+
+1032
+00:45:05,320 --> 00:45:08,250
+that<font color="#E5E5E5"> this payload will create a reverse</font>
+
+1033
+00:45:08,250 --> 00:45:12,100
+HTTPS connection you can see<font color="#E5E5E5"> this one</font>
+
+1034
+00:45:12,100 --> 00:45:13,990
+right<font color="#E5E5E5"> here</font><font color="#CCCCCC"> for example</font><font color="#E5E5E5"> it creates a</font>
+
+1035
+00:45:13,990 --> 00:45:17,500
+reverse HTTP connection<font color="#E5E5E5"> and we have</font><font color="#CCCCCC"> this</font>
+
+1036
+00:45:17,500 --> 00:45:20,470
+one in here<font color="#CCCCCC"> that</font><font color="#E5E5E5"> creates a reverse TCP</font>
+
+1037
+00:45:20,470 --> 00:45:24,040
+connection now what I<font color="#E5E5E5"> mean by reverse is</font>
+
+1038
+00:45:24,040 --> 00:45:27,130
+<font color="#E5E5E5">the connection is going to come from the</font>
+
+1039
+00:45:27,130 --> 00:45:30,250
+target computer<font color="#E5E5E5"> to my own computer</font><font color="#CCCCCC"> so I</font>
+
+1040
+00:45:30,250 --> 00:45:32,590
+won't<font color="#E5E5E5"> be connecting to</font><font color="#CCCCCC"> the computer that</font>
+
+1041
+00:45:32,590 --> 00:45:34,780
+<font color="#E5E5E5">I want to hack</font><font color="#CCCCCC"> what's going to</font><font color="#E5E5E5"> happen is</font>
+
+1042
+00:45:34,780 --> 00:45:37,000
+once the person<font color="#CCCCCC"> DoubleClick's the back</font>
+
+1043
+00:45:37,000 --> 00:45:39,100
+door<font color="#E5E5E5"> the back door will connect back to</font>
+
+1044
+00:45:39,100 --> 00:45:42,520
+<font color="#CCCCCC">me from the target</font><font color="#E5E5E5"> computer</font>
+
+1045
+00:45:42,520 --> 00:45:45,040
+what's cool<font color="#E5E5E5"> about this</font><font color="#CCCCCC"> is I'll be able</font>
+
+1046
+00:45:45,040 --> 00:45:48,220
+<font color="#E5E5E5">to</font><font color="#CCCCCC"> bypass</font><font color="#E5E5E5"> antivirus programs because the</font>
+
+1047
+00:45:48,220 --> 00:45:50,170
+connection<font color="#E5E5E5"> is not going to the</font><font color="#CCCCCC"> target</font>
+
+1048
+00:45:50,170 --> 00:45:52,180
+computer<font color="#E5E5E5"> is coming back to my computer</font>
+
+1049
+00:45:52,180 --> 00:45:54,070
+<font color="#CCCCCC">so it's literally</font><font color="#E5E5E5"> as if</font><font color="#CCCCCC"> the target</font>
+
+1050
+00:45:54,070 --> 00:45:55,720
+person<font color="#CCCCCC"> is just connecting to a normal</font>
+
+1051
+00:45:55,720 --> 00:45:58,030
+<font color="#E5E5E5">website</font><font color="#CCCCCC"> I'm going to use</font><font color="#E5E5E5"> a port that</font>
+
+1052
+00:45:58,030 --> 00:46:00,430
+<font color="#E5E5E5">websites use which is 80 or 8080</font>
+
+1053
+00:46:00,430 --> 00:46:02,560
+so again if the person analyzes the
+
+1054
+00:46:02,560 --> 00:46:04,720
+connection<font color="#CCCCCC"> it'll look as</font><font color="#E5E5E5"> if they're</font>
+
+1055
+00:46:04,720 --> 00:46:06,400
+literally<font color="#E5E5E5"> just connecting to</font><font color="#CCCCCC"> a normal</font>
+
+1056
+00:46:06,400 --> 00:46:09,310
+<font color="#CCCCCC">website</font><font color="#E5E5E5"> also if the target computer is</font>
+
+1057
+00:46:09,310 --> 00:46:11,500
+hidden behind a router<font color="#E5E5E5"> or behind a</font>
+
+1058
+00:46:11,500 --> 00:46:13,630
+network<font color="#E5E5E5"> again this is</font><font color="#CCCCCC"> going to work</font>
+
+1059
+00:46:13,630 --> 00:46:16,060
+<font color="#E5E5E5">because</font><font color="#CCCCCC"> the connection is coming from</font>
+
+1060
+00:46:16,060 --> 00:46:18,640
+the target<font color="#E5E5E5"> computer to me instead of me</font>
+
+1061
+00:46:18,640 --> 00:46:21,130
+connecting to the target computer<font color="#E5E5E5"> so</font>
+
+1062
+00:46:21,130 --> 00:46:23,320
+<font color="#E5E5E5">using a reverse connection is really</font>
+
+1063
+00:46:23,320 --> 00:46:25,420
+<font color="#E5E5E5">really handy and I think this is</font><font color="#CCCCCC"> really</font>
+
+1064
+00:46:25,420 --> 00:46:28,210
+<font color="#CCCCCC">the only practical way of gaining</font><font color="#E5E5E5"> access</font>
+
+1065
+00:46:28,210 --> 00:46:30,250
+<font color="#E5E5E5">to a computer because</font><font color="#CCCCCC"> there is a lot of</font>
+
+1066
+00:46:30,250 --> 00:46:32,260
+things that can stop you from<font color="#E5E5E5"> connecting</font>
+
+1067
+00:46:32,260 --> 00:46:35,980
+<font color="#CCCCCC">to a certain computer</font><font color="#E5E5E5"> now this is the</font>
+
+1068
+00:46:35,980 --> 00:46:38,650
+general naming<font color="#CCCCCC"> pattern</font><font color="#E5E5E5"> you'll see some</font>
+
+1069
+00:46:38,650 --> 00:46:40,900
+payloads like this one right<font color="#E5E5E5"> here which</font>
+
+1070
+00:46:40,900 --> 00:46:42,670
+<font color="#E5E5E5">doesn't follow that general naming</font>
+
+1071
+00:46:42,670 --> 00:46:44,980
+<font color="#CCCCCC">pattern and basically what these</font>
+
+1072
+00:46:44,980 --> 00:46:46,990
+payloads do for<font color="#E5E5E5"> example you can see this</font>
+
+1073
+00:46:46,990 --> 00:46:50,290
+one<font color="#E5E5E5"> is called shellcode inject so what's</font>
+
+1074
+00:46:50,290 --> 00:46:52,869
+going to<font color="#E5E5E5"> do is it's going to create a</font>
+
+1075
+00:46:52,869 --> 00:46:55,390
+payload<font color="#CCCCCC"> that</font><font color="#E5E5E5"> injects your other payload</font>
+
+1076
+00:46:55,390 --> 00:46:57,820
+so it's<font color="#CCCCCC"> going</font><font color="#E5E5E5"> to create a normal</font><font color="#CCCCCC"> payload</font>
+
+1077
+00:46:57,820 --> 00:46:59,950
+<font color="#E5E5E5">and that normal payload injects a</font>
+
+1078
+00:46:59,950 --> 00:47:02,500
+meterpreter payload for example now it
+
+1079
+00:47:02,500 --> 00:47:04,690
+does this to try<font color="#E5E5E5"> to bypass more security</font>
+
+1080
+00:47:04,690 --> 00:47:08,680
+<font color="#E5E5E5">but usually they won't bypass more</font>
+
+1081
+00:47:08,680 --> 00:47:10,330
+things than the normal payloads would
+
+1082
+00:47:10,330 --> 00:47:12,640
+bypass<font color="#E5E5E5"> so that's why I usually just used</font>
+
+1083
+00:47:12,640 --> 00:47:16,660
+one<font color="#CCCCCC"> of the</font><font color="#E5E5E5"> normal payloads in here so</font>
+
+1084
+00:47:16,660 --> 00:47:19,210
+this is it<font color="#E5E5E5"> this is all about the</font>
+
+1085
+00:47:19,210 --> 00:47:21,430
+payloads<font color="#E5E5E5"> sorry I took</font><font color="#CCCCCC"> a bit of</font><font color="#E5E5E5"> time but</font>
+
+1086
+00:47:21,430 --> 00:47:23,050
+I wanted<font color="#CCCCCC"> to make sure</font><font color="#E5E5E5"> that you guys</font>
+
+1087
+00:47:23,050 --> 00:47:25,270
+understand the naming<font color="#CCCCCC"> pattern I wanted</font>
+
+1088
+00:47:25,270 --> 00:47:27,190
+you to understand what a payload is and
+
+1089
+00:47:27,190 --> 00:47:29,200
+the difference<font color="#CCCCCC"> between a reverse and a</font>
+
+1090
+00:47:29,200 --> 00:47:32,530
+bind<font color="#E5E5E5"> and a TCP payload this way you the</font>
+
+1091
+00:47:32,530 --> 00:47:33,970
+rest<font color="#E5E5E5"> of the course will become more</font>
+
+1092
+00:47:33,970 --> 00:47:35,830
+clear<font color="#CCCCCC"> to</font><font color="#E5E5E5"> you and I can just</font><font color="#CCCCCC"> use the</font>
+
+1093
+00:47:35,830 --> 00:47:37,420
+payload that<font color="#E5E5E5"> I want without explaining</font>
+
+1094
+00:47:37,420 --> 00:47:39,940
+<font color="#E5E5E5">what it is now in the next</font><font color="#CCCCCC"> lecture we're</font>
+
+1095
+00:47:39,940 --> 00:47:41,440
+going to<font color="#E5E5E5"> be</font><font color="#CCCCCC"> generating a payload and</font>
+
+1096
+00:47:41,440 --> 00:47:43,839
+we'll be testing it against antivirus
+
+1097
+00:47:43,839 --> 00:47:46,230
+programs
+
+1098
+00:47:47,400 --> 00:47:50,079
+<font color="#E5E5E5">okay so in this video we're going to be</font>
+
+1099
+00:47:50,079 --> 00:47:53,829
+using<font color="#CCCCCC"> veil to create a backdoor</font><font color="#E5E5E5"> so the</font>
+
+1100
+00:47:53,829 --> 00:47:55,270
+first thing I'm going<font color="#CCCCCC"> to do is I'm going</font>
+
+1101
+00:47:55,270 --> 00:47:58,059
+to do list to list the available tools
+
+1102
+00:47:58,059 --> 00:48:00,160
+and I'm going<font color="#CCCCCC"> to use number</font><font color="#E5E5E5"> one because</font>
+
+1103
+00:48:00,160 --> 00:48:02,859
+we want<font color="#CCCCCC"> to</font><font color="#E5E5E5"> use evasion</font><font color="#CCCCCC"> and then I'm</font>
+
+1104
+00:48:02,859 --> 00:48:05,100
+going<font color="#E5E5E5"> to list my payloads</font>
+
+1105
+00:48:05,100 --> 00:48:07,170
+and like I said in the previous lecture
+
+1106
+00:48:07,170 --> 00:48:10,170
+<font color="#E5E5E5">I want to use go meterpreter reverse</font>
+
+1107
+00:48:10,170 --> 00:48:13,380
+<font color="#CCCCCC">HTTPS</font><font color="#E5E5E5"> so that's number 15 so I'm going</font>
+
+1108
+00:48:13,380 --> 00:48:16,280
+to use<font color="#E5E5E5"> 15</font>
+
+1109
+00:48:16,960 --> 00:48:19,630
+and that's gonna list the first<font color="#E5E5E5"> of all</font>
+
+1110
+00:48:19,630 --> 00:48:21,460
+is<font color="#CCCCCC"> going</font><font color="#E5E5E5"> to show me</font><font color="#CCCCCC"> information about</font>
+
+1111
+00:48:21,460 --> 00:48:24,190
+this particular payload and then<font color="#E5E5E5"> it'll</font>
+
+1112
+00:48:24,190 --> 00:48:26,500
+<font color="#CCCCCC">show me</font><font color="#E5E5E5"> the options that I</font><font color="#CCCCCC"> can set for</font>
+
+1113
+00:48:26,500 --> 00:48:30,070
+this payload<font color="#E5E5E5"> so the main option that you</font>
+
+1114
+00:48:30,070 --> 00:48:32,290
+<font color="#E5E5E5">wanna set and the most important one is</font>
+
+1115
+00:48:32,290 --> 00:48:34,960
+<font color="#E5E5E5">the IP address</font><font color="#CCCCCC"> so this is the IP address</font>
+
+1116
+00:48:34,960 --> 00:48:37,359
+<font color="#CCCCCC">which you're</font><font color="#E5E5E5"> going to be receiving the</font>
+
+1117
+00:48:37,359 --> 00:48:39,700
+connections on as we said we're going<font color="#E5E5E5"> to</font>
+
+1118
+00:48:39,700 --> 00:48:42,040
+<font color="#E5E5E5">have a reverse connection and we need to</font>
+
+1119
+00:48:42,040 --> 00:48:44,530
+set the<font color="#CCCCCC"> IP address which the payload or</font>
+
+1120
+00:48:44,530 --> 00:48:47,109
+the<font color="#CCCCCC"> backdoor</font><font color="#E5E5E5"> will try to connect back</font><font color="#CCCCCC"> to</font>
+
+1121
+00:48:47,109 --> 00:48:49,869
+and in our case<font color="#E5E5E5"> we</font><font color="#CCCCCC"> want to</font><font color="#E5E5E5"> receive the</font>
+
+1122
+00:48:49,869 --> 00:48:52,510
+connection back to this<font color="#CCCCCC"> cally machine so</font>
+
+1123
+00:48:52,510 --> 00:48:55,359
+we're going<font color="#E5E5E5"> to set the IP</font><font color="#CCCCCC"> el host to the</font>
+
+1124
+00:48:55,359 --> 00:48:57,869
+IP address of the<font color="#CCCCCC"> current</font><font color="#E5E5E5"> cally machine</font>
+
+1125
+00:48:57,869 --> 00:49:01,030
+now to get the<font color="#E5E5E5"> IP of my</font><font color="#CCCCCC"> cally machine</font><font color="#E5E5E5"> I</font>
+
+1126
+00:49:01,030 --> 00:49:04,000
+have to run if<font color="#CCCCCC"> config so I'm</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font>
+
+1127
+00:49:04,000 --> 00:49:05,710
+<font color="#E5E5E5">split the screen</font><font color="#CCCCCC"> by doing right click</font>
+
+1128
+00:49:05,710 --> 00:49:10,020
+and click on split<font color="#E5E5E5"> horizontally</font>
+
+1129
+00:49:10,890 --> 00:49:13,400
+and I'm just<font color="#E5E5E5"> gonna bring this down a bit</font>
+
+1130
+00:49:13,400 --> 00:49:17,320
+and we're gonna run<font color="#E5E5E5"> if config</font>
+
+1131
+00:49:19,710 --> 00:49:21,960
+now you can see the IP address in here
+
+1132
+00:49:21,960 --> 00:49:26,700
+is 10 2014<font color="#CCCCCC"> to</font><font color="#E5E5E5"> 13 this is</font><font color="#CCCCCC"> the IP of</font><font color="#E5E5E5"> my</font>
+
+1133
+00:49:26,700 --> 00:49:28,589
+<font color="#CCCCCC">Kali machine</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> is the IP of the</font>
+
+1134
+00:49:28,589 --> 00:49:30,690
+<font color="#E5E5E5">machine that I'm using as the attacking</font>
+
+1135
+00:49:30,690 --> 00:49:32,460
+machine<font color="#E5E5E5"> so this is where I want the</font>
+
+1136
+00:49:32,460 --> 00:49:34,500
+<font color="#E5E5E5">connection to come back to so I can hack</font>
+
+1137
+00:49:34,500 --> 00:49:36,780
+the target<font color="#E5E5E5"> computer once the backdoor is</font>
+
+1138
+00:49:36,780 --> 00:49:41,600
+executed so I'm gonna set
+
+1139
+00:49:41,600 --> 00:49:43,690
+<font color="#E5E5E5">Elle</font><font color="#CCCCCC"> hosts</font>
+
+1140
+00:49:43,690 --> 00:49:47,750
+<font color="#E5E5E5">- 10 2014 - 13</font>
+
+1141
+00:49:47,750 --> 00:49:50,300
+so you can set any<font color="#E5E5E5"> of these options</font>
+
+1142
+00:49:50,300 --> 00:49:52,970
+<font color="#CCCCCC">using the set command so all you have to</font>
+
+1143
+00:49:52,970 --> 00:49:56,240
+<font color="#CCCCCC">do is</font><font color="#E5E5E5"> write set followed by the option</font>
+
+1144
+00:49:56,240 --> 00:49:58,010
+<font color="#CCCCCC">that</font><font color="#E5E5E5"> you want to change so in this case</font>
+
+1145
+00:49:58,010 --> 00:50:00,170
+we want to<font color="#E5E5E5"> change</font><font color="#CCCCCC"> the L host</font><font color="#E5E5E5"> and we want</font>
+
+1146
+00:50:00,170 --> 00:50:05,140
+to change<font color="#E5E5E5"> that to 10 2014 to 13</font>
+
+1147
+00:50:05,369 --> 00:50:08,579
+now<font color="#E5E5E5"> the airport</font><font color="#CCCCCC"> is set to 80 which is</font>
+
+1148
+00:50:08,579 --> 00:50:09,989
+really good because<font color="#E5E5E5"> that's the port</font>
+
+1149
+00:50:09,989 --> 00:50:12,569
+that's used<font color="#CCCCCC"> by web servers</font><font color="#E5E5E5"> so as I said</font>
+
+1150
+00:50:12,569 --> 00:50:14,190
+the connection<font color="#E5E5E5"> will look as if the</font>
+
+1151
+00:50:14,190 --> 00:50:15,900
+target person is connecting to<font color="#CCCCCC"> a website</font>
+
+1152
+00:50:15,900 --> 00:50:18,690
+<font color="#CCCCCC">and it's not going to be suspicious but</font>
+
+1153
+00:50:18,690 --> 00:50:20,339
+I<font color="#E5E5E5"> don't want to use that port because</font>
+
+1154
+00:50:20,339 --> 00:50:22,259
+I'll<font color="#E5E5E5"> have a web server</font><font color="#CCCCCC"> running on this</font>
+
+1155
+00:50:22,259 --> 00:50:23,729
+and we'll talk about<font color="#E5E5E5"> that</font><font color="#CCCCCC"> later</font>
+
+1156
+00:50:23,729 --> 00:50:27,599
+so I'm<font color="#E5E5E5"> gonna change that</font><font color="#CCCCCC"> to 80 80 80 80</font>
+
+1157
+00:50:27,599 --> 00:50:29,969
+is another port<font color="#E5E5E5"> that used by web servers</font>
+
+1158
+00:50:29,969 --> 00:50:32,190
+<font color="#CCCCCC">so it's still</font><font color="#E5E5E5"> not suspicious</font><font color="#CCCCCC"> and it</font>
+
+1159
+00:50:32,190 --> 00:50:35,759
+should still bypass firewalls<font color="#E5E5E5"> so I'm</font>
+
+1160
+00:50:35,759 --> 00:50:39,150
+just gonna<font color="#E5E5E5"> do set same way that we did</font>
+
+1161
+00:50:39,150 --> 00:50:40,650
+<font color="#CCCCCC">it before</font><font color="#E5E5E5"> with the alehouse we're going</font>
+
+1162
+00:50:40,650 --> 00:50:43,309
+to do<font color="#CCCCCC"> el port</font>
+
+1163
+00:50:43,430 --> 00:50:44,990
+to the value<font color="#E5E5E5"> that we want</font><font color="#CCCCCC"> to set this</font>
+
+1164
+00:50:44,990 --> 00:50:46,550
+option<font color="#E5E5E5"> to and we're going</font><font color="#CCCCCC"> to set it to</font>
+
+1165
+00:50:46,550 --> 00:50:49,119
+<font color="#E5E5E5">8080</font>
+
+1166
+00:50:49,910 --> 00:50:52,910
+now if I do options again
+
+1167
+00:50:52,910 --> 00:50:56,590
+to list all<font color="#CCCCCC"> the options</font>
+
+1168
+00:50:56,670 --> 00:50:59,220
+see that the alehouse changed to 10 2014
+
+1169
+00:50:59,220 --> 00:51:04,240
+to 13 and the Alport changed to<font color="#E5E5E5"> 8080</font>
+
+1170
+00:51:04,240 --> 00:51:06,250
+now if you generate<font color="#E5E5E5"> the back door like</font>
+
+1171
+00:51:06,250 --> 00:51:09,250
+<font color="#E5E5E5">this you will</font><font color="#CCCCCC"> bypass all</font><font color="#E5E5E5"> antivirus</font>
+
+1172
+00:51:09,250 --> 00:51:13,839
+programs except AVG I've<font color="#E5E5E5"> already tried</font>
+
+1173
+00:51:13,839 --> 00:51:16,359
+<font color="#E5E5E5">this that's how I know this and that's</font>
+
+1174
+00:51:16,359 --> 00:51:17,740
+<font color="#E5E5E5">not good</font><font color="#CCCCCC"> enough because we want</font><font color="#E5E5E5"> to</font>
+
+1175
+00:51:17,740 --> 00:51:21,040
+bypass<font color="#CCCCCC"> everything now the way antivirus</font>
+
+1176
+00:51:21,040 --> 00:51:24,310
+programs work is they have a<font color="#E5E5E5"> very large</font>
+
+1177
+00:51:24,310 --> 00:51:28,180
+<font color="#CCCCCC">database of signatures</font><font color="#E5E5E5"> these signatures</font>
+
+1178
+00:51:28,180 --> 00:51:30,730
+correspond to files<font color="#E5E5E5"> that contain harmful</font>
+
+1179
+00:51:30,730 --> 00:51:33,880
+code so what they do is they<font color="#E5E5E5"> compare the</font>
+
+1180
+00:51:33,880 --> 00:51:36,130
+signature of<font color="#CCCCCC"> your file</font><font color="#E5E5E5"> of your backdoor</font>
+
+1181
+00:51:36,130 --> 00:51:38,740
+to all the files in this huge database
+
+1182
+00:51:38,740 --> 00:51:42,010
+<font color="#CCCCCC">if your file matches any of these files</font>
+
+1183
+00:51:42,010 --> 00:51:44,680
+<font color="#E5E5E5">then they'll flag it as a virus or as</font>
+
+1184
+00:51:44,680 --> 00:51:47,619
+malware<font color="#CCCCCC"> if it</font><font color="#E5E5E5"> doesn't then they'll think</font>
+
+1185
+00:51:47,619 --> 00:51:49,869
+that<font color="#E5E5E5"> it's a normal</font><font color="#CCCCCC"> file and it's not</font>
+
+1186
+00:51:49,869 --> 00:51:51,460
+malware
+
+1187
+00:51:51,460 --> 00:51:54,790
+so the main point<font color="#E5E5E5"> in here</font><font color="#CCCCCC"> is we're going</font>
+
+1188
+00:51:54,790 --> 00:51:57,130
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> try to modify the file our back door</font>
+
+1189
+00:51:57,130 --> 00:51:59,319
+<font color="#E5E5E5">as much as</font><font color="#CCCCCC"> possible to</font><font color="#E5E5E5"> make it more</font>
+
+1190
+00:51:59,319 --> 00:52:02,200
+unique<font color="#CCCCCC"> so that it</font><font color="#E5E5E5"> bypasses the signature</font>
+
+1191
+00:52:02,200 --> 00:52:04,000
+database<font color="#E5E5E5"> and we'll be able to bypass</font>
+
+1192
+00:52:04,000 --> 00:52:07,359
+<font color="#E5E5E5">antivirus programs now as I said</font><font color="#CCCCCC"> Ville</font>
+
+1193
+00:52:07,359 --> 00:52:09,040
+<font color="#CCCCCC">is</font><font color="#E5E5E5"> already doing that for us it's an</font>
+
+1194
+00:52:09,040 --> 00:52:11,410
+encrypted the<font color="#E5E5E5"> backdoor it's obfuscating</font>
+
+1195
+00:52:11,410 --> 00:52:13,990
+it<font color="#CCCCCC"> it's injecting it in the</font><font color="#E5E5E5"> memory so</font>
+
+1196
+00:52:13,990 --> 00:52:15,730
+<font color="#CCCCCC">that it doesn't get detected</font><font color="#E5E5E5"> and it's</font>
+
+1197
+00:52:15,730 --> 00:52:17,559
+doing a good job at<font color="#CCCCCC"> it</font><font color="#E5E5E5"> it's bypassing</font>
+
+1198
+00:52:17,559 --> 00:52:19,420
+pretty much everything except for<font color="#CCCCCC"> only</font>
+
+1199
+00:52:19,420 --> 00:52:20,740
+one antivirus program
+
+1200
+00:52:20,740 --> 00:52:23,380
+so just to bypass this last<font color="#E5E5E5"> antivirus</font>
+
+1201
+00:52:23,380 --> 00:52:25,450
+program<font color="#E5E5E5"> I'm gonna set some optional</font>
+
+1202
+00:52:25,450 --> 00:52:27,640
+<font color="#E5E5E5">options that really</font><font color="#CCCCCC"> won't do much</font><font color="#E5E5E5"> of a</font>
+
+1203
+00:52:27,640 --> 00:52:29,109
+difference<font color="#E5E5E5"> they'll just make the</font>
+
+1204
+00:52:29,109 --> 00:52:31,990
+backdoor<font color="#CCCCCC"> look a bit different</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> the</font>
+
+1205
+00:52:31,990 --> 00:52:33,660
+first thing that<font color="#E5E5E5"> I'm going to</font><font color="#CCCCCC"> modify is</font>
+
+1206
+00:52:33,660 --> 00:52:37,089
+processors<font color="#E5E5E5"> and that's the minimum number</font>
+
+1207
+00:52:37,089 --> 00:52:39,369
+<font color="#CCCCCC">of processors to be used by the</font><font color="#E5E5E5"> backdoor</font>
+
+1208
+00:52:39,369 --> 00:52:42,099
+<font color="#CCCCCC">I'm not gonna set a huge number</font><font color="#E5E5E5"> because</font>
+
+1209
+00:52:42,099 --> 00:52:43,900
+that'll<font color="#CCCCCC"> just make my backdoor not work</font>
+
+1210
+00:52:43,900 --> 00:52:46,359
+<font color="#E5E5E5">I'm just</font><font color="#CCCCCC"> gonna set it to one which is</font>
+
+1211
+00:52:46,359 --> 00:52:48,970
+pretty<font color="#E5E5E5"> much nothing really</font><font color="#CCCCCC"> but</font><font color="#E5E5E5"> I'm just</font>
+
+1212
+00:52:48,970 --> 00:52:50,800
+<font color="#E5E5E5">gonna set this option to make the code</font>
+
+1213
+00:52:50,800 --> 00:52:53,790
+look a bit<font color="#CCCCCC"> different</font><font color="#E5E5E5"> so I'm gonna do set</font>
+
+1214
+00:52:53,790 --> 00:52:55,990
+again the same<font color="#CCCCCC"> way that</font><font color="#E5E5E5"> we are setting</font>
+
+1215
+00:52:55,990 --> 00:52:57,400
+the<font color="#CCCCCC"> L part and</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> L</font><font color="#E5E5E5"> host</font>
+
+1216
+00:52:57,400 --> 00:52:58,780
+<font color="#E5E5E5">we're just going to put the option name</font>
+
+1217
+00:52:58,780 --> 00:53:01,420
+which is processors
+
+1218
+00:53:01,420 --> 00:53:03,040
+and we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to set that</font><font color="#E5E5E5"> to number</font>
+
+1219
+00:53:03,040 --> 00:53:05,250
+<font color="#E5E5E5">one</font>
+
+1220
+00:53:05,930 --> 00:53:08,059
+I'm also<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> set another option which</font>
+
+1221
+00:53:08,059 --> 00:53:11,329
+<font color="#CCCCCC">is</font><font color="#E5E5E5"> the sleep option and that</font><font color="#CCCCCC"> basically</font>
+
+1222
+00:53:11,329 --> 00:53:14,059
+lets the backdoor sleep for a number<font color="#CCCCCC"> of</font>
+
+1223
+00:53:14,059 --> 00:53:16,579
+seconds that you<font color="#CCCCCC"> set before it executes</font>
+
+1224
+00:53:16,579 --> 00:53:18,290
+<font color="#CCCCCC">the evil code that you</font><font color="#E5E5E5"> have in there</font>
+
+1225
+00:53:18,290 --> 00:53:21,109
+before<font color="#E5E5E5"> it executes</font><font color="#CCCCCC"> the payload</font><font color="#E5E5E5"> so I'm</font>
+
+1226
+00:53:21,109 --> 00:53:23,930
+gonna set this to<font color="#CCCCCC"> six</font><font color="#E5E5E5"> again no real</font>
+
+1227
+00:53:23,930 --> 00:53:25,700
+<font color="#E5E5E5">reason for this I'm only doing this</font><font color="#CCCCCC"> to</font>
+
+1228
+00:53:25,700 --> 00:53:27,130
+make<font color="#E5E5E5"> the</font><font color="#CCCCCC"> backdoor look a bit different</font>
+
+1229
+00:53:27,130 --> 00:53:30,589
+<font color="#CCCCCC">so I'm</font><font color="#E5E5E5"> gonna do set sleep</font>
+
+1230
+00:53:30,589 --> 00:53:33,700
+<font color="#CCCCCC">two-six so I'm going to</font><font color="#E5E5E5"> hit enter and</font>
+
+1231
+00:53:33,700 --> 00:53:36,380
+I'm<font color="#E5E5E5"> gonna do options again to make sure</font>
+
+1232
+00:53:36,380 --> 00:53:38,180
+<font color="#CCCCCC">that all the options are set the way I</font>
+
+1233
+00:53:38,180 --> 00:53:42,950
+want<font color="#E5E5E5"> them</font><font color="#CCCCCC"> to be so I have my IP address</font>
+
+1234
+00:53:42,950 --> 00:53:46,400
+set properly<font color="#CCCCCC"> I have my</font><font color="#E5E5E5"> L port</font><font color="#CCCCCC"> I have my</font>
+
+1235
+00:53:46,400 --> 00:53:49,400
+processors and I have my sleep so I'm
+
+1236
+00:53:49,400 --> 00:53:52,539
+going to<font color="#CCCCCC"> generate the back door</font>
+
+1237
+00:53:53,560 --> 00:53:56,140
+and now it's asking<font color="#CCCCCC"> me</font><font color="#E5E5E5"> to name this back</font>
+
+1238
+00:53:56,140 --> 00:53:58,390
+door<font color="#E5E5E5"> or</font><font color="#CCCCCC"> something so I'm gonna</font><font color="#E5E5E5"> name</font><font color="#CCCCCC"> this</font>
+
+1239
+00:53:58,390 --> 00:54:01,080
+back<font color="#E5E5E5"> door</font><font color="#CCCCCC"> Rev</font>
+
+1240
+00:54:01,089 --> 00:54:06,020
+HTTP 8080<font color="#E5E5E5"> just so</font><font color="#CCCCCC"> that we can remember</font>
+
+1241
+00:54:06,020 --> 00:54:08,690
+which payload and<font color="#E5E5E5"> which port to use for</font>
+
+1242
+00:54:08,690 --> 00:54:11,299
+this back door in the future
+
+1243
+00:54:11,299 --> 00:54:14,239
+now the<font color="#CCCCCC"> backdoor</font><font color="#E5E5E5"> is generated and you</font>
+
+1244
+00:54:14,239 --> 00:54:16,130
+can see it's<font color="#CCCCCC"> telling us</font><font color="#E5E5E5"> the module</font>
+
+1245
+00:54:16,130 --> 00:54:18,199
+<font color="#E5E5E5">that's used and it's telling us where</font>
+
+1246
+00:54:18,199 --> 00:54:20,929
+the backdoor<font color="#E5E5E5"> is stored so the backdoor</font>
+
+1247
+00:54:20,929 --> 00:54:23,599
+<font color="#E5E5E5">is stored in this path right here so I'm</font>
+
+1248
+00:54:23,599 --> 00:54:26,169
+<font color="#CCCCCC">going</font><font color="#E5E5E5"> to copy that</font>
+
+1249
+00:54:26,580 --> 00:54:29,770
+let's go ahead and<font color="#E5E5E5"> check to</font><font color="#CCCCCC"> see if the</font>
+
+1250
+00:54:29,770 --> 00:54:32,200
+<font color="#CCCCCC">backdoor is detected by any antivirus</font>
+
+1251
+00:54:32,200 --> 00:54:34,960
+<font color="#E5E5E5">programs now you can use the built-in</font>
+
+1252
+00:54:34,960 --> 00:54:38,380
+feature by will using<font color="#E5E5E5"> the check</font><font color="#CCCCCC"> VT</font>
+
+1253
+00:54:38,380 --> 00:54:41,320
+command<font color="#E5E5E5"> but this feature only uses</font><font color="#CCCCCC"> the</font>
+
+1254
+00:54:41,320 --> 00:54:43,690
+signature of<font color="#E5E5E5"> the file and it's not</font><font color="#CCCCCC"> 100%</font>
+
+1255
+00:54:43,690 --> 00:54:46,150
+<font color="#E5E5E5">accurate</font><font color="#CCCCCC"> sometimes it</font><font color="#E5E5E5"> tells you that the</font>
+
+1256
+00:54:46,150 --> 00:54:48,580
+file will bypass<font color="#E5E5E5"> all anti viruses but</font>
+
+1257
+00:54:48,580 --> 00:54:51,130
+it'll actually be detected<font color="#E5E5E5"> you can also</font>
+
+1258
+00:54:51,130 --> 00:54:54,010
+use<font color="#E5E5E5"> virustotal but I don't recommend</font>
+
+1259
+00:54:54,010 --> 00:54:55,390
+<font color="#E5E5E5">that and please don't do that</font>
+
+1260
+00:54:55,390 --> 00:54:57,610
+<font color="#E5E5E5">because if you do</font><font color="#CCCCCC"> that your backdoor</font>
+
+1261
+00:54:57,610 --> 00:54:59,950
+will become less<font color="#CCCCCC"> effective because</font>
+
+1262
+00:54:59,950 --> 00:55:01,180
+virustotal
+
+1263
+00:55:01,180 --> 00:55:03,580
+<font color="#E5E5E5">share the results of their scans with</font>
+
+1264
+00:55:03,580 --> 00:55:05,950
+antivirus programs<font color="#CCCCCC"> what we're going to</font>
+
+1265
+00:55:05,950 --> 00:55:07,510
+do is we're<font color="#CCCCCC"> going to</font><font color="#E5E5E5"> use</font><font color="#CCCCCC"> a website</font>
+
+1266
+00:55:07,510 --> 00:55:09,850
+called<font color="#E5E5E5"> know distribute so we're going to</font>
+
+1267
+00:55:09,850 --> 00:55:12,420
+go to it<font color="#E5E5E5"> now</font>
+
+1268
+00:55:13,900 --> 00:55:15,820
+so I'm just going<font color="#E5E5E5"> to</font><font color="#CCCCCC"> Google for know</font>
+
+1269
+00:55:15,820 --> 00:55:18,210
+distribute
+
+1270
+00:55:18,420 --> 00:55:20,670
+and what this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> gonna do it similar to</font>
+
+1271
+00:55:20,670 --> 00:55:21,510
+virustotal
+
+1272
+00:55:21,510 --> 00:55:24,329
+the only difference is it's<font color="#E5E5E5"> not going to</font>
+
+1273
+00:55:24,329 --> 00:55:26,640
+share these<font color="#E5E5E5"> kind results with antivirus</font>
+
+1274
+00:55:26,640 --> 00:55:30,119
+programs<font color="#E5E5E5"> so what</font><font color="#CCCCCC"> effect your</font><font color="#E5E5E5"> backdoor so</font>
+
+1275
+00:55:30,119 --> 00:55:32,010
+I'm<font color="#E5E5E5"> gonna click on browse to navigate to</font>
+
+1276
+00:55:32,010 --> 00:55:34,740
+<font color="#CCCCCC">my file</font><font color="#E5E5E5"> and I'm just gonna copy where</font>
+
+1277
+00:55:34,740 --> 00:55:36,599
+the file is stored<font color="#E5E5E5"> so</font><font color="#CCCCCC"> Ville</font><font color="#E5E5E5"> is telling</font>
+
+1278
+00:55:36,599 --> 00:55:38,520
+me now it's stored<font color="#E5E5E5"> in this location</font><font color="#CCCCCC"> and</font>
+
+1279
+00:55:38,520 --> 00:55:42,030
+<font color="#CCCCCC">users share will output compiled</font><font color="#E5E5E5"> so I'm</font>
+
+1280
+00:55:42,030 --> 00:55:44,120
+<font color="#E5E5E5">gonna copy this</font>
+
+1281
+00:55:44,120 --> 00:55:47,180
+and I'm<font color="#E5E5E5"> gonna come here I'm gonna click</font>
+
+1282
+00:55:47,180 --> 00:55:50,030
+on the pen and I'm gonna paste the
+
+1283
+00:55:50,030 --> 00:55:51,960
+location
+
+1284
+00:55:51,960 --> 00:55:55,150
+<font color="#E5E5E5">I'm going to click</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> open</font>
+
+1285
+00:55:55,150 --> 00:55:58,350
+and scan the file
+
+1286
+00:56:00,380 --> 00:56:02,390
+now as you<font color="#CCCCCC"> can see I've already</font><font color="#E5E5E5"> scanned</font>
+
+1287
+00:56:02,390 --> 00:56:04,309
+this file<font color="#E5E5E5"> and it's telling</font><font color="#CCCCCC"> me that this</font>
+
+1288
+00:56:04,309 --> 00:56:06,319
+file<font color="#E5E5E5"> has</font><font color="#CCCCCC"> been scanned before so I'm just</font>
+
+1289
+00:56:06,319 --> 00:56:10,180
+<font color="#E5E5E5">gonna click on</font><font color="#CCCCCC"> view previous results and</font>
+
+1290
+00:56:10,180 --> 00:56:13,160
+as you<font color="#E5E5E5"> can see the file</font><font color="#CCCCCC"> is actually</font>
+
+1291
+00:56:13,160 --> 00:56:15,589
+scanned on the same day as today<font color="#E5E5E5"> which</font>
+
+1292
+00:56:15,589 --> 00:56:19,910
+is the 29th of March 2017<font color="#E5E5E5"> and as you can</font>
+
+1293
+00:56:19,910 --> 00:56:23,630
+<font color="#E5E5E5">see the file is bypassing all antivirus</font>
+
+1294
+00:56:23,630 --> 00:56:25,190
+programs
+
+1295
+00:56:25,190 --> 00:56:28,460
+so we can use<font color="#E5E5E5"> this back door against any</font>
+
+1296
+00:56:28,460 --> 00:56:30,950
+device and we'll be sure that the device
+
+1297
+00:56:30,950 --> 00:56:33,230
+or<font color="#E5E5E5"> the computer will</font><font color="#CCCCCC"> not be able</font><font color="#E5E5E5"> to</font>
+
+1298
+00:56:33,230 --> 00:56:37,400
+<font color="#E5E5E5">detect this file as a virus now there is</font>
+
+1299
+00:56:37,400 --> 00:56:39,890
+a few<font color="#E5E5E5"> things to keep in</font><font color="#CCCCCC"> mind</font><font color="#E5E5E5"> antivirus</font>
+
+1300
+00:56:39,890 --> 00:56:41,839
+programs<font color="#E5E5E5"> always update their database</font>
+
+1301
+00:56:41,839 --> 00:56:44,539
+and will<font color="#E5E5E5"> always update</font><font color="#CCCCCC"> their code as</font>
+
+1302
+00:56:44,539 --> 00:56:47,299
+well<font color="#E5E5E5"> so you want to</font><font color="#CCCCCC"> always</font><font color="#E5E5E5"> make well</font>
+
+1303
+00:56:47,299 --> 00:56:51,589
+<font color="#CCCCCC">up-to-date also</font><font color="#E5E5E5"> sometimes with the same</font>
+
+1304
+00:56:51,589 --> 00:56:52,730
+exact backdoor
+
+1305
+00:56:52,730 --> 00:56:54,980
+it might get detected and it might<font color="#CCCCCC"> not</font>
+
+1306
+00:56:54,980 --> 00:56:57,530
+get<font color="#CCCCCC"> detected because</font><font color="#E5E5E5"> depending on the</font>
+
+1307
+00:56:57,530 --> 00:56:59,299
+way the backdoor<font color="#E5E5E5"> is getting encrypted</font>
+
+1308
+00:56:59,299 --> 00:57:00,859
+<font color="#E5E5E5">and it's getting generated</font>
+
+1309
+00:57:00,859 --> 00:57:03,260
+<font color="#E5E5E5">I've</font><font color="#CCCCCC"> actually generated this backdoor</font>
+
+1310
+00:57:03,260 --> 00:57:07,010
+before with sleep or with no sleep<font color="#E5E5E5"> and</font>
+
+1311
+00:57:07,010 --> 00:57:09,380
+as I said<font color="#E5E5E5"> it got got detectives</font><font color="#CCCCCC"> by one</font>
+
+1312
+00:57:09,380 --> 00:57:12,170
+antivirus program<font color="#CCCCCC"> I generated</font><font color="#E5E5E5"> with</font><font color="#CCCCCC"> 10</font>
+
+1313
+00:57:12,170 --> 00:57:14,210
+seconds and it<font color="#E5E5E5"> still got detected and</font>
+
+1314
+00:57:14,210 --> 00:57:17,539
+then with<font color="#CCCCCC"> 6 it was able</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> bypass it</font><font color="#E5E5E5"> so</font>
+
+1315
+00:57:17,539 --> 00:57:19,309
+you want to keep<font color="#CCCCCC"> playing around</font><font color="#E5E5E5"> with the</font>
+
+1316
+00:57:19,309 --> 00:57:21,049
+options you<font color="#CCCCCC"> want to keep playing around</font>
+
+1317
+00:57:21,049 --> 00:57:23,750
+with the payloads until you<font color="#CCCCCC"> managed</font><font color="#E5E5E5"> to</font>
+
+1318
+00:57:23,750 --> 00:57:26,420
+achieve<font color="#E5E5E5"> the</font><font color="#CCCCCC"> best</font><font color="#E5E5E5"> results so</font><font color="#CCCCCC"> that you</font><font color="#E5E5E5"> can</font>
+
+1319
+00:57:26,420 --> 00:57:28,760
+bypass<font color="#E5E5E5"> as much antivirus programs as</font>
+
+1320
+00:57:28,760 --> 00:57:31,270
+<font color="#E5E5E5">possible</font>
+
+1321
+00:57:32,219 --> 00:57:36,429
+now the<font color="#CCCCCC"> backdoor</font><font color="#E5E5E5"> that we created uses a</font>
+
+1322
+00:57:36,429 --> 00:57:40,839
+reverse<font color="#E5E5E5"> payload</font><font color="#CCCCCC"> so like I said before it</font>
+
+1323
+00:57:40,839 --> 00:57:43,150
+does not<font color="#E5E5E5"> open a port in the target</font>
+
+1324
+00:57:43,150 --> 00:57:46,209
+computer<font color="#CCCCCC"> it</font><font color="#E5E5E5"> actually connects from the</font>
+
+1325
+00:57:46,209 --> 00:57:49,599
+target computer<font color="#CCCCCC"> to</font><font color="#E5E5E5"> our computer and by</font>
+
+1326
+00:57:49,599 --> 00:57:52,959
+<font color="#E5E5E5">doing</font><font color="#CCCCCC"> that it will bypass firewalls and</font>
+
+1327
+00:57:52,959 --> 00:57:56,289
+it will look less suspicious<font color="#E5E5E5"> so for this</font>
+
+1328
+00:57:56,289 --> 00:57:59,169
+to<font color="#E5E5E5"> work we need</font><font color="#CCCCCC"> to open</font><font color="#E5E5E5"> a port in our</font>
+
+1329
+00:57:59,169 --> 00:58:01,689
+computer<font color="#E5E5E5"> so that the backdoor can</font>
+
+1330
+00:58:01,689 --> 00:58:04,209
+connect<font color="#CCCCCC"> from</font><font color="#E5E5E5"> the target</font><font color="#CCCCCC"> computer</font><font color="#E5E5E5"> to us</font>
+
+1331
+00:58:04,209 --> 00:58:07,599
+on that<font color="#CCCCCC"> port so if you remember</font><font color="#E5E5E5"> when I</font>
+
+1332
+00:58:07,599 --> 00:58:11,079
+created the<font color="#E5E5E5"> backdoor</font><font color="#CCCCCC"> I set the port to</font>
+
+1333
+00:58:11,079 --> 00:58:14,589
+8080<font color="#E5E5E5"> so I need to</font><font color="#CCCCCC"> open that part in</font><font color="#E5E5E5"> my</font>
+
+1334
+00:58:14,589 --> 00:58:17,049
+<font color="#E5E5E5">Kali machine so that</font><font color="#CCCCCC"> when the target</font>
+
+1335
+00:58:17,049 --> 00:58:19,509
+person<font color="#E5E5E5"> executes the backdoor the back</font>
+
+1336
+00:58:19,509 --> 00:58:22,059
+there can connect<font color="#E5E5E5"> back to</font><font color="#CCCCCC"> me</font><font color="#E5E5E5"> on port</font>
+
+1337
+00:58:22,059 --> 00:58:26,319
+8080<font color="#E5E5E5"> so I'm just going to write the name</font>
+
+1338
+00:58:26,319 --> 00:58:28,299
+of<font color="#E5E5E5"> the payload</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> we used because</font>
+
+1339
+00:58:28,299 --> 00:58:29,829
+that's very<font color="#E5E5E5"> important when you're</font>
+
+1340
+00:58:29,829 --> 00:58:32,439
+listening<font color="#CCCCCC"> for incoming connections so</font><font color="#E5E5E5"> we</font>
+
+1341
+00:58:32,439 --> 00:58:34,900
+<font color="#E5E5E5">used a payload that's written and go and</font>
+
+1342
+00:58:34,900 --> 00:58:39,279
+<font color="#E5E5E5">that was</font><font color="#CCCCCC"> ammeter Peter</font><font color="#E5E5E5"> Rev HTTP which is</font>
+
+1343
+00:58:39,279 --> 00:58:42,909
+a reverse<font color="#E5E5E5"> HTTP payload now this is not a</font>
+
+1344
+00:58:42,909 --> 00:58:44,319
+<font color="#E5E5E5">command I'm just going to write it</font><font color="#CCCCCC"> in</font>
+
+1345
+00:58:44,319 --> 00:58:46,809
+here so just<font color="#CCCCCC"> that you keep this in mind</font>
+
+1346
+00:58:46,809 --> 00:58:50,969
+<font color="#E5E5E5">and we used port 8080</font>
+
+1347
+00:58:51,280 --> 00:58:54,580
+for the reverse connection<font color="#E5E5E5"> so these are</font>
+
+1348
+00:58:54,580 --> 00:58:56,560
+the<font color="#E5E5E5"> most important things to keep in</font>
+
+1349
+00:58:56,560 --> 00:58:58,120
+<font color="#CCCCCC">mind when listening for incoming</font>
+
+1350
+00:58:58,120 --> 00:59:01,120
+<font color="#CCCCCC">connections so I'm going</font><font color="#E5E5E5"> to split the</font>
+
+1351
+00:59:01,120 --> 00:59:03,420
+<font color="#CCCCCC">screen</font>
+
+1352
+00:59:04,980 --> 00:59:07,200
+I'm gonna listen<font color="#CCCCCC"> for incoming</font>
+
+1353
+00:59:07,200 --> 00:59:09,570
+<font color="#CCCCCC">connections in here and to do</font><font color="#E5E5E5"> that I'm</font>
+
+1354
+00:59:09,570 --> 00:59:11,540
+going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> use the Metasploit framework</font>
+
+1355
+00:59:11,540 --> 00:59:14,460
+<font color="#E5E5E5">now to run</font><font color="#CCCCCC"> Metasploit all you have to do</font>
+
+1356
+00:59:14,460 --> 00:59:17,960
+is just run<font color="#E5E5E5"> MSF</font><font color="#CCCCCC"> console</font>
+
+1357
+00:59:18,470 --> 00:59:21,020
+now<font color="#CCCCCC"> Metasploit framework is a huge</font>
+
+1358
+00:59:21,020 --> 00:59:22,910
+framework<font color="#E5E5E5"> for penetration testing</font>
+
+1359
+00:59:22,910 --> 00:59:26,089
+so the meterpreter back door or the
+
+1360
+00:59:26,089 --> 00:59:28,069
+meterpreter payload that<font color="#CCCCCC"> will created</font>
+
+1361
+00:59:28,069 --> 00:59:30,290
+for<font color="#E5E5E5"> us is actually programmed by the</font>
+
+1362
+00:59:30,290 --> 00:59:32,720
+people who made<font color="#CCCCCC"> meters ployed that's why</font>
+
+1363
+00:59:32,720 --> 00:59:34,579
+we're using<font color="#CCCCCC"> Metasploit to listen for</font>
+
+1364
+00:59:34,579 --> 00:59:36,700
+incoming connections<font color="#E5E5E5"> so veil evasion</font>
+
+1365
+00:59:36,700 --> 00:59:40,520
+<font color="#E5E5E5">actually uses</font><font color="#CCCCCC"> Metasploit to generate the</font>
+
+1366
+00:59:40,520 --> 00:59:42,470
+<font color="#CCCCCC">backdoor that we chose in the previous</font>
+
+1367
+00:59:42,470 --> 00:59:45,589
+video<font color="#CCCCCC"> so to listen for incoming</font>
+
+1368
+00:59:45,589 --> 00:59:48,109
+<font color="#CCCCCC">connections were gonna</font><font color="#E5E5E5"> use a module in</font>
+
+1369
+00:59:48,109 --> 00:59:50,300
+<font color="#CCCCCC">Metasploit now Metasploit as I said is a</font>
+
+1370
+00:59:50,300 --> 00:59:52,490
+huge framework<font color="#E5E5E5"> and it has a lot</font><font color="#CCCCCC"> of</font>
+
+1371
+00:59:52,490 --> 00:59:54,650
+modules<font color="#E5E5E5"> so the module that were</font>
+
+1372
+00:59:54,650 --> 00:59:56,900
+interested<font color="#E5E5E5"> in is a module that allow us</font>
+
+1373
+00:59:56,900 --> 00:59:59,569
+to<font color="#CCCCCC"> listen</font><font color="#E5E5E5"> for incoming</font><font color="#CCCCCC"> connections from</font>
+
+1374
+00:59:59,569 --> 01:00:02,329
+<font color="#E5E5E5">a meteor</font><font color="#CCCCCC"> Piotr payload to use that</font>
+
+1375
+01:00:02,329 --> 01:00:05,200
+module<font color="#CCCCCC"> we're</font><font color="#E5E5E5"> gonna do use</font>
+
+1376
+01:00:05,200 --> 01:00:07,750
+to use a<font color="#E5E5E5"> module and then we're gonna</font>
+
+1377
+01:00:07,750 --> 01:00:10,839
+<font color="#CCCCCC">specify the module name and the module</font>
+
+1378
+01:00:10,839 --> 01:00:16,660
+<font color="#E5E5E5">name is exploit multi handler okay so</font>
+
+1379
+01:00:16,660 --> 01:00:19,060
+the command were using is used to
+
+1380
+01:00:19,060 --> 01:00:21,010
+specify the module that we want to<font color="#E5E5E5"> use</font>
+
+1381
+01:00:21,010 --> 01:00:23,500
+and we're using a<font color="#E5E5E5"> module called exploit</font>
+
+1382
+01:00:23,500 --> 01:00:26,050
+multi handler<font color="#E5E5E5"> that allow us to</font><font color="#CCCCCC"> listen</font>
+
+1383
+01:00:26,050 --> 01:00:28,660
+for incoming<font color="#CCCCCC"> connections I'm going to</font>
+
+1384
+01:00:28,660 --> 01:00:30,490
+hit<font color="#E5E5E5"> enter</font>
+
+1385
+01:00:30,490 --> 01:00:33,250
+and I was already<font color="#E5E5E5"> in that</font><font color="#CCCCCC"> module so you</font>
+
+1386
+01:00:33,250 --> 01:00:35,650
+<font color="#E5E5E5">can see that nothing changed</font><font color="#CCCCCC"> for me but</font>
+
+1387
+01:00:35,650 --> 01:00:37,420
+for<font color="#E5E5E5"> you</font><font color="#CCCCCC"> you should</font><font color="#E5E5E5"> navigate to that</font>
+
+1388
+01:00:37,420 --> 01:00:42,430
+<font color="#E5E5E5">module</font><font color="#CCCCCC"> and I'm gonna</font><font color="#E5E5E5"> do show options</font>
+
+1389
+01:00:42,430 --> 01:00:45,339
+to see the<font color="#CCCCCC"> options that I can</font><font color="#E5E5E5"> set for</font>
+
+1390
+01:00:45,339 --> 01:00:47,849
+this module
+
+1391
+01:00:47,930 --> 01:00:50,570
+and you can see that you can specify
+
+1392
+01:00:50,570 --> 01:00:53,460
+<font color="#CCCCCC">different options for</font><font color="#E5E5E5"> it</font>
+
+1393
+01:00:53,460 --> 01:00:55,770
+the most important thing that you want
+
+1394
+01:00:55,770 --> 01:00:59,130
+<font color="#CCCCCC">to specify</font><font color="#E5E5E5"> is the payload so you can see</font>
+
+1395
+01:00:59,130 --> 01:01:01,260
+in here for me it's set to<font color="#CCCCCC"> Windows</font>
+
+1396
+01:01:01,260 --> 01:01:05,160
+<font color="#E5E5E5">meterpreter</font><font color="#CCCCCC"> reversed</font><font color="#E5E5E5"> TCP and if you</font>
+
+1397
+01:01:05,160 --> 01:01:07,830
+<font color="#E5E5E5">remember what we used we</font><font color="#CCCCCC"> used</font><font color="#E5E5E5"> a</font><font color="#CCCCCC"> meter</font>
+
+1398
+01:01:07,830 --> 01:01:12,780
+<font color="#E5E5E5">Peter reverse HTTP not TCP so you want</font>
+
+1399
+01:01:12,780 --> 01:01:15,120
+to<font color="#E5E5E5"> change this the first part is fine</font>
+
+1400
+01:01:15,120 --> 01:01:16,680
+because our target<font color="#E5E5E5"> is going to be</font>
+
+1401
+01:01:16,680 --> 01:01:18,990
+<font color="#CCCCCC">Windows</font><font color="#E5E5E5"> but you want to change the</font>
+
+1402
+01:01:18,990 --> 01:01:23,610
+<font color="#CCCCCC">reverse</font><font color="#E5E5E5"> TCP to reverse</font><font color="#CCCCCC"> HTTPS and you can</font>
+
+1403
+01:01:23,610 --> 01:01:25,800
+change<font color="#E5E5E5"> that exactly the same way that we</font>
+
+1404
+01:01:25,800 --> 01:01:29,930
+did with veil evasion<font color="#E5E5E5"> so you type in set</font>
+
+1405
+01:01:29,930 --> 01:01:32,510
+you put the option name that you<font color="#E5E5E5"> want to</font>
+
+1406
+01:01:32,510 --> 01:01:34,700
+change<font color="#E5E5E5"> and we want to change the option</font>
+
+1407
+01:01:34,700 --> 01:01:36,349
+for the payload<font color="#CCCCCC"> so we're going</font><font color="#E5E5E5"> to say</font>
+
+1408
+01:01:36,349 --> 01:01:38,210
+payload
+
+1409
+01:01:38,210 --> 01:01:40,910
+and we're gonna set<font color="#CCCCCC"> that</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> windows</font>
+
+1410
+01:01:40,910 --> 01:01:46,810
+meterpreter<font color="#E5E5E5"> reverse</font><font color="#CCCCCC"> HTTP this time</font>
+
+1411
+01:01:49,140 --> 01:01:52,140
+<font color="#E5E5E5">okay so we're</font><font color="#CCCCCC"> doing set to set an option</font>
+
+1412
+01:01:52,140 --> 01:01:54,870
+<font color="#CCCCCC">were setting the payload</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> Windows</font>
+
+1413
+01:01:54,870 --> 01:01:57,810
+meterpreter reverse<font color="#CCCCCC"> HTTP</font><font color="#E5E5E5"> now this</font>
+
+1414
+01:01:57,810 --> 01:02:00,660
+payload should correspond<font color="#E5E5E5"> to the payload</font>
+
+1415
+01:02:00,660 --> 01:02:03,210
+<font color="#CCCCCC">that you chose in the back door</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> in</font>
+
+1416
+01:02:03,210 --> 01:02:04,890
+the back door we used<font color="#E5E5E5"> meterpreter</font>
+
+1417
+01:02:04,890 --> 01:02:08,070
+reverse<font color="#CCCCCC"> HTTP</font><font color="#E5E5E5"> that's why in here we use</font>
+
+1418
+01:02:08,070 --> 01:02:10,770
+in<font color="#E5E5E5"> reverse</font><font color="#CCCCCC"> HTTPS as well if you chose</font>
+
+1419
+01:02:10,770 --> 01:02:13,470
+reverse HTTP then<font color="#E5E5E5"> set this to reverse</font>
+
+1420
+01:02:13,470 --> 01:02:16,200
+HTTP<font color="#E5E5E5"> if you use</font><font color="#CCCCCC"> reverse TCP then set</font>
+
+1421
+01:02:16,200 --> 01:02:19,410
+this to reverse TCP and so on so I'm
+
+1422
+01:02:19,410 --> 01:02:21,450
+gonna<font color="#CCCCCC"> head enter for this</font><font color="#E5E5E5"> and that's</font>
+
+1423
+01:02:21,450 --> 01:02:23,610
+<font color="#E5E5E5">gonna do it for me and if I do show</font>
+
+1424
+01:02:23,610 --> 01:02:26,240
+options now
+
+1425
+01:02:27,630 --> 01:02:30,360
+you'll see the payload changed<font color="#E5E5E5"> to</font>
+
+1426
+01:02:30,360 --> 01:02:34,110
+<font color="#CCCCCC">Windows meterpreter</font><font color="#E5E5E5"> reverse</font><font color="#CCCCCC"> HTTP now the</font>
+
+1427
+01:02:34,110 --> 01:02:36,300
+same concept applies for all<font color="#E5E5E5"> the other</font>
+
+1428
+01:02:36,300 --> 01:02:38,370
+options<font color="#CCCCCC"> so you want</font><font color="#E5E5E5"> to set the</font><font color="#CCCCCC"> alehouse</font>
+
+1429
+01:02:38,370 --> 01:02:40,950
+<font color="#E5E5E5">to our IP address</font><font color="#CCCCCC"> and you can see that</font>
+
+1430
+01:02:40,950 --> 01:02:43,050
+this is<font color="#E5E5E5"> already set</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> the right one so</font>
+
+1431
+01:02:43,050 --> 01:02:44,940
+if it was wrong for you<font color="#CCCCCC"> all you have to</font>
+
+1432
+01:02:44,940 --> 01:02:48,940
+do is just do set<font color="#CCCCCC"> L host</font>
+
+1433
+01:02:48,940 --> 01:02:51,640
+and put your IP address<font color="#E5E5E5"> so you can get</font>
+
+1434
+01:02:51,640 --> 01:02:53,440
+the IP address<font color="#E5E5E5"> using if config like I</font>
+
+1435
+01:02:53,440 --> 01:02:55,089
+showed<font color="#E5E5E5"> you</font><font color="#CCCCCC"> in the</font><font color="#E5E5E5"> previous lecture</font><font color="#CCCCCC"> so</font>
+
+1436
+01:02:55,089 --> 01:03:01,630
+<font color="#CCCCCC">for me it's 10 2014</font><font color="#E5E5E5"> to 13 and again this</font>
+
+1437
+01:03:01,630 --> 01:03:04,359
+is the same IP that I used when I
+
+1438
+01:03:04,359 --> 01:03:07,300
+created my<font color="#CCCCCC"> backdoor and same goes for</font>
+
+1439
+01:03:07,300 --> 01:03:09,160
+the port you<font color="#E5E5E5"> want to set the same port</font>
+
+1440
+01:03:09,160 --> 01:03:13,999
+<font color="#E5E5E5">so we're</font><font color="#CCCCCC"> going to do set</font><font color="#E5E5E5"> L port</font>
+
+1441
+01:03:13,999 --> 01:03:17,539
+<font color="#E5E5E5">to 8080</font><font color="#CCCCCC"> because that's</font><font color="#E5E5E5"> the part</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> we</font>
+
+1442
+01:03:17,539 --> 01:03:19,429
+used when we generated the back door<font color="#CCCCCC"> so</font>
+
+1443
+01:03:19,429 --> 01:03:21,979
+<font color="#CCCCCC">again the main idea with this is you</font>
+
+1444
+01:03:21,979 --> 01:03:23,959
+want<font color="#E5E5E5"> to set the payload the</font><font color="#CCCCCC"> L host and</font>
+
+1445
+01:03:23,959 --> 01:03:26,719
+the port to exactly the<font color="#CCCCCC"> same options</font>
+
+1446
+01:03:26,719 --> 01:03:28,549
+that<font color="#E5E5E5"> you chose when you created the back</font>
+
+1447
+01:03:28,549 --> 01:03:30,859
+door<font color="#E5E5E5"> once done with that we're going to</font>
+
+1448
+01:03:30,859 --> 01:03:34,269
+<font color="#E5E5E5">do show options one more time</font>
+
+1449
+01:03:35,010 --> 01:03:38,280
+and you'll see that<font color="#CCCCCC"> I have my payload</font>
+
+1450
+01:03:38,280 --> 01:03:40,350
+set properly<font color="#E5E5E5"> windows meterpreter</font><font color="#CCCCCC"> reverse</font>
+
+1451
+01:03:40,350 --> 01:03:44,280
+<font color="#CCCCCC">https I have my L host and I have my</font>
+
+1452
+01:03:44,280 --> 01:03:47,130
+<font color="#E5E5E5">Alpert and all of</font><font color="#CCCCCC"> that is done</font><font color="#E5E5E5"> properly</font>
+
+1453
+01:03:47,130 --> 01:03:49,470
+<font color="#CCCCCC">so all we have to do now</font><font color="#E5E5E5"> we just do</font>
+
+1454
+01:03:49,470 --> 01:03:51,950
+exploit
+
+1455
+01:03:53,780 --> 01:03:56,990
+and now<font color="#CCCCCC"> Metasploit is waiting for</font>
+
+1456
+01:03:56,990 --> 01:04:00,590
+connections as you can see on port 8080
+
+1457
+01:04:00,590 --> 01:04:04,040
+and on my IP address<font color="#CCCCCC"> which is 10 2014</font>
+
+1458
+01:04:04,040 --> 01:04:08,000
+<font color="#E5E5E5">213 so now if anybody</font><font color="#CCCCCC"> opens the back</font>
+
+1459
+01:04:08,000 --> 01:04:09,650
+<font color="#CCCCCC">door that</font><font color="#E5E5E5"> we created in the previous</font>
+
+1460
+01:04:09,650 --> 01:04:12,470
+<font color="#E5E5E5">lecture because</font><font color="#CCCCCC"> the server's back door</font>
+
+1461
+01:04:12,470 --> 01:04:14,780
+the back door will try to connect<font color="#E5E5E5"> to the</font>
+
+1462
+01:04:14,780 --> 01:04:17,180
+IPS<font color="#CCCCCC"> that we set when</font><font color="#E5E5E5"> we created the back</font>
+
+1463
+01:04:17,180 --> 01:04:20,660
+door which was 10 2014<font color="#CCCCCC"> 213 and it'll</font><font color="#E5E5E5"> try</font>
+
+1464
+01:04:20,660 --> 01:04:22,580
+<font color="#CCCCCC">to connect on port</font><font color="#E5E5E5"> 8080</font>
+
+1465
+01:04:22,580 --> 01:04:24,920
+it's going to come to this<font color="#E5E5E5"> computer and</font>
+
+1466
+01:04:24,920 --> 01:04:27,140
+<font color="#CCCCCC">this computer is already</font><font color="#E5E5E5"> waiting for</font>
+
+1467
+01:04:27,140 --> 01:04:30,140
+<font color="#CCCCCC">that connection</font><font color="#E5E5E5"> from this multi handler</font>
+
+1468
+01:04:30,140 --> 01:04:32,810
+module so the connection will be
+
+1469
+01:04:32,810 --> 01:04:34,910
+established<font color="#CCCCCC"> and then I'll be</font><font color="#E5E5E5"> able to</font>
+
+1470
+01:04:34,910 --> 01:04:37,040
+<font color="#E5E5E5">control the target computer and I'll</font>
+
+1471
+01:04:37,040 --> 01:04:39,260
+basically hack it and have full control
+
+1472
+01:04:39,260 --> 01:04:41,900
+<font color="#E5E5E5">over</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> now in the next lecture I'll</font>
+
+1473
+01:04:41,900 --> 01:04:43,910
+show you a very<font color="#E5E5E5"> basic way</font><font color="#CCCCCC"> to deliver the</font>
+
+1474
+01:04:43,910 --> 01:04:46,190
+<font color="#E5E5E5">backdoor to</font><font color="#CCCCCC"> the target</font><font color="#E5E5E5"> computer and how</font>
+
+1475
+01:04:46,190 --> 01:04:47,960
+to test the<font color="#E5E5E5"> backdoor</font><font color="#CCCCCC"> and make sure that</font>
+
+1476
+01:04:47,960 --> 01:04:49,960
+it works<font color="#CCCCCC"> properly</font>
+
+1477
+01:04:49,960 --> 01:04:52,480
+now we are ready<font color="#E5E5E5"> to receive connections</font>
+
+1478
+01:04:52,480 --> 01:04:55,270
+<font color="#E5E5E5">from our back door so we created the</font>
+
+1479
+01:04:55,270 --> 01:04:57,520
+back door we set a payload and<font color="#E5E5E5"> we're</font>
+
+1480
+01:04:57,520 --> 01:04:59,380
+<font color="#E5E5E5">listening</font><font color="#CCCCCC"> for incoming connections here</font>
+
+1481
+01:04:59,380 --> 01:05:01,930
+from any connection<font color="#E5E5E5"> that comes in from</font>
+
+1482
+01:05:01,930 --> 01:05:03,640
+<font color="#CCCCCC">the same back door on the same pair a</font>
+
+1483
+01:05:03,640 --> 01:05:06,880
+port on the same<font color="#E5E5E5"> IP so now if a</font><font color="#CCCCCC"> person</font>
+
+1484
+01:05:06,880 --> 01:05:09,700
+runs that back door<font color="#E5E5E5"> will receive the</font>
+
+1485
+01:05:09,700 --> 01:05:12,220
+connection back in here<font color="#E5E5E5"> on this</font><font color="#CCCCCC"> computer</font>
+
+1486
+01:05:12,220 --> 01:05:14,380
+what we're gonna do now<font color="#CCCCCC"> is we're gonna</font>
+
+1487
+01:05:14,380 --> 01:05:16,270
+test the back door<font color="#E5E5E5"> to make sure that it</font>
+
+1488
+01:05:16,270 --> 01:05:18,819
+works<font color="#E5E5E5"> and</font><font color="#CCCCCC"> to do that we're</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to use</font>
+
+1489
+01:05:18,819 --> 01:05:22,300
+a very<font color="#E5E5E5"> basic delivery method later on in</font>
+
+1490
+01:05:22,300 --> 01:05:23,290
+the course we're<font color="#CCCCCC"> going to talk about</font>
+
+1491
+01:05:23,290 --> 01:05:25,660
+<font color="#E5E5E5">smart delivery methods that will trick</font>
+
+1492
+01:05:25,660 --> 01:05:27,849
+the person<font color="#CCCCCC"> and to open</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> file that</font>
+
+1493
+01:05:27,849 --> 01:05:30,010
+we're<font color="#E5E5E5"> sending to them for now we're just</font>
+
+1494
+01:05:30,010 --> 01:05:32,800
+<font color="#CCCCCC">doing a</font><font color="#E5E5E5"> very basic example just to test</font>
+
+1495
+01:05:32,800 --> 01:05:36,250
+<font color="#E5E5E5">our very basic back door so to do that</font>
+
+1496
+01:05:36,250 --> 01:05:38,410
+we're<font color="#CCCCCC"> just</font><font color="#E5E5E5"> gonna put the back door on</font>
+
+1497
+01:05:38,410 --> 01:05:42,250
+<font color="#E5E5E5">our</font><font color="#CCCCCC"> web server</font><font color="#E5E5E5"> and then download</font><font color="#CCCCCC"> it from</font>
+
+1498
+01:05:42,250 --> 01:05:44,020
+the target computer<font color="#E5E5E5"> so</font><font color="#CCCCCC"> there's</font><font color="#E5E5E5"> nothing</font>
+
+1499
+01:05:44,020 --> 01:05:46,270
+smart<font color="#E5E5E5"> about this and you probably can't</font>
+
+1500
+01:05:46,270 --> 01:05:48,190
+<font color="#CCCCCC">use this way to deliver the back door to</font>
+
+1501
+01:05:48,190 --> 01:05:49,869
+a real person<font color="#CCCCCC"> so we're only</font><font color="#E5E5E5"> doing this</font>
+
+1502
+01:05:49,869 --> 01:05:52,119
+<font color="#CCCCCC">for testing</font><font color="#E5E5E5"> to make sure our back door</font>
+
+1503
+01:05:52,119 --> 01:05:56,829
+works<font color="#E5E5E5"> so</font><font color="#CCCCCC"> Kali comes in with a webserver</font>
+
+1504
+01:05:56,829 --> 01:05:59,799
+<font color="#E5E5E5">and what that means basically</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> can</font>
+
+1505
+01:05:59,799 --> 00:00:00,000
+<font color="#E5E5E5">use</font>
+

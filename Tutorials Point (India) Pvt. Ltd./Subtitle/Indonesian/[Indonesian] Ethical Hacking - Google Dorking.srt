@@ -1,0 +1,716 @@
+1
+00:00:00,089 --> 00:00:02,220
+ Halo semua orang di <font color="#CCCCCC">video ini kita akan bicara </font>
+
+2
+00:00:02,220 --> 00:00:04,770
+ <font color="#CCCCCC">tentang Google Docs sehingga Anda semua </font><font color="#E5E5E5">mungkin </font>
+
+3
+00:00:04,770 --> 00:00:05,879
+ akrab dengan <font color="#E5E5E5">mesin pencari Google </font>
+
+4
+00:00:05,879 --> 00:00:08,519
+ <font color="#CCCCCC">bahwa cara kerja mesin pencari Google, </font><font color="#E5E5E5">tetapi </font>
+
+5
+00:00:08,519 --> 00:00:10,260
+ <font color="#CCCCCC">tidak </font><font color="#E5E5E5">pernah berpikir bahwa apa lagi </font>
+
+6
+00:00:10,260 --> 00:00:13,200
+ kita bisa mencari dengan menggunakan Google <font color="#E5E5E5">jadi saja </font>
+
+7
+00:00:13,200 --> 00:00:15,269
+ misalnya <font color="#E5E5E5">izinkan saya </font><font color="#CCCCCC">menanyakan satu pertanyaan </font>
+
+8
+00:00:15,269 --> 00:00:17,940
+ <font color="#E5E5E5">bahwa jika Anda ingin mengetahui semua itu </font>
+
+9
+00:00:17,940 --> 00:00:20,310
+ halaman admin dari semua <font color="#E5E5E5">situs web yang </font>
+
+10
+00:00:20,310 --> 00:00:21,330
+ yang hadir dalam <font color="#E5E5E5">dari </font><font color="#CCCCCC">Google </font>
+
+11
+00:00:21,330 --> 00:00:23,880
+ database <font color="#CCCCCC">apakah Anda tahu apa yang penasaran atau </font>
+
+12
+00:00:23,880 --> 00:00:25,550
+ apa yang akan Anda <font color="#E5E5E5">ketikkan di bar pencarian Google </font>
+
+13
+00:00:25,550 --> 00:00:28,710
+ <font color="#E5E5E5">jadi contoh lain adalah bagaimana jika jika kita </font>
+
+14
+00:00:28,710 --> 00:00:31,349
+ ingin <font color="#E5E5E5">menemukan semua webcam IP publik </font>
+
+15
+00:00:31,349 --> 00:00:34,050
+ <font color="#E5E5E5">di Google atau bahkan jika Anda ingin mencari </font>
+
+16
+00:00:34,050 --> 00:00:36,750
+ keluar <font color="#E5E5E5">password database MySQL semua </font>
+
+17
+00:00:36,750 --> 00:00:39,000
+ <font color="#CCCCCC">situs web dengan menggunakan Google, Anda tahu </font>
+
+18
+00:00:39,000 --> 00:00:40,500
+ apa yang akan Anda ketik di Google 
+
+19
+00:00:40,500 --> 00:00:43,770
+ search bar jadi jawaban kami adalah Google Docs 
+
+20
+00:00:43,770 --> 00:00:45,600
+ <font color="#CCCCCC">sekarang mari kita lihat apa Google Docs kami </font>
+
+21
+00:00:45,600 --> 00:00:48,059
+ <font color="#E5E5E5">jadi Google Docs tidak lebih dari beberapa </font>
+
+22
+00:00:48,059 --> 00:00:50,309
+ kata kunci khusus atau pencarian khusus 
+
+23
+00:00:50,309 --> 00:00:52,860
+ string yang dapat kita gunakan <font color="#E5E5E5">untuk</font><font color="#CCCCCC"> mendapatkan </font>
+
+24
+00:00:52,860 --> 00:00:54,780
+ <font color="#CCCCCC">output yang diinginkan dari Google </font>
+
+25
+00:00:54,780 --> 00:00:57,059
+ database <font color="#E5E5E5">sehingga kami dapat menggunakan </font><font color="#CCCCCC">Google Docs di </font>
+
+26
+00:00:57,059 --> 00:00:59,460
+ memesan untuk mengambil informasi menarik 
+
+27
+00:00:59,460 --> 00:01:01,739
+ dari Google <font color="#CCCCCC">jadi ada satu </font><font color="#E5E5E5">koil situs web </font>
+
+28
+00:01:01,739 --> 00:01:04,260
+ sebagai memanfaatkan DB <font color="#CCCCCC">com jadi situs web ini </font>
+
+29
+00:01:04,260 --> 00:01:06,960
+ <font color="#CCCCCC">berisi basis data yang </font><font color="#E5E5E5">disebut Google </font>
+
+30
+00:01:06,960 --> 00:01:08,820
+ peretasan database jadi di <font color="#CCCCCC">Google </font><font color="#E5E5E5">ini </font>
+
+31
+00:01:08,820 --> 00:01:10,470
+ <font color="#CCCCCC">database peretasan ada koleksi </font>
+
+32
+00:01:10,470 --> 00:01:12,750
+ Google Docs <font color="#CCCCCC">yang bisa kita gunakan secara berurutan </font>
+
+33
+00:01:12,750 --> 00:01:14,490
+ untuk <font color="#E5E5E5">mendapatkan beberapa </font><font color="#CCCCCC">informasi </font><font color="#E5E5E5">menarik </font><font color="#CCCCCC">dari </font>
+
+34
+00:01:14,490 --> 00:01:16,470
+ <font color="#CCCCCC">Google dan semua Google Docs yang </font>
+
+35
+00:01:16,470 --> 00:01:18,119
+ hadir <font color="#CCCCCC">di dalam peretasan Google ini </font>
+
+36
+00:01:18,119 --> 00:01:20,450
+ database didirikan oleh berbagai keamanan 
+
+37
+00:01:20,450 --> 00:01:22,890
+ peneliti sekarang mari kita lihat bagaimana kita bisa <font color="#CCCCCC">menggunakannya </font>
+
+38
+00:01:22,890 --> 00:01:24,360
+ <font color="#CCCCCC">Google Docs untuk mendapatkan beberapa </font>
+
+39
+00:01:24,360 --> 00:01:27,240
+ <font color="#CCCCCC">informasi menarik dari </font><font color="#E5E5E5">Google sekarang </font>
+
+40
+00:01:27,240 --> 00:01:28,979
+ mari kita lihat bagaimana kita dapat mengekstrak beberapa berguna 
+
+41
+00:01:28,979 --> 00:01:31,530
+ <font color="#CCCCCC">informasi dari Google dengan cara lewat </font>
+
+42
+00:01:31,530 --> 00:01:34,680
+ tautan berbahaya ke dalamnya <font color="#CCCCCC">disebut sebagai </font><font color="#E5E5E5">Google </font>
+
+43
+00:01:34,680 --> 00:01:37,799
+ <font color="#CCCCCC">Dokumentasikan dengan </font><font color="#E5E5E5">baik di Google </font><font color="#CCCCCC">Sports </font>
+
+44
+00:01:37,799 --> 00:01:40,350
+ berbagai parameter atau operator yang kami 
+
+45
+00:01:40,350 --> 00:01:42,590
+ dapat memberi <font color="#E5E5E5">untuk menemukan beberapa </font>
+
+46
+00:01:42,590 --> 00:01:45,090
+ <font color="#E5E5E5">informasi yang menarik jadi yang pertama </font>
+
+47
+00:01:45,090 --> 00:01:47,700
+ parameter yang <font color="#CCCCCC">bisa kita berikan disebut sebagai situs </font>
+
+48
+00:01:47,700 --> 00:01:50,549
+ <font color="#E5E5E5">sehingga parameter situs akan mencantumkan a </font>
+
+49
+00:01:50,549 --> 00:01:52,649
+ <font color="#CCCCCC">informasi khusus tertentu </font>
+
+50
+00:01:52,649 --> 00:01:55,020
+ situs web <font color="#E5E5E5">hanya jadi </font><font color="#CCCCCC">misalnya saya punya </font>
+
+51
+00:01:55,020 --> 00:01:57,630
+ ditulis di sini situs <font color="#E5E5E5">kemudian titik dua jadi jika saya </font>
+
+52
+00:01:57,630 --> 00:01:59,909
+ <font color="#E5E5E5">hanya menulis di sini nama situs web seperti </font>
+
+53
+00:01:59,909 --> 00:02:06,780
+ tutorialspoint.com <font color="#E5E5E5">tekan enter dan di sini kita </font>
+
+54
+00:02:06,780 --> 00:02:09,500
+ akan <font color="#CCCCCC">melihat bahwa setiap tautan dari </font>
+
+55
+00:02:09,500 --> 00:02:13,260
+ <font color="#CCCCCC">halaman ini adalah dari tutorialspoint.com </font>
+
+56
+00:02:13,260 --> 00:02:15,060
+ jadi ini adalah satu operator atau satu 
+
+57
+00:02:15,060 --> 00:02:17,340
+ <font color="#CCCCCC">parameter yang bisa kita gunakan </font><font color="#E5E5E5">untuk </font>
+
+58
+00:02:17,340 --> 00:02:19,860
+ <font color="#E5E5E5">cari tahu informasi tertentu dari a </font>
+
+59
+00:02:19,860 --> 00:02:22,200
+ <font color="#E5E5E5">situs web tertentu </font><font color="#CCCCCC">dengan menggunakan </font><font color="#E5E5E5">situs ini </font>
+
+60
+00:02:22,200 --> 00:02:25,290
+ operator <font color="#E5E5E5">sehingga operator berikutnya adalah file </font>
+
+61
+00:02:25,290 --> 00:02:28,650
+ ketik <font color="#E5E5E5">sehingga kami juga dapat menggunakan parameter ini </font>
+
+62
+00:02:28,650 --> 00:02:31,530
+ disebut sebagai tipe file <font color="#E5E5E5">untuk mencari tahu </font>
+
+63
+00:02:31,530 --> 00:02:33,560
+ file tertentu hadir <font color="#E5E5E5">dalam itu </font>
+
+64
+00:02:33,560 --> 00:02:36,660
+ <font color="#CCCCCC">situs web </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">jika saya hanya menulis di sini </font><font color="#E5E5E5">file </font>
+
+65
+00:02:36,660 --> 00:02:38,819
+ ketik dan Anda dapat <font color="#CCCCCC">menuliskan file apa pun </font>
+
+66
+00:02:38,819 --> 00:02:41,730
+ ketik <font color="#CCCCCC">seperti PDF PDF anjing </font><font color="#E5E5E5">jadi saya telah menulis </font>
+
+67
+00:02:41,730 --> 00:02:44,549
+ di sini PDF dan jika saya tekan enter di <font color="#CCCCCC">sini Anda </font>
+
+68
+00:02:44,549 --> 00:02:46,950
+ <font color="#CCCCCC">akan melihat </font><font color="#E5E5E5">bahwa itu telah mencantumkan </font><font color="#CCCCCC">semua </font>
+
+69
+00:02:46,950 --> 00:02:49,920
+ <font color="#CCCCCC">URL yang berisi file PDF dan </font><font color="#E5E5E5">di sini </font>
+
+70
+00:02:49,920 --> 00:02:52,980
+ Anda dapat melihat salah <font color="#E5E5E5">satunya sehingga kami </font><font color="#CCCCCC">juga bisa </font>
+
+71
+00:02:52,980 --> 00:02:55,319
+ menggabungkan <font color="#CCCCCC">dua tiga parameter </font><font color="#E5E5E5">untuk membuat kita </font>
+
+72
+00:02:55,319 --> 00:02:58,140
+ string khusus yang dapat digunakan <font color="#E5E5E5">secara </font><font color="#CCCCCC">berurutan </font>
+
+73
+00:02:58,140 --> 00:03:00,180
+ untuk <font color="#E5E5E5">mencari tahu </font><font color="#CCCCCC">data tertentu berikutnya </font>
+
+74
+00:03:00,180 --> 00:03:02,849
+ <font color="#E5E5E5">parameter yang bisa kita gunakan disebut </font><font color="#CCCCCC">sebagai di URL </font>
+
+75
+00:03:02,849 --> 00:03:06,150
+ jadi di parameter URL, kembalikan <font color="#E5E5E5">yang khusus </font>
+
+76
+00:03:06,150 --> 00:03:08,790
+ string yang <font color="#E5E5E5">ada di URL itu </font>
+
+77
+00:03:08,790 --> 00:03:12,269
+ <font color="#CCCCCC">biarkan aku menghapus semua ini jadi jika aku </font>
+
+78
+00:03:12,269 --> 00:03:15,030
+ <font color="#E5E5E5">tulis saja di sini di URL, maka di sini kita </font><font color="#CCCCCC">bisa </font>
+
+79
+00:03:15,030 --> 00:03:18,329
+ <font color="#CCCCCC">tentukan string atau kita dapat menentukan </font>
+
+80
+00:03:18,329 --> 00:03:20,790
+ <font color="#E5E5E5">jalan tertentu yang akan hadir </font><font color="#CCCCCC">di </font>
+
+81
+00:03:20,790 --> 00:03:23,489
+ <font color="#E5E5E5">semua URL yang akan dikembalikan oleh Google </font>
+
+82
+00:03:23,489 --> 00:03:25,169
+ misalnya Anda ingin <font color="#E5E5E5">mencari login </font>
+
+83
+00:03:25,169 --> 00:03:27,419
+ halaman sehingga <font color="#E5E5E5">Anda bisa menuliskan </font><font color="#CCCCCC">di </font><font color="#E5E5E5">sini </font>
+
+84
+00:03:27,419 --> 00:03:33,810
+ <font color="#E5E5E5">Login admin URL dot PHP </font><font color="#CCCCCC">dan di sini Anda </font>
+
+85
+00:03:33,810 --> 00:03:35,459
+ akan <font color="#E5E5E5">melihat </font><font color="#CCCCCC">bahwa </font><font color="#E5E5E5">Google akan mendaftar </font>
+
+86
+00:03:35,459 --> 00:03:39,870
+ semua <font color="#E5E5E5">tautan </font><font color="#CCCCCC">dari halaman admin a </font>
+
+87
+00:03:39,870 --> 00:03:42,269
+ <font color="#CCCCCC">situs web yang berbeda </font><font color="#E5E5E5">sehingga Anda dapat melihat semua </font>
+
+88
+00:03:42,269 --> 00:03:45,450
+ mereka di <font color="#E5E5E5">sini </font><font color="#CCCCCC">saya membuka halaman-halaman ini </font><font color="#E5E5E5">dan </font>
+
+89
+00:03:45,450 --> 00:03:48,720
+ tab selanjutnya bisa Anda lihat di sini dan masing-masing 
+
+90
+00:03:48,720 --> 00:03:53,040
+ <font color="#E5E5E5">itu adalah panel kontrol admin jadi ini </font>
+
+91
+00:03:53,040 --> 00:03:55,680
+ bagaimana kita bisa menggunakan <font color="#CCCCCC">dalam parameter URL </font><font color="#E5E5E5">sehingga </font>
+
+92
+00:03:55,680 --> 00:03:57,629
+ <font color="#E5E5E5">parameter berikutnya yang </font><font color="#CCCCCC">bisa </font><font color="#E5E5E5">kita </font><font color="#CCCCCC">gunakan disebut sebagai </font>
+
+93
+00:03:57,629 --> 00:04:00,629
+ <font color="#E5E5E5">dalam teks sehingga dalam teks digunakan untuk mencari tahu </font>
+
+94
+00:04:00,629 --> 00:04:03,780
+ teks di <font color="#CCCCCC">situs web tertentu </font><font color="#E5E5E5">yang berarti </font>
+
+95
+00:04:03,780 --> 00:04:08,160
+ <font color="#CCCCCC">jika saya hanya </font><font color="#E5E5E5">menulis di sini di teks dan jika saya </font>
+
+96
+00:04:08,160 --> 00:04:11,340
+ hanya <font color="#CCCCCC">menulis di sini peretasan maka itu akan terjadi </font>
+
+97
+00:04:11,340 --> 00:04:13,410
+ daftar <font color="#E5E5E5">semua </font><font color="#CCCCCC">situs web yang mengandung </font>
+
+98
+00:04:13,410 --> 00:04:17,130
+ <font color="#E5E5E5">kata ini dalam tubuh mereka sehingga Anda bisa melihat </font>
+
+99
+00:04:17,130 --> 00:04:19,289
+ di sini masing <font color="#E5E5E5">- masing dan setiap situs web berisi </font>
+
+100
+00:04:19,289 --> 00:04:22,260
+ <font color="#E5E5E5">kata ini di tubuh mereka jadi begini caranya </font>
+
+101
+00:04:22,260 --> 00:04:25,979
+ kita dapat <font color="#E5E5E5">menggunakan dalam parameter teks sekarang biarkan aku </font>
+
+102
+00:04:25,979 --> 00:04:26,940
+ membawa <font color="#E5E5E5">Anda </font>
+
+103
+00:04:26,940 --> 00:04:29,010
+ <font color="#E5E5E5">ke basis data </font><font color="#CCCCCC">peretasan Google </font>
+
+104
+00:04:29,010 --> 00:04:30,810
+ database yang <font color="#CCCCCC">laki - laki </font><font color="#E5E5E5">st. dikelola oleh </font>
+
+105
+00:04:30,810 --> 00:04:33,210
+ mengeksploitasi DB sehingga <font color="#E5E5E5">memanfaatkan DV dot-com </font>
+
+106
+00:04:33,210 --> 00:04:35,070
+ memelihara <font color="#CCCCCC">basis data peretasan google </font>
+
+107
+00:04:35,070 --> 00:04:38,070
+ yang <font color="#E5E5E5">berarti semua titik peretasan google </font>
+
+108
+00:04:38,070 --> 00:04:40,920
+ <font color="#CCCCCC">sebenarnya disimpan di sini dalam </font><font color="#E5E5E5">database </font>
+
+109
+00:04:40,920 --> 00:04:43,140
+ dari <font color="#CCCCCC">com dieksploitasi dan di sini Anda </font><font color="#E5E5E5">bisa melihat </font>
+
+110
+00:04:43,140 --> 00:04:45,120
+ <font color="#E5E5E5">database peretasan </font><font color="#CCCCCC">Google </font><font color="#E5E5E5">dan jika saya </font>
+
+111
+00:04:45,120 --> 00:04:47,220
+ gulir <font color="#CCCCCC">ke bawah </font><font color="#E5E5E5">Anda bisa lihat di sini itu </font><font color="#CCCCCC">semua </font>
+
+112
+00:04:47,220 --> 00:04:48,720
+ <font color="#CCCCCC">string </font><font color="#E5E5E5">Google </font><font color="#CCCCCC">Docs sebenarnya </font>
+
+113
+00:04:48,720 --> 00:04:50,340
+ dibagi ke dalam <font color="#CCCCCC">kategori yang berbeda </font><font color="#E5E5E5">seperti </font>
+
+114
+00:04:50,340 --> 00:04:52,620
+ <font color="#CCCCCC">string </font><font color="#E5E5E5">untuk deteksi server web </font>
+
+115
+00:04:52,620 --> 00:04:54,870
+ string untuk file yang mengandung kata sandi 
+
+116
+00:04:54,870 --> 00:04:57,000
+ kemudian string untuk <font color="#E5E5E5">string pesan kesalahan </font>
+
+117
+00:04:57,000 --> 00:04:59,070
+ untuk file yang bisa dibakar, jadi jika saya mengklik 
+
+118
+00:04:59,070 --> 00:05:02,340
+ <font color="#CCCCCC">disini file-file yang mengandung kata sandi </font><font color="#E5E5E5">maka di sini </font>
+
+119
+00:05:02,340 --> 00:05:04,230
+ Anda akan melihat daftar <font color="#CCCCCC">Google Docs </font>
+
+120
+00:05:04,230 --> 00:05:06,120
+ string yang dapat kita gunakan <font color="#CCCCCC">untuk </font>
+
+121
+00:05:06,120 --> 00:05:07,640
+ cari tahu file yang berisi 
+
+122
+00:05:07,640 --> 00:05:10,350
+ kata sandi dan di sini <font color="#E5E5E5">Anda dapat melihat semua </font>
+
+123
+00:05:10,350 --> 00:05:12,480
+ <font color="#E5E5E5">Google </font><font color="#CCCCCC">Docs string </font><font color="#E5E5E5">jadi semua ini Google </font>
+
+124
+00:05:12,480 --> 00:05:14,520
+ Dokumen-dokumen <font color="#E5E5E5">sebenarnya didirikan oleh </font>
+
+125
+00:05:14,520 --> 00:05:16,590
+ berbagai <font color="#CCCCCC">peneliti keamanan cyber dan </font>
+
+126
+00:05:16,590 --> 00:05:18,540
+ begitu mereka menemukan string itu, maka mereka 
+
+127
+00:05:18,540 --> 00:05:20,490
+ posting di dalam <font color="#CCCCCC">peretasan google ini </font>
+
+128
+00:05:20,490 --> 00:05:23,040
+ database jadi misalnya saya 
+
+129
+00:05:23,040 --> 00:05:26,070
+ <font color="#E5E5E5">pilih yang ini </font><font color="#CCCCCC">dokumen google </font><font color="#E5E5E5">pertama </font>
+
+130
+00:05:26,070 --> 00:05:28,260
+ string dan di sini Anda dapat melihat Google 
+
+131
+00:05:28,260 --> 00:05:30,390
+ <font color="#CCCCCC">Deskripsi dokumen jadi di sini adalah </font><font color="#E5E5E5">Google </font>
+
+132
+00:05:30,390 --> 00:05:32,820
+ <font color="#CCCCCC">Doc string dan apa yang dilakukannya </font><font color="#E5E5E5">sebenarnya </font>
+
+133
+00:05:32,820 --> 00:05:37,320
+ <font color="#E5E5E5">cari tahu kata sandi </font><font color="#CCCCCC">database MySQL </font>
+
+134
+00:05:37,320 --> 00:05:39,900
+ <font color="#E5E5E5">jadi mari kita lakukan satu hal biarkan </font><font color="#CCCCCC">saya menyalin ini </font>
+
+135
+00:05:39,900 --> 00:05:43,290
+ <font color="#CCCCCC">Google Doc string </font><font color="#E5E5E5">dan mari kita buka </font>
+
+136
+00:05:43,290 --> 00:05:46,440
+ google.com di sini dan kemudian mari <font color="#E5E5E5">saja </font>
+
+137
+00:05:46,440 --> 00:05:50,520
+ tempelkan <font color="#E5E5E5">string ini </font><font color="#CCCCCC">dan mari kita lihat apa yang kita </font>
+
+138
+00:05:50,520 --> 00:05:52,669
+ dapatkan 
+
+139
+00:05:53,030 --> 00:05:56,010
+ sehingga Anda dapat melihat di sini <font color="#E5E5E5">bahwa itu telah terdaftar </font>
+
+140
+00:05:56,010 --> 00:06:00,230
+ keluar <font color="#E5E5E5">berbagai situs web yang berisi </font>
+
+141
+00:06:00,230 --> 00:06:06,000
+ Password database MySQL dan jika saya buka 
+
+142
+00:06:06,000 --> 00:06:09,210
+ <font color="#CCCCCC">tab ini di </font><font color="#E5E5E5">sini Anda dapat melihat </font><font color="#CCCCCC">kata sandi </font>
+
+143
+00:06:09,210 --> 00:06:10,800
+ <font color="#CCCCCC">sehingga </font><font color="#E5E5E5">nama database </font><font color="#CCCCCC">tidak terlihat </font>
+
+144
+00:06:10,800 --> 00:06:13,680
+ <font color="#E5E5E5">jadi </font><font color="#CCCCCC">nama pengguna juga tidak terlihat </font><font color="#E5E5E5">dan DB satu </font>
+
+145
+00:06:13,680 --> 00:06:16,200
+ kata sandi <font color="#CCCCCC">terlihat sehingga Anda bisa lihat di sini </font>
+
+146
+00:06:16,200 --> 00:06:18,840
+ <font color="#E5E5E5">bahwa kita </font><font color="#CCCCCC">juga </font><font color="#E5E5E5">bisa </font><font color="#CCCCCC">mendapat </font><font color="#E5E5E5">otentikasi di </font><font color="#CCCCCC">sini </font>
+
+147
+00:06:18,840 --> 00:06:22,169
+ <font color="#CCCCCC">kunci </font><font color="#E5E5E5">aman </font><font color="#CCCCCC">sehingga </font><font color="#E5E5E5">Anda dapat melihat </font>
+
+148
+00:06:22,169 --> 00:06:24,780
+ di sini <font color="#E5E5E5">kata sandi basis data pengguna basis data </font>
+
+149
+00:06:24,780 --> 00:06:26,669
+ dan Anda dapat <font color="#CCCCCC">memeriksa di sini </font><font color="#E5E5E5">bahwa autentikasi </font>
+
+150
+00:06:26,669 --> 00:06:29,220
+ pengguna juga <font color="#E5E5E5">menampilkan kunci autentikasi dan </font>
+
+151
+00:06:29,220 --> 00:06:32,280
+ berbagai token akses jadi begini caranya 
+
+152
+00:06:32,280 --> 00:06:35,190
+ Google <font color="#E5E5E5">Doc berfungsi </font><font color="#CCCCCC">sekarang coba lagi </font>
+
+153
+00:06:35,190 --> 00:06:37,970
+ <font color="#E5E5E5">contoh </font>
+
+154
+00:06:42,389 --> 00:06:44,560
+ jadi jika Anda ingin <font color="#E5E5E5">melindungi situs web Anda </font>
+
+155
+00:06:44,560 --> 00:06:46,659
+ <font color="#CCCCCC">dari Google docking, lalu pastikan itu </font>
+
+156
+00:06:46,659 --> 00:06:48,460
+ Anda melarang direktori penting <font color="#E5E5E5">atau </font>
+
+157
+00:06:48,460 --> 00:06:50,379
+ file dari Google <font color="#E5E5E5">dengan menambahkannya </font>
+
+158
+00:06:50,379 --> 00:06:54,610
+ <font color="#E5E5E5">robot atau </font><font color="#CCCCCC">file txt di server Anda </font><font color="#E5E5E5">sehingga </font>
+
+159
+00:06:54,610 --> 00:06:56,620
+ apa <font color="#E5E5E5">lagi yang bisa kita lakukan adalah kita bahkan bisa </font>
+
+160
+00:06:56,620 --> 00:06:58,840
+ cari <font color="#E5E5E5">tahu berbagai perangkat online mari </font>
+
+161
+00:06:58,840 --> 00:07:00,580
+ periksa <font color="#E5E5E5">apa itu </font><font color="#CCCCCC">google doc </font>
+
+162
+00:07:00,580 --> 00:07:03,699
+ <font color="#E5E5E5">string tersedia untuk itu jadi di sini Anda </font>
+
+163
+00:07:03,699 --> 00:07:10,779
+ dapat melihat <font color="#CCCCCC">string Google Documents, jadi mari kita </font>
+
+164
+00:07:10,779 --> 00:07:19,840
+ cek di <font color="#CCCCCC">sini webcam jadi di sini adalah Google itu </font>
+
+165
+00:07:19,840 --> 00:07:25,270
+ <font color="#CCCCCC">Dokar </font><font color="#E5E5E5">jadi apa lagi yang bisa Anda lakukan adalah </font>
+
+166
+00:07:25,270 --> 00:07:27,009
+ Anda <font color="#E5E5E5">bahkan dapat menggabungkan Google Doc ini </font>
+
+167
+00:07:27,009 --> 00:07:29,800
+ string dengan <font color="#CCCCCC">parameter situs tersebut secara </font><font color="#E5E5E5">berurutan </font>
+
+168
+00:07:29,800 --> 00:07:32,620
+ untuk menemukan <font color="#CCCCCC">apakah </font><font color="#E5E5E5">situs itu mengandung atau tidak </font>
+
+169
+00:07:32,620 --> 00:07:37,779
+ <font color="#E5E5E5">string </font><font color="#CCCCCC">Google Doc ini </font><font color="#E5E5E5">atau tidak dan di sini </font>
+
+170
+00:07:37,779 --> 00:07:39,310
+ Anda <font color="#E5E5E5">dapat melihat bahwa itu telah mencantumkan semua </font>
+
+171
+00:07:39,310 --> 00:07:46,479
+ <font color="#E5E5E5">Webcam dari berbagai negara jadi Anda </font>
+
+172
+00:07:46,479 --> 00:07:51,939
+ <font color="#E5E5E5">bisa lihat di sini webcam </font><font color="#CCCCCC">dan di sini Anda dapat </font>
+
+173
+00:07:51,939 --> 00:07:55,149
+ melihat webcam yang sama dan itu mengatakan <font color="#CCCCCC">itu </font>
+
+174
+00:07:55,149 --> 00:07:58,300
+ <font color="#E5E5E5">menghubungi kamera IP jadi begini cara kita </font>
+
+175
+00:07:58,300 --> 00:08:00,279
+ dapat <font color="#E5E5E5">menggunakan </font><font color="#CCCCCC">Google </font><font color="#E5E5E5">Dokumen untuk mencari tahu </font>
+
+176
+00:08:00,279 --> 00:08:03,849
+ <font color="#CCCCCC">informasi menarik jadi di video </font><font color="#E5E5E5">ini </font>
+
+177
+00:08:03,849 --> 00:08:05,469
+ kami <font color="#E5E5E5">telah membahas bahwa apa itu </font><font color="#CCCCCC">google doc </font>
+
+178
+00:08:05,469 --> 00:08:07,779
+ string <font color="#CCCCCC">dan bagaimana kita bisa menggunakannya </font>
+
+179
+00:08:07,779 --> 00:00:00,000
+ terima kasih telah <font color="#E5E5E5">menonton </font><font color="#CCCCCC">video ini </font>
+

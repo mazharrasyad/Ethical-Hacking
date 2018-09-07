@@ -1,0 +1,996 @@
+1
+00:00:00,089 --> 00:00:02,280
+hello everyone in<font color="#E5E5E5"> this video we will</font>
+
+2
+00:00:02,280 --> 00:00:03,990
+talk about<font color="#CCCCCC"> different encryption</font>
+
+3
+00:00:03,990 --> 00:00:06,629
+algorithms which we can use in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to</font>
+
+4
+00:00:06,629 --> 00:00:09,660
+<font color="#E5E5E5">in kept our data so in the last video</font><font color="#CCCCCC"> I</font>
+
+5
+00:00:09,660 --> 00:00:11,670
+told<font color="#E5E5E5"> you about ciphertext that</font><font color="#CCCCCC"> the</font>
+
+6
+00:00:11,670 --> 00:00:13,620
+ciphertext<font color="#E5E5E5"> is obtained</font><font color="#CCCCCC"> after converting</font>
+
+7
+00:00:13,620 --> 00:00:16,199
+<font color="#E5E5E5">our plaintext or after encrypting our</font>
+
+8
+00:00:16,199 --> 00:00:18,480
+plaintext<font color="#E5E5E5"> and the cipher text is in the</font>
+
+9
+00:00:18,480 --> 00:00:20,520
+unreadable form so<font color="#CCCCCC"> that a normal person</font>
+
+10
+00:00:20,520 --> 00:00:22,650
+can't be understand that<font color="#E5E5E5"> what's the</font>
+
+11
+00:00:22,650 --> 00:00:25,230
+<font color="#E5E5E5">meaning of that cipher text now we will</font>
+
+12
+00:00:25,230 --> 00:00:27,269
+<font color="#E5E5E5">discuss about types of type ciphers</font>
+
+13
+00:00:27,269 --> 00:00:29,490
+first<font color="#E5E5E5"> so there are two types of</font><font color="#CCCCCC"> ciphers</font>
+
+14
+00:00:29,490 --> 00:00:31,949
+the first one is stream cipher and<font color="#E5E5E5"> the</font>
+
+15
+00:00:31,949 --> 00:00:34,739
+<font color="#E5E5E5">second one is block cipher</font><font color="#CCCCCC"> so the stream</font>
+
+16
+00:00:34,739 --> 00:00:36,780
+ciphers<font color="#E5E5E5"> know what a stream ciphers so</font>
+
+17
+00:00:36,780 --> 00:00:39,390
+stream ciphers actually encrypt<font color="#E5E5E5"> one</font>
+
+18
+00:00:39,390 --> 00:00:41,850
+digit at a one time just<font color="#E5E5E5"> for example our</font>
+
+19
+00:00:41,850 --> 00:00:44,250
+data contains five digits that is hello
+
+20
+00:00:44,250 --> 00:00:47,250
+<font color="#CCCCCC">H</font><font color="#E5E5E5"> e double</font><font color="#CCCCCC"> L o so the first digit that</font>
+
+21
+00:00:47,250 --> 00:00:49,829
+<font color="#E5E5E5">is H will be encrypted first then the</font>
+
+22
+00:00:49,829 --> 00:00:52,739
+next digit that is<font color="#E5E5E5"> e encrypted then the</font>
+
+23
+00:00:52,739 --> 00:00:54,960
+<font color="#E5E5E5">L will be encrypted</font><font color="#CCCCCC"> then</font><font color="#E5E5E5"> another L and</font>
+
+24
+00:00:54,960 --> 00:00:56,850
+then<font color="#E5E5E5"> o will be encrypted so in the</font>
+
+25
+00:00:56,850 --> 00:00:59,730
+stream<font color="#CCCCCC"> cipher one digit is encrypted at</font>
+
+26
+00:00:59,730 --> 00:01:01,859
+a one time and the stream cipher
+
+27
+00:01:01,859 --> 00:01:03,780
+<font color="#CCCCCC">contains only symmetric key encryption</font>
+
+28
+00:01:03,780 --> 00:01:06,930
+<font color="#E5E5E5">which means the key for encrypting the</font>
+
+29
+00:01:06,930 --> 00:01:08,700
+data<font color="#E5E5E5"> and the key for decrypting the data</font>
+
+30
+00:01:08,700 --> 00:01:11,189
+will be<font color="#E5E5E5"> same now let's talk about block</font>
+
+31
+00:01:11,189 --> 00:01:13,770
+cipher so as a name suggests block<font color="#E5E5E5"> which</font>
+
+32
+00:01:13,770 --> 00:01:15,810
+<font color="#E5E5E5">means the block cipher converts a</font>
+
+33
+00:01:15,810 --> 00:01:18,119
+particular block or<font color="#E5E5E5"> the block cipher</font>
+
+34
+00:01:18,119 --> 00:01:21,060
+<font color="#E5E5E5">encrypt a particular bit</font><font color="#CCCCCC"> of block so</font>
+
+35
+00:01:21,060 --> 00:01:22,860
+here you<font color="#E5E5E5"> can see that it operate on a</font>
+
+36
+00:01:22,860 --> 00:01:24,930
+fixed length of a group called as block
+
+37
+00:01:24,930 --> 00:01:27,420
+so one group at a one time which<font color="#E5E5E5"> means</font>
+
+38
+00:01:27,420 --> 00:01:30,509
+one group<font color="#E5E5E5"> of a block that</font><font color="#CCCCCC"> is a 64-bit</font>
+
+39
+00:01:30,509 --> 00:01:32,729
+will<font color="#E5E5E5"> be converted at a one time so</font><font color="#CCCCCC"> here</font>
+
+40
+00:01:32,729 --> 00:01:35,100
+you<font color="#E5E5E5"> can see that it might be</font><font color="#CCCCCC"> D ciphers</font>
+
+41
+00:01:35,100 --> 00:01:37,530
+so block ciphers<font color="#E5E5E5"> are not secure</font><font color="#CCCCCC"> so they</font>
+
+42
+00:01:37,530 --> 00:01:39,509
+might<font color="#E5E5E5"> be easily deciphered but there are</font>
+
+43
+00:01:39,509 --> 00:01:41,340
+different<font color="#E5E5E5"> different</font><font color="#CCCCCC"> ways and now let us</font>
+
+44
+00:01:41,340 --> 00:01:43,110
+talk<font color="#E5E5E5"> about different kind of encryption</font>
+
+45
+00:01:43,110 --> 00:01:45,600
+algorithms<font color="#E5E5E5"> so the first one is rc4</font>
+
+46
+00:01:45,600 --> 00:01:48,750
+stream cipher so rc4 algorithm is<font color="#E5E5E5"> called</font>
+
+47
+00:01:48,750 --> 00:01:51,360
+as<font color="#E5E5E5"> reversed cipher</font><font color="#CCCCCC"> for and it's actually</font>
+
+48
+00:01:51,360 --> 00:01:53,130
+a stream cipher which means it will
+
+49
+00:01:53,130 --> 00:01:55,200
+convert a<font color="#E5E5E5"> one digit at a one time and</font>
+
+50
+00:01:55,200 --> 00:01:57,840
+here you can<font color="#E5E5E5"> see that it's</font><font color="#CCCCCC"> also</font>
+
+51
+00:01:57,840 --> 00:01:59,969
+symmetric key algorithm<font color="#E5E5E5"> the key for</font>
+
+52
+00:01:59,969 --> 00:02:01,200
+encrypting the data and key for
+
+53
+00:02:01,200 --> 00:02:03,630
+decrypting the data is same<font color="#E5E5E5"> now</font><font color="#CCCCCC"> let us</font>
+
+54
+00:02:03,630 --> 00:02:06,479
+<font color="#E5E5E5">talk</font><font color="#CCCCCC"> about some block ciphers algorithm</font>
+
+55
+00:02:06,479 --> 00:02:09,628
+<font color="#CCCCCC">so the</font><font color="#E5E5E5"> first one is des algorithm so des</font>
+
+56
+00:02:09,628 --> 00:02:11,340
+algorithm stands<font color="#E5E5E5"> for data</font><font color="#CCCCCC"> encryption</font>
+
+57
+00:02:11,340 --> 00:02:13,180
+standard<font color="#CCCCCC"> here you can see</font>
+
+58
+00:02:13,180 --> 00:02:14,829
+so data encryption standard algorithm
+
+59
+00:02:14,829 --> 00:02:16,720
+<font color="#CCCCCC">actually operates on a fixed length of a</font>
+
+60
+00:02:16,720 --> 00:02:18,970
+block so it's fixed length string so
+
+61
+00:02:18,970 --> 00:02:20,920
+<font color="#CCCCCC">ciphertext of a plain site and the block</font>
+
+62
+00:02:20,920 --> 00:02:23,650
+size is 64<font color="#E5E5E5"> bit which means if our data</font>
+
+63
+00:02:23,650 --> 00:02:27,250
+is<font color="#E5E5E5"> actually a 128-bit</font><font color="#CCCCCC"> then the first</font>
+
+64
+00:02:27,250 --> 00:02:30,069
+64-bit will be encrypted<font color="#E5E5E5"> first then the</font>
+
+65
+00:02:30,069 --> 00:02:33,129
+<font color="#E5E5E5">another</font><font color="#CCCCCC"> 64-bit will encrypted</font><font color="#E5E5E5"> after our</font>
+
+66
+00:02:33,129 --> 00:02:36,640
+the previous 64-bit<font color="#E5E5E5"> data and one more</font>
+
+67
+00:02:36,640 --> 00:02:38,799
+<font color="#E5E5E5">thing to be noticed that in the block</font>
+
+68
+00:02:38,799 --> 00:02:42,579
+ciphers<font color="#E5E5E5"> the key the key and the size of</font>
+
+69
+00:02:42,579 --> 00:02:44,739
+a data which convert at one time is same
+
+70
+00:02:44,739 --> 00:02:47,049
+<font color="#E5E5E5">so as the</font><font color="#CCCCCC"> des algorithm is actually</font>
+
+71
+00:02:47,049 --> 00:02:50,049
+<font color="#E5E5E5">converting the block size of</font><font color="#CCCCCC"> 64</font><font color="#E5E5E5"> bit data</font>
+
+72
+00:02:50,049 --> 00:02:53,280
+which means<font color="#CCCCCC"> it's key should</font><font color="#E5E5E5"> be also of</font>
+
+73
+00:02:53,280 --> 00:02:56,920
+<font color="#CCCCCC">64-bit but this des algorithm is verne</font>
+
+74
+00:02:56,920 --> 00:02:58,569
+able to brute-force<font color="#E5E5E5"> attack or different</font>
+
+75
+00:02:58,569 --> 00:03:00,159
+dictionary attacks<font color="#E5E5E5"> so that's why it's</font>
+
+76
+00:03:00,159 --> 00:03:02,319
+not<font color="#E5E5E5"> secure</font><font color="#CCCCCC"> so in order</font><font color="#E5E5E5"> to make it secure</font>
+
+77
+00:03:02,319 --> 00:03:03,970
+information<font color="#CCCCCC"> security researchers</font>
+
+78
+00:03:03,970 --> 00:03:05,769
+actually<font color="#CCCCCC"> developed one more algorithm</font>
+
+79
+00:03:05,769 --> 00:03:09,970
+<font color="#E5E5E5">that is three</font><font color="#CCCCCC"> DES so three DES algorithm</font>
+
+80
+00:03:09,970 --> 00:03:11,319
+<font color="#E5E5E5">stands for triple data encryption</font>
+
+81
+00:03:11,319 --> 00:03:14,079
+standard<font color="#CCCCCC"> so in</font><font color="#E5E5E5"> addition to DES</font><font color="#CCCCCC"> this</font>
+
+82
+00:03:14,079 --> 00:03:17,079
+<font color="#CCCCCC">algorithm contains three keys</font><font color="#E5E5E5"> so in</font>
+
+83
+00:03:17,079 --> 00:03:18,970
+order<font color="#CCCCCC"> to</font><font color="#E5E5E5"> protect our data and with the</font>
+
+84
+00:03:18,970 --> 00:03:20,500
+help of these<font color="#CCCCCC"> three keys</font><font color="#E5E5E5"> our data is</font>
+
+85
+00:03:20,500 --> 00:03:22,269
+<font color="#E5E5E5">secure from different kind of password</font>
+
+86
+00:03:22,269 --> 00:03:23,919
+<font color="#E5E5E5">guessing attacks like dictionary attack</font>
+
+87
+00:03:23,919 --> 00:03:26,739
+and<font color="#CCCCCC"> Booth force attacks and in the last</font>
+
+88
+00:03:26,739 --> 00:03:29,019
+there<font color="#E5E5E5"> is one algorithm called as AES</font>
+
+89
+00:03:29,019 --> 00:03:30,579
+which is one<font color="#E5E5E5"> of the most popularly used</font>
+
+90
+00:03:30,579 --> 00:03:33,099
+algorithm around the globe<font color="#E5E5E5"> so</font><font color="#CCCCCC"> ei stands</font>
+
+91
+00:03:33,099 --> 00:03:35,500
+for advanced encryption standard<font color="#E5E5E5"> so this</font>
+
+92
+00:03:35,500 --> 00:03:36,549
+is the one<font color="#E5E5E5"> of the most powerful</font>
+
+93
+00:03:36,549 --> 00:03:38,199
+algorithm which is<font color="#CCCCCC"> used for encrypting</font>
+
+94
+00:03:38,199 --> 00:03:41,500
+our data<font color="#E5E5E5"> why because the key size of</font>
+
+95
+00:03:41,500 --> 00:03:45,310
+this AES algorithm is 128-bit 256 bit
+
+96
+00:03:45,310 --> 00:03:48,699
+and even<font color="#CCCCCC"> five one two bit key which</font>
+
+97
+00:03:48,699 --> 00:03:51,549
+means the key size is 128<font color="#E5E5E5"> five one two</font>
+
+98
+00:03:51,549 --> 00:03:53,829
+and the data or<font color="#E5E5E5"> the block size should</font><font color="#CCCCCC"> be</font>
+
+99
+00:03:53,829 --> 00:03:55,959
+the same as the size of<font color="#CCCCCC"> the key</font><font color="#E5E5E5"> so</font>
+
+100
+00:03:55,959 --> 00:03:58,329
+that's why this algorithm<font color="#E5E5E5"> AES should be</font>
+
+101
+00:03:58,329 --> 00:03:59,530
+considered one of the most<font color="#E5E5E5"> powerful</font>
+
+102
+00:03:59,530 --> 00:04:02,440
+<font color="#E5E5E5">algorithm used in the world now let's</font>
+
+103
+00:04:02,440 --> 00:04:04,720
+see how encryption work with the help of
+
+104
+00:04:04,720 --> 00:04:07,930
+one Python program now let's have a<font color="#E5E5E5"> look</font>
+
+105
+00:04:07,930 --> 00:04:09,819
+at<font color="#CCCCCC"> different encryption</font><font color="#E5E5E5"> algorithms and</font>
+
+106
+00:04:09,819 --> 00:04:12,699
+they're<font color="#E5E5E5"> working so</font><font color="#CCCCCC"> in the</font><font color="#E5E5E5"> previous video</font>
+
+107
+00:04:12,699 --> 00:04:15,729
+<font color="#E5E5E5">we</font><font color="#CCCCCC"> have downloaded this clipped</font><font color="#E5E5E5"> Swiss</font>
+
+108
+00:04:15,729 --> 00:04:18,608
+crypto and in this<font color="#E5E5E5"> video I will use the</font>
+
+109
+00:04:18,608 --> 00:04:22,210
+same script<font color="#E5E5E5"> so let</font><font color="#CCCCCC"> us open the</font><font color="#E5E5E5"> script so</font>
+
+110
+00:04:22,210 --> 00:04:24,010
+as I<font color="#CCCCCC"> told you earlier that</font><font color="#E5E5E5"> the</font>
+
+111
+00:04:24,010 --> 00:04:27,550
+<font color="#E5E5E5">encryption is of to type symmetric and</font>
+
+112
+00:04:27,550 --> 00:04:30,039
+so in<font color="#E5E5E5"> symmetric encryption the key for</font>
+
+113
+00:04:30,039 --> 00:04:31,750
+encrypting the data and the key for
+
+114
+00:04:31,750 --> 00:04:33,939
+decrypting the data<font color="#CCCCCC"> is same whereas in</font>
+
+115
+00:04:33,939 --> 00:04:36,069
+<font color="#E5E5E5">asymmetric encryption</font><font color="#CCCCCC"> the key for</font>
+
+116
+00:04:36,069 --> 00:04:37,870
+encrypting<font color="#E5E5E5"> and the key for decrypting</font>
+
+117
+00:04:37,870 --> 00:04:40,750
+the data<font color="#E5E5E5"> is different</font><font color="#CCCCCC"> so this tool</font><font color="#E5E5E5"> which</font>
+
+118
+00:04:40,750 --> 00:04:42,610
+I have created<font color="#E5E5E5"> actually supports</font>
+
+119
+00:04:42,610 --> 00:04:45,400
+symmetric encryption at this time<font color="#E5E5E5"> so let</font>
+
+120
+00:04:45,400 --> 00:04:48,430
+<font color="#CCCCCC">us click over here and then it asks</font><font color="#E5E5E5"> us</font>
+
+121
+00:04:48,430 --> 00:04:51,939
+<font color="#E5E5E5">for the cipher we want to use so first</font>
+
+122
+00:04:51,939 --> 00:04:54,340
+of all<font color="#CCCCCC"> let us click</font><font color="#E5E5E5"> over here to the</font>
+
+123
+00:04:54,340 --> 00:04:56,919
+block<font color="#E5E5E5"> cipher and we know that there are</font>
+
+124
+00:04:56,919 --> 00:04:58,150
+different kind of block cipher
+
+125
+00:04:58,150 --> 00:05:00,699
+algorithms but common one<font color="#CCCCCC"> our</font><font color="#E5E5E5"> advanced</font>
+
+126
+00:05:00,699 --> 00:05:02,680
+<font color="#E5E5E5">encryption standard algorithm and data</font>
+
+127
+00:05:02,680 --> 00:05:05,080
+<font color="#CCCCCC">encryption standard algorithm</font><font color="#E5E5E5"> so first</font>
+
+128
+00:05:05,080 --> 00:05:06,849
+of<font color="#E5E5E5"> all we'll discuss data encryption</font>
+
+129
+00:05:06,849 --> 00:05:08,830
+standard algorithm so click over<font color="#CCCCCC"> here as</font>
+
+130
+00:05:08,830 --> 00:05:11,199
+soon<font color="#CCCCCC"> as</font><font color="#E5E5E5"> we click over here it asks</font><font color="#CCCCCC"> us</font>
+
+131
+00:05:11,199 --> 00:05:15,370
+<font color="#CCCCCC">for the data to convert so as I told</font><font color="#E5E5E5"> you</font>
+
+132
+00:05:15,370 --> 00:05:16,990
+<font color="#CCCCCC">earlier</font><font color="#E5E5E5"> that in data encryption standard</font>
+
+133
+00:05:16,990 --> 00:05:19,779
+algorithm we always have to add the data
+
+134
+00:05:19,779 --> 00:05:23,560
+and<font color="#E5E5E5"> multiple of it which means if I add</font>
+
+135
+00:05:23,560 --> 00:05:26,319
+here hello<font color="#CCCCCC"> 1 2 3</font><font color="#E5E5E5"> so the total length</font><font color="#CCCCCC"> of</font>
+
+136
+00:05:26,319 --> 00:05:30,219
+<font color="#E5E5E5">this data is 8 so we have to add data</font>
+
+137
+00:05:30,219 --> 00:05:32,080
+<font color="#E5E5E5">multiple of eights means if you want</font><font color="#CCCCCC"> to</font>
+
+138
+00:05:32,080 --> 00:05:35,259
+<font color="#E5E5E5">add more data we have to add the till 16</font>
+
+139
+00:05:35,259 --> 00:05:38,860
+then 24 and multiple of eights<font color="#E5E5E5"> so let's</font>
+
+140
+00:05:38,860 --> 00:05:41,740
+click<font color="#E5E5E5"> over here</font><font color="#CCCCCC"> to ok</font><font color="#E5E5E5"> and here you will</font>
+
+141
+00:05:41,740 --> 00:05:44,979
+<font color="#CCCCCC">see that our data</font><font color="#E5E5E5"> is converted to the</font>
+
+142
+00:05:44,979 --> 00:05:46,509
+<font color="#E5E5E5">cipher</font><font color="#CCCCCC"> text and here we got our</font>
+
+143
+00:05:46,509 --> 00:05:48,699
+<font color="#E5E5E5">encrypted</font><font color="#CCCCCC"> text you</font><font color="#E5E5E5"> can see here and here</font>
+
+144
+00:05:48,699 --> 00:05:52,120
+is our key encryption key which we got
+
+145
+00:05:52,120 --> 00:05:54,940
+but you<font color="#E5E5E5"> might</font><font color="#CCCCCC"> be</font><font color="#E5E5E5"> wondering that why this</font>
+
+146
+00:05:54,940 --> 00:05:58,810
+<font color="#E5E5E5">key is not a long random key the reason</font>
+
+147
+00:05:58,810 --> 00:06:02,379
+is that I haven't<font color="#E5E5E5"> added a random key</font>
+
+148
+00:06:02,379 --> 00:06:03,940
+generation function<font color="#CCCCCC"> in data encryption</font>
+
+149
+00:06:03,940 --> 00:06:05,830
+standard algorithm<font color="#E5E5E5"> and this Python</font>
+
+150
+00:06:05,830 --> 00:06:08,560
+program<font color="#E5E5E5"> so that's why I have made this</font>
+
+151
+00:06:08,560 --> 00:06:12,159
+key constant in this Python program so
+
+152
+00:06:12,159 --> 00:06:13,599
+<font color="#E5E5E5">that's why you are seeing this</font><font color="#CCCCCC"> eight</font>
+
+153
+00:06:13,599 --> 00:06:16,389
+digits key<font color="#E5E5E5"> so the another reason</font><font color="#CCCCCC"> of</font>
+
+154
+00:06:16,389 --> 00:06:19,810
+<font color="#E5E5E5">making this key constant is that</font><font color="#CCCCCC"> I want</font>
+
+155
+00:06:19,810 --> 00:06:23,469
+to show you that the key or in<font color="#E5E5E5"> DES</font>
+
+156
+00:06:23,469 --> 00:06:27,159
+algorithm is always<font color="#E5E5E5"> should</font><font color="#CCCCCC"> be in eight</font>
+
+157
+00:06:27,159 --> 00:06:29,409
+digits or in the multiple<font color="#CCCCCC"> of AIDS so the</font>
+
+158
+00:06:29,409 --> 00:06:31,360
+data and the key should always be in
+
+159
+00:06:31,360 --> 00:06:34,659
+multiple<font color="#CCCCCC"> of</font><font color="#E5E5E5"> eight so now</font><font color="#CCCCCC"> let's</font><font color="#E5E5E5"> try</font><font color="#CCCCCC"> to</font>
+
+160
+00:06:34,659 --> 00:06:35,919
+decrypt<font color="#E5E5E5"> the data encryption standard</font>
+
+161
+00:06:35,919 --> 00:06:37,959
+algorithm<font color="#E5E5E5"> so let's click over here</font>
+
+162
+00:06:37,959 --> 00:06:40,750
+decryption symmetric encryption
+
+163
+00:06:40,750 --> 00:06:42,640
+<font color="#E5E5E5">then we have to select the decryption</font>
+
+164
+00:06:42,640 --> 00:06:45,010
+<font color="#E5E5E5">algorithm</font><font color="#CCCCCC"> so the</font><font color="#E5E5E5"> point to be notice is</font>
+
+165
+00:06:45,010 --> 00:06:47,980
+that<font color="#E5E5E5"> we have</font><font color="#CCCCCC"> to select</font><font color="#E5E5E5"> the same</font>
+
+166
+00:06:47,980 --> 00:06:50,620
+algorithm which we have<font color="#E5E5E5"> used in order to</font>
+
+167
+00:06:50,620 --> 00:06:52,960
+encrypt the data<font color="#E5E5E5"> so let's select this</font>
+
+168
+00:06:52,960 --> 00:06:55,750
+and here it<font color="#E5E5E5"> asks us</font><font color="#CCCCCC"> for the key</font><font color="#E5E5E5"> to</font>
+
+169
+00:06:55,750 --> 00:06:59,110
+decrypt and our key is<font color="#CCCCCC"> 1</font><font color="#E5E5E5"> 2</font><font color="#CCCCCC"> 3 4</font><font color="#E5E5E5"> 5</font><font color="#CCCCCC"> 6 7</font><font color="#E5E5E5"> 8</font>
+
+170
+00:06:59,110 --> 00:07:02,200
+<font color="#CCCCCC">and let's copy our</font><font color="#E5E5E5"> encrypted</font><font color="#CCCCCC"> text or a</font>
+
+171
+00:07:02,200 --> 00:07:04,600
+cipher text<font color="#E5E5E5"> from here from this Python</font>
+
+172
+00:07:04,600 --> 00:07:08,230
+shell<font color="#E5E5E5"> and let me paste it here and click</font>
+
+173
+00:07:08,230 --> 00:07:13,800
+<font color="#CCCCCC">on decrypt give us an error okay I think</font>
+
+174
+00:07:13,800 --> 00:07:16,630
+<font color="#E5E5E5">we misses something</font><font color="#CCCCCC"> so we have to copy</font>
+
+175
+00:07:16,630 --> 00:07:19,930
+the<font color="#CCCCCC"> text</font><font color="#E5E5E5"> very carefully otherwise</font><font color="#CCCCCC"> it</font>
+
+176
+00:07:19,930 --> 00:07:24,220
+will give<font color="#CCCCCC"> us an error</font><font color="#E5E5E5"> and let me paste</font>
+
+177
+00:07:24,220 --> 00:07:27,070
+it here click on decrypt<font color="#E5E5E5"> and here you</font>
+
+178
+00:07:27,070 --> 00:07:29,200
+<font color="#E5E5E5">will see that we got our normal</font><font color="#CCCCCC"> text</font>
+
+179
+00:07:29,200 --> 00:07:32,470
+back<font color="#CCCCCC"> that is hello 1 2 3</font><font color="#E5E5E5"> so this is how</font>
+
+180
+00:07:32,470 --> 00:07:34,540
+data encryption standard<font color="#E5E5E5"> worked so and</font>
+
+181
+00:07:34,540 --> 00:07:36,490
+the main disadvantage<font color="#E5E5E5"> of data encryption</font>
+
+182
+00:07:36,490 --> 00:07:39,070
+standard is<font color="#E5E5E5"> that it always accept the</font>
+
+183
+00:07:39,070 --> 00:07:41,650
+data<font color="#E5E5E5"> and key in multiple of</font><font color="#CCCCCC"> 8 bits</font><font color="#E5E5E5"> and</font>
+
+184
+00:07:41,650 --> 00:07:43,780
+there is some<font color="#CCCCCC"> restriction of ethat we</font>
+
+185
+00:07:43,780 --> 00:07:46,600
+can't add up<font color="#CCCCCC"> to 64 bit</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> is why</font>
+
+186
+00:07:46,600 --> 00:07:48,190
+the key size is<font color="#CCCCCC"> very</font><font color="#E5E5E5"> small in data</font>
+
+187
+00:07:48,190 --> 00:07:49,540
+<font color="#E5E5E5">encryption standard which is</font><font color="#CCCCCC"> vulnerable</font>
+
+188
+00:07:49,540 --> 00:07:52,120
+<font color="#E5E5E5">to some</font><font color="#CCCCCC"> brute-force attacks now let's</font>
+
+189
+00:07:52,120 --> 00:07:53,410
+have a look at advanced encryption
+
+190
+00:07:53,410 --> 00:07:55,810
+standard and it's working<font color="#CCCCCC"> and let's</font>
+
+191
+00:07:55,810 --> 00:07:59,190
+start the script<font color="#E5E5E5"> again let's go here</font>
+
+192
+00:07:59,190 --> 00:08:02,380
+block<font color="#E5E5E5"> ciphers and now now let this time</font>
+
+193
+00:08:02,380 --> 00:08:04,330
+<font color="#E5E5E5">click over here</font><font color="#CCCCCC"> advanced encryption</font>
+
+194
+00:08:04,330 --> 00:08:07,600
+standard<font color="#CCCCCC"> so in advanced encryption</font>
+
+195
+00:08:07,600 --> 00:08:09,940
+standard<font color="#E5E5E5"> we can add the data and but</font>
+
+196
+00:08:09,940 --> 00:08:12,729
+it's not<font color="#E5E5E5"> mandatory that</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> have to add</font>
+
+197
+00:08:12,729 --> 00:08:14,680
+the data<font color="#E5E5E5"> in multiple</font><font color="#CCCCCC"> of it which means</font>
+
+198
+00:08:14,680 --> 00:08:18,250
+we can add<font color="#E5E5E5"> any data of any size just</font><font color="#CCCCCC"> for</font>
+
+199
+00:08:18,250 --> 00:08:24,760
+<font color="#CCCCCC">example let's write here this is secret</font>
+
+200
+00:08:24,760 --> 00:08:27,250
+<font color="#CCCCCC">and if I click</font><font color="#E5E5E5"> on</font><font color="#CCCCCC"> OK</font><font color="#E5E5E5"> here you will see</font>
+
+201
+00:08:27,250 --> 00:08:30,040
+<font color="#CCCCCC">that</font><font color="#E5E5E5"> our text is encrypted</font><font color="#CCCCCC"> and we got</font>
+
+202
+00:08:30,040 --> 00:08:31,990
+our encrypted<font color="#E5E5E5"> text here at the bottom</font>
+
+203
+00:08:31,990 --> 00:08:35,200
+<font color="#E5E5E5">and above it we got our long random key</font>
+
+204
+00:08:35,200 --> 00:08:37,570
+<font color="#E5E5E5">the same thing we got in Python shell</font>
+
+205
+00:08:37,570 --> 00:08:40,479
+you<font color="#E5E5E5"> can see here so this is the beauty</font>
+
+206
+00:08:40,479 --> 00:08:42,309
+of advanced encryption standard<font color="#E5E5E5"> that the</font>
+
+207
+00:08:42,309 --> 00:08:45,610
+size of key is<font color="#E5E5E5"> very long that makes the</font>
+
+208
+00:08:45,610 --> 00:08:47,860
+key and<font color="#E5E5E5"> our data secure from</font><font color="#CCCCCC"> wolf force</font>
+
+209
+00:08:47,860 --> 00:08:52,030
+attack<font color="#E5E5E5"> so we can add</font><font color="#CCCCCC"> here any data</font><font color="#E5E5E5"> click</font>
+
+210
+00:08:52,030 --> 00:08:54,550
+<font color="#E5E5E5">on</font><font color="#CCCCCC"> OK</font><font color="#E5E5E5"> you will see we got</font>
+
+211
+00:08:54,550 --> 00:08:57,640
+another key<font color="#CCCCCC"> parent encrypted text so</font>
+
+212
+00:08:57,640 --> 00:08:59,080
+this is how advanced encryption standard
+
+213
+00:08:59,080 --> 00:09:01,720
+work and in order to<font color="#E5E5E5"> decrypt it the</font>
+
+214
+00:09:01,720 --> 00:09:04,930
+steps<font color="#E5E5E5"> are same so this this was all</font>
+
+215
+00:09:04,930 --> 00:09:07,360
+about block ciphers algorithm<font color="#E5E5E5"> now let's</font>
+
+216
+00:09:07,360 --> 00:09:09,340
+have a look<font color="#E5E5E5"> at one stream cipher</font>
+
+217
+00:09:09,340 --> 00:09:12,010
+algorithm that is<font color="#E5E5E5"> rc4 so let's go here</font>
+
+218
+00:09:12,010 --> 00:09:14,860
+encryption symmetric encryption<font color="#CCCCCC"> then</font>
+
+219
+00:09:14,860 --> 00:09:17,710
+stream cipher<font color="#E5E5E5"> rc4 algorithm that is</font>
+
+220
+00:09:17,710 --> 00:09:21,280
+reversed cipher<font color="#CCCCCC"> four and here it</font><font color="#E5E5E5"> asks us</font>
+
+221
+00:09:21,280 --> 00:09:24,250
+for enter the key and data so as I<font color="#CCCCCC"> told</font>
+
+222
+00:09:24,250 --> 00:09:26,860
+you earlier<font color="#CCCCCC"> that</font><font color="#E5E5E5"> in rc4 algorithm it's</font>
+
+223
+00:09:26,860 --> 00:09:28,780
+not<font color="#E5E5E5"> mandatory that</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> have to add data</font>
+
+224
+00:09:28,780 --> 00:09:31,030
+<font color="#CCCCCC">in multiple of</font><font color="#E5E5E5"> eight bits</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> we can add</font>
+
+225
+00:09:31,030 --> 00:09:35,430
+here<font color="#CCCCCC"> any key</font><font color="#E5E5E5"> like hello let's make it as</font>
+
+226
+00:09:35,430 --> 00:09:38,170
+hello<font color="#E5E5E5"> one two three so it's</font><font color="#CCCCCC"> every key or</font>
+
+227
+00:09:38,170 --> 00:09:41,470
+a password<font color="#E5E5E5"> and let's add here text which</font>
+
+228
+00:09:41,470 --> 00:09:43,620
+we want<font color="#E5E5E5"> to encrypt</font><font color="#CCCCCC"> so our</font><font color="#E5E5E5"> text will be</font>
+
+229
+00:09:43,620 --> 00:09:46,690
+you<font color="#E5E5E5"> can write here anything very secret</font>
+
+230
+00:09:46,690 --> 00:09:48,880
+<font color="#E5E5E5">so if I click on convert you will see</font>
+
+231
+00:09:48,880 --> 00:09:51,760
+that we got our<font color="#E5E5E5"> cipher text or encrypted</font>
+
+232
+00:09:51,760 --> 00:09:55,380
+text<font color="#E5E5E5"> so</font><font color="#CCCCCC"> let's copy this text</font><font color="#E5E5E5"> from here</font>
+
+233
+00:09:55,380 --> 00:10:00,250
+and now let's go here<font color="#CCCCCC"> to decryption</font>
+
+234
+00:10:00,250 --> 00:10:02,680
+let's try to decrypt<font color="#E5E5E5"> this text we have</font>
+
+235
+00:10:02,680 --> 00:10:05,320
+<font color="#E5E5E5">to select the same algorithm rc4 so here</font>
+
+236
+00:10:05,320 --> 00:10:07,360
+we have to<font color="#E5E5E5"> add our key so our key was</font>
+
+237
+00:10:07,360 --> 00:10:10,030
+hello<font color="#CCCCCC"> one two three and our text which</font>
+
+238
+00:10:10,030 --> 00:10:12,160
+we have copied<font color="#E5E5E5"> so I have pasted it here</font>
+
+239
+00:10:12,160 --> 00:10:15,220
+<font color="#CCCCCC">click on OK</font><font color="#E5E5E5"> and here you will see that</font>
+
+240
+00:10:15,220 --> 00:10:18,490
+we<font color="#E5E5E5"> got our normal</font><font color="#CCCCCC"> text back that is very</font>
+
+241
+00:10:18,490 --> 00:10:21,250
+secret<font color="#E5E5E5"> so this is how block ciphers</font>
+
+242
+00:10:21,250 --> 00:10:23,290
+stream ciphers and<font color="#E5E5E5"> the different</font>
+
+243
+00:10:23,290 --> 00:10:26,200
+algorithm works<font color="#E5E5E5"> so this was the short</font>
+
+244
+00:10:26,200 --> 00:10:29,050
+example of demonstration of different
+
+245
+00:10:29,050 --> 00:10:31,000
+encryption algorithms so in<font color="#E5E5E5"> this</font><font color="#CCCCCC"> video</font>
+
+246
+00:10:31,000 --> 00:10:32,350
+we have<font color="#E5E5E5"> covered that</font><font color="#CCCCCC"> what are different</font>
+
+247
+00:10:32,350 --> 00:10:33,880
+ciphers and what are<font color="#E5E5E5"> different</font>
+
+248
+00:10:33,880 --> 00:10:36,310
+<font color="#CCCCCC">algorithms supported by them</font><font color="#E5E5E5"> so thanks</font>
+
+249
+00:10:36,310 --> 00:00:00,000
+<font color="#E5E5E5">for watching</font><font color="#CCCCCC"> this video</font>
+

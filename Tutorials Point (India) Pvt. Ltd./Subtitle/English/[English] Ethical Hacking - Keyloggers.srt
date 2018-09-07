@@ -1,0 +1,632 @@
+1
+00:00:00,089 --> 00:00:02,310
+hello everyone welcome<font color="#E5E5E5"> to tutorials</font>
+
+2
+00:00:02,310 --> 00:00:04,370
+point<font color="#CCCCCC"> so in this video</font><font color="#E5E5E5"> we'll talk about</font>
+
+3
+00:00:04,370 --> 00:00:07,710
+key<font color="#E5E5E5"> loggers so before going further let</font>
+
+4
+00:00:07,710 --> 00:00:08,730
+<font color="#E5E5E5">me ask you one</font><font color="#CCCCCC"> question</font>
+
+5
+00:00:08,730 --> 00:00:11,309
+so have you<font color="#CCCCCC"> ever</font><font color="#E5E5E5"> been tried to check</font>
+
+6
+00:00:11,309 --> 00:00:13,290
+that what's your friend<font color="#E5E5E5"> or another</font>
+
+7
+00:00:13,290 --> 00:00:15,780
+person is doing<font color="#E5E5E5"> his computer so your</font>
+
+8
+00:00:15,780 --> 00:00:18,810
+answer is<font color="#E5E5E5"> key loggers so key loggers</font><font color="#CCCCCC"> are</font>
+
+9
+00:00:18,810 --> 00:00:21,420
+spyware or<font color="#E5E5E5"> surveillance software which</font>
+
+10
+00:00:21,420 --> 00:00:24,150
+we can use in<font color="#E5E5E5"> order to track activity of</font>
+
+11
+00:00:24,150 --> 00:00:26,250
+a<font color="#E5E5E5"> particular user</font><font color="#CCCCCC"> so the help of key</font>
+
+12
+00:00:26,250 --> 00:00:28,439
+logger what we can do we can record a
+
+13
+00:00:28,439 --> 00:00:30,689
+keystroke<font color="#E5E5E5"> that</font><font color="#CCCCCC"> runs the user typing in</font>
+
+14
+00:00:30,689 --> 00:00:32,520
+his keyboard<font color="#E5E5E5"> and with the help of key</font>
+
+15
+00:00:32,520 --> 00:00:34,530
+logger we can also take a screenshot of
+
+16
+00:00:34,530 --> 00:00:37,079
+<font color="#CCCCCC">that system</font><font color="#E5E5E5"> so some key loggers are very</font>
+
+17
+00:00:37,079 --> 00:00:38,610
+advanced and<font color="#E5E5E5"> they are capable of</font>
+
+18
+00:00:38,610 --> 00:00:41,070
+recording internet history<font color="#CCCCCC"> so all we</font>
+
+19
+00:00:41,070 --> 00:00:42,989
+have<font color="#CCCCCC"> to do is we just have to install</font><font color="#E5E5E5"> a</font>
+
+20
+00:00:42,989 --> 00:00:46,050
+key logger program inside<font color="#E5E5E5"> the targeted</font>
+
+21
+00:00:46,050 --> 00:00:47,910
+system<font color="#E5E5E5"> so once we install the key logger</font>
+
+22
+00:00:47,910 --> 00:00:50,070
+<font color="#E5E5E5">then we can monitor all the activity of</font>
+
+23
+00:00:50,070 --> 00:00:51,660
+a<font color="#E5E5E5"> particular user and if you are a</font>
+
+24
+00:00:51,660 --> 00:00:53,670
+parent<font color="#E5E5E5"> then I recommend you to please</font>
+
+25
+00:00:53,670 --> 00:00:54,719
+install key logger
+
+26
+00:00:54,719 --> 00:00:56,399
+in order to monitor<font color="#E5E5E5"> that what's your</font>
+
+27
+00:00:56,399 --> 00:00:59,340
+child<font color="#E5E5E5"> do on internet so the key loggers</font>
+
+28
+00:00:59,340 --> 00:01:02,579
+are available for<font color="#CCCCCC"> Windows Linux Mac and</font>
+
+29
+00:01:02,579 --> 00:01:04,199
+nowadays<font color="#E5E5E5"> key loggers are also available</font>
+
+30
+00:01:04,199 --> 00:01:06,869
+for smartphones<font color="#CCCCCC"> even for iPhones also</font>
+
+31
+00:01:06,869 --> 00:01:08,760
+now let's see how we can install one<font color="#E5E5E5"> key</font>
+
+32
+00:01:08,760 --> 00:01:11,390
+logger<font color="#E5E5E5"> named as kid logger in our system</font>
+
+33
+00:01:11,390 --> 00:01:14,520
+<font color="#E5E5E5">now let's use</font><font color="#CCCCCC"> tit logger</font><font color="#E5E5E5"> in order to</font>
+
+34
+00:01:14,520 --> 00:01:17,100
+<font color="#CCCCCC">capture screenshots</font><font color="#E5E5E5"> keystrokes as well</font>
+
+35
+00:01:17,100 --> 00:01:19,290
+as audio messages<font color="#E5E5E5"> well we can download</font>
+
+36
+00:01:19,290 --> 00:01:21,180
+<font color="#E5E5E5">kit Locker from here from the official</font>
+
+37
+00:01:21,180 --> 00:01:23,240
+website<font color="#CCCCCC"> that is keyed</font><font color="#E5E5E5"> logger dotnet and</font>
+
+38
+00:01:23,240 --> 00:01:25,799
+this is a very handy<font color="#E5E5E5"> key logger I have</font>
+
+39
+00:01:25,799 --> 00:01:28,770
+ever used<font color="#CCCCCC"> so let</font><font color="#E5E5E5"> me just go</font><font color="#CCCCCC"> here to</font>
+
+40
+00:01:28,770 --> 00:01:30,869
+download<font color="#E5E5E5"> and this key logger is</font>
+
+41
+00:01:30,869 --> 00:01:35,250
+available for Windows OS Linux Android
+
+42
+00:01:35,250 --> 00:01:37,200
+phones<font color="#E5E5E5"> and even for</font><font color="#CCCCCC"> Blackberry phones</font>
+
+43
+00:01:37,200 --> 00:01:40,409
+<font color="#CCCCCC">also so let me download</font><font color="#E5E5E5"> it and it's a</font>
+
+44
+00:01:40,409 --> 00:01:43,500
+zip archive file and here you can see a
+
+45
+00:01:43,500 --> 00:01:46,890
+zip file is created<font color="#CCCCCC"> and here is the</font>
+
+46
+00:01:46,890 --> 00:01:49,320
+<font color="#E5E5E5">setup so the password of this key logger</font>
+
+47
+00:01:49,320 --> 00:01:51,899
+is<font color="#E5E5E5"> one two</font><font color="#CCCCCC"> three</font><font color="#E5E5E5"> four five click on</font><font color="#CCCCCC"> OK</font>
+
+48
+00:01:51,899 --> 00:01:56,540
+and<font color="#E5E5E5"> let's</font><font color="#CCCCCC"> just install this key logger</font>
+
+49
+00:02:00,930 --> 00:02:03,840
+and here you<font color="#E5E5E5"> can see that the key logger</font>
+
+50
+00:02:03,840 --> 00:02:06,030
+is installed<font color="#E5E5E5"> now click on finish and</font>
+
+51
+00:02:06,030 --> 00:02:08,280
+<font color="#E5E5E5">here you will see that our key logger</font>
+
+52
+00:02:08,280 --> 00:02:10,199
+will be launched<font color="#E5E5E5"> so this is the main</font>
+
+53
+00:02:10,199 --> 00:02:12,150
+menu<font color="#E5E5E5"> of</font><font color="#CCCCCC"> this key logger</font><font color="#E5E5E5"> so you can</font>
+
+54
+00:02:12,150 --> 00:02:14,280
+capture the<font color="#E5E5E5"> keystrokes of all the users</font>
+
+55
+00:02:14,280 --> 00:02:16,710
+<font color="#E5E5E5">by just</font><font color="#CCCCCC"> selecting that user</font><font color="#E5E5E5"> so right now</font>
+
+56
+00:02:16,710 --> 00:02:18,660
+in my system there<font color="#CCCCCC"> is only one user that</font>
+
+57
+00:02:18,660 --> 00:02:21,060
+is named as user so you can see here so
+
+58
+00:02:21,060 --> 00:02:23,310
+let me<font color="#CCCCCC"> just</font><font color="#E5E5E5"> check this</font><font color="#CCCCCC"> up and if I go</font>
+
+59
+00:02:23,310 --> 00:02:26,250
+here<font color="#CCCCCC"> to options</font><font color="#E5E5E5"> you will see the options</font>
+
+60
+00:02:26,250 --> 00:02:28,380
+are the things which<font color="#E5E5E5"> we</font><font color="#CCCCCC"> want</font><font color="#E5E5E5"> to record</font>
+
+61
+00:02:28,380 --> 00:02:30,240
+<font color="#E5E5E5">or we want to</font><font color="#CCCCCC"> capture</font><font color="#E5E5E5"> so you can see</font>
+
+62
+00:02:30,240 --> 00:02:32,490
+that this will store a keystrokes<font color="#E5E5E5"> means</font>
+
+63
+00:02:32,490 --> 00:02:34,770
+if I type anything<font color="#E5E5E5"> in my keyboard that</font>
+
+64
+00:02:34,770 --> 00:02:37,070
+will get stored and then it will also
+
+65
+00:02:37,070 --> 00:02:39,600
+take a record of<font color="#E5E5E5"> USB removable</font>
+
+66
+00:02:39,600 --> 00:02:42,510
+insertions<font color="#E5E5E5"> then it will</font><font color="#CCCCCC"> also record a</font>
+
+67
+00:02:42,510 --> 00:02:46,380
+Skype chat<font color="#CCCCCC"> and Roo messages and then it</font>
+
+68
+00:02:46,380 --> 00:02:49,800
+will also<font color="#E5E5E5"> take a snapshot or it will</font>
+
+69
+00:02:49,800 --> 00:02:51,630
+<font color="#CCCCCC">also store the browser history and</font><font color="#E5E5E5"> the</font>
+
+70
+00:02:51,630 --> 00:02:54,060
+search phrases so what else we can do is
+
+71
+00:02:54,060 --> 00:02:55,800
+in<font color="#E5E5E5"> order to</font><font color="#CCCCCC"> protect this</font><font color="#E5E5E5"> key logger and</font>
+
+72
+00:02:55,800 --> 00:02:58,650
+if we want that nobody can't access<font color="#E5E5E5"> this</font>
+
+73
+00:02:58,650 --> 00:03:00,750
+key logger<font color="#E5E5E5"> so we can also protect this</font>
+
+74
+00:03:00,750 --> 00:03:03,150
+key logger application by<font color="#CCCCCC"> clicking over</font>
+
+75
+00:03:03,150 --> 00:03:04,620
+<font color="#E5E5E5">here password protected key logger and</font>
+
+76
+00:03:04,620 --> 00:03:06,900
+<font color="#E5E5E5">we can set a particular password then</font>
+
+77
+00:03:06,900 --> 00:03:09,330
+here you will see the output<font color="#CCCCCC"> folder</font>
+
+78
+00:03:09,330 --> 00:03:11,730
+<font color="#E5E5E5">means where this key logger stores the</font>
+
+79
+00:03:11,730 --> 00:03:13,620
+file<font color="#E5E5E5"> so this key logger will store the</font>
+
+80
+00:03:13,620 --> 00:03:16,200
+file in local disk c program files<font color="#E5E5E5"> kit</font>
+
+81
+00:03:16,200 --> 00:03:17,940
+logger<font color="#E5E5E5"> and here is one directory called</font>
+
+82
+00:03:17,940 --> 00:03:20,790
+<font color="#E5E5E5">a logs and after 15 days</font><font color="#CCCCCC"> all files will</font>
+
+83
+00:03:20,790 --> 00:03:22,200
+be deleted<font color="#CCCCCC"> so you can change some</font>
+
+84
+00:03:22,200 --> 00:03:24,660
+settings from<font color="#E5E5E5"> here so even you can</font>
+
+85
+00:03:24,660 --> 00:03:26,549
+connect this key logger<font color="#CCCCCC"> to your kit</font>
+
+86
+00:03:26,549 --> 00:03:28,739
+logger dotnet account but for that you
+
+87
+00:03:28,739 --> 00:03:30,930
+have<font color="#CCCCCC"> to buy a premium subscription</font><font color="#E5E5E5"> of</font>
+
+88
+00:03:30,930 --> 00:03:33,360
+this key logger and by going here<font color="#CCCCCC"> to</font>
+
+89
+00:03:33,360 --> 00:03:36,060
+sound recorder<font color="#E5E5E5"> what we can do we can</font>
+
+90
+00:03:36,060 --> 00:03:38,820
+even record<font color="#E5E5E5"> a sound of a particular user</font>
+
+91
+00:03:38,820 --> 00:03:41,250
+<font color="#CCCCCC">so here is the option</font><font color="#E5E5E5"> of screen capture</font>
+
+92
+00:03:41,250 --> 00:03:43,350
+so what the screen capture will do<font color="#E5E5E5"> this</font>
+
+93
+00:03:43,350 --> 00:03:45,780
+key logger will take a<font color="#E5E5E5"> screenshot</font><font color="#CCCCCC"> of</font>
+
+94
+00:03:45,780 --> 00:03:49,260
+users computers after<font color="#CCCCCC"> a particular</font>
+
+95
+00:03:49,260 --> 00:03:51,959
+interval so let me go here<font color="#CCCCCC"> let</font><font color="#E5E5E5"> me close</font>
+
+96
+00:03:51,959 --> 00:03:53,730
+this<font color="#E5E5E5"> up and let's click on start</font>
+
+97
+00:03:53,730 --> 00:03:56,070
+monitoring<font color="#CCCCCC"> and here you will see that it</font>
+
+98
+00:03:56,070 --> 00:03:58,140
+sends<font color="#E5E5E5"> the message the</font><font color="#CCCCCC"> kit logger has</font>
+
+99
+00:03:58,140 --> 00:04:00,900
+been activated<font color="#E5E5E5"> successfully</font><font color="#CCCCCC"> so now I can</font>
+
+100
+00:04:00,900 --> 00:04:03,299
+close this key logger<font color="#E5E5E5"> now in order to</font>
+
+101
+00:04:03,299 --> 00:04:06,980
+verify<font color="#E5E5E5"> let me</font><font color="#CCCCCC"> open notepad file</font>
+
+102
+00:04:08,500 --> 00:04:10,780
+so I'm just<font color="#E5E5E5"> right here anything</font><font color="#CCCCCC"> we are</font>
+
+103
+00:04:10,780 --> 00:04:16,329
+being<font color="#CCCCCC"> monitored your hacked so just</font>
+
+104
+00:04:16,329 --> 00:04:24,490
+write<font color="#CCCCCC"> down anything someone is watching</font>
+
+105
+00:04:24,490 --> 00:04:28,120
+us<font color="#E5E5E5"> so let me close this notepad file now</font>
+
+106
+00:04:28,120 --> 00:04:30,130
+<font color="#E5E5E5">in order</font><font color="#CCCCCC"> to see that</font><font color="#E5E5E5"> whether this key</font>
+
+107
+00:04:30,130 --> 00:04:32,470
+logger is storing<font color="#E5E5E5"> of a</font><font color="#CCCCCC"> keystroke</font><font color="#E5E5E5"> or not</font>
+
+108
+00:04:32,470 --> 00:04:35,140
+what we can do is<font color="#E5E5E5"> the there are two</font>
+
+109
+00:04:35,140 --> 00:04:36,670
+things<font color="#E5E5E5"> the</font><font color="#CCCCCC"> first</font><font color="#E5E5E5"> thing is we can stop</font>
+
+110
+00:04:36,670 --> 00:04:38,920
+the key logger<font color="#E5E5E5"> and then we can check on</font>
+
+111
+00:04:38,920 --> 00:04:41,440
+<font color="#E5E5E5">the other hand we can directly go</font><font color="#CCCCCC"> to</font>
+
+112
+00:04:41,440 --> 00:04:44,140
+that local<font color="#CCCCCC"> this.c directory where the</font>
+
+113
+00:04:44,140 --> 00:04:46,030
+<font color="#E5E5E5">key logger is actually storing all the</font>
+
+114
+00:04:46,030 --> 00:04:49,480
+stuff<font color="#E5E5E5"> so it's Program Files and here is</font>
+
+115
+00:04:49,480 --> 00:04:51,130
+a directory called<font color="#CCCCCC"> a state logger so you</font>
+
+116
+00:04:51,130 --> 00:04:54,160
+can see here and<font color="#E5E5E5"> here is that directory</font>
+
+117
+00:04:54,160 --> 00:04:56,410
+logs<font color="#E5E5E5"> so this key logger key logger</font>
+
+118
+00:04:56,410 --> 00:04:59,620
+<font color="#CCCCCC">stores all the</font><font color="#E5E5E5"> data in HTML</font><font color="#CCCCCC"> file so you</font>
+
+119
+00:04:59,620 --> 00:05:01,810
+can<font color="#E5E5E5"> see here that HTML file is created</font>
+
+120
+00:05:01,810 --> 00:05:05,620
+<font color="#E5E5E5">and here is the date so let me open this</font>
+
+121
+00:05:05,620 --> 00:05:08,440
+file<font color="#E5E5E5"> and here you can see that it's a</font>
+
+122
+00:05:08,440 --> 00:05:10,390
+new session<font color="#E5E5E5"> for user so first of all</font>
+
+123
+00:05:10,390 --> 00:05:12,820
+<font color="#CCCCCC">it's displaying that</font><font color="#E5E5E5"> what what is the</font>
+
+124
+00:05:12,820 --> 00:05:15,460
+application<font color="#E5E5E5"> that the user is using so as</font>
+
+125
+00:05:15,460 --> 00:05:17,740
+we<font color="#E5E5E5"> know that we have open notepad so</font>
+
+126
+00:05:17,740 --> 00:05:19,720
+<font color="#E5E5E5">that's why they so that's why it's list</font>
+
+127
+00:05:19,720 --> 00:05:22,330
+<font color="#E5E5E5">it's listed here notepad</font><font color="#CCCCCC"> then</font><font color="#E5E5E5"> here is</font>
+
+128
+00:05:22,330 --> 00:05:23,919
+the data which<font color="#CCCCCC"> we have written so you</font>
+
+129
+00:05:23,919 --> 00:05:26,800
+can see here and then<font color="#CCCCCC"> we have</font><font color="#E5E5E5"> open kid</font>
+
+130
+00:05:26,800 --> 00:05:28,750
+<font color="#E5E5E5">logger and then we have open</font><font color="#CCCCCC"> Mozilla</font>
+
+131
+00:05:28,750 --> 00:05:32,680
+Firefox<font color="#E5E5E5"> then we have opened notepad</font><font color="#CCCCCC"> so</font>
+
+132
+00:05:32,680 --> 00:05:34,570
+this key logger also take record of all
+
+133
+00:05:34,570 --> 00:05:36,100
+<font color="#E5E5E5">the applications which are being run in</font>
+
+134
+00:05:36,100 --> 00:05:39,040
+<font color="#E5E5E5">that operating system</font><font color="#CCCCCC"> so at the</font><font color="#E5E5E5"> top here</font>
+
+135
+00:05:39,040 --> 00:05:40,419
+<font color="#CCCCCC">you can</font><font color="#E5E5E5"> see that we can</font><font color="#CCCCCC"> also</font><font color="#E5E5E5"> apply a</font>
+
+136
+00:05:40,419 --> 00:05:42,100
+<font color="#CCCCCC">particular filter there are a lot of</font>
+
+137
+00:05:42,100 --> 00:05:43,870
+filters like if I click on application
+
+138
+00:05:43,870 --> 00:05:45,070
+then it will list out all the
+
+139
+00:05:45,070 --> 00:05:47,410
+application that is<font color="#CCCCCC"> opened by user</font><font color="#E5E5E5"> so</font>
+
+140
+00:05:47,410 --> 00:05:49,510
+you<font color="#CCCCCC"> can see Kate</font><font color="#E5E5E5"> logon then run the</font>
+
+141
+00:05:49,510 --> 00:05:52,300
+<font color="#CCCCCC">notepad and even if</font><font color="#E5E5E5"> I click on web it's</font>
+
+142
+00:05:52,300 --> 00:05:53,680
+nothing because<font color="#CCCCCC"> we haven't opened</font>
+
+143
+00:05:53,680 --> 00:05:55,750
+anything yet but or if you are doing
+
+144
+00:05:55,750 --> 00:05:58,150
+<font color="#E5E5E5">Skype chat then this key logger will</font>
+
+145
+00:05:58,150 --> 00:06:00,520
+also take a record<font color="#E5E5E5"> of that Skype chat so</font>
+
+146
+00:06:00,520 --> 00:06:02,680
+you can just look at that message that
+
+147
+00:06:02,680 --> 00:06:04,300
+Skype chat by<font color="#CCCCCC"> clicking over here on</font>
+
+148
+00:06:04,300 --> 00:06:06,460
+messages but at this<font color="#E5E5E5"> time there are no</font>
+
+149
+00:06:06,460 --> 00:06:08,740
+<font color="#CCCCCC">messages</font><font color="#E5E5E5"> so let me select the by default</font>
+
+150
+00:06:08,740 --> 00:06:10,450
+option that is select type and here you
+
+151
+00:06:10,450 --> 00:06:13,180
+will<font color="#E5E5E5"> see</font><font color="#CCCCCC"> all the stuff</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> this is how a</font>
+
+152
+00:06:13,180 --> 00:06:15,460
+typical key logger works<font color="#E5E5E5"> and in this</font>
+
+153
+00:06:15,460 --> 00:06:18,220
+<font color="#E5E5E5">video we have</font><font color="#CCCCCC"> discussed that</font><font color="#E5E5E5"> what is key</font>
+
+154
+00:06:18,220 --> 00:06:19,930
+logger<font color="#CCCCCC"> and what are different types of</font>
+
+155
+00:06:19,930 --> 00:06:21,640
+key<font color="#E5E5E5"> loggers and how we can use</font><font color="#CCCCCC"> gate</font>
+
+156
+00:06:21,640 --> 00:06:22,360
+logger<font color="#CCCCCC"> you</font><font color="#E5E5E5"> know</font>
+
+157
+00:06:22,360 --> 00:06:24,580
+<font color="#CCCCCC">to captures keystrokes so thanks</font><font color="#E5E5E5"> for</font>
+
+158
+00:06:24,580 --> 00:00:00,000
+<font color="#CCCCCC">watching this video</font>
+

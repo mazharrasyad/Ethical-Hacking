@@ -1,0 +1,996 @@
+1
+00:00:00,089 --> 00:00:02,280
+ Halo semua orang di <font color="#E5E5E5">video ini </font>
+
+2
+00:00:02,280 --> 00:00:03,990
+ berbicara tentang <font color="#CCCCCC">enkripsi berbeda </font>
+
+3
+00:00:03,990 --> 00:00:06,629
+ algoritma yang dapat kita gunakan <font color="#E5E5E5">untuk </font>
+
+4
+00:00:06,629 --> 00:00:09,660
+ <font color="#E5E5E5">dalam menyimpan data kami jadi di video terakhir </font><font color="#CCCCCC">saya </font>
+
+5
+00:00:09,660 --> 00:00:11,670
+ memberitahu <font color="#E5E5E5">Anda tentang ciphertext </font><font color="#CCCCCC">bahwa </font>
+
+6
+00:00:11,670 --> 00:00:13,620
+ ciphertext <font color="#E5E5E5">diperoleh </font><font color="#CCCCCC">setelah mengkonversi </font>
+
+7
+00:00:13,620 --> 00:00:16,199
+ <font color="#E5E5E5">plaintext kami atau setelah mengenkripsi kami </font>
+
+8
+00:00:16,199 --> 00:00:18,480
+ plaintext <font color="#E5E5E5">dan teks sandi ada di dalam </font>
+
+9
+00:00:18,480 --> 00:00:20,520
+ bentuk yang tidak terbaca sehingga <font color="#CCCCCC">orang normal </font>
+
+10
+00:00:20,520 --> 00:00:22,650
+ tidak bisa mengerti <font color="#E5E5E5">apa itu </font>
+
+11
+00:00:22,650 --> 00:00:25,230
+ <font color="#E5E5E5">arti dari teks sandi itu sekarang kita akan </font>
+
+12
+00:00:25,230 --> 00:00:27,269
+ <font color="#E5E5E5">diskusikan tentang jenis tipe cipher </font>
+
+13
+00:00:27,269 --> 00:00:29,490
+ pertama <font color="#E5E5E5">jadi ada dua jenis </font><font color="#CCCCCC">cipher </font>
+
+14
+00:00:29,490 --> 00:00:31,949
+ yang pertama adalah stream cipher <font color="#E5E5E5">dan </font>
+
+15
+00:00:31,949 --> 00:00:34,739
+ <font color="#E5E5E5">yang kedua adalah block cipher </font><font color="#CCCCCC">jadi alirannya </font>
+
+16
+00:00:34,739 --> 00:00:36,780
+ cipher <font color="#E5E5E5">tahu apa yang disebut stream cipher </font>
+
+17
+00:00:36,780 --> 00:00:39,390
+ stream cipher benar-benar mengenkripsi <font color="#E5E5E5">satu </font>
+
+18
+00:00:39,390 --> 00:00:41,850
+ digit pada satu waktu hanya <font color="#E5E5E5">untuk contoh kami </font>
+
+19
+00:00:41,850 --> 00:00:44,250
+ data berisi lima digit yaitu hello 
+
+20
+00:00:44,250 --> 00:00:47,250
+ <font color="#CCCCCC">H </font><font color="#E5E5E5">e ganda </font><font color="#CCCCCC">L o jadi digit pertama itu </font>
+
+21
+00:00:47,250 --> 00:00:49,829
+ <font color="#E5E5E5">adalah H akan dienkripsi terlebih dahulu kemudian </font>
+
+22
+00:00:49,829 --> 00:00:52,739
+ digit berikutnya yang <font color="#E5E5E5">dienkripsi e kemudian </font>
+
+23
+00:00:52,739 --> 00:00:54,960
+ <font color="#E5E5E5">L akan dienkripsi </font><font color="#CCCCCC">kemudian </font><font color="#E5E5E5">L dan </font>
+
+24
+00:00:54,960 --> 00:00:56,850
+ maka <font color="#E5E5E5">o akan dienkripsi jadi di </font>
+
+25
+00:00:56,850 --> 00:00:59,730
+ stream <font color="#CCCCCC">cipher satu digit dienkripsi di </font>
+
+26
+00:00:59,730 --> 00:01:01,859
+ satu kali dan stream cipher 
+
+27
+00:01:01,859 --> 00:01:03,780
+ <font color="#CCCCCC">hanya berisi enkripsi kunci simetrik </font>
+
+28
+00:01:03,780 --> 00:01:06,930
+ <font color="#E5E5E5">yang berarti kunci untuk mengenkripsi </font>
+
+29
+00:01:06,930 --> 00:01:08,700
+ data <font color="#E5E5E5">dan kunci untuk mendekripsi data </font>
+
+30
+00:01:08,700 --> 00:01:11,189
+ akan <font color="#E5E5E5">sama sekarang mari kita bicara tentang blok </font>
+
+31
+00:01:11,189 --> 00:01:13,770
+ cipher sehingga nama menyarankan blok <font color="#E5E5E5">yang </font>
+
+32
+00:01:13,770 --> 00:01:15,810
+ <font color="#E5E5E5">berarti blok cipher mengkonversi a </font>
+
+33
+00:01:15,810 --> 00:01:18,119
+ blok tertentu atau <font color="#E5E5E5">blok cipher </font>
+
+34
+00:01:18,119 --> 00:01:21,060
+ <font color="#E5E5E5">mengenkripsi sedikit </font><font color="#CCCCCC">blok tertentu </font>
+
+35
+00:01:21,060 --> 00:01:22,860
+ di sini Anda <font color="#E5E5E5">dapat melihat bahwa ia beroperasi pada </font>
+
+36
+00:01:22,860 --> 00:01:24,930
+ panjang tetap kelompok yang disebut sebagai blok 
+
+37
+00:01:24,930 --> 00:01:27,420
+ jadi satu grup pada satu waktu yang <font color="#E5E5E5">berarti </font>
+
+38
+00:01:27,420 --> 00:01:30,509
+ satu kelompok <font color="#E5E5E5">blok yang </font><font color="#CCCCCC">64-bit </font>
+
+39
+00:01:30,509 --> 00:01:32,729
+ akan <font color="#E5E5E5">dikonversi sekaligus jadi </font><font color="#CCCCCC">di sini </font>
+
+40
+00:01:32,729 --> 00:01:35,100
+ Anda <font color="#E5E5E5">dapat melihat bahwa itu mungkin adalah </font><font color="#CCCCCC">D cipher </font>
+
+41
+00:01:35,100 --> 00:01:37,530
+ sehingga memblokir cipher <font color="#E5E5E5">tidak aman </font><font color="#CCCCCC">sehingga mereka </font>
+
+42
+00:01:37,530 --> 00:01:39,509
+ mungkin <font color="#E5E5E5">mudah diartikan tetapi ada </font>
+
+43
+00:01:39,509 --> 00:01:41,340
+ <font color="#CCCCCC">cara berbeda yang </font><font color="#E5E5E5">berbeda </font><font color="#CCCCCC">dan sekarang mari kita </font>
+
+44
+00:01:41,340 --> 00:01:43,110
+ berbicara <font color="#E5E5E5">tentang berbagai jenis enkripsi </font>
+
+45
+00:01:43,110 --> 00:01:45,600
+ algoritma <font color="#E5E5E5">jadi yang pertama adalah rc4 </font>
+
+46
+00:01:45,600 --> 00:01:48,750
+ stream cipher jadi algoritma rc4 <font color="#E5E5E5">disebut </font>
+
+47
+00:01:48,750 --> 00:01:51,360
+ sebagai <font color="#E5E5E5">cipher terbalik </font><font color="#CCCCCC">dan itu sebenarnya </font>
+
+48
+00:01:51,360 --> 00:01:53,130
+ stream cipher yang berarti itu akan 
+
+49
+00:01:53,130 --> 00:01:55,200
+ mengkonversi <font color="#E5E5E5">satu digit sekaligus dan </font>
+
+50
+00:01:55,200 --> 00:01:57,840
+ di sini Anda dapat <font color="#E5E5E5">melihat bahwa itu </font><font color="#CCCCCC">juga </font>
+
+51
+00:01:57,840 --> 00:01:59,969
+ algoritma kunci simetrik <font color="#E5E5E5">kunci untuk </font>
+
+52
+00:01:59,969 --> 00:02:01,200
+ mengenkripsi data dan kunci untuk 
+
+53
+00:02:01,200 --> 00:02:03,630
+ mendekripsi data sama <font color="#E5E5E5">sekarang </font><font color="#CCCCCC">mari kita </font>
+
+54
+00:02:03,630 --> 00:02:06,479
+ <font color="#E5E5E5">berbicara </font><font color="#CCCCCC">tentang beberapa algoritma block cipher </font>
+
+55
+00:02:06,479 --> 00:02:09,628
+ <font color="#CCCCCC">jadi yang </font><font color="#E5E5E5">pertama adalah des algoritma jadi des </font>
+
+56
+00:02:09,628 --> 00:02:11,340
+ algoritma singkatan <font color="#E5E5E5">dari </font><font color="#CCCCCC">enkripsi </font><font color="#E5E5E5">data </font>
+
+57
+00:02:11,340 --> 00:02:13,180
+ standar di <font color="#CCCCCC">sini dapat Anda lihat </font>
+
+58
+00:02:13,180 --> 00:02:14,829
+ sehingga algoritma standar enkripsi data 
+
+59
+00:02:14,829 --> 00:02:16,720
+ <font color="#CCCCCC">sebenarnya beroperasi pada panjang tetap dari </font>
+
+60
+00:02:16,720 --> 00:02:18,970
+ blok sehingga string panjangnya tetap jadi 
+
+61
+00:02:18,970 --> 00:02:20,920
+ <font color="#CCCCCC">ciphertext dari situs polos dan blok </font>
+
+62
+00:02:20,920 --> 00:02:23,650
+ ukuran adalah 64 <font color="#E5E5E5">bit yang berarti jika data kami </font>
+
+63
+00:02:23,650 --> 00:02:27,250
+ <font color="#E5E5E5">sebenarnya adalah 128-bit </font><font color="#CCCCCC">maka yang pertama </font>
+
+64
+00:02:27,250 --> 00:02:30,069
+ 64-bit akan dienkripsi <font color="#E5E5E5">terlebih dahulu kemudian </font>
+
+65
+00:02:30,069 --> 00:02:33,129
+ <font color="#E5E5E5">lain </font><font color="#CCCCCC">64-bit akan dienkripsi </font><font color="#E5E5E5">setelah kami </font>
+
+66
+00:02:33,129 --> 00:02:36,640
+ data 64-bit sebelumnya <font color="#E5E5E5">dan satu lagi </font>
+
+67
+00:02:36,640 --> 00:02:38,799
+ <font color="#E5E5E5">Hal yang perlu diperhatikan bahwa di blok </font>
+
+68
+00:02:38,799 --> 00:02:42,579
+ cipher <font color="#E5E5E5">kunci kunci dan ukuran </font>
+
+69
+00:02:42,579 --> 00:02:44,739
+ data yang mengkonversi pada satu waktu adalah sama 
+
+70
+00:02:44,739 --> 00:02:47,049
+ <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">algoritma des sebenarnya </font>
+
+71
+00:02:47,049 --> 00:02:50,049
+ <font color="#E5E5E5">mengkonversi ukuran blok dari </font><font color="#CCCCCC">64 </font><font color="#E5E5E5">bit data </font>
+
+72
+00:02:50,049 --> 00:02:53,280
+ yang berarti <font color="#CCCCCC">kunci itu harus </font><font color="#E5E5E5">juga </font>
+
+73
+00:02:53,280 --> 00:02:56,920
+ <font color="#CCCCCC">64-bit tetapi algoritma des ini adalah verne </font>
+
+74
+00:02:56,920 --> 00:02:58,569
+ mampu melakukan serangan brute force <font color="#E5E5E5">atau berbeda </font>
+
+75
+00:02:58,569 --> 00:03:00,159
+ serangan kamus <font color="#E5E5E5">jadi itu sebabnya </font>
+
+76
+00:03:00,159 --> 00:03:02,319
+ tidak <font color="#E5E5E5">aman </font><font color="#CCCCCC">sehingga </font><font color="#E5E5E5">untuk membuatnya aman </font>
+
+77
+00:03:02,319 --> 00:03:03,970
+ <font color="#CCCCCC">peneliti keamanan informasi </font>
+
+78
+00:03:03,970 --> 00:03:05,769
+ sebenarnya <font color="#CCCCCC">dikembangkan satu lagi algoritma </font>
+
+79
+00:03:05,769 --> 00:03:09,970
+ <font color="#E5E5E5">yaitu tiga </font><font color="#CCCCCC">DES jadi tiga algoritma DES </font>
+
+80
+00:03:09,970 --> 00:03:11,319
+ <font color="#E5E5E5">singkatan dari enkripsi data triple </font>
+
+81
+00:03:11,319 --> 00:03:14,079
+ standar <font color="#CCCCCC">jadi </font><font color="#E5E5E5">selain DES </font><font color="#CCCCCC">ini </font>
+
+82
+00:03:14,079 --> 00:03:17,079
+ <font color="#CCCCCC">Algoritma berisi tiga kunci </font><font color="#E5E5E5">sehingga dalam </font>
+
+83
+00:03:17,079 --> 00:03:18,970
+ <font color="#CCCCCC">untuk </font><font color="#E5E5E5">melindungi data kami dan dengan </font>
+
+84
+00:03:18,970 --> 00:03:20,500
+ bantuan <font color="#CCCCCC">ketiga kunci ini </font><font color="#E5E5E5">data kami </font>
+
+85
+00:03:20,500 --> 00:03:22,269
+ <font color="#E5E5E5">aman dari berbagai jenis kata sandi </font>
+
+86
+00:03:22,269 --> 00:03:23,919
+ <font color="#E5E5E5">menebak serangan seperti serangan kamus </font>
+
+87
+00:03:23,919 --> 00:03:26,739
+ dan <font color="#CCCCCC">Booth memaksa serangan dan yang terakhir </font>
+
+88
+00:03:26,739 --> 00:03:29,019
+ ada <font color="#E5E5E5">satu algoritma yang disebut AES </font>
+
+89
+00:03:29,019 --> 00:03:30,579
+ yang merupakan salah <font color="#E5E5E5">satu yang paling populer digunakan </font>
+
+90
+00:03:30,579 --> 00:03:33,099
+ algoritma di seluruh dunia <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">ei berdiri </font>
+
+91
+00:03:33,099 --> 00:03:35,500
+ untuk standar enkripsi lanjutan <font color="#E5E5E5">jadi ini </font>
+
+92
+00:03:35,500 --> 00:03:36,549
+ adalah salah <font color="#E5E5E5">satu yang paling kuat </font>
+
+93
+00:03:36,549 --> 00:03:38,199
+ algoritma yang <font color="#CCCCCC">digunakan untuk mengenkripsi </font>
+
+94
+00:03:38,199 --> 00:03:41,500
+ data kami <font color="#E5E5E5">mengapa karena ukuran kunci </font>
+
+95
+00:03:41,500 --> 00:03:45,310
+ Algoritma AES ini adalah 128-bit 256 bit 
+
+96
+00:03:45,310 --> 00:03:48,699
+ dan bahkan <font color="#CCCCCC">lima satu dua kunci bit yang </font>
+
+97
+00:03:48,699 --> 00:03:51,549
+ berarti ukuran kuncinya adalah 128 <font color="#E5E5E5">lima satu dua </font>
+
+98
+00:03:51,549 --> 00:03:53,829
+ dan data atau <font color="#E5E5E5">ukuran blok </font><font color="#CCCCCC">harus </font>
+
+99
+00:03:53,829 --> 00:03:55,959
+ sama dengan ukuran <font color="#CCCCCC">kuncinya </font><font color="#E5E5E5">jadi </font>
+
+100
+00:03:55,959 --> 00:03:58,329
+ itulah mengapa algoritma <font color="#E5E5E5">AES ini seharusnya </font>
+
+101
+00:03:58,329 --> 00:03:59,530
+ dianggap salah satu yang paling <font color="#E5E5E5">kuat </font>
+
+102
+00:03:59,530 --> 00:04:02,440
+ <font color="#E5E5E5">algoritma yang digunakan di dunia sekarang mari kita </font>
+
+103
+00:04:02,440 --> 00:04:04,720
+ lihat bagaimana enkripsi bekerja dengan bantuan 
+
+104
+00:04:04,720 --> 00:04:07,930
+ satu program Python sekarang mari kita <font color="#E5E5E5">lihat </font>
+
+105
+00:04:07,930 --> 00:04:09,819
+ di <font color="#E5E5E5">algoritma </font><font color="#CCCCCC">enkripsi yang berbeda </font><font color="#E5E5E5">dan </font>
+
+106
+00:04:09,819 --> 00:04:12,699
+ mereka <font color="#E5E5E5">bekerja begitu </font><font color="#CCCCCC">di </font><font color="#E5E5E5">video sebelumnya </font>
+
+107
+00:04:12,699 --> 00:04:15,729
+ <font color="#E5E5E5">kami </font><font color="#CCCCCC">telah mengunduh </font><font color="#E5E5E5">Swiss yang </font><font color="#CCCCCC">terpotong ini </font>
+
+108
+00:04:15,729 --> 00:04:18,608
+ crypto dan dalam <font color="#E5E5E5">video ini saya akan menggunakan </font>
+
+109
+00:04:18,608 --> 00:04:22,210
+ skrip yang sama <font color="#E5E5E5">jadi mari </font><font color="#CCCCCC">kita buka </font><font color="#E5E5E5">skripnya </font>
+
+110
+00:04:22,210 --> 00:04:24,010
+ seperti yang saya <font color="#CCCCCC">katakan sebelumnya </font><font color="#E5E5E5">bahwa </font>
+
+111
+00:04:24,010 --> 00:04:27,550
+ <font color="#E5E5E5">enkripsi adalah untuk mengetik simetris dan </font>
+
+112
+00:04:27,550 --> 00:04:30,039
+ jadi dalam <font color="#E5E5E5">enkripsi simetris kunci untuk </font>
+
+113
+00:04:30,039 --> 00:04:31,750
+ mengenkripsi data dan kunci untuk 
+
+114
+00:04:31,750 --> 00:04:33,939
+ mendekripsi data <font color="#CCCCCC">adalah sama sedangkan di </font>
+
+115
+00:04:33,939 --> 00:04:36,069
+ <font color="#E5E5E5">enkripsi asimetris </font><font color="#CCCCCC">kunci untuk </font>
+
+116
+00:04:36,069 --> 00:04:37,870
+ mengenkripsi <font color="#E5E5E5">dan kunci untuk mendekripsi </font>
+
+117
+00:04:37,870 --> 00:04:40,750
+ datanya <font color="#E5E5E5">berbeda </font><font color="#CCCCCC">jadi alat ini yang </font><font color="#E5E5E5">mana </font>
+
+118
+00:04:40,750 --> 00:04:42,610
+ Saya telah membuat <font color="#E5E5E5">sebenarnya mendukung </font>
+
+119
+00:04:42,610 --> 00:04:45,400
+ Enkripsi simetris saat ini <font color="#E5E5E5">jadi mari </font>
+
+120
+00:04:45,400 --> 00:04:48,430
+ <font color="#CCCCCC">kami klik di sini dan kemudian meminta </font><font color="#E5E5E5">kami </font>
+
+121
+00:04:48,430 --> 00:04:51,939
+ <font color="#E5E5E5">untuk cipher yang ingin kita gunakan pertama kali </font>
+
+122
+00:04:51,939 --> 00:04:54,340
+ semua <font color="#CCCCCC">mari kita klik </font><font color="#E5E5E5">di sini untuk </font>
+
+123
+00:04:54,340 --> 00:04:56,919
+ block <font color="#E5E5E5">cipher dan kami tahu bahwa ada </font>
+
+124
+00:04:56,919 --> 00:04:58,150
+ berbagai jenis block cipher 
+
+125
+00:04:58,150 --> 00:05:00,699
+ algoritma tetapi yang umum <font color="#E5E5E5">maju </font><font color="#CCCCCC">kami </font>
+
+126
+00:05:00,699 --> 00:05:02,680
+ <font color="#E5E5E5">algoritma dan data standar enkripsi </font>
+
+127
+00:05:02,680 --> 00:05:05,080
+ <font color="#CCCCCC">algoritma standar enkripsi </font><font color="#E5E5E5">jadi pertama </font>
+
+128
+00:05:05,080 --> 00:05:06,849
+ <font color="#E5E5E5">semua kita akan membahas enkripsi data </font>
+
+129
+00:05:06,849 --> 00:05:08,830
+ algoritma standar jadi klik di <font color="#CCCCCC">sini sebagai </font>
+
+130
+00:05:08,830 --> 00:05:11,199
+ Segera <font color="#CCCCCC">setelah </font><font color="#E5E5E5">kami klik di sini, </font><font color="#CCCCCC">kami akan </font><font color="#E5E5E5">bertanya </font>
+
+131
+00:05:11,199 --> 00:05:15,370
+ <font color="#CCCCCC">untuk data untuk mengkonversi jadi seperti </font><font color="#E5E5E5">yang </font><font color="#CCCCCC">saya katakan </font>
+
+132
+00:05:15,370 --> 00:05:16,990
+ <font color="#CCCCCC">sebelumnya </font><font color="#E5E5E5">bahwa dalam standar enkripsi data </font>
+
+133
+00:05:16,990 --> 00:05:19,779
+ Algoritma kami selalu harus menambahkan data 
+
+134
+00:05:19,779 --> 00:05:23,560
+ dan <font color="#E5E5E5">kelipatannya yang berarti jika saya menambahkan </font>
+
+135
+00:05:23,560 --> 00:05:26,319
+ di sini halo <font color="#CCCCCC">1 2 3 </font><font color="#E5E5E5">sehingga total </font><font color="#CCCCCC">panjang </font>
+
+136
+00:05:26,319 --> 00:05:30,219
+ <font color="#E5E5E5">data ini 8 jadi kita harus menambahkan data </font>
+
+137
+00:05:30,219 --> 00:05:32,080
+ <font color="#E5E5E5">beberapa dari delapan berarti jika Anda </font><font color="#CCCCCC">ingin </font>
+
+138
+00:05:32,080 --> 00:05:35,259
+ <font color="#E5E5E5">tambahkan lebih banyak data yang harus kita tambahkan hingga 16 </font>
+
+139
+00:05:35,259 --> 00:05:38,860
+ kemudian 24 dan kelipatan delapan <font color="#E5E5E5">jadi mari </font>
+
+140
+00:05:38,860 --> 00:05:41,740
+ klik <font color="#E5E5E5">di sini </font><font color="#CCCCCC">untuk ok </font><font color="#E5E5E5">dan di sini Anda akan </font>
+
+141
+00:05:41,740 --> 00:05:44,979
+ <font color="#CCCCCC">lihat bahwa data kami </font><font color="#E5E5E5">dikonversi ke </font>
+
+142
+00:05:44,979 --> 00:05:46,509
+ <font color="#CCCCCC">teks </font><font color="#E5E5E5">cipher </font><font color="#CCCCCC">dan di sini kami punya kami </font>
+
+143
+00:05:46,509 --> 00:05:48,699
+ <font color="#CCCCCC">teks </font><font color="#E5E5E5">terenkripsi </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">dapat </font><font color="#CCCCCC">Anda </font><font color="#E5E5E5">lihat di sini dan di sini </font>
+
+144
+00:05:48,699 --> 00:05:52,120
+ adalah kunci enkripsi kunci kami yang kami dapatkan 
+
+145
+00:05:52,120 --> 00:05:54,940
+ tetapi Anda <font color="#E5E5E5">mungkin </font><font color="#CCCCCC">bertanya-tanya</font><font color="#E5E5E5"> bahwa mengapa ini </font>
+
+146
+00:05:54,940 --> 00:05:58,810
+ <font color="#E5E5E5">kunci bukanlah kunci acak panjang alasannya </font>
+
+147
+00:05:58,810 --> 00:06:02,379
+ adalah saya belum <font color="#E5E5E5">menambahkan kunci acak </font>
+
+148
+00:06:02,379 --> 00:06:03,940
+ fungsi generasi <font color="#CCCCCC">dalam enkripsi data </font>
+
+149
+00:06:03,940 --> 00:06:05,830
+ algoritma standar <font color="#E5E5E5">dan Python ini </font>
+
+150
+00:06:05,830 --> 00:06:08,560
+ program <font color="#E5E5E5">jadi itu sebabnya saya membuat ini </font>
+
+151
+00:06:08,560 --> 00:06:12,159
+ kunci konstan dalam program Python ini 
+
+152
+00:06:12,159 --> 00:06:13,599
+ <font color="#E5E5E5">itulah mengapa Anda melihat </font><font color="#CCCCCC">delapan </font><font color="#E5E5E5">ini </font>
+
+153
+00:06:13,599 --> 00:06:16,389
+ digit kunci <font color="#E5E5E5">sehingga alasan </font><font color="#CCCCCC">lain </font>
+
+154
+00:06:16,389 --> 00:06:19,810
+ <font color="#E5E5E5">membuat konstanta kunci ini adalah yang </font><font color="#CCCCCC">saya inginkan </font>
+
+155
+00:06:19,810 --> 00:06:23,469
+ untuk menunjukkan Anda bahwa kunci atau di <font color="#E5E5E5">DES </font>
+
+156
+00:06:23,469 --> 00:06:27,159
+ Algoritme selalu <font color="#E5E5E5">harus </font><font color="#CCCCCC">dalam delapan </font>
+
+157
+00:06:27,159 --> 00:06:29,409
+ digit atau dalam kelipatan <font color="#CCCCCC">AIDS sehingga </font>
+
+158
+00:06:29,409 --> 00:06:31,360
+ data dan kuncinya harus selalu dalam 
+
+159
+00:06:31,360 --> 00:06:34,659
+ beberapa <font color="#CCCCCC">dari </font><font color="#E5E5E5">delapan jadi sekarang </font><font color="#CCCCCC">mari kita </font><font color="#E5E5E5">coba </font><font color="#CCCCCC">untuk </font>
+
+160
+00:06:34,659 --> 00:06:35,919
+ mendekripsi <font color="#E5E5E5">standar enkripsi data </font>
+
+161
+00:06:35,919 --> 00:06:37,959
+ algoritma <font color="#E5E5E5">jadi mari klik di sini </font>
+
+162
+00:06:37,959 --> 00:06:40,750
+ enkripsi enkripsi simetris 
+
+163
+00:06:40,750 --> 00:06:42,640
+ <font color="#E5E5E5">maka kita harus memilih dekripsi </font>
+
+164
+00:06:42,640 --> 00:06:45,010
+ <font color="#E5E5E5">Algoritma </font><font color="#CCCCCC">sehingga </font><font color="#E5E5E5">titik yang harus diperhatikan adalah </font>
+
+165
+00:06:45,010 --> 00:06:47,980
+ bahwa <font color="#E5E5E5">kita harus </font><font color="#CCCCCC">memilih </font><font color="#E5E5E5">yang sama </font>
+
+166
+00:06:47,980 --> 00:06:50,620
+ algoritma yang telah kami <font color="#E5E5E5">gunakan untuk </font>
+
+167
+00:06:50,620 --> 00:06:52,960
+ mengenkripsi data <font color="#E5E5E5">jadi mari kita pilih ini </font>
+
+168
+00:06:52,960 --> 00:06:55,750
+ dan di sini <font color="#E5E5E5">meminta kita </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">kunci </font>
+
+169
+00:06:55,750 --> 00:06:59,110
+ mendekripsi dan kunci kita adalah <font color="#CCCCCC">1 </font><font color="#E5E5E5">2 </font><font color="#CCCCCC">3 4 </font><font color="#E5E5E5">5 </font><font color="#CCCCCC">6 7 </font><font color="#E5E5E5">8 </font>
+
+170
+00:06:59,110 --> 00:07:02,200
+ <font color="#CCCCCC">dan mari kita salin teks </font><font color="#E5E5E5">terenkripsi </font><font color="#CCCCCC">kita atau </font>
+
+171
+00:07:02,200 --> 00:07:04,600
+ teks cipher <font color="#E5E5E5">dari sini dari Python ini </font>
+
+172
+00:07:04,600 --> 00:07:08,230
+ shell <font color="#E5E5E5">dan biarkan aku tempel di sini dan klik </font>
+
+173
+00:07:08,230 --> 00:07:13,800
+ <font color="#CCCCCC">pada dekripsi memberi kita kesalahan oke saya pikir </font>
+
+174
+00:07:13,800 --> 00:07:16,630
+ <font color="#E5E5E5">kita melewatkan sesuatu </font><font color="#CCCCCC">sehingga kita harus menyalinnya </font>
+
+175
+00:07:16,630 --> 00:07:19,930
+ <font color="#CCCCCC">teks </font><font color="#E5E5E5">dengan sangat hati-hati selain </font><font color="#CCCCCC">itu </font>
+
+176
+00:07:19,930 --> 00:07:24,220
+ akan memberi <font color="#CCCCCC">kita kesalahan </font><font color="#E5E5E5">dan biarkan aku tempel </font>
+
+177
+00:07:24,220 --> 00:07:27,070
+ di sini klik di dekripsi <font color="#E5E5E5">dan di sini Anda </font>
+
+178
+00:07:27,070 --> 00:07:29,200
+ <font color="#E5E5E5">akan melihat bahwa kami mendapat </font><font color="#CCCCCC">teks </font><font color="#E5E5E5">normal kami </font>
+
+179
+00:07:29,200 --> 00:07:32,470
+ kembali <font color="#CCCCCC">itu halo 1 2 3 </font><font color="#E5E5E5">jadi beginilah caranya </font>
+
+180
+00:07:32,470 --> 00:07:34,540
+ standar enkripsi data <font color="#E5E5E5">bekerja begitu dan </font>
+
+181
+00:07:34,540 --> 00:07:36,490
+ kerugian utama <font color="#E5E5E5">dari enkripsi data </font>
+
+182
+00:07:36,490 --> 00:07:39,070
+ standar adalah <font color="#E5E5E5">bahwa ia selalu menerima </font>
+
+183
+00:07:39,070 --> 00:07:41,650
+ data <font color="#E5E5E5">dan kunci dalam kelipatan </font><font color="#CCCCCC">8 bit </font><font color="#E5E5E5">dan </font>
+
+184
+00:07:41,650 --> 00:07:43,780
+ ada beberapa <font color="#CCCCCC">pembatasan ethat kita </font>
+
+185
+00:07:43,780 --> 00:07:46,600
+ tidak dapat menambahkan hingga <font color="#CCCCCC">64 bit </font><font color="#E5E5E5">jadi </font><font color="#CCCCCC">itu </font><font color="#E5E5E5">sebabnya </font>
+
+186
+00:07:46,600 --> 00:07:48,190
+ ukuran kuncinya <font color="#CCCCCC">sangat </font><font color="#E5E5E5">kecil dalam data </font>
+
+187
+00:07:48,190 --> 00:07:49,540
+ <font color="#E5E5E5">standar enkripsi yang </font><font color="#CCCCCC">rentan </font>
+
+188
+00:07:49,540 --> 00:07:52,120
+ <font color="#E5E5E5">untuk beberapa </font><font color="#CCCCCC">serangan brute force sekarang mari </font>
+
+189
+00:07:52,120 --> 00:07:53,410
+ lihat pada enkripsi tingkat lanjut 
+
+190
+00:07:53,410 --> 00:07:55,810
+ standar dan bekerja <font color="#CCCCCC">dan mari </font>
+
+191
+00:07:55,810 --> 00:07:59,190
+ mulai skripnya <font color="#E5E5E5">lagi ayo ke sini </font>
+
+192
+00:07:59,190 --> 00:08:02,380
+ block <font color="#E5E5E5">cipher dan sekarang sekarang biarkan kali ini </font>
+
+193
+00:08:02,380 --> 00:08:04,330
+ <font color="#E5E5E5">klik di sini </font><font color="#CCCCCC">enkripsi lanjutan </font>
+
+194
+00:08:04,330 --> 00:08:07,600
+ standar <font color="#CCCCCC">sehingga dalam enkripsi tingkat lanjut </font>
+
+195
+00:08:07,600 --> 00:08:09,940
+ standar <font color="#E5E5E5">kita dapat menambahkan data dan tetapi </font>
+
+196
+00:08:09,940 --> 00:08:12,729
+ itu tidak <font color="#E5E5E5">wajib yang harus </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">tambahkan </font>
+
+197
+00:08:12,729 --> 00:08:14,680
+ data <font color="#E5E5E5">dalam kelipatan </font><font color="#CCCCCC">artinya </font>
+
+198
+00:08:14,680 --> 00:08:18,250
+ kita dapat menambahkan <font color="#E5E5E5">data apa pun hanya </font><font color="#CCCCCC">untuk </font><font color="#E5E5E5">ukuran </font>
+
+199
+00:08:18,250 --> 00:08:24,760
+ <font color="#CCCCCC">Misalnya mari kita tulis di sini ini rahasia </font>
+
+200
+00:08:24,760 --> 00:08:27,250
+ <font color="#CCCCCC">dan jika saya </font><font color="#E5E5E5">klik </font><font color="#CCCCCC">OK </font><font color="#E5E5E5">di sini Anda akan melihat </font>
+
+201
+00:08:27,250 --> 00:08:30,040
+ <font color="#CCCCCC">bahwa </font><font color="#E5E5E5">teks kami dienkripsi </font><font color="#CCCCCC">dan kami dapatkan </font>
+
+202
+00:08:30,040 --> 00:08:31,990
+ <font color="#E5E5E5">teks terenkripsi kami di sini di bagian bawah </font>
+
+203
+00:08:31,990 --> 00:08:35,200
+ <font color="#E5E5E5">dan di atasnya kami mendapat kunci acak panjang kami </font>
+
+204
+00:08:35,200 --> 00:08:37,570
+ <font color="#E5E5E5">hal yang sama kami dapatkan di shell Python </font>
+
+205
+00:08:37,570 --> 00:08:40,479
+ Anda <font color="#E5E5E5">bisa lihat di sini jadi inilah kecantikannya </font>
+
+206
+00:08:40,479 --> 00:08:42,309
+ standar enkripsi canggih <font color="#E5E5E5">bahwa </font>
+
+207
+00:08:42,309 --> 00:08:45,610
+ ukuran kunci <font color="#E5E5E5">sangat panjang yang membuat </font>
+
+208
+00:08:45,610 --> 00:08:47,860
+ kunci dan <font color="#E5E5E5">data kami aman dari </font><font color="#CCCCCC">kekuatan serigala </font>
+
+209
+00:08:47,860 --> 00:08:52,030
+ serang <font color="#E5E5E5">sehingga kami dapat menambahkan di </font><font color="#CCCCCC">sini </font><font color="#E5E5E5">klik </font><font color="#CCCCCC">data apa pun </font>
+
+210
+00:08:52,030 --> 00:08:54,550
+ <font color="#CCCCCC">OK </font><font color="#E5E5E5">Anda akan melihat kami mendapat </font>
+
+211
+00:08:54,550 --> 00:08:57,640
+ <font color="#CCCCCC">teks induk kunci lain yang dienkripsi jadi </font>
+
+212
+00:08:57,640 --> 00:08:59,080
+ ini adalah bagaimana standar enkripsi tingkat lanjut 
+
+213
+00:08:59,080 --> 00:09:01,720
+ bekerja dan untuk <font color="#E5E5E5">mendekripsi itu </font>
+
+214
+00:09:01,720 --> 00:09:04,930
+ langkahnya <font color="#E5E5E5">sama jadi ini semua </font>
+
+215
+00:09:04,930 --> 00:09:07,360
+ tentang algoritma blok cipher <font color="#E5E5E5">sekarang mari kita </font>
+
+216
+00:09:07,360 --> 00:09:09,340
+ lihatlah <font color="#E5E5E5">satu stream cipher </font>
+
+217
+00:09:09,340 --> 00:09:12,010
+ algoritma yang <font color="#E5E5E5">rc4 jadi mari kita pergi di sini </font>
+
+218
+00:09:12,010 --> 00:09:14,860
+ enkripsi enkripsi simetris <font color="#CCCCCC">itu </font>
+
+219
+00:09:14,860 --> 00:09:17,710
+ <font color="#E5E5E5">algoritma stream cipher rc4 yang </font>
+
+220
+00:09:17,710 --> 00:09:21,280
+ cipher terbalik <font color="#CCCCCC">empat dan di sini ia </font><font color="#E5E5E5">meminta kami </font>
+
+221
+00:09:21,280 --> 00:09:24,250
+ untuk memasukkan kunci dan data seperti yang saya <font color="#CCCCCC">katakan </font>
+
+222
+00:09:24,250 --> 00:09:26,860
+ Anda sebelumnya <font color="#CCCCCC">bahwa </font><font color="#E5E5E5">dalam algoritma rc4 itu </font>
+
+223
+00:09:26,860 --> 00:09:28,780
+ tidak <font color="#E5E5E5">wajib bahwa </font><font color="#CCCCCC">kita </font><font color="#E5E5E5">harus menambahkan data </font>
+
+224
+00:09:28,780 --> 00:09:31,030
+ <font color="#CCCCCC">dalam kelipatan </font><font color="#E5E5E5">delapan bit </font><font color="#CCCCCC">sehingga </font><font color="#E5E5E5">kita dapat menambahkan </font>
+
+225
+00:09:31,030 --> 00:09:35,430
+ di sini <font color="#CCCCCC">tombol apa saja </font><font color="#E5E5E5">seperti halo mari kita menjadikannya sebagai </font>
+
+226
+00:09:35,430 --> 00:09:38,170
+ halo <font color="#E5E5E5">satu dua tiga jadi </font><font color="#CCCCCC">setiap kunci atau </font>
+
+227
+00:09:38,170 --> 00:09:41,470
+ kata sandi <font color="#E5E5E5">dan mari kita tambahkan di sini teks yang </font>
+
+228
+00:09:41,470 --> 00:09:43,620
+ kami ingin <font color="#E5E5E5">mengenkripsi </font><font color="#CCCCCC">sehingga </font><font color="#E5E5E5">teks </font><font color="#CCCCCC">kami </font><font color="#E5E5E5">akan menjadi </font>
+
+229
+00:09:43,620 --> 00:09:46,690
+ Anda <font color="#E5E5E5">dapat menulis di sini sesuatu yang sangat rahasia </font>
+
+230
+00:09:46,690 --> 00:09:48,880
+ <font color="#E5E5E5">jadi jika saya klik pada konversi Anda akan melihat </font>
+
+231
+00:09:48,880 --> 00:09:51,760
+ bahwa kami mendapat <font color="#E5E5E5">teks sandi kami atau dienkripsi </font>
+
+232
+00:09:51,760 --> 00:09:55,380
+ teks <font color="#E5E5E5">jadi </font><font color="#CCCCCC">mari kita salin teks ini </font><font color="#E5E5E5">dari sini </font>
+
+233
+00:09:55,380 --> 00:10:00,250
+ dan sekarang mari kita ke sini <font color="#CCCCCC">untuk mendekripsi </font>
+
+234
+00:10:00,250 --> 00:10:02,680
+ mari coba dekripsi <font color="#E5E5E5">teks ini </font>
+
+235
+00:10:02,680 --> 00:10:05,320
+ <font color="#E5E5E5">untuk memilih algoritma rc4 yang sama jadi di sini </font>
+
+236
+00:10:05,320 --> 00:10:07,360
+ kita harus <font color="#E5E5E5">menambahkan kunci kita jadi kunci kita </font>
+
+237
+00:10:07,360 --> 00:10:10,030
+ halo <font color="#CCCCCC">satu dua tiga dan teks kami yang mana </font>
+
+238
+00:10:10,030 --> 00:10:12,160
+ kami telah menyalin <font color="#E5E5E5">sehingga saya telah menempelkannya di sini </font>
+
+239
+00:10:12,160 --> 00:10:15,220
+ <font color="#CCCCCC">klik OK </font><font color="#E5E5E5">dan di sini Anda akan melihat itu </font>
+
+240
+00:10:15,220 --> 00:10:18,490
+ kami <font color="#E5E5E5">mendapat </font><font color="#CCCCCC">kembali teks </font><font color="#E5E5E5">normal kami </font><font color="#CCCCCC">yang sangat </font>
+
+241
+00:10:18,490 --> 00:10:21,250
+ rahasia <font color="#E5E5E5">jadi ini adalah bagaimana block cipher </font>
+
+242
+00:10:21,250 --> 00:10:23,290
+ stream cipher dan <font color="#E5E5E5">yang berbeda </font>
+
+243
+00:10:23,290 --> 00:10:26,200
+ Algoritma berfungsi <font color="#E5E5E5">jadi ini adalah pendek </font>
+
+244
+00:10:26,200 --> 00:10:29,050
+ contoh demonstrasi yang berbeda 
+
+245
+00:10:29,050 --> 00:10:31,000
+ algoritma enkripsi sehingga dalam <font color="#CCCCCC">video </font><font color="#E5E5E5">ini </font>
+
+246
+00:10:31,000 --> 00:10:32,350
+ kami telah <font color="#E5E5E5">membahas bahwa </font><font color="#CCCCCC">apa yang berbeda </font>
+
+247
+00:10:32,350 --> 00:10:33,880
+ cipher dan apa yang <font color="#E5E5E5">berbeda </font>
+
+248
+00:10:33,880 --> 00:10:36,310
+ <font color="#CCCCCC">algoritma yang didukung oleh mereka </font><font color="#E5E5E5">jadi terima kasih </font>
+
+249
+00:10:36,310 --> 00:00:00,000
+ <font color="#E5E5E5">untuk menonton </font><font color="#CCCCCC">video ini </font>
+

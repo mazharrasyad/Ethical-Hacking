@@ -1,0 +1,680 @@
+1
+00:00:00,060 --> 00:00:02,370
+ Halo semua orang di <font color="#CCCCCC">video ini </font>
+
+2
+00:00:02,370 --> 00:00:04,859
+ berbicara <font color="#CCCCCC">tentang ekstensi file batch jadi di </font>
+
+3
+00:00:04,859 --> 00:00:06,839
+ <font color="#E5E5E5">video terakhir yang Anda </font><font color="#CCCCCC">lihat bahwa </font>
+
+4
+00:00:06,839 --> 00:00:08,360
+ file batch yang telah kami buat 
+
+5
+00:00:08,360 --> 00:00:11,250
+ <font color="#E5E5E5">mengandung ekstensi </font><font color="#CCCCCC">dot bat itu </font>
+
+6
+00:00:11,250 --> 00:00:14,910
+ adalah titik dat <font color="#E5E5E5">tetapi jika seseorang hanya melihat </font>
+
+7
+00:00:14,910 --> 00:00:17,970
+ file itu <font color="#E5E5E5">maka dia mungkin atau mungkin tidak terbuka </font>
+
+8
+00:00:17,970 --> 00:00:20,490
+ <font color="#CCCCCC">file itu </font><font color="#E5E5E5">karena dia bisa berpikir itu </font>
+
+9
+00:00:20,490 --> 00:00:22,830
+ file berbahaya <font color="#E5E5E5">jadi </font><font color="#CCCCCC">harus berubah </font>
+
+10
+00:00:22,830 --> 00:00:25,380
+ perpanjangan <font color="#CCCCCC">serta</font><font color="#E5E5E5"> ikon dari kami </font>
+
+11
+00:00:25,380 --> 00:00:27,869
+ file batch <font color="#CCCCCC">sekarang bagaimana kita bisa </font><font color="#E5E5E5">melakukan itu jadi kami </font>
+
+12
+00:00:27,869 --> 00:00:30,330
+ dapat <font color="#E5E5E5">mengubah ikon dan ekstensi </font>
+
+13
+00:00:30,330 --> 00:00:32,910
+ <font color="#E5E5E5">file itu dengan menggunakan beberapa </font><font color="#CCCCCC">software jadi kami </font>
+
+14
+00:00:32,910 --> 00:00:34,980
+ dapat menggunakan <font color="#E5E5E5">ikon changer untuk berubah </font>
+
+15
+00:00:34,980 --> 00:00:37,230
+ <font color="#CCCCCC">ikon yang </font><font color="#E5E5E5">file batch jadi di sini </font><font color="#CCCCCC">Anda </font>
+
+16
+00:00:37,230 --> 00:00:39,540
+ dapat melihat bahwa <font color="#E5E5E5">saya telah mengubah ikon </font>
+
+17
+00:00:39,540 --> 00:00:41,520
+ <font color="#E5E5E5">file bat ini dan di sini Anda dapat melihat itu </font>
+
+18
+00:00:41,520 --> 00:00:43,590
+ <font color="#E5E5E5">ini adalah file batch Windows tetapi ikonnya </font>
+
+19
+00:00:43,590 --> 00:00:46,890
+ diubah <font color="#E5E5E5">sama kita juga bisa berubah </font>
+
+20
+00:00:46,890 --> 00:00:49,469
+ <font color="#CCCCCC">perpanjangan </font><font color="#E5E5E5">file batch </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">didapat </font>
+
+21
+00:00:49,469 --> 00:00:53,370
+ <font color="#E5E5E5">dat </font><font color="#CCCCCC">ke titik exe sehingga untuk melakukan itu kita </font>
+
+22
+00:00:53,370 --> 00:00:55,890
+ dapat <font color="#CCCCCC">menggunakan ekstensi changer untuk </font>
+
+23
+00:00:55,890 --> 00:00:57,629
+ ubah <font color="#CCCCCC">ekstensi dari </font><font color="#E5E5E5">file batch tersebut </font>
+
+24
+00:00:57,629 --> 00:00:59,579
+ <font color="#E5E5E5">dan di sini Anda dapat melihat bahwa saya telah berubah </font>
+
+25
+00:00:59,579 --> 00:01:02,070
+ <font color="#CCCCCC">ekstensi dari file batch </font><font color="#E5E5E5">sekarang </font>
+
+26
+00:01:02,070 --> 00:01:04,799
+ ekstensi <font color="#E5E5E5">adalah hello dot exe sekarang </font>
+
+27
+00:01:04,799 --> 00:01:06,600
+ <font color="#E5E5E5">ekstensi adalah titik exe dan itu </font>
+
+28
+00:01:06,600 --> 00:01:09,030
+ file yang dapat dieksekusi <font color="#E5E5E5">jadi sekarang mari kita lihat bagaimana kita </font>
+
+29
+00:01:09,030 --> 00:01:11,820
+ <font color="#E5E5E5">dapat mengubah ikon serta </font><font color="#CCCCCC">ekstensi </font>
+
+30
+00:01:11,820 --> 00:01:15,330
+ sistem kami <font color="#E5E5E5">sekarang mari coba ubah ikon </font>
+
+31
+00:01:15,330 --> 00:01:17,549
+ <font color="#E5E5E5">serta </font><font color="#CCCCCC">perpanjangan file batch di </font>
+
+32
+00:01:17,549 --> 00:01:19,619
+ <font color="#E5E5E5">untuk membuat </font><font color="#CCCCCC">orang percaya bahwa </font>
+
+33
+00:01:19,619 --> 00:01:21,330
+ file batch yang akan <font color="#CCCCCC">kita </font><font color="#E5E5E5">buat </font>
+
+34
+00:01:21,330 --> 00:01:24,479
+ <font color="#CCCCCC">bukan yang </font><font color="#E5E5E5">jahat dengan baik untuk </font>
+
+35
+00:01:24,479 --> 00:01:26,280
+ <font color="#CCCCCC">ubah ikon dan ekstensi yang kita perlukan </font>
+
+36
+00:01:26,280 --> 00:01:28,229
+ mengunduh <font color="#E5E5E5">beberapa software </font><font color="#CCCCCC">jadi yang pertama </font>
+
+37
+00:01:28,229 --> 00:01:29,970
+ <font color="#E5E5E5">perangkat lunak yang </font><font color="#CCCCCC">harus </font><font color="#E5E5E5">kita unduh </font><font color="#CCCCCC">adalah </font>
+
+38
+00:01:29,970 --> 00:01:32,400
+ disebut sebagai icon changer yang akan kita <font color="#CCCCCC">gunakan </font>
+
+39
+00:01:32,400 --> 00:01:34,350
+ <font color="#E5E5E5">untuk </font><font color="#CCCCCC">mengubah ikon agar Anda </font><font color="#E5E5E5">bisa </font>
+
+40
+00:01:34,350 --> 00:01:35,970
+ <font color="#CCCCCC">unduh perangkat lunak dari sini </font>
+
+41
+00:01:35,970 --> 00:01:38,880
+ <font color="#E5E5E5">tautan ini dan setelah Anda menginstal ini </font>
+
+42
+00:01:38,880 --> 00:01:40,979
+ <font color="#CCCCCC">perangkat lunak </font><font color="#E5E5E5">maka </font><font color="#CCCCCC">perangkat lunak </font><font color="#E5E5E5">berikutnya yang kita </font>
+
+43
+00:01:40,979 --> 00:01:43,290
+ akan mengunduh dan menginstal disebut 
+
+44
+00:01:43,290 --> 00:01:46,680
+ <font color="#CCCCCC">seburuk exe konverter sehingga </font><font color="#E5E5E5">perangkat lunak </font><font color="#CCCCCC">ini </font>
+
+45
+00:01:46,680 --> 00:01:48,780
+ digunakan untuk mengubah <font color="#E5E5E5">ekstensi yang buruk </font>
+
+46
+00:01:48,780 --> 00:01:52,500
+ file <font color="#E5E5E5">yang tidak menjadi </font><font color="#CCCCCC">file t2 dot exe jadi </font>
+
+47
+00:01:52,500 --> 00:01:54,659
+ Anda <font color="#E5E5E5">dapat mengunduh perangkat lunak dari sini </font>
+
+48
+00:01:54,659 --> 00:01:57,659
+ dari <font color="#E5E5E5">link ini </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">f </font><font color="#CCCCCC">F 2k atau dot </font><font color="#E5E5E5">de </font>
+
+49
+00:01:57,659 --> 00:02:00,860
+ <font color="#E5E5E5">jadi saya sudah mengunduh </font><font color="#CCCCCC">dan menginstal </font>
+
+50
+00:02:00,860 --> 00:02:04,920
+ keduanya <font color="#E5E5E5">di </font><font color="#CCCCCC">VirtualBox </font><font color="#E5E5E5">saya jadi biarkan saya </font>
+
+51
+00:02:04,920 --> 00:02:07,020
+ buka <font color="#E5E5E5">VirtualBox saya sehingga Anda bisa lihat di sini </font>
+
+52
+00:02:07,020 --> 00:02:09,869
+ jadi di sini adalah ikon saya changer <font color="#E5E5E5">jadi pertama </font>
+
+53
+00:02:09,869 --> 00:02:14,510
+ semua mari kita buat <font color="#CCCCCC">file batch sampel </font>
+
+54
+00:02:14,840 --> 00:02:18,510
+ dan <font color="#E5E5E5">saya membuat </font><font color="#CCCCCC">file yang </font><font color="#E5E5E5">sangat sederhana </font>
+
+55
+00:02:18,510 --> 00:02:20,730
+ yang <font color="#E5E5E5">hanya akan mencetak pengguna demo </font>
+
+56
+00:02:20,730 --> 00:02:23,520
+ dan <font color="#CCCCCC">biarkan saya menyimpan file ini di desktop saya </font>
+
+57
+00:02:23,520 --> 00:02:28,310
+ <font color="#E5E5E5">biarkan aku mengganti namanya sebagai sampel dot bat dan </font>
+
+58
+00:02:28,310 --> 00:02:30,990
+ Anda akan melihat di sini <font color="#E5E5E5">bahwa di </font><font color="#CCCCCC">sini adalah file </font>
+
+59
+00:02:30,990 --> 00:02:34,290
+ <font color="#E5E5E5">dan jika saya </font><font color="#CCCCCC">membuka file ini di </font><font color="#E5E5E5">sini Anda dapat melihat </font>
+
+60
+00:02:34,290 --> 00:02:37,230
+ bahwa <font color="#E5E5E5">itu mencetak pengguna demo sekarang </font>
+
+61
+00:02:37,230 --> 00:02:38,670
+ mari coba <font color="#E5E5E5">ubah ikon </font><font color="#CCCCCC">itu </font>
+
+62
+00:02:38,670 --> 00:02:41,880
+ <font color="#E5E5E5">file jadi biarkan saya membuka perangkat lunak sehingga </font>
+
+63
+00:02:41,880 --> 00:02:44,010
+ Segera <font color="#E5E5E5">setelah saya mengklik </font><font color="#CCCCCC">perangkat lunak itu </font><font color="#E5E5E5">di sini </font>
+
+64
+00:02:44,010 --> 00:02:46,140
+ Anda akan <font color="#E5E5E5">melihatnya meminta kami untuk file </font>
+
+65
+00:02:46,140 --> 00:02:49,320
+ yang ingin kita <font color="#E5E5E5">ubah atau kita inginkan </font>
+
+66
+00:02:49,320 --> 00:02:51,420
+ ubah ikon <font color="#CCCCCC">file itu agar kami bisa </font>
+
+67
+00:02:51,420 --> 00:02:53,010
+ juga <font color="#E5E5E5">mengubah ikon tertentu </font>
+
+68
+00:02:53,010 --> 00:02:55,170
+ file <font color="#CCCCCC">dan </font><font color="#E5E5E5">bahkan kita dapat mengubah </font><font color="#CCCCCC">ikon </font>
+
+69
+00:02:55,170 --> 00:02:57,810
+ seluruh folder dengan mengklik <font color="#E5E5E5">di sini tetapi </font>
+
+70
+00:02:57,810 --> 00:02:58,680
+ untuk saat ini 
+
+71
+00:02:58,680 --> 00:03:01,830
+ mari klik di sini file <font color="#E5E5E5">klik </font><font color="#CCCCCC">ok </font><font color="#E5E5E5">dan </font><font color="#CCCCCC">mari </font>
+
+72
+00:03:01,830 --> 00:03:04,800
+ buka di <font color="#E5E5E5">sini ke desktop dan mari pilih </font>
+
+73
+00:03:04,800 --> 00:03:09,660
+ file ini jadi setelah kami pilih file 
+
+74
+00:03:09,660 --> 00:03:11,340
+ maka <font color="#E5E5E5">hal </font><font color="#CCCCCC">selanjutnya </font><font color="#E5E5E5">yang harus kita </font><font color="#CCCCCC">lakukan adalah kita </font>
+
+75
+00:03:11,340 --> 00:03:13,350
+ harus <font color="#E5E5E5">memilih ikon sehingga Anda dapat melihat </font>
+
+76
+00:03:13,350 --> 00:03:15,990
+ daftar <font color="#E5E5E5">semua ikon tetapi ini seperti </font>
+
+77
+00:03:15,990 --> 00:03:18,900
+ ikon <font color="#E5E5E5">hadir di </font><font color="#CCCCCC">sistem </font><font color="#E5E5E5">kami </font><font color="#CCCCCC">jadi ini </font>
+
+78
+00:03:18,900 --> 00:03:21,750
+ <font color="#CCCCCC">perangkat lunak telah memindai sistem kami dan menemukan </font>
+
+79
+00:03:21,750 --> 00:03:24,770
+ <font color="#CCCCCC">semua ikon ini jadi jika Anda tidak </font>
+
+80
+00:03:24,770 --> 00:03:28,560
+ <font color="#CCCCCC">dipercayakan untuk </font><font color="#E5E5E5">mengatur ikon semacam ini </font>
+
+81
+00:03:28,560 --> 00:03:30,120
+ maka yang <font color="#E5E5E5">dapat Anda lakukan adalah mengunduh </font>
+
+82
+00:03:30,120 --> 00:03:32,160
+ ikon <font color="#E5E5E5">dari internet juga ada a </font>
+
+83
+00:03:32,160 --> 00:03:34,260
+ banyak <font color="#E5E5E5">situs web gratis </font><font color="#CCCCCC">yang </font><font color="#E5E5E5">menyediakan gratis </font>
+
+84
+00:03:34,260 --> 00:03:36,810
+ ikon <font color="#CCCCCC">tetapi hal yang harus diperhatikan adalah itu </font>
+
+85
+00:03:36,810 --> 00:03:38,550
+ ikon yang <font color="#CCCCCC">akan Anda unduh </font>
+
+86
+00:03:38,550 --> 00:03:40,650
+ internet <font color="#CCCCCC">harus </font><font color="#E5E5E5">memiliki </font><font color="#CCCCCC">ekstensi </font>
+
+87
+00:03:40,650 --> 00:03:43,890
+ <font color="#CCCCCC">dot ICO yang merupakan singkatan dari </font><font color="#E5E5E5">ikon </font><font color="#CCCCCC">dot </font>
+
+88
+00:03:43,890 --> 00:03:46,530
+ perangkat lunak <font color="#CCCCCC">akan memilih </font><font color="#E5E5E5">yang saya bisa </font>
+
+89
+00:03:46,530 --> 00:03:48,570
+ sebaliknya tidak <font color="#E5E5E5">tetapi untuk saat </font><font color="#CCCCCC">ini </font>
+
+90
+00:03:48,570 --> 00:03:52,140
+ mari kita coba mengubah ikon <font color="#E5E5E5">dan </font><font color="#CCCCCC">mari </font>
+
+91
+00:03:52,140 --> 00:03:54,720
+ cobalah untuk membuatnya begitu segera setelah <font color="#E5E5E5">saya mengklik </font>
+
+92
+00:03:54,720 --> 00:03:55,350
+ <font color="#CCCCCC">disini </font>
+
+93
+00:03:55,350 --> 00:03:59,160
+ <font color="#E5E5E5">Anda dapat melihat bahwa ini datang di set jadi jika </font>
+
+94
+00:03:59,160 --> 00:04:02,610
+ Saya klik di sini <font color="#E5E5E5">dan mari kita kembali </font>
+
+95
+00:04:02,610 --> 00:04:05,580
+ dan di sini Anda akan <font color="#CCCCCC">melihat bahwa ikon </font>
+
+96
+00:04:05,580 --> 00:04:07,050
+ file batch kami diubah <font color="#CCCCCC">dan </font><font color="#E5E5E5">mari </font>
+
+97
+00:04:07,050 --> 00:04:09,960
+ <font color="#E5E5E5">periksa </font><font color="#CCCCCC">propertinya Anda bisa lihat di sini </font>
+
+98
+00:04:09,960 --> 00:04:11,880
+ <font color="#CCCCCC">file batch windows </font><font color="#E5E5E5">jadi ini adalah bagaimana kita bisa </font>
+
+99
+00:04:11,880 --> 00:04:14,580
+ <font color="#E5E5E5">ubah ikonnya tapi sekarang mari kita lihat bagaimana kita </font>
+
+100
+00:04:14,580 --> 00:04:16,470
+ dapat <font color="#E5E5E5">mengubah </font><font color="#CCCCCC">ekstensi </font><font color="#E5E5E5">dari batch ini </font>
+
+101
+00:04:16,470 --> 00:04:20,100
+ file jadi biarkan saya mulai <font color="#CCCCCC">saya </font><font color="#E5E5E5">buruk untuk exe </font>
+
+102
+00:04:20,100 --> 00:04:23,340
+ <font color="#CCCCCC">konverter </font><font color="#E5E5E5">jadi di sini Anda dapat melihat bahwa </font>
+
+103
+00:04:23,340 --> 00:04:25,110
+ buruk untuk <font color="#E5E5E5">konverter exe yang saya miliki </font>
+
+104
+00:04:25,110 --> 00:04:26,550
+ diunduh <font color="#E5E5E5">dari </font><font color="#CCCCCC">situs web itu dan </font>
+
+105
+00:04:26,550 --> 00:04:27,120
+ dipasang di 
+
+106
+00:04:27,120 --> 00:04:30,000
+ sistem saya <font color="#E5E5E5">jadi di sini di bagian atas </font><font color="#CCCCCC">saya harus </font>
+
+107
+00:04:30,000 --> 00:04:32,010
+ berikan lokasi <font color="#E5E5E5">file batch atau saya </font>
+
+108
+00:04:32,010 --> 00:04:34,020
+ harus <font color="#E5E5E5">memilih yang </font><font color="#CCCCCC">tertentu </font><font color="#E5E5E5">jadi mari </font>
+
+109
+00:04:34,020 --> 00:04:36,800
+ saya <font color="#E5E5E5">klik di sini klik pada desktop dan </font>
+
+110
+00:04:36,800 --> 00:04:39,540
+ di sini <font color="#E5E5E5">adalah file batch kami klik terbuka </font>
+
+111
+00:04:39,540 --> 00:04:43,470
+ <font color="#E5E5E5">kemudian di bagian bawah </font><font color="#CCCCCC">tepat setelah bets </font>
+
+112
+00:04:43,470 --> 00:04:46,139
+ file Anda akan <font color="#CCCCCC">melihat di sini save as </font><font color="#E5E5E5">jadi di sini </font>
+
+113
+00:04:46,139 --> 00:04:48,540
+ Anda dapat menentukan <font color="#E5E5E5">nama tertentu dan </font>
+
+114
+00:04:48,540 --> 00:04:50,850
+ ekstensi harus berupa <font color="#CCCCCC">titik exe karena </font>
+
+115
+00:04:50,850 --> 00:04:53,820
+ itu adalah <font color="#E5E5E5">konverter titik exe dan di sini Anda </font>
+
+116
+00:04:53,820 --> 00:04:57,180
+ <font color="#E5E5E5">akan melihat banyak opsi </font><font color="#CCCCCC">jadi jika saya klik </font>
+
+117
+00:04:57,180 --> 00:04:58,979
+ di <font color="#E5E5E5">sini yang pertama adalah jarak pandang </font>
+
+118
+00:04:58,979 --> 00:05:00,840
+ <font color="#E5E5E5">apakah Anda ingin membuatnya </font><font color="#CCCCCC">terlihat atau </font>
+
+119
+00:05:00,840 --> 00:05:02,970
+ <font color="#CCCCCC">tidak beberapa sangat ya kami ingin </font><font color="#E5E5E5">membuatnya </font>
+
+120
+00:05:02,970 --> 00:05:05,789
+ terlihat <font color="#E5E5E5">sekarang hal berikutnya yang </font><font color="#CCCCCC">kami inginkan </font>
+
+121
+00:05:05,789 --> 00:05:09,000
+ <font color="#E5E5E5">tambahkan hak akses administratif atau tidak </font>
+
+122
+00:05:09,000 --> 00:05:10,770
+ seperti yang <font color="#CCCCCC">saya </font><font color="#E5E5E5">katakan sebelumnya di sebelumnya </font>
+
+123
+00:05:10,770 --> 00:05:13,110
+ <font color="#E5E5E5">video </font><font color="#CCCCCC">yang ada </font><font color="#E5E5E5">beberapa file batch </font>
+
+124
+00:05:13,110 --> 00:05:15,570
+ yang membutuhkan <font color="#E5E5E5">hak akses administratif </font>
+
+125
+00:05:15,570 --> 00:05:19,110
+ <font color="#CCCCCC">untuk menjalankan jadi apa yang terjadi adalah jika saya membuka ini </font>
+
+126
+00:05:19,110 --> 00:05:21,660
+ file batch Anda bisa lihat di sini tidak 
+
+127
+00:05:21,660 --> 00:05:24,600
+ meminta <font color="#E5E5E5">hak istimewa administratif tetapi jika </font>
+
+128
+00:05:24,600 --> 00:05:26,940
+ Saya memilih opsi ini <font color="#E5E5E5">lalu apa yang terjadi </font>
+
+129
+00:05:26,940 --> 00:05:28,860
+ setelah <font color="#CCCCCC">file diubah menjadi dot exe </font>
+
+130
+00:05:28,860 --> 00:05:32,010
+ file dan ketika saya membuka file dot exe <font color="#E5E5E5">tersebut </font>
+
+131
+00:05:32,010 --> 00:05:34,320
+ Hal pertama yang meminta <font color="#E5E5E5">kita untuk memberi </font>
+
+132
+00:05:34,320 --> 00:05:36,030
+ <font color="#E5E5E5">hak istimewa administratif jadi jika Anda </font>
+
+133
+00:05:36,030 --> 00:05:38,460
+ ingin <font color="#E5E5E5">memberikan hak identitas ke </font>
+
+134
+00:05:38,460 --> 00:05:39,690
+ file <font color="#E5E5E5">maka Anda dapat </font><font color="#CCCCCC">memilih </font><font color="#E5E5E5">opsi </font><font color="#CCCCCC">ini </font>
+
+135
+00:05:39,690 --> 00:05:41,700
+ <font color="#E5E5E5">jika tidak, Anda </font><font color="#CCCCCC">hanya </font><font color="#E5E5E5">bisa </font><font color="#CCCCCC">cukup hapus centang </font>
+
+136
+00:05:41,700 --> 00:05:44,460
+ <font color="#E5E5E5">dan ada satu lagi fitur </font><font color="#CCCCCC">ini </font>
+
+137
+00:05:44,460 --> 00:05:46,440
+ alat yang <font color="#E5E5E5">bahkan kita dapat mengenkripsi program </font>
+
+138
+00:05:46,440 --> 00:05:48,960
+ dengan menentukan kata sandi tertentu tetapi 
+
+139
+00:05:48,960 --> 00:05:51,960
+ kami tidak tertarik <font color="#E5E5E5">dan yang utama </font>
+
+140
+00:05:51,960 --> 00:05:54,360
+ <font color="#E5E5E5">menjadi </font><font color="#CCCCCC">pemberitahuan adalah bahwa </font><font color="#E5E5E5">kita harus memilih </font>
+
+141
+00:05:54,360 --> 00:05:56,940
+ <font color="#CCCCCC">arsitektur tertentu di mana kita </font><font color="#E5E5E5">berada </font>
+
+142
+00:05:56,940 --> 00:06:01,620
+ mengkonversi file exe <font color="#E5E5E5">jadi apakah Anda </font>
+
+143
+00:06:01,620 --> 00:06:04,080
+ sistem target adalah 64-bit <font color="#E5E5E5">maka Anda harus </font>
+
+144
+00:06:04,080 --> 00:06:05,430
+ <font color="#CCCCCC">pilih yang ini </font><font color="#E5E5E5">dan jika target Anda </font>
+
+145
+00:06:05,430 --> 00:06:07,410
+ <font color="#E5E5E5">sistem 32-bit maka Anda harus memilih </font>
+
+146
+00:06:07,410 --> 00:06:09,530
+ <font color="#E5E5E5">yang satu ini jadi izinkan saya pilih di sini dan </font>
+
+147
+00:06:09,530 --> 00:06:12,060
+ hal lain yang <font color="#CCCCCC">dapat Anda lakukan adalah Anda </font>
+
+148
+00:06:12,060 --> 00:06:13,620
+ <font color="#E5E5E5">bahkan dapat menentukan informasi versi </font>
+
+149
+00:06:13,620 --> 00:06:15,870
+ <font color="#CCCCCC">jadi jika Anda </font><font color="#E5E5E5">klik di sini termasuk versi </font>
+
+150
+00:06:15,870 --> 00:06:18,360
+ informasi <font color="#E5E5E5">maka itu hanya menambahkan palsu </font>
+
+151
+00:06:18,360 --> 00:06:20,760
+ informasi versi acak <font color="#CCCCCC">di exe kami </font>
+
+152
+00:06:20,760 --> 00:06:23,250
+ file <font color="#E5E5E5">sehingga </font><font color="#CCCCCC">orang-orang tidak bisa menjadi tokoh </font>
+
+153
+00:06:23,250 --> 00:06:25,169
+ <font color="#CCCCCC">bahwa</font><font color="#E5E5E5"> itu adalah salah satu berbahaya sehingga mereka </font>
+
+154
+00:06:25,169 --> 00:06:29,729
+ akan percaya sekarang <font color="#CCCCCC">mari kita </font><font color="#E5E5E5">kembali </font><font color="#CCCCCC">ke </font><font color="#E5E5E5">sini </font>
+
+155
+00:06:29,729 --> 00:06:33,169
+ <font color="#CCCCCC">pilihan dan mari klik </font><font color="#E5E5E5">pada kompilasi dan </font>
+
+156
+00:06:33,169 --> 00:06:36,659
+ Anda akan melihat di sini <font color="#CCCCCC">bahwa file file Exe </font>
+
+157
+00:06:36,659 --> 00:06:39,000
+ <font color="#CCCCCC">bernama sebagai sampel dibuat dan jika saya </font>
+
+158
+00:06:39,000 --> 00:06:39,660
+ memeriksa 
+
+159
+00:06:39,660 --> 00:06:41,070
+ properti yang bisa Anda <font color="#E5E5E5">lihat di sini </font><font color="#CCCCCC">ini </font>
+
+160
+00:06:41,070 --> 00:06:43,620
+ <font color="#CCCCCC">aplikasi di titik exe </font><font color="#E5E5E5">tetapi untuk </font>
+
+161
+00:06:43,620 --> 00:06:45,810
+ pastikan itu <font color="#CCCCCC">berhasil </font><font color="#E5E5E5">atau tidak </font>
+
+162
+00:06:45,810 --> 00:06:48,390
+ <font color="#E5E5E5">mari kita klik dua kali pada file ini dan Anda </font>
+
+163
+00:06:48,390 --> 00:06:50,520
+ akan melihat bahwa file <font color="#CCCCCC">ini masih berfungsi </font>
+
+164
+00:06:50,520 --> 00:06:53,730
+ dan <font color="#CCCCCC">pengguna demo pencetakan Held dalam hal ini </font>
+
+165
+00:06:53,730 --> 00:06:55,680
+ video yang <font color="#CCCCCC">telah kita bahas itu bagaimana kita </font><font color="#E5E5E5">bisa </font>
+
+166
+00:06:55,680 --> 00:06:58,170
+ ubah ikon <font color="#E5E5E5">serta ekstensi </font>
+
+167
+00:06:58,170 --> 00:07:00,150
+ <font color="#E5E5E5">file batch </font><font color="#CCCCCC">untuk membuat orang </font>
+
+168
+00:07:00,150 --> 00:07:02,070
+ percaya bahwa mereka <font color="#E5E5E5">mengklik </font>
+
+169
+00:07:02,070 --> 00:07:04,680
+ <font color="#E5E5E5">file asli jadi terima kasih sudah menonton </font><font color="#CCCCCC">ini </font>
+
+170
+00:07:04,680 --> 00:00:00,000
+ video 
+
